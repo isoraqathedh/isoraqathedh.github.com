@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="../global/Default.css" media="all">
+<link rel="stylesheet" href="fantroll.css" media="all">
+<script src="fantroll.js"></script>
+<script src="general.js"></script>
+<title>Fantroll LNIIS:HS Generator</title>
+</head>
+<body>
+<h1 id="Title">
+	Fantroll
+	<abbr title="Loose Letter-Number Interlaced Identification System in the Homestuck Context">
+		LLNIIS:HS</abbr>
+	Generator
+</h1>
+<div id="version">
+	Version
+	<div id="versionnumber"    >β.0.15</div>
+	<div id="versionnumberjs"  >β.2.00</div>
+	<div id="versionnumbercss" >δ.3.05</div>
+	<div id="versionnumberhtml">γ.13.00</div>
+</div>
+<p>
+	This is a generator of the Loose Letter-Number Interlaced Identification System
+	(<abbr title="also known as">a.k.a.</abbr> LNIIS) of fantrolls in the Homestuck context.
+	It is far more restricted than the one used in the Homestuck Fantrolls context,
+	and as such will require more space. For more information on the LNIIS please see
+	<a href="http://pasaruconworld.wikia.com/wiki/LNIIS">this Wiki article</a>.
+</p>
+<h1>The generator</h1>
+<form action="javascript:make()">
+<p>
+	Is your fantroll a bloodswap and/or a genderswap of a canon troll?
+	<input type="radio" id="swapy" name="swap"/><label for="swapy">Yes</label>
+	<input type="radio" id="swapn" name="swap"/><label for="swapn">No </label>
+</p>
+<p>
+	If you have selected "yes", please fill in all fields. If you have selected "no", only the 
+	fields marked <span class="regular">like this</span> must be filled in. (For the names, if your
+	troll doesn't have a middle name you are allowed to leave it blank.)
+</p>
+<fieldset>
+	<legend>About Your Troll</legend>
+	<div id="canondef">
+		<p>
+			If you wish, instead of filling in all the data yourself, you can also pick a
+			canon troll to begin with:
+		</p>
+		<div id="buttonset">
+			<button type="button" id="canonblooda" data-order="1"> Aradia</button>
+			<button type="button" id="canonbloodb" data-order="2"> Tavros</button>
+			<button type="button" id="canonbloodc" data-order="3"> Sollux</button>
+			<button type="button" id="canonbloodn" data-order="4"> Karkat</button>
+			<button type="button" id="canonbloode" data-order="5"> Nepeta</button>
+			<button type="button" id="canonbloodf" data-order="6"> Kanaya</button>
+			<button type="button" id="canonbloodg" data-order="7"> Terezi</button>
+			<button type="button" id="canonbloodh" data-order="8"> Vriska</button>
+			<button type="button" id="canonbloodi" data-order="9"> Equius</button>
+			<button type="button" id="canonbloodj" data-order="10">Gamzee</button>
+			<button type="button" id="canonbloodk" data-order="11">Eridan</button>
+			<button type="button" id="canonbloodl" data-order="12">Feferi</button>
+		</div>
+	</div>
+	<p><label for="fname" class="regular">First Name </label> <input type="text" id="fname"/></p>
+	<p><label for="mname" class="regular">Middle Name</label> <input type="text" id="mname"/></p>
+	<p><label for="lname" class="regular">Last Name  </label> <input type="text" id="lname"/></p>
+	<p><label for="blood" class="regular">Blood color</label>
+		<select id="blood">
+			<optgroup label="In-Hæmospectrum Options">
+				<option id="blooda" value="a">Aradia Red</option>
+				<option id="bloodb" value="b">Tavros Orange</option>
+				<option id="bloodc" value="c">Sollux Yellow</option>
+				<option id="bloode" value="e">Nepeta Green</option>
+				<option id="bloodf" value="f">Kanaya Jade</option>
+				<option id="bloodg" value="g">Terezi Teal</option>
+				<option id="bloodh" value="h">Vriska Blue</option>
+				<option id="bloodi" value="i">Equius Blue</option>
+				<option id="bloodj" value="j">Gamzee Purple</option>
+				<option id="bloodk" value="k">Eridan Purple</option>
+				<option id="bloodl" value="l">Feferi Magenta</option>
+			</optgroup>    
+			<optgroup label="Out-of-Hæmospectrum Options">
+				<option id="bloodo" value="o">Black</option>
+				<option id="bloodp" value="p">White</option>
+			</optgroup>
+			<optgroup label="Special Options">
+				<option id="bloodn" value="m">Anonymous/Irrelevant/Bloodless</option>
+				<option id="bloodm" value="n">Any other visible color outside of the above</option>
+				<option id="bloodq" value="q">
+					All other colors, including those not in the visible spectrum
+				</option>
+			</optgroup>
+		</select>
+	</p>
+	<p><label>(New) Blood color</label>
+		<select id="newblood">
+			<optgroup label="In-Hæmospectrum">
+				<option id="nblooda" value="A">Aradia Red</option>
+				<option id="nbloodb" value="B">Tavros Orange</option>
+				<option id="nbloodc" value="C">Sollux Yellow</option>
+				<option id="nbloode" value="E">Nepeta Green</option>
+				<option id="nbloodf" value="F">Kanaya Jade</option>
+				<option id="nbloodg" value="G">Terezi Teal</option>
+				<option id="nbloodh" value="H">Vriska Blue</option>
+				<option id="nbloodi" value="I">Equius Blue</option>
+				<option id="nbloodj" value="J">Gamzee Purple</option>
+				<option id="nbloodk" value="K">Eridan Purple</option>
+				<option id="nbloodl" value="L">Feferi Magenta</option>
+			</optgroup>
+			<optgroup label="Out-of-Hæmospectrum">
+				<option id="nbloodo" value="O">Black</option>
+				<option id="nbloodp" value="P">White</option>
+			</optgroup>
+			<optgroup label="Special">
+				<option id="nbloodn" value="N">Anonymous/Irrelevant/Bloodless</option>
+				<option id="nbloodm" value="M">Any other visible color outside of the above</option>
+				<option id="nbloodq" value="Q">
+					All other colors, including those not in the visible spectrum
+				</option>
+			</optgroup>
+		</select>
+	</p>
+	<p>
+		<label
+			title="Can your troll be put into canon without major changes to it?"
+			class="info l regular">
+			Canon compatibilty
+		</label> 
+		<input type="radio" id="canony" name="canon"/><label for="canony">Yes</label>
+		<input type="radio" id="canonn" name="canon"/><label for="canonn">No</label>
+	</p>
+	<p><label>Sex</label>
+		<input type="radio" id="spsexm" name="spsex"/><label for="spsexm">  Male</label>
+		<input type="radio" id="spsexf" name="spsex"/><label for="spsexf">Female</label>
+	</p>
+	<p><label>(New) Sex</label>
+		<input type="radio" id="ssexm" name="ssex"/><label for="ssexm">  Male</label>
+		<input type="radio" id="ssexf" name="ssex"/><label for="ssexf">Female</label>
+	</p>
+	<p><label>Opinion on Hæmo&shy;spec&shy;trum</label>
+		<select>
+			<option id="opiniond5blooda" value="-5">(−5) vehement opposition</option>
+			<option id="opiniond4bloodb" value="-4">(−4) absolute detest    </option>
+			<option id="opiniond3bloodc" value="-3">(−3) strong dislike     </option>
+			<option id="opiniond2bloode" value="-2">(−2) grudging acceptance</option>
+			<option id="opiniond1bloodf" value="-1">(−1) mild distaste      </option>
+			<option id="opinionn0bloodg" value="0" >( 0) indifference       </option>
+			<option id="opinionl1bloodh" value="1" >(+1) quiet approval     </option>
+			<option id="opinionl2bloodi" value="2" >(+2) grateful acceptance</option>
+			<option id="opinionl3bloodj" value="3" >(+3) high regards       </option>
+			<option id="opinionl4bloodk" value="4" >(+4) genuine worship    </option>
+			<option id="opinionl5bloodl" value="5" >(+5) blind follower     </option>
+		</select>
+	</p>
+	<p><label>Quadrants filled</label>
+		<input type="checkbox" id="rels"/><label for="rels">Flushed</label>
+		<input type="checkbox" id="relh"/><label for="relh">Caligionous</label>
+		<input type="checkbox" id="relc"/><label for="relc">Ashen</label>
+		<input type="checkbox" id="reld"/><label for="reld">Pale</label>
+	</p>
+	<p><label>Plays Sgrub</label>
+		<input type="radio" id="sgruby" name="sgrub"/><label for="sgruby">Yes</label>
+		<input type="radio" id="sgrubn" name="sgrub"/><label for="sgrubn"> No</label>
+	</p>
+</fieldset>
+<fieldset>
+	<legend>About your troll's companions</legend>
+	<p id="optionalline">This section is optional.</p>
+	<p>
+			The troll before you in the daisy chain of players in Sgrub is a<br/>
+			<input type="radio" id="c1sexm" name="c1sex"/><label for="c1sexm">  Male</label>
+			<input type="radio" id="c1sexf" name="c1sex"/><label for="c1sexf">Female</label>
+			<select id="c1blood">
+				<optgroup label="In-Hæmospectrum">
+					<option id="c1blooda" value="1">Aradia Red</option>
+					<option id="c1bloodb" value="2">Tavros Orange</option>
+					<option id="c1bloodc" value="3">Sollux Yellow</option>
+					<option id="c1bloode" value="5">Nepeta Green</option>
+					<option id="c1bloodf" value="6">Kanaya Jade</option>
+					<option id="c1bloodg" value="7">Terezi Teal</option>
+					<option id="c1bloodh" value="8">Vriska Blue</option>
+					<option id="c1bloodi" value="9">Equius Blue</option>
+					<option id="c1bloodj" value="10">Gamzee Purple</option>
+					<option id="c1bloodk" value="11">Eridan Purple</option>
+					<option id="c1bloodl" value="12">Feferi Magenta</option>
+				</optgroup>
+				<optgroup label="Out-of-Hæmospectrum">
+					<option id="c1bloodo" value="15">Black</option>
+					<option id="c1bloodp" value="16">White</option>
+				</optgroup>
+				<optgroup label="Special">
+					<option id="c1bloodn" value="14">Anonymous</option>
+					<option id="c1bloodm" value="13">Oddly</option>
+					<option id="c1bloodq" value="17">Invisible-color</option>
+				</optgroup>
+			</select>
+			<input type="text" id="c1fname" placeholder="First Name"/>
+			<input type="text" id="c1mname" placeholder="Middle Name"/>
+			<input type="text" id="c1lname" placeholder="Last Name"/>
+		</p>
+		<p>
+			The troll after you in the daisy chain of players in Sgrub is a<br/>
+			<input type="radio" id="c2sexm" name="c2sex"/><label for="c2sexm">  Male</label>
+			<input type="radio" id="c2sexf" name="c2sex"/><label for="c2sexf">Female</label>
+			<select id="c2blood">
+				<optgroup label="In-Hæmospectrum">
+					<option id="c2blooda" value="1">Aradia Red</option>
+					<option id="c2bloodb" value="2">Tavros Orange</option>
+					<option id="c2bloodc" value="3">Sollux Yellow</option>
+					<option id="c2bloode" value="5">Nepeta Green</option>
+					<option id="c2bloodf" value="6">Kanaya Jade</option>
+					<option id="c2bloodg" value="7">Terezi Teal</option>
+					<option id="c2bloodh" value="8">Vriska Blue</option>
+					<option id="c2bloodi" value="9">Equius Blue</option>
+					<option id="c2bloodj" value="10">Gamzee Purple</option>
+					<option id="c2bloodk" value="11">Eridan Purple</option>
+					<option id="c2bloodl" value="12">Feferi Magenta</option>
+				</optgroup>
+				<optgroup label="Out-of-Hæmospectrum">
+					<option id="c2bloodo" value="15">Black</option>
+					<option id="c2bloodp" value="16">White</option>
+				</optgroup>
+				<optgroup label="Special">
+					<option id="c2bloodn" value="14">Anonymous</option>
+					<option id="c2bloodm" value="13">Oddly</option>
+					<option id="c2bloodq" value="17">Invisible-color</option>
+				</optgroup>
+			</select>
+			<input type="text" id="c2fname" placeholder="First Name"/>
+			<input type="text" id="c2mname" placeholder="Middle Name"/>
+			<input type="text" id="c2lname" placeholder="Last Name"/>
+		</p>
+		<p>Fill in the details of two friends of your troll if your troll does not play Sgrub.</p>
+</fieldset>
+<fieldset>
+	<legend>About your troll's horns</legend>
+	<p><label class="regular" for="junctions">Junctions</label>
+	      <input type="number" id="junctions" value="0"/></p>
+	<p><label class="regular" for="xspikesxx">Spike</label>
+	      <input type="number" id="xspikesxx" value="0"/></p>
+	<p><label class="regular" for="xxblobsxx">Blobs</label>
+	      <input type="number" id="xxblobsxx" value="0"/></p>
+	<p><label class="regular" for="xxbendsxx">Bends</label>
+	      <input type="number" id="xxbendsxx" value="0"/></p>
+	<p><label class="regular" for="xxsnapsxx">Snaps</label>
+	      <input type="number" id="xxsnapsxx" value="0"/></p>
+	<p><label class="regular" for="xcurvesxx">Curves</label>
+	      <input type="number" id="xcurvesxx" value="0"/></p>
+	<p><label class="regular" for="size">Horn Size</label>
+		<select id="size">
+			<option id="size0" value="0">0: The horns are  0 ~  1% the size of the head.</option>
+			<option id="size1" value="1">1: The horns are  1 ~  3% the size of the head.</option>
+			<option id="size2" value="2">2: The horns are  3 ~  5% the size of the head.</option>
+			<option id="size3" value="3">3: The horns are  5 ~  7% the size of the head.</option>
+			<option id="size4" value="4">4: The horns are  7 ~ 10% the size of the head.</option>
+			<option id="size5" value="5">5: The horns are 10 ~ 25% the size of the head.</option>
+			<option id="size6" value="6">6: The horns are 25 ~ 50% the size of the head.</option>
+			<option id="size7" value="7">7: The horns are 50 ~ 80% the size of the head.</option>
+			<option id="size8" value="8">8: The horns are 80 ~ 100% the size of the head.</option>
+			<option id="size9" value="9">9: The horns are bigger than the head.</option>
+		</select>
+	</p>
+</fieldset>
+
+<!--
+<p>
+	Your troll is currently
+	<select>
+		<option id="statea" value="0">being hunted down</option>
+		<option id="stateb" value="1">in the danger zone</option>
+		<option id="statec" value="2">relatively safe but poor</option>
+		<option id="stated" value="3">safe and free of troubles</option>
+		<option id="statee" value="4">lording a small but nevertheless alright locale</option>
+		<option id="statef" value="5">quite well-off and lives in a decent mansion</option>
+		<option id="stateg" value="6">rich and powerful, but needs to obey supreriors</option>
+		<option id="stateh" value="7">near the upper echelons of society</option>
+		<option id="statei" value="8">expanding the empire's scope like kleptomaniacs</option>
+		<option id="statej" value="9">the Empress herself</option>
+	</select>
+</p>
+-->
+<input type="submit"/>
+<input type="reset"/>
+
+<div id="results">
+	<p>
+		Your fantroll's code is:
+		<progress max="20" min="0" value="0" id="progressbar"></progress>
+		<span id="output">T&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	</p>
+	<p id="error"></p>
+</div>
+</form>
+<h2>Definitions</h2>
+<h3>Horn features</h3>
+<dl>
+	<dt>Junctions</dt>
+	<dd>Places where three horn segments meet. They add 1 point.</dd>
+	<dt>Spikes</dt>
+	<dd>
+		Pointy bits on the horn's end. They add 0 points for the first two and 1 point for
+		each pair thereafter. No points are added if there is one left over.
+	</dd>
+	<dt>Blobs</dt>
+	<dd>Large thicker bits of the horn. They add 2 points.</dd>
+	<dt>Bends</dt>
+	<dd>Where the horns change direction suddenly. They add 2 points.</li>
+	<dt>Snaps</dt>
+	<dd>Parts where the horn has broken off. They add 3 points.</dd>
+	<dt>Curves</dt>
+	<dd>Parts where the horn noticeably bends. They add 3 points for a pair; If there is one left
+		over after pairing, add 1 point.
+	</dd>
+</dl>
+<table id="hornworth">
+	<thead><tr>
+		<th>Quantity</th>
+		<th>Junctions</th>
+		<th>Spikes</th>
+		<th>Blobs</th>
+		<th>Bends</th>
+		<th>Snaps</th>
+		<th>Curves</th>
+	</tr></thead>
+	<tbody>
+		<tr><th> 0</th><td> 0</td><td>0</td><td> 0</td><td> 0</td><td> 0</td><td> 0</td></tr>
+		<tr><th> 1</th><td> 1</td><td>0</td><td> 2</td><td> 2</td><td> 3</td><td> 1</td></tr>
+		<tr><th> 2</th><td> 2</td><td>0</td><td> 4</td><td> 4</td><td> 6</td><td> 3</td></tr>
+		<tr><th> 3</th><td> 3</td><td>0</td><td> 6</td><td> 6</td><td> 9</td><td> 4</td></tr>
+		<tr><th> 4</th><td> 4</td><td>1</td><td> 8</td><td> 8</td><td>12</td><td> 6</td></tr>
+		<tr><th> 5</th><td> 5</td><td>1</td><td>10</td><td>10</td><td>15</td><td> 7</td></tr>
+		<tr><th> 6</th><td> 6</td><td>2</td><td>12</td><td>12</td><td>18</td><td> 9</td></tr>
+		<tr><th> 7</th><td> 7</td><td>2</td><td>14</td><td>14</td><td>21</td><td>10</td></tr>
+		<tr><th> 8</th><td> 8</td><td>3</td><td>16</td><td>16</td><td>24</td><td>12</td></tr>
+		<tr><th> 9</th><td> 9</td><td>3</td><td>18</td><td>18</td><td>27</td><td>13</td></tr>
+		<tr><th>10</th><td>10</td><td>4</td><td>20</td><td>20</td><td>30</td><td>15</td></tr>
+	</tbody>
+</table>
+<h3>Tables</h3>
+
+<table id="relationships">
+	<caption>Relationship Values</caption>
+	<thead><tr><th>Relationship</th><th>Value</th></tr></thead>
+	<tbody>
+		<tr><td>♠</td><td>8</td></tr>
+		<tr><td>♥</td><td>4</td></tr>
+		<tr><td>♣</td><td>2</td></tr>
+		<tr><td>♦</td><td>1</td></tr>
+	</tbody>
+</table>
+<table class="nostripes" id="sexdeterminer">
+	<caption>Sex</caption>
+	<thead><tr><th>T\F</th><th>M</th><th>F</th></tr></thead>
+	<tbody>
+		<tr><th>M</th><td>4</td><td>3</td></tr>
+		<tr><th>F</th><td>1</td><td>2</td></tr>
+	</table>
+</table>
+<br class="push"/>
+<h2>Working</h2>
+<p>
+	Below how the hash is developed.
+</p>
+<table id="valuate">
+	<caption>Giving each position a value</caption>
+	<thead><tr><th>Letter</th><th>Encoded</th><th>Weight</th><th>Product</th></tr></thead>
+	<tbody id="thumber"></tbody>
+</table>
+<table id="sumup">
+	<caption>Combining the numbers</caption>
+	<thead><tr><th>Item</th><th>Value</th><th>Sum of digits</th>
+	<tfoot><tr><th>Total</th>  <td id="sum6" colspan="2"></td></tr></tfoot>
+	<tbody>
+		<tr><th>Sum for First name</th> <td id="sum1">0</td><td id="digitalroot1">0</td></tr>
+		<tr><th>Sum for Middle name</th><td id="sum2">0</td><td id="digitalroot2">0</td></tr>
+		<tr><th>Sum for Last name</th>  <td id="sum3">0</td><td id="digitalroot3">0</td></tr>
+		<tr><th>Blood</th>              <td id="sum4">0</td><td id="digitalroot4">0</td></tr>
+		<tr><th>Numbers</th>            <td id="sum5">0</td><td id="digitalroot5">0</td></tr>
+	</tbody>
+</table>
+<br class="push"/>
+<script>init();</script>
+</body>
+</html>

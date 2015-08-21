@@ -1,0 +1,537 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet"  href="../global/Default.css"  media="all"/>
+<script src="../global/general.js"></script>
+<title>≟</title>
+</head>
+<body>
+<h1 id="Title">≟</h1>
+<p>
+	Nowadays it is very fashionable to style yourself as being "for equality".
+	It seems like it is hard to walk three metres without meeting someone saying that.
+	The interesting thing is that pointing that out and wondering if there is something more to it
+	has actually gotten me into some hot water.
+	Because of this, I will now use this webpage to explain the entirety of my thought process,
+	so as to allay any concerns that I am "trolling" or somesuch.
+</p>
+<h1>Motivation</h1>
+<p>
+	As you may probably know, I like Common Lisp a lot.
+	One of the more baffling things about Lisp is how it has
+	<a href="http://www.lispworks.com/documentation/lw51/CLHS/Body/f_eq.htm">
+		a <em>lot</em> of ways to test if two things are "the same",
+	</a>
+	and although most of the time using <code>#'eql</code> and <code>#'=</code> will do fine,
+	even those alternatives aren't enough in even the simplest programs at times;
+	if you write your own data structure,
+	you'd need to also write your own method to tell if two things are "equal".
+	This brings us to the topic at hand today:
+	"Equal" is simply not well-defined, but way too many people think it is.
+	Now that there are a bewildering amount of movements
+	that purport to "get equality" for some group or another,
+	it would pay well to examine what equality <em>exactly</em> they are gunning for.
+</p>
+<p>
+	This is unsurprisingly not without issue;
+	most people's reaction when I come asking questions with regards to this sort of thing
+	react with dismissal, confusion or outright hostility;
+	I have been told that you should not – <em>must not</em> – think about this too hard
+	if I were to value societal credence and status.
+	This is such a surprising reaction:
+	one would think that something as globally important to one's worldview as "equality"
+	would merit greater scrutiny and have a much more robust case for it
+	than something like a movie or a book,
+	but it seems like certain examples of the latter can have arguments for or against it
+	being promoted much more vigourously than that of campaigning for equality,
+	whose support generally falls into the "if you don't follow us you are evil"
+	type of religious argumentation.
+	This is all very important motivation for the below proposals of what equality is,
+	and what people want out of it.
+</p>
+<h1>Initial Proposals</h1>
+<p>
+	There are a truly bewildering amount of ways you can define when two things are equal,
+	and it would not be possible to list them all,
+	simply because any two-bit actor can go ahead and create a new one,
+	as alluded to above.
+	Nevertheless, let's look at some proposals of equality
+	that don't particularly apply themselves to humans first,
+	so we have an idea of what's going on.
+</p>
+<h2>Triviality</h2>
+<p>
+	This definition is not so much a definition as an excuse,
+	but believe it or not it's surprisingly prevalent
+	(though thankfully, not very!)
+</p>
+<blockquote>
+	<i>(Equality by Vacuous Truth.)</i>
+	Two things are equal if <strong>one or both things don't exist</strong>.
+	By the principle of <a href="http://en.wikipedia.org/wiki/Vacuous_truth">vacuous truth</a>,
+	any comparison between those two things would be true,
+	because the other one does not exist.
+</blockquote>
+<p>
+	This is often expressed as a desire
+	to commit genocide or obliteration of one group of humans or another,
+	such that one of the groups would have population 0.
+	Generally speaking, this isn't quoted directly as a means to create equality
+	solely because of the highly technical definition of "truth" in this case,
+	but nevertheless it is still very interesting
+	to see <em>certain</em> movements for "equality"
+	be pushing for such a genocide,
+	even if it isn't pushing this definition explicitly or implicitly.
+</p>
+<h2>Identity</h2>
+<p>
+	This is the very strict but also very generic version of equality.
+</p>
+<blockquote>
+	<i>(Spacetime Identity.)</i>
+	Two things are equal if <strong>they occupy the same space and time</strong>.
+</blockquote>
+<p>
+	There's still a bit of ambiguity in what constitutes a "thing",
+	but in general this is still very strict,
+	as even the same person who moved five metres to the left 
+	would no longer be considered to be "equal" to himself,
+	which is patently nonsense to most "ordinary" people.
+	As such, there is an alternative, less strict but still just as generic, method:
+</p>
+<blockquote>
+	<i>(Arrangement identity.)</i>
+	Two things are equal if
+	<strong>
+		they are the same collection of atoms, independent of position in space and time.
+	</strong>
+</blockquote>
+<p>
+	Which obviously suffers from the Ship of Theseus problem, among other things.
+	Applying just a bit of intuition (magic) to it
+	would show you that this is also a very strict version of equality
+	that would not allow for two <em>different</em> humans to be equal –
+	by definition, as the two would have different collections of atoms.
+</p>
+<p>
+	These definitions of equality are used,
+	but not in the context of society,
+	although arrangement identity is indeed used by real-life people
+	to distinguish one person from another.
+	Clearly, these definitions are not going to get us anywhere near
+	seeing what people mean by "equality",
+	even though they are at times very useful,
+	for instance, in physical systems.
+	Let's make some abstractions.
+</p>
+<h1>Opportunities and Outcomes</h1>
+<p>
+	Now that we have seen some toy models of equality,
+	let's see some methods that are genuinely used in methods of pushing equality
+	that <em>doesn't</em> call for killing everyone on one team.
+	We will, however, save the best for last.
+</p>
+<h2>Statistics</h2>
+<blockquote>
+	<i>(Equality in Statistics.)</i>
+	Two <strong>groups</strong> of humans are equal
+	if they <strong>have the same statistics</strong> –
+	any quantification between these two groups would yield an equal number,
+	as compared via the standard definition of "=" on numbers.
+</blockquote>
+<p>
+	This is demonstrated by how people nowadays 
+	always talk about how there should be 1:1:1:…:1 proportions of everything:
+	50% men and 50% women in everything from apiarists to zoologists.
+	Sometimes this isn't even scaled to population:
+	if a group exists, it gets one equal "slice" of things,
+	regardless of how many actually belong in the group.
+</p>
+<p>
+	To prove this is true is nice and simple.
+	Just get a report or a census,
+	and check if every number is equal and sums to 1.
+	It is also defensible enough that no one wants to question it,
+	for the simple fact that the number 1 is the simplest number
+	and therefore passes Occam's Razor.
+	However, it is still at least someone contentious,
+	due to two simple principles:
+	that one can create groups arbitrarily and get extra rights, and
+	that one constantly flip-flops as to the position of to normalise or not to normalise by capita.
+</p>
+<p>
+	Or, indeed, that some groups are simply illegitimate –
+	but the jury's out as to <em>which</em> one(s).
+</p>
+<p>Related to this is the idea of foreign ignorance:</p>
+<blockquote>
+	<i>(Equality by Foreign Ignorance)</i>
+	Take a list of everything that both groups have done and ask an alien
+	or otherwise ignorant third party to sort them.
+	If <strong>the alien cannot sort them any better than random chance would</strong>,
+	then the two groups are equal.
+</blockquote>
+<p>
+	Now, to be fair, I have <em>never</em> seen this definition posed that way, 
+	but I believe that this is a type of equality that many people tend to push.
+	The idea here is that the alien is <em>you</em> –
+	<em>you</em> are supposed to not be able to do the sorting.
+	A common way of saying this is, to quote some other guy that I have talked to,
+	<q>don't let your assumptions colour how you react to others</q>.
+	This is a very nice platitude,
+	but unfortunately it is very hard for me to parse.
+	We'll get to this later.
+</p>
+<h2>Opportunities</h2>
+<blockquote>
+	<i>(Equality by Drop-in Replacement)</i>
+	Two groups of humans are equal if an individual in group A,
+	in an otherwise identical universe, is replaced with a member in group B,
+	and if after the individuals die <strong>the two universes remain identical</strong>,
+	then the group members are equal.
+</blockquote>
+<p>
+	Originally the "identical" part is to emphasise
+	that the two universes should give both members equal amounts of flack,
+	but to be fair this is hard to do,
+	to say nothing about cloning the universe.
+</p>
+<p>
+	The thrust of this definition is the oft-hailed "equality of opportunity" –
+	if society offers everyone equal opportunity,
+	then clearly any disparities in the outcome is due to personal issues only,
+	and therefore can be explained away.
+	While appealing at first, the main problem with using this definition directly
+	is that it is simply hard to tell <em>which</em> differences are personal and which aren't –
+	there's usually some caveat with this that accounts for, e.g. sexual dimorphism or similar,
+	but a full list of such things remain elusive.
+	There simply isn't enough time in the world
+	to figure out which differences you can safely ignore.
+<p>
+	The idea of ignorable differences also ties into the idea of foreign ignorance,
+	as we will see in a postscript to this article.
+</p>
+<h1>A Dance of Karma and Utility</h1>
+<p>At last, we come to what I believe is the one that humans use the most in this context:</p>
+<blockquote>
+	<i>(Equality in Karma.)</i>
+	Two humans are equal if they <strong>have the same amount of karma</strong> –
+	<ul>
+		<li>for every moment of joy one has the other must enjoy the same.</li>
+		<li>
+			alternatively, the above, and also:
+			for every tear one sheds the other must shed the same.
+		</li>
+</blockquote>
+<p>
+	In the past I have always thought of this as merely what people do in covert form,
+	not in overt, direct tones.
+	Everyone keeps talking about "equality of opportunity" and some nebulous "justice" so much
+	it is very hard for me to think that those constant cries 
+	were really just masks to a more basal, selfish thing.
+	I've never been the most generous in my life,
+	but it's interesting to see similar behaviour being repeated by others.
+</p>
+<p>
+	Nevertheless, when running this whole "what is equal" thing through others,
+	I was greeted with this reply:
+</p>
+<blockquote>
+	like, most people have an intrinsic sense of entitlement
+	to have the same opportunities other people do <br/>
+	if they see other people getting benefits they aren't getting
+	and it's not clear to them why this is happening,
+	they describe it as 'inequality' <br/>
+	and then in order to change this state of affairs
+	they form organizations dedicated to, well, changing the state of affairs
+	<hr/>
+	in this way it's pretty obvious that the appeal to equality
+	is more of an appeal to personal desire for experiencing lots of positive-utility things <br/>
+	(which was probably evolutionarily beneficial,
+	because otherwise you wouldn't be motivated to do things such as hoard food or build harems)
+</blockquote>
+<p>
+	In this way it would seem like the current calls for equality
+	is nothing more than a petulant, jealous "if you have it I gotta have it too",
+	which ties into the first point of the definition given above:
+	<em>all must receive the same number of "happy points"</em>.
+</p>
+<p>
+	Things don't seem to get any better with the addition of the second part either,
+	sharing the spills as well as the thrills.
+	This is often justified as a way of evening out "historical oppression" –
+	"your grandfather kicked my grandfather in the face a hundred and fifty years ago,
+	so now I am entitled to kick you in the face just as hard, plus interest."
+	Now this is genuinely petty and jealousy at its worst,
+	but it was seriously given – I saw once – as a way of achieving equality.
+	I should note here that I've seen this part of the definition
+	being <em>highly</em> overplayed by critics of it
+	rather than by any proponents that I have ever saw however,
+	though standard disclaimers about the Internet being an echochamber apply.
+</p>
+<p>
+	I've also been told that <q>one is not entitled to anything</q> –
+	which of course makes the above entitlement even pettier.
+	However, when this particular subject that I quoted here said that,
+	I have a feeling that he hasn't actually thought this through perfectly,
+	because it would seem like there are quite a lot of things that one is entitled to –
+	it's called the Universal Declaration of Human Rights,
+	which is in this context pretty much "here is a list of demands that society must follow
+	as if it is firmly guarded in truth
+	(even though it's just a common cash-grab in the name of self-preservation)."
+	By no means is the UDHR a bad thing – I'd like to hear <em>that</em> argument –
+	but it not being a bad thing shows that one <em>is</em> entitled to something,
+	and it's quite a lot of things for that matter.
+</p>
+<p>
+	Overall, whether you are genuinely conflating equality for revenge,
+	or if you are adopting a more nuanced work towards some sort of "genuine equality",
+	chances are, in concrete actions,
+	you want to make sure that if someone gets something that makes him happy,
+	then you want <em>everyone</em> to get the same thing –
+	which is perfectly encapsulated in the equality in karma thing.
+</p>
+<h2>Implicatures</h2>
+<p>
+	The above implies a lot of things,
+	and it would pay to list out these implicatures explicitly
+	rather than leave readers guessing as to what I actually meant.
+</p>
+<h3>Demanding equality uses similar tactics to whining</h3>
+<p>
+	Demanding equality uses the same basic mechanics of the human brain
+	as crying about the neighbour next door having a TV and you don't.
+	In many ways, this is already known –
+	people who disagree with such demands call the demanders "entitled" and similar disparagements.
+	It means that if you try hard enough,
+	all demands of equality can be seen as petulant whines not worth listening to.
+</p>
+<p>
+	This implies that any distinguishing between stroppily demanding and politely requesting
+	is entirely up to the listener,
+	and what passes as a reasonable demand for one
+	may well be a the cry of a baby to another.
+	And just like babies, sometimes the annoying gets so bad
+	you don't even want to grant them life.
+	Society in general and individual in-groups in particular
+	provide guidelines to consider distinctions between entitlement and grievance,
+	but it is still pretty much arbitrary what any group
+	would classify whatever action as which of the above two groups are.
+	And don't forget, as a characteristic of an in-group,
+	one group would always like to export their classifications to others,
+	hoping to expand their influence.
+</p>
+<p>
+	However, this also means that whining should not be dismissed outright as entitlement,
+	but rather as an indicator in inefficiency of delivering happiness to people.
+	Because of the intuitive (i.e. utterly mysterious) difference between the two though,
+	this would prove hard to do.
+	The simplest result would be to examine each claim in the same manner
+	(that is, with a common protocol),
+	but this may prove difficult due to time and manpower constraints.
+</p>
+<h3>Equality is arbitrary and "a social construct"</h3>
+<p>Several parts to this.</p>
+<p>
+	First, saying "I am for equality" is about as meaningful as "I like food".
+	The prevailing social norms of today mandate everyone to be "for equality",
+	just like how in days of yonder you must follow a particular religion
+	or eat in a certain manner.
+	without further qualifications or definition,
+	one can play a little game where you swap any of the above definition between sentences,
+	and then there would be confusion to what you actually mean.
+	Just as there are many flavours of food,
+	there are many ways in which an equality can be found in between any two groups of humans,
+	and many other ways in which an equality could have been found in those groups
+	but haven't been achieved yet.
+</p>
+<p>
+	Furthermore, equality is not a universally guaranteed thing,
+	and exist purely in the minds of humans and society.
+	Reality, as separate from humans, is under no obligation to be equal in any predicate,
+	although humans may attempt to make the world equal as they see fit.
+	Indeed, in more liberal places,
+	equality might not even be a good thing to certain societies;
+	there is an instance of some Pacific civilization extant today whose name I forgot
+	who finds "equality" – whatever they may think it is –
+	to be insulting when applied to humans.
+</p>
+<p>
+	(There is an additional implicature that there are scenarios
+	that equality must be discarded if you call it "just a social construct",
+	and that the Pacific civilization mentioned above is one of them.
+	This does not seem to be well-received.)
+</p>
+<h3>Equality movements can do better by laying down on the outset what they mean by equality</h3>
+<p>
+	Sometimes I get the idea that movements start but don't stop.
+	They don't have a specified endpoint that one can evaluate the world to a "yesish" or "noish",
+	and if they do when they reach it they start to bloat in scope and grandeur
+	until they end up, in effect, "wanting to save the world".
+	This is not necessarily a bad thing,
+	but they often bring with them baggage from their previous incarnations to the new thing,
+	which is suboptimal to say the least.
+</p>
+<p>
+	This behaviour has unfortunately been used already to provide total and permanent employment
+	to people who would otherwise not do so.
+	The example I am most familiar with is feminism,
+	which through "intersectionality" has got its fingers stuck on every pie imaginable
+	like the toothpick one tests the fully-bakedness of a pie,
+	and the current fashion has them inject feminist thinkings into everything.
+	This doesn't have to be a bad thing at all,
+	but like any other theory it has to compete with other theories
+	and often it dominates everything else
+	despite otherwise be a guest in the field.
+</p>
+<p>
+	The main problem with having a set scope to begin with is of course that movements end like that,
+	and movements, as mentioned above, don't.
+	And of course, movements really aren't under any obligation to end
+	with the achievement of a scope,
+	but that doesn't mean it's entirely beneficial either.
+</p>
+<h1>But why? – Motivations towards equality</h1>
+<p>
+	Equality in today's society is considered to be axiomatic:
+	good by default, no further explanation required, and if you ask why, you are evil.
+	This is not very good reasoning, and neither is the below attempted justification for equality,
+	but something as fundamental a tenet as equality
+	should really have some supporting argument for it.
+	So this is one that one might find familiar.
+</p>
+<h2>Why be equal to begin with?</h2>
+<p>
+	We begin the argument by assuming the opposite, that is, that humans should not be equal
+	by any predicate.
+</p>
+<ol>
+	<li>
+		There must then be a pecking (partial) order &lt; that orders humans from best to worst.
+		This may be expressed as simply better/worse, or it can be more nuanced,
+		such as passing judgement or similar.
+	</li>
+	<li>Partial orders have maximal elements.</li>
+	<li>You should be able to produce a list of such maximal elements.</li>
+	<li>You can't.</li>
+	<li>We reached a contradiction, and therefore humans should be equal by some predicate.</li>
+</ol>
+<p>
+	Though I structured it like a logical argument,
+	the argument is mainly emotional in thrust, being essentially,
+	"if you aren't equal to everyone else, you might not be at the top!
+	How would <em>you</em> feel about that?"
+</p>
+<p>
+	There's otherwise not very much to talk on this matter,
+	though frankly I wish there was.
+	There's something rather unsatisfactory about this.
+</p>
+<h2>Why do you have to be so anal-retentive about <em>what</em> type of equality anyway?</h2>
+<p>
+	When I ask about why equality is important, I get this very strange reply:
+	that you shouldn't have to worry about this so much,
+	and just "fight for it".
+	If I were blithe, I would note how incredibly culty this is, 
+	but let's take this a bit further.
+</p>
+<p>
+	What these people are trying to tell me is somewhere along the lines of
+	"humans are illgocial,
+	so asking more about it is pointless or unproductive."
+	Which seems like an odd stance to take
+	for something that people spend their whole lives trying to achieve.
+	Heck, flawed as it is, the field of theology shows taht when people care,
+	they try to make sure they know what they are talking about.
+	Whereas with this whole "equality" thing,
+	people get strangely capricious about it,
+	and there seems to be an undercurrent of
+	"you question it, therefore you oppose it, 
+	and therefore you are Evil of the Greatest Magnitude Possible
+	(variation Seriously Not Even Destroying The Universe Entirely Could Be As Evil As That)".
+	Definitely some kind of religious undertones to the whole thing.
+</p>
+<p>
+	All in all, "equality" is one of those words that can easily switch off higher brain functions,
+	and it is very clear that it would be optimal to look at it more carefully,
+	especially when you realise that you're not working with the same definition as everyone else
+	(see above).
+	The pressure to simply take it as a semantic given
+	and invariant across all time is, however, a great disincentive to do it.
+</p>
+<h1>Postscripts</h1>
+<p>These are going to be short, hopefully. This has taken too long to write.</p>
+<h2>"Treatment"</h2>
+<p>
+	One of the replies that I got with this is that equality is when
+	"you treat two (humans) in the same way and not let your assumptions colour your perceptions".
+	This is an utterly pointless saying, and here's how:
+</p>
+<p>
+	This is saying, essentially, that the function <code>you.react(subj)</code>
+	should not take the properties of <code>subj</code> into account.
+	That means that your reaction must be constant – clearly ludicrous –
+	or depend solely on environmental inputs
+	such as weather, amount of food left for dinner,
+	or whether or not you are falling through the sky at a terrifyingly lethal rate.
+</p>
+<p>
+	Of course, I believe that the subject who said this to me
+	doesn't really mean it as such –
+	I think he is saying something along the lines of this:
+</p>
+<ol>
+	<li>You (U) are speaking to someone else (V). The conversation is logged.</li>
+	<li>
+		In the middle of the conversation,
+		alien group P abducts V and replaces him with a third subject (W).
+		U doesn't know.
+	</li>
+	<li>
+		At the end of the conversation, the log is given to alien group Q,
+		which is unrelated to P.
+	</li>
+	<li>
+		If Q cannot tell that V and W are different subjects,
+		then U is treating V and W equally.
+	</li>
+</ol>
+<p>
+	It has to be said that this is not too controversial,
+	but I have issues with this,
+	primarily with the nebulous term, "assumptions not colouring your perceptions".
+	There are many assumptions one must make in order to even function in an ordinary level –
+	to disavow assumptions altogether would be living in solipsism.
+	You're just claiming that drawing the line <em>here</em>
+	is better than drawing the line <em>there</em>.
+</p>
+<h2>Equality and Diversity</h2>
+<p>
+	Depending on which definition of equality one subscribes to,
+	equality is either utterly incompatible with 
+	or can coexist with "diversity".
+	Diversity is one of those other words that people flock to unquestionably
+	without thinking about it too much,
+	and any other questions about it is also summarily dismissed.
+	The arguments for diversity is much more variable and interesting,
+	but fortunately there aren't that much different versions of diversity
+	that one can surreptitiously refer to
+	when talking about some other version.
+</p>
+<p>
+	It is, however, interesting to note that in the most blithe of terms,
+	the opposite of diversity is homogeneity, which is when everything is the same.
+</p>
+<h1>Conclusion</h1>
+<p>
+	All in all, we see that the word "equality" has the mental inhibition ability
+	similar to that of a drug;
+	people take it unquestionably and as a semantic given
+	when no such basis can be found in reality, at least not easily
+	(we have given some possible results in this article).
+	Going forward, we might want to rethink what 
+	we want equality, whatever it may be, to mean.
+</p>
+</body>
+</html>

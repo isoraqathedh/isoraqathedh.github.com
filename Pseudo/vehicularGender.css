@@ -1,0 +1,4 @@
+a[href^="#foot"] {
+	vertical-align:super;
+	font-size:75%;
+}

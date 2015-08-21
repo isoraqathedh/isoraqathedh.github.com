@@ -1,0 +1,61 @@
+[id$="blooda"] {color:#A10000;}
+[id$="bloodb"] {color:#A15000;}
+[id$="bloodc"] {color:#A1A100;}
+[id$="bloode"] {color:#416600;}
+[id$="bloodf"] {color:#008141;}
+[id$="bloodg"] {color:#008282;}
+[id$="bloodh"] {color:#005682;}
+[id$="bloodi"] {color:#000056;}
+[id$="bloodj"] {color:#2B0057;}
+[id$="bloodk"] {color:#6A006A;}
+[id$="bloodl"] {color:#77033C;}
+[id$="bloodn"] {color:#696969;}
+[id$="bloodo"] {color:black;}
+[id$="bloodp"] {color:white; background:black;}
+table {
+	border-collapse:collapse;
+}
+#hornworth td {text-align:right;}
+#canondef {
+	float:right;
+	width:35%;
+	background-color:#FFC800;
+	padding:0.2em;
+}
+#canondef p {color:#AF2303;}
+#buttonset {margin:1em auto; width:80%; text-align:center;}
+#canondef button {width:25%;}
+#optionalline {
+	border-bottom:1px solid;
+	border-top:1px solid;
+	background:#CCC;
+	text-align:center;
+	text-indent:0;
+}
+#valuate, #sumup {width:25em; margin:1em;}
+#valuate {float:left;}
+#sumup {float:right;}
+#output {
+	background:#060;
+	border:2px solid #FFC800;
+	color:#BB0;
+	padding:0 3px;
+	font-family:monospace;
+}
+#error:not(:empty) {
+	border:2px solid #FFC800;
+	background:#600;
+	font-family:monospace;
+	color:#BB0;
+}
+.regular {color:green;}
+.regular:before {content:url("Required.png"); vertical-align:2px;}
+#sexdeterminer {
+	text-align:center;
+	margin:1em;
+}
+#sexdeterminer td, #sexdeterminer th {
+	height:2em;
+	width:2em;
+}
+#relationships {float:left; width:auto; margin:1em;}

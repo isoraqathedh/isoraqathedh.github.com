@@ -1,0 +1,219 @@
+#status p {
+	width:20%;
+	float:left;
+	border:medium solid #FFC800;
+	text-align:center;
+	text-indent:0;
+	margin:0 auto;
+	padding:3px 0;
+	position:absolute;
+	top:400px;
+	right:10px;
+	background-color:#AF2303;
+	color:#FFC800;
+	font-family:Georgia;
+}
+#status p:first-child {
+	right:auto;
+	left:10px;
+}
+#turnnumber, #white, #black, #scorewhite, #scoreblack {
+	display:block;
+	border:1px solid #FFC800;
+	font-family:monospace;
+	font-size:200%;
+	margin:0 auto;
+	font-weight:bold; 
+}
+#black, #scoreblack {
+	color:white;
+	background-color:black;}
+#white, #scorewhite {
+	color:black;
+	background-color:white;
+}
+#black, #white, #scoreblack, #scorewhite {
+	width:4em;
+	text-align:center;
+}
+#scoreblack, #scorewhite {
+	height:1.125em;
+	margin:3px;
+}
+#turnnumber {
+	color:white;
+}
+#winreason, #surviving, #boredom {
+	text-indent:0;
+	margin:1px;
+	color:#FFC800;
+	text-align:center;
+}
+#boredom {
+	color:black;
+}
+#rem {
+	font-weight:bold; 
+}
+#unhighlighted, #unhighlightedPiece, #movewhite, #moveblack {
+	display:none;
+}
+#surface {
+	background-color:#FFE;
+}
+/* ==========
+   General Game Board Stuff */
+#game-board {
+	border-collapse:collapse;
+	clear:both;
+}
+#game-board th {
+	width:48px;
+	height:48px;
+	padding:0;
+}
+#game-board td {
+	background-color:#FFC800;
+	border:0;
+	padding:0;
+	width:50px;
+	height:50px;
+	text-align:center;
+	vertical-align:middle;
+}
+/* ==========
+   Game Board Backgrounds */
+#movecontrols select, #wholegamecontrols select {
+	margin-top:2px;
+	margin-bottom:2px;
+}
+#movecontrols, #wholegamecontrols {
+	border:2px solid #FFC800;
+	background-color:#AF2303;
+	padding:2px;
+	color:#FFC800;
+	width:40%;
+	margin-bottom:2px;
+	text-align:center;
+}
+#movecontrols {
+	margin-right:5%;
+	font-weight:bold; 
+	float:right;
+}
+#wholegamecontrols {
+	float:left;
+	margin-left:5%;
+}
+#game-board tr td {
+	background-size:contain;
+	background-color:#FFC800;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-image:url("boardbgcencen.png");
+}
+#game-board tr:nth-child(2) td:first-of-type {background-image:url("boardbgtoplef.png");}
+#game-board tr:nth-child(2) td               {background-image:url("boardbgtopcen.png");}
+#game-board tr:nth-child(2) td:last-child    {background-image:url("boardbgtoprig.png");}
+#game-board tr              td:first-of-type {background-image:url("boardbgcenlef.png");}
+#game-board tr              td:last-child    {background-image:url("boardbgcenrig.png");}
+#game-board tr:last-child   td:first-of-type {background-image:url("boardbgbotlef.png");}
+#game-board tr:last-child   td               {background-image:url("boardbgbotcen.png");}
+#game-board tr:last-child   td:last-child    {background-image:url("boardbgbotrig.png");}
+#game-board tr:nth-child(2) td:nth-child(6)  {background-image:url("boardbgdiatoplef.png");}
+#game-board tr:nth-child(2) td:nth-child(7)  {background-image:url("boardbgdiatoprig.png");}
+#game-board tr              td:nth-child(6)  {background-image:url("boardbgdiacenlef.png");}
+#game-board tr              td:nth-child(7)  {background-image:url("boardbgdiacenrig.png");}
+#game-board tr:last-child   td:nth-child(6)  {background-image:url("boardbgdiabotlef.png");}
+#game-board tr:last-child   td:nth-child(7)  {background-image:url("boardbgdiabotrig.png");}
+#game-board tr td.highlighted, #game-board tr td div.chesspiece.highlighted {
+	background-color:#AF2303;
+}
+#result {
+	margin:0 auto;
+	width:60%;
+	border:2px solid #FFC800;
+	background-color:#AF2303;
+}
+#scorewhite {float:left;}
+#scoreblack {float:right;}
+/* ==========
+   Chess Piece styles */
+.chesspiece {
+	background-color:white;
+	border-radius:50%;
+	border:1px solid #CCC;
+	height:30px;
+	width:40px;
+	margin:0 auto;
+	padding-top:10px;
+	font-family:sans-serif;
+	color:black;
+	cursor:default;
+}
+[id^="b-"].chesspiece {
+	background-color:black;
+	color:white;
+}
+/* ==========
+   Move Option styles */
+option.novalidmoves {
+	color:#888;
+	font-style:italic;
+}
+option.novalidmoves:hover {
+	color:#CCC;
+	background-color:#666;
+}
+#game-board tr td.flagdiag {
+	background-color:#AFA;
+}
+#game-board tr td.flagcapt {
+	background-color:#AAF;
+}
+#game-board tr td.flagdiag.flagcapt {
+	background-color:#FAA;
+}
+#game-board tr td.moveable {
+	background-color:#AF2303;
+}
+#support {
+	text-align:center;
+	font-family:Cambria, Georgia, proportional;
+	border:2px solid #CCA000;
+	color:white;
+	background-color:#AF2303;
+	position:absolute;
+	top:3em;
+	padding:0.75em 1em;
+	width:10em;
+	border-radius:4px;
+	box-shadow: inset 0px 0px 5px black;
+		-webkit-box-shadow: inset 0px 0px 5px black; /* << vnd.SC */
+}
+#support:before {
+	content: "Browser Support";
+	font-size:65%;
+	border:1px solid #CCA000;
+	position:absolute;
+	top:-15%;
+	left:-10%;
+	background-color:#AF2303;
+	padding:1px 3px;
+	border-radius:4px;
+	box-shadow: inset 0px 0px 5px black;
+		-webkit-box-shadow: inset 0px 0px 5px black; /* << vnd.SC */
+}
+#support>* {
+	border:1px solid #FFC800;
+	display:inline-block;
+	width:1.5em;
+}
+
+#support>*.support {
+	background-color:#080;
+} 
+#potentialdestinations {
+	border:2px solid #FFC800;
+	background-color:#AF2303;
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Minecraft;
+    src: url("minecraft.ttf");
+    font-weight:400;
+}
+
+.colorfullblk {color:#000000; text-shadow:1px 1px #000000;}
+.colordarkblu {color:#0000AA; text-shadow:1px 1px #00002A;}
+.colordarkgrn {color:#00AA00; text-shadow:1px 1px #002A00;}
+.colordarkaqa {color:#00AAAA; text-shadow:1px 1px #002A2A;}
+.colordarkred {color:#AA0000; text-shadow:1px 1px #2A0000;}
+.colorfullppl {color:#AA00AA; text-shadow:1px 1px #2A002A;}
+.colorfullgld {color:#FFAA00; text-shadow:1px 1px #2A2A00;}
+.colorlitegry {color:#AAAAAA; text-shadow:1px 1px #2A2A2A;}
+.colordarkgry {color:#555555; text-shadow:1px 1px #151515;}
+.colorliteblu {color:#5555FF; text-shadow:1px 1px #15153F;}
+.colorlitegrn {color:#55FF55; text-shadow:1px 1px #153F15;}
+.colorliteaqa {color:#55FFFF; text-shadow:1px 1px #153F3F;}
+.colorlitered {color:#FF5555; text-shadow:1px 1px #3F1515;}
+.colorlitepnk {color:#FF55FF; text-shadow:1px 1px #3F153F;}
+.colorfullylw {color:#FFFF55; text-shadow:1px 1px #3F3F15;}
+.colorfullwht {color:#FFFFFF; text-shadow:1px 1px #3F3F3F;}
+table>tbody>tr:nth-child(n) >td.mcchat {
+	background-color:#888;
+	font-family:Minecraft, monospace;
+	font-size:16px;
+}
+table>tbody>tr>td:nth-last-child(-n+4) {font-family:Courier, monospace;}
+table {
+	font-size:85%;
+}
+#coordslist {
+	text-align:right;
+}

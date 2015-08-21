@@ -1,0 +1,26 @@
+.autowrite_char {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: transparent url(dagafont.png);
+	margin: 2px 2px 6px;
+	padding: 0px;
+	vertical-align: middle;
+}
+.autowrite_box {
+	display: inline-block;
+	height: 20px;
+	margin: 2px;
+	padding: 0px 1px 2px;
+	border: 1px solid black;
+}
+.autowrite_space {
+	display: inline-block;
+	width: 12px;
+	height: 16px;
+	margin: 2px;
+	padding: 0px;
+}
+.autowrite_word {
+	white-space: nowrap;
+}

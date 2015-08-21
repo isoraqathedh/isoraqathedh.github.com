@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- <link>s -->
+<link rel="stylesheet" href="../global/Default.css" media="all" />
+<link rel="stylesheet" href="Ita.css" media="all" />
+<link rel="shortcut icon" href="http://chaos.foxmage.com/iso/ponylyr/img/fav.ico" />
+<link rel="shortcut icon" href="../img/fav.png" />
+<!-- <script>s -->
+<script src="../global/general.js"></script>
+<script src="ita.js"></script>
+<script src="../global/jq.js"></script>
+<!--[if lte IE 8]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- <meta>s -->
+<meta charset="UTF-8" />
+<!-- Other tags -->
+<title>Ita</title>
+</head>
+<body>
+<h1 id="Title">Ita simulator</h1>
+<div id="version">
+	Version
+	<div id="versionnumber"    >β.2.00</div>
+	<div id="versionnumberjs"  >β.3.00</div>
+	<div id="versionnumbercss" >δ.0.15</div>
+	<div id="versionnumberhtml">β.6.20</div>
+</div>
+<div id="support">
+	<span>IE</span>
+	<span class="support">FX</span>
+	<span>SF</span>
+	<span>CH</span>
+	<span>OP</span>
+</div>
+<p>
+	<strong>Ita</strong> is a chess variant that is the national chess variant of Pseudo. Below, you
+	can play the game. See more about the game
+	<a href="http://pasaruconworld.wikia.com/wiki/Ita">here</a>.
+</p>
+<div id="surface">
+	<div id="wholegamecontrols">
+		Mode:
+		<select id="time">
+			<option value="0">Peaceful</option>
+			<option value="1">Easy</option>
+			<option value="2">Normal</option>
+			<option value="3">Hard</option>
+			<option value="4">Hardcore</option>
+		</select>
+		<button id="startgame">Start!</button>
+		<button id="endturn">End turn!</button>
+		<button id="endgame">End game!</button>
+	</div>
+	<div id="status">
+		<p>Turn <span id="turnnumber">0</span></p>
+		<p>
+			<span id="white">0</span>
+			Thinking time remaining
+			<span id="black">0</span>
+		</p>
+	</div>
+	<div id="unhighlighted"></div><div id="unhighlightedPiece"></div>
+	<table id="game-board">
+	</table>
+	<div id="result">
+		<div id="scorewhite">0</div>
+		<div id="scoreblack">0</div>
+		<p id="winreason">Undetermined…</p>
+		<p id="surviving">There are <span id="rem">?</span> pieces remaining on the board.</p>
+		<p id="boredom"
+			class="info"
+			title="Once there are fewer than 6 pieces on the board the meter will begin to fill.
+			Once it fills completely it's game over!">Boredom meter: 
+			<progress id="boredommeter" max="36" min="0" value="0">0/36</progress>
+		</p>
+	</div>
+</div>
+<div id="potentialdestinations"></div>
+<h1>Game Log</h1>
+<textarea id="gamelog" rows="5">
+</textarea>
+<h1>Data</h1>
+<table>
+	<caption>Thinking Time</caption>
+	<thead><tr>
+		<th>Mode</th>
+		<th>White</th>
+		<th>Black</th>
+		<th>Extra time</th>
+		<th>Awarded every… turns</th>
+	</tr></thead>
+	<tbody>
+		<tr>
+			<th>Peaceful</th>
+			<td>∞</td>
+			<td>∞</td>
+			<td>+0:00</td>
+			<td>N/A</td>
+		</tr>
+		<tr>
+			<th>Easy</th>
+			<td>52:39</td>
+			<td>56:10</td>
+			<td>+3:31</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<th>Medium</th>
+			<td>21:03</td>
+			<td>22:51</td>
+			<td>+2:06</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<th>Hard</th>
+			<td>07:22</td>
+			<td>08:40</td>
+			<td>+0:42</td>
+			<td>9</td>
+		</tr>
+		<tr>
+			<th>Hardcore</th>
+			<td>03:30</td>
+			<td>04:13</td>
+			<td>+0:00</td>
+			<td>N/A</td>
+		</tr>
+	</tbody>
+</table>
+<script>init();</script>
+</body>
+</html>

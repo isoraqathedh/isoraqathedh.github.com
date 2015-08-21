@@ -1,0 +1,28 @@
+h1, h2 {clear:both;}
+
+figure {
+	counter-increment:figure 1;
+	min-width:10%;
+	max-width:calc(50% - 2em);
+	margin:1em 10px;
+}
+figure.full.major {
+	float:none;
+	width:80%;
+	max-width:100%;
+	margin:1em auto;
+}
+figure:nth-of-type(even) {
+	float:left;
+	clear:left;
+}
+figure:nth-of-type(odd) {
+	float:right;
+	clear:right;
+}
+figcaption:before {
+	content: "Figure "counter(figure);
+	font-size:100%;
+	background-color:#BBB;
+	margin-right:3px;
+}
