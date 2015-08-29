@@ -31,10 +31,10 @@ p.center {text-indent:0px; text-align:center;}
 h1, h2, h3, h4, h5, h6 {color:#B05D4A; font-variant:small-caps; font-family:Georgia;}
 h1 {font-size:22px; color:#AF2303; border-bottom:2px solid #AF2303;}
 h2 {font-size:19px; color:#B04027; border-bottom:1px solid #FFC800;}
-h3 {font-size:16px; text-indent:20px;}
-h4 {font-size:15px; text-indent:60px;}
-h5 {font-size:14px; text-indent:80px;}
-h6 {font-size:13px; text-indent:100px;}
+h3 {font-size:16px;}
+h4 {font-size:15px; text-indent:20px;}
+h5 {font-size:14px; text-indent:40px;}
+h6 {font-size:13px; text-indent:60px;}
 br.push, hr.push {clear:both;}
 pre {border:3px double #AF2303; background:#EEE; max-height:20em; min-height:10em; overflow:scroll;}
 a {color:#0685F5; text-decoration:none; cursor:pointer;}
