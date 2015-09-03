@@ -147,3 +147,7 @@ this means that one can in principle
 see the other end of the galaxy and come back
 and live to tell the tale.
 
+And in this dramatically altered world,
+they trudged on.
+
+## Q
