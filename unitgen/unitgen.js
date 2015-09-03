@@ -78,8 +78,11 @@ var derived = {
     power: {energy: 1, time: -1},
     charge: {current: 1, time: 1}};
 
-function numberp(value) {
-    return (input - 0) == input && (''+input).trim().length > 0;}
+function Fundamentals(params) {
+    // constructor function for various objects,
+    // including dimensions and systems.
+    for (dimension in fundamentals) {
+        this[dimension] = (params[dimension] === undefined) ? 0 : params[dimension];}}
 
 function convertToBaseUnits(quantity, opt_dimensionsSoFar) {
     // Function to convert derived units to a combination of the seven basic units.
@@ -111,6 +114,17 @@ function convertToBaseUnits(quantity, opt_dimensionsSoFar) {
         return dimensionsSoFar;}
     else {
         throw "Dimension not found in the dimension lists";}}
+
+function generateSystem(opt_heldValues) {
+    // creates a system of fundamental values.
+    // opt_heldValues (defaulting to {}, i.e. no values held) are passed through.
+    // The rest are generated according to the generateFunctions
+    // in the fundamentals object.
+    var system = (opt_heldValues === undefined) ? {} : opt_heldValues;
+    for (dimension in fundamentals) {
+        if (system[dimension] === undefined) {
+            system[dimension] = fundamentals[dimension].generatingFunction();}}
+    return new Fundamentals(system);}
 
 // function conversionFactor(quantity, generatedSystem) {
 //     // converts 1 generated unit of the quantity into SI units
