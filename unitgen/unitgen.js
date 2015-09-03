@@ -154,17 +154,26 @@ function conversionFactor(quantity, generatedSystem) {
 var keyPlaces = {};
 
 function createFundamentalInputField(unitName) {
+    // Creates the unit input field for fundamental units.
+
+    // Whole container
     var fieldSet = document.createElement("div");
     fieldSet.setAttribute("id", unitName + "-assembly");
-    
+
+    // Dimension label
     var unitLabel = document.createElement("label");
     unitLabel.setAttribute("for", unitName + "-entry");
     var unitLabelText = document.createTextNode(unitName);
     unitLabel.appendChild(unitLabelText);
-    
+
+    // I/O box
     var inputBox = document.createElement("input");
     inputBox.setAttribute("id", unitName + "-entry");
-    
+
+    // Units label
+    var unitsLabel = document.createTextNode(fundamentals[unitName].symbol);
+
+    // Checkbox for toggle I/O
     var heldCheckbox = document.createElement("input");
     heldCheckbox.setAttribute("type", "checkbox");
     heldCheckbox.setAttribute("id", unitName + "-held");
@@ -173,8 +182,10 @@ function createFundamentalInputField(unitName) {
     var heldLabelText = document.createTextNode("Set this quantity");
     heldLabel.appendChild(heldLabelText);
 
+    // Assembly and attachment
     fieldSet.appendChild(unitLabel);
     fieldSet.appendChild(inputBox);
+    fieldSet.appendChild(unitsLabel);
     fieldSet.appendChild(heldCheckbox);
     fieldSet.appendChild(heldLabel);
     keyPlaces.fundamentalUnitsPlace.appendChild(fieldSet);}
