@@ -80,10 +80,16 @@ var derived = {
     Speed: {Length: 1, Time: -1},
     Acceleration: {Speed: 1, Time: -1},
     Force: {Mass: 1, Acceleration: 1},
+    Momentum: {Mass: 1, Speed: 1},
     Pressure: {Force: 1, Area: -1},
     Energy: {Force: 1, Length: 1},
     Power: {Energy: 1, Time: -1},
-    Charge: {Current: 1, Time: 1}};
+    Charge: {Current: 1, Time: 1},
+    Voltage: {Energy: 1, Charge: -1},
+    Resistance: {Voltage: 1, Current: -1},
+    Frequency: {Time: -1},
+    Intensity: {Power: 1, Area: -1},
+    Density: {Mass: 1, Volume: -1}};
 
 /* Modification beyond this point not recommended */
 
