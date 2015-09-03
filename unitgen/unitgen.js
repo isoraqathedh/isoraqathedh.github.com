@@ -190,9 +190,60 @@ function createFundamentalInputField(unitName) {
     fieldSet.appendChild(heldLabel);
     keyPlaces.fundamentalUnitsPlace.appendChild(fieldSet);}
 
+function createDerivedInputField(unitName) {
+    // Creates the unit display field for derived units.
+    var fieldSet = document.createElement("div");
+    fieldSet.setAttribute("id", unitName + "-assembly");
+    
+    var unitLabel = document.createElement("label");
+    unitLabel.setAttribute("for", unitName + "-entry");
+    var unitLabelText = document.createTextNode(unitName);
+    unitLabel.appendChild(unitLabelText);
+    
+    var inputBox = document.createElement("input");
+    inputBox.setAttribute("id", unitName + "-entry");
+    inputBox.setAttribute("disabled", "disabled");
+
+    fieldSet.appendChild(unitLabel);
+    fieldSet.appendChild(inputBox);
+    keyPlaces.derivedUnitsPlace.appendChild(fieldSet);}
+
+function getFundamentalQuantities() {
+    // retrieves fundamental quantities from the main form.
+    // returns a partially-formed system object.
+
+    // Run through the list of fundamental units.
+    // Then take the values on the input field, scooping up any that are held.
+    var result = {}
+    for (entry in fundamentals) {
+        if (document.getElementById(entry + "-held").checked) {
+            result[entry] = parseFloat(document.getElementById(entry + "-entry").value);}}
+    return result;}
+
+function placeFundamentalUnits(system) {
+    // Places the values of the system into the appropriate text fields.
+    for (fundamental in fundamentals) {
+        document.getElementById(fundamental + "-entry").value = system[fundamental];}
+    return system;}
+
+function placeDerivedUnits(system) {
+    // Calculates the derived values, and places it into the appropriate text fields
+    for (unit in derived) {
+        document.getElementById(unit + "-entry").value = conversionFactor(unit, system);}}
+
+function makeSystem() {
+    // Generates the system and places everything in the correct text fields.
+    var system = generateSystem(getFundamentalQuantities());
+    placeFundamentalUnits(system);
+    placeDerivedUnits(system);
+    return system;}
+
 function uginit() {
     keyPlaces.fundamentalUnitsPlace = document.getElementById("fundamentalUnits");
     keyPlaces.derivedUnitsPlace = document.getElementById("derivedUnits");
     for (i in fundamentals) {
-        createFundamentalInputField(i);}}
+        createFundamentalInputField(i);}
+    for (i in derived) {
+        createDerivedInputField(i);}
+    document.getElementById("generateButton").addEventListener("click", makeSystem);}
     
