@@ -23,6 +23,13 @@ var fundamentals = {
     // just by changing this object's properties.
     // The user is responsible for making sure the list of fundamentals
     // can describe everything in scope.
+    // Each dimension requires three things:
+    // 1. a name for the unit.
+    // 2. a symbol for the unit.
+    // 3. a generating function. This function will dictate how the values will be generated.
+    // Remember that generatingFunction can accept any function that generates random numbers,
+    // not just functions created by the randoms object.
+    // that means if something is not to your satisfaction you can write your own.
     mass: {
         name: "kilogram",
         symbol: "kg",
@@ -77,6 +84,8 @@ var derived = {
     energy: {force: 1, length: 1},
     power: {energy: 1, time: -1},
     charge: {current: 1, time: 1}};
+
+/* Modification beyond this point not recommended */
 
 function Fundamentals(params) {
     // constructor function for various objects,
