@@ -26,15 +26,15 @@ var fundamentals = {
     mass: {
         name: "kilogram",
         symbol: "kg",
-        generatingFunction: randoms.uniform(0.001, 10)},
+        generatingFunction: randoms.logarithmic(-3, 1, 10)},
     length: {
         name: "metre",
         symbol: "m",
-        generatingFunction: randoms.uniform(0.001, 10)},
+        generatingFunction: randoms.logarithmic(-3, 1, 10)},
     time: {
         name: "second",
         symbol: "s",
-        generatingFunction: randoms.uniform(0.1, 200)},
+        generatingFunction: randoms.logarithmic(-3, 2.1, 10)},
     amountOfSubstance: {
         name: "mole",
         symbol: "mol",
@@ -42,7 +42,7 @@ var fundamentals = {
     luminousIntensity: {
         name: "candela",
         symbol: "cd",
-        generatingFunction: randoms.uniform(0.1, 1000)},
+        generatingFunction: randoms.logarithmic(-1, 3, 10)},
     temperature: {
         name: "kelvin",
         symbol: "K",
