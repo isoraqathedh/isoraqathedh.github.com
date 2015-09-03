@@ -30,31 +30,31 @@ var fundamentals = {
     // Remember that generatingFunction can accept any function that generates random numbers,
     // not just functions created by the randoms object.
     // that means if something is not to your satisfaction you can write your own.
-    mass: {
+    Mass: {
         name: "kilogram",
         symbol: "kg",
         generatingFunction: randoms.logarithmic(-3, 1, 10)},
-    length: {
+    Length: {
         name: "metre",
         symbol: "m",
         generatingFunction: randoms.logarithmic(-3, 1, 10)},
-    time: {
+    Time: {
         name: "second",
         symbol: "s",
         generatingFunction: randoms.logarithmic(-3, 2.1, 10)},
-    amountOfSubstance: {
+    "Amount of Substance": {
         name: "mole",
         symbol: "mol",
         generatingFunction: randoms.logarithmic(20, 25, 10)},
-    luminousIntensity: {
+    "Luminance Intensity": {
         name: "candela",
         symbol: "cd",
         generatingFunction: randoms.logarithmic(-1, 3, 10)},
-    temperature: {
+    Temperature: {
         name: "kelvin",
         symbol: "K",
         generatingFunction: randoms.uniform(0.5, 3)},
-    current: {
+    Current: {
         name: "ampere",
         symbol: "A",
         generatingFunction: randoms.uniform(15, 20)}};
@@ -75,15 +75,15 @@ var derived = {
     // it is suggested that you do not place a derived unit in the definition of another unit
     // before where the derived unit is actually defined,
     // but you are allowed to do that.
-    area: {length: 2},
-    volume: {length: 3},
-    speed: {length: 1, time: -1},
-    acceleration: {speed: 1, time: -1},
-    force: {mass: 1, acceleration: 1},
-    pressure: {force: 1, area: -1},
-    energy: {force: 1, length: 1},
-    power: {energy: 1, time: -1},
-    charge: {current: 1, time: 1}};
+    Area: {Length: 2},
+    Volume: {Length: 3},
+    Speed: {Length: 1, Time: -1},
+    Acceleration: {Speed: 1, Time: -1},
+    Force: {Mass: 1, Acceleration: 1},
+    Pressure: {Force: 1, Area: -1},
+    Energy: {Force: 1, Length: 1},
+    Power: {Energy: 1, Time: -1},
+    Charge: {Current: 1, Time: 1}};
 
 /* Modification beyond this point not recommended */
 
