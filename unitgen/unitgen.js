@@ -23,13 +23,34 @@ var fundamentals = {
     // just by changing this object's properties.
     // The user is responsible for making sure the list of fundamentals
     // can describe everything in scope.
-    mass: {name: "kilogram", symbol: "kg", generatingFunction: randoms.uniform(0.001, 10)},
-    length: {name: "metre", symbol: "m", generatingFunction: randoms.uniform(0.001, 10)},
-    time: {name: "second", symbol: "s", generatingFunction: randoms.uniform(0.1, 200)},
-    amountOfSubstance: {name: "mole", symbol: "mol", generatingFunction: randoms.logarithmic(20, 25, 10)},
-    luminousIntensity: {name: "candela", symbol: "cd", generatingFunction: randoms.uniform(0.1, 1000)},
-    temperature: {name: "kelvin", symbol: "K", generatingFunction: randoms.uniform(0.5, 3)},
-    current: {name: "ampere", symbol: "A", generatingFunction: randoms.uniform(15, 20)}};
+    mass: {
+        name: "kilogram",
+        symbol: "kg",
+        generatingFunction: randoms.uniform(0.001, 10)},
+    length: {
+        name: "metre",
+        symbol: "m",
+        generatingFunction: randoms.uniform(0.001, 10)},
+    time: {
+        name: "second",
+        symbol: "s",
+        generatingFunction: randoms.uniform(0.1, 200)},
+    amountOfSubstance: {
+        name: "mole",
+        symbol: "mol",
+        generatingFunction: randoms.logarithmic(20, 25, 10)},
+    luminousIntensity: {
+        name: "candela",
+        symbol: "cd",
+        generatingFunction: randoms.uniform(0.1, 1000)},
+    temperature: {
+        name: "kelvin",
+        symbol: "K",
+        generatingFunction: randoms.uniform(0.5, 3)},
+    current: {
+        name: "ampere",
+        symbol: "A",
+        generatingFunction: randoms.uniform(15, 20)}};
 
 var derived = {
     // A list of derived units.
