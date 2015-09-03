@@ -135,8 +135,47 @@ function generateSystem(opt_heldValues) {
             system[dimension] = fundamentals[dimension].generatingFunction();}}
     return new Fundamentals(system);}
 
-// function conversionFactor(quantity, generatedSystem) {
-//     // converts 1 generated unit of the quantity into SI units
-//     // (or other fundamental units defined by fundamentals).
-//     for (i in convertToBaseUnits(quantity) {
+function conversionFactor(quantity, generatedSystem) {
+    // converts 1 generated unit of the quantity into SI units
+    // (or other fundamental units defined by fundamentals).
+    var result = 1, baseUnits = convertToBaseUnits(quantity);
+    for (fundamental in baseUnits) {
+        result *= Math.pow(generatedSystem[fundamental], baseUnits[fundamental]);}
+    return result;}
         
+/* HTML handling */
+
+var keyPlaces = {};
+
+function createFundamentalInputField(unitName) {
+    var fieldSet = document.createElement("div");
+    fieldSet.setAttribute("id", unitName + "-assembly");
+    
+    var unitLabel = document.createElement("label");
+    unitLabel.setAttribute("for", unitName + "-entry");
+    var unitLabelText = document.createTextNode(unitName);
+    unitLabel.appendChild(unitLabelText);
+    
+    var inputBox = document.createElement("input");
+    inputBox.setAttribute("id", unitName + "-entry");
+    
+    var heldCheckbox = document.createElement("input");
+    heldCheckbox.setAttribute("type", "checkbox");
+    heldCheckbox.setAttribute("id", unitName + "-held");
+    var heldLabel = document.createElement("label");
+    heldLabel.setAttribute("for", unitName + "-held");
+    var heldLabelText = document.createTextNode("Set this quantity");
+    heldLabel.appendChild(heldLabelText);
+
+    fieldSet.appendChild(unitLabel);
+    fieldSet.appendChild(inputBox);
+    fieldSet.appendChild(heldCheckbox);
+    fieldSet.appendChild(heldLabel);
+    keyPlaces.fundamentalUnitsPlace.appendChild(fieldSet);}
+
+function uginit() {
+    keyPlaces.fundamentalUnitsPlace = document.getElementById("fundamentalUnits");
+    keyPlaces.derivedUnitsPlace = document.getElementById("derivedUnits");
+    for (i in fundamentals) {
+        createFundamentalInputField(i);}}
+    
