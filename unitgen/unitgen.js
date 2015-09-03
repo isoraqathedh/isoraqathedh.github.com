@@ -45,7 +45,7 @@ var fundamentals = {
     "Amount of Substance": {
         name: "mole",
         symbol: "mol",
-        generatingFunction: randoms.logarithmic(20, 25, 10)},
+        generatingFunction: randoms.logarithmic(20-23, 25-23, 10)},
     "Luminance Intensity": {
         name: "candela",
         symbol: "cd",
