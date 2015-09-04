@@ -57,7 +57,7 @@ var fundamentals = {
     Current: {
         name: "ampere",
         symbol: "A",
-        generatingFunction: randoms.uniform(15, 20)}};
+        generatingFunction: randoms.logarithmic(-2, 4)}};
 
 var derived = {
     // A list of derived units.
