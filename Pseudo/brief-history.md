@@ -151,3 +151,34 @@ And in this dramatically altered world,
 they trudged on.
 
 ## Q
+Surprisingly many places have life,
+but not many have *intelligent* life.
+It seems that in here,
+one of the great filters is the jump from non-sentient to sentient.
+For first third of their journey they only met about twenty planets
+with any measure of civilisation.
+Various actions are taken to ensure the safety of all parties involved,
+whose details do not interest us for the moment.
+
+It took until they crossed halfway across the galaxy
+before they actually met something remotely intelligent.
+And they didn't find it in any planet or moon,
+but instead a nebula.
+
+Putting aside the actual details of the contact of the Quaxtion,
+the situation resolved itself quite quickly &ndash;
+and quite handily.
+The Quaxtion never really got off their planet,
+and when their sun expired all they did was to become ethereal
+and exist as bodies encased in metal and wheels.
+Their life story aside, they did impart the incoming empire
+with quite a bit of extra knowledge to extend their lifetimes
+essentially without limit.
+Strangely few people took up on their solution.
+
+The power of the Quaxtion was so large they were brought up to become
+equals among the two worlds that started the empire in the first place,
+something that's never been done before.
+
+## Vaguely Russian Laughter
+
