@@ -92,7 +92,7 @@ Little else about it is as of yet known.
 similar but not exactly the same as Yoskrail.
 It has the most infuriating property
 of basing its syntax not on a tree but on a [double-ended queue][Deque],
-which makes for extremely flexible yet utterly reigid syntax
+which makes for extremely flexible yet utterly rigid syntax
 and the idea of a "word operator" that doesn't say anything solid
 but rather operate on the deque directly.
 
