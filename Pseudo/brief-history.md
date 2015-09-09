@@ -183,4 +183,39 @@ equals among the two worlds that started the empire in the first place,
 something that's never been done before.
 
 ## Vaguely Russian Laughter
+As probability would have it,
+there really happened to be one major interstellar war.
+This is when the conquest was nearly complete,
+with the contact of the Xaxex.
+It lasted several million years and about as many corpses.
+No, really!
+
+(At this point, it might be pertinent to remind you
+that superluminal speeds remain impossible,
+but barely seventy generations have gone past
+since the beginning of the expansion.)
+
+Overall, the Only War is slow on all fronts.
+Shots do not get fired more often than once a second anywhere,
+and lines change on a decade scale rather than a day scale.
+On the other hand, this is as much a war of words and hit-points
+as a war of guns and ships,
+with much of the battle being waged by diplomats
+and, suprisingly, *major-league gamers*!
+The role of the button-mashers in this war
+is as valuable as the ones wielding the orbital nukes,
+and all the while the companies making those games
+made fast ties and fat stacks.
+
+Daily life in the war is just as in ordinary life,
+with the occasional flash-away as civilians were whisked out of the way
+(actually, they didn't move very quickly,
+but their perception of time is so that it *looks* very quick,
+using the mechanism mentioned above.)
+Then a half a generation later,
+the war ended, and the two made up, more or less.
+J.-Pasaru and J.-Xaxex had an uneasy union for another few million years
+until they finally gave up all pretences they are separate and formed a union,
+completing the conquest of the galaxy 120 Myr after it began.
+
 
