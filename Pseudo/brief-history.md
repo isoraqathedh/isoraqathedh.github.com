@@ -1,5 +1,7 @@
-A Brief History of the Jesdic Pasaru
-====================================
+CSS: ../global/Default.css
+Title: A Brief History of the Jesdic Pasaru
+
+<h1 markdown=1 id="Title">[%Title]</h1>
 
 The Jesdic Pasaru has a long history behind it,
 spanning over one hundred million years,
@@ -126,11 +128,11 @@ the only thing one can do is to make it *look* faster.
 So a decision was passed to slow down the processing speed
 of the vast majority of the population instead.
 
-<aside>
+<div markdown=1><aside>
 One should get the idea that
 whoever the J.-Pasaru hosts,
-they are <em>not</em> human in any way.
-</aside>
+they are *not* human in any way.
+</aside></div> <!-- There's a bit of a multimarkdown snafu here. -->
 
 There had been plenty of opt-outs and compromises, of course.
 Some groups took advantage of this slowdown to appear superhuman:
