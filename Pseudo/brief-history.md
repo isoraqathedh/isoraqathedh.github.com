@@ -152,7 +152,7 @@ and live to tell the tale.
 And in this dramatically altered world,
 they trudged on.
 
-## Q
+## The Mystery of Yet-another-nebula
 Surprisingly many places have life,
 but not many have *intelligent* life.
 It seems that in here,
