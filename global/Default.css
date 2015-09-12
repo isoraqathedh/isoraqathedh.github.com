@@ -20,7 +20,6 @@ body {
     margin:1% auto;
     border:thick solid #FFC800;
     position:relative;
-    -webkit-box-shadow: 4px 4px 20px #CE7A6A; /* << vnd.SC */
     box-shadow: -4px 4px 20px #CE7A6A;
     border-radius:3px;
 }
@@ -106,7 +105,7 @@ abbr .visibletitle {color:#EEE; letter-spacing:0;}
    Formatting by Semantics */
 
 /* Titles, versions and whatnot */
-#Title {
+#Title, #title {
     text-align:center;
     margin:0 -0.65em 1.5em;
     padding:0.75em 0;
@@ -131,10 +130,7 @@ abbr .visibletitle {color:#EEE; letter-spacing:0;}
     padding:2px;
     width:10em;
     box-shadow: inset 0px 0px 5px black;
-    -webkit-box-shadow: inset 0px 0px 5px black; /* << vnd.SC */
     border-radius:4px;
-    -moz-border-radius:4px;                   /* << vnd.Fx */
-    -webkit-border-radius:4px;                /* << vnd.SC */
 }
 #versionnumber, #versionnumberhtml, #versionnumbercss, #versionnumberjs {
     font-weight:bolder;
@@ -173,7 +169,6 @@ abbr .visibletitle {color:#EEE; letter-spacing:0;}
     width:10em;
     border-radius:4px;
     box-shadow: inset 0px 0px 5px black;
-    -webkit-box-shadow: inset 0px 0px 5px black; /* << vnd.SC */
 }
 #bsupport:before {
     content: "Browser Support";
@@ -186,7 +181,6 @@ abbr .visibletitle {color:#EEE; letter-spacing:0;}
     padding:1px 3px;
     border-radius:4px;
     box-shadow: inset 0px 0px 5px black;
-    -webkit-box-shadow: inset 0px 0px 5px black; /* << vnd.SC */
 }
 #bsupport>* {
     border:1px solid #FFC800;
@@ -310,19 +304,13 @@ aside {
     color:rgba(136, 136, 136, 0.85);
     font-size:90%;
     box-shadow: -4px 0px 3px rgba(204, 204, 204, 0.85);
-    -webkit-box-shadow: -4px 0px 3px rgba(204, 204, 204, 0.85); /* << vnd.SC */
     transition: border 1s, background-color 1s, color 1s, box-shadow 1s;
-    -moz-transition: border 1s, background-color 1s, color 1s, box-shadow 1s; /* << vnd.Fx */
-    -webkit-transition: border 1s, background-color 1s, color 1s, -webkit-box-shadow 1s; 
-    /* ^^ vnd.SC */
-    -o-transition: border 1s, background-color 1s, color 1s, box-shadow 1s;   /* << vnd.OP */
 }
 aside:hover {
     border:1px solid #CCC;
     background-color:#FFFFFF;
     color:#888;
     box-shadow: -4px 0px 3px #CCC;
-    -webkit-box-shadow: -4px 0px 3px #CCC; /* << vnd.SC */
 }
 aside p {color:#888;}
 aside.flip {float:left; background-image:url("../img/clipflip.png"); background-position:left 15%;
