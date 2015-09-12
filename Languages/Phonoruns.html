@@ -4,6 +4,8 @@
 <meta charset="UTF-8"/>
 <link rel="stylesheet"  href="../global/Default.css"  media="all"/>
 <script src="../global/general.js"></script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <title>Syllabic Denial</title>
 <style>
   *[lang="art-x-Rs"] {
@@ -281,13 +283,8 @@
     Phonorun languages seemingly never seem to include phonemic stress in Pseudo.
   </p>
   <p>The length of a particular run roughly follows a power law, viz: </p>
-  <p>
-    <var>T</var> = <var>constant</var> &times;
-    <var>n</var>
-    <sup>
-      <sup>5</sup>&#x2044;<sub>4</sub> +
-      <sup><var>n</var></sup>&#x2044;<sub>48</sub>
-    </sup>
+  <p class="math">
+    \[T(n) = k n^{\frac{3}{2} - \frac{n}{48}}\]
   </p>
   <p>
     As you can see, the power law isn't exact,
