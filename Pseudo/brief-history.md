@@ -1,7 +1,7 @@
 CSS: ../global/Default.css
 Title: A Brief History of the Jesdic Pasaru
 
-<h1 markdown=1 id="Title">[%Title]</h1>
+# [%Title] [Title] #
 
 The Jesdic Pasaru has a long history behind it,
 spanning over one hundred million years,
