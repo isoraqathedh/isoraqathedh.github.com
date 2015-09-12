@@ -29,9 +29,14 @@ there was the formation of civilisation.
 Then separate countries and kingdoms formed,
 and there was war, trade and various related side-effects of civilisation.
 For our purposes, not much in the interim matters,
-just that by the time &minus;700 PDN rolls around
-the stage was set for a fairly large war: the World War.
+except there's always been something odd going on with regards to causality.
+It seems like there are quite a few things that, to an outside observer,
+would look out of place. Effects seem to precede causes sometimes,
+and there are things whose origins seem elusive, even nonexistent.
+This would come into play later.
 
+By the time &minus;700 PDN rolls around
+the stage was set for a fairly large war: the World War.
 The War itself is also not very important,
 but what happened afterwards is.
 The post-War period is called the Restitution,
@@ -218,4 +223,10 @@ J.-Pasaru and J.-Xaxex had an uneasy union for another few million years
 until they finally gave up all pretences they are separate and formed a union,
 completing the conquest of the galaxy 120 Myr after it began.
 
+# Part 3: The First Crisis and Deus ex Machina
+Nothing much happened for the next billion years or so.
+Then, it was time to address the elephant in the room: entropy.
 
+## Terminal Gift
+Naturally, there is no easy way out to the decreasing stocks of negentropy.
+Many 
