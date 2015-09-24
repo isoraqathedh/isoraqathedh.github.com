@@ -1,7 +1,7 @@
 CSS: ../global/Default.css
 Title: A Brief History of the Jesdic Pasaru
 
-# [%Title] [Title] #
+# A Brief History of the Jesdic Pasaru [Title] #
 
 The Jesdic Pasaru has a long history behind it,
 spanning over one hundred million years,
@@ -227,6 +227,11 @@ completing the conquest of the galaxy 120 Myr after it began.
 Nothing much happened for the next billion years or so.
 Then, it was time to address the elephant in the room: entropy.
 
+<!-- It is also where we take a violent swing
+from something that resembles science fiction to fantasy. Hope you enjoy! -->
+
 ## Terminal Gift
 Naturally, there is no easy way out to the decreasing stocks of negentropy.
-Many 
+Many have tried to solve the problem,
+but it seems like there's nothing that can be done with it.
+It's possible to solve this problem by means
