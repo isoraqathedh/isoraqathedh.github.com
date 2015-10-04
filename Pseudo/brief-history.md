@@ -40,7 +40,7 @@ the stage was set for a fairly large war: the World War.
 The War itself is also not very important,
 but what happened afterwards is.
 The post-War period is called the Restitution,
-where there had been various trading of powers and resources
+ēwhere there had been various trading of powers and resources
 to make the world more homogeneous.
 The most important part about it is that not long after,
 there was the establishment of a world "government",
@@ -234,4 +234,144 @@ from something that resembles science fiction to fantasy. Hope you enjoy! -->
 Naturally, there is no easy way out to the decreasing stocks of negentropy.
 Many have tried to solve the problem,
 but it seems like there's nothing that can be done with it.
-It's possible to solve this problem by means
+It's possible to solve this problem in theory,
+because causality violations open a host of strange things,
+chief among them being a limitless source of energy,
+which would be very useful in negating entropy
+by means of an endless source of useful energy
+that may come out of nowhere.
+
+Then, something interesting happened.
+
+One day, all over the empire, strange machines show up.
+It resembles an old computer,
+with a big block of buttons and a simple flipboard display for output.
+On it was written, in plain E.-Pasaru, plain for all to see:
+
+> Greetings.
+> 
+> We are a group who you may be familiar with,
+> but we will only say for sure who we are when you are ready.
+> We gift your kind this machine
+> to alter and tweak the world as you see fit,
+> unshackled by some &ndash; but not all &ndash; laws of physics.
+> In particular, this machine will allow you to perform acts that violate causality.
+> We believe you have wanted this for a long time.
+> 
+> We will talk to you again if you can find us.
+> It would be a long while before that will happen.
+>
+> Also, Ondarȝ will live.
+> 
+> &ndash; We-who-live-beyond
+
+There are a number of reasons to believe
+that this message is directed at the empire:
+
+* The machines appear simultaneously
+  only in the reference frame of the galaxy,
+  whose only significant group, more or less, is the Empire;
+* It is written in Egonyota Pasaru,
+  the lingua franca of the entire empire;
+* It refers to recent developments,
+  as at the time Ondarȝ is best known as someone
+  whose survival will determine the fate of a fictional planet
+  on an ongoing television (or similar) series.[^Ondarzh]
+
+[^Ondarzh]: Ondarʒ is one of many television shows at the time.
+    While it is intensely popular while it lasted,
+    It is otherwise wholly unremarkable.
+
+And with that most problems have been solved more or less indefinitely,
+including any remaining poverty issues, illness issues, death issues,
+and of course the impending lack of free energy.
+The terminals simply conjure them up,
+and they seem to be immune to most destruction,
+as indicated by further investigation and its own documentation.
+And finally, the speed of light was finally broken –
+throwing enough energy at the problem
+seems to allow multiple incompatible laws of physics
+to happen at the same time in different scales.
+
+But with that crisis solved, what would they do?
+Explore the world, of course.
+And by world, we mean universe.
+
+## Out into the Void
+With the formerly inevitable death of the universe out of the way,
+millions of years melt by like butter in the centre of the Sun;
+with the universal speed limit all but abolished,
+millions of parsecs vanish like rabbits in the hat of a magician.
+Over the next few billion years the empire had nothing to do
+but to become bigger and bigger.
+But the ultimate question is: can you escape the universe?
+
+The answer is no:
+you cannot leave the universe, because you cannot leave existence.
+Which is fine, but clearly the we-who-live-beyond live somewhere special,
+<q>unreachable by mere spatial travel, no matter what speed<q>, says the FAQ.
+Instead, they suggested <q>a new direction in life</q>.
+
+Well, with that kind of clue, who needs a walkthrough?
+
+By now mastery of the terminals
+has gotten to the point where you can point a specially-constructed stick somewhere
+and control it remotely,
+so obviously the people who can do it are called magicians.
+They, along with the best engineers and such like,
+attempted to device a new way to move in a literal new direction:
+one perpendicular to all three spatial dimensions.
+After a (humanly) long time, they succeeded,
+and now they can freely navigate beyond to other "universes",
+for lack of a better word than
+"another causal patch in regular rules physics
+that may or may not have different laws altogether
+but remain conserved in some other respects".
+
+## Today
+After a briefly nasty surprise that at least some of their universes
+were in fact manifested back home as works of fiction
+and that they are in fact at least partly in control of the ones that they find,
+the details of which are undoubtedly *massively* fascinating and dramatic
+but also entirely superfluous,
+the J.-Pasaru has grown to encompass so many and so much
+that it sounds like a comical scaling of a small city
+where all the numbers in the datasheet
+has a couple dozen zeroes scrawled on one side or the other of it.
+There isn't much in the way of change or conflict nowadays;
+it's just an endless grind now that death himself has largely been made irrelevant.
+
+Recently the Empire celebrated its home's fifty billionth birthday
+while being itself a nice young thirteen billion years old,
+and in the interim of those thirteen billion years
+barely five thousand *single* *very well mixed*[^generations] generations have elapsed,
+meaning that the kilis, as a species,
+has kept its shape more or less the same for far longer than any reasonable estimate.
+As virtualisation becomes more and more of a thing
+the population soared to beyond all reason,
+and this is further compounded by all the old people who are not dying.
+Overall, much like the universe itself,
+the J.-Pasaru has managed to engineer itself into a steady state,
+that is, if it plays its cards right,
+both it and the universes it lives in will stay that way forever.
+
+[^generations]: The difference in the speed of life
+    of the emergency response teams versus everyone else
+    was carefully micromanaged
+    so that speciation does not occur
+    between the fast lives and the slow ones.
+    How this was done is not of interest to this article.
+
+However, even though several billion years have passed since the beginning of this eternity,
+several mysteries still remain, and many paths yet to be explored.
+For instance, though they have a good idea where they-who-live-beyond are,
+getting to there seems to be very hard for some reason,
+much harder than merely switching between universes.
+And the exact properties of the transformation of the universe,
+how time travel and acausality ties into what seems to be the only flaw
+in the theory of a computable and predictable universe,
+and *why* random fictional settings manifest in alternate realities
+are still very much active regions of investigation.
+But for the most part, the empire is relatively optimistic that these problems can be solved.
+
+After all, they have but an eternity to mull on them.
