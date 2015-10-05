@@ -26,7 +26,7 @@ Settings become static snapshots, with no action planned.
 Those in mid-fight –
 there's got to be a few, although I have never actually seen one –
 are probably quite sore right now as they held their positions,
-waiting for the next instruction which would most likely never come.
+waiting for the next instruction. I'm not holding my breath.
 
 But even though the timeline within each story is perfectly set in stone,
 the medium in which it is told in is more akin to an abandoned city,
@@ -58,7 +58,8 @@ detailing each and every one of them in great and perhaps excessive detail.
 Were I to download all of them now
 (at least those that still have a working image to them!),
 take out the names, some details and maybe that weird pattern on the shirt,
-would he still recognise his creation? Is he *willing* to do so?
+would the creator, when shown this slightly redacted text,
+still recognise his creation? Is he *willing* to do so?
 What if I wait another two or three years? Ten?)
 
 But no matter, what now, I thought,
@@ -69,7 +70,7 @@ and the static format slowly falling apart.
 But this is a fragile thing,
 for if I were to reveal its identity,
 the very source of the eerieness of worlds frozen in time will be broken,
-as visiters might be invited to come in and attempt to revitalise the place.
+as visitors might be invited to come in and attempt to revitalise the place.
 This is a unique opportunity that seems to be unable to be shared.
 
 For now, though, there's little that I can do
