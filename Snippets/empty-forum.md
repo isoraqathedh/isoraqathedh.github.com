@@ -1,6 +1,8 @@
 Title: Walking into an Empty Forum
 CSS: ../global/Default.css
 
+# [%Title] [Title] #
+
 Trawling my memory one Sunday evening,
 I remembered an old roleplaying forum that I used to slurp data from.
 Well, I thought, maybe I should go and take a look at how it's going.
