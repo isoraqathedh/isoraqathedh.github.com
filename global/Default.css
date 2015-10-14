@@ -197,7 +197,7 @@ abbr .visibletitle {color:#EEE; letter-spacing:0;}
 .smallcaps, .middlecase, .sc {font-variant:small-caps;} /* Small capitals shortener */
 
 /* Links and linksets */
-.linkset a, .foot a, a.foot {text-decoration:none; color:#1A1AFF;}
+.linkset a, .foot a, a.foot, nav#TOC a {text-decoration:none; color:#1A1AFF;}
 .linkset a:hover, a[href^="#footnote-"]:hover {text-decoration:none; color:#5A16D4;}
 
 /* Navigation bar stuff */
@@ -213,14 +213,6 @@ div.firsthalf {float:left;width:50%;border-right:1px solid #888;margin-right:3px
 .navblock div.part {border-bottom:3px double #888; height:50px;}
 .navblock img {height:50px;}
 
-/* Code coloring! */
-code[class] {border-top:1px solid; border-bottom:1px solid;}
-code[class]:before {content:attr(class)": "; font-size:80%;}
-code.regex {border-color:#880000 transparent; background-color:#FF9999;}
-code.XML   {border-color:#008800 transparent; background-color:#99FF99;}
-code.HTML  {border-color:#006600 transparent; background-color:#AAFFAA;}
-code.meta1 {border-color:#884400 transparent; background-color:#FFAA99;}
-:lang(zh) {font-family:code2000, "MS PMincho";}
 del {color:#888;}
 ins {border-bottom:1px dotted green; text-decoration:none;}
 
@@ -389,4 +381,55 @@ a.footnote {
 
 div.footnotes li p:first-child {
     text-indent:0;
+}
+
+/* ---------------------------------
+   TOCs inserted by Pandoc */
+nav#TOC:before {
+    content: "Table of Contents";
+    font-size:125%;
+    font-variant:small-caps;
+    font-weight:bold;
+    width:100%;
+    margin:0;
+    padding:4px 0;
+    background:#AF2303;
+    display:block;
+    text-align:center;
+}
+
+nav#TOC {
+    color:#FFC800;
+	font-size:100%;
+	width:30%;
+	margin:0 1em;
+	border-width:1px;
+	float:left;
+    border:2px solid #666;
+	background-color:#FFC800;
+}
+
+body>nav#TOC ul, body>nav#TOC ol {
+	margin:8px auto 0;
+	font-size:80%;
+	padding:0 2em 0;
+	font-weight:normal;
+	color:#AF2303;
+}
+body>nav#TOC ol {
+	text-align:left;
+	padding:0.1em 0 0.2em 2em;
+	margin-left:0;
+	margin-right:0;
+}
+body>nav#TOC ol li {
+	margin:0 0.1em;
+}
+body>nav#TOC ol ol {
+	font-size:100%;
+	padding-top:0;
+	margin-top:0;
+}
+body>nav ul li:first-child:before {
+	content:none;
 }
