@@ -91,7 +91,7 @@ with no fewer than four scripts pulling their individual weight.
 and is spoken in North Abeĉo.
 Little else about it is as of yet known.
 
-[**Ya-kĕnaj** (None posted yet)][XAX-Ya] is a programmer's cant
+(@13) [**Ya-kĕnaj**][XAX-Ya] is a programmer's cant
 similar but not exactly the same as Yoskrail.
 It has the most infuriating property
 of basing its syntax not on a tree but on a [double-ended queue][Deque],
