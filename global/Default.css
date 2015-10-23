@@ -28,6 +28,7 @@ body {
 p {font-family:Proportional; text-indent:50px;}
 p.center {text-indent:0px; text-align:center;}
 h1, h2, h3, h4, h5, h6 {color:#B05D4A; font-variant:small-caps; font-family:Georgia;}
+h1, h2 {clear:both;}
 h1 {font-size:22px; color:#AF2303; border-bottom:2px solid #AF2303;}
 h2 {font-size:19px; color:#B04027; border-bottom:1px solid #FFC800;}
 h3 {font-size:16px;}
@@ -150,11 +151,11 @@ abbr .visibletitle {color:#EEE; letter-spacing:0;}
 #versionnumberhtml:after {content:"<html>";}
 #versionnumberjs:after {content:"js();"}
 #versionnumbercss:after, #versionnumberhtml:after, #versionnumberjs:after {
-    display:block;
-    font-family:monospace;
-    font-size:90%;
-    font-style:normal;
-}
+                                                       display:block;
+                                                       font-family:monospace;
+                                                       font-size:90%;
+                                                       font-style:normal;
+                                                   }
 
 /* Browser Supports */
 #bsupport {
@@ -250,10 +251,10 @@ optgroup {font-style:normal;}
 form {border:1px dashed #FFC800; display:block; padding:1%;}
 input[type="text"] {background:#FFF;border:1px solid #888; padding:2px;}
 input:focus[type="text"], input:focus[type="number"] {
-    background:#FFE;
-    border:2px solid #888;
-    padding:1px;
-}
+                              background:#FFE;
+                              border:2px solid #888;
+                              padding:1px;
+                          }
 input[type="number"] {
     background:#FFF;
     border:1px solid #888;
@@ -370,66 +371,3 @@ body>footer:last-of-type {
 #last:after {content: " »»»";}
 footer nav.linkset {height:4.75em; border-bottom:1px solid #FFD375; margin-bottom:3em;}
 #titleshow {display:block; width:100%; margin:1px auto;}
-
-/* ---------------------------------
-   Footnotes inserted by Markdown */
-
-a.footnote {
-    vertical-align:super;
-    font-size:80%;
-}
-
-div.footnotes li p:first-child {
-    text-indent:0;
-}
-
-/* ---------------------------------
-   TOCs inserted by Pandoc */
-nav#TOC:before {
-    content: "Table of Contents";
-    font-size:125%;
-    font-variant:small-caps;
-    font-weight:bold;
-    width:100%;
-    margin:0;
-    padding:4px 0;
-    background:#AF2303;
-    display:block;
-    text-align:center;
-}
-
-nav#TOC {
-    color:#FFC800;
-	font-size:100%;
-	width:30%;
-	margin:0 1em;
-	border-width:1px;
-	float:left;
-    border:2px solid #666;
-	background-color:#FFC800;
-}
-
-body>nav#TOC ul, body>nav#TOC ol {
-	margin:8px auto 0;
-	font-size:80%;
-	padding:0 2em 0;
-	font-weight:normal;
-	color:#AF2303;
-}
-body>nav#TOC ol {
-	text-align:left;
-	padding:0.1em 0 0.2em 2em;
-	margin-left:0;
-	margin-right:0;
-}
-body>nav#TOC ol li {
-	margin:0 0.1em;
-}
-body>nav#TOC ol ol {
-	font-size:100%;
-	padding-top:0;
-	margin-top:0;
-}
-body>nav ul li:first-child:before {
-	content:none;
-}

@@ -1,0 +1,100 @@
+/* ---------------------------------
+   Footnotes inserted by Markdown (or Pandoc) */
+
+a.footnote {
+    vertical-align:super;
+    font-size:80%;
+}
+
+section.footnotes li p, div.footnotes li p {
+    margin-top:0;
+    margin-bottom:0.2em;
+}
+
+section.footnotes li, div.footnotes li {
+    margin-bottom:1em;
+}
+
+section.footnotes li p:first-child,
+div.footnotes li p:first-child {
+    text-indent:0;
+}
+
+/* ---------------------------------
+   Title block inserted by Pandoc
+   Annyoingly, Pandoc automatically places H1 and H2 elements rather than divs.
+   They aren't headers, after all. But oh well. */
+
+header {
+    margin:0 -1em 1.65em;
+}
+
+header h1.title {
+    background-color: #FFC800;
+    margin:0;
+}
+
+header h2.author {
+    text-align:right;
+    margin:0;
+    border-bottom:0px;
+    padding:0.2em;
+    background-color:#FFD024;
+}
+
+header h3.date {
+    margin: 0;
+    padding:0.2em;
+    text-align:right;
+    background-color:#FFDE5F;
+}
+
+/* ---------------------------------
+   TOCs inserted by Pandoc */
+nav#TOC:before {
+    content: "Table of Contents";
+    font-size:125%;
+    font-variant:small-caps;
+    font-weight:bold;
+    width:100%;
+    margin:0;
+    padding:4px 0;
+    background:#AF2303;
+    display:block;
+    text-align:center;
+}
+
+nav#TOC {
+    color:#FFC800;
+    font-size:100%;
+    width:30%;
+    margin:0 1em;
+    border-width:1px;
+    float:left;
+    border:2px solid #666;
+    background-color:#FFC800;
+}
+
+body>nav#TOC ul, body>nav#TOC ol {
+    font-size:80%;
+    padding:0 2em 0;
+    font-weight:normal;
+    color:#AF2303;
+}
+body>nav#TOC ol {
+    text-align:left;
+    padding:0.1em 0 0.2em 2em;
+    margin-left:0;
+    margin-right:0;
+}
+body nav#TOC li {
+    margin:0;
+}
+body>nav#TOC ol ol, body>nav#TOC ul ul {
+    font-size:100%;
+    padding-top:0;
+    margin-top:0;
+}
+body>nav ul li:first-child:before {
+    content:none;
+}
