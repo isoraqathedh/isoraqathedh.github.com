@@ -34,7 +34,7 @@
  (section-divs)
  (email-obfuscation)
  (title-prefix)
- (css "../global/Default.css")
+ (css "../global/Default.css" "../global/pandoc.css")
  (id-prefix)
  (reference-links)
  (atx-headers)
