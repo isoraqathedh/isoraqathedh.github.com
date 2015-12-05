@@ -481,4 +481,8 @@ However, yet other alternatives are given,
 which may shed light to what I think is and is not a story.
 
 # Feedback #
-_(This section forthcoming. It will be filled up as I receive feedback.)_
+(This section will continue to build up as I receive feedback.)
+
+## Wow, you really have a dim view on representation. Excessively dim, even. ##
+After talking to a few other people on this,
+I conclude that the dim view
