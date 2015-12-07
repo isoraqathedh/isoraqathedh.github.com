@@ -179,6 +179,28 @@ group names have little to do with the names of its constituents.
 We'll get to that later.)
 
 ## Equilibrium ##
+Eventually, the situation slowly settles down into an uneasy but stable state,
+a state where many people still hate many other people
+and there are the occasional battles here and there
+but overall no one is hurt too badly for anyone to care
+and it just goes on like an interesting study in chaos theory.
+
+Of course, just because not too many was seriously hurt by this
+doesn't mean that *no one* was seriously hurt,
+and the infrastructure *definitely* took a hit
+over all the overpowered fighting that goes on.
+That gets rolled into the maintenance costs,
+and while the entire situation
+looks very much like a broken window fallacy deal,
+It did over the years spur on the development of stronger materials
+that can resist the scary damage that the buminredexu can output.
+Even so the sign that many motorists in Bigencenryin fear is
+the dreaded *zencuru lenigime* sign – "avoiding superheroes",
+but more technically the battles they have and the damage they make.
+
+And so, life goes on, and the bulk of the backstory ends here.
+There are some more history that goes on later,
+but this is the main backdrop behind which many of the comic books start on.
 
 # Publication background #
 The literature history of Pasaru at the time
