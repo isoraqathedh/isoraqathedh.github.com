@@ -15,3 +15,9 @@ function init() {
         // For IE 8 and earlier versions
         document.getElementById("generateButton").attachEvent(
             "onclick", GenPlot);}}
+
+function transformArrayToObject(oldArrayFormat) {
+    var objVersion = {};
+    for (var i in oldArrayFormat) {
+        objVersion[oldArrayFormat[i][0]] = oldArrayFormat[i][1];}
+    return objVersion;}
