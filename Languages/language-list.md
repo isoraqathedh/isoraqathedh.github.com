@@ -3,10 +3,12 @@ title: The Grand List of Languages
 ...
 
 Below is a list of languages that I maintain.
-It supersedes [this post](http://isoraqathedh.tumblr.com/post/104459911185/blurbs-for-all-the-languages)
-and [this page](http://isoraqathedh.tumblr.com/language-list),
+It supersedes [this post][old-post] and [this page][old-page],
 both of which I shall leave up to maintain links.
 However, the second page has been edited to only show a link to this page.
+
+[old-post]: http://isoraqathedh.tumblr.com/post/104459911185/blurbs-for-all-the-languages
+[old-page]: http://isoraqathedh.tumblr.com/language-list
 
 # The Four Languages of the Jesdic Pasaru
 (@1) The official language of the Jesdic Pasaru,
@@ -72,6 +74,13 @@ These have grown to be so numerous that they are now divided by planet.
     for its tricky application of phonemic prevocalisation
     (written using # for that matter), heavy use of tu-vous
     and strange loops in its registers.
+(@17) [**Nnn Heeel**][PSD-NH] is the result of a language
+    that has lived too close to (@10).
+    Primarily, the effect is that it has drawn out a lot of its letters
+    to three times the usual length.
+    Grammar-wise it prides itself on being the exact reverse of Rattssaw,
+    piling a ton of morphemes onto the noun
+    and with verbs being largely isolating.
 
 [PSD-Yk]: http://isoraqathedh.tumblr.com/tagged/Yoskrai
 [PSD-HI]: http://isoraqathedh.tumblr.com/tagged/Hesmai-Iok
@@ -79,22 +88,23 @@ These have grown to be so numerous that they are now divided by planet.
 [PSD-Cd]: http://isoraqathedh.tumblr.com/tagged/Cindri
 [PSD-Ag]: http://isoraqathedh.tumblr.com/tagged/%C3%82agenzb%C3%A8e
 [PSD-GE]: http://isoraqathedh.tumblr.com/search/Gwa-elohba (Linking the tag doesn't work. Really, Tumblr!)
+[PSD-NH]: http://isoraqathedh.tumblr.com/tagged/Nnn-Heeel
 
 ## Xaxex
 (@11) [**Sekapon**][XAX-Sk] is the language of South Abeĉo.
-It’s well known for its multiple script system,
-which resembles a souped-up version of Japanese
-with no fewer than four scripts pulling their individual weight.
+    It’s well known for its multiple script system,
+    which resembles a souped-up version of Japanese
+    with no fewer than four scripts pulling their individual weight.
 (@12) [**Ouduec Fxelw**][XAX-OF] has a large phonetic inventory
-and is spoken in North Abeĉo.
-Little else about it is as of yet known.
+    and is spoken in North Abeĉo.
+    Little else about it is as of yet known.
 (@13) [**Ya-kĕnaj**][XAX-Ya] is a programmer's cant
-similar but not exactly the same as Yoskrail.
-It has the most infuriating property
-of basing its syntax not on a tree but on a [double-ended queue][Deque],
-which makes for extremely flexible yet utterly reigid syntax
-and the idea of a "word operator" that doesn't say anything solid
-but rather operate on the deque directly.
+    similar but not exactly the same as Yoskrail.
+    It has the most infuriating property
+    of basing its syntax not on a tree but on a [double-ended queue][Deque],
+    which makes for extremely flexible yet utterly rigid syntax
+    and the idea of a "word operator" that doesn't say anything solid
+    but rather operate on the deque directly.
 
 [XAX-Sk]: http://isoraqathedh.tumblr.com/tagged/Sekapon
 [XAX-OF]: http://isoraqathedh.tumblr.com/tagged/Ouduec-Fxelw
