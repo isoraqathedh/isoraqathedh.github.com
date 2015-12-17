@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Generator test</title>
+    <script src="gen-engine.js"></script>
+    <script src="test-data.js"></script>
+    <script src="init.js"></script>
+    <!--
+         gen-engine.js can be reused for every generator.
+         test-data.js on the other hand
+         is only responsible for one and only one generator,
+         namely holding the data for the generator to use.
+         init.js puts these files together
+         by defining a function that slips objvocab defined in test-data
+         into the engine defined in gen-engine.
+         This should only be done after the entire page finishes loading,
+         so init() is placed as far to the end of the HTML file as possible.
+     -->
+    <link rel="stylesheet" href="../global/Default.css"/>
+    <style>
+      #out {
+          height: 8em;}
+    </style>
+  </head>
+  <body>
+    <h1 id="Title">Generator test</h1>
+    <textarea id="out"></textarea>
+    <button id="generateButton">Press for generation.</button>
+    <script>init();</script>
+  </body>
+</html>
