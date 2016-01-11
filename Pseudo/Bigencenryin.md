@@ -203,6 +203,11 @@ There are some more history that goes on later,
 but this is the main backdrop behind which many of the comic books start on.
 
 # Publication background #
+Though the idea of a character seems to most of us as fairly straightforward,
+but as so it turns out this is not the case in Pasaru.
+In fact, before the publication of _Bigencenryin_,
+the world of literature has never once heard of this seemingly basic idea.
+
 The literature history of Pasaru at the time
 is much more mature than the paragraph above gives it credit for.
 There had been many stories written before _Bigencenryin_ and after it,
