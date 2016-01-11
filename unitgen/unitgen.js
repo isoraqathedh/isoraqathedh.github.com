@@ -148,7 +148,7 @@ function conversionFactor(quantity, generatedSystem) {
     for (fundamental in baseUnits) {
         result *= Math.pow(generatedSystem[fundamental], baseUnits[fundamental]);}
     return result;}
-        
+
 /* HTML handling */
 
 var keyPlaces = {};
@@ -194,12 +194,12 @@ function createDerivedInputField(unitName) {
     // Creates the unit display field for derived units.
     var fieldSet = document.createElement("div");
     fieldSet.setAttribute("id", unitName + "-assembly");
-    
+
     var unitLabel = document.createElement("label");
     unitLabel.setAttribute("for", unitName + "-entry");
     var unitLabelText = document.createTextNode(unitName);
     unitLabel.appendChild(unitLabelText);
-    
+
     var inputBox = document.createElement("input");
     inputBox.setAttribute("id", unitName + "-entry");
     inputBox.setAttribute("disabled", "disabled");
@@ -214,7 +214,7 @@ function getFundamentalQuantities() {
 
     // Run through the list of fundamental units.
     // Then take the values on the input field, scooping up any that are held.
-    var result = {}
+    var result = {};
     for (entry in fundamentals) {
         if (document.getElementById(entry + "-held").checked) {
             result[entry] = parseFloat(document.getElementById(entry + "-entry").value);}}
@@ -246,4 +246,3 @@ function uginit() {
     for (i in derived) {
         createDerivedInputField(i);}
     document.getElementById("generateButton").addEventListener("click", makeSystem);}
-    
