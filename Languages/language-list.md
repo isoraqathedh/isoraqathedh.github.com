@@ -75,12 +75,13 @@ These have grown to be so numerous that they are now divided by planet.
     (written using # for that matter), heavy use of tu-vous
     and strange loops in its registers.
 (@17) [**Nnn Heeel**][PSD-NH] is the result of a language
-    that has lived too close to (@10).
+    that has lived too close to Rattssaw.
     Primarily, the effect is that it has drawn out a lot of its letters
     to three times the usual length.
     Grammar-wise it prides itself on being the exact reverse of Rattssaw,
     piling a ton of morphemes onto the noun
     and with verbs being largely isolating.
+    It also has an extremely awkward number system.
 
 [PSD-Yk]: http://isoraqathedh.tumblr.com/tagged/Yoskrai
 [PSD-HI]: http://isoraqathedh.tumblr.com/tagged/Hesmai-Iok
