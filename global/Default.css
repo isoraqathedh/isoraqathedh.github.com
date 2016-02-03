@@ -312,7 +312,8 @@ aside.flip {float:left; background-image:url("../img/clipflip.png"); background-
 /* ---------------------------------
    Figures */
 figure {border:1px solid #CCC; background:#EEE; padding:0.25em;}
-figure.side {float:left; margin:0.5em; max-width:50%;}
+figure.side, figure.small {float:right; margin:0.5em; max-width:50%;}
+figure.small {; margin:0.5em; max-width:30%;}
 figure.numd:before {
     counter-increment:figure 1;
     content:"Figure "counter(figure);
