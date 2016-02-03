@@ -94,6 +94,7 @@ body>nav#TOC ol ol, body>nav#TOC ul ul {
     font-size:100%;
     padding-top:0;
     margin-top:0;
+    padding-right:0;
 }
 body>nav ul li:first-child:before {
     content:none;
