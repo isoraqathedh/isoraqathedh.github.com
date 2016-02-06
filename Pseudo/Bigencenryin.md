@@ -527,7 +527,7 @@ work multiple jobs in the same period of time.
 This inevitably results in leakages of data from one story to another,
 but no one really cares particularly because,
 as the Grand Ethics Committee put it (although not in the same words),
-*de minimis* is a very stiff defense.
+*de minimis* is a very stiff defence.
 
 With all that said and done
 _Team Making Bigencenryin_ would have amassed a total of one thousand units,
@@ -656,23 +656,28 @@ However, "deterministic-as-default" is the overarching principle.
 This "character is world" thought will now be fleshed out
 with a couple of examples.
 
-### Zencuru and Gobidri ##
+### Zencuru and Clibinmre ##
 At first, Zencuru was merely the self-styled leader of the Onicleu refugees.
 Slowly however the story shifts to focus on him more and more
 and that makes him the protagonist of the story.
-On the other hand Gobidri was the primary dissenter of Zencuru
+On the other hand Clibinmre was the primary dissenter of Zencuru
 and therefore makes perfect sense to be the antagonist.
 
 The arrangement of pro- and antagonist
 is more or less an arbitrary choice made by the author;
 were he to decide differently –
 and he well might because this was decided by a coin toss! –
-Gobidri might end up being the "good guy".
+Clibinmre might end up being the "good guy".
 In fact it has to be said that there is nothing in the story
 that says that either character is good or bad;
 this is determined in-universe however
-because Bigencenryin obviously doesn't like Gobidri's ideas
+because Bigencenryin obviously doesn't like Clibinmre's ideas
 on how they should be dealt with.
+
+<!-- Fun fact! An initial draft of this
+actually mixed up Clibinmre with Gobidri,
+another one of the Z.-Ulibeme who is in fact *not* an antagonist at all.
+Like I said, they are very much interchangeable with each other. -->
 
 ![A schematic showing the difference between a human's conception of a unit (a)
 to that of the kilis's conception (b).
@@ -683,12 +688,12 @@ into different decision nodules (blue circles).
 On the other hand, the mind of (a) (different shade of blue) is not divisible,
 and is inextricable from the rest of the body.](img/unit.png)
 
-Zencuru and Gobidri are therefore while important in the story
+Zencuru and Clibinmre are therefore while important in the story
 strangely interchangeable with each other.
 But because they are so important, they got the appendices in the book
 that detail their reactions to every single thought
 that has or will ever appear in their heads,
-and in a way it's not so much Zencuru or Gobidri are *actual units*
+and in a way it's not so much Zencuru or Clibinmre are *actual units*
 but are rather a bunch of algorithms and bodies
 that synthesise to *make up a unit*.
 In the mind of the author, there is no difference between these two things,
@@ -696,11 +701,11 @@ but Earthlings tend to view units as, well, a unit –
 indivisible, unanalysable,[^psychology]
 and *definitely* not made up of an algorithm and a body
 (at least, not *just* that).
-When we talk about Zencuru doing this or Gobidri doing that,
+When we talk about Zencuru doing this or Clibinmre doing that,
 what we are really talking of is that the *algorithms* that hold their name
 are reacting to this or that (and sometimes the body comes into play as well).
 
-So in the end, who are Zencuru and Gobidri and what are their raisons d'êtres?
+So in the end, who are Zencuru and Clibinmre and what are their raisons d'êtres?
 
 Zencuru is the sort-of-protagonist of the entirety of the Z.-Ulibeme,
 and he was the head of the refugee spaceship,
@@ -720,7 +725,7 @@ and a couple of his terminal values are:
 * Being able to fulfil a strong sense of leadership; and
 * Being able to demonstrate superiority over the environment
 
-Whereas Gobidri's terminal values[^fast-and-loose] are closer to:
+Whereas Clibinmre's terminal values[^fast-and-loose] are closer to:
 
 * Continued existence of the self, in the following ways:
     * His physical body;
@@ -757,9 +762,54 @@ the decision paths are followed, step by step.
 As for the others,
 a good bulk of them don't get appendices showing their every thought,
 at least not at first.
+Books published later expand on them later on,
+and an entire anthology of thought processes
+was published as a separate book not too long later.
+There really is a strong fixation on the whole thing.
+
+As with most "units" of the time,
+characters are stuck to a location, heavily associated with that location,
+and are rarely shown outside of that location.
+However, the special part about them is that
+unlike units in contemporary fiction, they are recycled.
+
+What that means is that unlike other stories where a unit is simply a tool,
+a means to an end that is meant to do one thing and one thing only,
+_Bigencenryin_ reuses its characters so they do more than one thing,
+and amazingly instructs them to do more than one thing at the same time.
+This means that the cast is generally smaller but more tight knit.
+Don't confuse this with any sort of characterisation however;
+for the most part the overriding factor
+is again the location that the character sits in
+and not any kind of "personality" that the unit possesses.
+
+For instance, there's Dibunme, the constable of the Bigencenryin Police Group.
+It's not surprising then that he only ever appears in the Grand Security Hall,
+and there's never a time when he doesn't appear at least some of the time in it,
+even if it is just to detail the 80-minute, 20-station commute[^metro]
+from there to the Zencuru residence.
+Or to his home.
+However, although he's virtually married to the Grand Security Hall
+he has far more than one duty other than as an information dispensary,
+as he would have been were he part of another story.[^roles]
+Being a
+
+[^metro]: A detailed explanation of how characters get around
+    comes hand-in-hand with the description of the lay of the land,
+    and in this "modern-style" story things like transportation and mass transit
+    are not going to be missing –
+    it's simply considered far too vital to any story.
+[^roles]: The idea behind an information dispensary is that
+    it's the source of some of the conflict behind some part of the story.
+    It's quite simple: it knows something, others do not,
+    others wish to know the thing, conflict arises.
 
 ## Continuity is King; Verboden te Retconen ##
 ## Box and Vector: Far From Realism ##
 # Response #
 ## The Sceptics Vindicated ##
 ## Fate of the Comic Book ##
+
+<!-- LocalWords:  Bigencenryin Bigencenryin's Onicleu Ulibeme kilis Retconen
+     LocalWords:  LocalWords Verboden img png Dibunme Zencuru
+ -->
