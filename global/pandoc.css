@@ -99,3 +99,11 @@ body>nav#TOC ol ol, body>nav#TOC ul ul {
 body>nav ul li:first-child:before {
     content:none;
 }
+figure {
+    max-width:30%;
+    float:right;
+}
+figure.full {
+    max-width:80%;
+    float:none;
+}

@@ -16,11 +16,7 @@ and how it is different from an Earthling flag
 
 # Components of an ovecs #
 
-<figure class="small">
-  <img src="img/Vohalyo.png"
-       alt="An example of an ovecs, that of Vohalyo." />
-  <figcaption>An example of an ovecs, that of Vohalyo.</figcaption>
-</figure>
+![An example of an ovecs, that of Vohalyo.](img/Vohalyo.png)
 
 An ovecs is a graphical group identification device
 that is primarily distinguished by the following parts,
