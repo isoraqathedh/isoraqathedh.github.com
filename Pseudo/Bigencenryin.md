@@ -14,6 +14,18 @@ The great experiment was to introduce a brand new element in literature
 that no one before thought was possible to be written into a story:
 the idea of a character.
 
+It was almost immediately a popular hit,
+but its popularity is very lopsided:
+some loved it, but others found its new features distracting and superfluous.
+Even so, it managed to evolve into a mature franchise,
+and spawned a litany of successor works,
+as well as inspired an entire genre of works
+that take some but not all of its unique properties.
+Its innovation is inspiring enough for it to be hailed as a Great Work
+and preserved as such,
+but it was not popular enough
+to completely revolutionise literature as was known.
+
 Although it seems rather silly to Earthlings,
 and most can scarcely believe such a central concept of a story
 can be absent for so long in the development of a civilised society,
