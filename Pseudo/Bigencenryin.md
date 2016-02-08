@@ -804,7 +804,24 @@ Or to his home.
 However, although he's virtually married to the Grand Security Hall
 he has far more than one duty other than as an information dispensary,
 as he would have been were he part of another story.[^roles]
-Being a
+For instance, he is invaluable for providing extra detail
+in solving the various mysteries that the Z.-Ulibeme are inevitably tasked with,
+but he is also the one who acts as a liaison between them
+and the rest of society.
+He too has some internal desires as well,
+which can – and do – interfere with his stated purpose
+as an information dispensary.
+
+However, do keep in mind that although they have some limited form of agency
+and much more personality than usual,
+they are still considered in the grand scheme of things
+as merely the "animate factor" of a story,
+which is basically a more-or-less random number generator
+that influences the story in a "biological manner".[^biological-manner]
+As such their personalities are still severely limited
+and in fact there are very few ways for a character to feel happy or sad
+apart from things happening in accordance to or in violation
+of their terminal values.
 
 [^metro]: A detailed explanation of how characters get around
     comes hand-in-hand with the description of the lay of the land,
@@ -815,13 +832,161 @@ Being a
     it's the source of some of the conflict behind some part of the story.
     It's quite simple: it knows something, others do not,
     others wish to know the thing, conflict arises.
+[^biological-manner]: The definition of doing something in a biological manner
+    is that it is done by something
+    that cannot be scrutinised in a physical sense.
+    Basically, they are things whose motivations cannot be answered
+    with a simple "because" then a phrase.
 
-## Continuity is King; Verboden te Retconen ##
+## Continuity is King – Verboden te Retconen ##
+If you know a lot about Earthling comic books,
+one very defining part of them is that the authors –
+of which there are thousands, spread across many time periods –
+keep, as a collective, writing themselves into a corner.
+What's worse, society changes around them so that to stay relevant and popular,
+they have to essentially restart the story over again
+in order to break new ground.
+Usually this comes with a new style (art, writing, clothes),
+a new thing from real life that can be incorporated into the story,
+or maybe it's just to explore the characters in a new direction
+(usually away from comedy and toward drama).
+
+In _Bigencenryin_, brought up in the world where continuity is king,
+this will never do.
+
+Every single event must be able to be placed in a timeline
+with all the date arithmetic[^date-arithmetic] checking out exactly.
+Furthermore there are no take-backs:
+everything must be explicitly excluded from the timeline outright
+(but it still must follow its own timeline strictly,
+or else define itself a brand new metric of time
+where the difference between (say) March 1 and March 15 is −3 days!)
+and if something was published that the authors regret,
+then tough, it's staying and it's there for good.
+However, this isn't as nasty as it sounds,
+because the environment these books are published in
+are very different from what you would expect from Earth:
+
+* There is relatively little expectation for the world to be like Pasaru's,
+  in any way, shape or form.
+  Readers are perfectly happy to accept ridiculous differences in value,
+  even ones that are [supposedly futuristic but now looks dated][zeerust],
+  and dated to the time period that the book was published in no less.
+* There *is* an expectation for any good story to produce a timeline of events,
+  and probably a whole calendar system to go with it.
+* In any case, society does not change very quickly.
+  As a rough sense of scale, 10 years of societal change in Pasaru
+  can equate to as few as 1 year of societal change on Earth
+  on time scales of 10 Earth years or more,
+  even though one year in Pasaru
+  is about the same physically as one year on Earth.
+* In some cases it may be hard to date the story anyway
+  because it uses some elements that are extremely fantastical
+  or the authors are extremely thorough in creating new standards
+  that don't tie the story to any particular time:
+  for instance, if the story features road signs,
+  then if it's mainly blues and greens with some yellow accents,
+  then you're pretty much temporally anonymous
+  at least ever since the global standards for such traffic signs was published
+  (which was a long while ago);
+  if you make sure to design them slightly differently
+  such that it still conforms to the standard
+  but are significantly different in size or form
+  then you can be confident in never dating your work,
+  because it's very unlikely
+  that anything like your fantasy standard would be made
+  and it would be even less so that it would then be made obsolete.
+* Kilis memory is quite good.
+  Not necessarily photographic,
+  but those with photographic memories
+  definitely do crop up a lot more than on Earth.
+  So the average kilis can commit more timeline details to memory
+  and keep everything together.
+  Combined with a stronger sense of arithmetic, if not maths outright,
+  a consistent timeline is not something that's too much to ask for.
+* There is "gullible" written on the ceiling
+  if you suggest that kilis
+  has anything even remotely approximating a fashion sense,
+  at least one that would change fast enough for existing designs
+  to look old.
+  (This is actually not so relevant as the next section will explain).
+
+Essentially a combination of reader expectation and slow pace of life
+made a vast and sprawling continuity that lasts entire billions of years
+entirely possible and entirely expected.
+The very idea of scrapping it all and starting over,
+or even scrapping a middling portion and starting over,
+is simply too much for readers to bear.
+This is also why as (real) time goes on
+the story expands to completely unrelated times and places
+that have increasingly tenuous links to the first story.
+And this is as true for _Bigencenryin_ as for any other story.
+
+In the end though a fixed timeline would have an end,
+since it's no longer "fight the Evil Force(s)
+and/or react to changing situations until further notice",
+even with the addition of a brand new puzzle type in the form of
+"let's predict how this algorithm of a character will react to next"
+it can only really go so far, and the story has to end somewhere.
+So it does, and the story is retold, exactly as is, in another viewpoint.
+In the meantime, and to extend the longevity of the franchise,
+the holding pattern of "find whatever trifling detail that readers want
+and expand everything about it" came to be.
+This isn't as boring as it sounds because almost universally
+a good story writing team would have at this point
+set enough constraint into the world
+that the justifications are going to be sufficiently complicated and interesting
+for the readers to chew on.
+
+In conclusion, a complete franchise reboot
+is unlikely in the current literary climate
+and has never happened with _Bigencenryin_,
+or in fact most stories that it is contemporary with.
+Instead of starting the story over again,
+the franchise is willing to retread old ground
+and explore different sections of the timeline,
+because, after all, if you're not starting from the beginning of the universe
+(be it scientific or otherwise)
+then you're not telling the whole story.
+
+[^date-arithmetic]: For any self-respecting Team
+    there is a Working Group that crunches the time differences
+    and works out the date arithmetic for the rest.
+    This group eventually grew up to be the programmers and database interface
+    as information technology entered the storytelling scene.
+
+[zeerust]: http://tvtropes.org/pmwiki/pmwiki.php/Main/Zeerust
+    "The concept works just as well in Pasaru as it does on Earth."
+
 ## Box and Vector: Far From Realism ##
+So we've talked a lot about how the book is made,
+and how a franchise's life cycle ends up being,
+but there is still the important question of what the book looks like.
+As stated earlier, _Bigencenryin_ is a comic book,
+which would mean that most of the story is expressed
+in the form of a series of pictures with dialogue in speech bubbles.
+This turns out not to be too far from the truth,
+but there is a significant difference
+that anyone would be able to see from the outset.
+
+The art style is *extremely simplistic*.
+
+There's no two ways about it:
+Not only is it abstracted and symbolic,
+it's also got a *specification* rather than a *style*,
+and most of the time any given situation
+would only have a handful of right ways of handling it, if not just one.
+This specification is, with few exceptions, strictly adhered to
+and allows anyone to imitate or avoid the style as is necessary.
+
+### Specification Summary ###
+
+### Origin ###
+
 # Response #
 ## The Sceptics Vindicated ##
 ## Fate of the Comic Book ##
 
 <!-- LocalWords:  Bigencenryin Bigencenryin's Onicleu Ulibeme kilis Retconen
-     LocalWords:  LocalWords Verboden img png Dibunme Zencuru
+     LocalWords:  Verboden img png Dibunme Zencuru zeerust lenigime
  -->
