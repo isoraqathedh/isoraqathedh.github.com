@@ -1,0 +1,84 @@
+---
+title: Languages and Public Intuitions of Quality
+date: 2016-03-11
+...
+
+This is a post about constructed languages rather than conlanging proper,
+and certain members of the audience may have already heard about it,
+and had their views incorporated.
+
+# § α #
+
+There's something about creating a language
+that makes it not as rewarding as, for instance,
+maintaining a webcomic or building music.
+That something is public recognition.
+
+Unlike most visual and aural arts,
+the public does not have an intuition on what makes a good language,
+or rather, what *doesn't* make a good language,
+taking into account the inherent asymmetry of quality
+that says that it's possible for something to be unambiguously poor quality
+but nothing to be ambiguously good quality.
+Ask a random man on the street what makes a good song or a good picture
+and he'll say something like "it's got a strong melody" or
+"it doesn't use clashing colours",
+and when pressed further
+he will most likely to be able to give examples and non-examples of quality,
+even if it is not derived from first principles.
+For instance, Picasso is a good artist, Nickleback is not.
+The same man when questioned about what makes a good language
+would probably mutter something insubstantial about "logical" or "easy to learn"
+and be unable to provide any (non-)examples
+beyond his native language(s), English or Esperanto if you are really lucky.
+Demanding that he provide a constructed language as (non-)examples
+would be about as fruitful as asking for liquid water on the Sun.
+
+In fact, for most people asking for a what makes a good language
+is about as coherent as asking for a what makes a good light fixture;
+languages, like light fixtures, just *are*,
+and cannot be judged to be good or bad,
+no more than you can judge whether <var>g</var> = 9.81 m s<sup>−2</sup>
+or that the sun rises in the east is good or bad.
+It's a given, a backdrop to the world and not actually part of the world itself.
+
+# § β #
+
+While this is all just idle speculation,
+it does have measurable consequences.
+For those who do eventually pick up conlanging
+would be deprived of something
+that the artist or the composer might have an easier time finding: feedback.
+If you make any of the umpteen thousand rookie mistakes of artistry
+and post it on the Internet,
+chances are someone will come along and lecture you
+about how you're doing it wrong and why you should be ashamed of yourself.
+Alternatively someone will come a long and give you pointers to move forward;
+the point is that you'll get feedback.
+With conlangers, this is much harder to come by,
+and the responses to having created a language
+usually ranges between "that's amazing" and "that's pointless" by the public,
+neither of which help the would-be conlanger improve his skills.
+
+If the response is toward the "that's pointless" end of the scale,
+then our prospective conlanger would likely keep it quiet or drop it altogether;
+however if it's "that's amazing" then he would be bolstered to seek out more.
+Eventually he would find himself in a conlanging community,
+with the probability that he would hold his language in high regard.
+And indeed, breakouts like these do happen.
+However if it was pointed out that the language is not as good as was thoguht,
+then it's very likely the author would feel discouraged or even angry,
+which is an unfortunate consequence that must be worked around
+when critiquing a newcomer's language.
+
+# § γ #
+
+With all that in mind, it's hard for me not to feel envious about artists.
+They have exploited preëxisting human intuition for maximum feedback,
+and can refine that to make even better feedback and money.
+Inexplicably, this is particularly strong when looking at webcomic artists,
+especially particularly popular ones
+that have created a corporate empire (or at least a duchy)
+and over 7 kpages of content and probably financed a videogame too.
+There's not much that can be done about it, really.
+Just keep plugging.
