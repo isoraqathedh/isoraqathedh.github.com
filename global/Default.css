@@ -55,17 +55,17 @@ blockquote+* {clear:both;}
 /* Table code */
 table {empty-cells:show; margin:1px auto;}
 thead th {background:#BD2203; color:#FFF;}
-thead tr:last-child th {border-bottom:3px double #CA3E22;}
-tfoot th {background:#BD2203; color:#FFF; border-top:3px double #CA3E22;}
+thead {border-bottom: 3px double #CA3E22; padding:0.5em;}
+tfoot {border-top: 3px double #CA3E22;}
+tfoot th {background:#BD2203; color:#FFF;}
 tfoot td {background:#DAA700; border-top:3px double #CA3E22;}
 table.special {
     border:1px solid #CA3E22;
     background-color:#B88D00;
-    font-family:Verdana;
     border-collapse:collapse;
     margin:1px auto;
 }
-th, td {border:1px solid #CA3E22; background-color:#FFC800; font-family:Verdana;}
+th, td {background-color:#FFA;}
 th {background-color:#AF2303; color:white;}
 td[colspan] {text-align:center;}
 td[colspan="1"] {text-align:left;}
@@ -74,7 +74,8 @@ table.calendar {margin: 1em auto 1em auto; width:100%;}
 table.calendar th, table.calendar td {height:25px; width:100px;}
 table.calendar th.sunday, table.calendar td.holiday {color:#FF0000;}
 tr.alt td {background:#ECB500;}
-table:not(.nostripes)>tbody>tr:nth-child(even)>td {background:#ECB500;}
+table:not(.nostripes)>tbody>tr:nth-child(even)>td {
+    background-color:/*#ECB500*/ #FF8;}
 
 /* Spoiler control */
 *[id^="spoiler"] {display:none;}
