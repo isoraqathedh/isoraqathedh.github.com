@@ -980,8 +980,101 @@ This specification is, with few exceptions, strictly adhered to
 and allows anyone to imitate or avoid the style as is necessary.
 
 ### Specification Summary ###
+The most visible style of the specification is that for the most part,
+all pictures involving units consists of arrows.
+"Arrows" here of course consist of a sense, indicating the start of the arrow,
+and a shaft, which extends out to the destination.
+As with Earthling arrows,
+the height of the arrow represents the height of the character,
+with the arrow's sense – origin – being at its feet.
+The arrow's sense also, via its shape, size and colour,
+indicate the identity of the character.
+
+Other things sometimes adorn the vector to identify them.
+Most notably, up to three letters[^letter]
+can also be used to identify a character as well as its sense.
+These two ID markers are independent of each other and redundant;
+either can be removed and the other can still fully identify each other.
+
+Why have two redundant methods of identification?
+Because for some other pictures a wide-angle view is desired,
+where the size of the character is not important.
+In this mode every character as well as certain other small things
+are represented as single dots on a grid,
+and large objects are boxes.
+Their motions are indicated by arrows with plain senses
+but in various colours to emphasise their different meaning.
+
+The redundancy is not lost on the authors and illustrators;
+often only one of the two identifiers is used in any one illustration,
+although which one tends to be used depends on some slightly complex factors.
+For instance, if there are status codes written next to the character,
+then generally it is the arrow's shape that does the identification,
+whereas when a character is in the focus shot, the letter code is used,
+sometimes even adorned with a (potentially decorated) box.
+
+There are exceptions to this abstracted style.
+Establishment shots are always done in photo-realistic style,
+as are concluding shots, picture that show the summary of the end of a scene,
+though for some reason either individuals are left as arrows and not as shapes.
+Ostensibly this was a stylistic choice,
+but there were rumours, later confirmed in a memoir,
+that this is because no one on the team
+had any idea what the individuals look like.
+
+[^letter]: The comic book is written in B.-Çendre,
+    which utilises a syllabary: one glyph, one syllable.
+    As such, three letters have the expressive capability of three syllables.
+    A happy coincidence is that for the most part
+    names in Bigencenryin are trisyllabic:
+    Zen-cu-ru, Go-bi-dri, Gu-u-en, Cli-bin-mre.
+    So often the three-letter code is just the unaltered name.
+    For those with not enough syllables,
+    the letters are filled in with echo vowels;
+    for those who have too many syllables,
+    the first two and the last syllable is chosen,
+    unless that causes a name collision,
+    in which the defaulting behaviour is complicated.
 
 ### Origin ###
+Supposedly, for a civilisation that's so strong on imagery,
+photo-realism seems like a no-brainer.
+So what caused this to happen?
+
+The main problem is simple:
+the group doesn't seem to be able to decide what new characters should look like.
+This has scarcely been a concern for earlier groups
+because for the most part, earlier individuals are fungible:
+their exact appearance is not only unspecific
+but also completely irrelevant.
+When characters come into the equation, suddenly this is not the case.
+The main problem is that it is impractical for everyone to look  the same,
+so to solve this problem a few solutions were fielded and applied in turn.
+
+The first suggestion was, of course, to simply use the names of everyone
+and have them (the names) float awkwardly
+on the top of the figure that represents the object.
+As you can imagine that idea stuck all the way out to the finish line.
+It was then thought that this creates a new and interesting way
+to mix abstraction with realism,
+but this was a post-hoc rationalisation of the initial project.
+
+With that in mind, all that is needed
+is to formalise what is meant by an illustration,
+which is the beginning of the style book.
+Being staunch descriptives,
+no restriction was made on the formatting or the grammar of the text,
+but a lot of concern was brought up
+regarding way that items or object should been drawn
+in the abstract style that the picture was made.
+The specification was itself a dedicated undertaking,
+with an entire crew behind it and its own special meetings and tax heading.
+
+It still happened faster than the main story though,
+and in the end the style guide was completed
+in a quick order of about half a year (1½ seasons).
+The guide was later reused even for future franchises
+as well as parodies of _Bigencenryin_.
 
 # Response #
 ## The Sceptics Vindicated ##
