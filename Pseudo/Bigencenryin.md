@@ -50,7 +50,8 @@ is pretty bog-standard.
 As such, it gives an excellent opportunity to examine
 what a typical story in Pasaru looks like.
 
-## In the beginning, there was Onicleu. ##
+## Backstory ##
+### In the beginning, there was Onicleu. ###
 And not long after, there was no longer Onicleu.
 It suffered a catastrophic failure, scattering its inhabitants far and wide.
 
@@ -115,7 +116,7 @@ somewhere at random at a ludicrous speed.
 This method was the method of escape to the gang
 that will later be known as the Zencuru Ulibeme.
 
-## Arrival in Bigencenryin ##
+### Arrival in Bigencenryin ###
 150 years later,
 Bigencenryin first noticed a strange brightening of the sky
 where Onicleu once was.
@@ -156,7 +157,7 @@ had landed between J3 and J4 of the 3B corridor motorway.
     are all called the same thing.
     This is confusing, but that's how it worked out.
 
-## Ascension into crime-fighting and no small amount of friction ##
+### Ascension into crime-fighting and no small amount of friction ###
 After the usual pleasantries –
 "how are you",
 "where do you come from",
@@ -202,7 +203,7 @@ because most of the time
 group names have little to do with the names of its constituents.
 We'll get to that later.)
 
-## Equilibrium ##
+### Equilibrium ###
 Eventually, the situation slowly settles down into an uneasy but stable state,
 a state where many people still hate many other people
 and there are the occasional battles here and there
@@ -225,6 +226,13 @@ but more technically the battles they have and the damage they make.
 And so, life goes on, and the bulk of the backstory ends here.
 There are some more history that goes on later,
 but this is the main backdrop behind which many of the comic books start on.
+
+## Attractor ##
+In the parlance,
+an attractor is a situation that typically attracts other situations to itself.
+It is the holding pattern of the franchise,
+and the action that happens most often.
+*more to come later*
 
 # Publication background #
 Though the idea of a character seems to most of us as fairly straightforward,
