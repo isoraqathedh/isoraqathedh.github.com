@@ -1077,7 +1077,36 @@ The guide was later reused even for future franchises
 as well as parodies of _Bigencenryin_.
 
 # Response #
+Upon publication, the critics were amused and excited:
+excited because this brought something new to the table,
+but amused because it doesn't exactly fill its stated purpose.
+It wasn't much of a success commercially,
+but there's enough hoopla about it to give it a continued existence
+in its own none-too-small niche.
+
 ## The Sceptics Vindicated ##
+With every world that is published comes a statement of purpose:
+A book that explains and makes clear what the author means,
+or what the thought processes the author has,
+when explaining every little bit.
+
+This book has several uses:
+with it readers can sometimes "read around" the intended path
+and maybe even make a halfway intelligent extrapolation
+about alternate histories.
+Also such a book would allow the author to get out of hairy situations
+where a bunch of rabid critics – largely hated by the authors –
+to arbitrarily accuse the authors
+of trying to bring about the end of the world.[^apocalypse]
+To us though the important part of this statement of purpose
+is to give an account of the thought processes and motivations of the author
+as he writes the work in question.
+
+[^apocalypse]: Not necessarily a literal end of the world
+    but definitely a major, catastrophic change
+    that would be harmful to a large portion of the world,
+    or promote Harmful Opinions that Must Be Stopped At All Costs.
+
 ## Fate of the Comic Book ##
 
 <!-- LocalWords:  Bigencenryin Bigencenryin's Onicleu Ulibeme kilis Retconen
