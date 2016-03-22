@@ -150,6 +150,15 @@ because they are written in a purple notebook.)
     Still, i·umën speakers beware,
     for this language has more levels of respect and emotion sensitivity
     than any you might have heard of.
+(@18) **Ỳŋlys g'mòdyfäjt vð'Fäqdəq**,
+    commonly abbreviated to **g'Mòdyfäjq**,
+    is a somewhat conservative alteration of English
+    that seeks to brutally alter the phonology and especially the orthography
+    in hopes that it will blend the names of characters
+    and other objects in popular fiction
+    to something at the edge of recognition.
+    The grammar is also slightly affected, but other than a few token oddities
+    it's still recognisably Germanic.
 
 [PUR-MGY]: http://isoraqathedh.tumblr.com/tagged/Man-gog-yuu
 [PUR-AKF]: http://isoraqathedh.tumblr.com/tagged/ABGTA
