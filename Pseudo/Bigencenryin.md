@@ -1197,6 +1197,52 @@ of having First Class Plots –
 plots that are tangible objects in the story
 that vie for their own resolution in the overall story.
 
+Where there is an original, there are derivatives,
+and no less than five other franchises came to be.
+Apart from _Bigencenryin_, there is also _Wotsi_, _Îmharad_,
+_Tardodefnenv_, _Weshi j coren_ and _Nnn Pee, Nnn Pparrr_,
+each one with its own host of _zencuruxu_.
+On occasion they may meet,
+but this must be done in a very strange ritual[^crossover]
+and the outcomes aren't particularly interesting,
+at least not in this introduction.
+
+[^crossover]: Because the World is Sacred,
+    none of the original lands can carry everyone at the same time.
+    When a crossover is proposed all Worlds involved
+    must excuse their animate factors
+    (be they individuals or entire countries)
+    and place them in a special world just for their making.
+    Sometimes these worlds are specially made for the occasion
+    and may never be used again,
+    but there are also worlds that are built for this purpose
+    and can be used over and over again.
+    In any case it goes like this:
+
+    * Animate factors exit home World and enter the crossover world.
+    * Things happen there.
+    * Animate factors return to the home world.
+
+    Of course, if it is so
+    that animate factors can appear in multiple Worlds at the same time
+    and that is justified in some way,
+    then the excusing doesn't have to be.
+
+The idea of character fiction has also created a new field of study:
+experimental literature.
+Although the idea of extending the pattern that stories weave is not a new one,
+exactly *how* one does it is extremely hard,
+since it involves no small amount of imagination,
+a quantity that's somewhat scarcer in the lands of Pasaru.
+Though it is a small player in the grand scheme of
+"inventing new things to improve the world",
+it is still notable for being one of the early pioneers and demonstrators
+of how strong imagination can be.
+
 <!-- LocalWords:  Bigencenryin Bigencenryin's Onicleu Ulibeme kilis Retconen
      LocalWords:  Verboden img png Dibunme Zencuru zeerust lenigime
+ -->
+<!--  LocalWords:  zencuruxu Wotsi Îmharad Tardodefnenv Weshi coren
+ -->
+<!--  LocalWords:  Nnn Pparrr
  -->
