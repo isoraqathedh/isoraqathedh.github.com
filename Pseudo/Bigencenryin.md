@@ -1201,11 +1201,11 @@ Where there is an original, there are derivatives,
 and no less than five other franchises came to be.
 Apart from _Bigencenryin_, there is also _Wotsi_, _Îmharad_,
 _Tardodefnenv_, _Weshi j coren_ and _Nnn Pee, Nnn Pparrr_,
-each one with its own host of _zencuruxu_.
+each one with its own host of _zencuruxe_.
 On occasion they may meet,
 but this must be done in a very strange ritual[^crossover]
 and the outcomes aren't particularly interesting,
-at least not in this introduction.
+at least not at this level.
 
 [^crossover]: Because the World is Sacred,
     none of the original lands can carry everyone at the same time.
