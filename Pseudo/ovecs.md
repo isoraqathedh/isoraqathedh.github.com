@@ -9,8 +9,7 @@ and with that come a class of objects termed
 In the lands and countries of the J.-Pasaru,
 this device is called an <dfn>ovecs</dfn> /oʊ.vɛks/
 (plural: ovexes /oʊ.vɛks.əs/, E.-Pasaru: žtlĭm /ʒt.lɨm/).
-This document describes what an ovecs is,
-how it is used, how one is made,
+This document describes what an ovecs is, how it is used, how one is made,
 and how it is different from an Earthling flag
 (and how similar the two can be sometimes).
 
