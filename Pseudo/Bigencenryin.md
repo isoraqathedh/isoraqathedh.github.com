@@ -232,7 +232,9 @@ In the parlance,
 an attractor is a situation that typically attracts other situations to itself.
 It is the holding pattern of the franchise,
 and the action that happens most often.
-*more to come later*
+
+In this case it works more or less like this:
+Something goes wrong, the guys solve it, and then everything is alright again.
 
 # Publication background #
 Though the idea of a character seems to most of us as fairly straightforward,
