@@ -53,6 +53,15 @@ specifically for documentation purposes, but that's for later.)
 But first, let's go through each component in turn.
 
 ## The Banner ##
+
+The banner is the most important part of an ovecs,
+so most would be forgiven for saying that it is the *only* part that matters.
+While it has many things in common with the face of an ordinary Earthling flag,
+it fulfils a slightly different corner of identification phase space.
+
 ## The Legend ##
 ## Plates ##
 ## The Pole ##
+
+<!-- LocalWords: ovecs
+-->
