@@ -203,8 +203,14 @@ because most of the time
 group names have little to do with the names of its constituents.
 We'll get to that later.)
 
-### Equilibrium ###
-Eventually, the situation slowly settles down into an uneasy but stable state,
+## Equilibrium and the Attractor ##
+In the parlance,
+an attractor is a situation that typically attracts other situations to itself.
+It is the holding pattern of the franchise,
+and the action that happens most often.
+
+In this case, the situation that eventually was settled into
+was stable if relatively uneasy,
 a state where many people still hate many other people
 and there are the occasional battles here and there
 but overall no one is hurt too badly for anyone to care
@@ -227,14 +233,20 @@ And so, life goes on, and the bulk of the backstory ends here.
 There are some more history that goes on later,
 but this is the main backdrop behind which many of the comic books start on.
 
-## Attractor ##
-In the parlance,
-an attractor is a situation that typically attracts other situations to itself.
-It is the holding pattern of the franchise,
-and the action that happens most often.
+## Homecoming ##
+Not long after the original run,
+a major event occurred known as the Homecoming.
+It begins with the reveal of a new planet, known as **New Onicleu**,
+which is purportedly a new home to our refugees,
+who by now are already starting up the new generation.
+The debate now focuses on whether or not to repatriate the newcomers
+to the land in question.
 
-In this case it works more or less like this:
-Something goes wrong, the guys solve it, and then everything is alright again.
+Quite a lot of angst was produced,
+and there had been lots of well-documented debates
+and even a couple of simulations were run to see how life would be.
+However after all the deliberations
+it was decided that no move will be performed.
 
 # Publication background #
 Though the idea of a character seems to most of us as fairly straightforward,
@@ -253,7 +265,7 @@ is much less than the average inhabitant back on Earth, the humans.
 In general, this makes individual much less receptive
 to hearing the thrills and spills of others,
 especially if it is presented as a deliberate lie,
-which is of course what fiction is.
+which is of course what fiction is.\
 So the individual has never arisen over the natural development of literature,
 which was the time when people don't think above one level of meta
 and things were mostly devoid of feedback loops.
