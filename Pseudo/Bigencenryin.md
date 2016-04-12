@@ -248,6 +248,11 @@ and even a couple of simulations were run to see how life would be.
 However after all the deliberations
 it was decided that no move will be performed.
 
+As so the situation turns out to be,
+it's not at all a bad situation
+because further investigation has determined
+that there is an unknown threat that will ensure the new planet's limited life.
+
 # Publication background #
 Though the idea of a character seems to most of us as fairly straightforward,
 but as so it turns out this is not the case in Pasaru.
