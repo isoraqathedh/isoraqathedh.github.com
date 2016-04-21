@@ -252,6 +252,26 @@ As so the situation turns out to be,
 it's not at all a bad situation
 because further investigation has determined
 that there is an unknown threat that will ensure the new planet's limited life.
+Overall it was hailed as a great victory of careful planning
+and attention to detail,
+even though some would have been happier
+seeing the backs of these super-powered individuals.
+
+However, this led on to how the Z.-Ulibeme can continue to service the group
+while also thinking of looking for a new world to live in
+and not just the special rooms in certain areas of Bigencenryin
+clustered around the now-indisputable capital of the world
+(there's another issue with regards to how Bigencenryin the country
+is hoarding all the super-heroes and therefore global power).
+
+This eventually leads into how the nation, and therefore the entire world,
+starts to move toward the space exploration
+and eventually planet-building.[^longevity]
+
+[^longevity]: As you can see,
+    the _Bigencenryin_ franchise is not afraid to go so far
+    as to simulate events that at first blush seems to be
+    quite removed from the superheroes.
 
 # Publication background #
 Though the idea of a character seems to most of us as fairly straightforward,
