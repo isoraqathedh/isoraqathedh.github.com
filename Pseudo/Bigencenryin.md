@@ -293,7 +293,7 @@ is much less than the average inhabitant back on Earth, the humans.
 In general, this makes individual much less receptive
 to hearing the thrills and spills of others,
 especially if it is presented as a deliberate lie,
-which is of course what fiction is.\
+which is of course what fiction is.
 So the individual has never arisen over the natural development of literature,
 which was the time when people don't think above one level of meta
 and things were mostly devoid of feedback loops.
