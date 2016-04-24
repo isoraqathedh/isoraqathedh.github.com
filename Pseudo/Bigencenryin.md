@@ -263,10 +263,13 @@ and not just the special rooms in certain areas of Bigencenryin
 clustered around the now-indisputable capital of the world
 (there's another issue with regards to how Bigencenryin the country
 is hoarding all the super-heroes and therefore global power).
-
 This eventually leads into how the nation, and therefore the entire world,
 starts to move toward the space exploration
 and eventually planet-building.[^longevity]
+This new period eventually resulted in the rise of Bigencenryin
+into the space age,
+and hence implored the two species to discover who Those Who Are actually are –
+and whether or not they can stop them or not.
 
 [^longevity]: As you can see,
     the _Bigencenryin_ franchise is not afraid to go so far
