@@ -128,7 +128,17 @@ so life went on as usual,
 although maybe this time with a few more conspiracy theories than usual.
 
 It did not take long for things to get wonky again.
-Two years later, that same spot started to get brighter again,
+The brightening was shortly followed by some radio signals.
+It was unmistakably artificial in form,
+but no matter how much analysis was done,
+the code simply cannot be cracked.
+This led to a considerable amount of panic,
+but to allay claims of conspiracy,
+the governments of the world decided to publish the signals,
+in part to ask the world at large
+to see if they can do any better than their top men.
+
+A couple of years later, that same spot started to get brighter again,
 and this time with a *very* noticeably blue tint to it.
 The light got brighter and brighter.
 This time the conspiracy theories *really* got underway,
@@ -139,7 +149,7 @@ it was moving right toward the planet.
 
 Oh dear.
 
-Seven years later, late at night (as it always was)
+36 years later, late at night (as it always was)
 it landed in a remote field in the country of Bigencenryin,[^name]
 slowing down enough so that its crew can survive
 and that it does not turn itself into a missile.
