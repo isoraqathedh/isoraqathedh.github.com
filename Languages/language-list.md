@@ -151,7 +151,7 @@ because they are written in a purple notebook.)
     for this language has more levels of respect and emotion sensitivity
     than any you might have heard of.
 (@18) **Ỳŋlys g'mòdyfäjt vð'Fäqdəq**,
-    commonly abbreviated to **g'Mòdyfäjq**,
+    commonly abbreviated to [**g'Mòdyfäjq**][PUR-GMF],
     is a somewhat conservative alteration of English
     that seeks to brutally alter the phonology and especially the orthography
     in hopes that it will blend the names of characters
@@ -162,3 +162,4 @@ because they are written in a purple notebook.)
 
 [PUR-MGY]: http://isoraqathedh.tumblr.com/tagged/Man-gog-yuu
 [PUR-AKF]: http://isoraqathedh.tumblr.com/tagged/ABGTA
+[PUR-GMF]: http://isoraqathedh.tumblr.com/tagged/g'M%C3%B2dyf%C3%A4jq
