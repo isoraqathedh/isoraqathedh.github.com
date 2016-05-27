@@ -208,7 +208,8 @@ cut up the banner's surface into a finite number of regions.
 Although lines in most flags are straight, they are allowed to be curved,
 as long as areas cut up by the lines are all simply connected
 and there is an area δa > 0 that is less than all the areas of the region
-(basically, no cutting up the banner to an infinitely small piece.)
+(the Rule of Non-Infinitesimals:
+no cutting up the name surface into any number of infinitely small areas.)
 The value of δa is sometimes set by flag manufacturers explicitly.
 
 Lines are defined by their origin and destination points,
@@ -225,11 +226,76 @@ They are usually only defined as basic colour terms: "red", "green", &c.
 They also obey a much looser version of the rule of tincture:
 "metals" now include such colours as sky and lime,
 and merely indicate that the colour is "high luminosity".
-Additionally there are some colours that have medium luminosity.
+Additionally there are some colours that have medium luminosity,
+which can coëxist with both metals and colours (low intensity colours).
 
+Then, on top of it, come the devices, which is just an arbitrary figure.
+They do not obey even the relaxed rule of tincture,
+and can be any shape, size and number,
+but still obey the Rule of Non-Infinitesimals.
+They all have one anchor point or two bonding points
+that is used to define the device's position and orientation.
+
+<!-- To do: draw a figure indicating how bondings and anchors work. -->
 
 ## The Legend ##
+
+Below the banner is a rectangular board.
+
 ## Plates ##
+
+![The twelve plates in the Standard Set. They represent the digits 1 to 12 (0),
+in ascending order from top to bottom, left to right.](img/digits.png)
+
+Between the legend or the plates are zero or more hexagonal plates,
+known simply as **plates** (EP: **dulĭť**).
+They are ciphers, in the sense that each one encodes a digit,
+though they historically encoded an entire integer.
+They are nonessential,
+which means that they can be discarded if space requires it.
+
+The number that they encode is the flag's **succession index**.
+When a country has a change in leadership,
+either by hereditary succession or by election,
+the flag is updated to reflect this change in leadership
+in a process named **succession**.
+This is done by simply incrementing the number written on the plate by 1.
+
+Because of their nonessentiality,
+they are also largely unstandardised on an international level,
+which means that different vexillological unions, named **pacts** (AOďwāg),
+can have different digits. The picture indicated above – that of the Standard –
+is adapted as the international standards for any new pacts,
+but existing ones can continue to use their own set if need be.
+This is also a factor in explaining why the standard set has irregular behaviour
+for the digits 9 through 0 (12) –
+it was adapted as a combination of the most popular ones,
+and the combination just so happens to make sense in its historical content.
+Specifically, the figures are assigned by adding more to the previous one,
+but their position is based on defining a final symbol and working backward.
+
+The existence of pacts also help in keeping the number small;
+this is done in two ways.
+First, unless there is only one country in a pact,
+there must always be a country in a pact that has the smallest succession index
+(either 0 or 1).
+If there is no such country, then 1 is subtracted
+from all members' succession index until one of them hits the minimum.
+This is called **snapback** (**nŕaoj**) and happens automatically.
+The other more drastic measure is to simply declare unanimously
+that the successor index is to be reset to 0 at the beginning of some year
+for all members that did not receive an exemption.
+
+Plates are useful in indicating the change in leadership of a particular country
+and are used extensively in historical maps
+where an increase in the succession index
+is a handy representation of change of leadership.
+However in the wild plates are much rarer
+and usually only appear in the homes or graves
+of current and former leaders of any type.
+They are, however, permitted to be attached to any flag
+provided that the correct succession index is used.
+
 ## The Pole ##
 
 # Making a flag #
