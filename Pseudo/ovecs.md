@@ -248,23 +248,24 @@ Below the banner is a rectangular board.
 in ascending order from top to bottom, left to right.](img/digits.png)
 
 Between the legend or the plates are zero or more hexagonal plates,
-known simply as **plates** (EP: **dulĭť**).
+known simply as <def>plates</def> (EP: dulĭť).
 They are ciphers, in the sense that each one encodes a digit,
 though they historically encoded an entire integer.
 They are nonessential,
 which means that they can be discarded if space requires it.
 
-The number that they encode is the flag's **succession index**.
+The number that they encode is the flag's <def>succession index</def>.
 When a country has a change in leadership,
 either by hereditary succession or by election,
 the flag is updated to reflect this change in leadership
-in a process named **succession**.
+in a process named <def>succession</def>.
 This is done by simply incrementing the number written on the plate by 1.
 
 Because of their nonessentiality,
 they are also largely unstandardised on an international level,
-which means that different vexillological unions, named **pacts** (AOďwāg),
-can have different digits. The picture indicated above – that of the Standard –
+which means that different vexillological unions,
+named <def>pacts</def> (AOďwāg), can have different digits.
+The picture indicated above – that of the Standard –
 is adapted as the international standards for any new pacts,
 but existing ones can continue to use their own set if need be.
 This is also a factor in explaining why the standard set has irregular behaviour
@@ -281,7 +282,7 @@ there must always be a country in a pact that has the smallest succession index
 (either 0 or 1).
 If there is no such country, then 1 is subtracted
 from all members' succession index until one of them hits the minimum.
-This is called **snapback** (**nŕaoj**) and happens automatically.
+This is called <def>snapback</def> (nŕaoj) and happens automatically.
 The other more drastic measure is to simply declare unanimously
 that the successor index is to be reset to 0 at the beginning of some year
 for all members that did not receive an exemption.
