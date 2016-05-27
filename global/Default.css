@@ -199,7 +199,8 @@ abbr .visibletitle {color:#EEE; letter-spacing:0;}
 .smallcaps, .middlecase, .sc {font-variant:small-caps;} /* Small capitals shortener */
 
 /* Links and linksets */
-.linkset a, .foot a, a.foot, nav#TOC a {text-decoration:none; color:#1A1AFF;}
+.linkset a, .foot a, a.foot, nav#TOC a, div#table-of-contents a {
+    text-decoration:none; color:#1A1AFF;}
 .linkset a:hover, a[href^="#footnote-"]:hover {text-decoration:none; color:#5A16D4;}
 
 /* Navigation bar stuff */

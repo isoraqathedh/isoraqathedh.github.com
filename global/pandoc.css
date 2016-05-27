@@ -64,7 +64,7 @@ nav#TOC:before {
     text-align:center;
 }
 
-nav#TOC {
+nav#TOC, div#table-of-contents {
     color:#FFC800;
     font-size:100%;
     width:30%;
@@ -75,28 +75,31 @@ nav#TOC {
     background-color:#FFC800;
 }
 
-body>nav#TOC ul, body>nav#TOC ol {
+body>nav#TOC ul, body>nav#TOC ol,
+div#table-of-contents ul, div#table-of-contents ol {
     font-size:80%;
     padding:0 2em 0;
     font-weight:normal;
     color:#AF2303;
 }
-body>nav#TOC ol {
+body>nav#TOC ol, div#table-of-contents ol {
     text-align:left;
     padding:0.1em 0 0.2em 2em;
     margin-left:0;
     margin-right:0;
 }
-body nav#TOC li {
+body nav#TOC li, div#table-of-contents li {
     margin:0;
 }
-body>nav#TOC ol ol, body>nav#TOC ul ul {
+body>nav#TOC ol ol, body>nav#TOC ul ul,
+div#table-of-contents ol ol, div#table-of-contents ul ul{
     font-size:100%;
     padding-top:0;
     margin-top:0;
     padding-right:0;
 }
-body>nav ul li:first-child:before {
+body>nav ul li:first-child:before,
+div#table-of-contents ul li:first-child:before {
     content:none;
 }
 figure {
