@@ -240,7 +240,24 @@ that is used to define the device's position and orientation.
 
 ## The Legend ##
 
-Below the banner is a rectangular board.
+Below the banner is a rectangular board. The board has to be white,
+with a black border, and has black text.
+The text must have two or more characters in it,
+but it must not have an odd glyph length.
+
+The origins of the legend is straightforward.
+Too many groups have the same banner design,
+so to differentiate a piece of paper with a short code was stuck on.
+Eventually this code was formalised and standardised,
+and the thing in general is accepted to become part of the flag.
+The Rule of Evens was created to ensure an æsthetical balance.
+
+An ovecs can have more than one legend.
+This can happen for countries because it is officially bilingual,
+or writes in two different scripts in the same language.
+Otherwise, it might be because the group it represents has many names
+or that the combination of banner and first legend still has a collision.
+Legends closer to the banner are considered more important.
 
 ## Plates ##
 
