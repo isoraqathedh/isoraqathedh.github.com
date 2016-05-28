@@ -203,7 +203,7 @@ lines, colour and devices.
 Lines and colour complement each other,
 and devices sit atop of them.
 
-**Lines** (**Tšop**, or **Pallo** in informal contexts)
+<dfn>Lines</dfn> (E.-Pasaru: tšop, or pallo in informal contexts)
 cut up the banner's surface into a finite number of regions.
 Although lines in most flags are straight, they are allowed to be curved,
 as long as areas cut up by the lines are all simply connected
@@ -269,23 +269,23 @@ Legends closer to the banner are considered more important.
 in ascending order from top to bottom, left to right.](img/digits.png)
 
 Between the legend or the plates are zero or more hexagonal plates,
-known simply as <def>plates</def> (EP: dulĭť).
+known simply as <dfn>plates</dfn> (E.-Pasaru: dulĭť).
 They are ciphers, in the sense that each one encodes a digit,
 though they historically encoded an entire integer.
 They are nonessential,
 which means that they can be discarded if space requires it.
 
-The number that they encode is the flag's <def>succession index</def>.
+The number that they encode is the flag's <dfn>succession index</dfn>.
 When a country has a change in leadership,
 either by hereditary succession or by election,
 the flag is updated to reflect this change in leadership
-in a process named <def>succession</def>.
+in a process named <dfn>succession</dfn>.
 This is done by simply incrementing the number written on the plate by 1.
 
 Because of their nonessentiality,
 they are also largely unstandardised on an international level,
 which means that different vexillological unions,
-named <def>pacts</def> (AOďwāg), can have different digits.
+named <dfn>pacts</dfn> (AOďwāg), can have different digits.
 The picture indicated above – that of the Standard –
 is adapted as the international standards for any new pacts,
 but existing ones can continue to use their own set if need be.
@@ -294,7 +294,7 @@ for the digits 9 through 0 (12) –
 it was adapted as a combination of the most popular ones,
 and the combination just so happens to make sense in its historical content.
 Specifically, the figures are assigned by adding more to the previous one,
-but their position is based on defining a final symbol and working backward.
+but their position is based on dfnining a final symbol and working backward.
 
 The existence of pacts also help in keeping the number small;
 this is done in two ways.
@@ -303,7 +303,7 @@ there must always be a country in a pact that has the smallest succession index
 (either 0 or 1).
 If there is no such country, then 1 is subtracted
 from all members' succession index until one of them hits the minimum.
-This is called <def>snapback</def> (nŕaoj) and happens automatically.
+This is called <dfn>snapback</dfn> (nŕaoj) and happens automatically.
 The other more drastic measure is to simply declare unanimously
 that the successor index is to be reset to 0 at the beginning of some year
 for all members that did not receive an exemption.
@@ -344,6 +344,12 @@ explaining their general obscurity among the public.
 All boards must be centred on the pole.
 Furthermore, they must have the same separation,
 usually ⁹⁄₁₄₄ of the height of the banners.
+The top of the pole must stay between the bottom and the top of the banner.
+but where exactly cannot be defined by the flag
+and can be wherever is convenient to the flag maker.
+They can be fastened in any inconspicuous way as well,
+although the majority are done by gluing a handle to the back
+that slots into the hole.
 
 # Making a flag #
 Unlike Earthling (Western) flags,
