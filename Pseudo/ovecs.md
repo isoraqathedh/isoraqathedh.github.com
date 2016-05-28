@@ -328,7 +328,7 @@ Nevertheless, it is still a topic worthy of a brief discussion.
 For the most part, flags do not define pole colours,
 and they are usually left as the default colour of whatever material
 the pole is made of (e.g. brown wood or silver metal.)
-When they do, only three colours can be part of a pole,
+When they do, only three *solid* colours can be part of a pole,
 and if there's more than one they must be striped.
 The directions of the stripes are usually horizontal or vertical,
 but can also be in any other direction if it is so warranted.
@@ -340,6 +340,10 @@ but unlike the plate it does not have any special meaning
 that can be easily generalised to all flags.
 This makes them ignored even in places where plates would generally be included,
 explaining their general obscurity among the public.
+
+All boards must be centred on the pole.
+Furthermore, they must have the same separation,
+usually ⁹⁄₁₄₄ of the height of the banners.
 
 # Making a flag #
 Unlike Earthling (Western) flags,
