@@ -320,6 +320,27 @@ provided that the correct succession index is used.
 
 ## The Pole ##
 
+The pole is a nonessential part of the flag,
+and in fact it is so nonessential
+that for the most part the public does not know about it.
+Nevertheless, it is still a topic worthy of a brief discussion.
+
+For the most part, flags do not define pole colours,
+and they are usually left as the default colour of whatever material
+the pole is made of (e.g. brown wood or silver metal.)
+When they do, only three colours can be part of a pole,
+and if there's more than one they must be striped.
+The directions of the stripes are usually horizontal or vertical,
+but can also be in any other direction if it is so warranted.
+
+As mentioned earlier, the pole is not an essential part of the flag.
+Like the plate, it can be removed from a depiction of the flag
+without changing what it represents,
+but unlike the plate it does not have any special meaning
+that can be easily generalised to all flags.
+This makes them ignored even in places where plates would generally be included,
+explaining their general obscurity among the public.
+
 # Making a flag #
 Unlike Earthling (Western) flags,
 which are typically made out of coloured fabric,
