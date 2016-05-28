@@ -228,6 +228,8 @@ They also obey a much looser version of the rule of tincture:
 and merely indicate that the colour is "high luminosity".
 Additionally there are some colours that have medium luminosity,
 which can coëxist with both metals and colours (low intensity colours).
+Furthermore, because of the way the flags are created,
+gradients are possible in limited circumstances.
 
 Then, on top of it, come the devices, which is just an arbitrary figure.
 They do not obey even the relaxed rule of tincture,
@@ -239,6 +241,8 @@ that is used to define the device's position and orientation.
 <!-- To do: draw a figure indicating how bondings and anchors work. -->
 
 ## The Legend ##
+
+<!-- To do: figures? -->
 
 Below the banner is a rectangular board. The board has to be white,
 with a black border, and has black text.
