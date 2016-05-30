@@ -318,6 +318,40 @@ of current and former leaders of any type.
 They are, however, permitted to be attached to any flag
 provided that the correct succession index is used.
 
+The frequency of snapback largely depends on the values of the pact:
+they might desire a large cardinal number to appear on their flags,
+in which they will be very rare if present at all;
+but other pacts, that prefer the exact opposite,
+might snapback a lot, to the point of it being a natural occurrence.
+However, no nation desires a *very* large number to show on the flag,
+if only for the simple reason that the reader of the flag
+will complain about having to process such a large number,
+or that too many digits would make the flagpole unnecessarily tall
+(a taller flag is harder to see from down below
+and is therefore considered less important than a shorter flag.)
+Nations deal with this in several ways:
+
+![The standard plate for the relative marker,
+to be placed just below the banner.
+Repeat this plate twice
+to indicate a negative relative number.](img/relplate.png)
+
+1. They can simply declare snapback to occur for their entire pact.
+   This is easy if they are in their own pact,
+   but is rarely done because resetting the succession index to zero
+   makes it look like the country has recently underwent a revolution.
+2. They can limit succession to be only allowed once a sufficiently long period,
+   such as annually or biännually.
+   Merely restricting succession to a maximum of twice per year
+   brings the number of digits required for the foreseeable future
+   to be a reasonable if slightly uncomfortable five digits,
+   and the lower the succession rates, the slower digit creep occurs.
+3. They can use a special relative plate, as pictured,
+   and continually change the number that the relative plate adds.
+   This is all but resetting the succession index,
+   but with with a special disclaimer about it being "just a trick",
+   as it were.
+
 ## The Pole ##
 
 The pole is a nonessential part of the flag,
