@@ -294,7 +294,7 @@ for the digits 9 through 0 (12) –
 it was adapted as a combination of the most popular ones,
 and the combination just so happens to make sense in its historical content.
 Specifically, the figures are assigned by adding more to the previous one,
-but their position is based on dfnining a final symbol and working backward.
+but their position is based on defining a final symbol and working backward.
 
 The existence of pacts also help in keeping the number small;
 this is done in two ways.
@@ -351,10 +351,121 @@ They can be fastened in any inconspicuous way as well,
 although the majority are done by gluing a handle to the back
 that slots into the hole.
 
+# Mounting a flag #
+
+## Simple mounting ##
+
+With a flag being created, all that is left is to put it up somewhere.
+The practise of putting up a flag is called <dfn>mounting</dfn>.
+There are several conventions for mounting flags,
+and those are, with minor variations, uniform across the world,
+by chance or by force.
+
+### Fields and their Rings ###
+
+Flags are mounted in a specific area, known as the <dfn>field</dfn> (senp̲arť).
+The field may be, but sometimes is not, clearly delimited,
+and may be defined in one or both of these two methods:-
+
+1. The field is the area around the centre of the pole
+   that is less than a certain distance away from it.
+   This distance is approximately two metres,
+   but different countries can have different values
+   ranging from one to ten metres.
+2. The field is the area of the smallest rectangle
+   that can cover the area defined by the first definition.
+
+Additionally, there is an additional area known as the <dfn>field's ring</dfn>
+(nař ek senp̲arť) that can be any shape or size
+as long as it covers all of the field.
+The field's ring is invented because the strict definition of the field
+makes it hard for architects to plan ahead for them.
+
+There are norms with regards what should and should not be done in the field.
+For instance, one should not leave rubbish or other loose objects in it,
+and one should not run or unnecessarily disturb things inside it
+unless it is to remove rubbish or similar.
+Additionally, no object may be taller than the flag in the field,
+and there should be an open line of sight from the flag in some direction.
+though this is a loose, optional requirement
+and in any case the definition of an open line of sight
+is a very regional matter.
+
+On the other hand, the field's ring is much more lax
+and there are not many rules
+that are common to even a majority of all flag protocols.
+For the most part, they come in two flavours:
+the first is that they are just a random patch of grass,
+reserved for the expansion of the field
+but as of of yet still open for general use,
+or they can be extensions of the field and its rules
+to an arbitrary shape and size.
+The latter is often seen in places
+where the field is nearly or completely enclosed, like a "hole" in a building,
+and the former is seen almost everywhere else,
+though as always, exceptions exist.
+
+### Poles and Distance ###
+
+The centre of a pole is the nominal location of the flag, that is,
+if someone asks for a millimetre-precise location of a flag,
+one points to the centre of its (primary) pole.
+It is therefore important to keep in track where poles are.
+
+In general, the heights of all poles should be the same in the same field,
+although exception may be granted to exactly one pole,
+which can be *shorter* than all the others.
+That pole, which if present must be at some extreme position of the field,
+is the position of honour in which a particularly important flag may be placed,
+but which flag this might be is context-dependent
+and may not necessarily be the national flag.
+In any case, the poles must be at least six times taller
+than the size of all the banners,
+which are regulated for each flagpole such that each one has the same height.
+A popular industry standard is to have them be 533 cm tall – 1 ferā –
+and the special pole be ¹¹⁄₁₂ ferā tall.
+
+The minimum separation of each pole
+must be at least half the length of the poles,
+but cannot exceed three-quarters that length.
+For a common layout, where all the poles are lined up straight,
+popular standards include ⅝, ⁷⁄₁₂ or ⅔ of the length of the pole.
+However, it is not necessary for flagpoles to be lined up like this.
+They can be in any configuration as desired,
+as long as the overall shape has some subjective level of symmetry or repetition
+or follow the contours of some natural feature.
+For those layouts, which for large fields can be very peculiar indeed,
+the separation rule is relaxed slightly,
+removing the minimum and trebling the maximum.
+Flags still cannot touch each other physically, however.
+
+Finally, a completely unofficial but very common practise
+is to put a piece of hard ground in the area directly behind a flagpole.
+The reason is a practical one:
+a hard ground makes it easy for putting up and setting down a flag
+by allowing a steady platform for one to put a ladder or similar implement on.
+This is sometimes conspicuous and sometimes disguised,
+and there is a public perception that it is an important part of a flagpole,
+even though it isn't.
+
+### Raising or lowering a flag ###
+
+## Manymounting ##
+
+Manymounting is the practise of mounting more than one flag on the same pole.
+It is different from merely putting one flag next to another in a field,
+and there are many more variations building it.
+
 # Making a flag #
 Unlike Earthling (Western) flags,
 which are typically made out of coloured fabric,
+Ovexes are made out of hard, easily painted material such as wood or stone.
+Naturally, this means that paint is used to draw the picture in.
 
+Those who make flags are called <dfn>flagmen</dfn> (yess̲en), unsurprisingly.
+As a group they make sure everything from forest to finish goes smoothly.
+They source the building material, cut it down to size,
+and draw the lines on the banner.
 
-<!-- LocalWords: ovecs
+<!-- LocalWords: ovecs ovexes dfn
 -->
