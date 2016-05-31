@@ -341,7 +341,7 @@ to indicate a negative relative number.](img/relplate.png)
    but is rarely done because resetting the succession index to zero
    makes it look like the country has recently underwent a revolution.
 2. They can limit succession to be only allowed once a sufficiently long period,
-   such as annually or biännually.
+   such as annually or biannually.
    Merely restricting succession to a maximum of twice per year
    brings the number of digits required for the foreseeable future
    to be a reasonable if slightly uncomfortable five digits,
