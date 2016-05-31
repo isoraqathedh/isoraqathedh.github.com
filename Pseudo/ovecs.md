@@ -484,6 +484,38 @@ even though it isn't.
 
 ### Raising or lowering a flag ###
 
+Putting up and setting down a flag is a straightforward manner,
+and is usually not a very ceremonious one.
+There are two types,
+and it depends on whether or not the pole is a permanent installation or not.
+
+The first type, mobile flags, can be short (three metres)
+and usually have pole markings.
+They are mounted simply by ramming the pole into the ground.
+These poles have a sharpened bottom so as to ease ramming,
+and fields that have holes for mobile flags are usually tapered at the bottom
+to accommodate this spike.
+Their shortness also indicates that they have prestige over the permanent flags,
+which is useful as guests are usually treated as such.
+Removing them is also simple; simply take the pole out of its original place.
+
+Permanent flags and flagpoles are slightly different.
+Permanent poles are rarely coloured,
+and those that are are usually reserved for a single flag.
+They have holes drilled onto the back
+for the mounting brackets that are glued on every sign's back.
+More recently sophisticated backs have been created
+with slots that can slide open and shut
+so that almost all heights can be accommodated.
+
+With permanent poles one mounts a flag by bringing it over the top of the pole,
+then sliding it down to the desired height.
+Then, using either ordinary nails or special screws with twist knobs,
+the flag is screwed on, from bottom to top.
+This is why there are hard surfaces at the back of the pole;
+one would mount it by going that high up and fixing the flag in place.
+Dismounting the flag is trivial, then; simply mount the flag, but time-reversed.
+
 ## Manymounting ##
 
 Manymounting is the practise of mounting more than one flag on the same pole.
