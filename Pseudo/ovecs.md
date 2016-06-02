@@ -66,18 +66,21 @@ and each corner and side has different names.
 A corner is called a *pœ*, and the edges are called *naon*.
 
 ![Two banners with the symbols for the names of the corners (left)
-and sides (right) named.](img/ovecs-both.png)
+and sides (right) marked.](img/ovecs-both.png)
 
 <table>
-  <caption>List of names of all corners, left-to-right, bottom-to-top</caption>
+  <caption>List of names of all corners and sides</caption>
   <thead><tr>
     <th>Symbol</th>
+    <th>Type</th>
     <th>Short Name</th>
     <th>Long name</th>
     <th>Translation of the long name</th>
   </tr></thead>
+  <tbody>
   <tr>
     <th>T</th>
+    <td rowspan="8">Corner</td>
     <td>Troťnu</td>
     <td>Üjbŕeu̲l</td>
     <td>First legendary</td>
@@ -124,7 +127,8 @@ and sides (right) named.](img/ovecs-both.png)
     <td>Lëdæng̲i</td>
     <td>Second polar</td>
   </tr>
-</table>
+  </tbody>
+<!--table>
 
 <table>
   <caption>List of names of all sides, left-to-right, bottom-to-top</caption>
@@ -133,9 +137,11 @@ and sides (right) named.](img/ovecs-both.png)
     <th>Short Name</th>
     <th>Long name</th>
     <th>Translation of long name</th>
-  </tr></thead>
+  </tr></thead-->
+  <tbody>
   <tr>
     <th>B</th>
+    <td rowspan=8>Side</td>
     <td>Blťu</td>
     <td>Üjbŕeyaot</td>
     <td>Legendary</td>
@@ -182,6 +188,7 @@ and sides (right) named.](img/ovecs-both.png)
     <td>Lëdæn</td>
     <td>Polar</td>
   </tr>
+  </tbody>
 </table>
 
 The long names are all descriptive –
@@ -664,7 +671,7 @@ When all the lines are scored,
 as well as lines that only act as helpers)
 the areas scored out are then painted,
 though not necessarily in the order the specification asks for.
-Finally, if the flag calls for it,
+Next, if the flag calls for it,
 devices are attached to the specified anchor points, completing the banner.
 
 The banner and any plates are partially prefabricated;
@@ -679,6 +686,22 @@ Interestingly, though flagmen make some poles,
 they are not responsible for all of them;
 architects and other home planners take care of all the static flagpoles,
 and the ones that the flagmen are responsible for are mobile.
+
+With all the parts done, all that's left is to assemble the flag.
+This is not done by the flagmen;
+all they do is to put all the flags into a box
+with a couple of nails and screws
+which they then ship off to the recipient.
+The screws are not conventional screws;
+as mentioned earlier they have a knob
+so they can be screwed or unscrewed without a screwdriver.
+The exact form of the screw used to be a trade secret,
+but nowadays is so strongly tied with flags
+no one ever uses them for anything other than flags.
+The whole box is then sealed, decorated and shipped off to the customer,
+which can be as humble as a single individual
+or it can be an entire country('s government).
+
 <!--
 To write:
 Codes (just general)
