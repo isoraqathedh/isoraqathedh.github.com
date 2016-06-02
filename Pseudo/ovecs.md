@@ -518,16 +518,37 @@ Dismounting the flag is trivial, then; simply mount the flag, but time-reversed.
 
 ## Manymounting ##
 
+![An example of two flags mounted serially.
+In this example, two documentation flags are used.
+Even so, the tallness of this flag combination
+justifies the hard limitation of
+six flags per pole mounted serially.](img/serial-manymounting.png)
+
 Manymounting is the practise of mounting more than one flag on the same pole.
 It is different from merely putting one flag next to another in a field,
 and there are two, not just one, way to mount more than one flag on one pole.
-
 The most obvious way that this can be done
 is to simply put one flag on top of another.
 This is called <dfn>serial manymounting</dfn> (E.-Pasaru: želuue̲dulb̲lsa)
 One can repeat this for up to 6 flags at a time.
 The hard cap is to ensure that the highest flags are not so high
 that its details cannot be seen without using some kind of periscope or ladder.
+Still, the hard cap is rarely reached;
+the maximum that most will ever see is three,
+and two is far more common.
+
+If for whatever reason more than six is needed,
+the typical solution is to mount the next set in another pole,
+slightly above and to the viewer's right of the mounting point of the first pole
+with a beam angled to that effect.
+The tilted beam is to ensure that the situation
+is not to be confused with parallel manymounting.
+However, with each new <dfn>extension beam</dfn> one fewer flag can be mounted,
+leaving a new maximum of 21 flags;
+and of course all of those extra flags have to be supported somehow,
+usually using counterweights on the left-hand side or lots of trusses.
+Still, the new 21-flag limit is considered high enough
+for virtually all circumstances.
 
 This kind of mounting is fairly simple
 and is used to indicate hierarchal relationships,
@@ -537,6 +558,9 @@ are the ones that are considered more important, not the ones at the top;
 the reasoning here is that reading things is done starting at normal eye level
 and moving away from that, which in the case of flags,
 one starts at the one closest to eye level, which is the bottom flag.
+This also explains why the hard cap of six is not very restrictive;
+often one does not sign every hierarchical level on a flag,
+leaving only two or three important ones above one's own.
 
 Since flags are allowed to specify their own pole colours,
 what happens when two flags specify different colours are put together?
@@ -545,6 +569,13 @@ the most obvious one is to select one flag that dominates over the other,
 in which case we choose the bottom flag, as it is in the position of honour.
 But one can also elect to use the neutral colour, favouring no one,
 or paint different sections of the pole according to the flag just above it.
+Different societies have different solutions, and all three mentioned here
+are commonly understood.
+
+![An example of parallel manymounting.
+Note that as these are documentation flags,
+these two configurations
+do not conflict with each other.](img/parallel-manymounting.png)
 
 The other way to do it is to mount many flags, one next to each other,
 but on the same (modified) pole.
@@ -560,14 +591,19 @@ to the number of flags that can be parallel-manymounted in the same pole;
 one can choose to place as many flags in parallel
 on the same pole as one wishes,
 though of course limitations can occur by other means, such as available space.
-In the wild, one can see some flags that have 30 to 40 flags in parallel,
-though those in the higher end are unwieldy enough
-that they are never seen in mobile format
-and the static ones have auxiliary poles
-and <dfn>struts</dfn> (E.-Pasaru: unzl̲edæn) to help reïnforce the structure.
-Auxiliary poles are allowed to touch the ground, whereas struts cannot.
-Auxiliary poles are not allowed to be directly beneath any flag
-and cannot be more than one per three flags after the third.
+
+These flags can be very large –
+extreme cases can have more than thirty or forty flags mounted on the same pole,
+so extra support is needed for these flag assemblies.
+All flags are fed through a <dfn>truss</dfn> (E.-Pasaru: aķdžœ)
+at the lower end of their individual poles,
+which then joins to the <dfn>master pole</dfn> (E.-Pasaru: lelëdæn),
+which is the pole that finally attaches the whole lot to the ground.
+In order to allow further support,
+diagonal rods known as <dfn>struts</dfn> (E.-Pasaru: unzl̲edæn)
+and vertical rods known as <dfn>auxiliary poles</dfn>
+can be used to reïnforce the structure.
+Struts do not touch the ground 
 
 Secondly, flags mounted in parallel have equal standing with each other.
 This can be overridden by having one flag be shorter than all the rest,
