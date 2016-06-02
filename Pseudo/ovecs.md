@@ -588,7 +588,7 @@ with code 04.](img/parallel-manymounting.png)
 
 The other way to do it is to mount many flags, one next to each other,
 but on the same (modified) pole.
-This is called <dfn>parallel manymounting</dfn> (E.-Pasaru: želuue̲dup̲llůinbřu)
+This is called <dfn>parallel manymounting</dfn> (E.-Pasaru: želuue̲dulp̲llŭinbřu)
 and is much more complex than serial manymounting.
 In parallel mounting, the pole splits into two or more at some specified point,
 and from there on each one can can sport any flag or flag combination.
