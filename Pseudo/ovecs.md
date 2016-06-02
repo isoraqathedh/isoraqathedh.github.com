@@ -574,8 +574,9 @@ are commonly understood.
 
 ![An example of parallel manymounting.
 Note that as these are documentation flags,
-these two configurations
-do not conflict with each other.](img/parallel-manymounting.png)
+these two configurations do not conflict with each other.
+Also, the manymounting represents a union
+with code 04.](img/parallel-manymounting.png)
 
 The other way to do it is to mount many flags, one next to each other,
 but on the same (modified) pole.
@@ -603,7 +604,7 @@ In order to allow further support,
 diagonal rods known as <dfn>struts</dfn> (E.-Pasaru: unzl̲edæn)
 and vertical rods known as <dfn>auxiliary poles</dfn>
 can be used to reïnforce the structure.
-Struts do not touch the ground 
+Struts do not touch the ground, whereas auxiliary poles do.
 
 Secondly, flags mounted in parallel have equal standing with each other.
 This can be overridden by having one flag be shorter than all the rest,
