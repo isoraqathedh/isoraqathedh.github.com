@@ -641,7 +641,44 @@ Those who make flags are called <dfn>flagmen</dfn> (yess̲en), unsurprisingly.
 As a group they make sure everything from forest to finish goes smoothly.
 They source the building material, cut it down to size,
 and draw the lines on the banner.
+We will now describe how the flag production process works.
 
+It begins with the order to make a flag.
+All flags have a specification,
+a code in the cypher sense that specifies exactly where the lines are drawn
+and what the colours are, without actually drawing a diagram,
+which is at the time very space-consuming.
+It is through this medium that a flagman creates the flag.
+The code itself is made out of a list of shorthands and names,
+names for all of the points and most of the lines.
+More recently, a more public-facing version was created
+that replaces the code with a bunch of drawings,
+but this is only used in very formal contexts
+and not as the actual plan to make flags.
+
+The flagman then scores the lines using a special set of rulers,
+both for lines and special curves, a couple of dividers,
+compasses, neusis rulers, and other geometrical implements.
+When all the lines are scored,
+(which include the lines that are thin bands in the final flag
+as well as lines that only act as helpers)
+the areas scored out are then painted,
+though not necessarily in the order the specification asks for.
+Finally, if the flag calls for it,
+devices are attached to the specified anchor points, completing the banner.
+
+The banner and any plates are partially prefabricated;
+the plates are completely so,
+but the banner's prefab is just a white rectangle with a thin black border.
+The flagman has to write the banner's characters in himself,
+but this can also be done using a prepared stencil.
+
+Finally all the display parts have a bracket glued onto their backs,
+which are the part that allows them to be attached to any flagpoles.
+Interestingly, though flagmen make some poles,
+they are not responsible for all of them;
+architects and other home planners take care of all the static flagpoles,
+and the ones that the flagmen are responsible for are mobile.
 <!--
 To write:
 Codes (just general)
