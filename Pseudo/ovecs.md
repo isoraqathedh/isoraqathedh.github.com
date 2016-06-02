@@ -520,7 +520,71 @@ Dismounting the flag is trivial, then; simply mount the flag, but time-reversed.
 
 Manymounting is the practise of mounting more than one flag on the same pole.
 It is different from merely putting one flag next to another in a field,
-and there are many more variations building it.
+and there are two, not just one, way to mount more than one flag on one pole.
+
+The most obvious way that this can be done
+is to simply put one flag on top of another.
+This is called <dfn>serial manymounting</dfn> (E.-Pasaru: želuue̲dulb̲lsa)
+One can repeat this for up to 6 flags at a time.
+The hard cap is to ensure that the highest flags are not so high
+that its details cannot be seen without using some kind of periscope or ladder.
+
+This kind of mounting is fairly simple
+and is used to indicate hierarchal relationships,
+such as city/state/country or individual/boss.
+It should be noted that the flags closer to the *bottom*
+are the ones that are considered more important, not the ones at the top;
+the reasoning here is that reading things is done starting at normal eye level
+and moving away from that, which in the case of flags,
+one starts at the one closest to eye level, which is the bottom flag.
+
+Since flags are allowed to specify their own pole colours,
+what happens when two flags specify different colours are put together?
+There are several solutions:
+the most obvious one is to select one flag that dominates over the other,
+in which case we choose the bottom flag, as it is in the position of honour.
+But one can also elect to use the neutral colour, favouring no one,
+or paint different sections of the pole according to the flag just above it.
+
+The other way to do it is to mount many flags, one next to each other,
+but on the same (modified) pole.
+This is called <dfn>parallel manymounting</dfn> (E.-Pasaru: želuue̲dup̲llůinbřu)
+and is much more complex than serial manymounting.
+In parallel mounting, the pole splits into two or more at some specified point,
+and from there on each one can can sport any flag or flag combination.
+
+Parallel manymounting has several features
+that distinguishes it from its serial cousin.
+For instance, unlike serial manymounting there is *no upper bound*
+to the number of flags that can be parallel-manymounted in the same pole;
+one can choose to place as many flags in parallel
+on the same pole as one wishes,
+though of course limitations can occur by other means, such as available space.
+In the wild, one can see some flags that have 30 to 40 flags in parallel,
+though those in the higher end are unwieldy enough
+that they are never seen in mobile format
+and the static ones have auxiliary poles
+and <dfn>struts</dfn> (E.-Pasaru: unzl̲edæn) to help reïnforce the structure.
+Auxiliary poles are allowed to touch the ground, whereas struts cannot.
+Auxiliary poles are not allowed to be directly beneath any flag
+and cannot be more than one per three flags after the third.
+
+Secondly, flags mounted in parallel have equal standing with each other.
+This can be overridden by having one flag be shorter than all the rest,
+but this is rarely done and in the end the cultural norm
+is that when flags are mounted in parallel,
+no object referred to in that assembly is more important than another.
+*If* however one is required, one can mount a flag in series,
+but make the upper "flag" a parallel manymounting.
+
+Finally, parallel mounting results in a consequence –
+there is a space for a legend to be placed at the base of the manymounting.
+This legend, which even if present is still just called a legend,
+is used to label the manymounting in its entirety,
+and usually draws its symbols
+from the name of the union of the objects that take part in the manymounting.
+This means that in some cases, unions don't have flags of their own,
+just the parallel manymounting of its members.
 
 # Making a flag #
 Unlike Earthling (Western) flags,
@@ -533,5 +597,14 @@ As a group they make sure everything from forest to finish goes smoothly.
 They source the building material, cut it down to size,
 and draw the lines on the banner.
 
-<!-- LocalWords: ovecs ovexes dfn
+<!--
+To write:
+Codes (just general)
+The exact process
+Pencils, lines, paint
+gluing the bracket on,
+shipping and handling
+-->
+
+<!-- LocalWords: ovecs ovexes dfn manymounting
 -->
