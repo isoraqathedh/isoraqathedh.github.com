@@ -397,6 +397,14 @@ by chance or by force.
 
 ### Fields and their Rings ###
 
+![A schematic of a common but loose field with enough room for four flags.
+Each flag pole has a field of about 5 m across
+and there is little overlap of fields of different flags.
+The flag poles are in black, the field in dark green,
+and the field's ring in light green.
+Most other types of fields, if not bespoke, are much tighter than this,
+but this design emphasises the circular nature of the field.](img/field.png)
+
 Flags are mounted in a specific area, known as the <dfn>field</dfn> (senp̲arť).
 The field may be, but sometimes is not, clearly delimited,
 and may be defined in one or both of these two methods:-
