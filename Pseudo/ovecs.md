@@ -132,7 +132,7 @@ and sides (right) named.](img/ovecs-both.png)
     <th>Symbol</th>
     <th>Short Name</th>
     <th>Long name</th>
-    <th>Explanation of long name</th>
+    <th>Translation of long name</th>
   </tr></thead>
   <tr>
     <th>B</th>
