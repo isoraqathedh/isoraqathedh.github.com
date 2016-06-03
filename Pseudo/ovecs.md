@@ -639,6 +639,7 @@ This means that in some cases, unions don't have flags of their own,
 just the parallel manymounting of its members.
 
 # Making a flag #
+
 Unlike Earthling (Western) flags,
 which are typically made out of coloured fabric,
 Ovexes are made out of hard, easily painted material such as wood or stone.
@@ -649,6 +650,8 @@ As a group they make sure everything from forest to finish goes smoothly.
 They source the building material, cut it down to size,
 and draw the lines on the banner.
 We will now describe how the flag production process works.
+
+## Creation process ##
 
 It begins with the order to make a flag.
 All flags have a specification,
@@ -702,14 +705,9 @@ The whole box is then sealed, decorated and shipped off to the customer,
 which can be as humble as a single individual
 or it can be an entire country('s government).
 
-<!--
-To write:
-Codes (just general)
-The exact process
-Pencils, lines, paint
-gluing the bracket on,
-shipping and handling
--->
+## Materials ##
+
+# Representative power of a flag #
 
 <!-- LocalWords: ovecs ovexes dfn manymounting
 -->
