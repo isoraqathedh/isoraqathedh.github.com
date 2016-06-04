@@ -707,7 +707,54 @@ or it can be an entire country('s government).
 
 ## Materials ##
 
+At first the flags are made out of wood and stone,
+and these are still how traditional flags are made today.
+However, in more recent times flagmen have experimented
+with more modern materials,
+such as aluminium and steel with retroreflective material.
+
+With the change in material,
+change in production technique is required as well.
+By the year 19400 PDN, flags, especially when mass-produced,
+are computer-designed and also built by robots
+using plotters and other such flag-making devices.
+There's a minor demand for hand-made flags,
+so flagmen are still in employment,
+but their numbers have never grown since their peak at 12500 PDN.
+
 # Representative power of a flag #
+
+Flags are typically associated with countries,
+but that's not the only thing they can do.
+They can, and often do, represent private entities such as companies,
+individuals, informal groups, events, ideas, groups of ideas,
+and even otherwise random assortments of unrelated objects.
+This is slightly different from the flags that Earthlings are used to
+because they are generally used only to represent a political subdivision,
+though of course they can and do get used to represent other things.
+
+One usage case of the pole colour
+is to indicate the class of object that the flag represents.
+This is not standardised and is usually just an ad-hoc convention,
+but such conventions have been used and exploited over the years
+in different countries and different situations.
+For instance, in early 9th century Vohalyo,
+yellow poles generally indicate guilds and unions,
+green poles generally indicate the rural contingent,
+and red poles are for couriers and healthcare agents.
+"Official" (governmental) flags remain neutral in pole colour.
+
+One surprising class of flags are flags that don't represent anything at all,
+and are universally regulated to *not* represent anything at all.
+These are the <dfn>documentation flags</dfn>,
+which are a special class of extremely simple flags
+that are reserved for describing how they work in documents like this one.
+These flags are extremely simple,
+usually just a plain colour with a corresponding figure drawn inside,
+and the legend are two duodecimal digits.
+As a result, 144 flags can be used at a time,
+but there are actually about 800,000 of them.
+As a consequence, no legend in the wild can solely consist of digits.
 
 <!-- LocalWords: ovecs ovexes dfn manymounting
 -->
