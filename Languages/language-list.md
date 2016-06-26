@@ -98,7 +98,7 @@ These have grown to be so numerous that they are now divided by planet.
     with no fewer than four scripts pulling their individual weight.
 (@12) [**Ouduec Fxelw**][XAX-OF] has a large phonetic inventory
     and is spoken in North Abeĉo.
-    It boasts an amazingly compact script that's alphabetic 
+    It boasts an amazingly compact script that's alphabetic
     with minor logographic and syllabic aspirations,
     as well as a vaguely Arabic bent.
     The actual language is far from Arabic though,
