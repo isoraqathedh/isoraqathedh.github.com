@@ -172,3 +172,21 @@ because they are written in a purple notebook.)
 [PUR-MGY]: http://isoraqathedh.tumblr.com/tagged/Man-gog-yuu
 [PUR-AKF]: http://isoraqathedh.tumblr.com/tagged/ABGTA
 [PUR-GMF]: http://isoraqathedh.tumblr.com/tagged/g'M%C3%B2dyf%C3%A4jq
+
+# Other languages
+
+These languages are incomplete, immature
+or otherwise simply old and left unfinished.
+They may graduate out of this list to become full languages.
+
+* **→** is a tiny language fragment that only defines one verb, "becomes",
+  written as →.
+  It has no means to form any part of speech and relies on other languages
+  to donate their own.
+  No other verbs are defined, but arrows can be chained to express continuity;
+  furthermore there are additional helper constructs, such as brackets,
+  to express complex concepts.
+* **Egonyota Bulilla** and **Egonyota Vohalyosun**
+  are planned ancestors of Egonyota Pasaru.
+* **Rðƿa** is an old language that attempts to mix Chinese and English.
+  It is currently undeveloped and will probably remain so.
