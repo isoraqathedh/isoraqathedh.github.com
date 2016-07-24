@@ -98,7 +98,16 @@ These have grown to be so numerous that they are now divided by planet.
     with no fewer than four scripts pulling their individual weight.
 (@12) [**Ouduec Fxelw**][XAX-OF] has a large phonetic inventory
     and is spoken in North Abeĉo.
-    Little else about it is as of yet known.
+    It boasts an amazingly compact script that's alphabetic
+    with minor logographic and syllabic aspirations,
+    as well as a vaguely Arabic bent.
+    The actual language is far from Arabic though,
+    and is in fact generative from the ground up,
+    with the language composed of several very explicit building blocks
+    that replace one another until the meaning is expressible.
+    This makes it easy to construct by a computer,
+    but of course there are other obstacles to natural language processing,
+    even with this language.
 (@13) [**Ya-kĕnaj**][XAX-Ya] is a programmer's cant
     similar but not exactly the same as Yoskrail.
     It has the most infuriating property
