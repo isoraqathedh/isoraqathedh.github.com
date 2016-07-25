@@ -186,6 +186,8 @@ They may graduate out of this list to become full languages.
     * **Oraṕ** (or Oraf), an international auxiliary language
     that meditates speakers of Nnn Heeel and Genbarg
     * **Eðam**, a "secret language" spoken in the island of Ķaftenguu.
+* Other purple languages
+    * **Riga Pãiberica** is a hypothetical merger of Spanish and Portuguese.
 * **→** is a tiny language fragment that only defines one verb, "becomes",
   written as →.
   It has no means to form any part of speech and relies on other languages
