@@ -179,6 +179,13 @@ These languages are incomplete, immature
 or otherwise simply old and left unfinished.
 They may graduate out of this list to become full languages.
 
+* Other languages in the Jesdic Pasaru
+    * **Egonyota Bulilla** and **Egonyota Vohalyosun**
+      are planned ancestors of Egonyota Pasaru.
+    * **Genbarg**, a descendent of Âagenzbèe in the Esħ Pez
+    * **Oraṕ** (or Oraf), an international auxiliary language
+    that meditates speakers of Nnn Heeel and Genbarg
+    * **Eðam**, a "secret language" spoken in the island of Ķaftenguu.
 * **→** is a tiny language fragment that only defines one verb, "becomes",
   written as →.
   It has no means to form any part of speech and relies on other languages
@@ -186,7 +193,5 @@ They may graduate out of this list to become full languages.
   No other verbs are defined, but arrows can be chained to express continuity;
   furthermore there are additional helper constructs, such as brackets,
   to express complex concepts.
-* **Egonyota Bulilla** and **Egonyota Vohalyosun**
-  are planned ancestors of Egonyota Pasaru.
 * **Rðƿa** is an old language that attempts to mix Chinese and English.
   It is currently undeveloped and will probably remain so.
