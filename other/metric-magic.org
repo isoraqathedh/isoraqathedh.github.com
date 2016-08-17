@@ -1,0 +1,156 @@
+#+Title: Metric Magic
+#+Date: 2016-08-15
+
+* Outline
+** Pre-metrication
+Stuff was pretty okay, I guess.
+Things were measured in inches and stuff.
+Then the world changed.
+The non-magical world started to use "metric".
+It was cool stuff.
+Even though the magic economy is good
+they have had to interface with the non-magical world (somehow)
+and there's no way they can convince the world to stick to imperial
+# (side-eyes the US with regards to aeroplane altitudes)
+So they, the magical community in <unspecified country> had to change.
+
+** The law
+Interdiction of Metric, 1894
+
+- Raised 1 June, 1894 by a bunch of mages.
+- Voted in a secret council, won five votes to four.
+  - (Previous similar votes?)
+- Dictates that the transformation will begin 1 January 1910,
+  and complete by 31 December 1911.
+- "Hard" metrication when possible, "soft" metrication only if necessary
+
+** The changeover, by field
+*** Wands
+Amazing! The wands have to change.
+
+Questions that the court must answer:
+
+- Does changing a wand from 12 in. to 30 cm change anything about the wand?
+  (No, not practically, see [[*Consistency%20and%20standardisation][section below]].)
+- Can you make meta-wands that work only on magic objects?
+  - Are meta-wands just normal wands?
+- Is a wand "the same" if you change its length magically?
+  No, actually; lots of magicians report their wands are unusable after mods,
+  but not all, for some reason.
+  this means that a mass recall and resupply has to be made.
+- What do you do with the old wands?
+  There's some freedom: you can keep the old wand if you want.
+  You can even do some magic with it if you want.
+  But magic performed "officially" (by governments and contractors)
+  will have to be made using metric wands,
+  and no scientist will take you seriously with a nonstandard wand.
+
+*** Science
+Unlike in the non-magical world,
+magic scientists (properly, "spell-finders", because that's what they do)
+at first didn't appreciate the beauty of metric,
+but they were inquisitive and adopted them.
+They already have the spirit of standardisation upon them;
+it's much easier to find a spell using a single length of wand
+(though they have many different sizes to see if any of them catches a spell
+that can only be done with a wonky size).
+
+Nevertheless, they came around to it eventually.
+A couple of "letters" (comments, pro to-papers) was made to judge its effectiveness.
+
+*** Other
+Wands and scientists are high-visibility things,
+but there are plenty of mundane and infrastructural requirements too.
+
+- Buildings
+  New houses are required to be metric.
+  So are all other buildings.
+  Non-metric housing is allowed to continue to exist
+  but there's quite a subsidy to modify the house magically
+  to conform to metric.
+  All buildings however are now specified in metric
+  regardless of whether or not they are modded or not.
+- Roads
+  not worth bothering
+- Prices of other things, like food and ~water~ exotic drinks
+  Sometimes it works, sometimes it doesn't.
+  It's mostly marketing.
+
+** The day and push-back
+"Icky non-magical nonsense!" says the detractor.
+"But it is expensive to change over!" say the concerned businessmen.
+"Most of the guy in the Anglosphere aren't changing over!"
+says the pragmatist.
+None of these were heard,
+and the process went by without too much of an issue.
+
+- Some seven thousand houses resized
+- Massive lines for wand replacements or resizing
+  (also some mail orders)
+- Letters (or other messages) sent out to everyone for education
+- Schools formally start measuring things in metric
+
+And during the next ten years:
+
+- Police to check on metric usage
+- Books republished to use metric
+- Houses continue to be resized
+- Old measures and measuring tools are slowly replaced when needed
+
+Eventually by the end of five years and much effort by the court,
+most things in the magic kingdom is metric.
+
+** Post-mortem
+Metric is largely dominant in the magical metrological world of 1920.
+Though the benefits are largely invisible,
+they are tangible if one looks for them.
+An unexpected benefit happened as well - 
+increasingly further isolated pockets of magic also uses metric,
+and those interoperate very well with each other and also the non-magical world.
+
+* Why change?
+** Consistency and standardisation
+This is a bid with standardising several things.
+Magic wands are made imprecisely in the past and often a "10 inch" wand
+can have lengths between 22 to 28 cm.
+This has some quantitative differences in spell-casting,
+such as spell range and effectiveness.
+
+** Mundane interaction
+Increasingly the magical community is finding the joys of the modern world
+appealing and useful, like electricity and stuff,
+but with them moving away from imperial
+it's more and more likely that things break from things not measuring up.
+It's impossible to get the non-magical communities to revert back to imperial
+(though this is not for lack of trying),
+so to continue the deal with them in a literal sense,
+they must change to metric.
+
+* Where even is here?
+** <unspecified country>
+- Probably speaks English
+- Probably in ~England~ Jersey?, or maybe Malta, who knows
+- May not even be on the map
+- 2000 km²
+- Like a million magical inhabitants
+- and three times more mundane inhabitants
+- It's permanently overcast there for some reason.
+
+** How do you grow up?
+- Schools: lots of them, everywhere
+  Probably small-scale, private affairs
+- Money: somehow, already decimal
+- Food: trade with outsiders, mainly.
+- Outside interaction:
+  Tons; apart from some very secluded places
+  magic is pretty well-hidden.
+  
+** How magic works, briefly:
+- Manipulates probability
+- e.g. "levitation" simply means that energy is gathered from, say,
+  ambient sound and heat and put into the object to be levitated
+- Uses wands to direct such transfer of energy
+- Wands have different strengths depending on wand cores and length
+
+* Notes
+- At some point, there should be a psionic group called "The Pascals".
