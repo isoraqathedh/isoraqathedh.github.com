@@ -1,6 +1,8 @@
 #+Title: Metric Magic
 #+Date: 2016-08-15
 
+[[file:metric-magic.md][Markdown]] [[file:metric-magic.html][HTML]]
+
 * Outline
 ** Pre-metrication
 Stuff was pretty okay, I guess.
