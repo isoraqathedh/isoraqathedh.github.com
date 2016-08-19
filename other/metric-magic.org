@@ -106,7 +106,7 @@ most things in the magic kingdom is metric.
 Metric is largely dominant in the magical metrological world of 1920.
 Though the benefits are largely invisible,
 they are tangible if one looks for them.
-An unexpected benefit happened as well - 
+An unexpected benefit happened as well -
 increasingly further isolated pockets of magic also uses metric,
 and those interoperate very well with each other and also the non-magical world.
 
@@ -146,7 +146,7 @@ they must change to metric.
 - Outside interaction:
   Tons; apart from some very secluded places
   magic is pretty well-hidden.
-  
+
 ** How magic works, briefly:
 - Manipulates probability
 - e.g. "levitation" simply means that energy is gathered from, say,
@@ -156,3 +156,17 @@ they must change to metric.
 
 * Notes
 - At some point, there should be a psionic group called "The Pascals".
+
+* The actual work
+** DONE The vote
+   CLOSED: [2016-08-18 Thu 23:35]
+Sets up the sections of the story:
+
+** TODO Merchant
+** TODO Wizard school
+** TODO Scientist
+** TODO Engineer/House mover
+** TODO Diplomacy
+
+** TODO Aftermath
+Twenty years on, what happened?
