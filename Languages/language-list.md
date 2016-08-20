@@ -13,9 +13,13 @@ However, the second page has been edited to only show a link to this page.
 # The Four Languages of the Jesdic Pasaru
 (@1) The official language of the Jesdic Pasaru,
     [**Egonyota Pasaru**][PSD-EP] is the one language you must learn
-    to truly experience life in the Empire.
-    It is the lingua franca of the Empire and its periphery,
+    to truly experience life in the Empire,
+    being the lingua franca of the Empire and its periphery,
     for certain definitions of “periphery”.
+    Though its features might be uninteresting as a result,
+    it possesses the somewhat downplayed ability
+    to assume the form of any other language
+    through its "pragma" system.
 (@2) The international language of the planet that bears its name,
     [**Serakafph Xaxex**][XAX-SX] is well known
     for its rich array of metaphor and figurative speech
@@ -50,9 +54,9 @@ These have grown to be so numerous that they are now divided by planet.
     Spoken primarily in the isolated yet highly connected burrows of (J)erso
     and the surrounding ocean (now a mountain due to continental drift),
     it sports indenting, lexical blocks and an infinite supply of variables.
-(@6) [**Hesmai Iok**][PSD-HI] is a language that pulls its weight in Fenegil.
-    It has an intense ȝender system that both nouns and verbs use,
-    and they interact in manners most convoluted.
+(@6) The common language of all of the continent of Fenegil,
+    [**Hesmai Iok**][PSD-HI] has an intense ȝender system
+    that both nouns and verbs use, and they interact in convoluted manners.
     It also has a most singular lexicographical ordering
     that uses a length-55 vector to determine order.
 (@7) [**Âagenzbèe**][PSD-Ag] is the Old Tongue of the northern lands of Pseudo.
@@ -63,7 +67,7 @@ These have grown to be so numerous that they are now divided by planet.
 (@8) [**Cindri**][PSD-Cd] is a language
     spoken in the islands far to the north of Pseudo.
     It is known for its unique feature of having a knitted representation
-    in lieu of a written one.
+    which historically is more used than the written one.
 (@9) [**Gwa-elohba**][PSD-GE] is the national language of Rija,
     and is a cousin of Cindri and a descendent of Âagenzbèe.
     It can be considered as a “missing link” between those two languages.
