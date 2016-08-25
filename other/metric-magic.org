@@ -155,15 +155,23 @@ they must change to metric.
 - Wands have different strengths depending on wand cores and length
 
 * Notes
-- At some point, there should be a psionic group called "The Pascals".
-
 * The actual work
 ** DONE The vote
    CLOSED: [2016-08-18 Thu 23:35]
 Sets up the sections of the story:
 
 ** TODO Merchant
+*** Setting
+Market place, ~12:30.
+Place flooded with a line towards Wand Conversion Facility
+*** Characters
+- Melon farmer
+- Candlewood farmer
+  - Candlewood is a tree that's good for wands
+*** What happened
+
 ** TODO Wizard school
+- At some point, there should be a psionic group called "The Pascals".
 ** TODO Scientist
 ** TODO Engineer/House mover
 ** TODO Diplomacy
