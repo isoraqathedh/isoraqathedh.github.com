@@ -1,5 +1,4 @@
 /* Partially based on Kroc Camen's code -- http://camendesign.com/ */
-li {margin:0 auto;}
 html {
 	height:100%;
 	width:680px;
@@ -36,54 +35,15 @@ body>nav {
 	left:6px;
 	z-index:1;
 }
-ul {padding:0; margin:0; list-style:none;}
 nav a {display:block;}
-nav>ul>li {
-	border:2px solid #AF2303;
-	border-bottom:0;
-	display:inline-block;
-	text-align:center;
-	padding:2px;
-	vertical-align:top;
-	height:1.125em;
-	overflow:hidden;
-	width:40.5em;
-	background-color:#FFC800;
-	transition:height 1s, background-color 1s;
-		-moz-transition:height 1s, background-color 1s;   /* << vnd.Fx */
-		-webkit-transition:height 1s, background-color 1s;/* << vnd.SC */
-		-o-transition:height 1s, background-color 1s;     /* << vnd.OP */
-}
-nav>ul>li:last-of-type {
-	border-bottom:2px solid #AF2303;
-}
 nav>ul>li:hover {
 	height:10em;
 	background-color:#FFDE70;
 }
-body>nav>ul>li>* {font-weight:normal;}
-body>nav>ul>li>ul>li>a {display:inline-block;}
-body>nav>ul>li>ul>li {
-	width:100px;
-	height:50px;
-	display:inline-block;
-	border:1px solid #AF2303;
-	vertical-align:top;
-	margin-bottom:4px;
-}
 body>nav>ul>li {font-weight:bold;}
 body>section {
 	position:absolute;
-	top:50%;
-}
-#nopointer {
-	text-indent:0;
-	font-size:110%;
-	margin:1em auto;
-	text-align:center;
-	width:50%;
-	position:absolute;
-	top:30%;
-	left:25%;
+	top:10%;
+    margin-left:1em;
 }
 #nopointer a {display:inline;}
