@@ -134,3 +134,76 @@ Nine: "**Yes**."
 And with that, the Interdiction of Metric of 1894 was passed,
 imploring the kingdom to change to using the System of Tens
 before the next decade is through.
+
+---
+
+It gets a little bit busy in the Grand Market sometimes,
+but rarely has the place been as crowded as it was now.
+Sadly for the shops that surround the Market though,
+it was not for them that the line was formed,
+as its destination was an imposing castle far from the market,
+complete with dark clouds and flashing lightning.
+
+"So," asked the melon shopkeeper,
+"how's that whole metric system going on for you?"
+
+"What do you mean?" asked the candlewood merchant.
+
+"Well, you've heard the decree.
+Everything has to be in metric before ten years have passed.
+That probably means your stuff."
+
+"Well I haven't actually thought of doing it soon.
+It's actually slightly more complicated than what you might think."
+
+"Oh? What do you mean by that?"
+
+"Tell me, as someone who sells melons, what do you have to do?"
+
+"Well, all I *had* to do was to replace the scales
+with ones that measure in kilograms,
+and also recalculate the prices.
+Admittedly some customers have been accusing me of ripping them off –
+you know, 'oi, this used to be fifteen shillings per pound,
+but now it's thirty-five shillings per kilogram!
+That is a complete travesty and I will report you!'
+But really it's nothing beyond what I usually get
+from regular price increases."
+
+"You're pretty lucky that's all you got,
+but while I haven't got much in the way of rip-off accusations,
+sourcing new material is significantly more difficult."
+
+"If you don't have the customers hounding at you,
+then your life can't be *that* bad."
+
+"That's what you'd think, but life just refuses to be that easy.
+You know how much work turns a raw candlewood stick into a real wand?"
+
+"Quite a bit, I would think, but none of it would be done by you,
+considering you're just the *retailer*."
+
+A raised eyebrow from the candlewood man. "Making a wand is *hard*.
+You, a mere *retailer* of melons, probably won't know this,
+but there are far more considerations to a wand than merely its weight.
+Its length, wand cores and so on – those all require measurements,
+and they all interrelate with each other.
+
+"So when you get moved from 12-inch wands to 30-centimetre ones,
+everything changes ever so slightly.
+The wand cores, be they wood or feather,
+they have to be adjusted a little to ensure the spell goes through right,
+and of course if you had the candlewood a little to thick around the core
+the spell fizzles out for completely mysterious reasons,
+or it gets aimed in an unexpected direction, and all that mess.
+It's therefore extremely hard to 'merely' add an extra point or two
+up a wand, and that's why that giant line is there –
+to have everyone's wands inspected and standardised."
+
+"Surely that means more business for you?"
+
+"You're partially right,
+but the government want to develop
+some special wand-growing and -shrinking technology
+which would largely take the job out of me.
+Why do you think the line is going towards the castle and not me?"
