@@ -25,7 +25,7 @@ body {
 }
 
 /* Text */
-p {font-family:Proportional; text-indent:50px;}
+p {text-indent:2em;}
 p.center {text-indent:0px; text-align:center;}
 h1, h2, h3, h4, h5, h6 {color:#B05D4A; font-variant:small-caps; font-family:Georgia;}
 h1, h2 {clear:both;}
