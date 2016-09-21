@@ -1,0 +1,55 @@
+.factsheet {
+    display:flex;
+    flex-flow: row wrap;
+    border: 1px solid #FFC800;
+    background-color: #FFF7CA;
+    margin: 0.75em;
+    padding: 0.1em;
+    justify-content:space-around;
+    font-size: 95%;
+}
+.card {
+    margin: 0.5em;
+    padding: 0.25em;
+    border: 2px solid #FFC800;
+    border-radius: 0.3em;
+    background-color: #FFEC9B;
+    min-width: 10em;
+}
+.property {
+    text-align:center;
+    background-color: #FFC800;
+    margin: 0 0.25em 0.25em;
+    padding: 0 0.1em;
+}
+.value {
+    text-align:center;
+    color:#333;
+    font-size:90%;
+}
+section.sample p {
+    color: #222;
+    font-style:italic;
+}
+.claims-to-fame li[class]:before {
+    border: 1px solid #AF2303;
+    padding: 0 0.3em;
+    font-size: 95%;
+}
+.phonology:before {
+    content:'Φ';
+    color: #FFF;
+    background-color: #AF2303;
+}
+.orthography:before {
+    content:'O';
+    color: #FFF;
+    background-color: #480975;
+
+}
+.pragmatics:before {
+    content:'P';
+    color: #FFF;
+    background-color: #027E34;
+
+}

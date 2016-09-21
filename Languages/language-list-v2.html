@@ -3,66 +3,85 @@
 <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="../global/Default.css"/>
+  <link rel="stylesheet" href="Styles/language-list.css" />
   <title>Language List, version 2</title>
-  <style>
-    .factsheet {
-        display:flex;
-        flex-flow: row wrap;
-        border: 1px solid #FFC800;
-        background-color: #FFF7CA;
-        margin: 0.75em;
-        padding: 0.1em;
-        justify-content:space-around;
-        font-size: 95%;
-        flex-wrap: wrap;
-    }
-    .card {
-        margin: 0.5em;
-        padding: 0.25em;
-        border: 2px solid #FFC800;
-        border-radius: 0.3em;
-        background-color: #FFEC9B;
-        min-width: 10em;
-    }
-    .property {
-        text-align:center;
-        background-color: #FFC800;
-        margin: 0 0.25em 0.25em;
-        padding: 0 0.1em;
-    }
-    .value {
-        text-align:center;
-        color:#333;
-        font-size:90%;
-    }
-    section.sample p {
-        color: #222;
-        font-style:italic;
-    }
-    .claims-to-fame li[class]:before {
-        color: #222;
-        border: 1px solid #AF2303;
-        padding: 0 0.3em;
-        font-size: 95%;
-    }
-    .phonology:before {
-        content:'Φ';
-        background-color: #FF9999;
-    }
-    .orthography:before {
-        content:'O';
-        background-color: #FFFF99;
-    }
-    .pragmatics:before {
-        content:'P';
-        background-color: #FF99FF;
-    }
-  </style>
 </head>
 <body>
 <h1 id="Title">Language List, version 2</h1>
+<p>
+  This is the webpage that I use to track what languages I have made.
+</p>
+<h1>Guide to entries</h1>
+<p>
+  Each language has a handful of short facts,
+  followed by a short summary and optionally a sample.
+</p>
+<p>
+  Below are the categories:
+</p>
+<dl>
+  <dt>Background (B)</dt>
+  <dd>Describes what kind of place speaks the language.</dd>
+  <dt>Phonology (Φ)</dt>
+  <dd>Choice of sounds and combinations of sounds</dd>
+  <dt>Orthography (O)</dt>
+  <dd>Writing systems, if any</dd>
+  <dt>Grammar (G)</dt>
+  <dd>General cover term for syntax and morphology as well as derivation</dd>
+  <dt>Pragmatics (P)</dt>
+  <dd>The lexicon, treatments of context, and so on</dd>
+</dl>
+<p>
+  Each feature has a completeness rating, which is a rating from 0 to 5 blocks:
+</p>
+<dl>
+  <dt>[□ □ □ □ □] Planned</dt>
+  <dd>
+    Nothing has been written down, at all.
+    In brainstorming phase.</dd>
+  <dt>[■ □ □ □ □] Immature</dt>
+  <dd>
+    The first draft has been written,
+    or at least some framework has been adopted.
+  </dd>
+  <dt>[■ ■ □ □ □] Developing</dt>
+  <dd>
+    Things are rapidly taking shape,
+    but things can still wildly change as the language component progresses.
+  </dd>
+  <dt>[■ ■ ■ □ □] Established</dt>
+  <dd>
+    The system starts gaining quirks of its own.
+    Minor changes might still be possible, especially vocabulary
+    but for the most part things are solid.
+  </dd>
+  <dt>[■ ■ ■ ■ □] Clean</dt>
+  <dd>
+    Largely complete, the system has started to become very unique.
+    The details have been homed in, and nothing is poised to change a lot.
+  </dd>
+  <dt>[■ ■ ■ ■ ■] Mature</dt>
+  <dd>
+    The system has been given a life of its own.
+    The core of the system has stabilised and is unlikely to change further,
+    with any such change coming in the form of gaining new examples
+    and new exceptions.
+    Is likely usable in some limited circumstances.
+  </dd>
+</dl>
+
 <h1>Languages of the Jesdic Pasaru</h1>
-<h2>Egonyota Pasaru</h2>
+<p>
+  The Jesdic Pasaru is a "grand history" of sort.
+  It is, or attempts to be, a description of the development of a civilisation,
+  starting from its first signs of life to a fantastical time beyond physics.
+  The civilisation is, although human in many ways,
+  is decidedly <em>not</em> in others.
+  This is reflected in its languages, which though undeniably human-like,
+  sometimes have truly alien features.
+</p>
+<h2>The Four Main Languages</h2>
+<h3>Egonyota Pasaru</h3>
 <section class="quickfacts">
   <div class="factsheet">
     <div class="card">
@@ -126,7 +145,9 @@
 </section>
 <section class="claims-to-fame">
   <ul>
-    <li class="orthography"> Tricameral - upper, middle and lower case</li>
+    <li class="orthography">
+      Tricameral - upper, middle and lower case
+    </li>
     <li class="phonology">
       Syllable structure not dictated by language
       but rather by societal trends and subcultures
@@ -138,9 +159,7 @@
   </ul>
 </section>
 <section class="sample">
-  <p>
-    [Sample text here, if I can ever bother typing it up]
-  </p>
 </section>
+
 </body>
 </html>
