@@ -63,6 +63,56 @@ Is likely usable in some limited circumstances.
 
 # The Four Languages of the Jesdic Pasaru #
 ## Egonyota Pasaru ##
+<section class="quickfacts">
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Background</div>
+            <div class="value">[■ ■ □ □ □] </div>
+            <div class="comment">Clear origins, details fuzzy</div>
+        </div>
+        <div class="card">
+            <div class="property">Phonology</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">
+                Large inventory, simple phonotactics (but see below)
+            </div>
+        </div>
+        <div class="card">
+            <div class="property">Orthography</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">Alphabetic</div>
+        </div>
+        <div class="card">
+            <div class="property">Grammar</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">VSO, Nom-Acc, fairly European</div>
+        </div>
+        <div class="card">
+            <div class="property">Pragmatics</div>
+            <div class="value">[■ ■ ■ ■ □]</div>
+            <div class="comment">Standard Pasaru pragmatics</div>
+        </div>
+    </div>
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Ancestor</div>
+            <div class="comment">E.-Vohalyosun</div>
+        </div>
+        <div class="card">
+            <div class="property">Language of</div>
+            <div class="comment">Vohalyo, Pasaru; the entire empire</div>
+        </div>
+        <div class="card">
+            <div class="property">Code</div>
+            <div class="comment">EP</div>
+        </div>
+        <div class="card">
+            <div class="property">Symbol</div>
+            <div class="comment">P⃝   *⃤</div>
+        </div>
+    </div>
+</section>
+
 The official language of the Jesdic Pasaru,
 [Egonyota Pasaru][PSD-EP] is the one language you must learn
 to truly experience life in the Empire,
@@ -74,12 +124,104 @@ to assume the form of any other language
 through its "pragma" system.
 
 ## Serakafph Xaxex ##
+<section class="quickfacts">
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Background</div>
+            <div class="value">[■ ■ □ □ □] </div>
+            <div class="comment">A mystery for the most part</div>
+        </div>
+        <div class="card">
+            <div class="property">Phonology</div>
+            <div class="value">[■ ■ ■ ■ □]</div>
+            <div class="comment">
+                Two special phonemes, simple phonotactics
+            </div>
+        </div>
+        <div class="card">
+            <div class="property">Orthography</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">Surprisingly Mongolian</div>
+        </div>
+        <div class="card">
+            <div class="property">Grammar</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">SVO, Nom-Acc, limited recursion</div>
+        </div>
+        <div class="card">
+            <div class="property">Pragmatics</div>
+            <div class="value">[□ □ □ □ □]</div>
+            <div class="comment">?</div>
+        </div>
+    </div>
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Language of</div>
+            <div class="comment">Fuvonalya; the rest of Xaxex</div>
+        </div>
+        <div class="card">
+            <div class="property">Code</div>
+            <div class="comment">SX</div>
+        </div>
+        <div class="card">
+            <div class="property">Symbol</div>
+            <div class="comment">X⃝   *⃤</div>
+        </div>
+    </div>
+</section>
+
 The international language of the planet that bears its name,
 [Serakafph Xaxex][XAX-SX] is well known
 for its rich array of metaphor and figurative speech
 that compensates for its simplistic grammar that recurses poorly.
 
 ## Elaga Qvaḻsa ##
+<section class="quickfacts">
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Background</div>
+            <div class="value">[■ □ □ □ □] </div>
+            <div class="comment">
+                Probably spoken at some point in the distant past
+            </div>
+        </div>
+        <div class="card">
+            <div class="property">Phonology</div>
+            <div class="value">[■ ■ □ □ □]</div>
+            <div class="comment">What's a phoneme?</div>
+        </div>
+        <div class="card">
+            <div class="property">Orthography</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">Dot-matrix alphabet</div>
+        </div>
+        <div class="card">
+            <div class="property">Grammar</div>
+            <div class="value">[■ ■ ■ □ □]</div>
+            <div class="comment">Absolute horror show</div>
+        </div>
+        <div class="card">
+            <div class="property">Pragmatics</div>
+            <div class="value">[□ □ □ □ □]</div>
+            <div class="comment">????</div>
+        </div>
+    </div>
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Language of</div>
+            <div class="comment">A cloud of gas that formerly was a planet</div>
+        </div>
+        <div class="card">
+            <div class="property">Code</div>
+            <div class="comment">EQ</div>
+        </div>
+        <div class="card">
+            <div class="property">Symbol</div>
+            <div class="comment">Q⃝   *⃤</div>
+        </div>
+    </div>
+</section>
+
 [Elaga Qvaḻsa][QUX-EQ],
 once based on phonemes and other mouth-related words,
 has long since abandoned its spoken roots
@@ -89,6 +231,53 @@ It still retains its spoken heritage,
 through its intricate system of “letters” interacting with each other.
 
 ## Cipogrtesaj ##
+<section class="quickfacts">
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Background</div>
+            <div class="value">[■ □ □ □ □] </div>
+            <div class="comment">Moons may be involved</div>
+        </div>
+        <div class="card">
+            <div class="property">Phonology</div>
+            <div class="value">[■ ■ ■ ■ □]</div>
+            <div class="comment">
+                Proper balance between consonants and vowels,
+                simple CV syllables most of the time
+            </div>
+        </div>
+        <div class="card">
+            <div class="property">Orthography</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">Abugida turned upside-down</div>
+        </div>
+        <div class="card">
+            <div class="property">Grammar</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">SVO, Nom-Acc, modifiers go at the end</div>
+        </div>
+        <div class="card">
+            <div class="property">Pragmatics</div>
+            <div class="value">[□ □ □ □ □]</div>
+            <div class="comment">?</div>
+        </div>
+    </div>
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Language of</div>
+            <div class="comment">Some moons near Cipog</div>
+        </div>
+        <div class="card">
+            <div class="property">Code</div>
+            <div class="comment">Ct</div>
+        </div>
+        <div class="card">
+            <div class="property">Symbol</div>
+            <div class="comment">C⃝   *⃤</div>
+        </div>
+    </div>
+</section>
+
 A simple language for practical units,
 [Cipogrtesaj][CIR-Ct] is the language
 for when you feel like putting all modifiers after the main sentence.
