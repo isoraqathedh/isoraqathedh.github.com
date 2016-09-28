@@ -10,7 +10,11 @@ However, the second page has been edited to only show a link to this page.
 [old-post]: http://isoraqathedh.tumblr.com/post/104459911185/blurbs-for-all-the-languages
 [old-page]: http://isoraqathedh.tumblr.com/language-list
 
-Originally there used to be only a bare-bones explanation for each one 
+Originally there used to be only a bare-bones explanation for each one,
+but now there is additional details for each of them
+in the form of a few boxes that give the common details of each one.
+Later on, there might be a few bullet points that accompany each language
+that highlights its most distinctive features.
 
 # Guide to entries #
 Each language has a handful of short facts,
@@ -459,7 +463,7 @@ who have changed it in many strange and wonderful ways.
     <div class="factsheet">
         <div class="card">
             <div class="property">Background</div>
-            <div class="value">[■ ■ ■ □ □] </div>
+            <div class="value">[■ ■ ■ □ □]</div>
             <div class="comment">White from the sheep density</div>
         </div>
         <div class="card">
@@ -698,7 +702,10 @@ It has picked up multiple areal features from its neighbouring languages.
         <div class="card">
             <div class="property">Grammar</div>
             <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Most verbs are intransitive</div>
+            <div class="comment">
+                Most verbs are intransitive,
+                slightly denialistic of its erg-abs nature
+            </div>
         </div>
         <div class="card">
             <div class="property">Pragmatics</div>
@@ -911,6 +918,50 @@ but rather operate on the deque directly.
 
 ## Other
 ### Uvbraot ###
+<section class="quickfacts">
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Background</div>
+            <div class="value">[■ ■ ■ □ □]</div>
+            <div class="comment">A country's language!</div>
+        </div>
+        <div class="card">
+            <div class="property">Phonology</div>
+            <div class="value">[■ ■ ■ ■ □]</div>
+            <div class="comment">More standard fare</div>
+        </div>
+        <div class="card">
+            <div class="property">Orthography</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">Just B.-Pasaru</div>
+        </div>
+        <div class="card">
+            <div class="property">Grammar</div>
+            <div class="value">[■ ■ □ □ □]</div>
+            <div class="comment">Pretty normal</div>
+        </div>
+        <div class="card">
+            <div class="property">Pragmatics</div>
+            <div class="value">[■ ■ □ □ □]</div>
+            <div class="comment">Pretty human</div>
+        </div>
+    </div>
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Language of</div>
+            <div class="comment">Leħbraot</div>
+        </div>
+        <div class="card">
+            <div class="property">Code</div>
+            <div class="comment">Ub</div>
+        </div>
+        <div class="card">
+            <div class="property">Symbol</div>
+            <div class="comment">U⃝   *⃤</div>
+        </div>
+    </div>
+</section>
+
 [Uvbraot][LEB-Ub] dials down the weirdness
 of almost all of its sister languages,
 but still contains alien concepts for English speakers
@@ -929,6 +980,52 @@ all of these languages belong to the Jesdic in some way, but not explicitly!)
 because they are written in a purple notebook.)
 
 ## Man gog yuu ##
+<section class="quickfacts">
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Background</div>
+            <div class="value">[■ ■ □ □ □]</div>
+            <div class="comment">Zamenhof gets transported to China</div>
+        </div>
+        <div class="card">
+            <div class="property">Phonology</div>
+            <div class="value">[■ ■ ■ □ □]</div>
+            <div class="comment">Sinitic fun</div>
+        </div>
+        <div class="card">
+            <div class="property">Orthography</div>
+            <div class="value">[■ ■ ■ ■ □]</div>
+            <div class="comment">
+                Korean mixed script, commas and semicolons
+            </div>
+        </div>
+        <div class="card">
+            <div class="property">Grammar</div>
+            <div class="value">[■ ■ ■ ■ □]</div>
+            <div class="comment">Basically classical Chinese</div>
+        </div>
+        <div class="card">
+            <div class="property">Pragmatics</div>
+            <div class="value">[■ □ □ □ □]</div>
+            <div class="comment">Supposedly human</div>
+        </div>
+    </div>
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Language of</div>
+            <div class="comment">At least Ùzje</div>
+        </div>
+        <div class="card">
+            <div class="property">Code</div>
+            <div class="comment">MGY</div>
+        </div>
+        <div class="card">
+            <div class="property">Symbol</div>
+            <div class="comment">H⃝   M⃤</div>
+        </div>
+    </div>
+</section>
+
 [Man gog yuu][PUR-MGY] is an Esperanto for East Asian languages,
 warts and all.
 It attempts to create a synthesis of Japanese,
@@ -940,6 +1037,50 @@ from any of the source languages.
 Quite a “compromise”!
 
 ## Altrvukaif ##
+<section class="quickfacts">
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Background</div>
+            <div class="value">[■ □ □ □ □]</div>
+            <div class="comment">?</div>
+        </div>
+        <div class="card">
+            <div class="property">Phonology</div>
+            <div class="value">[□ □ □ □ □]</div>
+            <div class="comment">?</div>
+        </div>
+        <div class="card">
+            <div class="property">Orthography</div>
+            <div class="value">[■ ■ ■ ■ ■]</div>
+            <div class="comment">Already done for me</div>
+        </div>
+        <div class="card">
+            <div class="property">Grammar</div>
+            <div class="value">[■ □ □ □ □]</div>
+            <div class="comment">??</div>
+        </div>
+        <div class="card">
+            <div class="property">Pragmatics</div>
+            <div class="value">[■ □ □ □ □]</div>
+            <div class="comment">Alien?</div>
+        </div>
+    </div>
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Language of</div>
+            <div class="comment">A planet I don't own</div>
+        </div>
+        <div class="card">
+            <div class="property">Code</div>
+            <div class="comment">AKF</div>
+        </div>
+        <div class="card">
+            <div class="property">Symbol</div>
+            <div class="comment">A⃝   *⃤</div>
+        </div>
+    </div>
+</section>
+
 [Altrvukaif][PUR-AKF]
 (no tag of its own; this one links to its parent project,
 “A Beginner’s Guide to Alternia”)
@@ -952,6 +1093,50 @@ for this language has more levels of respect and emotion sensitivity
 than any you might have heard of.
 
 ## g'Mòdyfäjq ##
+<section class="quickfacts">
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Background</div>
+            <div class="value">[■ ■ ■ ■ □]</div>
+            <div class="comment">Alternate English</div>
+        </div>
+        <div class="card">
+            <div class="property">Phonology</div>
+            <div class="value">[■ ■ ■ □ □]</div>
+            <div class="comment">/θ/ and /ð/ are guests of honour</div>
+        </div>
+        <div class="card">
+            <div class="property">Orthography</div>
+            <div class="value">[■ ■ ■ ■ □]</div>
+            <div class="comment">Latin and Cyrillic</div>
+        </div>
+        <div class="card">
+            <div class="property">Grammar</div>
+            <div class="value">[■ ■ ■ □ □]</div>
+            <div class="comment">Piece-by-piece</div>
+        </div>
+        <div class="card">
+            <div class="property">Pragmatics</div>
+            <div class="value">[■ ■ □ □ □]</div>
+            <div class="comment">English-like</div>
+        </div>
+    </div>
+    <div class="factsheet">
+        <div class="card">
+            <div class="property">Language of</div>
+            <div class="comment">A city</div>
+        </div>
+        <div class="card">
+            <div class="property">Code</div>
+            <div class="comment">GMF</div>
+        </div>
+        <div class="card">
+            <div class="property">Symbol</div>
+            <div class="comment">H⃝   G⃤</div>
+        </div>
+    </div>
+</section>
+
 Ỳŋlys g'mòdyfäjt vð'Fäqdəq,
 commonly abbreviated to [g'Mòdyfäjq][PUR-GMF],
 is a somewhat conservative alteration of English
