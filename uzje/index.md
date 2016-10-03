@@ -55,9 +55,8 @@ But despite their almost criminal influence over the local government,
 and all their wishes that the currency of the region
 can move beyond the archaic systems of pounds, shillings and pence,
 Ùzje's pound, the UJP, remains a non-decimal currency,
-although the financial sector adopted SI prefixes for the UJP's smallest unit,
-resulting in kilopence, megapence, gigapence, &c. –
-currency values that are almost exclusively used by them.
+although the financial sector have attempted to decimalise,
+and therefore some currency values are almost exclusively used by them.
 
 For all its faults Ùzje remains an attractive tourist destination,
 whether it's just for sightseeing
@@ -81,6 +80,7 @@ as mentioned above.
 
 ### Man Gog Yuu ###
 
+> ### Romanisation #
 > Cvnr der yanr lvvr ja,
 > cun imr tor kunr lig nir cii yaar tor pingr dang der cvt sang yer.
 > Ta ja lee sing tor jji jjing yon gv yer,
@@ -92,11 +92,13 @@ as mentioned above.
 > but due to technical limitations this is not possible.
 > </aside>
 >
+> ### Pure Hangul #
 > 즌，데，얀，르；차、
 > 준임，토，릭당니，지．야，토，핑，당데，즏상예，。
 > 타차레．싱토，찌찡욘그예，、
 > 이，잉유，가．데，네욘드도；예。
 >
+> ### Hangul mixed script #
 > 全데，人類차、
 > 尊嚴토，權力니，自由토，平等데，出生예，。
 > 他차理性토，自正욘具예，、
@@ -150,15 +152,120 @@ separate from the West while still enabling exchange with them.
 
 [Korean mixed script]: https://en.wikipedia.org/wiki/Korean_mixed_script
 
-## g'Mòdyfäjq ##
+### g'Mòdyfäjq ###
 
+> ### Traditional orthography ###
 > Ołjünytb bərþt yð'vredəq ən yð'sennesz yð'selfwəþ ən yð'dun.
-> Qib g'əqdawt ð'risəq ən ð'rajtþyqh so qib cg'opryt y'spiryt ə'braðəlajk səd.
+> Qib g'əqdawt ð'risəq ən ð'rajtþyŋk so qib cg'opryt y'spiryt ə'braðəlajk səd.
 >
+> ### Reformed orthography ###
+> Ołjünitb berþt yð'vrédeq en ið'sennesz yð'sélfweþ en yð'dun.
+> Qíb g'eqdawt ð'ríseq en ð'rajtþiŋk so qíb cg'oprit y'spírit e'braðelajk sed.
+>
+> ### Cyrillic orthography ###
 > Ољйӱнытб бәрѳт ыҙ'вредәӄ ән ыҙ'шеннес ыҙ'шелфўәѳ ән ыҙ'дун.
-> Ӄиб г'әыдаўт ҙ'ришәӄ ән ҙ'райтѳуӄь шо ӄиб чг'опрыт ы'шпирыт ә'браҙәлайк шәд.
+> Ӄиб г'әыдаўт ҙ'ришәӄ ән ҙ'райтѳуңк шо ӄиб чг'опрыт ы'шпирыт ә'браҙәлайк шәд.
 
 A particularly unusual drawl in some unspecified location in the British Isles
 have brought forth this highly aberrant language,
 which while clearly descended from English has been altered so extensively
 that there are no doubts that it is a completely separate language.
+There are some speculations that the radical and at times implausible changes
+are a product of conscious change rather than unconscious wandering,
+but such claims have never been supported with evidence,
+short of a few sporadic word derivation systems here and there.
+
+The language has a special relationship with English,
+which exists elsewhere in the remnants of the British Empire.
+There is a one-way system for translating English words into g'Mòdyfäjq,
+which is called c'preq.
+The "translation"'s goal is not to import the word into g'Mòdyfäjq,
+but to make an alternate version of the word
+that has features and qualities unique to g'Mòdyfäjq.
+This system grew out of an in-joke of sorts
+that has spread to become part of the standard language
+and there is sufficient evidence in the way of written records
+to confirm that this feature at least
+is a deliberate and conscious addition to the language.
+The alternate orthography, which is in Cyrillic,
+provides further obfuscation and is another invention.
+
+g'Mòdyfäjq has been selected as the colonial language of the region
+rather than English proper because Ùzje has never really been a normal colony.
+First of all, there are several interesting characters
+that were appointed as governors of the region –
+specifically, those who are privy to the business regarding g'Mòdyfäjq
+and are sympathetic to it for various reasons,
+not least of which is that one of them is a spearhead of the language itself.
+Another key fact is that Ùzje has always been somewhat rebellious
+and wishes to be independent in some way or another,
+and granting them a separate language 
+is a very easy way to placate the colonials that have found their way there.
+Finally the fact that Ùzje is such an established based for g'Mòdyfäjq speakers
+have ensured that the place will become attractive for more g'Mòdyfäjq speakers,
+making a feedback loop that all ends up with it being the official language
+over English.
+
+However g'Mòdyfäjq has never been that popular outside of the aristocratic elite
+and therefore in the street
+apart from a few compulsory lessons and some rare cases
+the language is largely unspoken.
+There had been grumbles that English should be adopted over all,
+but those proposals have never made it into the polls, for whatever reason.
+There are also government-subsidised courses
+that teach translating English to g'Mòdyfäjq but those rarely get attendence.
+
+g'Mòdyfäjq has shown itself elsewhere the remainders of the Empire as well,
+with established speaking communities in Australia and New Zealand,
+as well as isolated pockets in New Columbia.
+Its usage outside of Anglosphere-dominated areas is virtually unheard-of,
+though a few significant exceptions exist in the Netherlands
+and parts of ex-Colonial Africa.
+
+### Other languages ###
+The source languages of g'Mòdyfäjq and Man Gog Yuu,
+which are English, and the varieties of Chinese and Japanese repsectively,
+still do have some presence in Ùzje
+but are significantly muted in favour of the two official languages.
+However place names in g'Mòdyfäjq
+are derived mostly from the corresponding Cantonese place names,
+rather than through their Man Gog Yuu pronunciations.
+This sometimes results in places where the g'Mòdyfäjq name
+can sometimes distinguish names while the Man Gog Yuu name cannot.
+
+Apart from those, a smattering of other languages have significant minorities.
+On the Asian side we have immigrants (and/or invaders) from Japan and Korea
+that have came in through their Man Gog Yuu speaking credentials
+but have also brought their native languages along;
+the local market for domestic helpers have brought Indonesian and Tagalog,
+as well as the various languages in India;
+and there's also a handful of Vietnamese speakers,
+enough for them to form a newspaper.
+On the European front, there's German, Dutch, French and Spanish,
+in decreasing order of speaking population.
+Most of these speakers, Asian and European,
+also speak one of the two official languages,
+due to the government heavily promoting them.
+
+## Currency and Economy ##
+The Ùzje Pound (£ or U£) is a non-decimal currency.
+It is based on the British currency of the same name,
+and is also divided the same way:
+twelve pence make a shilling, twenty of which make a pound.
+The penny is also divided into four farthings,
+but in general only halfpennies are used.
+
+<aside>
+    SI multiples can also appear next to pounds,
+    but only the multiplicative (> 1) ones and only informally.
+    SI multiples may never be used on shillings.
+</aside>
+
+In response to decimalisation, one thousand pennies also make a kilopenny (kd).
+One kilopenny is equal to two pounds, three shillings and fourpence.
+Although heavily used in the financial sector,
+the kilopenny has never found much use outside of it
+apart from some commemorative currency and as a price point.
+Further SI multiples may be used, resulting in Md, Gd, Td, and so on.
+There's also the millipenny (md),
+which is the trading currency used in the Ùzje stock market.
