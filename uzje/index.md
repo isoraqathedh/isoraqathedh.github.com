@@ -3,6 +3,8 @@ title: Ùzje
 date: 2016-09-30
 ...
 
+![A map of Ùzje.](img/main-map.png)
+
 In the year 1842, a sleepy fishing town in the south of China
 was captured by the British over something about drugs.
 A hundred and fifty years on,
@@ -267,5 +269,5 @@ Although heavily used in the financial sector,
 the kilopenny has never found much use outside of it
 apart from some commemorative currency and as a price point.
 Further SI multiples may be used, resulting in Md, Gd, Td, and so on.
-There's also the millipenny (md),
+Diminutive multiples are rare, except for the millipenny (md),
 which is the trading currency used in the Ùzje stock market.
