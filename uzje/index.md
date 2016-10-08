@@ -249,10 +249,10 @@ Most of these speakers, Asian and European,
 also speak one of the two official languages,
 due to the government heavily promoting them.
 
-## Currency and Economy ##
+## Currency and Pricing ##
 The Ùzje Pound (£ or U£) is a non-decimal currency.
 It is based on the British currency of the same name,
-and is also divided the same way:
+and is also divided the same way –
 twelve pence make a shilling, twenty of which make a pound.
 The penny is also divided into four farthings,
 but in general only halfpennies are used.
@@ -271,3 +271,98 @@ apart from some commemorative currency and as a price point.
 Further SI multiples may be used, resulting in Md, Gd, Td, and so on.
 Diminutive multiples are rare, except for the millipenny (md),
 which is the trading currency used in the Ùzje stock market.
+
+The standard method of writing a currency in pounds-shillings-pence
+is to write separate the three units with slashes or short horizontal lines,
+and sandwich the entire expression in (U)£…(d),
+so for instance the kilopenny is written as £2/3/4d or U£2–3–4.
+However, there is significant variation in practise,
+and the format is also written £2 3s 4d, £2+3/4 or even 43′ 4″.
+
+The kilopenny family of values have a slightly different way of notation.
+A number, which is either an integer
+or a decimal with a multiple of three decimal places
+is then followed by a space then the unit.
+One pound, which is equal to 240 d, is then either written as such,
+or as 0.240 kd, 0.000 240 Md, and so on and so forth.
+Note that 250 md is a farthing, but 250 Md is one billion farthings,
+which is equal to U£1 041 666/13/4,
+so while case distinction is significant
+there is *usually* enough context to distinguish the two.
+
+Table: Typical food prices
+
+Item                                   £    s    d   f
+----------------------------------- ---- ---- ---- ---
+Breakfast (simple)                          2    6
+Breakfast (high-class)                      7    9
+Lunch (simple)                              5
+Lunch (high-class)                         12
+Dinner (simple)                             6    6
+Dinner (high-class)                        15
+Dinner (family gathering, per head)    1    5
+Drink                                            7   2
+Fast food                                   2    3
+
+Food is usually pretty affordable and reasonable here,
+as long as one either sticks to fast food and local cuisine.
+These are typically found in less touristy places (of course)
+and are family-run.
+The taste is generally agreeable to all,
+though for the more adventurous eaters there are exotic meals available
+near Zestəq Tel.
+
+Table: Typical transport prices
+
+Item                                   £    s    d   f
+----------------------------------- ---- ---- ---- ---
+Bus (2 km)                                       3   2
+Bus (10 km)                                      6   2
+Bus (cross-border)                          3   10
+Metro (minimum)                                  4   2
+Metro (across Boan Ajł)                         10
+metro (maximum non-cross-border)            2
+Metro (cross-border)                        3    8
+Tram                                             2   2
+Bike hire per hour                               6
+Taxi flag-fall                              1
+Taxi per 200 m                                   1   2
+Taxi per 30 seconds                                  2
+
+Transport is inexpensive and plentiful.
+The relatively small area of Ùzje combined with (mostly) agreeable terrain
+makes it very easy for a public transport system to flourish and grow.
+That having been said, the roads are plenty wide,
+and apart from the perpetual and inevitable problem of finding car space
+and the noticeably expensive petrol tax
+private cars are largely pleasurable to use in the territory.
+However, cyclists beware, as bike hiring is exorbitant
+and it might be better to buy or bring your own bike.
+
+Table: Typical housing and accommodation prices
+
+Item                                     £    s    d   f
+----------------------------------- ------ ---- ---- ---
+Capsule hotel per hour                       10    6
+Capsule hotel per day                    2    3    4
+3-star hotel per night                   5   10
+5-star hotel per night                   9   10
+6-star hotel per night                  12   15
+Flat (10 m²) rent per month             43    6    8
+Flat (50 m²) rent per month             60 
+Flat (100 m²) rent per month            90
+House (100 m²) rent per month          500 
+Flat (10 m²) sale price               6000
+Flat (50 m²) sale price              45000
+Flat (100 m²) sale price            103000
+House (100m²) sale price            500000
+
+If you're living here, the rent would be completely unreasonable,
+but if it's just for a stay in the hotels then Ùzje lets up a little.
+As with most Asian countries, the lack of land suitable for city-building
+has led to many compact designs, including the budget "capsule hotel",
+which is little more than a 275 × 150 cm bed and an enclosure.
+
+Although prices are here given in pounds,
+it is a custom of the real estates agency to print prices in megapence
+with pounds being secondary. 1 Md = £4166/13/4.
