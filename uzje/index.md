@@ -341,21 +341,21 @@ and it might be better to buy or bring your own bike.
 
 Table: Typical housing and accommodation prices
 
-Item                                     £    s    d   f
------------------------------------ ------ ---- ---- ---
-Capsule hotel per hour                       10    6
-Capsule hotel per day                    2    3    4
-3-star hotel per night                   5   10
-5-star hotel per night                   9   10
-6-star hotel per night                  12   15
-Flat (10 m²) rent per month             43    6    8
-Flat (50 m²) rent per month             60 
-Flat (100 m²) rent per month            90
-House (100 m²) rent per month          500 
-Flat (10 m²) sale price               6000
-Flat (50 m²) sale price              45000
-Flat (100 m²) sale price            103000
-House (100m²) sale price            500000
+Item                                 Md    £    s    d   f
+----------------------------------- --- ---- ---- ---- ---
+Capsule hotel per hour                          2    7   2
+Capsule hotel per day                      1    1    8
+3-star hotel per night                     5   10
+5-star hotel per night                     9   10
+6-star hotel per night                    12   15
+Flat (10 m²) rent per month               43    6    8
+Flat (50 m²) rent per month               60 
+Flat (100 m²) rent per month              90
+House (100 m²) rent per month            500 
+Flat (10 m²) sale price                 6000
+Flat (50 m²) sale price               3 2500
+Flat (100 m²) sale price             15 1250
+House (100 m²) sale price           120
 
 If you're living here, the rent would be completely unreasonable,
 but if it's just for a stay in the hotels then Ùzje lets up a little.
@@ -365,4 +365,60 @@ which is little more than a 275 × 150 cm bed and an enclosure.
 
 Although prices are here given in pounds,
 it is a custom of the real estates agency to print prices in megapence
-with pounds being secondary. 1 Md = £4166/13/4.
+with pounds being secondary. 1 Md = £4166/13/4, but usually to make things easier
+prices are in multiples of 3 Md = £12500 exactly.
+
+# Getting in #
+## By air ##
+By far the most popular way to get into Ùzje
+is through the gargantuan Þrulaqt-Pleqhevəq ə'Ùzje – Ùzje International Airport.
+The five-runway, three-terminal airport is placed on the edge of the territory,
+directly next to the western end of the M4
+and accessed via the A550 to A555 roads.
+It handles aeroplane movement (takeoff or landing)
+once every twenty to thirty seconds,
+resulting in a yearly throughput of about 700,000 flights, or 24 MU.
+
+Navigation throughout the airport is relatively simple if somewhat tiring
+due to its massive size.
+The signs are usually adequate, although there are a few trouble spots
+where a sign might be ambiguous or absent.
+The roads around the airport are a bit of a maze
+and require close attention to signage or a good GPS.
+The parking is a little bit inadequate for airports of its size,
+and there isn't much of a car rental service either.
+
+For such a large airport the landside (before security) area
+is curiously undersized, especially for the oldest terminal;
+this is because the government was expecting that tourists
+would go to nearby Szajmej to do their last- (or first-) minute shopping,
+confident that the prices in an urban and residential area
+would be much closer to the prices in the airport area
+and therefore spending more.
+The two places are literally on either side of the M4,
+and a dedicated shuttle service and driverless train service
+moves tourists between them.
+
+Security is largely painless, 
+or at least as painless as the international authroities can allow;
+immigration for locals are convenient and electronic
+but for those who *really* don't want
+to hand over their fingerprints to the government
+a manual service is available.
+Past security there is a much more sizeable collection of shops –
+going back to Szajmej is no longer an option –
+and a couple of automated trains
+connecting the airside areas of the terminals together.
+
+## By land ##
+The M1 and M8 connects Ùzje to China, and the M4 connects it to Damdsaj.
+These are the only land routes to Ùzje,
+but they are very robust and can withstand the strongest of storms.
+All three are guarded by checkpoints,
+because Ùzje runs its own customs and immigration service.
+There's no major crossover problem –
+both China and Damdsaj drive on the left,
+and have the steering wheel on the right.
+
+Queues might be another problem though –
+on average more than a hundred thousand vehicles pass through the border
