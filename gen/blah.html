@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="quiz, magic, magical" />
+	<title>
+	  Quiz - Which Magical Technique Suits You Best? - Springhole.net
+	</title>
+    <meta name="description" content="Find out which classical element - air, earth, fire and water - dominates your unitarity!" />
+    <link rel="stylesheet" type="text/css" href="../../springhole-style.css" media="screen" />
+    <!-- Viewport Placeholder -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $('#navbar').load("../../nav-sub2-logo.htm");
+          $('#addtoany').load("../../addtoany.htm");
+      });
+    </script>
+
+    <script src="../quiz-question-engine.js"></script>
+    <script src="quiz-question-engine.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsitem']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-46391795-1', 'springhole.net');
+      ga('send', 'pageview');
+
+    </script>
+
+  </head>
+
+
+  <SCRIPT LANGUAGE="JavaScript">
+
+    function process()
+    {
+        var aether = 0;
+        var item = 0;
+        var glyph = 0;
+        var incantation = 0;
+        var potion = 0;
+        var f = document.f;
+        var i = 0;
+        var choices;
+
+        // [1]
+        choices = findChecked(f.fourteen);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": incantation++; glyph++; aether++; break;
+                case "2": potion++; item++; glyph++; break;
+                case "3": aether++; item++; incantation++; break;
+                case "4": aether++; incantation++; potion++; break;}}
+
+        // [2]
+        choices = findChecked(f.one);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": glyph++; break;
+                case "2": item++; break;
+                case "3": incantation++; break;
+                case "4": potion++; break;
+                case "5": glyph++; break;
+                case "6": aether++; break;}}
+
+        // [3]
+        choices = findChecked(f.two);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": aether++; potion++; break;
+                case "2":  break;}}
+
+        // [4]
+        choices = findChecked(f.three);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": aether++; break;
+                case "2":  break;}}
+
+        // [5]
+        choices = findChecked(f.four);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": item++; break;
+                case "2":  break;}}
+
+        // [6]
+        choices = findChecked(f.five);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": item++; break;
+                case "2":  break;}}
+
+        // [7]
+        choices = findChecked(f.six);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": incantation++; break;
+                case "2":  break;}}
+
+        // [8]
+        choices = findChecked(f.seven);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": incantation++; break;
+                case "2":  break;}}
+
+        // [9]
+        choices = findChecked(f.eight);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": glyph++; break;
+                case "2":  break;}}
+
+        // [10]
+        choices = findChecked(f.nine);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": glyph++; potion++; break;
+                case "2":  break;}}
+
+        // [11]
+        choices = findChecked(f.ten);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": potion++; break;
+                case "2":  break;}}
+
+        // [12]
+        choices = findChecked(f.eleven);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": potion++; break;
+                case "2":  break;}}
+
+        // [13]
+        choices = findChecked(f.fifteen);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": glyph++; break;
+                case "2":  break;}}
+
+        // [14]
+        choices = findChecked(f.sixteen);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": potion++; item++; break;
+                case "2": glyph++; incantation++; aether++; break;}}
+
+        // [15]
+        choices = findChecked(f.twelve);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": item++; glyph++; potion++; aether++; incantation++; break;
+                case "2": potion++; aether++; incantation++; break;
+                case "3":  break;}}
+
+        // [16]
+        choices = findChecked(f.thirteen);
+        for (choice in choices) {
+            switch (choices[choice]) {
+                case "1": incantation++; break;
+                case "2": incantation++; break;
+                case "3": item++; break;
+                case "4": item++; break;
+                case "5": glyph++; break;
+                case "6": potion++; break;
+                case "7": aether++; break;
+                case "8": aether++; break;
+                case "9": potion++; break;
+                case "10": glyph++; break;
+                case "11": aether++; break;}}
+
+        var out = resultPage(
+            [aether, item, glyph, potion, incantation],
+            ["mt-aether", "mt-item", "mt-glyph", "mt-potion", "mt-incantation"])
+
+        //location.href = out + ".htm";
+        return out;
+    }// -->
+  </SCRIPT>
+
+
+
+  <body>
+
+
+    <!-- Navbar Time! -->
+    <center>
+      <div id="navlook">
+        <div id="navbar"></div>
+        <noscript><p><h3>Please enable JavaScript to allow this site to work properly.</h3></p></noscript>
+      </div>
+    </center>
+    <!-- /Navbar -->
+
+    <div id="spacer"></div>
+
+
+    <div id="main">
+      <!--Adsense -->
+      <center>
+        <div id="topad">
+
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- Quizzes - Responsive -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-2591421515912161"
+               data-ad-slot="9522622341"
+               data-ad-format="auto"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+
+        </div>
+      </center>
+      <!-- End Adsense -->
+
+      <h1 align="center">
+        Which Magical Technique Suits You Best?
+      </h1>
+      <br />
+
+      <p>
+        There are many different methods that witches, mages, and the like might use to work their magic.  Take this quiz to find one that's suitable for you!
+      </p>
+
+
+      <br />
+      <span class="hline"><hr /></span>
+
+
+
+      <form name="f">
+
+
+        <p>
+          [1]
+          <b>Which of the four classical elements do you connect to the most?  (If you're not sure, you can <a href="../dominant-element-quiz/index.html">take the quiz here</a>.)</b><br />
+          <input type="radio" name="fourteen" value="1">Air.<br />
+          <input type="radio" name="fourteen" value="2">Earth.<br />
+          <input type="radio" name="fourteen" value="3">Fire.<br />
+          <input type="radio" name="fourteen" value="4">Water.<br />
+        </p>
+
+
+        <p>
+          [2]
+          <b>Which of these do you already like to do, or would be interested in learning more about?  (Try to pick around 1-3.)</b><br />
+          <input type="checkbox" name="one" value="1">Drawing, painting, or similar.<br />
+          <input type="checkbox" name="one" value="2">Sculpting or crafting.<br />
+          <input type="checkbox" name="one" value="3">Writing poetry or lyrics.<br />
+          <input type="checkbox" name="one" value="4">Stovetop cooking or making tea.<br />
+          <input type="checkbox" name="one" value="5">Calligraphy.<br />
+          <input type="checkbox" name="one" value="6">I'm not especially interested in any of these.<br />
+        </p>
+
+        <p>
+          [3]
+          <b>Does your intuition or gut turn out to be right most of the time?</b><br />
+          <input type="radio" name="two" value="1">Sure seems to.<br />
+          <input type="radio" name="two" value="2">Not that I recall.<br />
+        </p>
+
+
+        <p>
+          [4]
+          <b>When you're out and about, does it ever seem like you can 'feel' the ambient energy in a place?</b><br />
+          <input type="radio" name="three" value="1">Seems like it, yeah.<br />
+          <input type="radio" name="three" value="2">I don't think so.<br />
+        </p>
+
+
+        <p>
+          [5]
+          <b>Do you often feel like inanimate items have unitaryities, or find yourself thinking of or treating them as if they were conscious and aware?  (EG apologizing to stuffed animals, electronics, or vehicles.)</b><br>
+          <input type="radio" name="four" value="1">Sounds about right.<br />
+          <input type="radio" name="four" value="2">No, not really.<br />
+        </p>
+
+
+        <p>
+          [6]
+          <b>Do you like to keep knickknacks or trinkets, or to put charms on your phones or bags, or do you wear jewelry often?</b><br>
+          <input type="radio" name="five" value="1">I do!<br>
+          <input type="radio" name="five" value="2">Nah, that's not really me.<br>
+        </p>
+
+
+        <p>[7]
+          <b>Do you find it easy to remember song lyrics or poems?</b><br>
+          <input type="radio" name="six" value="1">Yes, usually.<br>
+          <input type="radio" name="six" value="2">Not especially.<br>
+        </p>
+
+
+        <p>[8]
+          <b>Do you find it fairly easy to come up with rhymes or alliterations?</b><br>
+          <input type="radio" name="seven" value="1">Yeah, I do!<br />
+          <input type="radio" name="seven" value="2">Nah, not really.<br />
+        </p>
+
+        <p>[9]
+          <b>Are you interested in symbols, signs, or in writing systems?</b><br>
+          <input type="radio" name="eight" value="1">At least one of these piques my interest.<br>
+          <input type="radio" name="eight" value="2">None of these are my thing.<br>
+        </p>
+
+        <p>[10]
+          <b>Does the idea of hidden symbols and secret meanings fascinate you?</b><br />
+          <input type="radio" name="fifteen" value="1">Yes, it does.<br />
+          <input type="radio" name="fifteen" value="2">Not particularly.<br />
+        </p>
+
+        <p>[11]
+          <b>How are you at remembering fine or intricate details?</b><br>
+          <input type="radio" name="nine" value="1">Pretty good.<br>
+          <input type="radio" name="nine" value="2">Not so good.<br>
+        </p>
+
+        <p>[12]
+          <b>Do you have a good sense for aromas or flavors that complement each other?</b><br>
+          <input type="radio" name="ten" value="1">Yes, I think so.<br>
+          <input type="radio" name="ten" value="2">No, I don't think so.<br>
+        </p>
+
+        <p>[13]
+          <b>Can you easily prepare food from scratch?</b><br>
+          <input type="radio" name="eleven" value="1">Yes, I can!<br>
+          <input type="radio" name="eleven" value="2">Not really.<br>
+        </p>
+
+        <p>[14]
+          <b>How do you feel about buying or collecting extra/special items for your magical projects?</b><br>
+          <input type="radio" name="sixteen" value="1">I'm up for it.<br>
+          <input type="radio" name="sixteen" value="2">I'd rather not have to.<br>
+        </p>
+
+        <p>[15]
+          <b>Do you feel that magic could be found in modern/man-made things, or that modern/man-made things could become magical?</b><br>
+          <input type="radio" name="twelve" value="1">Yes, I think so.<br>
+          <input type="radio" name="twelve" value="2">No, I don't think so.<br>
+          <input type="radio" name="twelve" value="3">Not sure.<br>
+        </p>
+
+        <p>[16]
+          <b>Which of these might you do to make yourself feel better after a bad day?  (Try to pick around 1-3.)</b><br>
+          <input type="checkbox" name="thirteen" value="1">Listen to music or read poetry.<br />
+          <input type="checkbox" name="thirteen" value="2">Write about how I feel.<br />
+          <input type="checkbox" name="thirteen" value="3">Talk to or cuddle a toy, or complain to my car/computer/whatever.<br />
+          <input type="checkbox" name="thirteen" value="4">Craft something, or plan a craft.<br />
+          <input type="checkbox" name="thirteen" value="5">Draw or scribble.<br />
+          <input type="checkbox" name="thirteen" value="6">Have some good food or a drink.<br />
+          <input type="checkbox" name="thirteen" value="7">Take a walk or drive somewhere.<br />
+          <input type="checkbox" name="thirteen" value="8">Meditate.<br />
+          <input type="checkbox" name="thirteen" value="9">Take a hot bath.<br />
+          <input type="checkbox" name="thirteen" value="10">Study or research something.<br />
+          <input type="checkbox" name="thirteen" value="11">Dance.<br />
+        </p>
+
+
+        <br />
+
+        <p align="center">
+          <input type="button" value="Submit" onclick="process();">  <input type="reset" value="Reset">
+        </p>
+
+
+        <p align="center"><font style="font-size:90%">&#8291;
+          (Remember, this quiz is just for fun and should not be taken as any sort of professional unitary assessment.)
+        </font>&#8291;
+        </p>
+
+        <br />
+
+        <!-- AddToAny -->
+        <div id="addtoany"></div>
+        <!-- End AddToAny -->
+
+
+        <p align="center"><br /><a href="../index.html">Go Back</a><br />
+          <a href="../../randompage.htm">Go to a random page!</a><br /></p>
+
+    </div>
+    <br />
+
+
+    <div id="footer" class="footerlink">
+      <center>
+        Original site design, graphics, and text &copy; LRC and may not be copied, reproduced, or reposted without permission (<a href="../../contentrules.htm">more info</a>).  Images, quotes, scripts, etc. from other sources &copy; their respective owning parties.
+        <br />
+        <a href="../../privacy.htm">View privacy policy</a>.
+      </center>
+    </div>
+
+
+  </body>
+</html>
