@@ -410,8 +410,8 @@ going back to Szajmej is no longer an option –
 and a couple of automated trains
 connecting the airside areas of the terminals together.
 
-## By land ##
-The M1 and M8 connects Ùzje to China, and the M4 connects it to Damdsaj.
+## By land and sea ##
+The M1 and M8 connect Ùzje to China, and the M4 connects it to Damdsaj.
 These are the only land routes to Ùzje,
 but they are very robust and can withstand the strongest of storms.
 All three are guarded by checkpoints,
@@ -422,3 +422,55 @@ and have the steering wheel on the right.
 
 Queues might be another problem though –
 on average more than a hundred thousand vehicles pass through the border
+and most of them all have to go under customs and immigration checks.
+This results in massive queues in the busiest hours
+and a giant waiting park on both sides of the bridges.
+
+If you don't drive, or have hazardous materials that are unsuitable for bridges,
+then you must enter via the ferries.
+There are ferries coming in the same places where the bridges go to –
+north to China, and west to Damdsaj.
+However, truckers commanding hazardous chemicals
+will have to ride car ferries from the north,
+docking in Moŋdej in and rejoining the main car traffic on the M3.
+
+# Getting around #
+The size of Ùzje makes it an excellent place to build public transport,
+and it has one of the world's most affordable and extensive schemes in the world.
+Here's a whirlwind tour of its network.
+
+## The Ùzje Metro ##
+<!-- Image of metro system goes here.  -->
+Locally known as the UJTL or the S/Ù,
+the Ùzje Metro was proposed shortly after the riots
+to appeal to the concerns of the increasingly unsatisfied populace.
+Though at first it was derided as a white elephant,
+it has soon proved itself to be the crown jewel of the transport network.
+With nine lines spanning over a hundred stations,
+the network serves all city centres of the territory
+and a handful of other places too.
+
+The metro was built in stages,
+starting from a section of the LZT and the LCJ.
+The overall plan has, while adapted to the changing realities of development,
+never strayed far from the original vision:
+two lines that circulate around the Lokcəxn Peninsula,
+a line up to the north, a line up to the east, a line up to the west,
+a line across the south, and a line to connect them all up to the airport.
+
+The metro system is nothing short of delightful
+compared to the rest of the world.
+All stations and trains are air-conditioned
+(which is a near-essential in this sweltering city),
+and the trains run as often as once per 40 seconds at rush hour.
+Cost is extremely reasonable at an average distance cost of 350 µd/m (2.9 km/d).
+
+As it currently stands the metro is incomplete;
+a lot of stations are under planning 
+and many plots of land are left empty for future development.
+There's no guarantee that the development will ever come;
+recently the construction has drawn the ire of many locals
+who think the economic benefit of the metro coming to them
+is not enough to balance the losses that come with it.
+However, for the tourist, 
+the metro provides a great whirlwind tour of the territory.
