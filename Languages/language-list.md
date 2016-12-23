@@ -16,109 +16,59 @@ in the form of a few boxes that give the common details of each one.
 Later on, there might be a few bullet points that accompany each language
 that highlights its most distinctive features.
 
-# Guide to entries #
-Each language has a handful of short facts,
-followed by a short summary and optionally a sample.
+<!-- # Guide to entries # -->
+<!-- Each language has a handful of short facts, -->
+<!-- followed by a short summary and optionally a sample. -->
 
-The categories are as follows:
+<!-- The categories are as follows: -->
 
-Background (B)
-: Describes what kind of place speaks the language.
+<!-- Background (B) -->
+<!-- : Describes what kind of place speaks the language. -->
 
-Phonology (Φ)
-: Choice of sounds and combinations of sounds
+<!-- Phonology (Φ) -->
+<!-- : Choice of sounds and combinations of sounds -->
 
-Orthography (O)
-: Writing systems, if any
+<!-- Orthography (O) -->
+<!-- : Writing systems, if any -->
 
-Grammar (G)
-: General cover term for syntax and morphology as well as derivation
+<!-- Grammar (G) -->
+<!-- : General cover term for syntax and morphology as well as derivation -->
 
-Pragmatics (P)
-: The lexicon, treatments of context, and so on
+<!-- Pragmatics (P) -->
+<!-- : The lexicon, treatments of context, and so on -->
 
-Each feature has a completeness rating, which is a rating from 0 to five blocks:
+<!-- Each feature has a completeness rating, which is a rating from 0 to five blocks: -->
 
-[□ □ □ □ □] Planned
-:   Nothing has been written down, at all.
-In brainstorming phase.
+<!-- [□ □ □ □ □] Planned -->
+<!-- :   Nothing has been written down, at all. -->
+<!-- In brainstorming phase. -->
 
-[■ □ □ □ □] Immature
-:   The first draft has been written,
-or at least some framework has been adopted.
+<!-- [■ □ □ □ □] Immature -->
+<!-- :   The first draft has been written, -->
+<!-- or at least some framework has been adopted. -->
 
-[■ ■ □ □ □] Developing
-:   Things are rapidly taking shape,
-but things can still wildly change as the language component progresses.
+<!-- [■ ■ □ □ □] Developing -->
+<!-- :   Things are rapidly taking shape, -->
+<!-- but things can still wildly change as the language component progresses. -->
 
-[■ ■ ■ □ □] Established
-:   The system starts gaining quirks of its own.
-Minor changes might still be possible, especially vocabulary
-but for the most part things are solid.
+<!-- [■ ■ ■ □ □] Established -->
+<!-- :   The system starts gaining quirks of its own. -->
+<!-- Minor changes might still be possible, especially vocabulary -->
+<!-- but for the most part things are solid. -->
 
-[■ ■ ■ ■ □] Clean
-:   Largely complete, the system has started to become very unique.
-The details have been homed in, and nothing is poised to change a lot.
+<!-- [■ ■ ■ ■ □] Clean -->
+<!-- :   Largely complete, the system has started to become very unique. -->
+<!-- The details have been homed in, and nothing is poised to change a lot. -->
 
-[■ ■ ■ ■ ■] Mature
-:   The system has been given a life of its own.
-The core of the system has stabilised and is unlikely to change further,
-with any such change coming in the form of gaining new examples
-and new exceptions.
-Is likely usable in some limited circumstances.
+<!-- [■ ■ ■ ■ ■] Mature -->
+<!-- :   The system has been given a life of its own. -->
+<!-- The core of the system has stabilised and is unlikely to change further, -->
+<!-- with any such change coming in the form of gaining new examples -->
+<!-- and new exceptions. -->
+<!-- Is likely usable in some limited circumstances. -->
 
 # The Four Languages of the Jesdic Pasaru #
 ## Egonyota Pasaru ##
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ □ □ □] </div>
-            <div class="comment">Clear origins, details fuzzy</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">
-                Large inventory, simple phonotactics (but see below)
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Alphabetic</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">VSO, Nom-Acc, fairly European</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Standard Pasaru pragmatics</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Ancestor</div>
-            <div class="comment">E.-Vohalyosun</div>
-        </div>
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">Vohalyo, Pasaru; the entire empire</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">EP</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">P⃝   *⃤</div>
-        </div>
-    </div>
-</section>
-
 The official language of the Jesdic Pasaru,
 [Egonyota Pasaru][PSD-EP] is the one language you must learn
 to truly experience life in the Empire,
@@ -130,104 +80,12 @@ to assume the form of any other language
 through its "pragma" system.
 
 ## Serakafph Xaxex ##
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ □ □ □] </div>
-            <div class="comment">A mystery for the most part</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">
-                Two special phonemes, simple phonotactics
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Surprisingly Mongolian</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">SVO, Nom-Acc, limited recursion</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[□ □ □ □ □]</div>
-            <div class="comment">?</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">Fuvonalya; the rest of Xaxex</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">SX</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">X⃝   *⃤</div>
-        </div>
-    </div>
-</section>
-
 The international language of the planet that bears its name,
 [Serakafph Xaxex][XAX-SX] is well known
 for its rich array of metaphor and figurative speech
 that compensates for its simplistic grammar that recurses poorly.
 
 ## Elaga Qvaḻsa ##
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ □ □ □ □] </div>
-            <div class="comment">
-                Probably spoken at some point in the distant past
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">What's a phoneme?</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Dot-matrix alphabet</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">Absolute horror show</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[□ □ □ □ □]</div>
-            <div class="comment">????</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">A cloud of gas that formerly was a planet</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">EQ</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">Q⃝   *⃤</div>
-        </div>
-    </div>
-</section>
-
 [Elaga Qvaḻsa][QUX-EQ],
 once based on phonemes and other mouth-related words,
 has long since abandoned its spoken roots
@@ -237,53 +95,6 @@ It still retains its spoken heritage,
 through its intricate system of “letters” interacting with each other.
 
 ## Cipogrtesaj ##
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ □ □ □ □] </div>
-            <div class="comment">Moons may be involved</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">
-                Proper balance between consonants and vowels,
-                simple CV syllables most of the time
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Abugida turned upside-down</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">SVO, Nom-Acc, modifiers go at the end</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[□ □ □ □ □]</div>
-            <div class="comment">?</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">Some moons near Cipog</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">Ct</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">C⃝   *⃤</div>
-        </div>
-    </div>
-</section>
-
 A simple language for practical units,
 [Cipogrtesaj][CIR-Ct] is the language
 for when you feel like putting all modifiers after the main sentence.
@@ -301,50 +112,6 @@ These have grown to be so numerous that they are now divided by planet.
 
 ## Pasaru (a.k.a Pseudo)
 ### Yoskrail ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ □ □ □] </div>
-            <div class="comment">Cult language shielded by sea and forest</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">Largely uncontroversial</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">B.-Pasaru</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">VSO, Variadic, very strict derivation</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[□ □ □ □ □]</div>
-            <div class="comment">REPLish</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">A cult/programming hive</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">Yk</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">P⃝   O⃤</div>
-        </div>
-    </div>
-</section>
-
 [Yoskrail][PSD-Yk] is the programmer’s cant,
 a language that outwardly resembles a programming language
 yet contains enough concessions to make it usable for ordinary speech
@@ -354,51 +121,6 @@ and the surrounding ocean (now a mountain due to continental drift),
 it sports indenting, lexical blocks and an infinite supply of variables.
 
 ### Hesmai Iok ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">
-                Spoken on a continent that drives on the right
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Pretty disgusting, but is tonal</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Hangul + nightmares</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">SVO, Nom-Acc, pretty isolated</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ □ □ □ □]</div>
-            <div class="comment">Standard Pasaru pragmatics</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">Fenegil</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">HI</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">P⃝   H⃤</div>
-        </div>
-    </div>
-</section>
 The common language of all of the continent of Fenegil,
 [Hesmai Iok][PSD-HI] has an intense ȝender system
 that both nouns and verbs use, and they interact in convoluted manners.
@@ -406,52 +128,6 @@ It also has a most singular lexicographical ordering
 that uses a length-55 vector to determine order.
 
 ### Âagenzbèe ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ ■ □ □] </div>
-            <div class="comment">Ancient language resurrected for fun</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Three vowels, four bucky-bits, also hands</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">
-                Two of them, one boxy, one rotated Sanskrit
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">SVO, tripartite, evidentiality</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Not quite standard Pasaru</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">Administrative tongue of Agenbi</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">Ag</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">P⃝   A⃤</div>
-        </div>
-    </div>
-</section>
-
 [Âagenzbèe][PSD-Ag] is the Old Tongue of the northern lands of Pseudo.
 Outsiders will immediately recognize it
 by the language’s distinct usage of hand gestures as distinguished phonemes,
@@ -459,108 +135,12 @@ a trait that it has passed on to its descendents
 who have changed it in many strange and wonderful ways.
 
 ### Cindri ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">White from the sheep density</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Remarkably Japanese</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Stitches and scratches</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">SVO, Erg-Abs, metaphor structures</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Not quite standard Pasaru</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Ancestor</div>
-            <div class="comment">Âagenzbèe</div>
-        </div>
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">Çendre</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">Cd</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">P⃝   C⃤</div>
-        </div>
-    </div>
-</section>
-
 [Cindri][PSD-Cd] is a language
 spoken in the islands far to the north of Pseudo.
 It is known for its unique feature of having a knitted representation
 which historically is more used than the written one.
 
 ### Gwa-elohba ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ ■ □ □] </div>
-            <div class="comment">A sibling in the tree of languages</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Less remarkably Japanese</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">It's political</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">SVO, Erg-Abs, unremarkable</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Not quite standard Pasaru</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Ancestor</div>
-            <div class="comment">Âagenzbèe</div>
-        </div>
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">To-elohba</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">GE</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">P⃝   G⃤</div>
-        </div>
-    </div>
-</section>
-
 [Gwa-elohba][PSD-GE] is the national language of Rija,
 and is a cousin of Cindri and a descendent of Âagenzbèe.
 It can be considered as a “missing link” between those two languages.
@@ -568,56 +148,6 @@ Its most notable feature is that it has great dialectal variation
 due to its unique geopolitical situation.
 
 ### Rattssaw ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ ■ ■ □] </div>
-            <div class="comment">Another revived ancient tongue</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">What's a syllable?</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Loopy alphabet</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">
-                SVO, Nom-Acc, verbs get affices, nouns don't
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Really not standard Pasaru</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Ancestor</div>
-            <div class="comment">Strangely, its descendents</div>
-        </div>
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">The J.-Senlis</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">Rs</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">P⃝   R⃤</div>
-        </div>
-    </div>
-</section>
-
 The administrative language of the Jesdic Senlis,
 [Rattssaw][PSD-Rs] is well known
 for its tricky application of phonemic prevocalisation
@@ -625,52 +155,6 @@ for its tricky application of phonemic prevocalisation
 and strange loops in its registers.
 
 ### Nnn Heeel ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ ■ ■ □] </div>
-            <div class="comment">Just another language</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Slurs, primarily</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Triple those letters!</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">
-                SVO, direct, nouns get affices, verbs don't
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">Standard Pasaru</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">Řallona and Balogen</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">NH</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">P⃝   E⃤</div>
-        </div>
-    </div>
-</section>
-
 [Nnn Heeel][PSD-NH] can easily be identified
 by its penchant for tripled letters,
 but grammatically it is remarkable
@@ -680,55 +164,6 @@ such as repetition, appearance description and time progression.
 It has picked up multiple areal features from its neighbouring languages.
 
 ### Sturp ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ ■ ■ □] </div>
-            <div class="comment">
-                Send up to the Chinese, but you won't know
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Not particularly bewildering</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Alphabet-turned-abugida</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">
-                Most verbs are intransitive,
-                slightly denialistic of its erg-abs nature
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">Standard Pasaru</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">The L.-Jerso</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">St</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">P⃝   S⃤</div>
-        </div>
-    </div>
-</section>
-
 [Sturp][PSD-St], largely spoken in the technocratic country of the L.-Jerso,
 has no particular special feature that shines above the rest,
 but instead elects to have a variety of slightly special features.
@@ -748,102 +183,13 @@ It may also have a special mode to communicate with Yoskrai speakers.
 [PSD-St]: http://isoraqathedh.tumblr.com/tagged/Sturp
 
 ## Xaxex ##
-
 ### Sekapon ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ □ □ □ □]</div>
-            <div class="comment">Just another language</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Nuclei and codas, not onsets and nuclei</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Four scripts aren't enough</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Largely grapheme-based</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Standard Xaxex (which might not exist)</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">South Abeĉo</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">Sk</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">X⃝   S⃤</div>
-        </div>
-    </div>
-</section>
-
 [Sekapon][XAX-Sk] is the language of South Abeĉo.
 It’s well known for its multiple script system,
 which resembles a souped-up version of Japanese
 with no fewer than four scripts pulling their individual weight.
 
 ### Ouduec Fxelw ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ □ □ □ □]</div>
-            <div class="comment">Just another language</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Very rich syllables</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Arabic fever dream</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Generative</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Standard Xaxex (which might not exist)</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">North Abeĉo</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">OF</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">X⃝   O⃤</div>
-        </div>
-    </div>
-</section>
-
 [Ouduec Fxelw][XAX-OF] has a large phonetic inventory
 and is spoken in North Abeĉo.
 It boasts an amazingly compact script that's alphabetic
@@ -858,50 +204,6 @@ but of course there are other obstacles to natural language processing,
 even with this language.
 
 ### Ya-kĕnaj ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Another cult language</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Pretty standard fare</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Four scripts are too much</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Deque operations</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Standard Xaxex (which might not exist)</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">A hidden cult</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">Ya</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">X⃝   Y⃤</div>
-        </div>
-    </div>
-</section>
-
 [Ya-kĕnaj][XAX-Ya] is a programmer's cant
 similar but not exactly the same as Yoskrail.
 It has the most infuriating property
@@ -918,50 +220,6 @@ but rather operate on the deque directly.
 
 ## Other
 ### Uvbraot ###
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">A country's language!</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">More standard fare</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Just B.-Pasaru</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Pretty normal</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Pretty human</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">Leħbraot</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">Ub</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">U⃝   *⃤</div>
-        </div>
-    </div>
-</section>
-
 [Uvbraot][LEB-Ub] dials down the weirdness
 of almost all of its sister languages,
 but still contains alien concepts for English speakers
@@ -970,7 +228,6 @@ such as backgrounding sentences, and half-classes.
 [LEB-Ub]: http://isoraqathedh.tumblr.com/tagged/Uvbraot
 
 # The Purple Languages
-
 (The Purple Languages are the languages
 that do not explicitly belong to the Jesdic Pasaru in any official manner.
 Of course, the way that the Jesdic Pasaru works,
@@ -980,52 +237,6 @@ all of these languages belong to the Jesdic in some way, but not explicitly!)
 because they are written in a purple notebook.)
 
 ## Man gog yuu ##
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">Zamenhof gets transported to China</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">Sinitic fun</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">
-                Korean mixed script, commas and semicolons
-            </div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Basically classical Chinese</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ □ □ □ □]</div>
-            <div class="comment">Supposedly human</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">At least Ùzje</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">MGY</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">H⃝   M⃤</div>
-        </div>
-    </div>
-</section>
-
 [Man gog yuu][PUR-MGY] is an Esperanto for East Asian languages,
 warts and all.
 It attempts to create a synthesis of Japanese,
@@ -1037,50 +248,6 @@ from any of the source languages.
 Quite a “compromise”!
 
 ## Altrvukaif ##
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ □ □ □ □]</div>
-            <div class="comment">?</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[□ □ □ □ □]</div>
-            <div class="comment">?</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ ■]</div>
-            <div class="comment">Already done for me</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ □ □ □ □]</div>
-            <div class="comment">??</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ □ □ □ □]</div>
-            <div class="comment">Alien?</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">A planet I don't own</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">AKF</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">A⃝   *⃤</div>
-        </div>
-    </div>
-</section>
-
 [Altrvukaif][PUR-AKF]
 (no tag of its own; this one links to its parent project,
 “A Beginner’s Guide to Alternia”)
@@ -1093,50 +260,6 @@ for this language has more levels of respect and emotion sensitivity
 than any you might have heard of.
 
 ## g'Mòdyfäjq ##
-<section class="quickfacts">
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Background</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Alternate English</div>
-        </div>
-        <div class="card">
-            <div class="property">Phonology</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">/θ/ and /ð/ are guests of honour</div>
-        </div>
-        <div class="card">
-            <div class="property">Orthography</div>
-            <div class="value">[■ ■ ■ ■ □]</div>
-            <div class="comment">Latin and Cyrillic</div>
-        </div>
-        <div class="card">
-            <div class="property">Grammar</div>
-            <div class="value">[■ ■ ■ □ □]</div>
-            <div class="comment">Piece-by-piece</div>
-        </div>
-        <div class="card">
-            <div class="property">Pragmatics</div>
-            <div class="value">[■ ■ □ □ □]</div>
-            <div class="comment">English-like</div>
-        </div>
-    </div>
-    <div class="factsheet">
-        <div class="card">
-            <div class="property">Language of</div>
-            <div class="comment">A city</div>
-        </div>
-        <div class="card">
-            <div class="property">Code</div>
-            <div class="comment">GMF</div>
-        </div>
-        <div class="card">
-            <div class="property">Symbol</div>
-            <div class="comment">H⃝   G⃤</div>
-        </div>
-    </div>
-</section>
-
 Ỳŋlys g'mòdyfäjt vð'Fäqdəq,
 commonly abbreviated to [g'Mòdyfäjq][PUR-GMF],
 is a somewhat conservative alteration of English
