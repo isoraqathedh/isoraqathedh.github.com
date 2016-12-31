@@ -173,6 +173,16 @@ and a semantic gender system that sometimes allows words to change class
 depending on its new semantic role.
 It may also have a special mode to communicate with Yoskrai speakers.
 
+### Drsk ###
+Being a language that is next to or a relative of Rattssaw
+can seriously challenge the idea of a syllable,
+and this is all too clear to Drsk,
+a language that cohabits the space that Rattssaw does.
+A vowel-free, plosive-terminated-phonorun-based language
+with a limited number of nouns and Nnn Heeel style non-universal sentences,
+the sheer distance it has with everything else
+is sure to make most linguists claim that it is the language of the heavens.
+
 [PSD-Yk]: http://isoraqathedh.tumblr.com/tagged/Yoskrai
 [PSD-HI]: http://isoraqathedh.tumblr.com/tagged/Hesmai-Iok
 [PSD-Rs]: http://isoraqathedh.tumblr.com/tagged/Rattssaw
@@ -275,7 +285,6 @@ it's still recognisably Germanic.
 [PUR-GMF]: http://isoraqathedh.tumblr.com/tagged/g'M%C3%B2dyf%C3%A4jq
 
 # Other languages
-
 These languages are incomplete, immature
 or otherwise simply old and left unfinished.
 They may graduate out of this list to become full languages.
