@@ -440,7 +440,8 @@ and it has one of the world's most affordable and extensive schemes in the world
 Here's a whirlwind tour of its network.
 
 ## The Ùzje Metro ##
-<!-- Image of metro system goes here.  -->
+![A map of the Ùzje Metro system.](img/metro.png)
+
 Locally known as the UJTL or the S/Ù,
 the Ùzje Metro was proposed shortly after the riots
 to appeal to the concerns of the increasingly unsatisfied populace.
@@ -474,3 +475,43 @@ who think the economic benefit of the metro coming to them
 is not enough to balance the losses that come with it.
 However, for the tourist, 
 the metro provides a great whirlwind tour of the territory.
+
+## Boan Tramways ##
+<!-- Map of the network here. -->
+With over 330 stops all across the north shore of Boan Isle, the Boan Tramway
+provides an irresistibly cheap and convenient transport option for all those who
+live near it. Regular customers love it for its convenient station density and
+unbeatable prices; tourists love it for its slow, down-to-Earth alternative to
+the fast-paced city that it serves.
+
+Founded in 1904, the network was built in stages starting from Grot-Arzeqt.
+All of it is double-tracked, with one set of tracks in each direction,
+with some particularly busy sections getting another set of tracks.
+Usually the extra set of tracks are placed on the edge of the road
+where the original set of tracks are at the centre.
+
+The trams are all very old, over forty years old in some cases,
+and they are all double-deck and seat about 120.
+While they have a top speed of about 60 km/h,
+going anything over 40 km/h in one of the tramcars
+is a truly hair-raising experience for the riders.
+
+Most tram cars are non-air-conditioned,
+making them fairly unpopular in the summer months.
+Air-conditioned trams are slightly more expensive than non-air-conditioned ones,
+but in either case the prices are nearly impossibly low:
+3d is the most that one journey can charge you,
+and there are concession fares for everyone and everything.
+(No monthly or annual passes though, that's not a thing yet).
+It is primarily propped up by the elderly and the prodigious amount of tourists,
+with some help by the public sector to preserve the system as it is.
+
+Tram tracks run on the road for the most part,
+giving the passengers a close-up view of life on the streets of Boan Ajł.
+However, some parts of the network *do* run on their own right-of-way,
+for instance in ð'Crantanel, which is as its name suggests a tram tunnel.
+
+## The Light Rail ##
+<!-- Map of the light rail here. -->
+Meanwhile on the other side of ð'Qabar,
+a newer, fully air-conditioned and even more sprawling 
