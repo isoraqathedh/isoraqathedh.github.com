@@ -1,0 +1,22 @@
+.a, .b, .m, .v, .c, .ah, .q, .v, .d, .j, .x {
+    font-family: sans-serif;
+    border: 1px solid;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+.a, .b, .m, .v, .x, .j, .d, .x {
+    color: rgb(232, 205, 60);
+    border-color: white;
+}
+.a {background: rgb(7, 50, 103);}
+.b {background: rgb(103, 7, 86);}
+.c {background: white;}
+.m, .d {background: rgb(54, 103, 7);}
+.q {background: rgb(232, 205, 60);}
+.v {background: #0088AA;}
+.ah {
+    background: rgb(7, 50, 103);
+    color: white;
+}
+.j {background: #2c7d2c;}
+.x {background: #ce240e;}
