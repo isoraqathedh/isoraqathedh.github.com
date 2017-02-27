@@ -237,15 +237,33 @@ but in the end not much came of it and the green stayed.
 Like the national numbers city numbers are allocated in zones.
 These zones are also the responsibility of the city.
 An example of the zone practice can be seen in Boan City,
-where "horizontal" means "along the coast"
+and is seen in the figure below.
+One quirk of the system there is that "horizontal" means "along the coast"
 and "vertical" means "perpendicular to the coast",
 so it looks strange on a north-oriented map.
 
-<!-- there should be an image here. -->
-<!-- and another, this time for vertical zones -->
+<br class="push"/>
 
-In the case of Ð'TÞEK however
-the roads are just numbered from the southwest corner without any zoning.
+<figure class="full">
+<img src="img/boan-q-zones.png" alt="A map of Boan City with the Q zones marked." style="width:45%; display:inline;"/>
+<img src="img/boan-v-zones.png" alt="A map of Boan City with the V zones marked." style="width:45%; display:inline;"/>
+<figcaption markdown=1>
+The horizontal (left) and vertical (right) zones of Boan City
+are arranged so that they are bounded by roads
+that are either major (classified) roads
+or by other Q-V roads that have a units digit of 0.
+</figcaption>
+</figure>
+
+Within each zone there are usually attempts to have the numbers appear in order,
+which means that as one goes further south in Boan the V numbers increase.
+An interesting consequence is that a zone can run out of numbers
+even if there are still many available otherwise,
+resulting in the only road number in the world that is not an integer:
+the Bohən Vescit, otherwise known as the V62½.
+
+For Ð'TÞEK the roads are just numbered 
+from the southwest corner without any zoning.
 Roads in Concept City that can't be reliably classed as horizontal or vertical
 get D numbers instead,
 which are given based on the numbers of the roads near them.
@@ -259,6 +277,18 @@ or on top of a pole in the case of the light bulb-shaped shields.
 
 # Cycle routes: J #
 ![A shield for cycle route 45](img/J-road.png)
+
+Ùzje has a network of cycle routes.
+The network is largely designed for short-distance travel,
+with some long-distance routes available where cars can't reach.
+
+Regardless of the density of the network,
+it is indicated using a (somewhat cartoonish) bike-shaped shield
+with exaggerated wheels that hold one digit each.
+Sometimes, to accommodate an extra digit,
+the top of the bike is replaced with a rectangle
+that can either bear the district's name or a number that represents the same.
+
 
 # Diversions: X #
 ![A shield for diversion route 1](img/X-road.png)
