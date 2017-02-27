@@ -260,7 +260,7 @@ which means that as one goes further south in Boan the V numbers increase.
 An interesting consequence is that a zone can run out of numbers
 even if there are still many available otherwise,
 resulting in the only road number in the world that is not an integer:
-the Bohən Vescit, otherwise known as the V62½.
+the Bohən Vescit, otherwise known as the <span class="v">V62½</span>.
 
 For Ð'TÞEK the roads are just numbered 
 from the southwest corner without any zoning.
