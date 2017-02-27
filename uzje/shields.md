@@ -153,8 +153,12 @@ and they don't expect a large amount of traffic.
 It is expected that most drivers use this road
 to move around a district or as an alternative on rural roads.
 
+B roads must have three or more digits
+and, unlike most other places,
+are associated with the colour purple.
+
 ## Unclassified roads (C) ##
-![A shield for the C2010](img/C-road.png)
+![A shield for the C2010, if it were ever shown.](img/C-road.png)
 
 C roads are named "unclassified" roads
 because originally it was planned that these roads don't have numbers at all,
@@ -167,21 +171,92 @@ This number is still not put on road signs or street markers.
 However, the public can still see the numbers –
 one of the reasons for the Every Road A Number scheme
 was that street lights can now have a consistent serial number for everyone.
+Unclassified roads are associated with white.
 
 # International highways: AH #
 ![A shield for the AH1](img/AH-road.png)
+
+The Asian Highway network is a series of highways that,
+like its more famous European counterpart,
+attempts to make Asia more interconnected
+by overlaying a new network on top of existing roads.
+
+In Ùzje they are not signed, but a shield was drawn for it all the same.
+However, as with the specification, the colour of the text must be white,
+and not yellow as with most of the other shields in Ùzje.
+
 # City grid streets: Q, V and D #
-## Usage ##
-
-
-## Prevalence ##
+New Cities are built with a grid layout in mind.
+Some of these cities decided to number their roads as well, 
+resulting in the Q, V, D system of city-wide numbering.
+But because these numbers are uncoördinated,
+duplicates can and do occur in different cities.
 Three cities have these numbers, Boan City, Ð'TÞEK and Concept City.
 
+<figure markdown=1>
 ![Regular shields,
 used by Boan and a number of other cities.](img/QV-road-Boan.png)
-
 !["Light bulb"-shaped shield, used by Ð'TÞEK and Concept City.
 Ð'TÞEK does not use the diagonal (green) shield.](img/QVD-road-Concept-City.png)
+<figcaption>
+Regular shields, used by Boan and a number of other cities (above), and
+"Light bulb"-shaped shield, used by Ð'TÞEK and Concept City (below).
+Ð'TÞEK does not use the diagonal (green) shield.
+</figcaption>
+</figure>
+
+Boan City uses rectangle-shaped shields,
+with the prefices placed in the standard way.
+The vertical streets are associated with the colour teal,
+whereas the horizontal roads are associated with yellow.
+Yellow is also associated with temporary signage,
+which is some cause for concern,
+but so far there had been no objections raised to this colour convention.
+Other New Cities also use this scheme.
+
+Ð'TÞEK and Concept City, being both self-proclaimed "cities of the future",
+eschew the standard European cartouche 
+and instead use a shield that's shaped like a lightbulb.
+It is formed with a rectangular stalk,
+with a screw thread of the opposite colour, placed below a circle.
+
+While Ð'TÞEK is well-organised enough to avoid non-orthogonal streets altogether
+and so it has no use for the diagonal shield,
+all other cities  have streets that don't line up with the grid properly.
+In most cases they are squeezed into the Q-V paradigm anyway,
+but Concept City decided that won't do and instead uses the green light bulbs
+to indicate streets that run diagonally,
+essentially making the grid a triangular grid
+rather than a rectangular one.
+This was not done without some controversy,
+as green is already used for motorways,
+but in the end not much came of it and the green stayed.
+
+---
+
+Like the national numbers city numbers are allocated in zones.
+These zones are also the responsibility of the city.
+An example of the zone practice can be seen in Boan City,
+where "horizontal" means "along the coast"
+and "vertical" means "perpendicular to the coast",
+so it looks strange on a north-oriented map.
+
+<!-- there should be an image here. -->
+<!-- and another, this time for vertical zones -->
+
+In the case of Ð'TÞEK however
+the roads are just numbered from the southwest corner without any zoning.
+Roads in Concept City that can't be reliably classed as horizontal or vertical
+get D numbers instead,
+which are given based on the numbers of the roads near them.
+Numbers have up to three digits.
+
+Finally, city numbers do not show up on road signs,
+but they do show up on street signs,
+where they appear below the street nameplate
+in the case of the rectangular shields,
+or on top of a pole in the case of the light bulb-shaped shields.
+
 # Cycle routes: J #
 ![A shield for cycle route 45](img/J-road.png)
 
