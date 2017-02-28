@@ -89,8 +89,8 @@ and there is yet to be a situation where there isn't an obvious parent motorway.
 ![A shield for the A21(M)](img/AM-road.png)
 
 Sometimes A roads can be upgraded into a motorway.
-if they are, then they are *full* motorways,
-and their name gains an (M) suffix.
+if they are, then they are motorways in every sense of the word,
+even if their name merely gains an (M) suffix.
 This particularly ugly designation was copied directly from the UK,
 which had since then decided on that format
 and just copied it wholesale for when similar things happened in Ùzje.
@@ -104,6 +104,8 @@ sometimes a bit of all-purpose road is placed next to the motorway
 in order to allow for some of the benefits of the new road
 to be given to non-motorway traffic
 and also to reduce the amount of junctions required for an urban motorway.
+When this happens the new all-purpose road, which is invariably an A road,
+is given the M number but with an (A) suffixed.
 
 Fortunately, it is not allowed for a road like the <span class="m">A21(M)</span>
 to have a service road called the A21(M)(A).
@@ -161,11 +163,18 @@ are associated with the colour purple.
 ![A shield for the C2010, if it were ever shown.](img/C-road.png)
 
 C roads are named "unclassified" roads
-because originally it was planned that these roads don't have numbers at all,
-and so they are called "unclassified".
+because originally it was planned that these roads don't have numbers at all.
 But later on, it was decided that every road needs a national number,
 so any road that doesn't have one already are then assigned a 4-digit C road,
 which also follow the zoning that A roads follow.
+
+Unclassified roads are even diverse in quality than B roads,
+because they can also use the dreaded S1 standard:
+a single track road with one lane serving both directions.
+There is a provision in the traffic laws that you may drive on the right
+if the edge of the road is an insufficiently protected drop down a cliff,
+but that kind of road will never be granted an official number,
+hence they are "unclassified".
 
 This number is still not put on road signs or street markers.
 However, the public can still see the numbers –
