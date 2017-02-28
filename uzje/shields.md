@@ -19,7 +19,7 @@ that assist drivers and other road users in different and complementary ways.
 <span class="q">Q30</span>
 <span class="v">V60</span>
 <span class="d">D3</span>
-<span class="j">J45</span>
+<span class="j">45</span>
 <span class="x">X1</span>
 
 # Overview #
@@ -57,7 +57,7 @@ is to not separate the numbers and the letters with any space,
 even if there are brackets around the suffix.
 
 # National numbers: M, A, B and C #
-## Motorways (M and A(M)) ##
+## Motorways: M and A(M) ##
 ![A shield for the M8](img/M-road.png)
 
 Motorways were first built in 1950 as an testing ground 
@@ -96,7 +96,7 @@ which had since then decided on that format
 and just copied it wholesale for when similar things happened in Ùzje.
 As with other motorways, they have a green background.
 
-## Service roads (M(A)) ##
+## Service roads: M(A) ##
 ![A shield for the M8(A)](img/MA-road.png)
 
 Where a new road was built specifically in a motorway,
@@ -110,7 +110,7 @@ to have a service road called the A21(M)(A).
 That'd be far too silly; instead it retains the old number,
 which means that it is quite sensibly called the <span class="a">A21</span>.
 
-## First-class roads (A) ##
+## First-class roads: A ##
 ![A shield for the A46](img/A-road.png)
 
 A first class road is the major road that's usable for everyone,
@@ -143,7 +143,7 @@ to give lots of A road numbers to it, and the rest divides up all the island,
 with Boan Isle getting 1, Ajü and Zəxjü getting 5, 
 the four island cluster of Wuqoj getting 6, and 7 mopping up everything else.
 
-## Second-class roads (B) ##
+## Second-class roads: B ##
 ![A shield for the B357](img/B-road.png)
 
 B roads are secondary route to A roads,
@@ -157,7 +157,7 @@ B roads must have three or more digits
 and, unlike most other places,
 are associated with the colour purple.
 
-## Unclassified roads (C) ##
+## Unclassified roads: C ##
 ![A shield for the C2010, if it were ever shown.](img/C-road.png)
 
 C roads are named "unclassified" roads
@@ -200,7 +200,7 @@ used by Boan and a number of other cities.](img/QV-road-Boan.png)
 Ð'TÞEK does not use the diagonal (green) shield.](img/QVD-road-Concept-City.png)
 <figcaption>
 Regular shields, used by Boan and a number of other cities (above), and
-"Light bulb"-shaped shield, used by Ð'TÞEK and Concept City (below).
+"light bulb"-shaped shields, used by Ð'TÞEK and Concept City (below).
 Ð'TÞEK does not use the diagonal (green) shield.
 </figcaption>
 </figure>
@@ -250,7 +250,7 @@ so it looks strange on a north-oriented map.
 <figcaption markdown=1>
 The horizontal (left) and vertical (right) zones of Boan City
 are arranged so that they are bounded by roads
-that are either major (classified) roads
+that are either major, classified roads
 or by other Q-V roads that have a units digit of 0.
 </figcaption>
 </figure>
@@ -285,10 +285,55 @@ with some long-distance routes available where cars can't reach.
 Regardless of the density of the network,
 it is indicated using a (somewhat cartoonish) bike-shaped shield
 with exaggerated wheels that hold one digit each.
-Sometimes, to accommodate an extra digit,
-the top of the bike is replaced with a rectangle
-that can either bear the district's name or a number that represents the same.
+Due to there being more than 100 cycle paths in the territory,
+numbers are only guaranteed to be unique within a particular highway zone.
+However, there is a *second* class of numbers
+that *are* unique throughout the entire territory.
+They are distinguished by the number of letters in the designation:
+
+* If the "front wheel" contains a letter, which must be A or B,
+  then it is considered a long-range, inter-zonal cycle path.
+  There are a maximum of 10 of each.
+  
+    The letter A is used to indicate that crossing the entire path
+  requires going through water, whether by bridge or by ferry,
+  whereas the letter B implies there are none.
+  As such cycle routes
+  <span class="j">B0</span> to <span class="j">B9</span>
+  only appear on the mainland,
+  and some of these don't even manage to be inter-zonal at all
+  due to number exhaustion there.
+  
+* If the "front wheel" is a digit, then it is a short-range,
+  intra-zonal cycle path.
+  There are a maximum of 100 of them in each zone,
+  because <span class="j">00</span> is also used,
+  and is usually more significant than <span class="j">01</span>.
+  
+As can be seen by the shield on the road sign and the text-based shields above,
+the "J" designation is completely theoretical;
+it does not show up anywhere on the map.
+However the law that describes the legal existence of these routes
+does say that the letter "J" is associated with cycle routes,
+as well as the colour pale green.
 
 
 # Diversions: X #
 ![A shield for diversion route 1](img/X-road.png)
+
+When road works or other temporary changes in the road network comes along,
+these yellow-on-red shields are used to guide users back to the original path
+after they have passed the temporary change.
+
+Diversion paths can be permanent or temporary.
+When motorways are constructed,
+some thought was given as to what to do when the motorway is closed,
+and all-purpose roads are chosen to give an adequate alternative
+to this contingency.
+These are given numbers with two or three digits,
+and are unique within the territory.
+
+Else, the numbers 1 to 9 are used to respond to specific incidents,
+and generally are not unique or even permanent;
+each temporary arrangement uses these numbers in an *ad-hoc* manner
+and they vanish as soon as the temporary arrangement ends.
