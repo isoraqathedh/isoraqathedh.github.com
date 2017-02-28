@@ -9,6 +9,8 @@ Beyond the mundane M, A and B numbers,
 there's a whole host of other route numbers
 that assist drivers and other road users in different and complementary ways.
 
+<figure class="full">
+<p style="line-height:150%;">
 <span class="ah">AH1</span>
 <span class="m">M3</span>
 <span class="m">A21(M)</span>
@@ -21,6 +23,11 @@ that assist drivers and other road users in different and complementary ways.
 <span class="d">D3</span>
 <span class="j">45</span>
 <span class="x">X1</span>
+</p>
+<figcaption>
+A list of all the shield types available in Ùzje, in text form.
+</figcaption>
+</figure>
 
 # Overview #
 All road numbers in Ùzje come in the form of a one- or two-letter prefix,
