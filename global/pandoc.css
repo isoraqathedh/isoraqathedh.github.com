@@ -15,8 +15,8 @@ section.footnotes li, div.footnotes li {
     margin-bottom:1em;
 }
 
-section.footnotes li p:first-child,
-div.footnotes li p:first-child {
+li p:first-child,
+li p:first-child {
     text-indent:0;
 }
 
