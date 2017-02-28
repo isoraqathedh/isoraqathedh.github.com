@@ -281,7 +281,7 @@ the Bohən Vescit, otherwise known as the <span class="v">V62½</span>.
 Different arrangements are made in different cities.
 In Ð'TÞEK the roads are just numbered 
 from the southwest corner without any zoning,
-so the ithas the <span class="q">Q1</span> and the <span class="v"V1</span>
+so the ithas the <span class="q">Q1</span> and the <span class="v">V1</span>
 and the numbers increase from there.
 Meanwhile in Concept City, the normal zone layout is used,
 but roads that can't be reliably classed as horizontal or vertical
