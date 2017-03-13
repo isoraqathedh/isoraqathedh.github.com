@@ -156,6 +156,13 @@ Three of these zones (2, 3 and 4) divide the mainland
 to give lots of A road numbers to it, and the rest divides up all the island,
 with Boan Isle getting 1, Ajü and Zəxjü getting 5, 
 the four island cluster of Wuqoj getting 6, and 7 mopping up everything else.
+It is also dictated that for three digit numbers and higher,
+numbers starting with 20 belong to the central peninsula north to zone 4,
+21 are reserved for roads that cross these sub-zone boundaries,
+the remaining odd numbers (230 ~ 239, 250 ~ 259, &c.) belong to the Qàjscit
+to the west of the Terəq,
+and the remaining even numbers (220 ~ 229, 240 ~ 249, &c.)
+belong to Sixteen Tails, i.e. east of the Terəq.
 
 ## Second-class roads: B ##
 
