@@ -30,6 +30,7 @@ A list of all the shield types available in Ùzje, in text form.
 </figure>
 
 # Overview #
+
 All road numbers in Ùzje come in the form of a one- or two-letter prefix,
 followed by one to five digits,
 optionally ending with a potentially-bracketed letter.
@@ -64,7 +65,9 @@ is to not separate the numbers and the letters with any space,
 even if there are brackets around the suffix.
 
 # National numbers: M, A, B and C #
+
 ## Motorways: M and A(M) ##
+
 ![A shield for the M8](img/M-road.png)
 
 Motorways were first built in 1950 as an testing ground 
@@ -104,6 +107,7 @@ and just copied it wholesale for when similar things happened in Ùzje.
 As with other motorways, they have a green background.
 
 ## Service roads: M(A) ##
+
 ![A shield for the M8(A)](img/MA-road.png)
 
 Where a new road was built specifically in a motorway,
@@ -120,6 +124,7 @@ That'd be far too silly; instead it retains the old number,
 which means that it is quite sensibly called the <span class="a">A21</span>.
 
 ## First-class roads: A ##
+
 ![A shield for the A46](img/A-road.png)
 
 A first class road is the major road that's usable for everyone,
@@ -143,7 +148,7 @@ and divide the entire territory into seven zones:
 2. Lokcəxn Peninsula
 3. The Goŋ Hundred
 4. The Backhill
-5. Ajü Ajł and Zəjə
+5. Ajü Ajł and Zəxjü
 6. Wuqoj Isle
 7. Zone 7
 
@@ -153,6 +158,7 @@ with Boan Isle getting 1, Ajü and Zəxjü getting 5,
 the four island cluster of Wuqoj getting 6, and 7 mopping up everything else.
 
 ## Second-class roads: B ##
+
 ![A shield for the B357](img/B-road.png)
 
 B roads are secondary route to A roads,
@@ -167,6 +173,7 @@ and, unlike most other places,
 are associated with the colour purple.
 
 ## Unclassified roads: C ##
+
 ![A shield for the C2010, if it were ever shown.](img/C-road.png)
 
 C roads are named "unclassified" roads
@@ -190,6 +197,7 @@ was that street lights can now have a consistent serial number for everyone.
 Unclassified roads are associated with white.
 
 # International highways: AH #
+
 ![A shield for the AH1](img/AH-road.png)
 
 The Asian Highway network is a series of highways that,
@@ -202,6 +210,7 @@ However, as with the specification, the colour of the text must be white,
 and not yellow as with most of the other shields in Ùzje.
 
 # City grid streets: Q, V and D #
+
 New Cities are built with a grid layout in mind.
 Some of these cities decided to number their roads as well, 
 resulting in the Q, V, D system of city-wide numbering.
@@ -281,7 +290,7 @@ the Bohən Vescit, otherwise known as the <span class="v">V62½</span>.
 Different arrangements are made in different cities.
 In Ð'TÞEK the roads are just numbered 
 from the southwest corner without any zoning,
-so the ithas the <span class="q">Q1</span> and the <span class="v">V1</span>
+so the it has the <span class="q">Q1</span> and the <span class="v">V1</span>
 and the numbers increase from there.
 Meanwhile in Concept City, the normal zone layout is used,
 but roads that can't be reliably classed as horizontal or vertical
@@ -296,6 +305,7 @@ in the case of the rectangular shields,
 or on top of a pole in the case of the light bulb-shaped shields.
 
 # Cycle routes: J #
+
 ![A shield for cycle route 45](img/J-road.png)
 
 Ùzje has a network of cycle routes.
@@ -339,6 +349,7 @@ as well as the colour pale green.
 
 
 # Diversions: X #
+
 ![A shield for diversion route 1](img/X-road.png)
 
 When road works or other temporary changes in the road network comes along,
