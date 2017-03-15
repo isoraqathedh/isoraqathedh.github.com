@@ -33,7 +33,8 @@ A list of all the shield types available in Ùzje, in text form.
 
 All road numbers in Ùzje come in the form of a one- or two-letter prefix,
 followed by one to five digits,
-optionally ending with a potentially-bracketed letter.
+optionally ending with a potentially-bracketed letter
+and a heading direction in brackets.
 With the exception of the Asian Highway prefix AH,
 all prefices are one letter long.
 As of yet there are no five-digit-long numbers in the whole of Ùzje,
