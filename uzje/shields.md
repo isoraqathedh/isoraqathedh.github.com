@@ -322,30 +322,30 @@ with some long-distance routes available where cars can't reach.
 Regardless of the density of the network,
 it is indicated using a (somewhat cartoonish) bike-shaped shield
 with exaggerated wheels that hold one digit each.
-Due to there being more than 100 cycle paths in the territory,
-numbers are only guaranteed to be unique within a particular highway zone.
-However, there is a *second* class of numbers
-that *are* unique throughout the entire territory.
-They are distinguished by the number of letters in the designation:
+Because there's more than 100 cycle paths in the territory,
+a third digit is shoved in to the shield in an even goofier fashion
+that defies any reasonable explanation.
+In short, the third wheel is always smaller,
+and is either the front or the back wheel
+depending on the orientation of the bike,
+and the bike is "upgraded" to become a tandem bike
+(even though no tandem bikes actually use three wheels.)
 
-* If the "front wheel" contains a letter, which must be A or B,
-  then it is considered a long-range, inter-zonal cycle path.
-  There are a maximum of 10 of each.
-  
-    The letter A is used to indicate that crossing the entire path
-  requires going through water, whether by bridge or by ferry,
-  whereas the letter B implies there are none.
-  As such cycle routes
-  <span class="j">B0</span> to <span class="j">B9</span>
-  only appear on the mainland,
-  and some of these don't even manage to be inter-zonal at all
-  due to number exhaustion there.
-  
-* If the "front wheel" is a digit, then it is a short-range,
-  intra-zonal cycle path.
-  There are a maximum of 100 of them in each zone,
-  because <span class="j">00</span> is also used,
-  and is usually more significant than <span class="j">01</span>.
+The change of icon reflects the additional difficulty of the cycle route,
+because two-digit cycle paths are routes that are easy yet useful
+and three-digit numbers are assigned to more challenging or longer paths.
+Specifically, the allocation scheme requires cycle route numbers with two digits
+to be unique only within a single highway zone,
+whereas three-digit numbers have to be unique across the territory.
+Three-digit paths are usually cross-zone and require water crossings
+such as major bridges and ferries.
+
+There are no one digit cycle paths as they are all prepended with 0.
+However, there is a <span class="j">00</span>,
+which is considered the most important cycle route of them all
+within the highway zone.
+
+![Example shields for 3-digit cycle routes](img/J3-road.png)
   
 As can be seen by the shield on the road sign and the text-based shields above,
 the "J" designation is completely theoretical;
@@ -353,7 +353,6 @@ it does not show up anywhere on the map.
 However the law that describes the legal existence of these routes
 does say that the letter "J" is associated with cycle routes,
 as well as the colour pale green.
-
 
 # Diversions: X #
 
