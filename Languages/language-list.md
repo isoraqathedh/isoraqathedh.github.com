@@ -176,7 +176,7 @@ It may also have a special mode to communicate with Yoskrai speakers.
 ### Drsk ###
 Being a language that is next to or a relative of Rattssaw
 can seriously challenge the idea of a syllable,
-and this is all too clear to [Drsk][PSD-dr],
+and this is all too clear to [Drsk][PSD-Dr],
 a language that cohabits the space that Rattssaw does.
 A vowel-free, plosive-terminated-phonorun-based language
 with a limited number of nouns and Nnn Heeel style non-universal sentences,
@@ -191,7 +191,7 @@ is sure to make most linguists claim that it is the language of the heavens.
 [PSD-GE]: http://isoraqathedh.tumblr.com/search/Gwa-elohba (Linking the tag doesn't work. Really, Tumblr!)
 [PSD-NH]: http://isoraqathedh.tumblr.com/tagged/Nnn-Heeel
 [PSD-St]: http://isoraqathedh.tumblr.com/tagged/Sturp
-[PSD-St]: http://isoraqathedh.tumblr.com/tagged/Drsk
+[PSD-Dr]: http://isoraqathedh.tumblr.com/tagged/Drsk
 
 ## Xaxex ##
 ### Sekapon ###
