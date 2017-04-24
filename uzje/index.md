@@ -519,4 +519,75 @@ sprawls across Zestəq Tel.
 These are like trams in function but very different in form:
 they are modern, single-deck, double-car articulated trains
 with some element of premetro systems
-as a significant amount of its track is under dedicated right of way.
+as a significant amount of its track is under dedicated right of way –
+and surface level.
+
+The network is far less linear than the tram,
+it not being hindered significantly in one particular direction or another,
+and it's notably less of a legacy system as well, as mentioned earlier.
+As a result the system is much more expensive
+and lacks much of the flair that the tram system has.
+
+## Busses ##
+Host to the largest bus fandom in the world (!),
+the Ùzje bus system is not only extremely dense and frequent
+but also is entirely (to a rounding error) comprised of double-decker busses.
+Though slower than the rail-based alternatives,
+travel on the bus is greatly affordable
+to the point where prices are given in multiples of 50 millipence –
+the bus companies having lobbied the government to allow their prices
+to have a resolution below the legal tender quantum of ½d (500 md).
+Typically, prices per metre is between that of the tram and the metro,
+with the shortest bus routes only costing 2.45 d (but written as 2·45″)
+and the longest ones just over 3/6 (3′ 6·00″ on the fare table).
+More typical busses usually take a sixpence though;
+a typical fare might be 5·60″.
+
+This special pricing arrangement comes with it a stored-value card
+that was once the domain of the metro
+but has since grown to be a cash replacement for smaller denominations,
+which is defined to be less than 1.024 kd (£4–5–4, 85′ 4·00″),
+though to make things easier for the average user
+the cap is advertised to be £4 (80′ 0·00″) exactly.
+The stored-value card has otherwise been used in multiple other contexts,
+such as fast food and convenience stores.
+If you want to pay in cash on the bus and the coins don't give enough resolution,
+you have to eat the difference or buy tokens at a travel centre.
+
+<!-- Tokens are worth 50, 100 and 250 md, and are redeemable on busses only.
+They are named "fifth-farthing", "double-fifth" and "farthing" respectively. -->
+
+The two major conglomerates that run all the major bus routes
+on the mainland and on Boan are **Da Pu Bus** and **Pung Qar Bus**,
+the latter also operating as **Lungr Tvngr Bus** due to a recent merger.
+Smaller bus companies operate the system in the outer islands,
+if they are large enough to support one in the first place.
+These mostly target the small islands to the east in the "3" zone
+and the islands of Zəjə and Ajü.
+
+<aside markdown=1>
+*Relləzyk* and *rotləzyk* – the study of trains and roads in general –
+do exist but are much more muted in comparison to the comparatively massive
+*baszləzyk*.
+</aside>
+
+As mentioned earlier this system
+spawned a somewhat disconcerting enthusiast community
+due to its complexity, efficiency and ubiquity.
+The so-called "*baszləzyk*" – "bus-ology" – is especially popular with the young
+and their main activities include taking pictures of busses,
+riding a route from end to end
+and putting together a disturbingly complete encyclopedia on the Internet.
+This phenomenon started some time in 2004
+but has, like most fandoms, since eluded study and analysis in particular,
+though no doubt the first researcher who finds them
+would surely guarantee his career for life.
+
+## Minibuses ##
+
+## Taxies ##
+
+# Things to see and do #
+
+# Nearby #
+
