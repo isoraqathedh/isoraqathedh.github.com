@@ -264,7 +264,7 @@ but in general only halfpennies are used.
 </aside>
 
 In response to decimalisation, one thousand pennies also make a kilopenny (kd).
-One kilopenny is equal to two pounds, three shillings and fourpence.
+One kilopenny is equal to four pounds, three shillings and fourpence.
 Although heavily used in the financial sector,
 the kilopenny has never found much use outside of it
 apart from some commemorative currency and as a price point.
