@@ -201,7 +201,7 @@ and are sympathetic to it for various reasons,
 not least of which is that one of them is a spearhead of the language itself.
 Another key fact is that Ùzje has always been somewhat rebellious
 and wishes to be independent in some way or another,
-and granting them a separate language 
+and granting them a separate language
 is a very easy way to placate the colonials that have found their way there.
 Finally the fact that Ùzje is such an established based for g'Mòdyfäjq speakers
 have ensured that the place will become attractive for more g'Mòdyfäjq speakers,
@@ -349,9 +349,9 @@ Capsule hotel per day                      1    1    8
 5-star hotel per night                     9   10
 6-star hotel per night                    12   15
 Flat (10 m²) rent per month               43    6    8
-Flat (50 m²) rent per month               60 
+Flat (50 m²) rent per month               60
 Flat (100 m²) rent per month              90
-House (100 m²) rent per month            500 
+House (100 m²) rent per month            500
 Flat (10 m²) sale price                 6000
 Flat (50 m²) sale price               3 2500
 Flat (100 m²) sale price             15 1250
@@ -399,7 +399,7 @@ The two places are literally on either side of the M4,
 and a dedicated shuttle service and driverless train service
 moves tourists between them.
 
-Security is largely painless, 
+Security is largely painless,
 or at least as painless as the international authroities can allow;
 immigration for locals are convenient and electronic
 but for those who *really* don't want
@@ -467,13 +467,13 @@ and the trains run as often as once per 40 seconds at rush hour.
 Cost is extremely reasonable at an average distance cost of 350 µd/m (2.9 km/d).
 
 As it currently stands the metro is incomplete;
-a lot of stations are under planning 
+a lot of stations are under planning
 and many plots of land are left empty for future development.
 There's no guarantee that the development will ever come;
 recently the construction has drawn the ire of many locals
 who think the economic benefit of the metro coming to them
 is not enough to balance the losses that come with it.
-However, for the tourist, 
+However, for the tourist,
 the metro provides a great whirlwind tour of the territory.
 
 ## Boan Tramways ##
@@ -514,4 +514,9 @@ for instance in ð'Crantanel, which is as its name suggests a tram tunnel.
 ## The Light Rail ##
 <!-- Map of the light rail here. -->
 Meanwhile on the other side of ð'Qabar,
-a newer, fully air-conditioned and even more sprawling 
+a newer, fully air-conditioned and even more sprawling Light Rail Network
+sprawls across Zestəq Tel.
+These are like trams in function but very different in form:
+they are modern, single-deck, double-car articulated trains
+with some element of premetro systems
+as a significant amount of its track is under dedicated right of way.
