@@ -1,0 +1,370 @@
+/* ---------------------------------
+	ABGTA-specific navigation styling */
+body>nav {
+	color:#FFC800;
+	text-align:center;
+	font-family:Georgia;
+	font-size:125%;
+	font-variant:small-caps;
+	font-weight:bold;
+	width:80%;
+	margin:1em auto;
+	border:2px solid #666;
+	background:#AF2303;
+	padding-top:8px;
+}
+#inttoc {
+	font-size:100%;
+	width:30%;
+	margin:1em 1em 1em 0;
+	border-width:1px;
+	float:left;
+}
+#inttoc>ol {
+	max-height:30em;
+	overflow:auto;
+}
+#ultimateToc {
+	list-style-type:upper-alpha;
+}
+body>nav ul, body>nav ol {
+	margin:8px auto 0;
+	text-align:center;
+	font-size:80%;
+	padding:9px 0;
+	font-weight:normal;
+	color:#AF2303;
+	background-color:#FFC800;
+}
+body>nav ol {
+	text-align:left;
+	padding:0.1em 0 0.2em 2em;
+	margin-left:0;
+	margin-right:0;
+}
+body>nav ol li {
+	margin:0 0.1em;
+}
+body>nav ol ol {
+	font-size:100%;
+	padding-top:0;
+	margin-top:0;
+}
+body>nav ul {
+	list-style-type:none;
+}
+body>nav ul li {
+	display:inline;
+}
+body>nav ul li:before {
+	content: " · ";
+}
+body>nav ul li:first-child:before {
+	content:none;
+}
+a.unavail, a.unavail:hover, a.unavail:visited {
+	color:#441D1D;
+	background-color:rgba(90, 29, 29, 0.1);
+	border-bottom:1px solid #441D1D;
+	border-top:1px solid #441D1D;
+	text-decoration:none;
+}
+a.unavail:after {
+	content:" [not done yet!]";
+	font-size:90%;
+}
+/* ---------------------------------
+	Special data-based styling */
+table tr td {
+	font-family:Arial;
+}
+.numbers td {
+	text-align:right;
+}
+.climatedata {
+	border-collapse:collapse;
+	width:100%;
+}
+table.climatedata>tbody>tr:nth-child(n) td {
+	background-color:#FFC800;
+	font-size:80%;
+	text-align:right;
+}
+table.climatedata>tbody>tr:nth-of-type(1) > td,
+table.climatedata>tbody>tr:nth-of-type(2) > td,
+table.climatedata>tbody>tr:nth-of-type(3) > td,
+table.climatedata>tbody>tr:nth-of-type(4) > td,
+table.climatedata>tbody>tr:nth-of-type(5) > td,
+table.climatedata>tbody>tr:nth-of-type(9) > td,
+table.climatedata>tbody>tr:nth-of-type(10) > td {
+	background-color:#ECB500;
+}
+table.climatedata tr>:nth-last-child(1) {
+	border-left:3px double #CA3E22;
+}
+table.climatedata tbody td:nth-of-type(-n+12):before {
+	content: "●";
+	color:transparent;
+	float:left;
+}
+/* ---------------------------------
+	ABGTA-specific counters */
+body {
+    counter-reset: chapter -1;
+}
+h1:before, h2:before, h3:before {
+	font-weight:normal;
+}
+body>h1:before {
+    content: counter(chapter) " ";
+    counter-increment: chapter;
+}
+body>h1 {
+    counter-reset: section subsection figure;
+}
+body>h2 {
+	counter-reset:figure subsection;
+}
+body>h2:before {
+    content: counter(chapter) "." counter(section) " ";
+    counter-increment: section;
+}
+body>h3:before {
+	content: counter(chapter) "." counter(section) "." counter(subsection) " ";
+	counter-increment:subsection;
+}
+#Title:before {
+	content:"";
+}
+aside {
+	clear:both;
+	margin-top:0.5em;
+}
+aside>h1:first-child, aside>h2:first-child, aside>h3:first-child,
+aside>h4:first-child, aside>h5:first-child, aside>h6:first-child {
+	text-indent:0;
+	margin:0 -0.5em 0.125em;
+	padding-top:0.375em;
+	padding-left:0.5em;
+	padding-right:0;
+	padding-bottom:0.125em;
+	background-color:#CCC;
+}
+/* ---------------------------------
+	ABGTA-specific second-section styling */
+body>h1:nth-of-type(2) {
+	clear:both;
+}
+/* ---------------------------------
+	Special content-based stylings */
+figure.minor table {
+	display:inline-block;
+	vertical-align:middle;
+	border-collapse:collapse;
+}
+figure.minor {
+	float:right;
+	max-width:40%;
+}
+figure.minor img {
+	max-width:300px;
+}
+figure.minor.bigger {
+	max-width:70%;
+	float:left;
+}
+figure.minor.bigger img {
+	max-width:100%;
+}
+figure.double .doubleleft {
+	width:45%;
+	float:left;
+}
+figure.double .doubleright {
+	width:45%;
+	float:right;
+}
+figure.double figcaption {
+	clear:both;
+}
+.measErr {
+	position:relative;
+	bottom:0.3em;
+	display:inline-block;
+	width:1.5em;
+}
+.measErr .plus, .measErr .minus {
+	position:absolute;
+	right:0;
+	font-size:60%;
+}
+.measErr .plus {
+	bottom:0;
+}
+.eq {
+	display:block;
+	margin:0 auto; 
+}
+.altMeas {
+	color:#888;
+}
+.altYr {
+	font-variant:small-caps;
+}
+.invDP {
+	visibility:hidden;
+}
+.notice {
+	text-indent:0;
+	margin-left:60px;
+	font-style:italic;
+}
+span.dyeName {
+	display:inline-block;
+	width:9em;
+	color:green;
+	border-bottom:1px solid green;
+	text-align:center;
+	text-indent:0;
+}
+span.tempName {
+	display:inline-block;
+	width:9em;
+	color:#088;
+	border-bottom:1px dashed #088;
+	text-align:center;
+	text-indent:0;
+}
+span.dyeName:before, span.tempName:before {content: "[";}
+span.dyeName:after,  span.tempName:after {content: "]";}
+dl.bigfatdatadump {
+	background-color:transparent;
+}
+dl.bigfatdatadump dt {
+	width:19%;
+	padding-right:1%;
+	padding-bottom:0.1em;
+	margin-top:0.5em;
+	float:left;
+	clear:left;
+	border-radius:5px 0 0 5px;
+	text-align:right;
+}
+dl.bigfatdatadump dd {
+	margin-left:20%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-bottom:0.1em;
+	margin-top:0.5em;
+	background-color:#FFE696;
+	border-radius:0 5px 5px 0;
+}
+img#AlterniaMap {
+	display:block;
+	border:1px solid #666;
+	margin:1em auto;
+}
+body>img[src$=".jpg"] {
+	width:100%;
+}
+/* ---------------------------------
+	ABGTA-specific figure tweaking */
+figure {
+	margin-left:0.5em;
+	margin-right:0.5em;
+	margin-top:0.75em;
+}
+figure img {
+	margin:0.1em auto;
+}
+figure figcaption:before, aside h2:first-child:before, aside h3:first-child:before, 
+aside h4:first-child:before, aside h5:first-child:before, aside h6:first-child:before {
+	counter-increment:figure;
+	content:counter(chapter)"."counter(section)counter(figure, lower-latin)": ";
+	font-variant:normal;
+	font-weight:normal;
+	font-size:80%;
+}
+figure figcaption:before {
+	content:"Fig. "counter(chapter)"."counter(section)counter(figure, lower-latin)" ";
+	font-size:100%;
+	background-color:#BBB;
+	margin-right:3px;
+}
+/* ---------------------------------
+	ABGTA Gazetteer tweaking */
+p.quickInfo {
+	text-indent:0;
+	color:#444;
+	margin-top:0;
+}
+.etymology {
+	text-indent:0;
+	margin:0 0.5em 0 1em;
+	padding:0 0.2em 0 0;
+	display:inline-block;
+	color:white;
+}
+.etymology:before {
+	text-indent:0;
+	display:inline-block;
+	color:white;
+	margin:0 0.5em 0 0;
+	padding:0 0.2em;
+}
+.etymology.terrnym:before {
+	content:"A";
+	background-color:#080;
+}
+.etymology.terrnym {
+	background-color:#2A2;
+}
+.etymology.fannym:before {
+	content:"B";
+	background-color:#800;
+}
+.etymology.fannym {
+	background-color:#A22;
+}
+.etymology.rangennym:before {
+	content:"C";
+	background-color:#008;
+}
+.etymology.rangennym {
+	background-color:#22A;
+}
+.etymology.deriv:before {
+	content:"D";
+	background-color:#888;
+}
+.etymology.deriv {
+	background-color:#AAA;
+}
+.etymology a {color:#ABF;}
+.etymology a:visited {color:#A8F;}
+dt.ocean, dt.continent, dt.mountains {
+	background-color:#AF2303;
+	color:#FFC800;
+	font-variant:small-caps;
+}
+dt:before {
+	float:left;
+	margin-left:6px;
+	display:block;
+	position:relative;
+	top:3px;
+}
+dt.ocean:before {content:url("Feature_ocean.png");}
+dt.mountains:before {content:url("Feature_mountain.png");}
+.blood-m {background-color:#626262;}
+.blood-a {background-color:#a10000;}
+.blood-b {background-color:#a15000;}
+.blood-c {background-color:#a1a100;}
+.blood-e {background-color:#416600;}
+.blood-f {background-color:#008141;}
+.blood-g {background-color:#008282;}
+.blood-h {background-color:#005682;}
+.blood-i {background-color:#000056;}
+.blood-j {background-color:#2b0057;}
+.blood-k {background-color:#6a006a;}
+.blood-l {background-color:#77003c;}

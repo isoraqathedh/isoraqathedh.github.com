@@ -1,0 +1,136 @@
+﻿REDBLOODS:
+X Sporus Infiti - lonesomeRevolutionary [#7f0000] ♂
+X Lupune Ganash - ??? [8f0000] ♀
+X Tropia Zonnen - ??? (Summer) [#a00000] ♀
+X Carron Dipone - ??? (Carrier Pidgeon) [#a61c00] ♀
+X Antenn Shelle - unwillingSpiritualist [#7a0a00] ♂
+
+BROWNBLOODS:
+X Dessia Devvin - scavengingTelepath [#991c00] ♀
+X Aefall Harves - ??? (Autumn) [#ad3f00] ♀
+X Dhreik Atrans  - sixthScale ♂ 
+
+YELLOWBLOODS:
+X Ucalya Opocal - (Moth) ??? [#d8a300] ♀
+X Haejan Phynks - nonagonLanding ♂ 
+X Dojern Salzar - favorableNetwork [#9e8300] ♂
+X Hidori Gaiais - ??? (Shy Guy) [#b1b700]  ♂
+  
+GREENBLOODS:
+Pahera Tigran - collectedSingular ♂ 
+X Zerleg Risham - indestructibleKnifepoint  [#1f9604] ♂
+X Falora Faunas - ??? (Spring) [#26a100] ♀
+X Jayien Ritter - encodedOutcast [#186803] ♂
+X Kreipe Fragor - explosiveBoundaries [#009905] ♂
+ 
+JADEBLOODS:
+X Sterrat Ladiam - innocentlyEconomical [#00822b] ♀
+X Barsho Barito - ??? (Singer) [#009d55] ♂
+ 
+TEALBLOODS:
+X Kettei Massas - establishedOwnership [#0091ae] ♀
+
+BLUEBLOODS:
+X Caedes Vaesan - biochemicalExperimentalist [#006387] ♂
+X Glaesi Jafros - ??? (Winter) [#008dd3] ♀
+X Campir Loboro - unnecessaryInnocence [#00f3a7] ♂
+X Shadon Absoli - certainlyChivalrous [#0000a8] ♂
+ 
+INDIGOBLOODS:
+X Protos Agrest - amplifiedBehemoth [#3c009e] ♂
+ 
+SEADWELLERS:
+X Badvar Neitor - indifferentlyMonotone [#a000bc / #a9a9a9] ♂ 
+X Nataio Selphi - traditionalMonarchy [#990093] ♂
+X Chelin Slomos - ??? (Snail) [#b50087] ♀
+[18:40:57] Neo Exdead: X means that they have been sprited
+
+
+----------------
+
+
+REDBLOODS:
+X Sporus Infiti - lonesomeRevolutionary [#7f0000] ♂
+X Lupune Ganash - ??? [8f0000] ♀
+X Tropia Zonnen - ??? (Summer) [#a00000] ♀
+X Carron Dipone - ??? (Carrier Pidgeon) [#a61c00] ♀
+X Antenn Shelle - unwillingSpiritualist [#7a0a00] ♂
+
+BROWNBLOODS:
+X Dessia Devvin - scavengingTelepath [#991c00] ♀
+X Aefall Harves - ??? (Autumn) [#ad3f00] ♀
+X Dhreik Atrans  - sixthScale ♂ 
+
+YELLOWBLOODS:
+X Ucalya Opocal - (Moth) ??? [#d8a300] ♀
+X Haejan Phynks - nonagonLanding ♂ 
+X Dojern Salzar - favorableNetwork [#9e8300] ♂
+X Hidori Gaiais - ??? (Shy Guy) [#b1b700]  ♂
+  
+GREENBLOODS:
+Pahera Tigran - collectedSingular ♂ 
+X Zerleg Risham - indestructibleKnifepoint  [#1f9604] ♂
+X Falora Faunas - ??? (Spring) [#26a100] ♀
+X Jayien Ritter - encodedOutcast [#186803] ♂
+X Kreipe Fragor - explosiveBoundaries [#009905] ♂
+ 
+JADEBLOODS:
+X Sterrat Ladiam - innocentlyEconomical [#00822b] ♀
+X Barsho Barito - ??? (Singer) [#009d55] ♂
+ 
+TEALBLOODS:
+X Kettei Massas - establishedOwnership [#0091ae] ♀
+
+BLUEBLOODS:
+X Caedes Vaesan - biochemicalExperimentalist [#006387] ♂
+X Glaesi Jafros - ??? (Winter) [#008dd3] ♀
+X Campir Loboro - unnecessaryInnocence [#00f3a7] ♂
+X Shadon Absoli - certainlyChivalrous [#0000a8] ♂
+ 
+INDIGOBLOODS:
+X Protos Agrest - amplifiedBehemoth [#3c009e] ♂
+ 
+SEADWELLERS:
+X Badvar Neitor - indifferentlyMonotone [#a000bc / #a9a9a9] ♂ 
+X Nataio Selphi - traditionalMonarchy [#990093] ♂
+X Chelin Slomos - ??? (Snail) [#b50087] ♀
+
+REDBLOODS:
+Taexus Widers (Death) ♂ 
+Hearis Lukium (Lovers) ♀
+Daevan Lushet (Devil) ♂   
+
+BROWNBLOODS:
+Isolut Loenis (Hermit) ♂
+Neiste Boldes (Strength) ♂ 
+Daiain Soleai (Sun) ♀
+
+YELLOWBLOODS:
+Miseru Towrun (Tower) ♂
+Garils Sufren (Hanged Man) ♂
+Starril Tweink (Star) ♀
+
+GREENBLOODS:
+Fulise Enlian (World) ?
+Jestus Wundar (Fool) ♂
+Balena Contro (Temperance) ♀
+
+JADEBLOODS:
+Rotear Weuler (Wheel) ♀ 
+Galwai Judein (Justice) ♀
+
+TEALBLOODS:
+Povrel Confed (Chariot) ♂
+Lunosa Ninenu (Moon) ♀
+    
+BLUEBLOODS: 
+Alakem Abraus (Magician) ♂  
+Jugein Cortas (Judgement) ♀
+Presun Phaner (Hierophant) ♂ 
+
+INDIGOBLOODS:   
+Libran Mateno #Subjug (High Priestess) ♀  
+ 
+SEADWELLERS:
+Rulust Loredo (Emperor) ♂
+Masera Emprel (Empress) ♀

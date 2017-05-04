@@ -1,5 +1,11 @@
 *.DS_Store
-Alternia
+Alternia/noupload
+Alternia/crushed
+Alternia/SpecialFiles/sounds
+Alternia/SpecialFiles/*.wav
+Alternia/SpecialFiles/Gazetteer Words*
+Alternia/SpecialFiles/My recording*
+Alternia/img/15*
 Ponylyr
 PCT
 SASubstances

@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Name Generator · A Beginner's Guide to Alternia</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="../global/Default.css" media="all"/>
+<link rel="stylesheet" href="Styles/Alternia.css" media="all"/>
+<link rel="stylesheet" href="Styles/namegen.css" media="all"/>
+<link rel="shortcut icon" href="../global/Fav.png" />
+<script src="../global/general.js"></script>
+<script src="Scripts/namegen.js"></script>
+</head>
+<body onload="alterniaNames.misc.init();">
+<h1 id="Title">A Beginner's Guide to Alternia: <br/> The Name Generator</h1>
+<div id="version">
+	Version
+	<div id="versionnumber"    >4.1.0.00</div>
+	<div id="versionnumberjs"  >4.1.0.00</div>
+	<div id="versionnumbercss" >4.0.0.00</div>
+	<div id="versionnumberhtml">4.0.0.00</div>
+</div>
+<div id="bsupport">
+	<span>IE</span>
+	<span class="support">FX</span>
+	<span class="support">SF</span>
+	<span class="support">CH</span>
+	<span>OP</span>
+</div>
+<p>
+	Like any other place in the universe, Alternian features have names. Unlike names outside of
+	Alternia, given when the species still had some semblance of a child-like curiosity,
+	names on the planet itself tend to be boring and predictable with very few surprises, the 
+	culture having matured and long since shrugged off every last scrap of morality beyond
+	<a href="http://en.wikipedia.org/wiki/4X">"Explore, Expand, Exploit, Exterminate"</a>. 
+	These "boring" names are usually randomly generated and overwrite older names, though your
+	average Earthling will notice some vaguely familiar names here and there…
+</p>
+<h1>The Generator</h1>
+<div id="interface">
+	<button onclick="alterniaNames.make.syllables();">Click me to get a nice new word!</button>
+	<p>Your word is:</p>
+	<div id="output"></div>
+	<p>It is pronounced:</p>
+	<div id="pronounce"></div>
+	<div id="otherstats"><div>
+		<div id="syllCountWrap">
+			<p>Syllable Count:</p>
+			<div id="syllableCountOut"></div>
+		</div>
+		<div id="moraCountWrap">
+			<p>Mora Count:</p>
+			<div id="moraCountOut"></div>
+			<p>(As a general rule, it takes about 0.2 seconds to say a one mora of speech.)</p>
+		</div>
+		<div id="charCountWrap">
+			<p>Letter Count:</p>
+			<div id="characterCountOut"></div>
+		</div>
+	</div></div>
+</div>
+<div class='spoilercontrol'>
+	<button onclick="hide(1); hide(2); hide(3);">Hide All</button>
+	<button onclick="show(1); hide(2); hide(3);">Options</button>
+	<button onclick="hide(1); show(2); hide(3);">Working</button>
+	<button onclick="hide(1); hide(2); show(3);">History</button>
+	<button onclick="show(1); show(2); show(3);">Show All</button>
+</div>
+<div id="spoiler1" class="spoileropen">
+<h2>Options</h2>
+<form onsubmit="return false;">
+<p>
+	<input type="checkbox" id="simpleCons" checked="checked"/>
+	<label for="simpleCons">Simple Consonants</label>
+	
+	<input type="checkbox" id="noOneVowels" checked="checked"/>
+	<label for="noOneVowels">Supress Single-Vowel words</label>
+</p>
+<fieldset>
+	<legend>Hyphenation</legend>
+	<p>
+		
+		<input type="radio" name="hyphenuse" value="none" id="nohyphens"/>
+		<label for="nohyphens">No hyphens</label>
+		<input type="radio" name="hyphenuse" value="some" id="somehyphens" checked="checked"/>
+		<label for="somehyphens">Some hyphens</label>
+		<input type="radio" name="hyphenuse" value="lots" id="lotshyphens"/>
+		<label for="lotshyphens">Lots of hyphens</label>
+	</p>
+	<p>
+		"No hyphens" disable hyphenations. "Some hyphens" hyphenate syllables based on syllable
+		length and adjacent syllables. "Lots of hyphens" hyphenate all syllables.
+	</p>
+	<p>
+		<input type="radio" name="hyphens" value="minus" id="minushyphens" checked="checked"/>
+		<label for="minushyphens">Use "-"</label>
+		<input type="radio" name="hyphens" value="dot" id="dothyphens"/>
+		<label for="dothyphens">Use "·"</label>
+	</p>
+</fieldset>
+<fieldset>
+<legend>Rhyme and Alliteration Management</legend>
+<table id="rhymeMgmt">
+<tr><th colspan="3">Force</th></tr>
+<tr>
+	<td>
+		<input type="checkbox" name="allitMgmt" value="no" id="switchAllitMgmt"/>
+		<label for="switchAllitMgmt">the onset of</label>
+	</td>
+	<td>
+		<input type="checkbox" name="rhymeMgmt" value="no" id="switchNucleusMgmt"/>
+		<label for="switchNucleusMgmt">the nucleus of</label>
+	</td>
+	<td>
+		<input type="checkbox" name="rhymeCodaMgmt" value="no" id="switchCodaMgmt"/>
+		<label for="switchCodaMgmt">the coda of</label>
+	</td>
+</tr>
+<tr>
+	<td>
+		<input type="radio" name="allitMgmt" value="one" id="oneAllitMgmt" checked="checked"/>
+		<label for="oneAllitMgmt">the first syllable</label>
+		<input type="radio" name="allitMgmt" value="all" id="allAllitMgmt"/>
+		<label for="allAllitMgmt">every syllable</label>
+	</td>
+	<td>
+		<input type="radio" name="rhymeMgmt" value="one" id="oneNucleusMgmt" checked="checked"/>
+		<label for="oneNucleusMgmt">the last syllable</label>
+		<input type="radio" name="rhymeMgmt" value="all" id="allNucleusMgmt"/>
+		<label for="allNucleusMgmt">every syllable</label>
+	</td>
+	<td>
+		<input type="radio" name="rhymeCodaMgmt" value="one" id="oneCodaMgmt" checked="checked"/>
+		<label for="oneCodaMgmt">the last syllable</label>
+		<input type="radio" name="rhymeCodaMgmt" value="all" id="allCodaMgmt"/>
+		<label for="allCodaMgmt">every syllable</label>
+	</td>
+</tr>
+<tr><td colspan="3">to be</td></tr>
+<tr>
+	<td>
+		<input type="radio" name="allitMgmtSel" id="allitMgmt0" checked="checked"/>
+		<label for="allitMgmt0">Ø (nothing)</label>
+		<br/>
+		<input type="radio" name="allitMgmtSel" id="allitMgmtP"/>
+		<select id="allitMgmtPSel">
+			<option value="p">p</option>
+			<option value="t">t</option>
+			<option value="k">k</option>
+			<option value="b">b</option>
+			<option value="d">d</option>
+			<option value="g">g</option>
+			<option value="h">h</option>
+			<option value="m">m</option>
+			<option value="n">n</option>
+		</select>
+		<select id="allitMgmtPFRSel">
+			<option value="Ø">Ø</option>
+			<option value="th">th</option>
+			<option value="f">f</option>
+			<option value="s">s</option>
+			<option value="x">x</option>
+			<option value="ss">ss</option>
+			<option value="ll">ll</option>
+			<option value="l">l</option>
+			<option value="rr">rr</option>
+			<option value="r">r</option>
+		</select>
+		<br/>
+		<input type="radio" name="allitMgmtSel" id="allitMgmtL"/>
+		<select id="allitMgmtLSel">
+			<option value="pp">pp</option>
+			<option value="tt">tt</option>
+			<option value="kk">kk</option>
+			<option value="bb">bb</option>
+			<option value="dd">dd</option>
+			<option value="gg">gg</option>
+		</select>
+		<select id="allitMgmtLRSel">
+			<option value="Ø">Ø</option>
+			<option value="ll">ll</option>
+			<option value="l">l</option>
+			<option value="rr">rr</option>
+			<option value="r">r</option>
+		</select>
+		<br/>
+		<input type="radio" name="allitMgmtSel" id="allitMgmtF"/>
+		<select id="allitMgmtFSel">
+			<option value="th">th</option>
+			<option value="f">f</option>
+			<option value="s">s</option>
+			<option value="x">x</option>
+			<option value="ss">ss</option>
+		</select>
+		<select id="allitMgmtFRSel">
+			<option value="Ø">Ø</option>
+			<option value="ll">ll</option>
+			<option value="l">l</option>
+			<option value="rr">rr</option>
+			<option value="r">r</option>
+		</select>
+		<br/>
+		<input type="radio" name="allitMgmtSel" id="allitMgmtA"/>
+		<select id="allitMgmtASel">
+			<option value="y">y</option>
+			<option value="w">w</option>
+		</select>
+		<select id="allitMgmtARSel">
+			<option value="Ø">Ø</option>
+			<option value="rr">rr</option>
+			<option value="r">r</option>
+		</select>
+	</td>
+	<td>
+		<input type="radio" name="nucleusMgmt" value="V" id="nucleusMgmtV" checked="checked"/>
+		<select id="rhymeMgmtVSel">
+			<option value="a">a</option>
+			<option value="e">e</option>
+			<option value="i">i</option>
+			<option value="o">o</option>
+			<option value="u">u</option>
+			<option value="ae">ae</option>
+			<option value="ee">ee</option>
+			<option value="ij">ij</option>
+			<option value="ou">ou</option>
+			<option value="vu">vu</option>
+		</select><br/>
+		<input type="radio" name="nucleusMgmt" value="yV" id="nucleusMgmtyV"/>
+		<select id="rhymeMgmtyVSel">
+			<option value="a">ya</option>
+			<option value="e">ye</option>
+			<option value="i">yi</option>
+			<option value="o">yo</option>
+			<option value="u">yu</option>
+			<option value="ae">yae</option>
+			<option value="ee">yee</option>
+			<option value="ij">yij</option>
+			<option value="ou">you</option>
+			<option value="vu">yvu</option>
+		</select><br/>
+		<input type="radio" name="nucleusMgmt" value="Vw" id="nucleusMgmtVw"/>
+		<select id="rhymeMgmtVwSel">
+			<option value="a">aw</option>
+			<option value="e">ew</option>
+			<option value="i">iw</option>
+			<option value="o">ow</option>
+			<option value="u">uw</option>
+			<option value="ae">aew</option>
+			<option value="ee">eew</option>
+			<option value="ij">ijw</option>
+			<option value="ou">ouw</option>
+			<option value="vu">vuw</option>
+		</select><br/>
+	</td>
+	<td>
+		<input type="radio" name="rhymeMgmtCoda" value="null" id="zeroCodaMgmt" checked="checked"/>
+		<label for="yRhymeMgmtGlide">Ø (nothing)</label><br/>
+		<input type="radio" name="rhymeMgmtCoda" id="codaMgmtP"/>
+		<select id="codaMgmtPSel">
+			<option value="p">p</option>
+			<option value="t">t</option>
+			<option value="k">k</option>
+			<option value="b">b</option>
+			<option value="d">d</option>
+			<option value="g">g</option>
+			<option value="m">m</option>
+			<option value="n">n</option>
+		</select>
+		<select id="codaMgmtPFSel">
+			<option value="Ø">Ø</option>
+			<option value="th">th</option>
+			<option value="f">f</option>
+			<option value="s">s</option>
+			<option value="x">x</option>
+			<option value="ss">ss</option>
+		</select><br/>
+		<input type="radio" name="rhymeMgmtCoda" id="codaMgmtLF"/>
+		<select id="codaMgmtLFSel">
+			<option value="pp">pp</option>
+			<option value="tt">tt</option>
+			<option value="kk">kk</option>
+			<option value="bb">bb</option>
+			<option value="dd">dd</option>
+			<option value="gg">gg</option>
+			<option value="th">th</option>
+			<option value="f">f</option>
+			<option value="s">s</option>
+			<option value="x">x</option>
+			<option value="ss">ss</option>
+		</select>
+	</td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend>Syllable Management</legend>
+<p>How many syllables do you want in the word?</p>
+<p>
+    <input type="radio" name="syllMgmt" value="no" id="noSyllMgmt" checked="checked"/>
+    <label for="noSyllMgmt">Any number</label>
+</p>
+<p>
+    <input type="radio" name="syllMgmt" value="exact" id="exactSyllMgmt"/>
+	<label for="exactSyllMgmt">Exactly: </label>
+	<select id="syllCount">
+		<option value="1">1 syllable</option>
+		<option value="2">2 syllables</option>
+		<option value="3">3 syllables</option>
+		<option value="4">4 syllables</option>
+		<option value="5">5 syllables</option>
+		<option value="6">6 syllables</option>
+		<option value="7">7 syllables</option>
+		<option value="8">8 syllables</option>		
+		<option value="9">9 syllables</option>		
+		<option value="10">10 syllables</option>
+	</select>
+</p>
+<p>
+    <input type="radio" name="syllMgmt" value="exact" id="rangeSyllMgmt"/>
+	<label for="rangeSyllMgmt">Between: </label>
+	<select id="rangeSyllCountMin">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+	</select>
+	and
+	<select id="rangeSyllCountMax">
+		<option value="2">2 syllables</option>
+		<option value="3">3 syllables</option>
+		<option value="4">4 syllables</option>
+		<option value="5">5 syllables</option>
+		<option value="6">6 syllables</option>
+		<option value="7">7 syllables</option>
+		<option value="8">8 syllables</option>		
+		<option value="9">9 syllables</option>
+		<option value="10">10 syllables</option>
+	</select>
+</p>
+</fieldset>
+<fieldset>
+<legend>History Settings</legend>
+<p>Note: changed settings will not retroactively assert themselves on already-logged entries.</p>
+<p>Log the following items:</p>
+<p>
+	<input type="checkbox" id="recordPron"/> <label for="recordPron">Pronunciation</label>
+	<input type="checkbox" id="recordRhymes"/> <label for="recordRhymes">Rhymes</label>
+	<input type="checkbox" id="recordLtrCount"> <label for="recordLtrCount">Word Length</label>
+	<input type="checkbox" id="recordMoraCount"> <label for="recordMoraCount">Mora Count</label>
+	<input type="checkbox" id="recordSyllCount"> <label for="recordSyllCount">Syllable Count</label>
+</p>
+<p>Separate each record with:</p>
+<p>
+	<input type="radio" name="recordDelim" id="rcdDlmNwlne" value="\r\n" checked="checked"/>
+	<label for="rcdDlmNwlne">A newline</label> 
+	<input type="radio" name="recordDelim" id="rcdDlmComma" value=","/>
+	<label for="rcdDlmComma">A comma</label>
+	<input type="radio" name="recordDelim" id="rcdDlmSmcln" value=";"/>
+	<label for="rcdDlmSmcln">A semicolon</label>
+	<input type="radio" name="recordDelim" id="rcdDlmXtabX" value="\t"/>
+	<label for="rcdDlmXtabX">A tab</label>
+	<input type="radio" name="recordDelim" id="rcdDlmRnblt" value="\r\n* "/>
+	<label for="rcdDlmRnblt">A list item</label>
+	<input type="radio" name="recordDelim" id="rcdDlmCstum" value="!"/>
+	<label for="rcdDlmCstum">Custom:</label> <input type="text" id="rcdDlmCstIn"/>
+</p>
+</fieldset>
+<p>
+	<button onclick="alterniaNames.make.redraw();">Respell this word with the new settings</button>
+</p>
+</form>
+</div>
+<div id="spoiler2" class="spoileropen">
+<h2>Working</h2>
+<table id="working">
+	<thead>
+		<tr>
+			<th rowspan="3">Syllable <br/> #</th>
+			<th colspan="10">Onset</th>
+			<th colspan="3">Nucleus</th>
+			<th colspan="5">Coda</th>
+			<th rowspan="3" id="lastColumn">Result</th>
+		</tr>
+		<tr>
+			<th rowspan="2">Ø</th>
+			<th colspan="3">P</th>
+			<th colspan="2">L</th>
+			<th colspan="2">F</th>
+			<th colspan="2">A</th>
+			<th>i</th>
+			<th colspan="2">V</th>
+			<th rowspan="2">Ø</th>
+			<th colspan="2">P\h</th>
+			<th rowspan="2">L</th>
+			<th rowspan="2">F</th>
+		</tr>
+		<tr>
+			<th>Ø</th><th>F</th><th>R</th>
+			<th>Ø</th><th>R</th>
+			<th>Ø</th><th>R</th>
+			<th>Ø</th><th>R\C</th>
+			
+			<th>V</th><th>Ø</th><th>w</th>
+			
+			<th>Ø</th><th>F</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Full</th>
+			<td>30%</td>
+			<td>15%</td><td>2.5%</td><td>2.5%</td>
+			<td>9%</td><td>6%</td>
+			<td>9%</td><td>6%</td>
+			<td>10%</td><td>10%</td>
+			
+			<td rowspan="3">20%</td><td rowspan="3">60%</td><td rowspan="3">20%</td>
+			
+			<td rowspan="3">50%</td>
+			<td rowspan="3">20%</td><td rowspan="3">20%</td>
+			<td rowspan="3">10%</td><td rowspan="3">10%</td>
+			
+			<th rowspan="3">100%</th>
+		</tr>
+		<tr>
+			<th>Limited</th>
+			<td>30%</td>
+			<td>20%</td><td>0%</td><td>0%</td>
+			<td>15%</td><td>0%</td>
+			<td>15%</td><td>0%</td>
+			<td>20%</td><td>0%</td>
+		</tr>
+		<tr>
+			<th>None</th>
+			<td>100%</td>
+			<td>0%</td><td>0%</td><td>0%</td>
+			<td>0%</td><td>0%</td>
+			<td>0%</td><td>0%</td>
+			<td>0%</td><td>0%</td>
+		</tr>
+	</tfoot>
+	<tbody id="workingmain">
+		<tr>
+			<th>0</th>
+			<td colspan="20">Press the button to continue!</td>
+		</tr>
+	</tbody>
+</table>
+<table id="rhymer">
+	<caption>
+		The Ideal Syllable
+		<button onclick="alterniaNames.make.populateSettings();">Get Settings</button>
+	</caption>
+	<thead><tr>
+		<th>Location</th>
+		<th colspan="2">Onset</th>
+		<th colspan="3">Nucleus</th>
+		<th colspan="2">Coda</th>
+	</tr></thead>
+	<tbody>
+		<tr>
+			<th>Phoneme</th>
+			<td id="slotOnset1"></td>
+			<td id="slotOnset2"></td>
+			<td id="slotNclusY"></td>
+			<td id="slotNclusV"></td>
+			<td id="slotNclusW"></td>
+			<td id="slotCodae1"></td>
+			<td id="slotCodae2"></td>
+		</tr>
+		<tr>
+			<th>Scope</th>
+			<td colspan="2" id="scopeIndicOnset"></td>
+			<td colspan="3" id="scopeIndicNclus"></td>
+			<td colspan="2" id="scopeIndicCodae"></td>
+		</tr>
+	</tbody>
+</table>
+<p>The following is inserted to avoid a single-vowel word: <span id="inserted"></span></p>
+<p>The seed for this word is: <span id="seed"></span></p>
+</div>
+<div id="spoiler3" class="spoileropen">
+<h2>History</h2>
+<textarea id="history">
+</textarea>
+<button onclick="alterniaNames.misc.selectHistory();">Select</button>
+<button onclick="alterniaNames.misc.clearHistory();">Clear</button>
+</div>
+<h1>The Maths</h1>
+<p>
+	Alternia's names are partially created on the concept of a random syllable. Each random
+	Alternian word is built on the following ideas:
+</p>
+<ul>
+	<li>
+		Each word is made up of one or more syllables.
+		<ul>
+			<li>Every word has at least one syllable.</li>
+			<li>
+				If a syllable is the <var>n</var><sup>th</sup> in a word, the probability that 
+				another syllable follows it is 0.64<sup><var>n</var></sup>.
+			</li>
+			<li>
+				In general, the probability that a given word has <var>n</var> syllables is given
+				by the formula P(<var>n</var> syllables)
+				= 0.8<sup><var>n</var>(<var>n</var>−1)</sup>(1 − 0.64<sup><var>n</var></sup>)
+				= 0.8<sup><var>n</var>² − <var>n</var></sup> − 0.8<sup><var>n</var>² + <var>n</var></sup>.
+			</li>
+		</ul>
+	</li>
+	<li>
+		Each syllable is made up of at most one of each onset, nucleus and coda.
+		Only the nucleus is mandatory in a syllable.
+	</li>
+	<li>
+		The rules for creating an onset is as follows:
+		<ul>
+			<li>
+				If Simple Consonant Clusters are desired and there are two consonants in the coda
+				of the preceding syllable, then instead of generating a new onset, the onset
+				shall be "stolen" from said preceding syllable's second coda. 
+			</li>
+			<li>
+				Otherwise, the following procedure is applied:
+				<ul>
+					<li>There is a 30% chance that the onset may be empty.</li>
+					<li>
+						There is a 20% chance that the onset may consist of a single member of a 
+						P-type consonant. This may be followed by:
+						<ul>
+							<li>Nothing, which has a probability of 75%;</li>
+							<li>An F-type consonant, which has a probability of 12.5%; or</li>
+							<li>An R-type consonant, which has a probability of 12.5%.</li>
+							<li>
+								If Simple Consonant Clusters are desired and there is one consonant 
+								in the coda of the preceding syllable, then no phonemes will be
+								generated.
+							</li>
+						</ul>
+					</li>
+					<li>
+						There is a 15% chance that the onset may consist of a single member of an
+						L-type consonant. This may be followed by:
+						<ul>
+							<li>
+								Nothing, which has a probability of
+								<sup>2</sup>&#x2044;<sub>3</sub>; or
+							</li>
+							<li>
+								An R-type consonant, which has a probability of
+								<sup>1</sup>&#x2044;<sub>3</sub>.
+							</li>
+							<li>
+								If Simple Consonant Clusters are desired and there is one consonant
+								in the coda of the preceding syllable, then no phonemes will be
+								generated.
+							</li>
+						</ul>
+					</li>
+					<li>
+						There is a 15% chance that the onset may consist of a single member of an 
+						F-type consonant. This may be followed by:
+						<ul>
+							<li>
+								Nothing, which has a probability of
+								<sup>2</sup>&#x2044;<sub>3</sub>; or
+							</li>
+							<li>
+								An R-type consonant, which has a probability of
+								<sup>1</sup>&#x2044;<sub>3</sub>.
+							</li>
+							<li>
+								If Simple Consonant Clusters are desired and there is one consonant
+								in the coda of the preceding syllable, then no phonemes will be
+								generated.
+							</li>
+						</ul>
+					</li>
+					<li>
+						There is a 20% chance that the onset may consist of a single member of an 
+						A-type consonant. This may be followed by:
+						<ul>
+							<li>Nothing, which has a probability of 50%; or</li>
+							<li>
+								An R-type consonant that is not also a C-type consonant,
+								which has a probability of 50%.
+							</li>
+							<li>
+								If Simple Consonant Clusters are desired and there is one consonant 
+								in the coda of the preceding syllable, then no phonemes will be
+								generated.
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		The rules for creating a nucleus is as follows:
+		<ul>
+			<li>There will always be a V-type vowel.</li>
+			<li>There is a 20% chance of exactly one &lt;i&gt; preceding said vowel.</li>
+			<li>There is a 20% chance of exactly one &lt;w&gt; succeding said vowel.</li>
+			<li>
+				&lt;yi&gt;, &lt;yii&gt;, &lt;uw&gt;, &lt;uuw&gt;, and any sequence of 
+				&lt;yVw&gt; where V is the aforementioned V-type vowel are not valid nuclei.
+			</li>
+		</ul>
+	</li>
+	<li>
+		The rules for creating a coda is as follows:
+		<ul>
+			<li>There is a 50% chance that the coda may be empty.</li>
+			<li>
+				There is a 30% chance that the coda may be a single P-type consonant that is not
+				&lt;h&gt;.
+				This may be followed by:
+				<ul>
+					<li>
+						Nothing, which has a probability of <sup>2</sup>&#x2044;<sub>3</sub>; or
+					</li>
+					<li>
+						An F-type consonant, which has a probability of
+						<sup>1</sup>&#x2044;<sub>3</sub>.
+					</li>
+				</ul>
+			</li>
+			<li>There is a 10% chance that the coda may be a single L-type consonant.</li>
+			<li>There is a 10% chance that the coda may be a single F-type consonant.</li>
+		</ul>
+	</li>
+</ul>
+<dl>
+	<dt>V-type vowel</dt>
+	<dd>
+		Any one of &lt;a, e, i, o, u, ae, ee, ij, ou, vu&gt;. They are pronounced 
+		[ɑ, ɛ, i, ɔ, ʊ, ɑː, ɛː, iː, ɔː, ʊː] respectively.
+	</dd>
+	<dt>A-type consonant</dt>
+	<dd>Any one of &lt;y, w&gt;. They are pronounced [j, w] respectively.</dd> 
+	<dt>P-type consonant</dt>
+	<dd>
+		Any one of &lt;p, t, k, b, d, g, h, m, n&gt;.
+		They are pronounced [p, t, k, b, d, g, h, m, n] respectively.
+	</dd>
+	<dt>L-type consonant</dt>
+	<dd>
+		Any one of &lt;pp, tt, kk, bb, dd, gg&gt;.
+		They are pronounced [pʰ, tʰ, kʰ, bʷ, dʷ, gʷ] respectively.
+	</dd>
+	<dt>F-type consonant</dt>
+	<dd>Any one of &lt;th, f, s, x, ss&gt;. They are pronounced [θ, f, s, x, ʃ] respectively.</dd>
+	<dt>R-type consonant</dt>
+	<dd>Any one of &lt;rl, l, r, rr&gt;. They are pronounced [ɾ, l, ɹ, r] respectively.</dd>
+	<dt>C-type consonant</dt>
+	<dd>Any A-, P-, L-, F-, or R-type consonant that isn't &lt;r, rr&gt;.</dd>
+</dl>
+<h2>Spelling Changes</h2>
+<p>
+	Almost all letters in the Alternian alphabet have five forms. In every string, the choice
+	between the five forms are more-or-less deterministic. Below are the letters in the Alternian
+	alphabet, with their forms, named G, H, I, J, K, listed after them:
+</p>
+<table class="formtables">
+	<caption>Vs</caption>
+	<thead><tr><th>G</th><th>H</th><th>I</th><th>J</th><th>K</th></tr></thead>
+	<tbody>
+		<tr><td colspan="5">a</td></tr>
+		<tr><td colspan="5">e</td></tr>
+		<tr><td colspan="5">i</td></tr>
+		<tr><td colspan="5">o</td></tr>
+		<tr><td colspan="5">u</td></tr>
+		<tr><td colspan="5">ae</td></tr>
+		<tr><td colspan="5">ee</td></tr>
+		<tr><td colspan="5">ij</td></tr>
+		<tr><td colspan="5">ou</td></tr>
+		<tr><td colspan="5">vu</td></tr>
+	</tbody>
+</table>
+<table class="formtables">
+	<caption>Ps and As</caption>
+	<thead><tr><th>G</th><th>H</th><th>I</th><th>J</th><th>K</th></tr></thead>
+	<tbody>
+		<tr><td colspan="5">p</td></tr>
+		<tr><td colspan="5">t</td></tr>
+		<tr><td colspan="5">k</td></tr>
+		<tr><td colspan="5">b</td></tr>
+		<tr><td colspan="5">d</td></tr>
+		<tr><td colspan="5">g</td></tr>
+		<tr><td colspan="5">h</td></tr>
+		<tr><td colspan="5">m</td></tr>
+		<tr><td colspan="5">n</td></tr>
+		<tr><td colspan="5">y</td></tr>
+		<tr><td colspan="5">w</td></tr>
+	</tbody>
+</table>
+<table class="formtables">
+	<caption>Ls</caption>
+	<thead><tr><th>G</th><th>H</th><th>I</th><th>J</th><th>K</th></tr></thead>
+	<tbody>
+		<tr><td colspan="2">pp</td><td colspan="3">ph</td></tr>
+		<tr><td colspan="2">tt</td><td colspan="3">tj</td></tr>
+		<tr><td>kk</td><td>c</td><td colspan="3">kh</td></tr>
+		<tr><td colspan="2">bb</td><td colspan="2">bw</td><td>bu</td></tr>
+		<tr><td colspan="2">dd</td><td colspan="2">dw</td><td>du</td></tr>
+		<tr><td colspan="2">gg</td><td>gw</td><td>qu</td><td>gu</td></tr>
+	</tbody>
+</table>
+<table class="formtables">
+	<caption>Fs and Rs</caption>
+	<thead><tr><th>G</th><th>H</th><th>I</th><th>J</th><th>K</th></tr></thead>
+	<tbody>
+		<tr><td colspan="5">th</td></tr>
+		<tr><td colspan="5">f</td></tr>
+		<tr><td colspan="5">s</td></tr>
+		<tr><td>x</td><td colspan="4">ch</td></tr>
+		<tr><td colspan="2">ss</td><td>j</td><td>sc</td><td>(c)ch</td></tr>
+		<tr><td colspan="5">r</td></tr>
+		<tr><td>rr</td><td colspan="4">rh</td></tr>
+		<tr><td colspan="5">l</td></tr>
+		<tr><td colspan="2">ll</td><td>rl</td><td colspan="2">lj</th></tr>
+	</tbody>
+</table>
+<br class="push"/>
+<p>
+	The string is then changed so the aesthetics of each word looks slightly better. The changes
+	are all based on these rules. These rules are executed in the following order:
+</p>
+<ol start="0">
+	<li>Unless contradicted by the following rules, all letters use its G form.</li>
+	<li>Word-initially, L-type consonants use their J forms.</li>
+	<li>At the end of words, L- and F-type consonants use their H forms.</li>
+	<li>
+		If an F-type consonant finds itself succeeding exactly one other phoneme in a syllable,
+		it uses its I form.
+	</li>
+	<li>
+		If an L-, F-, or R-type leter finds itself in such a way that when taken with the 
+		letter <strong>after</strong> it the two form a pair of doubled characters, then the
+		<strong>former</strong> will change into its K form.
+	</li>
+	<li>
+		If a V-type character finds itself in such a way that when taken with the 
+		letter <strong>after</strong> it the two form a pair of doubled characters, then the one
+		<strong>latter</strong> will change into its K form. 
+	</li>
+	<li>&lt;ss&gt; is spelt &lt;j&gt; when preceded with &lt;d&gt;.</li>
+	<li>&lt;tss&gt; is spelt &lt;cch&gt;.</li>
+	<li>
+		&lt;hl&gt;, &lt;hr&gt;, &lt;hll&gt; and &lt;hrr&gt; are sometimes but not always spelt
+		&lt;l&gt;, &lt;r&gt;, &lt;ll&gt; and &lt;rr&gt; repsectively.
+	</li>
+	<li>
+		Any character that is repeated more than three times after these transformations are reduced
+		into repeating only twice.
+	</li>
+	<li>Some customary names use the I form for L-type consonants.</li>
+</ol>
+<p>To remember the names, notice that:</p>
+<ul>
+	<li>The G form is used when you're laying the <strong>g</strong>roundwork of the word;</li>
+	<li>The H form is used when you're <strong>h</strong>appy (done) with the word;</li>
+	<li>The I form is primarily used in <strong>i</strong>mportant people's names;</li>
+	<li>The J form is used to <strong>j</strong>ump-start the word; and</li>
+	<li>The K form stops doubled characters from <strong>k</strong>nocking on each other.</li>
+</ul>
+<footer>
+	<h1>Navigation</h1>
+	<nav class="linkset">
+		<div id="this">
+			<div id="sec"><strong>L</strong> Section</div>
+			<div id="chapB">(000)</div>
+			<div id="chapA">Part <strong>1</strong></div>
+		</div>
+	</nav>
+</footer>
+</body>
+</html>

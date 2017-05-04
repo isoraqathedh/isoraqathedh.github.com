@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Crash Course Alternian Language · A Beginner's Guide to Alternia</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="../global/Default.css" media="all"/>
+<link rel="stylesheet" href="Styles/Alternia.css" media="all"/>
+<link rel="stylesheet" href="Styles/AlterniaLang.css" media="all"/>
+<link rel="shortcut icon" href="../global/Fav.png" />
+<script src="../global/general.js"></script>
+</head>
+<body>
+<h1 id="Title">
+	Crash Course Alternian Language <br/>
+	Part 2: Lexical Creation and Grammar
+</h1>
+<nav id="toc">
+	Navigation
+	<ul class="linkset">
+		<li><a href="AlterniaLanguage.html">Introduction, Phonology and Orthography</a></li>
+		<li><a href="AlterniaLanguage_Grammar.html">Grammar</a></li>
+		<li><a href="AlterniaLanguage_Vocabulary.html">Vocabulary</a></li>
+		<li><a href="AlterniaLanguage_appendix.html">Appendix</a></li>
+	</ul>
+</nav>
+
+<h1>Basic Word Order</h1>
+<p>Word order is dependent on the gender of the object, if present.</p>
+
+<p>If the verb has valence 1:</p>
+
+<ul>
+	<li>Object markers are not used; verb markers are.</li>
+	<li>Every such verb is either object-biased or subject-biased.
+   		<ul>
+      		<li> If it is object-biased, then <ul>
+      			<li>If the gender of the word is ANIMATE FEMININE or INANIMATE MASCULINE, the order is VO</li>
+      			<li> Else, it is OV</li>
+      		</ul></li>
+      		<li>Otherwise, it is a subject-biased verb, and<ul>
+      			<li>If it is ANIMATE FEMININE or INANIMATE masculine, the order is SV</li>
+      			<li>Else, it is VS</li>
+			</ul></li>
+			<li>Gender otherwise has no impact on the general inflectional morphology of a word.</li>
+		</ul>
+	</li>
+</ul>
+<p>
+	Below are examples of various verbs with different biases and valences.
+	Notice how lot of words that are valence-3 and valence-0 verbs in English
+	become valence-1 object-biased words.
+</p>
+<table class="wordtable">
+	<caption>Selection of verbs with various biases</caption>
+	<thead>
+		<tr>
+			<th rowspan="2">Alternian</th>
+			<th rowspan="2">English</th>
+			<th colspan="2">Bias</th>
+			<th colspan="4">Gender</th>
+		</tr>
+		<tr>
+			<th><abbr title="Subject">S</abbr></th>
+			<th><abbr title="Object">O</abbr></th>
+			<th><abbr title="Masculine">M</abbr></th>
+			<th><abbr title="Feminine">F</abbr></th>
+			<th><abbr title="Animate">A</abbr></th>
+			<th><abbr title="Inanimate">I</abbr></th>
+		</tr>
+	</thead> 
+	<tbody>
+		<tr>
+    		<td>vu khogso</td><td>give</td>
+    		<td></td><td>&bull;</td>
+    		<td>&bull;</td><td></td><td>&bull;</td><td></td>
+		</tr>
+		<tr>
+    		<td>vu ikf</td><td>take</td>
+    		<td></td><td>&bull;</td>
+    		<td>&bull;</td><td></td><td>&bull;</td><td></td>
+		</tr>
+		<tr>
+    		<td>vu diopth-ivu</td><td>become</td>
+    		<td></td><td>&bull;</td>
+    		<td></td><td>&bull;</td><td></td><td>&bull;</td>
+		</tr>
+		<tr>
+    		<td>vu fiougss</td><td>provide</td>
+    		<td></td><td>&bull;</td>
+    		<td></td><td>&bull;</td><td></td><td>&bull;</td>
+		</tr>
+		<tr>
+    		<td>vu yiwd</td><td>rain</td>
+    		<td></td><td>&bull;</td>
+    		<td></td><td>&bull;</td><td></td><td>&bull;</td>
+		</tr>
+		<tr>
+    		<td>vu pimss</td><td>sun</td>
+    		<td></td><td>&bull;</td>
+    		<td>&bull;</td><td></td><td></td><td>&bull;</td>
+		</tr>
+		<tr>
+    		<td>vu wriae</td><td>pay</td>
+    		<td></td><td>&bull;</td>
+    		<td>&bull;</td><td></td><td>&bull;</td><td></td>
+		</tr>
+		<tr>
+    		<td>vu iaekk-yiwd</td><td>snow</td>
+    		<td></td><td>&bull;</td>
+    		<td></td><td>&bull;</td><td></td><td>&bull;</td>
+		</tr>
+		<tr>
+    		<td>vu quadkijwups</td><td>describe</td>
+    		<td></td><td>&bull;</td>
+    		<td></td><td>&bull;</td><td>&bull;</td><td></td>
+		</tr>
+		
+		<tr>
+    		<td>vu thowm</td><td>jump</td>
+    		<td>&bull;</td><td></td>
+    		<td>&bull;</td><td></td><td>&bull;</td><td></td>
+		</tr>
+		<tr>
+    		<td>vu wrroum</td><td>walk</td>
+    		<td>&bull;</td><td></td>
+    		<td>&bull;</td><td></td><td>&bull;</td><td></td>
+		</tr>
+		<tr>
+    		<td>vu tjiae-ieg</td><td>slide</td>
+    		<td>&bull;</td><td></td>
+    		<td></td><td>&bull;</td><td></td><td>&bull;</td>
+		</tr>
+		<tr>
+    		<td>vu phethae</td><td>morph</td>
+    		<td>&bull;</td><td></td>
+    		<td>&bull;</td><td></td><td></td><td>&bull;</td>
+		</tr>
+		<tr>
+    		<td>vu ssenppouggowrriyrip</td><td>reform</td>
+    		<td>&bull;</td><td></td>
+    		<td></td><td>&bull;</td><td>&bull;</td><td></td>
+		</tr>
+		<tr>
+    		<td>vu yrroubth</td><td>think</td>
+    		<td>&bull;</td><td></td>
+    		<td></td><td>&bull;</td><td>&bull;</td><td></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Valence-2 words are OSV, except when:</p>
+
+<ul>
+   	<li>Both object and subject are inanimate,</li>
+   	<li>It is followed by an interconnected valence-1 sentence, or</li>
+   	<li>
+   		It is a verb where the object and the subject are interchangeable,
+   		as in the case of "choose".
+	</li>
+</ul>
+
+<p>
+	Those words use OVS, 
+	or NVN in the case of "choose", 
+	because the ordering of the choice does not matter.
+</p>
+
+<h2>Eamples</h2>
+<h3>Valence 1 verbs</h3>
+<table class="samplesentence">
+	<caption>Sentence 1.1.1a</caption>
+	<tr>
+		<th>Alternian</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Gloss</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>English</th>
+		<td>Kyle gives the whole of the Elven Kingdom to the Empress.</td>
+	</tr>
+</table>
+<table class="samplesentence">
+	<caption>Sentence 1.1.1b</caption>
+	<tr>
+		<th>Alternian</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Gloss</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>English</th>
+		<td>It rains in the town.</td>
+	</tr>
+</table>
+<h3>Valence 2 verbs:</h3>
+<table class="samplesentence">
+	<caption>Sentence 1.1.2a</caption>
+	<tr>
+		<th>Alternian</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Gloss</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>English</th>
+		<td>You watch the subordinates.</td>
+	</tr>
+</table>
+<table class="samplesentence">
+	<caption>Sentence 1.1.2b</caption>
+	<tr>
+		<th>Alternian</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Gloss</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>English</th>
+		<td>A moon orbits a planet.</td>
+	</tr>
+</table>
+<h1>Gender</h1>
+<p>
+	In Alternian, all verbs have gender, but only a handful of nouns do,
+	and verbs have a different gender system than adjectives and adverbs.
+	Verbs can be:
+		Inanimate Feminine,
+		Animate Masculine,
+		Inanimate Masculine, and 
+		Animate Feminine;
+	while adjectives and adverbs can be:
+		Inanimate Unnatural,
+		Animate Natural,
+		Inanimate Natural, and
+		Animate Unnatural.
+	
+</p>
+
+<p>
+	In any case, what is masculine and what is feminine is completely arbitrary –
+	there are no real criteria for either one
+	and they could just as appropriately named "Blop" and "Flibbertygibbet" –
+	but the other two sub-genders have fairly rigourous definitions.
+</p>
+
+<p>
+	A verb is <strong>animate</strong>
+	if it is commonly done by living things 
+	or can only can be done by living things. 
+	Verbs like "think", "taste", "react", "steal" and "cough" are animate. 
+	Otherwise, they are <strong>inanimate</strong>. 
+	Examples of this type include "bounce", "form", "fall", "detach" and "attach".
+	Notice that actions done by cadavers are considered animate,
+	such as "decompose", "rot", and "be scavenged".
+</p>
+<p>
+   <strong>Unnatural</strong> adjectives are adjectives
+   that describe things not commonly found in the natural world.
+   For instance, "pink" is an unnatural adjective,
+   because pink items are not commonly found in nature
+   (pink leaves do exist but are limited to the hottest parts of Alternia).
+   Other unnatural adjectives include 
+   "square", "black", "patterned/checkerboard/gidded" and "artificial" (well, duh).
+   <strong>Natural</strong> adjectives include "orange", "mottled", "rough", "flowy" and "flexible".
+</p>
+
+<p>As noted earlier, nouns are genderless, but there are exceptions, such as:</p>
+
+<ul>
+	<li>
+		<strong>Animals</strong>, especially those that are domesticated or tamed.
+		Oddly enough, the gender-specific versions of the animal names 
+		may not even match with the genders of the animal in question. 
+		Mares are female, yet "mare" is masculine!
+	</li>
+    <li>
+   		Several toponyms near the poles also have a gender
+   		due to the underlying language.
+   		It's most pronounced in Ea,
+   		though they crop up in other places sporadically.
+	</li>
+    <li>
+    	Sets of tools also get genders,
+    	for example the pick/axe/shovel set,
+    	the spoon/fork/knife/skewer/ladle/chopper set,
+    	and the pen/pencil/rubber/ruler/compasses set.
+    	Again, the internal divisions can be very arbitrary.
+	</li>
+	<li>Emphatically <em>not</em> names, Troll or otherwise.</li>
+</ul>
+ 
+<p>In ordinary discourse, no genders are marked for anything, but in higher level discourse, they manifest as euphonic changes in the last vowel.</li>
+
+<h1>Word Construction</h1>
+
+<p>
+	Several grammatical forms are seen in Lower speechthat are not seen in upper speech.
+	Most notably, where Lower speech uses these structures in order to describe new concepts,
+	Upper speech depends on new root words in order to label those exact same subjects.
+	These forms can be described by the following EBNF:
+</p>
+
+<pre>
+<i>Form</i>        = <i>base object</i>, that, <i>any clause</i>, [but not, <i>any clause</i>] 
+            | <i>clause</i>, (" " | "" | "-"), <i>base object</i>;
+<i>Any clause</i>  = <i>clause</i> | <i>and clauses</i> | <i>or clauses</i>;
+<i>Or clauses</i>  = or is also, <i>clause</i>, <i>clause</i>, {<i>clause</i>}, end of or;
+<i>And clauses</i> = and can also, <i>clause</i>, <i>clause</i>, {<i>clause</i>}, end of and;
+<i>Clause</i>      = (specializes on | possesses | looks like), [<i>part</i>, part of], <i>metaphor object</i>;
+</pre>
+
+<p>
+	In this case,
+	words in italics represent non-terminals
+	and ordinary type represent direct glosses of Alternian words or parts of words,
+	which are translated below.
+	Notice that though in theory or- and and-clauses can support any number of clauses,
+	in practice no more than 4 and usually only two are used.
+	In translating these terms,
+	comparatively simpler terms can use more idiomatic ways of translating to the target language,
+	e.g. "hoof-beast" (horse/equinoid) instead of "beast that possesses hoof".
+</p>
+
+<dl class="vocablist">
+	<dt>dib</dt><dd>that</dd>
+	<dt>thiee</dt><dd>but not</dd>
+	<dt>yog</dt><dd>or is also</dd>
+	<dt>-en</dt><dd>end of or</dd>
+	<dt>than</dt><dd>and can also</dd>
+	<dt>-enf</dt><dd>end of and</dd>
+	<dt>Bwrriagth-szllunf- / bwrria-</dt><dd>specializes on</dd>
+	<dt>Attadneu- / tjad-</dt><dd>possesses</dd>
+	<dt>Gsiaemf- / gsiae-</dt><dd>looks like</dd>
+	<dt>-nit-</dt><dd>part of</dd>
+</dl>
+
+<p>There is no real basis for selecting what object an be used for base of modification.</p>
+
+<p>
+	The <code>'clause, (" " | "" | "-"), base object'</code> form
+	is syntactic sugar for "base object, that, clause".
+</p>
+<!--Iyraepthiaeyrriuowtth-->
+<table>
+	<thead>
+		<tr>
+			<th>English</th>
+			<th>Upper Speech</th>
+			<th>Lower Speech</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Horse</td>
+			<td>Namwou</td>
+			<td class="largeGloss">
+				<div class="original">Tjawtiou dib tjadklle</div>
+				<div class="glossComponent">
+					<div class="origtext">Tjawtiou</div>
+					<div class="gloss">beast</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">dib</div>
+					<div class="gloss grammarkeyword">that</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">tjad-</div>
+					<div class="gloss grammarkeyword">possesses</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Klle</div>
+					<div class="gloss">hoof</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>Exclamation mark</td>
+			<td class="largeGloss">
+				<div class="original">Bwae-i Xrheewd</div>
+				<div class="glossComponent">
+					<div class="origtext">Bwae</div>
+					<div class="gloss">Loud, yell</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">-i</div>
+					<div class="gloss">type-of</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Xrheewd</div>
+					<div class="gloss">Reminder</div>
+				</div>
+			</td>
+			<td class="largeGloss">
+				<div class="original">Quleewm dib bwrriaslaew</div>
+				<div class="glossComponent">
+					<div class="origtext">Quleewm</div>
+					<div class="gloss">pole</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">dib</div>
+					<div class="gloss grammarkeyword">that</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">bwrria-</div>
+					<div class="gloss grammarkeyword">specializes on</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Slaew</div>
+					<div class="gloss">shout</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>Nuclear reactor</td>
+			<td class="largeGloss">
+				<div class="original">Nioudjpowkdwaedfopss Szrrouegth</div>
+				<div class="glossComponent">
+					<div class="origtext">Nioudj-</div>
+					<div class="grammarkeyword gloss">hon (elder)</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">powk-</div>
+					<div class="gloss grammarkeyword">hon (intellect)</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Dwaedf</div>
+					<div class="gloss">(name)</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">-opss</div>
+					<div class="gloss grammarkeyword">poss-rM-bH</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Szrroug-egth</div>
+					<div class="gloss">exploder</div>
+				</div>
+			</td>
+			<td class="largeGloss">
+				<div class="original">
+					Iobipfo dib than bwrriawrrawnityutfidxijm tjadfokkdvunitiaenenf
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Iobipfo</div>
+					<div class="gloss">machine</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">dib</div>
+					<div class="gloss grammarkeyword">that</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">than</div>
+					<div class="gloss grammarkeyword">and</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">bwrria-</div>
+					<div class="gloss grammarkeyword">specializes on</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Wrraw</div>
+					<div class="gloss">divisions</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">-nit-</div>
+					<div class="gloss grammarkeyword">part of</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Yutfidxijm</div>
+					<div class="gloss">atoms</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">tjad-</div>
+					<div class="gloss grammarkeyword">possesses</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Fokkdvu</div>
+					<div class="gloss">creator</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">-nit-</div>
+					<div class="gloss grammarkeyword">part of</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">Iaen</div>
+					<div class="gloss">electricity</div>
+				</div>
+				<div class="glossComponent">
+					<div class="origtext">-enf</div>
+					<div class="gloss grammarkeyword">end of and</div>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table>
+	<caption>Table of inflections – coda-lacking inflections</caption>
+	<thead><tr>
+		<th>Þ\Consensus</th>
+		<th>Great (A)</th><th>Meh (C)</th><th>Bleh (F)</th><th>Err…? (Q)</td>
+	</tr></thead>
+	<tbody>
+		<tr>
+			<th class="blood-m">−∞</th>
+			<td colspan="3">-Ø</td><td rowspan="4">-Ø</td>
+		</tr>
+		<tr><th class="blood-a">−2</th><td>-p</td><td colspan="2">-Ø</td></tr>
+		<tr><th class="blood-b">−1</th><td>-p</td><td>-p</td><td>-Ø</td></tr>
+		<tr><th class="blood-c">±0</th><td>-d</td><td>-p</td><td>-p</td></tr>
+		<tr><th class="blood-e">+1</th><td>-d</td><td>-d</td><td>-p</td><td rowspan="4">-f</td></tr>
+		<tr><th class="blood-f">+2</th><td>-pss</td><td>-d</td><td>-d</td></tr>
+		<tr><th class="blood-g">+3</th><td>-pss</td><td>-pss</td><td>-d</td></tr>
+		<tr><th class="blood-h">+4</th><td>-gg</td><td>-pss</td><td>-pss</td></tr>
+		<tr><th class="blood-i">+5</th><td>-gg</td><td>-gg</td><td>-pss</td><td rowspan="3">-mx</td></tr>
+		<tr><th class="blood-j">+6</th><td>bban</td><td>-gg</td><td>-gg</td></tr>
+		<tr><th class="blood-k">+7</th><td>bban</td><td>bban</td><td><em>Illegal</em></td></tr>
+		<tr>
+			<th class="blood-l">+8</th>
+			<td>ssyon</td><td colspan="2"><em>Illegal</em></td>
+			<td><em>Technically</em> -mx <br/><em>but you don't want to do this.</em></tr>
+	</tbody>
+</table>
+<footer>
+	<h1>Navigation</h1>
+	<nav class="linkset">
+		<div id="this">
+			<div id="sec"><strong>K</strong> Section</div>
+			<div id="chapB">(000)</div>
+			<div id="chapA">Part <strong>2</strong></div>
+		</div>
+		<a href="AlterniaLanguage.html" id="prev" rel="prev">Previous</a>
+		<a href="AlterniaLanguage3.html" id="next" rel="next">Next</a>
+	</nav>
+</footer>
+</body>
+</html>
+

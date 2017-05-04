@@ -1,0 +1,133 @@
+.phonemeChart th {
+	width:7em;
+	height:2em;
+	font-size:80%;
+}
+.phonemeChart td {
+	text-align:center;
+	word-spacing:0.8em;
+}
+.phonemeChart td table td {
+	width:1.5em;
+}
+.phonemeChart .nophoneme {
+	visibility:hidden;
+}
+.alternian > .common:before, .alternian > .decorated:before, .alternian > .pointed:before,
+.samplesentence .common:before, .samplesentence .decorated:before, .samplesentence .pointed:before {
+	color:grey;
+	margin-right:0.3em;
+	font-size:85%;
+}
+.samplesentence {
+	width:100%;
+}
+.samplesentence th:nth-child(1) {
+	width:15%;
+}
+.samplesentence .common:before, .samplesentence .decorated:before, .samplesentence .pointed:before {
+	float:left;
+}
+.samplesentence .decorated, .samplesentence .pointed {
+	opacity:0.5;
+}
+.alternian > *[class] + *[class]:before {
+	padding-left:0.4em;
+	margin-left:0.5em;
+	border-left:1px solid grey;
+}
+.alternian > .common:before, .samplesentence .common:before {
+	content:"C";
+}
+.alternian > .decorated:before, .samplesentence .decorated:before {
+	content:"D";
+}
+.alternian > .pointed:before, .samplesentence .pointed:before {
+	content:"P";
+}
+table.samplesentence {
+	margin:0;
+}
+table.samplesentence td {
+	padding:auto 0.1em;
+}
+.largeGloss .original {
+	display:block;
+}
+.largeGloss .glossComponent {
+	min-width:2em;
+	display:inline-block;
+	margin:0.5em 0;
+	border:1px solid #A68200;
+	border-radius:5px;
+}
+.largeGloss .glossComponent .origtext,
+.largeGloss .glossComponent .gloss {
+	text-align:center;
+	display:block;
+	font-size:80%;
+}
+.largeGloss .glossComponent .origtext {
+	background-color:#FFC800;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	font-weight:700;
+	padding:0.25em 0.25em 0;
+}
+.largeGloss .glossComponent .gloss {
+	background-color:#CCA000;
+	padding:0 0.25em 0.25em;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.grammarkeyword {
+	font-variant:small-caps;
+}
+dl.vocablist {
+	width:30em;
+	margin:1em auto;
+	padding:0.5em;
+	border-radius:4px;
+	font-family:sans-serif;
+	font-size:80%;
+}
+dl.vocablist dd {
+	margin-bottom:0.5em;
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-left:0;
+	padding-left:16em;
+	background-color:#FFD74B;
+	border-radius:5px 5px;
+}
+dl.vocablist dt {
+	padding-right:1.5em;
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-bottom:0.5em;
+	width:13em;
+	float:left;
+	text-align:right;
+	font-style:italic;
+	border-radius:5px 0 0 5px;
+}
+dl.vocablist.glosser dt {
+	width:28.5em;
+	text-align:left;
+	border-radius:5px 5px 0 0;
+}
+dl.vocablist.glosser dd {
+	margin-left:0;
+	padding-left:1em;
+	background-color:#FFD74B;
+	border-radius:5px 5px;
+}
+.largeGloss p {
+	font-family:inherit;
+	text-indent:0;
+}
+
+table.wordtable tbody td {
+	text-align:center;
+	min-width:2em;
+}
