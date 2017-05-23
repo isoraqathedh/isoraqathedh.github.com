@@ -1,0 +1,30 @@
+<NotepadPlus>
+    <Project name="ABGTA">
+        <Folder name="Content">
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\Galaxy.html" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\Planet.html" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\System.html" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\TourN_Bivu.html" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\TourN_Xrij.html" />
+        </Folder>
+        <Folder name="Supplements">
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\DyeMishap.html" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\whatisthisametroqm.html" />
+        </Folder>
+        <Folder name="Name Generator">
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\Scripts\namegen.js" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\Styles\namegen.css" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\namegen.html" />
+        </Folder>
+        <Folder name="Gazetteer">
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\Gazetteer.html" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\Gazetteer_AtoH.html" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\Gazetteer_ItoP.html" />
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\Gazetteer_QtoZ.html" />
+            <File name="Gazetteer.yml" />
+        </Folder>
+        <Folder name="Resources">
+            <File name="\\psf\Home\Documents\Web Page\Really new\Alternia\Styles\Alternia.css" />
+        </Folder>
+    </Project>
+</NotepadPlus>

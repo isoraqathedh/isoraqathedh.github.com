@@ -1,0 +1,121 @@
+#working, #rhymer {
+	border-collapse:collapse;
+	width:100%;
+}
+#slotOnset1, #slotOnset2, #slotNclusY, #slotNclusV, #slotNclusW, #slotCodae1, #slotCodae2 {
+	font-size:200%;
+	height:2em;
+	text-align:center;
+	width:12.5%;
+}
+#working thead th {
+	width:2.5em;
+	border:1px solid #CA3E22;
+}
+#working thead th#lastColumn {
+	min-width:5.5em;
+}
+td.selectedPhoneme {
+	background-color:#090;
+	color:white;
+}
+table>tbody>tr:nth-child(even)>td.selectedPhoneme {
+	background-color:rgb(0, 135, 0);
+}
+td.failedPhoneme {
+	background-color:#900;
+	color:white;
+}
+table>tbody>tr:nth-child(even)>td.failedPhoneme {
+	background-color:rgb(135, 0, 0);
+}
+#customhyphentext {
+	width:1em;
+}
+#interface * {
+	text-align:center;
+	text-indent:0;
+	margin:1em auto;
+	display:block;
+}
+#output, #pronounce, #syllableCountOut, #characterCountOut, #moraCountOut {
+	font-size:150%;
+	font-family:monospace;
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	border:3px outset #FFC800;
+	width:90%;
+	padding:0.5em;
+	height:1em;
+}
+#pronounce, #syllableCountOut, #characterCountOut, #moraCountOut {
+	background-color:#333;
+}
+#otherstats {
+	display:table;
+	width:95%;
+}
+#pronounce {
+	font-family:Arial;
+	font-size:100%;
+}
+#otherstats > div {display:table-row;}
+#otherstats > div > div {
+	display:table-cell;
+	width:33%;
+}
+#otherstats > div > div > div {
+	width:50%;
+	margin:0.5em auto;
+}
+#otherstats > div > div > div.quiteBig {
+	color:yellow;
+}
+#otherstats > div > div > div.overweight {
+	color:orange;
+}
+#otherstats > div > div > div.overweight:before, #otherstats > div > div > div.overweight:after {
+	content:"!";
+	font-size:66%;
+}
+#otherstats > div > div > div.morbidlyObese {
+	color:red;
+}
+#otherstats > div > div > div.morbidlyObese:before, #otherstats > div > div > div.morbidlyObese:after {
+	content:"!!";
+	font-size:66%;
+}
+#otherstats > div > div > p {
+	margin:0.5em auto;
+}
+#history {
+	height:30em;
+}
+#rhymeMgmtSelectorWrap {
+	display:table;
+	width:100%;
+	text-indent:0;
+}
+#rhymeMgmt td {
+	vertical-align:top;
+}
+#rhymeMgmt select {
+	min-width:5em;
+}
+.formtables {
+	float:left;
+	border-collapse:collapse;
+	width:23%;
+	margin-right:1em;
+}
+.formtables th {
+	min-width:2.5em;
+}
+.formtables td {
+	text-align:center;
+}
+.seedrows {color:#F00;}
+.seedselSyll {color:#080;}
+.seedphnV, .seedphnVForW, .seedphnVForY {color:#00F;}
+.seedphnP {color:#888;}

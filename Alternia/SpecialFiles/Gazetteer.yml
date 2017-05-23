@@ -1,0 +1,1899 @@
+--- # Always remember:: write "unnoteworthy" for items that do not need a description
+#A
+-   name: Aerroun
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: -93
+        latitude:  -1
+    etymology:
+        -   type: fannym
+            origin: Aerron Barret
+            linklist: 
+                -  "img/150/Aerroun.png"
+    description: >
+        Another small city situation between the {{Yrup, R.|River Yrup}} and another minor river
+        called the River Hrrok. It's just behind the {{Senaei Mangroves}}, and above it lies {{Afe}}
+        and {{Baerheetj}}. It houses around 30,000 people at last count.
+-   name: Aestin
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: -78
+        latitude:  -10
+    etymology:
+        -   type: fannym
+            origin: Aestin Ipsom
+            linklist:
+                -   "img/150/Aerroun.png"
+        -   type: terrnym        
+            origin: Austin
+    description: >
+        One transfer city sitting in a crossroads: one being the {{Lixitu, R.|River Lixitu}} on the 
+          north-south line, and Pasamana Road, linking {{Djase}} and {{Atumx}} and the lands beyond
+        via {{Akres}}. A homely town if fiercely right-wing and a little bit heavy on the nutty 
+        side.
+-   name: Aew-xrriad-nij Desert
+    biome: desert
+    coordinates:
+        longitude: -155
+        latitude:   -24
+    etymology:
+        -   type: rangennym
+            origin: F
+    description: >
+        A great desert, one of the driest known in
+        {{Quuag-dulle}}. While not as big as the 
+        {{Great Ecchiae Desert}}, the desert is far drier and has no major
+        rivers flowing down it. It encompasses much of
+        {{Hrheew-yrrvu}}.
+-   name: Afe
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: mountain
+    coordinates:
+        longitude: 92
+        latitude:  -2
+    etymology:
+        -   type: rangennym
+            origin: S
+    description: >
+        A short mountain 2355 metres tall. It's not tall like {{Yrup}} is to the east, but 
+        it is important in the shaping of {{Yrup, R.|The River Yrup's}} course.
+-   name: Akinaks Sea
+    biome: sea
+    coordinates:
+        longitude: 0
+        latitude:  0
+    etymology:
+        -   type: rangennym
+            origin: S
+    description: >
+        A large and shallow part of the larger {{Idjae Ocean}},
+        often averaging no more than 150 metres down. Prime coral reef territory! This sea 
+        also covers the coveted origin of the coordinate system to which every point on Alternia
+        finds reference to – and what else to put there than the Grand Palace of the Alternian
+        Empire?
+-   name: Akres
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: -75
+        latitude:  -11
+    etymology:
+        -   type: fannym
+            origin: Acerus Atumx
+            linklist:
+               -    "img/150/Aerroun.png"
+    description: > 
+        This city is where the {{Asiet, R.|Asiet}} and the {{Drageen, R.|Drageen}} meet. The
+        two rivers put togehter make it a confluence point, a psotive attribute for cities. 
+        Otherwise, it's really just another brick in the wall, with a little emphasis on the
+        so-called "education" (really, it's just "indoctrination").
+-   name: Alase
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: -78
+        latitude:  1
+    etymology:
+        -   type: fannym
+            origin: Sibyll Alacer
+            linklist:
+               -    "img/150/Alase.png"
+    description: >
+        Another coastal city! Oh boy! We never had enough of those! But seriously, this city is
+        a ltitle port city that's best known only for being closest to the Equator on this side
+        of the world. It's a transit city, best known for being the rest stop for people heading 
+        still further in to the {{Djete Bay}}. Alternatively, people get off to get to the land
+        of {{Phiabsia}} or take a very fast train route (now superceded) to
+        {{Kapma, N. and S.|Kapma}}
+-   name: Alssia
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: -74
+        latitude:  -7
+    etymology:
+        -   type: fannym
+            origin: Alscia Chiohi
+            linklist:
+               -    "img/155/Alssia.png"
+    description: >
+        A transitory city that allow passage through {{Dodden Pass}} to the 
+        {{Wrro Plateau}}.
+-   name: Antedd
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: mountain
+    coordinates:
+        longitude: -71
+        latitude:  -5
+    etymology:
+        -   type: fannym
+            origin: Antenn ??? ‡
+    description: >
+        One of the many ring mountains that surround the {{Wrro Plateau}}. This mountain is 
+        suprisingly very isolated fom the others. It's 2955 m tall.
+-   name: Ardaet
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: -89
+        latitude:  -5
+    etymology:
+        -   type: fannym
+            origin: Ardeat Acidum
+            linklist:
+                 -    "img/150/Aerroun.png"
+    description: >
+        This city is a major coast city of about 1 million. It has an affinity to 
+        fear- and fishmongering. It may also suffer from Overshadowed Child Syndrome because 
+        of the larger city {{Asiddum}} to the south.
+-   name: Asiet
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: river
+    coordinates:
+        longitude: -72
+        latitude:  -10
+    etymology:
+        -   type: fannym
+            origin: Dragun Vaziet
+            linklist: 
+               -    "img/150/Alase.png"
+    description: >
+        A river that eventually drains to the {{Drageen, R.|Drageen River}}, this small
+        tributary is a thing that has a couple of things going for it in terms of clarity.
+        For instance, it's suprisingly straight, with few meanders and fewer cities pumping toxic
+        waste into it. It just falls flat on the final stretch when it hits the Drageen because
+        {{Akres}} happened.
+-   name: Assiddum
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: -89
+        latitude:  -7
+    etymology:
+        -   type: fannym
+            origin: Ardeat Acidum
+            linklist:
+               -    "img/150/Aerroun.png"
+    description: >
+        This is one of two cities that guard the {{Dib-nipth-aebch Seamount}}, the ohter being 
+        {{Yiwgg (city)|Yiwgg City}}. It's a town that's known for being a bit aggressive in 
+        terms of trad and commerce and also its heavy levies on ships that pass through it. No
+        wonder Yiwgg is doing so much better!
+-   name: Atande, R.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: river
+    coordinates:
+        longitude: -78
+        latitude:  -3
+    etymology:
+        -   type: rangennym
+            origin: S
+    description: >
+        A river that supports {{Morana}} and {{Nsegou, L.|Lake Nsegou}}. It's a slow-moving 
+        river compared to most of the rest because of its low gradient.
+-   name: Atumx
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: -73
+        latitude:  -12
+    etymology:
+        -   type: fannym
+            origin: Acerus Altumb
+            linklist: 
+               -    "img/150/Aerroun.png"
+    description: >
+        Another smallish town, one on a road that strings the South Shore together.
+-   name: Awlele
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: mountain
+    coordinates:
+        longitude: -70
+        latitude:  -3
+    etymology:
+        -   type: fannym
+            origin: Ailere Tosim
+            linklist:
+               -    "img/151/Awlele.png"
+    description: >
+        A funny-sounding mountain that forms the northeastern corner of the {{Wrro Plateau}}. It
+        is 3695 m tall.
+#B
+-   name: Bakijivu
+    biome: land
+    coordinates:
+        longitude: 0
+        latitude:  45
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        The northwest portion of the continent of 
+        {{Ecchiae}}, Bakijivu is a big flat plain that has long
+        been viewed as the food heartland of Alternia.
+-   name: Baerheetj (city)
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: -93
+        latitude:  -3
+    etymology:
+        -   type: fannym
+            origin: Aarron Barret
+            linklist:
+               -    "img/150/Aerroun.png"
+    description: >
+        A city in the mountains, Baerheetj is a city that surprisingly leans left. The place is 
+        progressive in at least our terms, and since it's holed up in a place where people
+        don't normally go to this means that the attitude can survive if not exactly flourish.
+-   name: Baerheetj Pass
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: terrain
+    coordinates:
+        longitude: -93
+        latitude:  -3
+    etymology:
+        -   type: fannym
+            origin: Aarron Barret
+            linklist:
+               -    "img/150/Aerroun.png"
+    description: >
+        The pass that contains the city. Contains two roads that lead up to {{Afe}} and {{Idda}}.
+-   name: Baeta Gulf
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: sea
+    coordinates:
+        longitude: -90
+        latitude:  -10
+    etymology:
+        -   type: terrnym
+            origin: The Baltics
+    description: >
+        The large sea that's hemmed in by the {{Iekka Islands}} and various other things in the
+        north. Is the only connection the {{Yiwgg Sea}} has to the seas beyond.
+-   name: Bivu
+    biome: peninsula
+    coordinates:
+        longitude: -90
+        latitude:  0
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A giant peninsula curving off of {{Sewb}}! It first
+        heads southeast, then south, then it ends in a large volcanic arc, named the 
+        {{Ieakka islands}}.
+-   name: Bivusti Mountains
+    biome: mountains
+    coordinates:
+        longitude: -89
+        latitude:  -0
+    etymology:
+        -   type: fannym
+            origin: Magnos Bastil
+            linklist: 
+                -   "img/MaknosBivusti.png"
+        -   type: deriv
+            origin: Bivu
+            linklist: 
+    description: >
+        The Bivusti mountains are an ancient fold montain range that lives in Bivu.
+        The mountains are fairly weathered and usually are not very tall, and don't
+        support a major river system, but are taller and younger than the sister
+        {{Maknos mountains}} in 
+        {{Oae}}, further south, parellels the Bivusti
+        but are otherwise unrelated.
+-   name: Bodo
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: city
+    coordinates:
+        longitude: 87
+        latitude:  2
+    etymology:
+        -   type: rangennym
+            origin: S
+    description: >
+        A minor city that opens out to the {{Peeteggee Ocean}}, Bodo is a quiet little down
+        that somehow managed to accumulate 500,000 inhabitants. It's one side of the 
+        {{Ereti Bay}}.
+-   name: Bossni Forest
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: forest
+    coordinates:
+        longitude: -83
+        latitude:  2
+    etymology:
+        -   type: terrnym
+            origin: Gulf of Bothnia
+    description: >
+        A forest that continues the {{Enigo Mangroves}}, the Bossni is nowhere near the 
+        verdancy of said mangroves and is also much more open, but it's still quite a lively place.
+        It's however still passable with minimal preparations by humans, provided you can survive
+        the heat.
+-   name: Bthebb
+    biome: island
+    coordinates:
+        longitude: -87
+        latitude:  -18
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        The largest islands of the {{Iekka islands}}, Bthebb
+        is a large island with a great big volcano to boot. The volcano is active though,
+        and sometimes it can blow off its top – most recently in −15 PD.
+-   name: Bween, Mt.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: mountain
+    coordinates:
+        longitude: -93
+        latitude:  -5
+    etymology:
+        -   type: fannym
+            origin: Breven Cinaed
+            linklist:
+               -    "img/150/Bween.png"
+    description: >
+        This is a mountain 3335 metres tall, and it has extremely sharp cliffs around the sides,
+        to a much larger extent than other mountains.
+#C
+-   name: Caedes, C.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: cape
+    coordinates:
+        longitude: -98
+        latitude:  -4
+    etymology:
+        -   type: fannym
+            origin: Caedes Vaesan
+            linklist:
+              -     "img/152/CaedesVaesan.png"
+    description: >
+        A small cape.
+-   name: Cchiohi
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Cchissin
+    biome: island
+    coordinates:
+        longitude: -156
+        latitude:  62
+    etymology:
+        -   type: fannym
+            origin: Cizin Nakolep
+            linklist: 
+                -   "img/CchissinNakkohlep.png"
+                -   "http://mspaforums.com/showthread.php?51315"
+    description: >
+        A small island. It's hard to land here, due to virulent growths that plague all but 
+        sheltered coves and caves, so mainly it's just a navigational hazard. It is, however,
+        a biological haven, with an intense microecosystem utterly different to anything on 
+        Earth or Alternia.
+-   name: Chemaew
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Cutis
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#D
+-   name: Danak Plain
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Deiokup
+    biome: island
+    coordinates:
+        longitude: -81
+        latitude:  -21
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        An island of the {{Iekkas}}, and the third largest
+        by area. It generally acts as a liasion with the smaller islands to the south and east.
+        Beyond this point, the sea usaully keeps continually shallow but high in relief, 
+        causing large fishing grounds <em>and</em> coral reefs!
+-   name: Dessia
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Digae
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Djase
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Dit-hipth-aebch Seamount
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Djekth
+    biome: land
+    coordinates:
+        longitude: -90
+        latitude:  60
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        Djekth is an eternal Nordic wonderland! While there aren't as many mountains, the
+        forests here are fairly abundant, sometimes even mirroring the thick supergrowth islands
+        that the distant islands of {{Cchissin}} and 
+        {{Nakkohlep}} have.
+-   name: Djesima Steppe
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Djete Bay
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Djeyen Marshes
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Djoffa Ocean
+    biome: ocean
+    coordinates:
+        longitude: 120
+        latitude:  -15
+    etymology:
+        -   type: fannym
+            origin: Joviaa (Luppit)
+            linklist:
+                -   "img/Djoffa.png"
+        -   type: terrnym
+            origin: Jaffa cakes
+            linklist:
+            prenote: , possibly 
+    description: >
+        The smallest ocean in Alternia; it encompasses most of the water south of the equator
+        and between 80°E to 130°W. Unlike the other two oceans, there's no strong spreading 
+        ridge under the Djoffa.
+-   name: Dodden Pass
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Drageen, R.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Dwesdjae River
+    biome: river
+    coordinates:
+        longitude: 30
+        latitude:   0
+    etymology:
+        -   type: fannym
+            origin: Jesjae Oltaui
+            linklist: 
+                -   "http://trollslum.wikia.com/wiki/AltruisticGunslinger"
+    description: >
+        A river that starts off at the 
+        {{Central Preenche Plateau}} and goes down to
+        {{Otavuw bay}}.
+-   name: Dwie River
+    biome: river
+    coordinates:
+        longitude: 46
+        latitude:  30
+    etymology:
+        -   type: fannym
+            origin: Teddie Specer
+            linklist: 
+                -   "img/Dwie.png"
+    description: >
+        A long river that eventually drains into {{Xrij}}.
+        The whole river is a vital lifeline to the forests that surround Xrij, and is also
+        responsible for fertilizing the east of said forest. Other short rivers feed the east 
+        part.
+#E
+-   name: Ea
+    biome: continent
+    coordinates:
+        longitude: -30
+        latitude:  -28
+    etymology:
+        -   type: rangennym
+            origin: S
+            linklist: 
+    description: >
+        The northernmost continent in Alternia! It sure won't feel like it though – the warm
+        climate ensures taht this place will never leave you with an icy reception.
+        Cultural-wise, the whole continent is usually a factory-cum-Training Grounds place,
+        and also a gulag. There are plenty of pretty scenes to look at though!
+-   name: Ecchiae
+    biome: continent
+    coordinates:
+        longitude: 0
+        latitude:  30
+    etymology:
+        -   type: terrnym
+            origin: "Asia"
+            linklist: 
+    description: >
+        The largest continent in Alternia. A fat, squat continent, it's generally 
+        split – geographically and culturally – into
+        {{Oae}} and
+        {{Bakijivu}} on the North and West,
+        {{Ssiounsdu}} on the East, and
+        {{Khrrup}} on the South, along with the
+        {{Great Ecchiae Desert}} in the centre.
+-   name: Ecchiae, Great Desert
+    biome: desert
+    coordinates:
+        longitude: 0
+        latitude:  30
+    etymology:
+        -   type: terrnym
+            origin: "Asia"
+            linklist: 
+    description: >
+        An extensive desert that covers a large portion of central Ecchiyae. It's the result
+        of a rainshadow of the {{Imelle}} mountain range,
+        along with just plain old altitude and length of the field!
+-   name: Edda Forest
+    biome: forest
+    coordinates:
+        longitude: 90
+        latitude:  -60
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A large and pristine forest, watered by frontal rain and long summer days. The 
+        dampness of the place does sometimes mean that you can find supergrowth in this 
+        biome! They probably were blown over from nearby islands and found good living space
+        here.
+-   name: Eegsou Forest
+    biome: forest
+    coordinates:
+        longitude: -15
+        latitude:  -0
+    etymology:
+        -   type: rangennym
+            origin: S
+            linklist: 
+    description: >
+        Another large and dense redwood forest that spans most of the
+        {{Kvumsiu River}}. Due to the river also supplying more 
+        water, this place is very thick in forests and there is abundant wildlife here.
+-   name: Efegle Marshes
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Enigo Mangroves
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Ereti Bay
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Exerit
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#F
+-   name: Fadala, C.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Faesaen, C.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Festode, River
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#G
+-   name: Gfia
+    biome: island
+    coordinates:
+        longitude: -86
+        latitude:  -21
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        An island of the {{Iekkas}}, and the second
+        largest by area. It also hosts a whole city in and of itself, a vast network of ferries
+        keep it connected.
+-   name: Giae
+    biome: island
+    coordinates:
+        longitude: -86
+        latitude:  -21
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        An island of the {{Iekkas}}. It allows connection
+        between {{Bthebb}} and Gfia by means of a waystation.
+#H
+-   name: Hrheew-yrrvu
+    biome: land
+    coordinates:
+        longitude: -150
+        latitude:  0
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        This hard-to-pronounce place is fairly dry, because of the influence of the 
+        {{Weelas}} and
+        {{Nekhttae}} mountains to the west, in 
+        {{Queewkkae}}. Nevertheless, it's still a well-lived
+        place, and it's also the hub of many a space launchpad.
+-   name: Hscanthmou Is.
+    biome: island
+    coordinates:
+        longitude: -102
+        latitude:  -19
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        One island in the long and impressive chain of islands that surround the
+        {{Peetegge Spreading Ridge}}. Geologically
+        undifferentiated from nearby islands (they're all volcanoes in the tropics!) this island
+        in particular stands out because it is an important waystation for ferries and even some
+        short-range flyers to {{Quuag-dulle}}.
+-   name: Idjae Ocean
+    biome: ocean
+    coordinates:
+        longitude: 0
+        latitude:  -15
+    etymology:
+        -   type: terrnym
+            origin: Indian (Ocean)
+            linklist: 
+    description: >
+        This ocean is the middle child in everything – trade volume, size, depth, biomass. It
+        may even have the Middle Child Syndrome of oceans, if you will. It comprises
+        a majority of the water south of the Equator and 130°W to 80°E.
+#I
+-   name: Idda, Mt.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Iekka islands
+    biome: islandchain
+    coordinates:
+        longitude: -77
+        latitude:  -16
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A long string of volcanic islands, all inhabited and all well-known. They suck up a lot
+        of moisture from the incoming winds, leaving Xrij just a bit drier than it could have 
+        been.
+-   name: Ifitti, Mt.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Iggnes
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Imelle
+    biome: mountains
+    coordinates:
+        longitude: 60
+        latitude:  45
+    etymology:
+        -   type: terrnym
+            origin: "Himalaya"
+            linklist: 
+    description: >
+        A mountain range defining the western edge of
+        {{Ssiounsdu}}, this mountain range was created by a
+        long-since-shut-down subduction zone. The mountains are all quite tall, but have
+        been weathered somewhat by deep time.
+-   name: Ipsown
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#J
+-   name: Jombox
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Jedu Forest
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#K
+-   name: Karsti Plain
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Katrinhris
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Katt Mountains
+    biome: mountains
+    coordinates:
+        longitude: -20
+        latitude:  15
+    etymology:
+        -   type: rangennym
+            origin: S
+            linklist: 
+    description: >
+        A combo subduction-fold mountain range, the Katts (yes, you can call them "cats" if
+        you so desire!) are built relatively recently, but they're not as tall as the Himalayas
+        due to the deep angle that {{Sewb}} entered under.
+        They do appear to be a little bit further down the subduction zone than expected, 
+        meaning perhaps the magma has been forced to bypass heavier rock.
+-   name: Kapma, N. and S.
+    biome: city
+    coordinates:
+        longitude: -74
+        latitude:  7
+    etymology:
+        -   type: fannym
+            origin: "Crabman" (Nepetaquest)
+            linklist: 
+    description: >
+        A city that spreads its people across both sides of the
+        {{Saesson Gap}}, Kapma connects its halves by building
+        a bridge above the top. This bridge is almost 150 m above sea level below, and is 
+        generally inaccessible from the city: you have to go aorund and climb a big slope before
+        you can cross.
+-   name: Keregg
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Khalid
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Khrrup
+    biome: peninsula
+    coordinates:
+        longitude: 30
+        latitude:  15
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        Khrrup is a giant triple-headed peninsula housing two sounds, the Greater Khrrup Sound
+        and the Lesser Khrrup Sound. These large sounds makes this place a wonderful trading 
+        ground, and also a port to the distant 
+        {{Yiattew–Phriutch}}, on the far south.
+-   name: Kreggle
+    biome: island
+    coordinates:
+        longitude: -77
+        latitude:  -16
+    etymology:
+        -   type: terrnym
+            origin: Kergulen Islands
+            linklist: 
+    description: >
+        The very last island in the {{Ieakka islands}},
+        Kreggle is only superficially similar to its namesake. In contrast to Kergulen, it's 
+        actually a pleasant place to live, if a bit dry.
+-   name: Ksathi
+    biome: city
+    coordinates:
+        longitude: 21
+        latitude:  -11
+    etymology:
+        -   type: fannym
+            origin: Skathi (Rekham)
+            linklist:
+                -   "img/KsathiWugleth.png"
+    description: >
+        Anoter peninsula/city combo with wonderful redwood forest and marshes. Things in 
+        Ksathi are however more vibrant than their equivalents in 
+        {{Tsakkta}} and
+        {{Siggappo}} because there's less development in Skathi.
+        More pristine land!
+-   name: Kvumsiu River
+    biome: river
+    coordinates:
+        longitude: 11
+        latitude:  0
+    etymology:
+        -   type: rangennym
+            origin: S
+            linklist: 
+    description: >
+        A fairly long but straight river that comes from Mt. Kvumsiu and drains off to
+        {{Akinaks Bay}}. The river is lush on both banks, 
+        with thick rainforest growing on it.
+-   name: Kvumsiu, Mt.
+    biome: mountain
+    coordinates:
+        longitude: -27
+        latitude:  -10
+    etymology:
+        -   type: rangennym
+            origin: S
+            linklist: 
+    description: >
+        The tallest mountain on the East fencing in the
+        {{Wrro Plateau}}. It's not very tall though – about 
+        3000 m up – but it's enough to dry up the Plateau to become a dry land with much
+        less biomass than it could have had.
+#L
+-   name: Landus Bay
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Lixitu, R.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#M
+-   name: Maets Swamp
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Maknos Mountains
+    biome: mountains
+    coordinates:
+        longitude: -70
+        latitude:  -22
+    etymology:
+        -   type: fannym
+            origin: Magnos Bastil
+            linklist: 
+                -   "img/MaknosBivusti.png" 
+    description: >
+        The Maknos mountains are an ancient fold montain range that lives in
+        {{Oae}}. The mountains are fairly weathered and usually
+        are not very tall, and don't support a major river system. The sister
+        {{Bivusti mountains}} in 
+        {{Bivu}}, further south, parellels the Maknos
+        but are otherwise unrelated.
+-   name: Meyani (city)
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Meyani, Mt.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Morana
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#N
+-   name: Natle River
+    biome: river
+    coordinates:
+        longitude: 46
+        latitude:  30
+    etymology:
+        -   type: terrnym
+            origin: Nile River
+            linklist: 
+    description: >
+        The one great river saving the 
+        {{Great Ecchiae Desert}} from being completely barren,
+        the austere Natle runs west to east down a great majority of Ecchiae to drain to the 
+        {{Saesson Sea}}. Unlike the Nile however, it has
+        a downside: it collects nearly all the rivers heading north to drain 
+        {{Bakijivu}}, drying the land in the process.
+-   name: Nakkohlep
+    biome: island
+    coordinates:
+        longitude: -16
+        latitude:  -55
+    etymology:
+        -   type: fannym
+            origin: Cizin Nakolep
+            linklist: 
+                -   "img/CchissinNakkohlep.png"
+                -   "http://mspaforums.com/showthread.php?51315"
+    description: >
+        A deeply isolated island created by the {{Peetegge Spreading Ridge}}.
+        There's some supergrowth on this island, but it's kept in check by the lava that
+        sometimes spews out of the volcano. There's a weather station here, but very little 
+        else. It is however an indispensable navigational aid for Trolls and animals alike.
+-   name: Necchos, R.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Necchos Mangroves
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Nekhttae Mountains
+    biome: mountains
+    coordinates:
+        longitude: -156
+        latitude:  -15
+    etymology:
+        -   type: fannym
+            origin: Nektan Whelan
+            linklist: 
+                -   "http://trollslum.wikia.com/wiki/DebonairCorsair"
+    description: >
+        A currently-active volcanic chain not unlike the Cascades on Earth. They're very tall
+        and on the wrong side of the continent though  – winds blowing west to East in the 
+        Southern hemisphere, they make the entire continental interior of 
+        {{Queewkkae}} a bit dry!
+        That they are not in the horse latitudes alleviates this, but not by much.
+-   name: Nsegou, L.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#O
+-   name: Oae
+    biome: peninsula
+    coordinates:
+        longitude: -63
+        latitude:  17
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A peninsula of {{Ecchiae}}, this land surrounds the 
+        {{Saesson Sea}}, nearly touching
+        {{Sewb}} but not quite, the resulting gap being the
+        {{Saesson Gap}}.
+-   name: Oksim
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Otavuw Bay
+    biome: river
+    coordinates:
+        longitude: 30
+        latitude:  -3
+    etymology:
+        -   type: fannym
+            origin: Jesjae Oltaui
+            linklist: 
+                -   "http://trollslum.wikia.com/wiki/AltruisticGunslinger"
+    description: >
+        A long recurving bay, covered all the way by redwood forest and other similarly 
+        high-rooted trees, except where cities have taken root. In the sea are some of the
+        largest tropical reefs in Alternia.
+#P
+-   name: Peetegge Ocean
+    biome: ocean
+    coordinates:
+        longitude: 180
+        latitude:  30
+    etymology:
+        -   type: fannym
+            origin: "Nepetaquest"
+            linklist: 
+    description: >
+        The largest ocean on Alternia, encompassing all water north of the Equator.
+        It binds with the {{Idjae Ocean}} on the East side of 
+        {{Quuag-dulle}} and the
+        {{Djoffa Ocean}} on the West side of it.
+-   name: Peetegge Spreading Ridge
+    biome: feature
+    coordinates:
+        longitude: 120
+        latitude:  0
+    etymology:
+        -   type: fannym
+            origin: "Nepetaquest"
+            linklist: 
+    description: >
+        A long spreading ridge that starts at 
+        {{Yiattew–Phriutch}}, winds itself up its namesake the 
+        Peetegge Ocean, and then dives down to {{Djoffa Ocean}}
+        where it loops with itself again. It's the main driver of tectonic activity in Alternia,
+        and unlike similar spreading zones on Earth parts of it are highly visible.
+        It's a very young Mid-Atlantic ridge, or an old African rift!
+-   name: Pessa
+    biome: land
+    coordinates:
+        longitude: 10
+        latitude:  0
+    etymology:
+        -   type: terrnym
+            origin: Persia
+            linklist: 
+    description: >
+        The east part of Prencche, Pessa is known for having a mind of its own, both in terms
+        of political and biological. A thin dividing ridge, no more than 450 m in height,
+        divides the two.
+-   name: Phriutch
+    biome: land
+    coordinates:
+        longitude: 90
+        latitude:  -60
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        The larger of the two islands
+        {{Yiattew–Phriutch}}, Phriutch is a relative hinterland,
+        with relatively few modernization attempts and dominant wildlife. Near the centre of
+        the land, bizarre creatures unseen elsewhere start appearing.
+-   name: Piona, Mt.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Powro
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Prencche
+    biome: land
+    coordinates:
+        longitude: 30
+        latitude:  0
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A large land that leads off to 
+        {{Tsakkta}} and {{Ksathi}}, the large land
+        is full of wonderful vegetation like redwood forests in the coasts, rainforest
+        near the centre, and some open forests near the centre.
+-   name: Prencche, Central Plateau
+    biome: land
+    coordinates:
+        longitude: 14
+        latitude:  8
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A high, flat shield craton that peaks at about 1500 m, the central Prencche plateau
+        is quite low, but that does not matter as it can catch rain quite well. It allows
+        the proliferation of forests and redwood forests downriver.
+-   name: Psseggo Rainforest
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Psseggo River
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#Q
+-   name: Quax
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Queewkkae
+    biome: land
+    coordinates:
+        longitude: 180
+        latitude:  -15
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        The west portion of the continent of Quuag-dulle, Queewkkae is almost the furthest east
+        anyone can go. It's fairly dry, especially its southern locales, due to the precense of 
+        a mountain chain – the {{Nekhttae Mountains}} – on the
+        furthest west.
+-   name: Quuag-dulle
+    biome: continent
+    coordinates:
+        longitude: 180
+        latitude:  0
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        This continent is Australia #2 of Alternia. Its relative isolation from the other
+        three continents means that it harbours strange lifeforms unknown to the Mainland.
+        Unfortunately the gap between it and {{Sewb}}
+        is a little bit on the short side, meaning that it isn't as wet as Sewb. The foreignness
+        is also reflected in the names – Quuag-dulle names are significantly longer in both
+        character and syllable count.
+#R
+-   name: Rabon
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Raeked
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#S
+-   name: Saesson Gap
+    biome: coast
+    coordinates:
+        longitude: -74
+        latitude:  7
+    etymology:
+        -   type: fannym
+            origin: *"(Trol) Seasson"
+            linklist: 
+    description: >
+        The Saesson Gap is a small strait that connects the Saesson Sea with the 
+        {{Peetegge Ocean}}. Because most of the time water is
+        flowing into the Sea rather than out of it, the Gap is saltwater.
+-   name: Saesson Sea
+    biome: sea
+    coordinates:
+        longitude: -60
+        latitude:  0
+    etymology:
+        -   type: fannym
+            origin: *"(Trol) Seasson"
+            linklist: 
+    description: >
+        A large inland sea framed by {{Ecchiae}} and
+        {{Sewb}}, Saesson is a large inland sea that proves
+        to be a ecological hotspot, as well as a prolific trading location.
+-   name: Sakin
+    biome: city
+    coordinates:
+        longitude: -93
+        latitude:  -15
+    etymology:
+        -   type: fannym
+            origin: Aerius Sakino
+            linklist: 
+                -   "http://trollslum.wikia.com/wiki/OmnivorousMonster"
+    description: >
+        A wonderful port city that acts as a terminus for most of the ferries and airports
+        that go to {{Quuag-dulle}}. The large city is known
+        for its sprawl, height of its buildings (quite tall), and of course a huge grass plain
+        to its north.
+-   name: Sakkar
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+        
+-   name: Senaei Mangroves
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Sewb
+    biome: continent
+    coordinates:
+        longitude: -60
+        latitude:  -15
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A continent that's currently trying (and failing) to subduct under
+        {{Ecchiae}}. The contient is generally linear and 
+        is lined with forest, though the inland portions tend to thin out into savanna.
+-   name: Sibila
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Siggappo
+    biome: city
+    coordinates:
+        longitude: 78
+        latitude:  0
+    etymology:
+        -   type: terrnym
+            origin: Singapore
+            linklist: 
+    description: >
+        <em>The</em> premiere port city of all of Alternia. Living right at the edge of
+        of the {{Krrops}} Peninsula, it too has great
+        marshes and redwood forests behind it, like its sister city 
+        {{Tsakkta}}.
+-   name: Spokrus
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Ssiounsdu
+    biome: land
+    coordinates:
+        longitude: 90
+        latitude:  30
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        The east portion of the continent of 
+        {{Ecchiae}}, Ssiounsdu is a relatively flat land made
+        of lava spewed from the {{Imelle}} mountain range in 
+        the distant past, that also defines its western border.
+-   name: Suna
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Szrraewp
+    biome: city
+    coordinates:
+        longitude: 44
+        latitude:  51
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        This city lives in between {{Ecchiae}} and
+        {{Ea}}, and is a great link to the two – at least, one
+        that doesn't pass through miserable bogs.
+#T
+-   name: Tomvus
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Tossim
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Trraen-iaut
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Tsakkta
+    biome: city
+    coordinates:
+        longitude: 59
+        latitude:  -8
+    etymology:
+        -   type: terrnym
+            origin: Jakarta
+            linklist: 
+    description: >
+        Another ferry city and port of call to
+        {{Yiattew}}. Behind though, lives some of the greatest
+        marshlands in Alternia and beyond, full of life and perhaps even exceeding the 
+        Everglades at their peak.
+-   name: Tseea
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Tsuppin
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Tuka Sea
+    biome: sea
+    coordinates:
+        longitude: -40
+        latitude:  20
+    etymology:
+        -   type: terrnym
+            origin: Turkey
+            linklist: 
+    description: >
+        A deep isolated node of the {{Saesson Sea}}, the 
+        Tuka serves {{Wriu}}, which lives in the innermost
+        (easternmost) portion of it. This sea in particular is shallower than the rest of the 
+        Saesson, meaning that in colder times when ice forms in the poles, it can actually
+        become land!
+#U
+-   name: Unat
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Upakxe
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+#V
+#W
+-   name: Weelas Mountains
+    biome: mountains
+    coordinates:
+        longitude: -130
+        latitude:  -20
+    etymology:
+        -   type: fannym
+            origin: Nektan Whelan
+            linklist: 
+                -   "http://trollslum.wikia.com/wiki/DebonairCorsair"
+        -   type: terrnym
+            origin: Wales
+            linklist:
+    description: >
+        A short – both in height and in length – mountain range that came from years long past
+        and has weathered quite severely. Not as severely as the Appalachians, however! This
+        dwarf mountain range still snags whatever little rain and wind that is left that the 
+        {{Nekhttae}}s can't catch – leaving leeward lands 
+        drier than ever! The montains themselves are okay though – endless fog and drizzle
+        from weak winds from the south, making the whole thing feel a bit Welsh.
+-   name: Woyram
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Wriu
+    biome: land
+    coordinates:
+        longitude: -33
+        latitude:  14
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        Wriu is a large city of 10 million, and is a major port that allows transporation
+        from sea to land. While this place is not particularly geographically interesting,
+        a lot of tours include this city for ease of travel.
+-   name: Wrro Savanna
+    biome: biome
+    coordinates:
+        longitude: -50
+        latitude:  -15
+    etymology:
+        -   type: rangennym
+            origin: S
+            linklist: 
+    description: >
+        A vast savanna going on forest to the north and east, Wrro is a large grass plain.
+        There's much speculation that the Trolls started out here. The savanna stands on top
+        of a plateau of the same name, which causes the Savanna to become dry and not as rainy
+        as land of a similar latitude should be.
+-   name: Wrrioum-ggi
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Wugleth
+    biome: city
+    coordinates:
+        longitude: -30
+        latitude:  -29
+    etymology:
+        -   type: terrnym
+            origin: Wuhan
+            linklist: 
+        -   type: fannym
+            origin: Leithe (Arbied)
+            linklist:
+                -   "img/KsathiWugleth.png"
+    description: >
+        A great river city in {{Ssiounsdu}}. The city sprawls
+        a lot bigger, and there is a much lower density here.
+#X
+-   name: Xrij
+    biome: land
+    coordinates:
+        longitude: -60
+        latitude:  -30
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A verdant forest with arboreal life to match, this forest also gives its name to the
+        land and also a large city that lives in the middle of it all.
+-   name: Xrij (city)
+    biome: city
+    coordinates:
+        longitude: -30
+        latitude:  -29
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A great city of about 9 million, this is the base of operations of most entertainment
+        things, including the HQ of the 
+        <a href="http://mspaforums.com/showthread.php?51771">Café</a> and of course various
+        game centres have their servers hosted here.
+#Y
+-   name: Yiattew
+    biome: island
+    coordinates:
+        longitude: 60
+        latitude:  -45
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        The smaller of the two islands Yiattew–Phriutch, Yiattew has long since been the
+        seen as a "best possible place" to live in. Geologically, it's a wonder: mountains and 
+        valleys, with crazy fractal-like shorelines to the north.
+-   name: Yiattew–Phriutch
+    biome: continent
+    coordinates:
+        longitude: 90
+        latitude:  -60
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        A continent cleft into two by the
+        {{Peetegge Spreading Ridge}}, this continent is most 
+        isolated and bizarre. A majority of Training Grounds are on this continent, as are some
+        of the most spectacular geology.
+-   name: Yiwgg (city)
+    biome: city
+    coordinates:
+        longitude: -85
+        latitude:  -6
+    etymology:
+        -   type: rangennym
+            origin: S
+            linklist: 
+    description: >
+        Another port of about five million. This city is well known for also residing in places
+        where 100-metre cliffs of limestone are found! Many a Troll has descended – at all 
+        speeds – down these.
+-   name: Yiwgg, Cape
+    biome: sea
+    coordinates:
+        longitude: -80
+        latitude:  -7
+    etymology:
+        -   type: rangennym
+            origin: S
+            linklist: 
+    description: >
+        A smallish cape that almost cuts off the Yiwgg Sea from the rest of the 
+        {{Idjae Ocean}}. In cooler times, the cape can
+        creep all the way across the sea to {{Bivu}}, cutting
+        off the sea to all else.
+-   name: Yiwgg Sea
+    biome: sea
+    coordinates:
+        longitude: -82
+        latitude:  0
+    etymology:
+        -   type: rangennym
+            origin: S
+            linklist: 
+    description: >
+        A small inland sea that is surrounded by {{Bivu}} on
+        the west and a cape of the same name on the east. The sea is surprisingly deep for 
+        its size and there are strong vents there as well, propelling abyssal life.
+-   name: Yrup, Mt.
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Yrup, River
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Yunssubs
+    map: "img/Map_BivuAndYiwgg.jpg"
+    biome: 
+    coordinates:
+        longitude: 
+        latitude:  
+    etymology:
+        -   type: 
+            origin: 
+    description: >
+-   name: Yutkkiop
+    biome: island
+    coordinates:
+        longitude: -83
+        latitude:  -25
+    etymology:
+        -   type: rangennym
+            origin: F
+            linklist: 
+    description: >
+        An island of the {{Iekkas}}. A verdant reef surrounds it,
+        though the island itself is a far cry from its larger relatives up to the northwest, 
+        like {{Deiokup}}. The island is usually uninhabited,
+        but there's a temporary shelter station that usually has a tender <em>some</em> months
+        of the long, long year.

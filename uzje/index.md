@@ -201,7 +201,7 @@ and are sympathetic to it for various reasons,
 not least of which is that one of them is a spearhead of the language itself.
 Another key fact is that Ùzje has always been somewhat rebellious
 and wishes to be independent in some way or another,
-and granting them a separate language 
+and granting them a separate language
 is a very easy way to placate the colonials that have found their way there.
 Finally the fact that Ùzje is such an established based for g'Mòdyfäjq speakers
 have ensured that the place will become attractive for more g'Mòdyfäjq speakers,
@@ -264,7 +264,7 @@ but in general only halfpennies are used.
 </aside>
 
 In response to decimalisation, one thousand pennies also make a kilopenny (kd).
-One kilopenny is equal to two pounds, three shillings and fourpence.
+One kilopenny is equal to four pounds, three shillings and fourpence.
 Although heavily used in the financial sector,
 the kilopenny has never found much use outside of it
 apart from some commemorative currency and as a price point.
@@ -349,9 +349,9 @@ Capsule hotel per day                      1    1    8
 5-star hotel per night                     9   10
 6-star hotel per night                    12   15
 Flat (10 m²) rent per month               43    6    8
-Flat (50 m²) rent per month               60 
+Flat (50 m²) rent per month               60
 Flat (100 m²) rent per month              90
-House (100 m²) rent per month            500 
+House (100 m²) rent per month            500
 Flat (10 m²) sale price                 6000
 Flat (50 m²) sale price               3 2500
 Flat (100 m²) sale price             15 1250
@@ -399,7 +399,7 @@ The two places are literally on either side of the M4,
 and a dedicated shuttle service and driverless train service
 moves tourists between them.
 
-Security is largely painless, 
+Security is largely painless,
 or at least as painless as the international authroities can allow;
 immigration for locals are convenient and electronic
 but for those who *really* don't want
@@ -467,13 +467,13 @@ and the trains run as often as once per 40 seconds at rush hour.
 Cost is extremely reasonable at an average distance cost of 350 µd/m (2.9 km/d).
 
 As it currently stands the metro is incomplete;
-a lot of stations are under planning 
+a lot of stations are under planning
 and many plots of land are left empty for future development.
 There's no guarantee that the development will ever come;
 recently the construction has drawn the ire of many locals
 who think the economic benefit of the metro coming to them
 is not enough to balance the losses that come with it.
-However, for the tourist, 
+However, for the tourist,
 the metro provides a great whirlwind tour of the territory.
 
 ## Boan Tramways ##
@@ -514,4 +514,80 @@ for instance in ð'Crantanel, which is as its name suggests a tram tunnel.
 ## The Light Rail ##
 <!-- Map of the light rail here. -->
 Meanwhile on the other side of ð'Qabar,
-a newer, fully air-conditioned and even more sprawling 
+a newer, fully air-conditioned and even more sprawling Light Rail Network
+sprawls across Zestəq Tel.
+These are like trams in function but very different in form:
+they are modern, single-deck, double-car articulated trains
+with some element of premetro systems
+as a significant amount of its track is under dedicated right of way –
+and surface level.
+
+The network is far less linear than the tram,
+it not being hindered significantly in one particular direction or another,
+and it's notably less of a legacy system as well, as mentioned earlier.
+As a result the system is much more expensive
+and lacks much of the flair that the tram system has.
+
+## Busses ##
+Host to the largest bus fandom in the world (!),
+the Ùzje bus system is not only extremely dense and frequent
+but also is entirely (to a rounding error) comprised of double-decker busses.
+Though slower than the rail-based alternatives,
+travel on the bus is greatly affordable
+to the point where prices are given in multiples of 50 millipence –
+the bus companies having lobbied the government to allow their prices
+to have a resolution below the legal tender quantum of ½d (500 md).
+Typically, prices per metre is between that of the tram and the metro,
+with the shortest bus routes only costing 2.45 d (but written as 2·45″)
+and the longest ones just over 3/6 (3′ 6·00″ on the fare table).
+More typical busses usually take a sixpence though;
+a typical fare might be 5·60″.
+
+This special pricing arrangement comes with it a stored-value card
+that was once the domain of the metro
+but has since grown to be a cash replacement for smaller denominations,
+which is defined to be less than 1.024 kd (£4–5–4, 85′ 4·00″),
+though to make things easier for the average user
+the cap is advertised to be £4 (80′ 0·00″) exactly.
+The stored-value card has otherwise been used in multiple other contexts,
+such as fast food and convenience stores.
+If you want to pay in cash on the bus and the coins don't give enough resolution,
+you have to eat the difference or buy tokens at a travel centre.
+
+<!-- Tokens are worth 50, 100 and 250 md, and are redeemable on busses only.
+They are named "fifth-farthing", "double-fifth" and "farthing" respectively. -->
+
+The two major conglomerates that run all the major bus routes
+on the mainland and on Boan are **Da Pu Bus** and **Pung Qar Bus**,
+the latter also operating as **Lungr Tvngr Bus** due to a recent merger.
+Smaller bus companies operate the system in the outer islands,
+if they are large enough to support one in the first place.
+These mostly target the small islands to the east in the "3" zone
+and the islands of Zəjə and Ajü.
+
+<aside markdown=1>
+*Relləzyk* and *rotləzyk* – the study of trains and roads in general –
+do exist but are much more muted in comparison to the comparatively massive
+*baszləzyk*.
+</aside>
+
+As mentioned earlier this system
+spawned a somewhat disconcerting enthusiast community
+due to its complexity, efficiency and ubiquity.
+The so-called "*baszləzyk*" – "bus-ology" – is especially popular with the young
+and their main activities include taking pictures of busses,
+riding a route from end to end
+and putting together a disturbingly complete encyclopedia on the Internet.
+This phenomenon started some time in 2004
+but has, like most fandoms, since eluded study and analysis in particular,
+though no doubt the first researcher who finds them
+would surely guarantee his career for life.
+
+## Minibuses ##
+
+## Taxies ##
+
+# Things to see and do #
+
+# Nearby #
+
