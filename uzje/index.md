@@ -528,6 +528,9 @@ and it's notably less of a legacy system as well, as mentioned earlier.
 As a result the system is much more expensive
 and lacks much of the flair that the tram system has.
 
+There are other light rail systems in the Bakyłand and the Hundred,
+but on the other hand 
+
 ## Busses ##
 Host to the largest bus fandom in the world (!),
 the Ùzje bus system is not only extremely dense and frequent
@@ -584,10 +587,95 @@ though no doubt the first researcher who finds them
 would surely guarantee his career for life.
 
 ## Minibuses ##
+A quirk of history and a little bit of regulatory escapism
+caused the creation of a curious halfway house.
+Too small to be a bus, but too large to be a taxi,
+these minibuses can pick up anyone anywhere like a taxi
+but have fixed routes (or at least termini) like a bus.
 
-## Taxies ##
+Travelling on these things are not for the faint of heart nor for the foreigner,
+as they require good knowledge of the local routes 
+and complete command of the local languages on display
+(and usually only Man Gog Yuu at that).
+However, supposing that you can or can find someone that can do that,
+they offer a much more 'local' look of the city,
+going down the roads that few larger busses would enter
+either due to width or unpopularity of the route.
+The drivers often act a bit wilder than the rest of the city as well,
+and are very, very willing to break the speed limit by more than a factor of 30%
+just for the sake of a few more passengers.
+
+One small trap to watch out for is that route numbers for minibuses
+are *not* regulated, so you might see the same number reused multiple times –
+even in the same rough region! – describing different routes.
+Some routes lack numbers entirely, being described by their termini
+and one intermediate stop if that is still ambiguous.
+As a general rule, an unnumbered route is less regulated than a numbered route
+and as a result the ride is also wilder and more "exciting".
+
+## Taxis ##
+Taxis are cheap and plentiful,
+but again they're not especially for the foreigner and the nervous,
+though less so than minibuses.
+The idea is as simple as any other place with taxis:
+you get in, tell the driver where you want to go, and then they go there.
+
+There are three types of taxis separated by colour,
+which indicates where they can go and how much they charge:
+
+- **Red** taxis are the most common and go anywhere the driver agrees to.
+  They are the most expensive, with fares starting at 1/- 
+  and a distance charge of 1½d/200 m, which is higher than the rest at 1d/200 m.
+- **Green** taxis are less common 
+  and they are not allowed to go into urban areas
+  (which are marked using city signs). Fares for them start at 10d.
+- **Blue** taxis are the rarest of all
+  and can only operate in the islands of Zejə and Ajü,
+  but they are the only taxis that are allowed to cross the ferry
+  from Ajü and Zejə. Fares start at 9d.
+  
+Recently there had been some incursion of the taxi market
+by ride-sharing companies.
+As a result the prices seem to have artificially decreased over the past year.
+
+## Car hire ##
+If you want to visit Ùzje's impressively categorised road network,
+you can also hire a car.
+This is a fairly expensive option as they are subject to heavy duties and taxes,
+but in some cases this is the ideal way to visit places
+where demand simply does not support any amount of public transport.
+
+As a result in the cases where a car hire service would shine
+the roads tend to be a fairly low standard, such as S2 or in some cases even S1.
+It is therefore advisable to get a smaller, more manoeuvrable car.
+Off-roaders are not necessary as all but a trivial amount of roads are metalled,
+and those that aren't tend to be private tracks
+that the public is not allowed on anyway.
+However some roads are metalled poorly, with weak verges.
+In extreme cases this may result in you having to drive on the right
+as in this case seeing the edge of the road more clearly
+is more – vitally! – important than having a clear view of the road ahead.
+
+Parking however is a troublesome task.
+It is expensive, hard to find, and it absolutely *requires* a small car
+if you do not wish to spend a half-hour inching it towards the minuscule spaces.
+A typical hourly rate starts at 1/3 and can go up to 6/- at certain times
+where there is high demand.
+Parking meters are of course much cheaper but they're even harder to find,
+and otherwise roads are festooned with double yellow lines,
+prohibiting casual stopping and parking.
 
 # Things to see and do #
+Once you do have your way around the place, 
+here are some nice places to visit in each of the areas of the territory.
+
+## Boan Isle ##
+
+## Lokcəxn ##
+
+## Bakył ##
+
+## Ajü and Zejə ##
 
 # Nearby #
 
