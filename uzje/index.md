@@ -864,7 +864,8 @@ And for those that are scared of the forest you can also go to:
 
 ## Ajü and Zejə ##
 The two largest "rural" islands of the territory,
-the smaller but more populated Ajü and the large and empty Zejə.
+the smaller but more populated Ajü and the large and empty Zejə
+(otherwise known as Cu ajł).
 They are connected by two ferry crossings, but the access to them is restricted,
 as the inhabitants of Zejə desire a quieter living space.
 
@@ -951,7 +952,70 @@ On the wilder side, we also have:
 
 ## Other places ##
 There are a handful of other places in Ùzje
-that are worth visiting but cannot be 
+that are worth visiting but cannot be detailed in this article,
+so here are some of the best of the rest:
 
-# Nearby #
+- The Szao Archipelago is a series of small islands
+  that live to the east of the Szao.
+  Threaded by the B300 the entire chain is mostly a biking and foot race arena,
+  with a handful of islands big enough to do some motorcross as well.
+  It can only be accessed via a number of small-scale, infrequent ferries.
+- Ŋzoŋ is another small batch of islands threaded by a single road,
+  this time the B600, which along half of its length
+  is inaccessible to motor cars, which is just as well anyway
+  because there's no car ferry that gets you there.
+  Normally a quiet and reserved set of islands
+  with a large amount of very nice beaches for surfing,
+  every summer a Festival of the Seas comes around
+  that transform the island into a bustling and crowded place,
+  with visitors effectively doubling the population of the islands in that time.
+  The festival has origins 
+  in wishing for good luck in the upcoming typhoon season
+  but has now been a general celebration of the sea and summer in general.
+- A handful of islands, most of them remote and reachable only by ferry,
+  that are largely defined by one specific day in the year
+  (in either the solar or the lunar calendar)
+  where they hold their annual festivals one way or another.
+  Each one has obscure origins and an idiosyncratic way of celebrating it.
+  For example, Szanmiw Island prepares over 50 000 meatballs-in-a-bun in its day,
+  May 30, that it uses to feed its annual eating contest.
+  A good deal of the 'traditions' are not very old at all
+  and those that usually weren't annual in nature,
+  but the Association of Outlying Islands have used these disparate festivals
+  and combined them to make business out of the lot.
+- Moŋdej back in the Bakył is a very large, flat plain.
+  Half of the area is protected wetland which extends over to Qinma;
+  the other half is chock-filled with drying nets of various sizes, hence the name:
+  a land of nets.
+  Between June and October almost all the suitable space is filled with brown nets
+  drying everything from fish to raisins,
+  stretching for literal kilometres from any vantage point.
+  Consequently the whole lot is a popular sight and there are specified clearings
+  that are built just for photo opportunities.
+- Some islands have by-laws 
+  that allow its inhabitants to skip on some of the laws of Ùzje.
+  While these waived restrictions
+  are generally not of the level of self-governance,
+  they usually allow for some traditions to continue
+  such as private fireworks in the lunar new year,
+  which is largely banned in urban areas due to repeated fires.
 
+# Damdsaj #
+Apart from China, which is a popular destination, 
+there's a nearby territory of Damdsaj, 
+which is in the same political situation as Ùzje.
+The two regions are connected via the M4, which continues over to the island
+and becomes the only numbered highway, and indeed road, in the region.
+
+Damdsaj is a much smaller territory, but it is no poorer for features
+as wide avenues, frequent parades and lots and lots of casinos.
+The whole region is divided into just three parts,
+one for each of the three major land uses: 
+residential, commercial and industrial.
+Of course, the regions do have a fair bit of mixing
+but these are their primary uses.
+
+Damdsaj a completely different place administratively
+and to get there requires crossing a border.
+They also use different currencies and a different architectural style.
+It can largely be visited in a day or two if you're not into the casinos.
