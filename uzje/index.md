@@ -275,9 +275,9 @@ which is the trading currency used in the Ùzje stock market.
 The standard method of writing a currency in pounds-shillings-pence
 is to write separate the three units with slashes or short horizontal lines,
 and sandwich the entire expression in (U)£…(d),
-so for instance the kilopenny is written as £2/3/4d or U£2–3–4.
+so for instance the kilopenny is written as £4/3/4d or U£4–3–4.
 However, there is significant variation in practise,
-and the format is also written £2 3s 4d, £2+3/4 or even 43′ 4″.
+and the format is also written £4 3s 4d, £4+3/4 or even 83′ 4″.
 
 The kilopenny family of values have a slightly different way of notation.
 A number, which is either an integer
@@ -670,12 +670,288 @@ Once you do have your way around the place,
 here are some nice places to visit in each of the areas of the territory.
 
 ## Boan Isle ##
+The big island to the south of Grot-Ajł (the mainland)
+holds the keys to the entire territory.
+Executive, Legislative, Judicial, Consulates,
+they all live in this small island of about 400 km².
+
+Due to historical reasons it also has another name: "Namfuŋ / Näqveq".
+This split has a long and storied history,
+but eventually it all boils down to a clerical error in some poor sap's
+gazetteer.
+
+The island is rich, very rich,
+so rich that not living here is an automatic 35% discount on your life.
+but even in this land of the millionaires and billionaires,
+there's still the (relatively) poor urban areas 
+and the (absolutely) rich exurb areas,
+all surrounded by 40-storey tower blocks that house, 
+in order of increasing wealth:
+companies, international companies,
+and interestingly desolate office floors
+that claim to be the headquarters of a business that, by any rights,
+has one entire major company on its nose by holding a very important IP
+that they buy and sell rights for for a massive fee.
+    
+But say you want none of this economic nastiness
+and desire something more down-to-Earth.
+No problem, the island has something for you.
+Head to the centre of the island and you will find mountains
+great for climbing, both on officially maintained trails
+and for trailblazers that wish to forge their own.
+
+Notable natural features on the island include:
+
+- The Four Brothers Mountains, a set of four mountains
+  that create a conveniently close wilderness to the urban island.
+  They have numbers, not names, 
+  and they are generally only accessible to foot traffic
+  on account of the gradient.
+  Hiking trains start from the north and
+  are available in most of the northeast of the island.
+  The A12(M) has the largest of these on junction 3.
+- Long Beach, a (very) long beach that is an excellent choice for recreation
+  on a busy Sunday, if a little bit remote. It can be reached via Ð'TÞEK.
+- Zedwoł, a cliffface filled with bright green moss
+  that has been rumoured to give you good health
+  for eight years if you rub it on your head.
+- As an honourable mention, the A10 passing through Twəntam
+  is a beautiful two-lane single carriageway
+  with swooping curves and a beautiful cliff-drop
+  that's occasionally broken up by some forest.
+  
+Some man-made features on the island include:
+
+- Ùqdersetþàlə, a sea-based theme park that also hosts some land animals
+  and a surprising amount of roller-coasters,
+  accessible just off M3 J1 (toward A10 west).
+  While incredibly profitable and generally well-meaning,
+  the park tends to emit large amounts of embarrassment at periodic intervals
+  which range from simply not being "in" with the current iteration of language
+  to some serious accusations regarding cruelty to the animals that it hosts.
+- Veqsỳtadel, a theme park in the form factor of an industrial building.
+- Grassman Centre, a massive *26-*storey department store,
+  but more than half of that is for clothes and shoes.
+  Has very good transport connections all throughout Grot-Arzeqt.
+- A whole host of local seafood restaurants in the beautiful shores of Boan City.
+  They're lined all around the A16; take your pick at your leasure.
+- A Grand Prix race track in Qèqlij, which has races six times a year
+  and has a mix of street and track elements.
+  Fun when you're participating or visiting, but not so fun if you're passing by.
 
 ## Lokcəxn ##
+A much thicker but equally long swathe of urban area,
+The Lokcəxn peninsula contains some fairly massive factories
+and impossibly tall offices with an extensive bridge system.
+Otherwise there's the ever-popular street markets
+that sell everything under £1 and then some,
+which are much cheaper than anywhere on the other side of ð'Qabar.
+
+The factories are however mostly barren today,
+production having grown too onerous over the last few decades to sustain.
+The area that they mostly converge in, Zestəq Tel and Waŋmaw,
+is so incredibly well connected in its heydey that it would be incredibly dumb
+*not* to spring factories around the place.
+As a result the area, which only recently had residential buildings permitted,
+is dominated by self-storage facilities and commercial buildings,
+including a confusing array of impossibly labyrinthine shopping complexes.
+
+There are basically no natural features left on the peninsula,
+it having been almost completely overtaken by development,
+so here are some popular man-made features:
+
+- Museum Street, a street of museums, from space to history to rail.
+- Kya Lingr Dyke, a dam that carries some of the region's freshwater.
+  It also serves as the aquatic recreation ground where conditions permit
+  and is the primary "natural feature" of the region
+- Textilia, a long row of tiny shops that sell everything fabric-related
+  from whole cloth in every possible pattern imaginable to T-shirts
+  with whatever pattern you like – provide a detailed enough picture
+  and they'll have it the next day, whether or not it's *technically* legal.
+  As a result the place is also rife with internationally notorious 
+  knockoffs of brand-name items, 
+  bringing endless delight to the Anglophone Internet.
+- Ingram Centre-cum-Residence, a city in one building.
+  There's several shops, a wet market, a supermarket
+  and *50* floors of residence inside one building,
+  and connected to the Centre via underground and bridge accesses 
+  are hospitals, clinics, schools and one each of police and fire station.
+  Though it has never been tried before it is therefore theoretically possible
+  to be born here and never need to leave the Centre or even enter the outdoors
+  until age 18.
+- Ỳphar Education Centre-cum-University is an all-in-one option for education,
+  where there is a combined everything from kindergarten to University.
+  One can also theoretically spend all his academic life without leaving the
+  admittedly quite spacious 500 000 m² campus.
+  This unique arrangement makes its university
+  a little bit different from the others in terms of its research and students.
+  Most of the location is open to all pedestrians,
+  though some portions of the campus require authentication to enter
+  for hopefully obvious reasons.
+  An ongoing research project does mean that all visitors
+  may be subject to monitoring.
+- The Ten Acre Field (Szapmawpyŋ) hosts a small park that is decidedly *not*
+  10 acres in area, not the least of which because acres are not used since 1971.
+  The area provides a green respite from the areas down the south,
+  which up until a massive factory migration in 1980 is heavily polluted
+  and heavily trafficked, as mentioned earlier.
 
 ## Bakył ##
+The Bakył, sometimes respelled as "the Backhill",
+is the area of Ùzje that's literally behind the hills
+that separate the urban Lokcəxn from itself.
+This area is a severe contrast from the urban harbour,
+composed of three parts town to two parts tiny remote indigenous villages
+to twenty-five parts of nothing but pure, untouched (!) wilderness.
+Only two roads dare cross this huge expanse of forest and hills,
+which in turn contains some pretty unforgiving layouts
+including the world's largest surviving network of so-called "suicide lanes" –
+an arrangement of three lanes that, with the exception of some small sections,
+have a centre lane that belongs to neither direction and can be used by both.
+These survive mainly to allow for vehicles to avoid the extremely virulent fauna
+that lurk in and around the forest, which among other things include
+snakes, boars, wild bulls, 
+cyclists with a death wish and/or ambitious athletic aspirations,
+a harrowing amount of busses and monkeys.
+
+Natural features that you can find here include:
+
+- The tallest mountain in all of Ùzje at almost exactly 1000 m above sea level,
+  the simply named Grand Peak (or Jvngr Moo Jaan)
+  is an excellent place for hikers to 
+- A large amount of country parks, but they're all connected together
+  so their names are largely irrelevant. 
+  They form the bulk of the land area of the island and indeed the territory,
+  and they are criss-crossed with many hiking trails
+  with various levels of difficulty.
+- The A. S. I. Ù., a compound that houses 
+  an association for environmental conversation.
+  The compound also contains a large amount of land
+  that it uses to house all kinds of animals that would fit,
+  which makes it the only zoo in Ùzje,
+  one that is so hidden out of the way and otherwise obscure
+  that their primary audience are schoolchildren
+  that would quickly forget about the place
+  the moment they leave for the first and only time!
+
+And for those that are scared of the forest you can also go to:
+
+- Svn Kyor Jjan, which is the largest of the New Towns.
+  It's a near-perfect grid with some concessions to the terrain,
+  and it's fairly separated from the rest of the urban area with wilderness,
+  less a few road and rail links.
+  The intersections of the grid are a mixed combination of traffic lights,
+  roundabouts, and roundabouts with traffic lights,
+  whereas the link to the M3 is, while very nice when first built,
+  now continually stuffed with inscrutable road works.
+  It's a mostly self-sufficient 
+  and for the most part contains everything 
+  that a small town is expected to cover.
+  It also has a small research quarters and even a handful of suburbs.
+- There's anything up to 150 small indigenous villages
+  scattered all around the region.
+  Most of them are not typically open to tourists 
+  but those fairly close to the metro stations and the roads
+  have taken to become tourist traps and roadside services.
+- Along most motorways are some cycle tracks 
+  that are one of the very few that are also *dual carriageways*
+  with two lanes for each direction.
+  Sometimes the central reservation disappears in open areas,
+  which quietly betrays its alternate function as a bike racetrack.
+- A horse racetrack was built in the early ’50s 
+  and has saw continuous use since then every Wednesday 
+  and every other Saturday.
 
 ## Ajü and Zejə ##
+The two largest "rural" islands of the territory,
+the smaller but more populated Ajü and the large and empty Zejə.
+They are connected by two ferry crossings, but the access to them is restricted,
+as the inhabitants of Zejə desire a quieter living space.
+
+The two islands are fairly large;
+in particular Zejə is much larger in surface area than Boan Isle.
+But all human inhabitants, save a few remote villages, live at or near
+just three roads: the M4 (and associated service road M4(A)), A50 and the B500.
+This is so pronounced 
+that the official administration essentially uses these three roads
+as "districts" to divide up the islands.
+
+Several species were up until the opening of the ferries and the M4 
+emdemic to the region, being found nowhere else in Ùzje or indeed the world,
+including several species of butterflies, tropical bees and a hummingbird,
+which are officially protected by law
+and will protect the island from any future fixed crossings.
+
+Most of the developed area is therefore concentrated near the shores,
+especially the area near the airport, which conveniently is exits 1~3 on the M4.
+Nearby is the largest town in the area, Szàjszyŋ, which as mentioned earlier
+acts as the retail and infrastructure support for the airport.
+Otherwise there's also a tiny strip of development in Zejə on the eastern side,
+which is mostly inhabited by foreigners and expats
+and receives almost all passenger ferries.
+
+Things to look out for along the three roads include:
+
+- Vuðaleqh, the great theme park where the theme is Buddhism,
+  specifically that and also a few bits of Chinese mythology built into it.
+  It too gets a whole motorway junction to itself 
+  (junction 5, a *very* expensive directional-T interchange)
+  and contains an enormous complex with the theme park in its centre.
+  It contains the largest *and* second-largest Buddha statues in the world,
+  and has several hotels, an artificial river and
+  more roller-coasters than you can shake a stick at.
+  Slightly further away and behind a tortuous low-standard mountain lane
+  there's also a *real* Buddhist temple, the serious kind,
+  which are none too happy about the commercialisation of the faith
+  that goes on beneath
+  but are in some small part responsible for this anyway.
+  There's also access to power plants, water plants and especially flower plants
+  but those are relatively closed off and behind real gates.
+- The Statues of Prosperity, a series of large statues
+  dedicated to some of the most successful products known to modern business,
+  faithfully replicated in larger-than-life proportions,
+  sometimes enterable for more details about the item depicted.
+  Special note goes to a statue of a diecast car
+  that was a 1:64 facsimilie of the real thing
+  but as a Statue of Prosperity it is rebuilt to 90:1 from the diecast.
+  It is the star of many a maths problem.
+  Find all 50 or more of them near the airport, 
+  with new ones added every year or so.
+- The Best Seafood Restaurant In The World,
+  which serves some very good seafood indeed 
+  over in the quieter stretches of the A50
+  but whether it really is the best in the world is still in hot debate.
+  Features fish caught right outside the restaurant door
+  and some incredibly golden abalone soup.
+  Of course, that appellation does not come with a cheap price tag –
+  minimum spend of £2 per guest.
+  
+On the wilder side, we also have:
+
+- Another helping of hiking trails and tracks,
+  criss-crossing most of Zejə and parts of Ajü.
+  One particular set of trails form the Ùzje Ultramarathon, 
+  a 90 km track that snakes its way from east to west, 
+  conveniently passing by a number of purpose-built rest stations to boot.
+  Nearby is the similarly snaking BMX trail named J50
+  which is also used to a similar degree.
+- The second-tallest mountain in Ùzje, named Man Hor Yunr Jaan/Qył ə'Mànqorjün,
+  or the Mountain of a Thousand Sources.
+  It measures 950 m tall and is, as its name suggests,
+  the location where a good deal of all the rivers in the region start.
+- Pan Lar/Fànlaw, while not particularly impressive or accessible,
+  is interesting in that it is the only distributary of any significant length
+  in Ùzje if not the entire region.
+  Formed mostly by a conveniently placed ridge and a frequently flooding lake,
+  the flow between the two rivers is not evenly distributed
+  and varies from time to time, 
+  with neither particualrly dominating over the other.
+  Both distributaries eventually end in the same sea in individual mouths
+  and no deltas.
+
+## Other places ##
+There are a handful of other places in Ùzje
+that are worth visiting but cannot be 
 
 # Nearby #
 
