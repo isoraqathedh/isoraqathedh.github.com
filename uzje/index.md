@@ -528,8 +528,9 @@ and it's notably less of a legacy system as well, as mentioned earlier.
 As a result the system is much more expensive
 and lacks much of the flair that the tram system has.
 
-There are other light rail systems in the Bakyłand and the Hundred,
-but on the other hand 
+There are other light rail systems in the Bakył and the Hundred,
+but they are comparatively less well-developed and more linear.
+In particular they tend to run more like minibuses than actual trams.
 
 ## Busses ##
 Host to the largest bus fandom in the world (!),
