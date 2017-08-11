@@ -241,6 +241,14 @@ which makes for extremely flexible yet utterly rigid syntax
 and the idea of a "word operator" that doesn't say anything solid
 but rather operate on the deque directly.
 
+### Fs Otm ###
+Fs Otm is a fairly conventional language
+with a fancy, very tall script and an unconventional writing order.
+Like Sekapon, the language has simple onsets and complex codas,
+giving it a "reversed sound" feel.
+The inflections are a little bit nonconcatenative too,
+and there are rumours that in this language you *only* name actions.
+
 [XAX-Sk]: http://isoraqathedh.tumblr.com/tagged/Sekapon
 [XAX-OF]: http://isoraqathedh.tumblr.com/tagged/Ouduec-Fxelw
 [XAX-Ya]: http://isoraqathedh.tumblr.com/search/Ya-k%C4%95naj (Same problem with Gwa-elohba. It seems like hyphens are a sticking point)
