@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sz/Ù Fare Finder</title>
+    <link rel="stylesheet" href="../global/Default.css">
+    <link rel="stylesheet" href="Styles/fare-finder.css">
+    <script src="Scripts/fare-finder.js"></script>
+  </head>
+  <body>
+    <h1 id="Title">Ùzje Metro Fare Finder</h1>
+    <p>
+      Select a station using the drop-down below.
+      A fare table for all destination stations will appear.
+    </p>
+    <p>
+      Prices are in shillings, pence and centipence.
+      Shillings are indicated with the prime symbol, ′,
+      whereas pence and centipence are written together
+      as a single decimal number separated by the decimal point, ·,
+      and followed by the double prime symbol, ″.
+      There are 12 pence in a shilling and 100 centipence in a penny.
+    </p>
+    <p>
+      All fares shall only require coins
+      whose value is a multiple of five centipence.
+      If a discount creates such a fare that does not,
+      it will be rounded <em>up</em> to the nearest five centipence.
+    </p>
+    <select id="station-select"></select>
+    <button id="submit">Compute fare</button>
+    <h1>Fare table for <span id="fare-table-name">---</span></h1>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="3">Station code</th>
+          <th colspan="5">Station Name</th>
+          <th colspan="3">Card fare</th>
+          <th colspan="2">Paper fare</th>
+        </tr>
+        <tr>
+          <th colspan="2">g'Mòdyfäjq</th>
+          <th colspan="3">Man Qog Yuu</th>
+          <th rowspan="2">S</th>
+          <th rowspan="2">C</th>
+          <th rowspan="2">E</th>
+          <th rowspan="2">S</th>
+          <th rowspan="2">C</th>
+        </tr>
+        <tr>
+          <th>Latin</th>
+          <th>Cyrillic</th>
+          <th>K. M. S.</th>
+          <th>Hangul</th>
+          <th>Latin</th>
+        </tr>
+      </thead>
+      <tbody id="destination-list"></tbody>
+    </table>
+    <script>farefinder.init();</script>
+  </body>
+</html>
