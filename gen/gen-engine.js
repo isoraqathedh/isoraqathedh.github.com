@@ -41,8 +41,20 @@ var plotGenerator = {
         else { // is an object
             plotGenerator.dataObj = list;
             plotGenerator.dataVersion = "object";}},
+    effectiveLength: function(thing) {
+        if (thing instanceof Array && parseFloat(thing[1])) {
+                return thing[1];}
+            else {return 1;}}
     randomEntry: function(array) {
         // Returns a random element in an array.
+
+        // First, we need the length of the array:
+        var effectiveLength = array.map(
+            plotGenerator.effectiveLength
+        ).reduce(function(oldLength, accumulator) {
+                return oldLength + accumulator})
+
+        // Then assign somethign to it 
         return array[Math.floor(Math.random() * array.length)];},
     makeErrorOutput: function(variableName) {
         // function to insert into output string if variable is not found.

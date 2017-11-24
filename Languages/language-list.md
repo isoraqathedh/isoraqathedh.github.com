@@ -184,6 +184,8 @@ the sheer distance it has with everything else
 is sure to make most linguists claim that it is the language of the heavens.
 
 ### {| <sup>6G-J</sup> ~ <sub>~</sub> · <sup>6G-J</sup> -R <sub>~</sub> || ###
+
+<!-- This brace used to balance the one on the title. } -->
 The difficult-to-notate
 
     ⎧⎪ 6G-J · 6J-G ⎪
@@ -197,8 +199,6 @@ it uses a rod with a specific pattern of colours
 which users would interact with to create phonemes.
 The result is something of a song and dance routine,
 but if you don't like that then a tabletop variant is also possible.
-
-<!-- } -->
 
 [PSD-Yk]: http://isoraqathedh.tumblr.com/tagged/Yoskrai
 [PSD-HI]: http://isoraqathedh.tumblr.com/tagged/Hesmai-Iok
