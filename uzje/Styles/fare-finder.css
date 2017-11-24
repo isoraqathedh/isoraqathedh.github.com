@@ -1,0 +1,22 @@
+#destination-list td:nth-child(5) {
+    font-family: "Noto Sans CJK KR";
+}
+
+#destination-list td:nth-child(4) {
+    font-family: "Inziu Iosevka TC", "Noto Sans CJK KR";
+}
+
+#destination-list td {
+    color: white;
+}
+
+#destination-list tr[id^="ROW_LCJ"] td {background-color: #D40000;}
+#destination-list tr[id^="ROW_LBA"] td {background-color: #2C5AA0;}
+#destination-list tr[id^="ROW_LSB"] td {background-color: #660080;}
+#destination-list tr[id^="ROW_LSM"] td {background-color: #FF6600;}
+#destination-list tr[id^="ROW_LLC"] td {background-color: #676C53;}
+#destination-list tr[id^="ROW_LSO"] td {background-color: #552200;}
+#destination-list tr[id^="ROW_LZT"] td {background-color: #00D400;
+                                        color:black;}
+#destination-list tr[id^="ROW_SVP"] td {background-color: #00AAD4;}
+#destination-list tr[id^="ROW_LMD"] td {background-color: #CC00FF;}
