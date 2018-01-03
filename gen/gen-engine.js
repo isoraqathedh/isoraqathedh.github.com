@@ -44,7 +44,7 @@ var plotGenerator = {
     effectiveLength: function(thing) {
         if (thing instanceof Array && parseFloat(thing[1])) {
                 return thing[1];}
-            else {return 1;}}
+        else {return 1;}},
     randomEntry: function(array) {
         // Returns a random element in an array.
 
@@ -54,8 +54,18 @@ var plotGenerator = {
         ).reduce(function(oldLength, accumulator) {
                 return oldLength + accumulator})
 
-        // Then assign somethign to it 
-        return array[Math.floor(Math.random() * array.length)];},
+        // Create the random:
+        var generated = Math.random() * effectiveLength;
+        // Then assign somethign to it
+        var weight;
+        for (i in array) {
+            weight = plotGenerator.effectiveLength(array[i]);
+            generated = generated - weight;
+            if (generated <= 0) {
+                if (weight === 1) {
+                    return array[i];}
+                else {
+                    return array[i][0];}}}},
     makeErrorOutput: function(variableName) {
         // function to insert into output string if variable is not found.
         return "[Variable " + variableName
