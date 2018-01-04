@@ -9,12 +9,31 @@ var objvocab = {
         "There is a very <fine-coarse> division of the semantic space " +
             "of <stuff> in this language.",
         "The language's <POS> inflection system "+
-            "is understood as using <stuff> as an analogy."],
+            "is understood as using <stuff> as an analogy.",
+        "<POS> and <POS> are handled in exactly the same way.",
+        "The language lacks <POS>.",
+        "Names are a type of <POS>.",
+        "There is a <amount> amount of <sound-type> in the phonology.",
+        "The language utilises <unusual-sound-type> in the phonology."],
     "stuff": [
         "snow", "wood", "hills", "water", "galactic filaments",
         "quantum-mechanical behaviour",
         "transfinite ordinal numbers"
     ],
+    "amount": [
+        ["small", 4],
+        ["large", 4],
+        ["very small", 2],
+        ["very large", 2],
+        ["lack of", 2],
+        "pathological"],
+    "sound-type": [
+        "vowels", "consonants",
+        "plosives", "alveolars", "unrounded vowels",
+        "rounded vowels", "fricatives", "ingressive phonemes",
+        "<unusual-sound-type>"],
+    "unusual-sound-type": [
+        "whistles", "finger-taps"],
     "fine-coarse": ["fine", "coarse"],
     "thing": [
         ["<grammatical-object>", 100],
