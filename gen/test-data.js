@@ -8,8 +8,8 @@ var objvocab = {
          0.3],
         "There is a very <fine-coarse> division of the semantic space " +
             "of <stuff> in this language.",
-        "The language's <POS> inflection system "+
-            "is understood as using <stuff> as an analogy.",
+        "The inflection system for <POS> "+
+            "is understood using <stuff> as an analogy.",
         "The <POS> and the <POS> are handled in exactly the same way.",
         "The language lacks any <POS>.",
         "Names are a type of <POS>.",
@@ -18,7 +18,11 @@ var objvocab = {
     "stuff": [
         "snow", "wood", "hills", "water", "galactic filaments",
         "quantum-mechanical behaviour",
-        "transfinite ordinal numbers"
+        "transfinite ordinal numbers",
+        "animals with more than three horns",
+        "kings",
+        "food which is to be eaten in more than a day",
+        "milk"
     ],
     "amount": [
         ["a small amount", 4],
