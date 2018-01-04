@@ -8,7 +8,7 @@ var objvocab = {
          0.3],
         "There is a very <fine-coarse> division of the semantic space " +
             "of <stuff> in this language.",
-        "The inflection system for <POS> "+
+        "The <POS> inflection system "+
             "is understood using <stuff> as an analogy.",
         "The <POS> and the <POS> are handled in exactly the same way.",
         "The language lacks any <POS>.",
