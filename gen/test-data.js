@@ -13,7 +13,7 @@ var objvocab = {
         "<POS> and <POS> are handled in exactly the same way.",
         "The language lacks <POS>.",
         "Names are a type of <POS>.",
-        "There is a <amount> amount of <sound-type> in the phonology.",
+        "There is <amount> of <sound-type> in the phonology.",
         "The language utilises <unusual-sound-type> in the phonology."],
     "stuff": [
         "snow", "wood", "hills", "water", "galactic filaments",
@@ -21,19 +21,21 @@ var objvocab = {
         "transfinite ordinal numbers"
     ],
     "amount": [
-        ["small", 4],
-        ["large", 4],
-        ["very small", 2],
-        ["very large", 2],
-        ["lack of", 2],
-        "pathological"],
+        ["a small amount", 4],
+        ["a large amount", 4],
+        ["an unusually small amount", 2],
+        ["an unusually large amount", 2],
+        ["a lack", 2],
+        "a pathological amount",
+        "in popular analyses a non-integer amount",
+        "in popular analyses a negative amount"],
     "sound-type": [
         "vowels", "consonants",
         "plosives", "alveolars", "unrounded vowels",
         "rounded vowels", "fricatives", "ingressive phonemes",
         "<unusual-sound-type>"],
     "unusual-sound-type": [
-        "whistles", "finger-taps"],
+        "whistles", "finger-taps", "hand signals"],
     "fine-coarse": ["fine", "coarse"],
     "thing": [
         ["<grammatical-object>", 100],
