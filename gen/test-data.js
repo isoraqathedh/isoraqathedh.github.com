@@ -10,7 +10,7 @@ var objvocab = {
             "of <stuff> in this language.",
         "The language's <POS> inflection system "+
             "is understood as using <stuff> as an analogy.",
-        "<POS> and <POS> are handled in exactly the same way.",
+        "The <POS> and the <POS> are handled in exactly the same way.",
         "The language lacks <POS>.",
         "Names are a type of <POS>.",
         "There is <amount> of <sound-type> in the phonology.",
