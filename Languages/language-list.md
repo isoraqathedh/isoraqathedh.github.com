@@ -200,6 +200,16 @@ which users would interact with to create phonemes.
 The result is something of a song and dance routine,
 but if you don't like that then a tabletop variant is also possible.
 
+### (Unnamed language) QD ###
+This [currently unnamed language][PSD-QD] is one of four
+that are very closely related to each other.
+They are described in a much more close-knit way than other languages.
+Each language will contain various options to a single unique idea
+that ensures that they can be easily reconciled into a single parent language.
+
+These four languages also are a demonstration 
+of what language types `mklang` would create.
+
 [PSD-Yk]: http://isoraqathedh.tumblr.com/tagged/Yoskrai
 [PSD-HI]: http://isoraqathedh.tumblr.com/tagged/Hesmai-Iok
 [PSD-Rs]: http://isoraqathedh.tumblr.com/tagged/Rattssaw
@@ -209,6 +219,7 @@ but if you don't like that then a tabletop variant is also possible.
 [PSD-NH]: http://isoraqathedh.tumblr.com/tagged/Nnn-Heeel
 [PSD-St]: http://isoraqathedh.tumblr.com/tagged/Sturp
 [PSD-Dr]: http://isoraqathedh.tumblr.com/tagged/Drsk
+[PSD-QD]: http://isoraqathedh.tumblr.com/tagged/Language-QD
 [PSD-ED]: # (No link here. Tumblr does not like.)
 
 ## Xaxex ##
