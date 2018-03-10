@@ -1,272 +1,129 @@
-var objvocab = {// Data object
+var objvocab = {
     "FIRST": [
-        "The average member of this race <build> and <height>. "
-            + "They <epidermis>. "
-            + "They have <feature>. "
-            + " <wardrobe>. "
-            + " <theylive> <environment>. "
-            + " <personality> <trivia>."],
-    "build": [
-        "has a delicate build",
-        "has a slender build",
-        "has a stocky build",
-        "has a build similar to that of humans"],
-    "height": [
-        "is extremely tall",
-        "is quite tall",
-        "is a little taller than humans on average",
-        "is extremely short",
-        "is quite short",
-        "is a little shorter than humans on average",
-        "is around the same height as the average human"],
-    "epidermis": [
-        "have <complexions-human> skin and <hair>",
-        "have <complexions-human> skin and <hair-human>",
-        "have <complexions> and <hair>",
-        "have <deccolors> skin and <hair>",
-        "have skin covered in <deccolors> scales"],
-    "complexions": [
-        "<complexions-unwild> skin",
-        "<complexions-human> skin",
-        "<deccolors> skin"],
-    "hair": [
-        "are completely hairless",
-        "are completely hairless",
-        "are completely hairless",
-        "are covered with <haircolor> hair",
-        "have <haircolor> hair",
-        "have <haircolor> hair",
-        "have <haircolor> hair",
-        "have <haircolor> hair",
-        "have <haircolor> hair"],
-    "hair-human": [
-        "are completely hairless",
-        "are covered with <haircolor-human> hair",
-        "have <haircolor-human> hair"],
-    "haircolor": ["<haircolor-human>", "<deccolors>"],
-    "haircolor-human": [
-        "black",
-        "black to brown",
-        "blond",
-        "blond to brown",
-        "brown",
-        "red",
-        "red to brown",
-        "red to blond",
-        "white",
-        "white to blond"],
-    "complexions-unwild": [
-        "<shade-g><tint> gray",
-        "<shade-g><tint>",
-        "<shade-un-2>green",
-        "<shade-un-2>blue",
-        "<shade-g>grayish <grayish>",
-        "<shade-nv>brownish <brownish>"],
-    "complexions-human" : [
-        "brown",
-        "dark",
-        "dark brown",
-        "light to medium brown",
-        "medium brown",
-        "medium to dark brown",
-        "fair to dark brown",
-        "pale to dark brown",
-        "fair",
-        "pale",
-        "fair to pale"],
-    "feature": [
-        "<featureMarkings> and <featureEyes>",
-        "<featureEyes>",
-        "<featureEars> and <featureEyes>",
-        "<featureEars>, <featureMarkings>, and <featureEyes>",
-        "<featureMarkings>, <featureFace>, and <featureEyes>",
-        "<featureFace> and <featureEyes>",
-        "<featureEars>, <featureFace>, and <featureEyes>",
-        "<featureEars>, <featureMarkings>, <featureFace>, and <featureEyes>",
-        "<featureMarkings> and facial features "
-            + "that put you in mind of <animal>",
-        "<featureMarkings>, <featureEyes-2>,"
-            + " and facial features that put you in mind of <animal>",
-        "<featureEyes-2> and facial features that put you in mind of <animal>"],
-    "animal": [
-        "a cat", "a dog", "a rabbit", "a moose", "a seal", "an iguana",
-        "a snake", "a deer", "a rat", "a mouse", "a lizard", "a wolf",
-        "a monkey", "a turtle", "a bird", "an owl", "a beetle", "a moth",
-        "a horned toad", "a spider", "a buffalo", "an antelope", "a frog"],
-    "featureMarkings": ["<Markings> on their <BodyPart>"],
-    "featureEars": [
-        "antennae rather than ears",
-        "cat-like ears",
-        "ears shaped like leaves",
-        "long, pointed ears",
-        "very large ears",
-        "very small ears"],
-    "featureEyes": [
-        "<eyecolor> eyes",
-        "<eyecolor> <eyetype> eyes",
-        "large, <eyecolor> eyes",
-        "small, <eyecolor> eyes"],
-    "featureEyes-2": ["<eyecolor> eyes"],
-    "eyetype": [
-        "cat-like", "fish-like", "bird-like", "insectoid", "octopus-like"],
-    "eyecolor"      : ["<eyecolor-human>", "<deccolors>", "<metallic>"],
-    "eyecolor-human": ["black", "blue", "brown", "dark", "gray", "green"],
-    "Markings": [
-        "colorful markings",
-        "distinctive markings",
-        "<spotcritter>-like spots",
-        "<stripecritter>-like stripes"],
-    "spotcritter": ["leopard", "cheetah", "giraffe", "fawn", "jaguar"],
-    "stripecritter": ["tiger", "tabby", "okapi"],
-    "featureFace": ["<FaceFeature> on their <FacePart>"],
-    "FaceFeature": [
-        "small ridges",
-        "delicate ridges",
-        "extensive ridges",
-        "prominent ridges",
-        "ridges",
-        "small hornlike protrusions",
-        "hornlike protrusions",
-        "prominent hornlike protrusions"],
-    "FacePart": ["ears", "foreheads", "heads", "noses"],
-    "BodyPart": [
-        "faces",
-        "faces, necks, and bodies",
-        "arms and legs",
-        "bodies"],
-    "wardrobe": ["They wear <clothing>",
-                 "They wear <clothing> and <accessories>"],
-    "clothing": [
-        "<clothingDesc> clothing",
-        "<clothingDesc> clothing that covers most of their bodies",
-        "<clothingDesc> clothing that covers the essentials",
-        "<clothingDesc> clothing that leaves very little to the imagination",
-        "<clothingDesc>, modest clothing",
-        "highly technological suits"],
-    "clothingDesc": [
-        "colorful",
-        "drab",
-        "richly-decorated",
-        "simple"],
-    "accessories": [
-        "very little jewelry",
-        "a lot of jewelry",
-        "decorations that show their rank",
-        "<jewelryDesc> bracelets",
-        "<jewelryDesc> jewelry",
-        "<jewelryDesc> pendants",
-        "cybernetic implants"],
-    "jewelryDesc": [
-        "finely crafted",
-        "ostentatious",
-        "simple",
-        "tasteful"],
-    "theylive": [
-        "Their native habitat is",
-        "They are well-adapted to",
-        "They come from"],
-    "environment": [
-        "a cold climate",
-        "an aquatic environment",
-        "an extremely cold climate",
-        "a hot, dry climate",
-        "a temperate climate",
-        "a tropical environment",
-        "a warm climate"],
-    "trivia": [
-        "they are well-known for their <stuff>",
-        "their leaders are interested in learning about other peoples' <stuff>",
-        "many of them have expressed interest" +
-            " in learning about other peoples' <stuff>",
-        "<conquestystuff>"],
-    "conquestystuff": [
-        "at large they are out for conquest",
-        "many of their leaders have an aggressive expansionist policy",
-        "they have started several new colonies lately"],
-    "personality": [
-        "They are generally <trait> and",
-        "They tend to be <trait> and",
-        "They are often <trait> and",
-        "For the most part, their culture highly regards <trait2> and",
-        "Many of them place high importance on <trait2> and"],
-    "trait2": [
-        "caution",
-        "curiosity",
-        "intellectualism",
-        "loyalty",
-        "patriotism",
-        "tenacity",
-        "tradition"],
-    "trait": [
-        "cautious", "friendly", "intellectual", "mystical", "optimistic",
-        "pessimistic", "peaceful", "playful", "religious", "warlike",
-        "xenophobic"],
+        "<feature:phonology>",
+        "<feature:phonotactics>",
+        "<feature:orthography>",
+        "<feature:morphology>",
+        "<feature:syntax>",
+        "<feature:semantics>"],
+    "feature:phonology": [
+        "There is <amount> of <sound-type> in the phonology.",
+        "The language utilises <unusual-sound-type> in the phonology."
+    ],
+    "feature:phonotactics": [
+        "The language uses phonoruns based on <sound-type> and <sound-type>.",
+        "A syllable is composed of a <sound-type-sg> followed by a <sound-type-sg>.",
+        ["A syllable is composed of a <sound-type-sg>, <sound-type-sg> " +
+            "and <sound-type-sg>, in that order.", 0.4],
+        "In the coda, <sound-type> cannot appear.",
+        "In the onset, <sound-type> cannot appear."
+    ],
+    "feature:orthography": [
+        "The language's orthography uses <orthographic-feature> " +
+            "to represent <sound-type>.",
+        "The language has <amount> of orthographies.",
+        "The language's orthography primarily uses <orthographic-feature>.",
+        ["The language's orthography primarily uses <orthographic-feature> " +
+            "and <orthographic-feature>.", 0.4],
+        ["The language's orthography primarily uses <orthographic-feature>, " +
+            "<orthographic-feature> and <orthographic-feature>.", 0.3],
+        "The language's orthography does not use <orthographic-feature>.",
+        "In this document, we shall use the <earth-script> script for the language.",
+        ["In this document, we shall use the <earth-script> script for the language, " +
+            "but with <orthographic-feature> to represent <sound-type>.",
+            0.4]
+    ],
+    "feature:morphology": [
+        "The <POS> inflects with respect to <thing>.",
+        ["The <POS> inflects with respect to <thing> and <thing>.", 0.4],
+        ["The <POS> inflects with respect to <thing> or <thing>, but not both.",
+         0.2],
+        ["The <POS> inflects with respect to <thing>, <thing> and <thing>.",
+         0.3],
+        "The inflection system for <POS> " +
+            "is understood using <stuff> as an analogy.",
+    ],
+    "feature:syntax": [
+        "The <POS> and the <POS> are handled in exactly the same way.",
+        "The language lacks any <POS>.",
+        "The language has the <POS> but lacks any <POS>."
+    ],
+    "feature:semantics": [
+        "Names are a type of <POS>.",
+        "There is a very <fine-coarse> division of the semantic space " +
+            "of <stuff> in this language.",
+        "There is no concept of <stuff>."
+    ],
     "stuff": [
-        "advances in medicine",
-        "art",
-        "contributions to science",
-        "cuisine",
-        "literature",
-        "music",
-        "philosophies"],
-    "deccolors": ["<warmcolor>", "<coolcolor>", "<gradient>", "<bw>"],
-    "mostlycoolend": [
-        "and <mbwwc>",
-        "and <mbwwc>",
-        "<warmcolor>, and <bw>",
-        "<metallic>, and <bw>"],
-    "gradient": [
-        "<shade-un>red-to-yellow",
-        "<shade-un>red-to-brown",
-        "<shade-un>red-to-orange",
-        "<shade-un>orange-to-yellow",
-        "<shade-un>orange-to-brown",
-        "<shade-un>magenta-to-pink",
-        "<shade-un>magenta-to-brown",
-        "<shade-un>magenta-to-orange",
-        "<shade-un>yellow-to-green",
-        "<shade-un>yellow-to-blue",
-        "<shade-un-2>green-to-turquoise",
-        "<shade-un-2>green-to-blue",
-        "<shade-un-2>turqoise-to-blue",
-        "<shade-un-2>blue-to-indigo",
-        "<shade-un-2>blue-to-purple",
-        "<shade-un-2>indigo-to-purple",
-        "<shade-un>brown"],
-    "warmcolor": [
-        "<shade-nv>brown",
-        "magenta",
-        "<shade-nl>red",
-        "<shade-nl>red",
-        "<shade>pink",
-        "<shade-nd>yellow",
-        "<shade-nd>yellow",
-        "<shade-nd>orange"],
-    "coolcolor": [
-        "<shade>aqua",
-        "<shade>green",
-        "<shade>green",
-        "<shade>blue",
-        "<shade>blue",
-        "<shade>blue",
-        "<shade>purple",
-        "<shade>purple",
-        "<shade>turquoise"],
-    "metallic": ["brass", "copper", "gold", "silver"],
-    "grayish":  ["green", "blue", "purple", "indigo", "turquoise", "brown"],
-    "brownish": ["red", "orange"],
-    "bw":       ["black", "<shade-g>gray", "<shade-g><tint> gray", "white"],
-    "mbw":      ["<metallic>", "<bw>"],
-    "mbwcc":    ["<metallic>", "<bw>", "<coolcolor>"],
-    "mbwwc":    ["<metallic>", "<bw>", "<warmcolor>"],
-    "shade":    ["variating ", "light ", "vivid ", "dark ", "muted ", "drab ",
-                 ""],
-    "shade-g":  ["variating ", "light ", "dark ", ""],
-    "tint":     ["greenish", "bluish", "pinkish", "purplish", "tealish"],
-    "shade-nl": ["variating ", "dark ", "vivid ", "muted ", "drab ", ""],
-    "shade-nd": ["variating ", "pastel ", "vivid ", "muted ", "drab ", ""],
-    "shade-nv": ["variating ", "light ", "dark ", "rich ",
-                 "muted ", "drab ", ""],
-    "shade-un": ["variating ", "gradiating ", "muted ", "drab ", ""],
-    "shade-un-2": ["<shade-un>", "<shade>"],
-    "THIRD": [""]};
+        "snow", "wood", "hills", "water", "galactic filaments",
+        "quantum-mechanical behaviour",
+        "transfinite ordinal numbers",
+        "animals with more than three horns",
+        "kings",
+        "food which is to be eaten in more than a day",
+        "milk",
+        "danmaku",
+    ],
+    "amount": [
+        ["a small amount", 4],
+        ["a large amount", 4],
+        ["an unusually small amount", 2],
+        ["an unusually large amount", 2],
+        ["a lack", 2],
+        "a pathological amount",
+        "in popular analyses a non-integer amount",
+        "in popular analyses a negative amount",
+        "an uncountable amount",
+        "an even number",
+        "a square number"],
+    "sound-type": [
+        "vowels", "consonants",
+        "plosives", "alveolars", "unrounded vowels",
+        "rounded vowels", "fricatives", "ingressive phonemes",
+        "<unusual-sound-type>"],
+    "unusual-sound-type": [
+        "whistles", "finger-taps", "hand signals", "shrieks"],
+    // TODO is there a better way? -- Uruwi
+    "sound-type-sg": [
+        "vowel", "consonant",
+        "plosive", "alveolar", "unrounded vowel",
+        "rounded vowel", "fricative", "ingressive phoneme",
+        "<unusual-sound-type-sg>"],
+    "unusual-sound-type-sg": [
+        "whistle", "finger-tap", "hand signal", "shriek"],
+    "orthographic-feature": [
+        "diacritics", "capital letters", "ampersands", "backslashes",
+        "digits", "upside-down letters", "sideways letters", "hexagons",
+        "spaces", "greyscale dots", "logographs",
+        "<unusual-orthographic-feature>"],
+    "unusual-orthographic-feature": [
+        "colours", "overcat diacritics", "line thickness",
+        "drawings of the species that speaks it"
+    ],
+    "earth-script": [
+        ["Latin", 2],
+        "Cyrillic", "Greek", "Hangul",
+        "Armenian", "Hebrew", "Arabic",
+        "Cherokee", "Runic", "Ogham",
+        "Old Hungarian", "hacm"
+    ],
+    "fine-coarse": ["fine", "coarse"],
+    "thing": [
+        ["<grammatical-object>", 100],
+        ["<unusual-object>", 10],
+        "<very-unusual-object>"],
+    "grammatical-object": [
+        "person", "number", "tense", "manner", "place", "prestige",
+        "evidentiality", "alienableness"],
+    "unusual-object": [
+        "the date",
+        "whether one has eaten recently",
+        "the phase of the moon",
+        "the makeup of the crowd around the audience",
+        "the direction the speaker is facing"],
+    "very-unusual-object": [
+        "the position of a star or planet in the sky",
+        "the amount of money one makes in a period of time",
+        "how prepared one is to make this statement"],
+    "POS": ["noun", "verb", "adjective", "conjunction",
+            "pre/post-positions"]};

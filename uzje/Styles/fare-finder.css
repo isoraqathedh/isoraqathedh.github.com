@@ -1,8 +1,8 @@
-#destination-list td:nth-child(5) {
+#destination-list td.MQY_KMS {
     font-family: "Noto Sans CJK KR";
 }
 
-#destination-list td:nth-child(4) {
+#destination-list td.MQY_HGL {
     font-family: "Inziu Iosevka TC", "Noto Sans CJK KR";
 }
 
@@ -20,3 +20,8 @@
                                         color:black;}
 #destination-list tr[id^="ROW_SVP"] td {background-color: #00AAD4;}
 #destination-list tr[id^="ROW_LMD"] td {background-color: #CC00FF;}
+
+#destination-list td.fare {
+    font-family: "Inziu Iosevka TC", monospace;
+    text-align: right;
+}
