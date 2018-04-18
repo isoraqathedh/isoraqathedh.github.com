@@ -1,0 +1,199 @@
+#+Title: Street name lore
+
+[[./img/street-name-bonanza.png]]
+
+This image is a spattering of street signs of various streets in Ùzje.
+There is a large amount of information that is boiled into these signs,
+their design, and what they represent.
+We shall discuss them briefly, here.
+
+In this image, numbers in circles represent details in sign design,
+and numbers in squares represent detail regarding
+the reasoning behind the names of these streets.
+There's also some pretty well-hidden references in some of these signs,
+which are indicated using a letter in a circle.
+Clues are provided in this page,
+but if you want the solution and how they are derived,
+you can click on the link to the real solution.
+
+* Road sign design.
+1. Street name signs have the name of the street in g'Mòdyfäjq (above),
+   Man Qog Yuu (bottom) and the house numbers that are immediately next to it.
+   They also have a black pattern on the side where the road continues.
+2. Where the house numbers are too long to fit in the sign comfortably,
+   they can appear on a separate line.
+3. If a road has no house numbers on one side,
+   that can be indicated by using a dot on that side.
+   Road numbers can be indicated on /top/ of the street name sign,
+   with the same pattern indicating the same idea
+   (that the road continues with that number in that direction).
+4. A block with only one house number on that side would have no arrow.
+5. Street name plates are provided even where cars are prohibited,
+   such as this sign for the tram tunnel.
+   As the tunnel has no house numbers on it all dots are omitted.
+6. This street is from Concept City,
+   which like most New World cities but entirely unlike Old World cities
+   have the hundreds digit and onward indicate block numbers.
+   On the left of this sign is the 0 block,
+   and on the right of this sign is the 100 block.
+   Additionally, this sign is also the V5, 
+   as indicated by the light bulb shield on the upper left;
+   and the A311, as indicated by the road number indicator on the upper-right.
+   Q and V shields do not indicate which way the road continues.
+7. A road can continue, but the number can change inside it.
+   This sign indicates that the B114 is on the left, 
+   but while the road continues on the right
+   The B110 then takes over the road.
+8. An example of a road that terminates with its number.
+9. An example of a road that has street numbers all clustered on one side.
+   This road abuts a mountain, so all buildings are on one side.
+   Also note the lack of "street", "road" in this particular street name.
+10. When the house numbers are placed in line with the street name,
+    dots on sides of the sign with no house numbers can be omitted.
+11. The Q/V roads in Boan City, where this sign is extracted from,
+    use a shield similar to the A/B road numbers 
+    but are placed underneath the plate instead of over it.
+    Notice also that this sign has the road continue
+    where the road number terminates
+    (but in this case another road number picks it up,
+    which is not indicated on this sign as it is on the wrong side.)
+12. Signs are mounted both on the pedestrian and on the vehicle side,
+    so every one of these signs have a version where the numbers are reversed.
+    Naturally, this means that there are versions of signs
+    where the numbers descend as well as ascend.
+13. High speed roads, in particular motorways, HQDCs 
+    and grade-separated interchanges,
+    generally have street names that /face/ drivers rather than go alongside it.
+    Because of this, the patterns that indicate that the road continues
+    are irrelevant and are so omitted.
+    House numbers do not appear on this type of sign.
+14. An example of a road whose name continues but whose number does not.
+    As the road following is unclassified,
+    there is no road number sign pointing to the sign's right.
+    Additionally, note that the sign is in the more compact two-line form.
+15. Even the smallest of lanes are signed -- including footpaths --
+    although in this case the sign is put right against a wall
+    so there is no accompanying reversed version of this sign
+    (except, perhaps, on the other side of the lane).
+16. If a street is extended in the opposite direction with the same name
+    but on the low-numbered end,
+    letters are used for house numbers instead of numbers, counting up from A.
+17. "End of road" signs that face the drivers are indicated using a red band.
+    In this case the motorway also ends here, so it gets a band too.
+18. Otherwise, if the named portion of the motorway ends but the road continues,
+    the band only goes on the name, as expected.
+
+* Lore
+1. Dessert Road has a large amount of small dessert shops
+   that sell traditional Chinese desserts to eat in store.
+   They used to serve sailors that come past the now filled-in bay,
+   but as reclamation continues they too moved north.
+2. Any road called "New Road" -- as this one is --
+   is guaranteed to be old, and this is no exception.
+3. Located in an industrial estate, 
+   Heung Mai Yee Road serves Heung Mai Yee Co.,
+   which is the best-selling brand of rice in the city.
+4. Most roads in Boan city has the either 寶 (Bo, treasure)
+   or the letter 安 (On, stability) on it.
+   This can make navigation somewhat tricky.
+5. That said, Jewel Street may have 寶 in it but it is not located in Boan.
+   It also doesn't have many jewellery shops in it,
+   as they're all located in some significantly more upscale locations.
+6. The Chinese/MQY name literally translates to "Muscles Come Street",
+   so naturally there's a surfeit of private gyms around here.
+   They charge you £20 a month, which doesn't sound outrageous
+   until you remember that the minimum wage is only a hair over 3/- an hour!
+7. Located in Szàjszyŋ, this long road carries a handful of shops
+   that sell the seafood that is popular in local cuisine.
+   They include salted fish, clams, fresh fish
+   and even some things that don't come from the sea, strangely enough.
+   However, the road continues for much longer than the market can handle,
+   and strikes into the deep rural area, but never too far from the sea.
+8. Bakery Street. No guesses as to what is around this particular road.
+   Western and Eastern pastry are included.
+   A great source of moon cakes around Mid-Autumn Festival.
+9. Although now a dead-end lane sandwiched between two buildings,
+   this road used to be an important surveyor's road
+   as it used to be the most level road in the young colonial period.
+   That's why its name in MQY was as such,
+   though recent years and misspeaks have renamed the road
+   into something completely unrecognisable.
+10. The road from Buddhaland to Foŋjam Monastery
+    gets an appropriate name referring to the 3 000 Realms,
+    and is just as kitschy as it sounds.
+    Road numbering rules prevent it from being called the A3000,
+    which is just as well.
+
+* References
+A good deal of these names are very quietly names from imported work,
+which have been mangled beyond recognition.
+If you wish to recover these names, you might find these clues helpful.
+They are deliberately formatted as one paragraph to prevent casual scanning,
+but the letters are bolded to allow for faster more detailed scanning.
+You may also wish to copy test from the raw SVG file.
+
+*A*: Nothing to do with warring states, but lots to do as trios.
+Old, green but somehow always in shade.
+*B*: It's purple and high amounts of traffic that drives on it
+makes drivers irritated.
+*C*: Demon of Sickness.
+*D*: The MQY name of this street refers to an initial noise.
+*E*: With A and B, but greyer and grumpier.
+*F*: Knowing some hangul could really come in handy here,
+but you can also imagine a Russian sniper if you really want.
+Abuts Ykskon Street.
+*G*: Heung Mai Yee Rice -- a /magical/ way of making your favourite staple food.
+Finds its way to King's Cross!
+*H*: Recall that in g'Mòdyfäjq, the letter J is pronounced ~/j/~, as in IPA.
+*I*: You can draw a line from the Moon all the way back to here,
+and you'll find somewhere a long it someone in a pair of yellow track pants.
+*J*: A dot makes all the difference. As does a helpful German accent.
+*L*: It was originally Gyłjontar, but it was renamed in honour of a stele
+that was found here. That said, naming a street something /that/ inauspicious
+was never a good idea anyway, what with all the endless killing and all.
+*M and N*: Both of these come from the same 10-year journey
+that apparently lost the plot on its first step.
+40% later, it's still limping on.
+*O*: There's no disguise here other than a direct change to GMF. Sorry.
+*P*: Add an -ia to the end of the GMF name, and it'll make sense.
+
+Ready? Click on the letter below to reveal the answer
+(does not work with Microsoft browsers IE and Edge, sorry!) 
+
+#+BEGIN_EXPORT html
+<details>
+<summary>A</summary>
+Pòlim ← Porrim Maryam, Homestuck.
+That the characters are the reversed name of
+<a href="https://en.wikipedia.org/wiki/Lian_Po">Lian Po</a>
+(廉頗) is a distraction.
+</details>
+
+<details>
+<summary>B</summary>
+Gàmsi ← Gamzee Makara, Homestuck.
+The characters mean "sweet business", which is a little bit relevant.
+</details>
+
+<details>
+<summary>C</summary>
+Jyxkcin ← Yik Chin ~ Echizen Ryōma, Prince of Tennis
+Once misread as H-sen Byōma, and it stuck.
+</details>
+
+<details>
+<summary>D</summary>
+頭 (head) ← 初 (initial), both meaning first;
+聲 (noise) ← 音 (voice), both meaning sound.
+Therefore 頭聲 ~ 初音, which is the name of Hatsune Miku.
+The GMF name, Qocnej, refers to this more direcltly.
+</details>
+
+<details>
+<summary>E</summary>
+頭 (head) ← 初 (initial), both meaning first;
+聲 (noise) ← 音 (voice), both meaning sound.
+Therefore 頭聲 ~ 初音, which is the name of Hatsune Miku.
+The GMF name, Qocnej, refers to this more direcltly.
+</details>
+#+END_EXPORT
