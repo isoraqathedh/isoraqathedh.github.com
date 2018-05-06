@@ -200,8 +200,8 @@ which users would interact with to create phonemes.
 The result is something of a song and dance routine,
 but if you don't like that then a tabletop variant is also possible.
 
-### (Unnamed language) QD ###
-This [currently unnamed language][PSD-QD] is one of four
+### Eta-ges-ut ###
+[Eta-ges-ut][PSD-QD] is one of four
 that are very closely related to each other.
 They are described in a much more close-knit way than other languages.
 Each language will contain various options to a single unique idea
@@ -253,7 +253,7 @@ and the idea of a "word operator" that doesn't say anything solid
 but rather operate on the deque directly.
 
 ### Fs Otm ###
-Fs Otm is a fairly conventional language
+[Fs Otm][XAX-Fs] is a fairly conventional language
 with a fancy, very tall script and an unconventional writing order.
 Like Sekapon, the language has simple onsets and complex codas,
 giving it a "reversed sound" feel.
@@ -263,6 +263,7 @@ and there are rumours that in this language you *only* name actions.
 [XAX-Sk]: http://isoraqathedh.tumblr.com/tagged/Sekapon
 [XAX-OF]: http://isoraqathedh.tumblr.com/tagged/Ouduec-Fxelw
 [XAX-Ya]: http://isoraqathedh.tumblr.com/search/Ya-k%C4%95naj (Same problem with Gwa-elohba. It seems like hyphens are a sticking point)
+[XAX-Fs]: http://isoraqathedh.tumblr.com/tagged/Fs-Otm
 
 [Deque]: https://en.wikipedia.org/wiki/Double-ended_queue
 
@@ -328,14 +329,14 @@ or otherwise simply old and left unfinished.
 They may graduate out of this list to become full languages.
 
 * Other languages in the Jesdic Pasaru
-* **Egonyota Bulilla** and **Egonyota Vohalyosun**
+  * **Egonyota Bulilla** and **Egonyota Vohalyosun**
 are planned ancestors of Egonyota Pasaru.
-* **Genbarg**, a descendent of Âagenzbèe in the Esħ Pez
-* **Oraṕ** (or Oraf), an international auxiliary language
-that meditates speakers of Nnn Heeel and Genbarg
-* **Eðam**, a "secret language" spoken in the island of Ķaftenguu.
+  * **Genbarg**, a descendent of Âagenzbèe in the Esħ Pez
+  * **Oraṕ** (or Oraf), an international auxiliary language
+    that meditates speakers of Nnn Heeel and Genbarg
+  * **Eðam**, a "secret language" spoken in the island of Ķaftenguu.
 * Other purple languages
-* **Riga Pãiberica** is a hypothetical merger of Spanish and Portuguese.
+  * **Riga Pãiberica** is a hypothetical merger of Spanish and Portuguese.
 * **→** is a tiny language fragment that only defines one verb, "becomes",
 written as →.
 It has no means to form any part of speech and relies on other languages
