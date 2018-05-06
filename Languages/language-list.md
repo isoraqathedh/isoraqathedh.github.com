@@ -329,14 +329,14 @@ or otherwise simply old and left unfinished.
 They may graduate out of this list to become full languages.
 
 * Other languages in the Jesdic Pasaru
-  * **Egonyota Bulilla** and **Egonyota Vohalyosun**
+    * **Egonyota Bulilla** and **Egonyota Vohalyosun**
 are planned ancestors of Egonyota Pasaru.
-  * **Genbarg**, a descendent of Âagenzbèe in the Esħ Pez
-  * **Oraṕ** (or Oraf), an international auxiliary language
+    * **Genbarg**, a descendent of Âagenzbèe in the Esħ Pez
+    * **Oraṕ** (or Oraf), an international auxiliary language
     that meditates speakers of Nnn Heeel and Genbarg
-  * **Eðam**, a "secret language" spoken in the island of Ķaftenguu.
+    * **Eðam**, a "secret language" spoken in the island of Ķaftenguu.
 * Other purple languages
-  * **Riga Pãiberica** is a hypothetical merger of Spanish and Portuguese.
+    * **Riga Pãiberica** is a hypothetical merger of Spanish and Portuguese.
 * **→** is a tiny language fragment that only defines one verb, "becomes",
 written as →.
 It has no means to form any part of speech and relies on other languages
