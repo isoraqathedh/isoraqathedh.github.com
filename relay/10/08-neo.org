@@ -1,0 +1,156 @@
+#+Title: Relay 10–8
+#+Date: 2018-06-03
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:08-neo.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+The man said "Wisdom made me stand here."
+
+It caused nothing to see you thoroughly.
+
+Remember it.
+
+The shop's work was not stopped when it walked away.
+
+It caused the shop not to sleep (shut down).
+
+They tried to know (learn) [about] them.
+
+Did the shop sleep? Yes.
+
+It did. Because beasts sang the song, it very much slept.
+
+The shop was not work. Because did you cause the shop to sleep? Yes.
+
+I will sing the song because of my wisdom: Evil will be near.
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Kebanais
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+yoIm ol, “yoUo esim ethe mo.”
+
+yoUo um yosin eidela kiron kus.
+
+Kus kum.
+
+yoAi tiñi aloñe-so edi-tiegu, kai yotaga di aloñe um.
+
+yoUo um edi-youni aloñe.
+
+yoAu umodo yosuñe umodo kumodo.
+
+yoUni-da aloñe? U.
+
+yoGu um. Kai yomayemu tuñodo igu, yoUni te um.
+
+yoAi aloñe edi-tiñi. Kai youoda su youni aloñe? U.
+
+ebMayemu mo igu, kai esim mas: ebAi reu oda.
+#+END_conlang-text
+
+#+END_short-relay
+
+* Gloss and IPA
+#+BEGIN_EXAMPLE
+yoIm ol, “yoUo esim ethe mo.”
+yo- Im  ol, yo- Uo    esim   ethe mo
+PST-say man PST-cause wisdom sit  1SG.NOM
+/jo.ˈim ol / jo.ˈuo ˈesim ˈetʰe mo/
+The man said "Wisdom made me stand here."
+
+yoUo um yosin eidela kiron kus.
+yo- Uo    um      yo- sin eidela  kiron    kus.
+PST-cause 3SG.NOM PST-see nothing thorough 2SG.ACC
+/jo.ˈuo um jo.ˈsin eiˈdela ˈkiron kus/
+It caused nothing to see you thoroughly.
+
+Kus kum.
+Kus  kum.
+IMPR remember
+/kus kum/
+Remember it.
+
+yoAi tiñi aloñe-so edi-tiegu, kai yotaga di aloñe um.
+yo- Ai  tiñi aloñe-so  edi-ti  -egu, kai  yo- taga di  aloñe um.
+PST-COP work shop -GEN NEG-stop-PART COND PST-walk ABL shop  3SG.NOM
+/jo.ˈai ˈtiɲi aˈloɲeso ediˈtiegu / kai yoˈtaga di aˈloɲe um/
+The shop's work was not stopped when it walked away.
+
+yoUo um edi-youni aloñe.
+yo- Uo    um      edi-yo- uni   aloñe.
+PST-cause 3SG.NOM NEG-FUT-sleep shop
+/jo.ˈuo um edijoˈuni aˈloɲe/
+It caused the shop not to sleep (shut down).
+
+yoAu umodo yosuñe umodo kumodo.
+yo- Au  umodo   yo- suñe umodo   kumodo.
+FUT-try 3PL.NOM FUT-know 3PL.NOM 3PL.ACC
+/jo.ˈau uˈmodo jo.ˈsuɲe uˈmodo kuˈmodo/
+They tried to know (learn) [about] them.
+
+yoUni-da aloñe? U.
+yo- Uni  -da aloñe? U.
+PST-sleep-Q  shop   yes
+/jo.ˈunida aˈloɲe / u/
+Did the shop sleep? Yes.
+
+yoGu um. Kai yomayemu tuñodo igu, yoUni te um.
+yo- Gu um.     Kai  yo- mayemu tuñ  -odo igu, yo- Uni   te     um.
+PST-do 3SG.NOM COND PST-sing   beast-PL  song PST-sleep verily 3SG.NOM
+/jo.ˈgu um / kai jo.ˈmajemu ˈtuɲodo igu / jo.ˈuni te um/
+It did. Because beasts sang the song, it very much slept.
+
+yoAi aloñe edi-tiñi. Kai youoda su youni aloñe? U.
+yo- Ai  aloñe edi-tiñi. Kai  yo- uo   -da su      yo- uni   aloñe? U.
+PST-COP shop  NEG-work  COND PST-cause-Q  2SG.NOM PST-sleep shop   yes
+/jo.ˈai aˈloɲe ediˈtiɲi / kai jo.ˈuoda su jo.ˈuni aˈloɲe / u/
+The shop was not work. Because did you cause the shop to sleep? Yes.
+
+ebMayemu mo igu, kai esim mas: ebAi reu oda.
+eb- Mayemu mo      igu, kai  esim   mas:    eb- Ai  reu  oda.
+FUT-sing   1SG.NOM song COND wisdom 1SG.GEN FUT-COP near evil
+/ebmaˈjemu mo igu / kai ˈesim mas / eˈbai ˈreu ˈoda/
+I will sing the song because of my wisdom: Evil will be near.
+#+END_EXAMPLE
+
+* WAIT Lexicon
+
+* WAIT Grammar
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>8</strong></div>
+  </div>
+  <a href="07-sincy.html" id="prev" rel="prev">Previous</a>
+  <a href="09-mareck.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+
+

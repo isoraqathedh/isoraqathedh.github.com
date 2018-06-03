@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-06-03 Sun 23:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Relay 10–2</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="../../global/Default.css"/>
+<link rel="stylesheet" href="../../global/org.css"/>
+<link rel="stylesheet" href="../relay.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="preamble" class="status">
+<header>
+<h1 id="Title">Relay 10–2<br/></h1>
+<h3 class="date">2018-06-03 (last exported 2018-06-03 Sun 23:01)</h3>
+</header>
+</div>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgb2b92dd">1. Translation</a></li>
+<li><a href="#org3d841b9">2. Lexicon</a></li>
+<li><a href="#orge84a2ae">3. Grammar</a></li>
+<li><a href="#orgc9537a2">Navigation</a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgb2b92dd" class="outline-2">
+<h2 id="orgb2b92dd"><span class="section-number-2">1</span> Translation</h2>
+<div class="outline-text-2" id="text-1">
+<div class="short-relay">
+<p>
+
+</p>
+
+<div class="natlang-name">
+<p>
+English
+</p>
+
+</div>
+
+<div class="natlang-text">
+<p>
+&rsquo;I pick up a bit, here and there.&rsquo; The shopkeeper blew his nose. &rsquo;Sometimes I
+land on a world where they understand these things.&rsquo; He turned a pair of small
+sad eyes on Twoflower. &rsquo;You&rsquo;ve got a kind face, sir. I don&rsquo;t mind telling you.&rsquo;
+</p>
+
+<p>
+&rsquo;Telling me what?&rsquo;
+</p>
+
+<p>
+&rsquo;It&rsquo;s no life, you know, minding the Shop. Never settling down, always on the
+move, never closing.&rsquo;
+</p>
+
+<p>
+&rsquo;Why don&rsquo;t you stop then?&rsquo;
+</p>
+
+<p>
+&rsquo;Ah, that&rsquo;s it, you see, sir – I can&rsquo;t. I&rsquo;m under a curse, I am. A terrible
+thing.&rsquo; He blew his nose again.
+</p>
+
+<p>
+&rsquo;Cursed to run a shop?&rsquo;
+</p>
+
+<p>
+&rsquo;Forever, sir, forever. And never closing! For hundreds of years! There was this
+sorcerer, you see. I did a terrible thing.&rsquo;
+</p>
+
+</div>
+
+<div class="conlang-name">
+<p>
+Arka
+</p>
+
+</div>
+
+<div class="conlang-text">
+<p>
+&ldquo;an sab kal atu o lyu.&rdquo; sal toaerat. &ldquo;an luko ail fia le luus loki tuus.&rdquo;
+lu korat ta ins lis emt a tuuflawar. &ldquo;ti tiles eel niit, keyu. an en ris okt
+tu a ti.&rdquo;
+</p>
+
+<p>
+&ldquo;okt to al an?&rdquo;
+</p>
+
+<p>
+&ldquo;xaas ate de ikn tisee. an ref aaxa, an monk aluut, an is aaxa ate.&rdquo;
+</p>
+
+<p>
+&ldquo;es ti en is?&rdquo;
+</p>
+
+<p>
+&ldquo;ou, an is vil tisee. an garv mil anver tisee. tul xet fuo.&rdquo; lu toaerat me.
+</p>
+
+<p>
+&ldquo;anver varsor ti xaas ate?&rdquo;
+</p>
+
+<p>
+&ldquo;teom, keyu, teom. ont is aaxa! sov togal salt! lu artan at xa tisee. an sot
+tul velnar.&rdquo;
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3d841b9" class="outline-2">
+<h2 id="org3d841b9"><span class="section-number-2">2</span> Lexicon</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Where a word has a pair of square brackets in it,
+it indicates that the part inside square brackets
+is only used when the next word starts with a vowel.
+</p>
+
+<dl class="org-dl vocablist">
+<dt>ta (num)</dt><dd>two</dd>
+<dt>ti (pron)</dt><dd>2nd person singular</dd>
+<dt>tisee (intj)</dt><dd>~ you know?</dd>
+<dt>til (v)</dt><dd>have</dd>
+<dt>to (pron)</dt><dd>what (inanimate)</dd>
+<dt>togal (num)</dt><dd>a few hundred</dd>
+<dt>toaer (n)</dt><dd>snot</dd>
+<dt>toaer (v)</dt><dd>blow one&rsquo;s nose</dd>
+<dt>teom (n)</dt><dd>infinity</dd>
+<dt>teom (adj)</dt><dd>infinite</dd>
+<dt>teom (adv)</dt><dd>for ever</dd>
+<dt>tu (pron)</dt><dd>3rd person near inanimate singular</dd>
+<dt>tul (n)</dt><dd>thing, object</dd>
+<dt>tuus (pron)</dt><dd>3rd person near inanimate plural</dd>
+<dt>kal (adv)</dt><dd>a little</dd>
+<dt>kor (n)</dt><dd>direction</dd>
+<dt>kor (v)</dt><dd>turn (acc) toward (dat)</dd>
+<dt>kor (pp)</dt><dd>toward</dd>
+<dt>keyu (n)</dt><dd>guest</dd>
+<dt>xaas (v)</dt><dd>take care of</dd>
+<dt>xet (adj)</dt><dd>bad, troublesome, bothersome</dd>
+<dt>sab (v)</dt><dd>wear, put on, learn</dd>
+<dt>sal (n)</dt><dd>leader, shopkeeper, dealer in a game</dd>
+<dt>sal (v)</dt><dd>lead</dd>
+<dt>salt (n)</dt><dd>year</dd>
+<dt>so (v)</dt><dd>do</dd>
+<dt>sov (pp)</dt><dd>for (a timespan)</dd>
+<dt>niit (n)</dt><dd>kind</dd>
+<dt>vars (v)</dt><dd>force (acc) to do something</dd>
+<dt>vil (adj)</dt><dd>cannot</dd>
+<dt>velnar (adj)</dt><dd>evil</dd>
+<dt>fuo (adj)</dt><dd>very</dd>
+<dt>mil (pp)</dt><dd>causative (&ldquo;because of&rdquo;)</dd>
+<dt>monk (n)</dt><dd>immigration, migration, relocation</dd>
+<dt>monk (v)</dt><dd>move house, change residence, relocate jobs</dd>
+<dt>me (adv)</dt><dd>again</dd>
+<dt>de (v)</dt><dd>negative copula</dd>
+<dt>garv (v)</dt><dd>suffer from (caus)</dd>
+<dt>ris (v)</dt><dd>dislike, hate, be loathed to</dd>
+<dt>ris (adv)</dt><dd>do not want to</dd>
+<dt>ref (v)</dt><dd>calm down, settle down</dd>
+<dt>lyu (pron, adv)</dt><dd>there</dd>
+<dt>loki (v)</dt><dd>understand</dd>
+<dt>lu (pron)</dt><dd>3rd person near animate singular</dd>
+<dt>luko (n)</dt><dd>arrival, check-in</dd>
+<dt>luko (v)</dt><dd>arrive, land on, transmit, pass down, conduct</dd>
+<dt>luus (pron)</dt><dd>3rd person near animate plural</dd>
+<dt>a[l] (pp) </dt><dd>dative (&ldquo;to&rdquo;)</dd>
+<dt>ate (n)</dt><dd>shop, store</dd>
+<dt>atu (pron, adv)</dt><dd>here</dd>
+<dt>an (pron)</dt><dd>1st person singular</dd>
+<dt>anver (n)</dt><dd>curse</dd>
+<dt>artan (n)</dt><dd>magician, sorceror</dd>
+<dt>aluut (adv)</dt><dd>always</dd>
+<dt>aaxa (adv)</dt><dd>never</dd>
+<dt>ikn (n)</dt><dd>life, routine</dd>
+<dt>is (v)</dt><dd>stop, turn off, close, stop, end</dd>
+<dt>ins (n)</dt><dd>eye</dd>
+<dt>o[nt] (conj)</dt><dd>and</dd>
+<dt>okt (v)</dt><dd>tell, inform, announce, transmit, pass down, conduct</dd>
+<dt>ou (intj)</dt><dd>ah!</dd>
+<dt>et (v)</dt><dd>copula</dd>
+<dt>es (adv)</dt><dd>why?</dd>
+<dt>emt (n)</dt><dd>sadness</dd>
+<dt>emt (adj)</dt><dd>sad</dd>
+<dt>eel (n)</dt><dd>face</dd>
+<dt>eel (v)</dt><dd>turn one&rsquo;s face toward (dat)</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orge84a2ae" class="outline-2">
+<h2 id="orge84a2ae"><span class="section-number-2">3</span> Grammar</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Arka uses an SVO word order. Adjectives come after nouns. Numerals come before
+what they modify if they&rsquo;re cardinal and follow their antecedents if they&rsquo;re
+ordinal. Modal adverbs directly follow the verb. Free adverbs (everything
+else) can sit anywhere in the sentence, but if they&rsquo;re not adjacent to the
+verb they modify, they take the suffix &lt;-el&gt; after a consonant or &lt;-l&gt; after
+a vowel.
+</p>
+
+<p>
+Verbs take the following inflections:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="none">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">after consonant</th>
+<th scope="col" class="org-left">after vowel</th>
+<th scope="col" class="org-left">copula</th>
+<th scope="col" class="org-left">(neg)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">base</td>
+<td class="org-left">-</td>
+<td class="org-left">-</td>
+<td class="org-left">et</td>
+<td class="org-left">de</td>
+</tr>
+
+<tr>
+<td class="org-left">past</td>
+<td class="org-left">-at</td>
+<td class="org-left">-t</td>
+<td class="org-left">at</td>
+<td class="org-left">det</td>
+</tr>
+
+<tr>
+<td class="org-left">perfect</td>
+<td class="org-left">-ik</td>
+<td class="org-left">-k</td>
+<td class="org-left">ik</td>
+<td class="org-left">?</td>
+</tr>
+
+<tr>
+<td class="org-left">progressive</td>
+<td class="org-left">-or</td>
+<td class="org-left">-r</td>
+<td class="org-left">or</td>
+<td class="org-left">?</td>
+</tr>
+
+<tr>
+<td class="org-left">continuous</td>
+<td class="org-left">-es</td>
+<td class="org-left">-s</td>
+<td class="org-left">es</td>
+<td class="org-left">?</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Verbs are negated using the particle &lt;en&gt; before it, except for &lt;et&gt;, which
+becomes &lt;de&gt;.
+</p>
+</div>
+</div>
+
+<footer id="outline-container-orgc9537a2" class="outline-2">
+<h2 id="orgc9537a2">Navigation</h2>
+<div class="outline-text-2" id="text-orgc9537a2">
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>2</strong></div>
+  </div>
+  <a href="03-bbbourq.html" id="next" rel="next">Next</a>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+</html>

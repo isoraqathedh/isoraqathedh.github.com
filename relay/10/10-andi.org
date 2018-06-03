@@ -1,0 +1,173 @@
+#+Title: Relay 10–10
+#+Date: 2018-06-03
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_full-relay
+
+#+BEGIN_detail-link
+[[file:10-andi-.pdf][Complete torch document]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+he/she listened for a heartbeat
+however, he/she didn't find that!
+(he/she) ran away from them
+(he/she) attempted hiding
+(he/she) did not succeed
+(he/she) didn't succeed? / yes
+what did they do? / they sang (an) evil (song) causing him/her to stop
+they took away his/her movement? / yes, their song caused him/her to stop
+#+END_VERSE
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Modern Ralian
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+kâle tozla ke tiñıj komicus
+sutmivo, kâle lüj ca nidi
+zidek kâm daknu
+ivis jeküme
+nidi anu elava
+nidi anu elava?! / sisi
+deñu kâm dücidü? / ko ngodem ara, kân zada kâ
+ko usa tıdu küs? / sisi, ngodem këmos kân zada kâ
+#+END_VERSE
+#+END_conlang-text
+
+#+BEGIN_ipa
+#+BEGIN_VERSE
+kɑlɛ tɔzla kɛ tiɲidʒ kɔmitʃus
+sutmivɔ kɑlɛ lʊdʒ tʃa nidi
+zidɛk kɑm daknu
+ivis jɛkʊmɛ
+nidi anu ɛlava
+nidi anu ɛlava / sisi
+dɛɲu kɑm dʊtʃidʊ / kɔ ŋɔdɛm aɹa kɑn zada kɑ
+kɔ usa tɪdu kʊs / sisi ŋɔdɛm kəmɔs kɑn zada kɑ
+#+END_VERSE
+#+END_ipa
+
+#+BEGIN_gloss
+#+BEGIN_VERSE
+3SG.ERG listen SG drum heart-GEN
+excepting, 3SG.ERG hear DEM-MED NEG!
+flee 3PL away
+attempt hide-PST.IMPERF
+NEG COP success
+NEG COP success? / yes
+INT 3PL do? / PL sing evil, CAUS stop 3SG
+PL remove movement 3SG.PL? / yes, song 3PL.GEN CAUS stop 3SG
+#+END_VERSE
+#+END_gloss
+
+#+END_full-relay
+
+* Lexicon
+#+ATTR_HTML: :class vocablist 
+- anu :: copular verb (á la “to be”)
+- ara :: evil, bad
+- daknu :: postposition – away, away from
+- deñu :: interrogative particle
+- dücidü :: to act, to do, to perform an action
+- ivis :: to attempt, to try, attempt, try
+- jeküme :: to hide, to conceal, hidden, concealed
+- kân :: causative particle – clauses following this particle are typically VSO in order
+- ke :: one (number); also used to indicate a singular instance of a mass noun
+- komic :: heart
+- lüj :: to hear, ear
+- ngodem :: song, to sing
+- nidi :: negative particle / no
+- sisi :: affirmative particle / yes
+- sutmivo :: excepting... however... but...
+- tiñij :: drums (mass noun)
+- tozla :: to listen [for something] (implies action)
+- tıdu :: movement, to move, to travel
+- usa :: to take, to remove, to steal
+- zada :: to stop, to halt
+- zidek :: to run, to flee, to attempt escape; coward, runner
+
+* Grammar
+Modern Ralian is an SVO, ergative-absolutive language with an awful lot of T/A/M
+verb affixes and a few noun cases, but aside from that is in fact generally
+isolating. i’m not going over the phonology, just gonna provide an ipa
+transcription with the text.
+
+** Normal tables
+
+#+Caption: noun suffixes
+|           | ERG     | ABS  | GEN |
+|-----------+---------+------+-----|
+| SING/MASS | -(n)e   | -Ø   | -us |
+| PL        | -(m)ıñi | -iñi | -um |
+
+#+Caption: pronouns
+|     | ERG    | ABS   | GEN   |
+|-----+--------+-------+-------|
+| 1sg | ale    | al    | alus  |
+| 1pl | alıñi  | aliñi | alsum |
+| 2sg | señe   | se    | sus   |
+| 2pl | señıñe | sem   | sëmos |
+| 3sg | kâle   | kâ    | küs   |
+| 3pl | kâlıñi | kâm   | këmos |
+
+#+Caption:  demonstratives
+|     | prox  | med  | dist |
+|-----+-------+------+------|
+| erg | mieñi | ciel | vëve |
+| abs | ña    | ca   | ve   |
+| gen | mis   | cis  | vâs  |
+   
+** verb table
+the plural particles indicate plurality of the verb’s agent, and go immediately
+before the verb when present; they’re practically prefixes but the Ralians treat
+them as separate words. Note that few verbs have endings that coincide with a
+verb suffix, and these tend to be somewhat ambiguous.
+
+| pl. particles |             | 1st person | 2nd or 3rd |
+|---------------+-------------+------------+------------|
+| ko            | PST-PERF    | -oc        | -Ø         |
+| ko            | PRES-PERF   | -aj        | -a         |
+| ko            | FUT-PERF    | -asâ       | -sa        |
+| ci            | PST-HAB     | -nikoc     | -ni        |
+| ci            | PRES-HAB    | -nëngaj    | -nida      |
+| ci            | FUT-HAB     | -nëngasâ   | -nisa      |
+| kon           | PST-PROG    | -jikoc     | -ji        |
+| kon           | PRES-PROG   | -jikaj     | -jida      |
+| kon           | FUT-PROG    | -jikasâ    | -jiza      |
+| ka            | PST-IMPERF  | -moc -me   |            |
+| ka            | PRES-IMPERF | -maj       | -ma        |
+| ka            | FUT-IMPERF  | -masâ      | -masa      |
+
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>10</strong></div>
+  </div>
+  <a href="09-mareck.html" id="prev" rel="prev">Previous</a>
+</nav>
+#+END_EXPORT
+
+

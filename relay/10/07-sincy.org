@@ -1,0 +1,96 @@
+#+Title: Relay 10–7
+#+Date: 2018-06-03
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:07-sincy.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+“Knowledge has caused me standing here” said [to no object] person, owner of knowledge.
+
+This has caused: (that) nonsense has seen you well.
+
+You are (a) kind (something): you have listened to me.
+
+You must remember that!
+
+The shop was stopped from not working once they went away from the shop.
+
+It has caused the shop to not have shutdown.
+
+They have tried to figure it out.
+
+The shop was not closed(/dead), yes?
+
+It was. It was certainly closed, because angry monsters proclaimed an evil song.
+
+The shop was not working. Because of you, the shop was shut down (by ???), yes?
+
+I will proclaim a song, because I know: Evil is going to be by here (aka nearby).
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Orajha
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+“te źéama jha aava áwúvyja ida nuruge” ta taara tira illava ira ille nuru.
+
+ta źéama ra: ta kúśúma hyripo sja jatlúrúga.
+
+vosja kúllú hida: ta óótema jha aava sja.
+
+siśi urúmmúma ra sja.
+
+ta thara gevénge limútta, śui ta voma pitli néé illa kúllú rúttú illave limútta kalla.
+
+te źéara ta torama néé limúttaga ra.
+
+te kihima zavu raha raha.
+
+úlú ta vora néé toruga limúttaga, hawó.
+
+ta vora. ta taa lááúnggaga réétjuhhu ravviga dźarridjé, júúsitlu ta vora jháá tira toruga ra.
+
+ta vora néé kúllú rúttú tira limútta. úlú júúsitlu sja, te ngihatjama toruga limúttaga kalla, hawó?
+
+taatta aava lááúngga jha, júúsitlu illava jha illa nuruge: votta gevúmale sijanga kúllú réétjuhhu.
+#+END_conlang-text
+
+#+END_short-relay
+
+* WAIT Lexicon
+
+* WAIT Grammar
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>7</strong></div>
+  </div>
+  <a href="06-nyar.html" id="prev" rel="prev">Previous</a>
+  <a href="08-neo.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+

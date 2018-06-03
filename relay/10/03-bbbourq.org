@@ -1,0 +1,198 @@
+#+Title: Relay 10–3
+#+Date: 2018-06-03
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+“I learn a little here and there.” The shopkeeper blew his nose. “I sometimes
+come to a world where they understand things.”
+
+He turned his two small, sad eyes to Tuuflawar. “You have a kind face, friend. I
+want to tell you something.”
+
+“Tell me what?”
+
+“Taking care of the shop isn’t routine, you know. I never settle down, I always
+move, I never close the shop.”
+
+“Why don’t you stop?”
+
+“Oh! I cannot stop, you know. I suffer because of a curse, you know. A very bad
+thing.” He blew his nose again.
+
+“Is the curse forcing you to take care of the shop?”
+
+“Forever, friend, forever. And it will never stop! For a few hundred years! He
+was a sorcerer, you know. I did an evil thing.”
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Lortho
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+“kashidenin lalha dikhaneme thashi hana dasat.” radenikhi motikhani kisananau
+libinume. “konerin ikhi mashtamela ammar menanimi nimi dikhaneme.”
+
+phorennikhin bon menishu khume thufalardan. “efodhanni fakodasha ikhi dhalamu
+kafume. hankhanin seman ikhi dikhame mannumela.”
+
+“semananni masharime hunimela?”
+
+“mekhara minarona kisaname. dharokhar lumanin, rokhar somanin, dharokhar denalin
+kisaname.”
+
+“kaura malar dhadenalanni?”
+
+“dhatumedin denalo. finali peikhali nihokhanname. harlu malar menu dikhu.”
+radenikhi libinume.
+
+“kaura finali peikhali minaro manni kisaname?”
+
+“rokhar, fakodasha, rokhar. hana dharokhar denalaina dasat hanhan lhara!
+harlikhi i moshtharume. harikhin mena dikhame.”
+#+END_conlang-text
+
+#+END_short-relay
+
+* Lexicon
+NOTES: 
+- Infinitives will be listed followed by the (verb stem-)
+- Adjectives will be listed as its (root-)
+- Nouns will be listed followed by its (gender)
+
+#+ATTR_HTML: :class vocablist
+- ammar :: (adv.) where
+- binu :: (n. fem) nose
+- bon :: (numeral) two
+- dasat :: (adv.) after, then, later
+- denalo (denal-) :: (v.) to close, shut down
+- dha(k)- :: (NEG)
+- dhalam :: (adj.) nice, kind
+- dikha :: (n. neut) thing
+- efodho (efodh-) :: (v.) to have
+- finalo (final-) :: (v.) to cause (s.t.)
+- hana :: (conj.) and
+- hanhan :: (numeral) hundred
+- hankhan (hankhan-) :: (v.) to want
+- haret (har-) :: (v.) to do
+- harlan (harl-) :: (v.) to be
+- hokhan (hokhan-) :: (v.) to suffer, endure
+- hun :: (PN.1FSG)
+- ikhi :: (numeral) one; (indef. art) a/an
+- kafu :: (n. masc) face
+- kashiden (kashiden-) :: (v.) to learn
+- kaura :: (Q)
+- khu :: (n. fem) eye
+- kisana  :: (n. neut) shop, store
+- kodasha :: (n. neut) friend, comrade
+- konero (koner-) :: (v.) to come, arrive
+- lalh- :: (adj.) little, small, miniscule
+- luman (luman-) :: (v.) to rest, relax
+- malar :: (adv.) very
+- malar :: (interrogative) why
+- mannu :: (PN.2FSG)
+- mashar :: (dem. pron.; adv.) what
+- mashta :: (n. neut) planet, world
+- mekharo (mekhar-) :: (v.) to be difficult
+- men- :: (adj.) bad, evil
+- menan :: (v.) to understand
+- menish- :: (adj.) sad
+- minaro (minar-) :: (v.) to take care of, watch over
+- moshtharu :: (n. fem) wizard, sorcerer
+- motikhani :: (n. masc) keeper, owner
+- paikhali :: (n. masc) bad omen, curse
+- phorenno (phorenn-) :: (v.) to turn
+- raden (raden-) :: (v.) to clean
+- rokhar :: (adv.) always
+- seman (seman-) :: (v.) to say, tell
+- soman (soman-) :: (v.) to move, relocate
+- thashi :: (adv. Of time) now
+- thufalar :: Proper Name
+- tumet (tumed-) :: (v.) to be able (to)
+
+* Grammar
+Lortho is SVO and agglutinating with some minor inflection. There are ten cases
+which are explained here:
+http://lortho.conlang.org/wiki/index.php?title=Morphology#Grammatical_Case
+
+All nouns all end in a vowel and are one of three genders: -i (masc), -u (fem),
+and -a (neut). Adjectives precede the noun and agree with gender only. Nouns are
+not pluralized when counted. Numerals also come before the noun and do not take
+any affixes if they are cardinal numbers modifying said noun.
+
+** Pluralization
+Neuter and feminine nouns will add the suffix -ne before case
+suffixes. Masculine nouns will add the infix -en- before the final -i; if the
+noun ends in -ni, the infix will be -em-
+
+Possessive pronouns are prefixes added to the noun. The prefixes are:
+
+|    | Masc  | Fem   | Neut  |
+|----+-------+-------+-------|
+| 1S | ni-   | nu-   |       |
+| 2S | lin-  | lun-  |       |
+| 3S | li-   | lu-   | la-   |
+|----+-------+-------+-------|
+| 1P | nima- | numa- |       |
+| 2P | nani- | nanu- |       |
+| 3P | limi- | limu- | lima- |
+
+Adverbs end in -r and come before the word they modify; however, this is not a
+rule
+
+All verbs are conjugated in gender and number and must agree with the subject –
+implied or implicit. There are three types of verbs: -n verbs (the infinitive is
+also the stem), -o verbs (the verb stem is found by removing the final -o), and
+-t verbs (the verb stem is found by changing the final -t to -d).
+
+** Tenses
+There are three tenses present in this passage: present, past, and future. 
+- The present is formed by adding the personal endings to the verb stem
+- The past is formed by adding the suffix -ikh to the verb stem before the personal endings
+- The future is formed by adding the suffix -ain to the verb stem before the personal endings
+
+Action nominals (i.e. gerunds) are formed by adding the suffix -na to the end of
+the infinitive of -o and -n verbs; the suffix -ina is added to the infinitive of
+-t verbs. Action nominals are neuter by default.
+
+Personal endings for verbs are as follows:
+
+|    | Masc  | Fem   | Neut |
+|----+-------+-------+------|
+| 1S | -in   | -un   | -    |
+| 2S | -anni | -annu | -    |
+| 3S | -i    | -u    | -a   |
+|----+-------+-------+------|
+| 1P | -inan | -unan | -    |
+| 2P | -amin | -amun | -    |
+| 3P | -imi  | -imu  | -ima |
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>3</strong></div>
+  </div>
+  <a href="02-kozet.html" id="prev" rel="prev">Previous</a>
+  <a href="04-alllen.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT

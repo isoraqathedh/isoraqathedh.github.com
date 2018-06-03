@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-06-03 Sun 23:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Relay 10–4</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="../../global/Default.css"/>
+<link rel="stylesheet" href="../../global/org.css"/>
+<link rel="stylesheet" href="../relay.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="preamble" class="status">
+<header>
+<h1 id="Title">Relay 10–4<br/></h1>
+<h3 class="date">2018-06-03 (last exported 2018-06-03 Sun 23:01)</h3>
+</header>
+</div>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org89fd2a0">1. Translation</a></li>
+<li><a href="#org4e5545d">2. Lexicon</a></li>
+<li><a href="#org3d79acd">3. Grammar</a>
+<ul>
+<li><a href="#orgd68ddd1">3.1. Affixes and unrootlike doohickies</a></li>
+<li><a href="#org1cabf01">3.2. noun affixes:</a></li>
+<li><a href="#org0e9b850">3.3. verb affixes (non-personal)</a></li>
+<li><a href="#org2e9106f">3.4. Tense inflection:</a></li>
+</ul>
+</li>
+<li><a href="#org262da64">Navigation</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org89fd2a0" class="outline-2">
+<h2 id="org89fd2a0"><span class="section-number-2">1</span> Translation</h2>
+<div class="outline-text-2" id="text-1">
+<div class="short-relay">
+<p>
+
+</p>
+
+<div class="natlang-name">
+<p>
+English
+</p>
+
+</div>
+
+<div class="natlang-text">
+<p>
+&ldquo;I believe that I know a great deal of things.&rdquo; The shopkeeper blew his nose.  &ldquo;The people that come from where I do tend to know a lot.&rdquo;
+</p>
+
+<p>
+I looked at Sufarar sadly.
+</p>
+
+<p>
+&ldquo;You&rsquo;re a friendly one.&rdquo; he said. &ldquo;While I tell you this, pay attention.&rdquo;
+</p>
+
+<p>
+&ldquo;I will.&rdquo; (rote polite response to superior)
+</p>
+
+<p>
+&ldquo;Running this shop is difficult. I don&rsquo;t rest, I just buzz around like a bee. I never close the shop.&rdquo;
+</p>
+
+<p>
+&ldquo;Never close?&rdquo; (indirect polite question)
+</p>
+
+<p>
+&ldquo;Yes, it&rsquo;s impossible to close the shop. The evil spirit commands me. It&rsquo;s a powerful curse.&rdquo; The shopkeeper blew his nose.
+</p>
+
+<p>
+&ldquo;And while you run the shop, the curse&#x2026;?&rdquo; (indirect polite question)
+</p>
+
+<p>
+&ldquo;Yes, the curse requires me to run the shop. It won&rsquo;t end for a hundred years! While the spirit&rsquo;s curse continues, I do his work.&rdquo;
+</p>
+
+</div>
+
+<div class="conlang-name">
+<p>
+<code>langname</code>
+</p>
+
+</div>
+
+<div class="conlang-text">
+<p>
+&ldquo;nutatta.&rdquo; rukkan runam t&rsquo;upette bikkab t&rsquo;umuttassu. &ldquo;ú wuru nar gwe t&rsquo;ar t&rsquo;ut&rsquo;
+t&rsquo;akak&rdquo;.
+</p>
+
+<p>
+sufarar nenagun.
+</p>
+
+<p>
+&ldquo;arikasu. ninnappaki, anngunmi.&rdquo;
+</p>
+
+<p>
+&ldquo;au, nban negawi.&rdquo;
+</p>
+
+<p>
+&ldquo;runam ate i pafa t&rsquo;uba. inerapatrapat - anirini. runam inetapputapputta.&rdquo;
+</p>
+
+<p>
+&ldquo;au, ítappura i&#x2026;&rdquo;
+</p>
+
+<p>
+&ldquo;hí, netappu i pafupafu t&rsquo;uba. watag t&rsquo;unne. rekka wa t&rsquo;uba.&rdquo; rukkan bikkab
+t&rsquo;umuttassu.
+</p>
+
+<p>
+&ldquo;au, runam aterapaki, rekka i &#x2026;&rdquo;
+</p>
+
+<p>
+&ldquo;hí, rekka runam nate i t&rsquo;uppisap. rekka basi gung it&rsquo;ufenatta! wataga rekka
+it&rsquo;usupaki, nesansan.&rdquo;
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4e5545d" class="outline-2">
+<h2 id="org4e5545d"><span class="section-number-2">2</span> Lexicon</h2>
+<div class="outline-text-2" id="text-2">
+<dl class="org-dl vocablist">
+<dt>ak</dt><dd>v. (TR) to know (something) well, to understand</dd>
+<dt>anirini</dt><dd>id. buzzing, movement back and forth, bee-like action</dd>
+<dt>ar</dt><dd>v. (INTR) to be standing (unmoving), remain (in a location), live (somewhere)</dd>
+<dt>au</dt><dd>id. polite listening interest</dd>
+<dt>ba</dt><dd>v. (COP) predicative copula</dd>
+<dt>basi</dt><dd>num. hundred, generic long time</dd>
+<dt>bi</dt><dd>n. nose, nostril</dd>
+<dt>fe</dt><dd>v. (INTR) (of a state) to end</dd>
+<dt>gawi</dt><dd>v. (INTR) to obey (formal/polite)</dd>
+<dt>gu</dt><dd>n. year</dd>
+<dt>gun</dt><dd>v. (TR) to look at, pay attention to</dd>
+<dt>hí</dt><dd>id. agreement, acknowledgement of indirect question</dd>
+<dt>i</dt><dd>dem. this</dd>
+<dt>isap</dt><dd>v. (TR) to require, demand (something)</dd>
+<dt>it</dt><dd>v. (INTR) to speak</dd>
+<dt>kasu</dt><dd>v. (TR) to catch (an object), grab (something) suddenly, (colloquially) be friendly, charming, flirty, attractive</dd>
+<dt>mutta</dt><dd>v. (INTR) to spit, expell from the mouth, (vulgar) to ejaculate</dd>
+<dt>na</dt><dd>adv. to do something sadly, to be sad (while doing something)</dd>
+<dt>pafa</dt><dd>adj. tiring, difficult</dd>
+<dt>pafapafa</dt><dd>adj. impossible</dd>
+<dt>paki</dt><dd>sub. while, at the same time as, during, when</dd>
+<dt>rapat</dt><dd>v. (INTR) to rest, take a break</dd>
+<dt>rekka</dt><dd>n. curse (to do something), geas</dd>
+<dt>rukkan</dt><dd>n. man (formal)</dd>
+<dt>runam</dt><dd>n. shop, store, market stall</dd>
+<dt>san</dt><dd>v. (INTR) to work</dd>
+<dt>su</dt><dd>v. (INTR) to exist</dd>
+<dt>sufarar</dt><dd>n. proper name</dd>
+<dt>tappu</dt><dd>v. (TR) to block access to (a location), refuse entry, close (a shop)</dd>
+<dt>te</dt><dd>v. (TR) to command, demand, instruct, run (a business), control (a group)</dd>
+<dt>u</dt><dd>n. human</dd>
+<dt>utap</dt><dd>v. (INTR) to be skillful, well-rounded, world-wise</dd>
+<dt>wa</dt><dd>adj. big</dd>
+<dt>watag</dt><dd>n. evil spirit, demon</dd>
+<dt>wur</dt><dd>n. place, area, location (geographically)</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org3d79acd" class="outline-2">
+<h2 id="org3d79acd"><span class="section-number-2">3</span> Grammar</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+This lingus is SOV. Possessors come before the possessed noun, and so do
+(attributive) adjectives and numerals. demonstratives come after the noun.  Most
+information comes in affixes.  The head noun is only found inside the relative
+clause: in the main clause, there&rsquo;s a pronoun that replaces it. In nested
+relative clauses, this can get a little tricky.  The remote past tense doubles
+as a narrative marker, a bit like saying &ldquo;once upon a time&rdquo;. It&rsquo;s used in the
+first sentence of a narrative to begin it, but isn&rsquo;t used throughout the story.
+there are grammatical distinctions with politeness. some words are inherently
+more polite, and there&rsquo;s some affixes that increase politeness.  when speaking
+to somebody older or a social superior, the polite thing to do is ask &ldquo;indirect
+questions&rdquo; instead of direct ones. In indirect questions, a statement is made
+and left unfinished to invite the listener to answer, instead of &ldquo;demanding&rdquo;
+them to.  verbs in relative clauses and imperatives don&rsquo;t take politeness
+markings, belief markings, aspects, or tenses.  the persons of the subject and
+object are both marked on the verb.  the positive belief marker is used to
+emphasize a statement, or as a way to say &ldquo;it really is!&rdquo; or &ldquo;i swear that this
+is how things are!&rdquo;  &ldquo;adverbs&rdquo; are placed directly before the verb root.
+according to WALS, words like &ldquo;while&rdquo; are called &ldquo;adverbial subordinators.&rdquo; who
+knew, eh? those are suffixed on the verb.
+</p>
+</div>
+
+<div id="outline-container-orgd68ddd1" class="outline-3">
+<h3 id="orgd68ddd1"><span class="section-number-3">3.1</span> Affixes and unrootlike doohickies</h3>
+<div class="outline-text-3" id="text-3-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> subject pronouns</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Person</th>
+<th scope="col" class="org-left">Normal</th>
+<th scope="col" class="org-left">Respectful/humble</th>
+<th scope="col" class="org-left">Plural</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">1st</td>
+<td class="org-left">nu</td>
+<td class="org-left">nban</td>
+<td class="org-left">nunu</td>
+</tr>
+
+<tr>
+<td class="org-left">2nd</td>
+<td class="org-left">a</td>
+<td class="org-left">án</td>
+<td class="org-left">á(ʔ)</td>
+</tr>
+
+<tr>
+<td class="org-left">3rd</td>
+<td class="org-left">t&rsquo;u</td>
+<td class="org-left">t&rsquo;ún</td>
+<td class="org-left">t&rsquo;ut&rsquo;</td>
+</tr>
+
+<tr>
+<td class="org-left">4th</td>
+<td class="org-left">gwe</td>
+<td class="org-left">gún</td>
+<td class="org-left">gwepe</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 2:</span> object pronouns</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Person</th>
+<th scope="col" class="org-left">Normal</th>
+<th scope="col" class="org-left">Respectful/humble</th>
+<th scope="col" class="org-left">Plural</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">1st</td>
+<td class="org-left">nu(h)</td>
+<td class="org-left">nbanu</td>
+<td class="org-left">nuhnu</td>
+</tr>
+
+<tr>
+<td class="org-left">2nd</td>
+<td class="org-left">á(h)</td>
+<td class="org-left">áhan</td>
+<td class="org-left">áhá</td>
+</tr>
+
+<tr>
+<td class="org-left">3rd</td>
+<td class="org-left">t&rsquo;u(h)</td>
+<td class="org-left">t&rsquo;úhan</td>
+<td class="org-left">t&rsquo;uht&rsquo;u</td>
+</tr>
+
+<tr>
+<td class="org-left">4th</td>
+<td class="org-left">gwe(h)</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<dl class="org-dl">
+<dt>reflexive</dt><dd>r(i)-</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org1cabf01" class="outline-3">
+<h3 id="org1cabf01"><span class="section-number-3">3.2</span> noun affixes:</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+order: root-location-movement-possessor
+</p>
+
+<dl class="org-dl">
+<dt>in/at (an area, a flat or open surface)</dt><dd>-(s)u</dd>
+<dt>inside (an enclosed space, in water, in a crevice)</dt><dd>-(a)k</dd>
+<dt>movement to</dt><dd>-(n)g(i)</dd>
+<dt>movement away</dt><dd>-(Q)ab / -V:b</dd>
+<dt>possessor</dt><dd>-t(a)</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org0e9b850" class="outline-3">
+<h3 id="org0e9b850"><span class="section-number-3">3.3</span> verb affixes (non-personal)</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+order: neg-sbj-obj-adv-root-TAM/belief-politeness-adv.sub
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 3:</span> Person inflection</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">1st</th>
+<th scope="col" class="org-left">2nd</th>
+<th scope="col" class="org-left">3rd</th>
+<th scope="col" class="org-left">4th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">subj</td>
+<td class="org-left">n(e)-</td>
+<td class="org-left">a(Q)-</td>
+<td class="org-left">t&rsquo;(u)-</td>
+<td class="org-left"><i>complex†</i></td>
+</tr>
+
+<tr>
+<td class="org-left">obj</td>
+<td class="org-left">nn-</td>
+<td class="org-left">á(Q/h)-</td>
+<td class="org-left">{}-</td>
+<td class="org-left">p(eQ)-</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+†tt&rsquo; before a vowel,
+t&rsquo;u(Q) before a consonant that can be lengthened,
+t&rsquo;ú before a consonant that can&rsquo;t
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2e9106f" class="outline-3">
+<h3 id="org2e9106f"><span class="section-number-3">3.4</span> Tense inflection:</h3>
+<div class="outline-text-3" id="text-3-4">
+<dl class="org-dl">
+<dt>Recent/normal past</dt><dd>-s(u)</dd>
+<dt>Distant/irrelevant past (&ldquo;at some point&rdquo;)</dt><dd>-susu/-ssu</dd>
+<dt>Future</dt><dd>-nat</dd>
+<dt>Continuative/habitual (i am still Xing / i X (often))</dt><dd>Full reduplication of the root</dd>
+<dt>positive belief marker</dt><dd>-t:a</dd>
+<dt>Negation</dt><dd>i-</dd>
+<dt>Normal politeness</dt><dd>-ra</dd>
+<dt>Imperative</dt><dd>-m(i)</dd>
+</dl>
+</div>
+</div>
+</div>
+
+<footer id="outline-container-org262da64" class="outline-2">
+<h2 id="org262da64">Navigation</h2>
+<div class="outline-text-2" id="text-org262da64">
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>4</strong></div>
+  </div>
+  <a href="03-bbbourq.html" id="prev" rel="prev">Previous</a>
+  <a href="05-talla.html" id="next" rel="next">Next</a>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+</html>

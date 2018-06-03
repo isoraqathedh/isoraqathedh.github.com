@@ -1,0 +1,597 @@
+#+Title: Relay 10–5
+#+Date: 2018-06-03
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+"I know I am skillful." The man who runs the store sneezed. "I stand in the
+place that I've always known."
+
+I sadly looked at Sufarar.
+
+"You are friendly. Look at me now."
+
+"I will obey."
+
+"You run this store, and it is difficult. I do not rest, I am always moving. I
+am sure this store will never close."
+
+"This store won't close?"
+
+"This store is impossible to close. A demon told me. The curse is great." The
+man sneezed.
+
+"While you ran the store, the curse closed it?"
+
+"Unfortunately, the curse demanded for the store to be closed. I'm sure the
+curse will not end for a long time! The demon's curse did not exist when I
+worked here."
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Laikan
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+"hadiya yau vai; yau na jiyali." ajwa daz, vaun darauniya aa miram. "biya
+huzddal, vaun adan hadiya, yau."
+
+ilwa dibb Zuvara baulwi yau.
+
+"lu na viyaz. auv ha, ilwij yawi lu."
+
+"zumiddiya yau."
+
+"darauniya lu aa miram id, ya vi na uduri. adan bauziviya - adan jada humpi
+yau. baubbirariyaj miram id; hadiya yau vai."
+
+"baubbirariyaj miram id, zauha a."
+
+"mid baubbirariya hadan miram id. yigai ajma augu dau. unvaun na lazai." ajwa
+ daz.
+
+"auv darauniya lu aa miram, bbirarwaj unvaun vai, yauha a."
+
+"ubbyi unvaun vai; bbirariya ajal miram. auv daam madzi, bauniyinyij unvaun;
+ hadiya yau vai. auv gariya yau iddal, bauhiya unvaun ajmahigza augu."
+#+END_conlang-text
+
+#+END_short-relay
+
+* Gloss, IPA and Translation
+#+BEGIN_EXAMPLE
+*************************
+
+ENG TRS: "I know I am skillful." The man who runs the store sneezed. "I stand in the place that I've always known." 
+WIZ GLS: know-STA 1S.NOM 3Si.ACC; 1S.NOM have skill."  sneeze-ATEL man, REL.does control-STA ACC store. "stand-STA place-INE, REL.do HAB  know-STA, 1S.NOM."
+WIZ TRS: "hadiya  yau    vai;     yau    na   jiyali." ajwa        daz, vaun     darauniya   aa  miram. "biya      huzddal,   vaun   adan hadiya,   yau."
+
+WIZ: "hadiya yau vai; yau na jiyali." ajwa daz, vaun darauniya aa miram. "biya huzddal, vaun adan hadiya, yau."
+IPA: ["ɣə̤ˈdijə ˈjɑ ˈvai̯; ˈjɑ nə ʒɪˈjali." ˈaʒwə ˈdaz, ˈvɑn dəɾɑˈnijə ˈe ˈmiɾəm. "ˈbijə ˈɣɯ̤zˌtal, vɑn ˈadən ɣə̤ˈdijə, jɑ."]
+
+*************************
+
+ENG TRS: I sadly looked at Sufarar.
+WIZ GLS: look-ATEL sad  Sufarar HON-LAT 1S.NOM.
+WIZ TRS: ilwa      dibb Zuvara  baulwi  yau.
+
+WIZ: ilwa dibb Zuvara baulwi yau.
+IPA: [ˈilwə ˈdip ˈzɯvəɾə ˈbɑlwi jɑ.]
+
+*************************
+
+ENG TRS: "You are friendly. Look at me now."
+WIZ GLS: 2.NOM have kind.  During present, look-TEL-IRR 1S.ADP-LAT 2S.NOM.
+WIZ TRS: "lu   na   viyaz. auv    ha,      ilwij        yawi       lu.
+
+WIZ: "lu na viyaz. auv ha, ilwij yawi lu."
+IPA: [ˈlɯ nə ˈvijəz. ˈɑv ˈɣa̤, ˈilwiʒ ˈjawi lɯ.]
+
+*************************
+
+ENG TRS: "I will obey."
+WIZ GLS: obey-STA   1S.NOM
+WIZ TRS: "zumiddiya yau."
+
+WIZ: "zumiddiya yau."
+IPA: ["ˈzɯmɪˌdijə jɑ."]
+
+*************************
+
+ENG TRS: "You run this store, and it is difficult. I do not rest, I am always moving. I am sure this store will never close."
+WIZ GLS: control-STA 2S.NOM ACC store PROX, and 3Si.NOM have difficult. HAB  NEG-rest-STA - HAB  move-DUR always 1S.NOM. NEG-close-STA-IRR store PROX; know-STA 1S.NOM 3Si.ACC.
+WIZ TRS: "darauniya  lu     aa  miram id,   ya  vi      na   uduri.     adan bauziviya    - adan jada     humpi  yau.    baubbirariyaj     miram id;   hadiya   yau    vai."
+
+WIZ: "darauniya lu aa miram id, ya vi na uduri. adan bauziviya - adan jada humpi yau. baubbirariyaj miram id; hadiya yau vai."
+IPA: ["dəˈɾɑˌnijə ˈlɯ ˈe ˈmiɾəm ˈid, jə ˈvi nə ˈɯdɯɾi. əˈdan ˈʒadə ˈɣɯ̤mpi ˈjɑ. bɑˈpiɾəˌɾijəʒ ˈmiɾəm ˈid; ɣə̤ˈdijə ˈjɑ ˈvai̯."]
+
+*************************
+
+ENG TRS: "This store won't close?"7
+WIZ GLS: NEG-close-STA-IRR store this, yes   Q.
+WIZ TRS: "baubbirariyaj    miram id,   zauha a."
+
+WIZ: "baubbirariyaj miram id, zauha a."
+IPA: ["bɑˈpiɾəˌɾijəʒ ˈmiɾəm ˈid, ˈzɑɦɑ̤ ˈa."]
+
+*************************
+
+ENG TRS: "This store is impossible to close. A demon told me. The curse is great." The man sneezed.
+WIZ GLS: POT NEG-close-STA sure  store PROX. speak-TEL spirit bad  1S.ACC. curse  have great." sneeze-ATEL man.
+WIZ TRS: mid baubbirariya  hadan miram id.   yigai     ajma   augu dau.    unvaun na   lazai." ajwa        daz.
+
+WIZ: "mid baubbirariya hadan miram id. yigai ajma augu dau. unvaun na lazai." ajwa daz.
+IPA: ["ˈmid bɑˈpiɾəˌɾijə ˈɣadən ˈmiɾəm ˈid. jɪˈɡai̯ ˈaʒmə ˈɑɡɯ ˈdɑ. ˈɯnvɑn nə ləˈzai̯." ˈaʒwə ˈdaz.]
+
+*************************
+
+ENG TRS: "While you ran the store, the curse closed it?"
+WIZ GLS: During control-STA 2S.NOM ACC store, close-TEL-IRR curse  3Si.ACC, yes   Q?
+WIZ TRS: "auv   darauniya   lu     aa  miram, bbirarwaj     unvaun vai,     yauha a."
+
+WIZ: "auv darauniya lu aa miram, bbirarwaj unvaun vai, yauha a."
+IPA: ["ˈɑv dəˈɾɑˌnijə ˈlɯ ˈe ˈmiɾəm, ˈpiɾəɾwəʒ ˈɯnvɑn ˈvai̯, ˈjɑɦə̤ ˈa."]
+
+**************************
+
+ENG TRS: "Unfortunately, the curse demanded for the store to be closed. I'm sure the curse will not end for a long time! The demon's curse did not exist when I worked here."
+WIZ GLS: demand-TEL  curse  3Si.ACC; close-STA must store. during time much,  NEG-end-TEL-IRR curse;  know-STA 1S.NOM 3Si.ACC. during work-STA 1S.NOM here-INE, NEG-exist-STA curse  spirit-ABL bad.  
+WIZ TRS: "ubbyi      unvaun vai;     bbirariya ajal miram. auv    daam madzi, bauniyinyij     unvaun; hadiya   yau    vai.     auv    gariya   yau    iddal,    bauhiya       unvaun ajmahigza  augu.
+
+WIZ: "ubbyi unvaun vai; bbirariya ajal miram. auv daam madzi, bauniyinyij unvaun; hadiya yau vai. auv gariya yau iddal, bauhiya unvaun ajmahigza augu."
+IPA: ["ˈɯpji ˈɯnvɑn vai̯; ˈpiɾəˌɾijə ˈaʒəl ˈmiɾəm. ˈɑv ˈdem ˈmadzi, bɑˈnijɪnˌyiʒ ˈɯnvɑn; ɣə̤ˈdijə ˈjɑ ˈvai̯. ˈɑv ɡəˈɾijə jɑ ˈiˌtal, bɑˈɦi̤jə ˈɯnvɑn ˈaʒməˌɦi̤ɡzə ˈɑɡɯ."]
+
+#+END_EXAMPLE
+
+* WAIT Grammar
+Old Laikan is an a posteriori IE conlang I've been working on for a couple years.
+I'm sorry it's kinda very irregular.
+
+** Phonology
+It's not too important for this but Old Likan's phonetic inventory is as follows:
+
+#+Caption: Consonants
+| mʲ m | n     | ɲ  |      |    |
+| pʲ p | t     |    | kʲ k |    |
+|      | t͡s t͡s̠ | t͡ɕ |      |    |
+| ɸʲ ɸ | s  s̠  | ɕ  | xʲ x | xʷ |
+|      |       | j  |      | w  |
+|      | r     | rʲ |      |    |
+|      | l     | lʲ |      |    |
+
+#+Caption: Orthography
+| my m | n     | ɲ  |      |     |
+| py p | t     |    | ky k |     |
+|      | ts tz | tś |      |     |
+| fy f | s  z  | ś  | xy x | xw* |
+|      |       | y  | w    |     |
+|      | r     | ry |      |     |
+|      | l     | ly |      |     |
+
+*<x> is interchangeable with <h> orthographically.
+
+Vowels
+IPA:
+| iː i | ɨ | uː | u |
+| ɛː e | ə | ɔː | o |
+| æ    | a | ɑː |   |
+
+Ortho:
+| ī  i | ë | ū | u |
+| ē  e | ə | ō | o |
+| ä    | a | ā |   |
+
+
+
+Palatalization of consonants occurs in closed and nasal syllables before the
+following vowels and <y>:
+
+a~ä, ē, ō, e
+
+Note: this does not always happen before <a> and <e>, this suffixes will be
+marked for palatalization with a ʲ to disambiguate.
+
+| [+palatal] | [-palatal] |
+|------------+------------|
+| py         | p          |
+| ts         | t          |
+| ky         | k          |
+| fy         | f          |
+| xy         | x          |
+| hy         | h          |
+| ry         | r          |
+| ly         | l          |
+| my         | m          |
+| ñ          | n          |
+| pyr        | pr         |
+| str        | tr         |
+| kyr        | kr         |
+| fyr        | fr         |
+| xyr        | xr         |
+| hyr        | hr         |
+| pyl        | pl         |
+| stl        | tl         |
+| kyl        | kl         |
+| fyl        | fl         |
+| xyl        | xl         |
+| hyl        | hl         |
+
+** Morphology
+It is highly inflectional and has quite a few nominal and verbal paradigms for
+its declension and conjugations.
+
+*** Nominals
+Pronouns, Nouns and Adjectives are all inflected for case and number.
+Nouns and adjectives can take on article, demonstrative, possessive and relative pronouns.
+Furthermore, adjectives can take on superlatives and comparatives.
+
+Nominals decline for the following 5 cases:
+
+- <Oblique> :: The form of the noun that takes on articles, determinants and possessives. Marks the AGENT in the Middle-voice and Perfective aspect.
+- <Nominative/Absolutive> :: Marks the SUBJECT in the Imperfective aspect and the PATIENT in the Middle-voice and perfective aspect.
+- <Genitive> :: Marks the possessor of another noun and takes on certain postpositions to mark another case.
+- <Accusative> :: Marks the OBJECT in imperfective aspect but can also mark the second object in ditransitive verbs regardless of the imperfective or perfective aspect. Takes on many directional postpositions.
+- <Dative> :: Marks the indirect object and the benefactive. Main case for pospositions.
+
+and two numbers:
+
+- <Singular> :: acts like a paucal or collective in the indefinite.
+- <Plural> :: rarer in the indefinite, only used for very specific instances.
+
+**** Nouns
+There are approximately 5 main declensions of which they are further subdivided
+into Strong, Weak or Mixed paradigms.  Thus there are really 13 different with
+an additional masculine, feminine and neuter version of each.
+
+The paradigms, particularly the Strong grade are distinguished by changes in the
+last consonant of the root, alternating from palatalized to non palatalized.  In
+this mixed grade this affects both the final consonant of the root but also the
+initial one if the core vowel alternates between palatalizing and non
+palatalizing forms.  Palatalization only happens in the closed or nasal
+morphemes.
+
+Palatalization ONLY occurs in closed or nasal syllables!
+
+These are the ones you will be encountering in the given text:
+
+***** 1st Declension: Thematic -a stem (only masculine and neuter)
+#+ATTR_HTML: :class vocablist 
+- kara, karyaś :: "friend"
+#+Caption: Strong - Masculine
+|     | s      | p      |
+|-----+--------+--------|
+| OBL | kara-  | -      |
+| NOM | kara   | karāi  |
+| GEN | karyaś | karuṃ  |
+| ACC | karyaṃ | karats |
+| DAT | karē   | karyēm |
+
+#+ATTR_HTML: :class vocablist 
+- sotsaṃ, sotsaś :: "familiar"
+#+Caption: Strong - Neuter
+|     | s      | p      |
+|-----+--------+--------|
+| OBL | sota-  | -      |
+| NOM | sotsaṃ | sotā   |
+| GEN | sotsaś | sotuṃ  |
+| ACC | sotsaṃ | sotats |
+| DAT | sotē   | sotsēm |
+
+#+ATTR_HTML: :class vocablist 
+- hāi, hāyəś :: "penis, cock"
+#+Caption: Weak - Masculine
+|     | s     | p     |
+|-----+-------+-------|
+| OBL | hāy-  | -     |
+| NOM | hāi   | hāyəi |
+| GEN | hāyəś | hāyoṃ |
+| ACC | hāyne | hāyi  |
+| DAT | hāye  | hāyem |
+
+#+ATTR_HTML: :class vocablist 
+- wärśne, wärśəś :: "life's work, project"
+#+Caption: Weak - Neuter
+|     | s      | p      |
+|-----+--------+--------|
+| OBL | wärś-  | -      |
+| NOM | wärśne | wärśa  |
+| GEN | wärśəś | wärśoṃ |
+| ACC | wärśne | wärśa  |
+| DAT | wärśe  | wärśem |
+
+***** 2nd Declension: Thematic -ā stem (only feminine)
+#+ATTR_HTML: :class vocablist 
+- ześtā, ześtā :: "tongue, language"
+#+Caption: Strong - Feminine
+|     | s      | p        |
+|-----+--------+----------|
+| OBL | ześta- | -        |
+| NOM | ześtā  | ześtāi   |
+| GEN | ześtā  | ześtāwoṃ |
+| ACC | ześtāṃ | ześtots  |
+| DAT | ześtā  | ześtām   |
+
+#+ATTR_HTML: :class vocablist 
+- kāna, kāna :: "woman"
+#+Caption: Weak - Feminine
+|     | s     | p       |
+|-----+-------+---------|
+| OBL | kāna- | -       |
+| NOM | kāna  | kānai   |
+| GEN | kāna  | kānawoṃ |
+| ACC | kānaṃ | kānats  |
+| DAT | kāna  | kānam   |
+
+***** 3rd Declension: Athematic consonant stem
+#+ATTR_HTML: :class vocablist 
+- putz, paza :: "foot"
+#+Caption: Strong - Mixed Masculine
+|     | s     | p      |
+|-----+-------+--------|
+| OBL | paza- | -      |
+| NOM | putz  | pāz    |
+| GEN | paza  | pazuṃ  |
+| ACC | pāzo  | pāśe   |
+| DAT | pazē  | pazəma |
+
+#+ATTR_HTML: :class vocablist 
+- śir, śreza :: "heart"
+#+Caption: Strong - Mixed Neuter
+|     | s      | p       |
+|-----+--------+---------|
+| OBL | śreza- | -       |
+| NOM | śir    | śira    |
+| GEN | śreza  | śrezuṃ  |
+| ACC | śir    | śira    |
+| DAT | śrezē  | śrezəma |
+
+#+ATTR_HTML: :class vocablist 
+- patsar, patra :: "father"
+#+Caption: Strong - Mixed -r stem Masculine
+|     | s       | p        |
+|-----+---------+----------|
+| OBL | patra-  | -        |
+| NOM | patsar  | patsar   |
+| GEN | patra   | patruṃ   |
+| ACC | patsaro | patsare  |
+| DAT | patrē   | pastrema |
+
+#+ATTR_HTML: :class vocablist 
+- lyēme, lyenna	:: "lake"
+#+Caption: Strong - Mixed -n stem Feminine
+|     | s       | p        |
+|-----+---------+----------|
+| OBL | lyenna  | -        |
+| NOM | lyēme   | lyēmən   |
+| GEN | lyenna  | lyennun  |
+| ACC | lyēmono | lyēmone  |
+| DAT | lyennē  | lyemyema |
+
+#+ATTR_HTML: :class vocablist 
+- mur, mur :: "man"
+#+Caption: Weak - Fixed Masculine
+|     | s    | p      |
+|-----+------+--------|
+| OBL | mur- | -      |
+| NOM | mur  | mur    |
+| GEN | mur  | muroṃ  |
+| ACC | muro | mure   |
+| DAT | mure | muryem |
+
+#+ATTR_HTML: :class vocablist 
+- təxsēṃ, təxsēn :: "enemy"
+#+Caption: Weak - Fixed Neuter
+|     | s       | p        |
+|-----+---------+----------|
+| OBL | təxsēn  | -        |
+| NOM | təxsēṃ  | təxsēna  |
+| GEN | təxsēn  | təxsēnoṃ |
+| ACC | təxsēn  | təxsēna  |
+| DAT | təxsēne | təxsēñem |
+
+#+ATTR_HTML: :class vocablist 
+- kitre, kutre :: "neck, throat"
+#+Caption: Weak - Fixed -r stem Masculine
+|     | s     | p       |
+|-----+-------+---------|
+| OBL | kutr- | -       |
+| NOM | kitre | kutre   |
+| GEN | kutre | kutroṃ  |
+| ACC | kutro | kutre   |
+| DAT | kutre | kustrem |
+
+This can all be resumed as follows:
+	
+|     | -a          | -a     | -ā     | -ā    | cons. MIX  | cons. FIX |
+|     | strong      | weak   | strong | weak  | strong     | weak      |
+|-----+-------------+--------+--------+-------+------------+-----------|
+| s   |             |        |        |       |            |           |
+| OBL | -a-         | -∅-    | -a-    | -a-   | -a-        | -∅-       |
+| NOM | -a/-ʲaṃ/-äṃ | -∅/-ne | -ā     | -ā    | -∅         | -∅        |
+| GEN | -ʲaś/-äś    | -əś    | -ā     | -a    | -a         | -∅        |
+| ACC | -ʲaṃ/-äṃ    | -ne    | -āṃ    | -aṃ   | -o/-∅      | -o/-∅     |
+| DAT | -ē          | -e     | -ā     | -a    | -ē         | -e        |
+|-----+-------------+--------+--------+-------+------------+-----------|
+| p   |             |        |        |       |            |           |
+| NOM | -ʲai/-ā     | -əi/-a | -āi    | -ai   | -∅         | -∅        |
+| GEN | -uṃ         | -oṃ    | -āwoṃ  | -awoṃ | -uṃ        | -oṃ       |
+| ACC | -ats        | -ʲi    | -ots   | -ats  | -e/a       | -e/a      |
+| DAT | -ʲēm        | -ʲem   | -ām    | -am   | -əma/-ʲema | -ʲem      |
+
+**** Adjectives
+
+Adjectives decline to the same case, gender and number as the noun the describe and go before them.
+
+#+BEGIN_EXAMPLE
+ñau nātś
+new-ɴᴏᴍ.sɢ.ᴍ night-ɴᴏᴍ.sɢ.ᴍ
+New night.
+
+ñawawoṃ kiwätawoṃ
+new-ɢᴇɴ.ᴘʟ.ꜰ life-ɢᴇɴ.ᴘʟ.ꜰ
+New life.
+#+END_EXAMPLE
+
+For declension see NOUNS.
+
+**** Pronouns
+***** Personal Pronouns
+#+ATTR_HTML: :style columns:3
+#+BEGIN_div
+| 1    | s      | p      |
+|------+--------+--------|
+| OBL  | mya-   | ña-    |
+| NOM  | zäṃ    | wē     |
+| GEN  | myam   | yəryaṃ |
+| ACC  | ma     | yəma   |
+| DAT  | myatśe | yəmē   |
+|      |        |        |
+| POSS | myai-  | ñar-   |
+
+| 2    | s     | p    |
+|------+-------+------|
+| OBL  | tsa-  | wä-  |
+| NOM  | tū    | yū   |
+| GEN  | tsau  | ośoṃ |
+| ACC  | to    | ośo  |
+| DAT  | tsafe | ośmē |
+|      |       |      |
+| POSS | tsai- | wär- |
+
+| 3    |      |
+|------+------|
+| OBL  | hā-  |
+| NOM  | hwā  |
+| GEN  | hāu  |
+| ACC  | hwā  |
+| DAT  | hāfe |
+|      |      |
+| POSS | hāu- |
+#+END_div
+
+When marking a noun for possession, the noun is declines in the oblique with the
+pronoun suffixed to the end of it.  This goes for all the following pronouns as
+well.
+
+***** Definite article
+Marks for definiteness. Turns adjectives into nouns.
+|     | s    |      |       | p      |    |    |
+|     | m    | f    | n     | m      | f  | n  |
+| /   | <    |      | >     | <      |    | >  |
+|-----+------+------+-------+--------+----+----|
+| NOM | ya   | ī    | i(tz) | yē     | ī  | ā  |
+| GEN | yar  | yara | yar   | yaroṃ  | 〃 | 〃 |
+| ACC | iṃ   | īu   | i(tz) | ye(ts) | īi | ā  |
+| DAT | yamo | 〃   | 〃    | yōm    | 〃 | 〃 |
+
+When suffixed, the initial <y> palatalized the root of the noun, except for the
+Nominative masculine singular which is written <-a> after a consonant and <-ä>
+after a vowel (but pronounced ~/ja/~)
+
+***** Proximal Demonstrative
+|     | s     |       |        | p      |        |        |
+|     | m     | f     | n      | m      | f      | n      |
+| /   | <     |       | >      | <      |        | >      |
+|-----+-------+-------+--------+--------+--------+--------|
+| NOM | ha    | hā    | tā(tz) | tē     | tā     | 〃     |
+| GEN | tsaś  | 〃    | 〃     | tsaśoṃ | tāroṃ  | tsaśoṃ |
+| ACC | tsaṃ  | tāṃ   | tā(tz) | ta(ts) | tā(ts) | tā     |
+| DAT | tsame | tsaśe | tsame  | tsēm   | 〃     | 〃     |
+
+***** Distal Demonstrative
+
+***** Relative Pronoun
+
+***** Relative Determiner
+
+***** Anaphoric Pronoun
+
+**** Verbs
+
+***** Conjugation
+
+***** Verbal Classes
+
+***** Aspect Constructions
+
+***** Negation
+
+*** Syntax
+
+* WAIT Lexicon
+Nouns: nominative singular, genitive singular, definite nominative singular (with oblique root)		Declension Number.
+
+Adjectives: nominative singular masculine, genitive singular masculine, nominative singular feminine	All 1st Declension (m/n) or 2nd (f)
+
+Verbs: active 1st singular present imperfective, active 1st singular past imperfective, perfective root, past participle nominative singular masculine	verbal class.
+
+| Root                            | Decline | Gloss                                                   |
+|---------------------------------+---------+---------------------------------------------------------|
+| en, yau, yar, ośots             | IRR.    | to be, COPULA                                           |
+| ërotā, ërotā, ërotaī            | 2f.     | curse                                                   |
+| hāu, hāwəś, hāwa                | adj.    | hard, sharp, difficult                                  |
+| hāyen, hayäṃ, hāi, hayats       | ii.     | end, finish; AUX. CESSATIVE                             |
+| hiś                             | adv.    | AFFIRMATIVE                                             |
+| hītśan, tsāu, hītśa, tsasta     | iii.    | to stand                                                |
+| īzër                            | det.    | here                                                    |
+| ka                              | conj.   | and, also, but                                          |
+| kitśon, ketśuu, kitśo, ketśusta | v.      | to rule, to shape up, to manage                         |
+| lizo, lizne, liz, lyezats       | i.      | to leave something behind, to leave, to depart          |
+| māhan, məhāu, māha, məhāsta     | iii.    | to be able, to do                                       |
+| mi-                             | pre     | NEGATIVE                                                |
+| mien, myau, myar, miśots        | IRR.    | Negative COPULA                                         |
+| mlyeya, mlyeyäś, mlyeyā         | adj.    | nice, pleasant, proper                                  |
+| okorā, okorā, okoraī            | 2f.     | song, chant; fate                                       |
+| ośo, ośoś, ośoä                 | 1m.     | lord, sir                                               |
+| pənu                            | conj.   | but                                                     |
+| pətsi                           | adv.    | after, later in time, following                         |
+| fa                              | adv.    | truly, surely                                           |
+| fyreka, fyrekäś, fyrekā         | adj.    | angry, violent                                          |
+| ryako, rāṃ, ryak, rāts          | i.      | to speak, to say                                        |
+| śäserme, śäro, śäsre, śərasta   | iv.     | to abate, to stop, to come to a halt                    |
+| śēśtme, śētśo, śētśm śetśasta   | iv.     | to close, to shut                                       |
+| śorā, śorā, śoraī               | 2f.     | spirit, demon                                           |
+| sun, suu, su, susta             | iii.    | to see, to watch                                        |
+| suts, susta, sustaä             | 3m.     | seer, watcher                                           |
+| tärśen, tresäṃ, tärəś, tresats  | ii.     | to look at, to glance, to see properly                  |
+| tāzarme, täro, tāzar, tərasta   | iv.     | to work, to make order                                  |
+| təti                            | conj.   | CONDITIONAL, so, then, if                               |
+| tosa, tosäś, tosā               | adj.    | wrong, bad                                              |
+| tśun, tśuu, tśusta              | iii.    | to take, to bear in mind                                |
+| tui                             | conj.   | but (bearing in mine)..., but (regardless)..., save for |
+| wätle, wätləś, wätla            | 1m.     | time, a while                                           |
+| wēzen, wiziñaṃ, wēz, wizinats   | ii.     | to know                                                 |
+| wu                              | conj.   | thus, so                                                |
+| xyleñōn, xylōu, xyleñō, xylosta | iii.    | to hear                                                 |
+| yətsar                          | conj.   | also                                                    |
+| zeta, zetsaś, zetaä             | 1m.     | shop, store, small building                             |
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>5</strong></div>
+  </div>
+  <a href="04-alllen.html" id="prev" rel="prev">Previous</a>
+  <a href="06-nyar.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+

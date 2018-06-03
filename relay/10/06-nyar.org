@@ -1,0 +1,112 @@
+#+Title: Relay 10–6
+#+Date: 2018-06-03
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+“To be able to know,” the seer said, “I stand here.”
+
+Thus, Zawaram sees you all well.
+
+“You’re nice, but listen:”
+
+“Bear in mind!”
+
+“Your shop also has not stopped working, that they leave. So they know the shop
+hasn’t shut.
+
+“It hasn’t shut, no?”
+
+“It was, but surely then it did shut, then an angry spirit sang its horrible
+song.”
+
+“That because of you the shop didn’t work and didn’t close, no?”
+
+“Then I sang my song, but I know after a while here the angry spirit’s curse
+will be at work.”
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Laikan
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+"Məhayaki wēzen," sustaä rātz, "īzër hītśamyar, wu."
+
+Ośoṃ Zuwaraṃ tärśen.
+
+"Tū mlyeya ere, tui xyleñośima."
+
+"Tśustizäṃ."
+
+"Tətiyətsar hāuki zetsäṃ kitśoyit... mitāzarmeyahāyən, hāu tā liztoṃ. Wu zetaä
+miśeśtma, wēzenki."
+
+"Miśeśtma, hiś?"
+
+"fūsit... pənufa, təti śeśtmaki, təti śora fyreka. tosawəsatsar okorā fūsit!"
+rātz.
+
+"Ka tā śawo tsau zetaä tāzaretiyayëz ka miśeśtuya, hiś?"
+
+"Təti okorā zäṃ pyratśmaäki, śeśtśëzki. Pənu wāzen, pətsi wätle, ërotaī
+miśäsersitre. Īzër tāzarmeyayen, ërotaī fyreka śorayara miets."
+
+------
+
+Tiryo p​ïpelrï; “tsilëba Bom Ssonna go; gyïmmnatsïff fë.”
+
+Nyënn f​ë; mippogli flinn Tsaboram danoTam.
+
+Tom ​sinfïmissï; fomna Tom Bomi f​ë.
+
+Prïdryi Tom Nyen!
+
+Ninifnï boga batïryam; flom ​Nyë ​tïryamï ga | ​Nyënn f​ë; dem batïryam.
+
+Notsi​ Nyë Nyen.
+
+Dem ​batïryam; ​ëga?
+
+Nyonn; Gyinogli ëddiblë dem; blak​ï byëkkiprïpyim yommerbloke.
+
+Nïfni batïryam; Dem batïryam; Tomi ​f​ë, ​ëga?
+
+Ëddiblë bloki Bom bloka; nats​ï Bom; n​ëddiglë kyofye tsrën bbëbliprëtsinnë.
+
+#+END_conlang-text
+
+#+END_short-relay
+
+* WAIT Lexicon
+
+* WAIT Grammar
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>6</strong></div>
+  </div>
+  <a href="05-talla.html" id="prev" rel="prev">Previous</a>
+  <a href="07-sincy.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+

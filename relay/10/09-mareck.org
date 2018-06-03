@@ -1,0 +1,76 @@
+#+Title: Relay 10–9
+#+Date: 2018-06-03
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:09-mareck.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+man said "i caused wisdom to sit"
+he caused you to thoroughly see nonsense
+him
+was work of store not partially stop when he walked from store
+he caused store not sleep
+they tried to know them
+store sleep? yes
+he did. when evil beast sang song, he slept verily
+be store not work. when you caused store slept? yes
+#+END_VERSE
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+lang8
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+ágik boógakí ke kipi hák kaeh gáʔoo
+ágik kaeh keʔo keʔo ɾiʔi íge kipi
+ágik ágik
+kabí íge ʔapí íge ke ágik híba kabí áúʔiɾógi
+ágik kaeh íge kabí
+ɾiʔa ɾiʔa ʔapíkabí kipi
+kuú íge kabí / gá
+bíkí áúʔi / ke haɾa ɾiʔa ikɾiboógakí kaeh íge kabí
+íge kabí / kuú kaeh íge kabí gá
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
+
+* Grammar
+In lieu of a tailored grammar, [[file:09-lang8%20(0.1).pdf][the complete reference grammar]] is provided.
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>9</strong></div>
+  </div>
+  <a href="08-neo.html" id="prev" rel="prev">Previous</a>
+  <a href="10-andi.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+
+
