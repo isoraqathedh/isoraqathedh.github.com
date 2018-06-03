@@ -11,7 +11,7 @@ This is the summary document for relay 10.
 For a more detailed version of these torches,
 please click on a specific link to view the relay.
 
-* kozet -- ~langname~
+* kozet -- Arka
 #+BEGIN_short-relay
 
 #+BEGIN_detail-link
@@ -292,7 +292,7 @@ will be at work.”
 #+END_natlang-text
 
 #+BEGIN_conlang-name
-Laikan
+Blïmbi
 #+END_conlang-name
 
 #+BEGIN_conlang-text
@@ -469,8 +469,7 @@ ebMayemu mo igu, kai esim mas: ebAi reu oda.
 
 #+END_short-relay
 
-
-* mareck -- ~langname~
+* mareck -- 8
 #+BEGIN_short-relay
 
 #+BEGIN_detail-link
@@ -496,7 +495,7 @@ be store not work. when you caused store slept? yes
 #+END_natlang-text
 
 #+BEGIN_conlang-name
-~langname~
+lang8
 #+END_conlang-name
 
 #+BEGIN_conlang-text
@@ -515,11 +514,11 @@ bíkí áúʔi / ke haɾa ɾiʔa ikɾiboógakí kaeh íge kabí
 
 #+END_short-relay
 
-* andi -- ~langname~
+* andi -- Modern Ralian
 #+BEGIN_short-relay
 
 #+BEGIN_detail-link
-No further detail
+[[file:10-andi.html][Full torch]]
 #+END_detail-link
 
 #+BEGIN_natlang-name
@@ -540,7 +539,7 @@ they took away his/her movement? / yes, their song caused him/her to stop
 #+END_natlang-text
 
 #+BEGIN_conlang-name
-~langname~
+Modern Ralian
 #+END_conlang-name
 
 #+BEGIN_conlang-text
