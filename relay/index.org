@@ -1,0 +1,13 @@
+#+Title: Relay
+#+Date: 2018-06-03
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="../global/Default.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../global/org.css">
+#+OPTIONS: title:nil
+
+
+A "relay" is Chinese whispers plus translation.
+
+Some of the relays present:
+
+- [[file:10/index.html][Relay 10]]
+- Relay 11 (in progress)

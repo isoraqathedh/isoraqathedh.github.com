@@ -1,0 +1,82 @@
+/* Header */
+
+header h1#Title {
+    background-color: #FFC800;
+    margin: 0 -0.65em;
+}
+
+#org-div-home-and-up {
+    background-color: #FFC800;
+    border-bottom: 1px solid #B28C00;
+    margin: 0 -1.5em;
+    padding: 0 2em 0.2em;
+}
+
+#org-div-home-and-up a {
+    color:#1A1AFF;
+}
+
+header h2.author {
+    text-align:right;
+    margin:0;
+    border-bottom:0px;
+    padding:0.2em;
+    background-color:#FFD024;
+}
+
+header h3.date {
+    margin: 0 -1em 1.65em;
+    padding:0.2em;
+    text-align:right;
+    background-color:#FFDE5F;
+}
+
+nav#TOC, div#table-of-contents {
+    color:#FFC800;
+    font-size:100%;
+    width:30%;
+    margin:0 1em;
+    border-width:1px;
+    float:left;
+    border:2px solid #666;
+    background-color:#FFC800;
+}
+
+/* Navigation */
+
+body>nav#TOC ul, body>nav#TOC ol,
+div#table-of-contents ul, div#table-of-contents ol {
+    font-size:80%;
+    padding:0 2em 0;
+    font-weight:normal;
+    color:#AF2303;
+}
+
+body nav#TOC h2, div#table-of-contents h2 {
+    text-align:center;
+    color: #FFC800;
+    background-color: #AF2303;
+    margin: 0 0 auto;
+    padding: 0.5em 0;
+}
+
+body>nav#TOC ol, div#table-of-contents ol {
+    text-align:left;
+    padding:0.1em 0 0.2em 2em;
+    margin-left:0;
+    margin-right:0;
+}
+body nav#TOC li, div#table-of-contents li {
+    margin:0;
+}
+body>nav#TOC ol ol, body>nav#TOC ul ul,
+div#table-of-contents ol ol, div#table-of-contents ul ul{
+    font-size:100%;
+    padding-top:0;
+    margin-top:0;
+    padding-right:0;
+}
+body>nav ul li:first-child:before,
+div#table-of-contents ul li:first-child:before {
+    content:none;
+}

@@ -1,0 +1,110 @@
+"nutatta." rukkan runam t'upette bikkab t'umuttassu. "ú wuru nar gwe t'ar t'ut' t'akak".
+
+sufarar nenagun.
+
+"arikasu. ninnappaki, anngunmi."
+
+"au, nban negawi."
+
+"runam ate i pafa t'uba. inerapatrapat - anirini. runam inetapputapputta."
+
+"au, ítappura i..."
+
+"hí, netappu i pafupafu t'uba. watag t'unne. rekka wa t'uba." rukkan bikkab t'umuttassu.
+
+"au, runam aterapaki, rekka i ..."
+
+"hí, rekka runam nate i t'uppisap. rekka basi gung it'ufenatta! wataga rekka it'usupaki, nesansan."
+
+Grammatical tidbits:
+  This lingus is SOV. Possessors come before the possessed noun, and so do (attributive) adjectives and numerals. demonstratives come after the noun.
+  Most information comes in affixes.
+  The head noun is only found inside the relative clause: in the main clause, there's a pronoun that replaces it. In nested relative clauses, this can get a little tricky.
+  The remote past tense doubles as a narrative marker, a bit like saying "once upon a time". It's used in the first sentence of a narrative to begin it, but isn't used throughout the story.
+  there are grammatical distinctions with politeness. some words are inherently more polite, and there's some affixes that increase politeness.
+  when speaking to somebody older or a social superior, the polite thing to do is ask "indirect questions" instead of direct ones. In indirect questions, a statement is made and left unfinished to invite the listener to answer, instead of "demanding" them to.
+  verbs in relative clauses and imperatives don't take politeness markings, belief markings, aspects, or tenses.
+  the persons of the subject and object are both marked on the verb.
+  the positive belief marker is used to emphasize a statement, or as a way to say "it really is!" or "i swear that this is how things are!"
+  "adverbs" are placed directly before the verb root.
+  according to WALS, words like "while" are called "adverbial subordinators." who knew, eh? those are suffixed on the verb.
+  
+Affixes and unrootlike doohickies
+  
+  subject pronouns (normal, respectful/humble, plural)
+    1st: nu, nban, nunu
+	2nd: a, án, á(ʔ)
+	3rd: t'u, t'ún, t'ut'
+	4th: gwe, gún, gwepe
+  object pronouns (normal, respectful/humble, plural
+    1st: nu(h), nbanu, nuhnu
+	2nd: á(h), áhan, áhá
+	3rd: t'u(h), t'úhan, t'uht'u
+	4th: gwe(h)
+    reflexive: r(i)-
+	
+  noun affixes:
+   order: root-location-movement-possessor
+    in/at (an area, a flat or open surface) -(s)u
+	inside (an enclosed space, in water, in a crevice) -(a)k
+    movement to: -(n)g(i)
+	movement away: -(Q)ab / -V:b
+	possessor: -t(a)
+
+  verb affixes (non-personal)
+   order: neg-sbj-obj-adv-root-TAM/belief-politeness-adv.sub
+   person: 1st, 2nd, 3rd, and 4th
+     subject: n(e)-, a(Q)-, t'(u)-, *
+	 object: nn-, á(Q/h)-, {}-, p(eQ)-
+	 *tt' before a vowel, t'u(Q) before a consonant that can be lengthened, t'ú before a consonant that can't
+   tense
+    past
+	 recent/normal: -s(u)
+	 distant/irrelevant ("at some point"): -susu/-ssu
+	future: -nat
+   reduplication:
+	 full (of the root): continuative/habitual (i am still Xing / i X (often))
+   positive belief marker: -t:a
+   negation: i-
+   politeness
+    normal politeness: -ra
+  imperative:
+    -m(i)
+	
+Roots and the like
+
+  ak - v. (TR) to know (something) well, to understand
+  anirini - id. buzzing, movement back and forth, bee-like action
+  ar - v. (INTR) to be standing (unmoving), remain (in a location), live (somewhere)
+  au - id. polite listening interest
+  ba -v. (COP) predicative copula
+  basi - num. hundred, generic long time
+  bi - n. nose, nostril
+  fe - v. (INTR) (of a state) to end
+  gawi - v. (INTR) to obey (formal/polite)
+  gu - n. year
+  gun -v. (TR) to look at, pay attention to
+  hí - id. agreement, acknowledgement of indirect question
+  i - dem. this
+  isap - v. (TR) to require, demand (something)
+  it - v. (INTR) to speak
+  kasu - v. (TR) to catch (an object), grab (something) suddenly, (colloquially) be friendly, charming, flirty, attractive
+  mutta - v. (INTR) to spit, expell from the mouth, (vulgar) to ejaculate
+  na - adv. to do something sadly, to be sad (while doing something)
+  pafa -adj. tiring, difficult
+  pafapafa - adj. impossible
+  paki - sub. while, at the same time as, during, when
+  rapat -v. (INTR) to rest, take a break
+  rekka - n. curse (to do something), geas
+  rukkan - n. man (formal)
+  runam - n. shop, store, market stall
+  san - v. (INTR) to work
+  su - v. (INTR) to exist
+  sufarar - n. proper name
+  tappu -v. (TR) to block access to (a location), refuse entry, close (a shop)
+  te - v. (TR) to command, demand, instruct, run (a business), control (a group)
+  u - n. human
+  utap - v. (INTR) to be skillful, well-rounded, world-wise
+  wa - adj. big
+  watag - n. evil spirit, demon
+  wur - n. place, area, location (geographically)

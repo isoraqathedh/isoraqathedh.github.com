@@ -1,0 +1,27 @@
+#+Title: Relay 10
+#+Date: 2018-06-02
+#+HTML_LINK_UP: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+This is the summary document for relay 10.
+For a more detailed version of these torches,
+please click on a specific link to view the relay.
+
+* kozet -- ~langname~
+
+* bbbourq -- ~langname~
+
+* alllen -- ~langname~
+
+* talla  -- Laikan
+
+* nyar -- Blïmbi
+
+* sincy -- orajha
+
+* mareck -- ~langname~
+
+* andi -- ~langname~

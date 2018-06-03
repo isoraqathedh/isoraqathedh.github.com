@@ -1,0 +1,108 @@
+"an sab kal atu o lyu." sal toaerat. "an luko ail fia le luus loki tuus."
+lu korat ta ins lis emt a tuuflawar. "ti tiles eel niit, keyu. an en ris okt
+tu a ti."
+
+"okt to al an?"
+
+"xaas ate de ikn tisee. an ref aaxa, an monk aluut, an is aaxa ate."
+
+"es ti en is?"
+
+"ou, an is vil tisee. an garv mil anver tisee. tul xet fuo." lu toaerat me.
+
+"anver varsor ti xaas ate?"
+
+"teom, keyu, teom. ont is aaxa! sov togal salt! lu artan at xa tisee. an sot
+tul velnar."
+
+Grammar:
+
+Arka uses an SVO word order. Adjectives come after nouns. Numerals come before
+what they modify if they're cardinal and follow their antecedents if they're
+ordinal. Modal adverbs directly follow the verb. Free adverbs (everything
+else) can sit anywhere in the sentence, but if they're not adjacent to the
+verb they modify, they take the suffix <-el> after a consonant or <-l> after
+a vowel.
+
+Verbs take the following inflections:
+
+/		after consonant	after vowel	copula	(neg)
+base		-		-		et	de
+past		-at		-t		at	det
+perfect		-ik		-k		ik	?
+progressive	-or		-r		or	?
+continuous	-es		-s		es	?
+
+Verbs are negated using the particle <en> before it, except for <et>, which
+becomes <de>.
+
+Lexicon:
+
+ta (num) – two
+ti (pron) – 2nd person singular
+tisee (intj) – ~ you know?
+til (v) – have
+to (pron) – what (inanimate)
+togal (num) – a few hundred
+toaer (n) – snot
+toaer (v) – blow one's nose
+teom (n) – infinity
+teom (adj) – infinite
+teom (adv) – for ever
+tu (pron) – 3rd person near inanimate singular
+tul (n) – thing, object
+tuus (pron) – 3rd person near inanimate plural
+kal (adv) – a little
+kor (n) – direction
+kor (v) – turn (acc) toward (dat)
+kor (pp) – toward
+keyu (n) – guest
+xaas (v) – take care of
+xet (adj) – bad, troublesome, bothersome
+sab (v) – wear, put on, learn
+sal (n) – leader, shopkeeper, dealer in a game
+sal (v) – lead
+salt (n) – year
+so (v) – do
+sov (pp) – for (a timespan)
+niit (n) – kind
+vars (v) – force (acc) to do something
+vil (adj) – cannot
+velnar (adj) – evil
+fuo (adj) – very
+mil (pp) – causative ("because of")
+monk (n) – immigration, migration, relocation
+monk (v) – move house, change residence, relocate jobs
+me (adv) – again
+de (v) – negative copula
+garv (v) – suffer from (caus)
+ris (v) – dislike, hate, be loathed to
+ris (adv) – do not want to
+ref (v) – calm down, settle down
+lyu (pron, adv) – there
+loki (v) – understand
+lu (pron) – 3rd person near animate singular
+luko (n) – arrival, check-in
+luko (v) – arrive, land on, transmit, pass down, conduct
+luus (pron) – 3rd person near animate plural
+a (pp) [al before vowels] – dative ("to")
+ate (n) – shop, store
+atu (pron, adv) – here
+an (pron) – 1st person singular
+anver (n) – curse
+artan (n) – magician, sorceror
+aluut (adv) – always
+aaxa (adv) – never
+ikn (n) – life, routine
+is (v) – stop, turn off, close, stop, end
+ins (n) – eye
+o (conj) [ont before vowels] – and
+okt (v) – tell, inform, announce, transmit, pass down, conduct
+ou (intj) – ah!
+et (v) – copula
+es (adv) – why?
+emt (n) – sadness
+emt (adj) – sad
+eel (n) – face
+eel (v) – turn one's face toward (dat)
+
