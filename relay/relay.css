@@ -1,8 +1,16 @@
 div.short-relay, div.full-relay {
     display: grid;
-    grid-template-columns: [natlang] 50% [conlang] 50% [cend];
-    grid-template-rows: [link] 1.5em [name] 40px [text] auto [rend];
     margin-top: 0;
+    grid-template-columns: [natlang] 50% [conlang] 50% [cend];
+
+}
+
+div.short-relay {
+    grid-template-rows: [link] 1.5em [name] 40px [text] auto [rend];
+}
+
+div.full-relay {
+    grid-template-rows: [link] 1.5em [name] 40px [text] auto [gloss] auto [rend];
 }
 
 div.detail-link {
@@ -26,6 +34,18 @@ div.natlang-name {
     grid-column-start: natlang;
     grid-row-start: name;
     border-right: 1px solid #B28C00;
+}
+
+div.ipa {
+    grid-row-start: gloss;
+    grid-column-start: natlang;
+    border-top: 1px solid #B28C00;
+}
+
+div.gloss {
+    grid-row-start: gloss;
+    grid-column-start: conlang;
+    border-top: 1px solid #B28C00;
 }
 
 div.natlang-name p, div.conlang-name p {
