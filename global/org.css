@@ -80,3 +80,12 @@ body>nav ul li:first-child:before,
 div#table-of-contents ul li:first-child:before {
     content:none;
 }
+
+/* Footer */
+body>div>footer:last-of-type {
+    max-width:64em;
+    margin:0 -1em -3em;
+    background-color:#FFC800;
+    border-top:3px solid #FFC800;
+    color:#463500;
+}
