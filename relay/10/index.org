@@ -1,6 +1,7 @@
 #+Title: Relay 10
 #+Date: 2018-06-02
 #+HTML_LINK_UP: ../index.html
+#+HTML_LINK_HOME: ../index.html
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
@@ -11,17 +12,548 @@ For a more detailed version of these torches,
 please click on a specific link to view the relay.
 
 * kozet -- ~langname~
+#+BEGIN_short-relay
 
-* bbbourq -- ~langname~
+#+BEGIN_detail-link
+[[file:02-kozet.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+'I pick up a bit, here and there.' The shopkeeper blew his nose. 'Sometimes I
+land on a world where they understand these things.' He turned a pair of small
+sad eyes on Twoflower. 'You've got a kind face, sir. I don't mind telling you.'
+
+'Telling me what?'
+
+'It's no life, you know, minding the Shop. Never settling down, always on the
+move, never closing.'
+
+'Why don't you stop then?'
+
+'Ah, that's it, you see, sir – I can't. I'm under a curse, I am. A terrible
+thing.' He blew his nose again.
+
+'Cursed to run a shop?'
+
+'Forever, sir, forever. And never closing! For hundreds of years! There was this
+sorcerer, you see. I did a terrible thing.'
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Arka
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+"an sab kal atu o lyu." sal toaerat. "an luko ail fia le luus loki tuus."
+lu korat ta ins lis emt a tuuflawar. "ti tiles eel niit, keyu. an en ris okt
+tu a ti."
+
+"okt to al an?"
+
+"xaas ate de ikn tisee. an ref aaxa, an monk aluut, an is aaxa ate."
+
+"es ti en is?"
+
+"ou, an is vil tisee. an garv mil anver tisee. tul xet fuo." lu toaerat me.
+
+"anver varsor ti xaas ate?"
+
+"teom, keyu, teom. ont is aaxa! sov togal salt! lu artan at xa tisee. an sot
+tul velnar."
+#+END_conlang-text
+
+#+END_short-relay
+
+* bbbourq -- Lortho
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:03-bbbourq.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+“I learn a little here and there.” The shopkeeper blew his nose. “I sometimes
+come to a world where they understand things.”
+
+He turned his two small, sad eyes to Tuuflawar. “You have a kind face, friend. I
+want to tell you something.”
+
+“Tell me what?”
+
+“Taking care of the shop isn’t routine, you know. I never settle down, I always
+move, I never close the shop.”
+
+“Why don’t you stop?”
+
+“Oh! I cannot stop, you know. I suffer because of a curse, you know. A very bad
+thing.” He blew his nose again.
+
+“Is the curse forcing you to take care of the shop?”
+
+“Forever, friend, forever. And it will never stop! For a few hundred years! He
+was a sorcerer, you know. I did an evil thing.”
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Lortho
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+“kashidenin lalha dikhaneme thashi hana dasat.” radenikhi motikhani kisananau
+libinume. “konerin ikhi mashtamela ammar menanimi nimi dikhaneme.”
+
+phorennikhin bon menishu khume thufalardan. “efodhanni fakodasha ikhi dhalamu
+kafume. hankhanin seman ikhi dikhame mannumela.”
+
+“semananni masharime hunimela?”
+
+“mekhara minarona kisaname. dharokhar lumanin, rokhar somanin, dharokhar denalin
+kisaname.”
+
+“kaura malar dhadenalanni?”
+
+“dhatumedin denalo. finali peikhali nihokhanname. harlu malar menu dikhu.”
+radenikhi libinume.
+
+“kaura finali peikhali minaro manni kisaname?”
+
+“rokhar, fakodasha, rokhar. hana dharokhar denalaina dasat hanhan lhara!
+harlikhi i moshtharume. harikhin mena dikhame.”
+#+END_conlang-text
+
+#+END_short-relay
 
 * alllen -- ~langname~
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:04-alllen.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+"I believe that I know a great deal of things." The shopkeeper blew his nose.  "The people that come from where I do tend to know a lot."
+
+I looked at Sufarar sadly.
+
+"You're a friendly one." he said. "While I tell you this, pay attention."
+
+"I will." (rote polite response to superior)
+
+"Running this shop is difficult. I don't rest, I just buzz around like a bee. I never close the shop."
+
+"Never close?" (indirect polite question)
+
+"Yes, it's impossible to close the shop. The evil spirit commands me. It's a powerful curse." The shopkeeper blew his nose.
+
+"And while you run the shop, the curse...?" (indirect polite question)
+
+"Yes, the curse requires me to run the shop. It won't end for a hundred years! While the spirit's curse continues, I do his work."
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+~langname~
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+"nutatta." rukkan runam t'upette bikkab t'umuttassu. "ú wuru nar gwe t'ar t'ut'
+t'akak".
+
+sufarar nenagun.
+
+"arikasu. ninnappaki, anngunmi."
+
+"au, nban negawi."
+
+"runam ate i pafa t'uba. inerapatrapat - anirini. runam inetapputapputta."
+
+"au, ítappura i..."
+
+"hí, netappu i pafupafu t'uba. watag t'unne. rekka wa t'uba." rukkan bikkab
+t'umuttassu.
+
+"au, runam aterapaki, rekka i ..."
+
+"hí, rekka runam nate i t'uppisap. rekka basi gung it'ufenatta! wataga rekka
+it'usupaki, nesansan."
+#+END_conlang-text
+
+#+END_short-relay
 
 * talla  -- Laikan
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:05-talla.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+"I know I am skillful." The man who runs the store sneezed. "I stand in the
+place that I've always known."
+
+I sadly looked at Sufarar.
+
+"You are friendly. Look at me now."
+
+"I will obey."
+
+"You run this store, and it is difficult. I do not rest, I am always moving. I
+am sure this store will never close."
+
+"This store won't close?"
+
+"This store is impossible to close. A demon told me. The curse is great." The
+man sneezed.
+
+"While you ran the store, the curse closed it?"
+
+"Unfortunately, the curse demanded for the store to be closed. I'm sure the
+curse will not end for a long time! The demon's curse did not exist when I
+worked here."
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Laikan
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+"hadiya yau vai; yau na jiyali." ajwa daz, vaun darauniya aa miram. "biya
+huzddal, vaun adan hadiya, yau."
+
+ilwa dibb Zuvara baulwi yau.
+
+"lu na viyaz. auv ha, ilwij yawi lu."
+
+"zumiddiya yau."
+
+"darauniya lu aa miram id, ya vi na uduri. adan bauziviya - adan jada humpi
+yau. baubbirariyaj miram id; hadiya yau vai."
+
+"baubbirariyaj miram id, zauha a."
+
+"mid baubbirariya hadan miram id. yigai ajma augu dau. unvaun na lazai." ajwa
+ daz.
+
+"auv darauniya lu aa miram, bbirarwaj unvaun vai, yauha a."
+
+"ubbyi unvaun vai; bbirariya ajal miram. auv daam madzi, bauniyinyij unvaun;
+ hadiya yau vai. auv gariya yau iddal, bauhiya unvaun ajmahigza augu."
+#+END_conlang-text
+
+#+END_short-relay
 
 * nyar -- Blïmbi
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:06-nyar.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+“To be able to know,” the seer said, “I stand here.”
+
+Thus, Zawaram sees you all well.
+
+“You’re nice, but listen:”
+
+“Bear in mind!”
+
+“Your shop also has not stopped working, that they leave. So they know the shop
+hasn’t shut.
+
+“It hasn’t shut, no?”
+
+“It was, but surely then it did shut, then an angry spirit sang its horrible
+song.”
+
+“That because of you the shop didn’t work and didn’t close, no?”
+
+“Then I sang my song, but I know after a while here the angry spirit’s curse
+will be at work.”
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Laikan
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+"Məhayaki wēzen," sustaä rātz, "īzër hītśamyar, wu."
+
+Ośoṃ Zuwaraṃ tärśen.
+
+"Tū mlyeya ere, tui xyleñośima."
+
+"Tśustizäṃ."
+
+"Tətiyətsar hāuki zetsäṃ kitśoyit... mitāzarmeyahāyən, hāu tā liztoṃ. Wu zetaä
+miśeśtma, wēzenki."
+
+"Miśeśtma, hiś?"
+
+"fūsit... pənufa, təti śeśtmaki, təti śora fyreka. tosawəsatsar okorā fūsit!"
+rātz.
+
+"Ka tā śawo tsau zetaä tāzaretiyayëz ka miśeśtuya, hiś?"
+
+"Təti okorā zäṃ pyratśmaäki, śeśtśëzki. Pənu wāzen, pətsi wätle, ërotaī
+miśäsersitre. Īzër tāzarmeyayen, ërotaī fyreka śorayara miets."
+
+------
+
+Tiryo p​ïpelrï; “tsilëba Bom Ssonna go; gyïmmnatsïff fë.”
+
+Nyënn f​ë; mippogli flinn Tsaboram danoTam.
+
+Tom ​sinfïmissï; fomna Tom Bomi f​ë.
+
+Prïdryi Tom Nyen!
+
+Ninifnï boga batïryam; flom ​Nyë ​tïryamï ga | ​Nyënn f​ë; dem batïryam.
+
+Notsi​ Nyë Nyen.
+
+Dem ​batïryam; ​ëga?
+
+Nyonn; Gyinogli ëddiblë dem; blak​ï byëkkiprïpyim yommerbloke.
+
+Nïfni batïryam; Dem batïryam; Tomi ​f​ë, ​ëga?
+
+Ëddiblë bloki Bom bloka; nats​ï Bom; n​ëddiglë kyofye tsrën bbëbliprëtsinnë.
+
+#+END_conlang-text
+
+#+END_short-relay
 
 * sincy -- orajha
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:07-sincy.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+“Knowledge has caused me standing here” said [to no object] person, owner of knowledge.
+
+This has caused: (that) nonsense has seen you well.
+
+You are (a) kind (something): you have listened to me.
+
+You must remember that!
+
+The shop was stopped from not working once they went away from the shop.
+
+It has caused the shop to not have shutdown.
+
+They have tried to figure it out.
+
+The shop was not closed(/dead), yes?
+
+It was. It was certainly closed, because angry monsters proclaimed an evil song.
+
+The shop was not working. Because of you, the shop was shut down (by ???), yes?
+
+I will proclaim a song, because I know: Evil is going to be by here (aka nearby).
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Orajha
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+“te źéama jha aava áwúvyja ida nuruge” ta taara tira illava ira ille nuru.
+
+ta źéama ra: ta kúśúma hyripo sja jatlúrúga.
+
+vosja kúllú hida: ta óótema jha aava sja.
+
+siśi urúmmúma ra sja.
+
+ta thara gevénge limútta, śui ta voma pitli néé illa kúllú rúttú illave limútta kalla.
+
+te źéara ta torama néé limúttaga ra.
+
+te kihima zavu raha raha.
+
+úlú ta vora néé toruga limúttaga, hawó.
+
+ta vora. ta taa lááúnggaga réétjuhhu ravviga dźarridjé, júúsitlu ta vora jháá tira toruga ra.
+
+ta vora néé kúllú rúttú tira limútta. úlú júúsitlu sja, te ngihatjama toruga limúttaga kalla, hawó?
+
+taatta aava lááúngga jha, júúsitlu illava jha illa nuruge: votta gevúmale sijanga kúllú réétjuhhu.
+#+END_conlang-text
+
+#+END_short-relay
+
+* neo -- Kebanais
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:08-neo.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+The man said "Wisdom made me stand here."
+
+It caused nothing to see you thoroughly.
+
+Remember it.
+
+The shop's work was not stopped when it walked away.
+
+It caused the shop not to sleep (shut down).
+
+They tried to know (learn) [about] them.
+
+Did the shop sleep? Yes.
+
+It did. Because beasts sang the song, it very much slept.
+
+The shop was not work. Because did you cause the shop to sleep? Yes.
+
+I will sing the song because of my wisdom: Evil will be near.
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Kebanais
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+yoIm ol, “yoUo esim ethe mo.”
+
+yoUo um yosin eidela kiron kus.
+
+Kus kum.
+
+yoAi tiñi aloñe-so edi-tiegu, kai yotaga di aloñe um.
+
+yoUo um edi-youni aloñe.
+
+yoAu umodo yosuñe umodo kumodo.
+
+yoUni-da aloñe? U.
+
+yoGu um. Kai yomayemu tuñodo igu, yoUni te um.
+
+yoAi aloñe edi-tiñi. Kai youoda su youni aloñe? U.
+
+ebMayemu mo igu, kai esim mas: ebAi reu oda.
+#+END_conlang-text
+
+#+END_short-relay
+
 
 * mareck -- ~langname~
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:09-mareck.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+man said "i caused wisdom to sit"
+he caused you to thoroughly see nonsense
+him
+was work of store not partially stop when he walked from store
+he caused store not sleep
+they tried to know them
+store sleep? yes
+he did. when evil beast sang song, he slept verily
+be store not work. when you caused store slept? yes
+#+END_VERSE
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+~langname~
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+ágik boógakí ke kipi hák kaeh gáʔoo
+ágik kaeh keʔo keʔo ɾiʔi íge kipi
+ágik ágik
+kabí íge ʔapí íge ke ágik híba kabí áúʔiɾógi
+ágik kaeh íge kabí
+ɾiʔa ɾiʔa ʔapíkabí kipi
+kuú íge kabí / gá
+bíkí áúʔi / ke haɾa ɾiʔa ikɾiboógakí kaeh íge kabí
+íge kabí / kuú kaeh íge kabí gá
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
 
 * andi -- ~langname~
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+No further detail
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+he/she listened for a heartbeat
+however, he/she didn't find that!
+(he/she) ran away from them
+(he/she) attempted hiding
+(he/she) did not succeed
+(he/she) didn't succeed? / yes
+what did they do? / they sang (an) evil (song) causing him/her to stop
+they took away his/her movement? / yes, their song caused him/her to stop
+#+END_VERSE
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+~langname~
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+kâle tozla ke tiñıj komicus
+sutmivo, kâle lüj ca nidi
+zidek kâm daknu
+ivis jeküme
+nidi anu elava
+nidi anu elava?! / sisi
+deñu kâm dücidü? / ko ngodem ara, kân zada kâ
+ko usa tıdu küs? / sisi, ngodem këmos kân zada kâ
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
