@@ -1,0 +1,105 @@
+div.short-relay, div.full-relay {
+    display: grid;
+    grid-template-columns: [natlang] 50% [conlang] 50% [cend];
+    grid-template-rows: [link] 1.5em [name] 40px [text] auto [rend];
+    margin-top: 0;
+}
+
+div.detail-link {
+    grid-column-start: natlang;
+    grid-column-end: cend;
+    grid-row-start: link;
+    text-align: center;
+    background-color: #FFC800;
+    height: 1.5em;
+}
+
+div.detail-link p {
+    margin: 0;
+}
+
+div.detail-link a {
+    color:#1A1AFF;
+}
+
+div.natlang-name {
+    grid-column-start: natlang;
+    grid-row-start: name;
+    border-right: 1px solid #B28C00;
+}
+
+div.natlang-name p, div.conlang-name p {
+    text-indent: 0;
+    background-color: #FFC800;
+    padding: 5px;
+    text-align: center;
+    height: 20px;
+    font-size: 120%;
+    margin: 0;
+    font-weight: bold;
+    border-top: 1px solid #B28C00;
+}
+
+div.conlang-name {
+    grid-column-start: conlang;
+    grid-row-start: name;
+}
+
+div.natlang-text, div.conlang-text {
+    grid-row-start: text;
+}
+
+div.natlang-text {
+    border-right: 1px solid #B28C00;
+    padding-right: 0.5em;
+}
+
+div.conlang-text {
+    padding-left: 0.5em;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+dl.vocablist {
+    width:80%;
+    margin:1em auto;
+    padding:0.5em;
+    border-radius:4px;
+    font-family:sans-serif;
+    font-size:80%;
+    columns: 2;
+}
+dl.vocablist dd {
+    margin-bottom:0.5em;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin-left:0;
+    padding-left:16em;
+    background-color:#FFD74B;
+    border-radius:5px 5px;
+}
+dl.vocablist dt {
+    padding-right:1.5em;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin-bottom:0.5em;
+    width:13em;
+    float:left;
+    text-align:right;
+    font-style:italic;
+    border-radius:5px 0 0 5px;
+    clear: both;
+}
+dl.vocablist.glosser dt {
+    width:28.5em;
+    text-align:left;
+    border-radius:5px 5px 0 0;
+}
+dl.vocablist.glosser dd {
+    margin-left:0;
+    padding-left:1em;
+    background-color:#FFD74B;
+    border-radius:5px 5px;
+}
