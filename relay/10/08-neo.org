@@ -11,7 +11,7 @@
 #+BEGIN_short-relay
 
 #+BEGIN_detail-link
-[[file:08-neo.html][Full torch]]
+[[file:08-neo.txt][Complete torch document]]
 #+END_detail-link
 
 #+BEGIN_natlang-name

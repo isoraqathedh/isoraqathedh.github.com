@@ -152,7 +152,6 @@ verb suffix, and these tend to be somewhat ambiguous.
 | ka            | PRES-IMPERF | -maj       | -ma        |
 | ka            | FUT-IMPERF  | -masâ      | -masa      |
 
-
 * Navigation
 :PROPERTIES:
 :HTML_CONTAINER: footer
@@ -167,7 +166,6 @@ verb suffix, and these tend to be somewhat ambiguous.
     <div id="chapA">Part <strong>10</strong></div>
   </div>
   <a href="09-mareck.html" id="prev" rel="prev">Previous</a>
+  <a href="11-mel.html" id="next" rel="next">Next</a>
 </nav>
 #+END_EXPORT
-
-

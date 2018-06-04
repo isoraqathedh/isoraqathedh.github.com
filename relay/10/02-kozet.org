@@ -10,6 +10,10 @@
 
 * Translation
 #+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:02-kozet-torch.txt][Complete torch]] · [[file:02-trans.txt][Raw translation]]
+#+END_detail-link
+
 
 #+BEGIN_natlang-name
 English

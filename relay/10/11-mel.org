@@ -1,0 +1,134 @@
+#+Title: Relay 10–11
+#+Date: 2018-06-03
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:11-sev.txt][Complete torch document]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+They* listen to one heart beat
+Except, not the one near them*
+They* run away,
+Try to hide
+Not being victorious
+Not being victorious? / Yes
+How did they* do it? / They* sang evil, they stopped them*
+They stopped the movement of them*? / Yes, because they* sang of them, they stopped them*
+#+END_VERSE
+
+*singular they for neuter gender
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Sevelian
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Su merpya yuré
+Ma, nei šemerpyas tiniš sun
+Su karaé,
+serarté,
+nei vriyemeu.
+"Nei vriyemeu?" / "Aidamin"
+"Aidvuevi?" / "Su kurŭi antéu, haroi suliu"
+"Dzelitzyaia siž haréiu?" / "Aidamin, iti su sinu antéu, seiu siu haréiu."
+#+END_VERSE
+#+END_conlang-text
+#+END_short-relay
+
+* Lexicon
+#+ATTR_HTML: :class vocablist
+- aidamin :: it is so, yes
+- aidvuevi :: how(?), by what means(?)
+- ante- :: to sing
+- art- :: to try
+- dzelitza :: movement
+- har- :: to stop (something)
+- iti :: because
+- kara- :: to flee
+- kuru :: evil
+- ma :: But, however
+- merpa :: heartbeat
+- nei :: not
+- še- :: that
+- ser- :: to hide
+- tiniš :: near
+- vriyem- :: to win
+- yur- :: to hear
+
+* Grammar
+#+Caption: Noun declension
+|              | -a declension |               | -u declension |               |
+|              | Singular      | Plural        | Singular      | Plural        |
+| /            | <             | >             | <             | >             |
+|--------------+---------------+---------------+---------------+---------------|
+| Nominative   | Sevel-a       | Sevel-aia     | Hasid-u       | Hasid-eiu     |
+| Genitive     | Sevel-ai      | Sevel-ina     | Hasid-ŭi      | Hasid-inu     |
+| Possessive   | Sevel-až      | Sevel-aža     | Hasid-iž      | Hasid-ižu     |
+| Dative       | Sevel-an      | Sevel-ana     | Hasid-un      | Hasid-unu     |
+| Accusative   | Sevel-ya^{1}  | Sevel-yai^{1} | Hasid-yu^{1}  | Hasid-yui^{1} |
+| Instrumental | Sevel-ami     | Sevel-amia    | Hasid-uli     | Hasid-uliu    |
+
+ ^{1} essentially, accusativeness is marked by palatalization
+
+#+ATTR_HTML: :class vocablist
+- -s :: definiteness
+
+#+Caption: 3rd person pronouns
+|              | M/F/N*         | PL                |
+|--------------+----------------+-------------------|
+| Nominative   | Se/Sa/Su       | Seie/Saia/Seiu    |
+| Genitive     | Sai/Sui        | Sine/Sina/Sinu    |
+| Possesive    | Siž/Saž/Siž    | Siže/Saža/Sižu    |
+| Dative       | Sen/San/Sun    | Sene/Sana/Sunu    |
+| Accusative   | Sie/Sia/Siu    | Syei/Syai/Syui    |
+| Instrumental | Sevi/Sami/Suli | Sevia/Samia/Suliu |
+
+#+Caption: Verb conjugation
+|      | Active    |               | Passive     |             |
+|      | Present   | Simple Past   | Present     | Past        |
+| /    | <         | >             | <           | >           |
+|------+-----------+---------------+-------------+-------------|
+| 1 S  | Izmen-á   | Izmen-aŭ      | Melvan-e    | Melvan-ei   |
+| 2 S  | Izmen-ŭ   | Izmen-u       | Melvan-ĭ    | Melvan-iyi  |
+| 3 S  | Izmen-é   | Izmen-eu^{2}  | Melvan-o    | Melvan-oi   |
+| 1 Pl | Izmen-áie | Izmen-aiu     | Melvan-elle | Melvan-elli |
+| 2 Pl | Izmen-ŭie | Izmen-uiu     | Melvan-ĭlle | Melvan-illi |
+| 3 Pl | Izmen-éie | Izmen-éiu^{3} | Melvan-olle | Melvan-olli |
+
+ ^{2} if the stem ends with e, it will contract to é, thus e-eu = éu
+
+ ^{3} in this case it would just lose the e
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>10</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>11</strong></div>
+  </div>
+  <a href="10-andi.html" id="prev" rel="prev">Previous</a>
+  <a href="12-kozet.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT

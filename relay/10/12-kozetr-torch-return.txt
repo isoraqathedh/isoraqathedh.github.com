@@ -1,0 +1,64 @@
+tu ter erimfo tiil
+tal en le erimfo frem ti
+tu elf,
+tu misk nekt,
+tu en raklat.
+"tu en raklat?"
+"ax."
+"ak?"
+"tu miksat tul velnar, at mono ok tuus."
+"ovmo monot tu?"
+"ax, man tu miksat, o tuus monot tu."
+
+Grammar:
+
+Arka uses an SVO word order. Adjectives come after nouns. Numerals come before
+what they modify if they're cardinal and follow their antecedents if they're
+ordinal. Modal adverbs directly follow the verb. Free adverbs (everything
+else) can sit anywhere in the sentence, but if they're not adjacent to the
+verb they modify, they take the suffix <-el> after a consonant or <-l> after
+a vowel.
+
+Verbs take the following inflections:
+
+/		after consonant	after vowel	copula	(neg)
+base		-		-		et	de
+past		-at		-t		at	det
+perfect		-ik		-k		ik	?
+progressive	-or		-r		or	?
+continuous	-es		-s		es	?
+
+Verbs are negated using the particle <en> before it, except for <et>, which
+becomes <de>.
+
+Passives are either formed with <et> + verb, or verb + <yu>.
+(The latter is not a true passive; it merely swaps S and O.)
+
+Lexicon:
+
+tal		conj	but
+ti		pn	2SG
+tiil		pn	2SG genitive
+ter		v	hear
+tu		pn	3SG near
+tul		n	thing
+tuus		pn	3PL near
+nekt		v	hide
+velnar		adj	evil
+frem		pp	near
+man		conj	because
+miks		v	sing
+misk		v	try
+mono		v	stop (transitive)
+rakl		v	succeed
+le		pn	3SG far
+ax		intj	yes
+ak		adv	how
+o		conj	and (ont before a vowel)
+ok		pp	with (comitative)
+ovmo		n	movement
+et		v	copula (be)
+en		advp	not
+erimfo		n	heartbeat
+elf		v	flee
+

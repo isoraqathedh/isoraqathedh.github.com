@@ -10,7 +10,7 @@
 * Translation
 #+BEGIN_short-relay
 #+BEGIN_detail-link
-[[file:05-talla-torch.txt][Full torch]] · [[file:05-talla-Torch4Iso.txt][Gloss]]
+[[file:05-talla-torch.txt][Complete torch document]] · [[file:05-talla-Torch4Iso.txt][Gloss]]
 #+END_detail-link
 
 #+BEGIN_natlang-name

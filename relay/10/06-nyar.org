@@ -8,7 +8,11 @@
 #+OPTIONS: title:nil
 
 * Translation
-#+BEGIN_short-relay
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[file:06-nyar-Laikan%20_%20English%20_%20Bl%C3%AFmbi%20RELAY.pdf][Complete torch]]
+#+END_detail-link
+
 #+BEGIN_natlang-name
 English
 #+END_natlang-name
@@ -86,7 +90,22 @@ Nïfni batïryam; Dem batïryam; Tomi ​f​ë, ​ëga?
 
 #+END_conlang-text
 
-#+END_short-relay
+#+BEGIN_gloss
+#+BEGIN_VERSE
+say-pfv wiseman-nom; stand-ipfv i-nom here-loc at; able-knowing-dat for
+it-dat for; well see-pfv Tsaboram-nom all-det-you1-acc
+you1-are nice; listen-pfv you1-nom me-dat for
+remember-pfv you1-nom it.acc
+function-is stop-pfv neg-shop.nom; go they shop.acc from. it-dat for; shut-pfv neg-shop;
+know-pfv they it-acc.
+shut-pfv neg-it, yes?
+It-was. certainly later shut-pfv it-nom; sing-pfv angry-spirit.nom horrible-song.acc
+work.pfv neg-shop; close.pfv neg-shop; you-dat for; yes?
+later sing-pfv I song-acc; know.ipfv I; (fut) be-at-work.pfv curse.nom this-det-place.loc at
+#+END_VERSE
+#+END_gloss
+
+#+END_full-relay
 
 * WAIT Lexicon
 

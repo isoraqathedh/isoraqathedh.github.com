@@ -554,5 +554,95 @@ deñu kâm dücidü? / ko ngodem ara, kân zada kâ
 ko usa tıdu küs? / sisi, ngodem këmos kân zada kâ
 #+END_VERSE
 #+END_conlang-text
+#+END_short-relay
 
+* mel -- Sevelian
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:11-mel.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+They listen to one heart beat
+Except, not the one near them
+They run away,
+Try to hide
+Not being victorious
+Not being victorious? / Yes
+How did they do it? / They sang evil, they stopped them
+They stopped the movement of them? / Yes, because they sang of them, they stopped them
+#+END_VERSE
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Sevelian
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Su merpya yuré
+Ma, nei šemerpyas tiniš sun
+Su karaé,
+serarté,
+nei vriyemeu.
+"Nei vriyemeu?" / "Aidamin"
+"Aidvuevi?" / "Su kurŭi antéu, haroi suliu"
+"Dzelitzyaia siž haréiu?" / "Aidamin, iti su sinu antéu, seiu siu haréiu."
+#+END_VERSE
+#+END_conlang-text
+#+END_short-relay
+
+
+* kozet (Return) -- Arka
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:12-kozet.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+It hears your heartbeat
+But not that heartbeat near you
+It flees,
+it tries to hide,
+it did not succeed.
+"It didn't succeed?"
+"That is so."
+"How?"
+"It sang evil things, stopped with them."
+"Did the movement stop it?"
+"Yes, because it sang, and they stopped it."
+#+END_VERSE
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Arka
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+tu ter erimfo tiil
+tal en le erimfo frem ti
+tu elf,
+tu misk nekt,
+tu en raklat.
+"tu en raklat?"
+"ax."
+"ak?"
+"tu miksat tul velnar, at mono ok tuus."
+"ovmo monot tu?"
+"ax, man tu miksat, o tuus monot tu."
+#+END_VERSE
+#+END_conlang-text
 #+END_short-relay

@@ -9,6 +9,9 @@
 
 * Translation
 #+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:03-bbb-Relay_Torch.docx][Complete torch document]] · [[file:03-bbb-Torch.docx][Full gloss]]
+#+END_detail-link
 
 #+BEGIN_natlang-name
 English

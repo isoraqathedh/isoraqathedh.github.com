@@ -11,7 +11,7 @@
 #+BEGIN_short-relay
 
 #+BEGIN_detail-link
-[[file:09-mareck.html][Full torch]]
+[[file:09-lang8%20(0.1).pdf][Complete torch document]]
 #+END_detail-link
 
 #+BEGIN_natlang-name
@@ -72,5 +72,3 @@ In lieu of a tailored grammar, [[file:09-lang8%20(0.1).pdf][the complete referen
   <a href="10-andi.html" id="next" rel="next">Next</a>
 </nav>
 #+END_EXPORT
-
-

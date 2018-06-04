@@ -9,6 +9,9 @@
 
 * Translation
 #+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:04-alllens_torch_writeup.txt][Complete torch document]] · [[file:04-torch_translation.txt][Raw translation]]
+#+END_detail-link
 
 #+BEGIN_natlang-name
 English
