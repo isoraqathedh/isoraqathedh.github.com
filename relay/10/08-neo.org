@@ -11,7 +11,7 @@
 #+BEGIN_short-relay
 
 #+BEGIN_detail-link
-[[file:08-neo.txt][Complete torch document]]
+[[https://docs.google.com/document/d/1HpiN1JhlAijYHP206qWOixZJENVq2zKNvqxRhEzjnWg][Complete torch document]] · [[file:08-neo.txt][Gloss]]
 #+END_detail-link
 
 #+BEGIN_natlang-name
@@ -131,10 +131,81 @@ FUT-sing   1SG.NOM song COND wisdom 1SG.GEN FUT-COP near evil
 I will sing the song because of my wisdom: Evil will be near.
 #+END_EXAMPLE
 
-* WAIT Lexicon
+* Lexicon
+** Affixes
+#+ATTR_HTML: :class vocablist
+- yo- :: PST
+- -so :: GEN
+- edi- NEG
+- -egu :: PART
+- -(t,d)a :: INT/Q (on the verb)
+- eb- :: FUT
 
-* WAIT Grammar
+** Verbs
+#+ATTR_HTML: :class vocablist
+- im :: to say
+- uo :: to cause
+- ethe :: to sit
+- sin :: to see
+- ai :: to be, COP
+- ti :: to stop
+- taga :: walk
+- uni :: to sleep; (metaphorically of something related to business or working) to no longer work, to shut down
+- au :: to try, to attempt
+- suñe :: to know
+- gu :: to do, dummy verb
+- mayemu :: to sing
 
+** Nouns
+#+ATTR_HTML: :class vocablist
+- ol :: man
+- esim :: wisdom
+- eidela :: nonsense
+- tiñi :: labor, work
+- aloñe :: store, shop, market
+- tuñ :: beast, monster, predator
+- igu :: song
+- oda :: evil
+
+** Pronouns
+#+ATTR_HTML: :class vocablist
+- mo :: first person singular nominative, “I”
+- um :: third person singular nominative masculine/neuter, “he” / “it”
+- kus :: second person informal singular accusative, “you.ACC”
+- kum :: third person singular accusative, “him” / “it”
+- umodo :: third person plural nominative, “they”
+- kumodo :: third person plural accusative, “them”
+- su :: second person informal singular nominative, “you”
+- mas :: first person singular genitive, “my”
+
+** Adjectives/Adverbs
+#+ATTR_HTML: :class vocablist
+- kiron :: thorough
+- te :: very important; (as an adverb) verily
+
+** Particles/Prepositions
+#+ATTR_HTML: :class vocablist
+- kus :: imperative (comes before verb)
+- di :: ablative, away from X
+- kai :: when, if, because
+- u :: yes
+- reu :: here, nearby
+
+* Grammar
+Kebanais has a very strict syntax. Note to look back here if you’re stuck on similar words and need syntactic context.
+
+- (Subordinate conjunction)
+- (Modal verb)
+  - (Modal verb adverbial phrase)
+- Verb
+  - (Main verb adverbial phrase)
+- Subject
+  - (Subject adjectival phrase)
+- (Indirect object)
+  - (Indirect object adjectival phrase)
+- (Object)
+  - (Direct object adjectival phrase)
+x
 * Navigation
 :PROPERTIES:
 :HTML_CONTAINER: footer
