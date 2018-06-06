@@ -205,7 +205,7 @@ Kebanais has a very strict syntax. Note to look back here if you’re stuck on s
   - (Indirect object adjectival phrase)
 - (Object)
   - (Direct object adjectival phrase)
-x
+
 * Navigation
 :PROPERTIES:
 :HTML_CONTAINER: footer
