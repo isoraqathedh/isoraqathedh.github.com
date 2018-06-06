@@ -136,7 +136,7 @@ I will sing the song because of my wisdom: Evil will be near.
 #+ATTR_HTML: :class vocablist
 - yo- :: PST
 - -so :: GEN
-- edi- NEG
+- edi- :: NEG
 - -egu :: PART
 - -(t,d)a :: INT/Q (on the verb)
 - eb- :: FUT
