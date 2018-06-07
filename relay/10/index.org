@@ -207,50 +207,56 @@ English
 #+END_natlang-name
 
 #+BEGIN_natlang-text
-"I believe that I know a great deal of things." The shopkeeper blew his nose.  "The people that come from where I do tend to know a lot."
+"I know I am skillful." The man who runs the store sneezed. "I stand in the
+place that I've always known."
 
-I looked at Sufarar sadly.
+I sadly looked at Sufarar.
 
-"You're a friendly one." he said. "While I tell you this, pay attention."
+"You are friendly. Look at me now."
 
-"I will." (rote polite response to superior)
+"I will obey."
 
-"Running this shop is difficult. I don't rest, I just buzz around like a bee. I never close the shop."
+"You run this store, and it is difficult. I do not rest, I am always moving. I
+am sure this store will never close."
 
-"Never close?" (indirect polite question)
+"This store won't close?"
 
-"Yes, it's impossible to close the shop. The evil spirit commands me. It's a powerful curse." The shopkeeper blew his nose.
+"This store is impossible to close. A demon told me. The curse is great." The
+man sneezed.
 
-"And while you run the shop, the curse...?" (indirect polite question)
+"While you ran the store, the curse closed it?"
 
-"Yes, the curse requires me to run the shop. It won't end for a hundred years! While the spirit's curse continues, I do his work."
+"Unfortunately, the curse demanded for the store to be closed. I'm sure the
+curse will not end for a long time! The demon's curse did not exist when I
+worked here."
 #+END_natlang-text
 
 #+BEGIN_conlang-name
-Wistanian
+Laikan
 #+END_conlang-name
 
 #+BEGIN_conlang-text
-"nutatta." rukkan runam t'upette bikkab t'umuttassu. "ú wuru nar gwe t'ar t'ut'
-t'akak".
+"hadiya yau vai; yau na jiyali." ajwa daz, vaun darauniya aa miram. "biya
+huzddal, vaun adan hadiya, yau."
 
-sufarar nenagun.
+ilwa dibb Zuvara baulwi yau.
 
-"arikasu. ninnappaki, anngunmi."
+"lu na viyaz. auv ha, ilwij yawi lu."
 
-"au, nban negawi."
+"zumiddiya yau."
 
-"runam ate i pafa t'uba. inerapatrapat - anirini. runam inetapputapputta."
+"darauniya lu aa miram id, ya vi na uduri. adan bauziviya - adan jada humpi
+yau. baubbirariyaj miram id; hadiya yau vai."
 
-"au, ítappura i..."
+"baubbirariyaj miram id, zauha a."
 
-"hí, netappu i pafupafu t'uba. watag t'unne. rekka wa t'uba." rukkan bikkab
-t'umuttassu.
+"mid baubbirariya hadan miram id. yigai ajma augu dau. unvaun na lazai." ajwa
+ daz.
 
-"au, runam aterapaki, rekka i ..."
+"auv darauniya lu aa miram, bbirarwaj unvaun vai, yauha a."
 
-"hí, rekka runam nate i t'uppisap. rekka basi gung it'ufenatta! wataga rekka
-it'usupaki, nesansan."
+"ubbyi unvaun vai; bbirariya ajal miram. auv daam madzi, bauniyinyij unvaun;
+ hadiya yau vai. auv gariya yau iddal, bauhiya unvaun ajmahigza augu."
 #+END_conlang-text
 
 #+END_short-relay
