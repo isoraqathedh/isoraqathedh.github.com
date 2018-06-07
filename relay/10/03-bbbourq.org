@@ -196,6 +196,6 @@ Personal endings for verbs are as follows:
     <div id="chapA">Part <strong>3</strong></div>
   </div>
   <a href="02-kozet.html" id="prev" rel="prev">Previous</a>
-  <a href="04-alllen.html" id="next" rel="next">Next</a>
+  <a href="03a-place.html" id="next" rel="next">Next</a>
 </nav>
 #+END_EXPORT
