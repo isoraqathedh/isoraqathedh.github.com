@@ -5,6 +5,10 @@ div.short-relay, div.full-relay {
 
 }
 
+div.short-relay p, div.full-relay p {
+    text-indent: 0;
+}
+
 div.short-relay {
     grid-template-rows: [link] 1.5em [name] 40px [text] auto [rend];
 }
@@ -24,6 +28,10 @@ div.detail-link {
 
 div.detail-link p {
     margin: 0;
+}
+
+div.conlang-text img {
+    max-width:100%;
 }
 
 div.detail-link a {
