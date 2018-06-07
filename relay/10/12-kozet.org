@@ -55,41 +55,6 @@ tu en raklat.
 #+END_conlang-text
 #+END_short-relay
 
-* Gloss
-#+BEGIN_EXAMPLE
-> ﻿Su merpya yuré
-3SG.N.NOM heartbeat-ACC.SG hear-3SG
-It hears your heartbeat
-
-> Ma, nei šemerpyas tiniš sun
-but not that-heartbeat-ACC-DEF near 3SG.N.DAT
-But not that heartbeat near you
-
-> Su karaé,
-3SG.N.NOM flee-3SG
-It flees,
-
-> serarté,
-hide-try-3SG
-it tries to hide,
-
-> nei vriyemeu.
-not win-3SG.PAST
-it did not succeed.
-
-> "Nei vriyemeu?" / "Aidamin"
-"not win-3SG.PAST" / "yes"
-"It didn't succeed?" / "That is so."
-
-> "Aidvuevi?" / "Su kurŭi antéu, haroi suliu"
-"how" / "3SG.N.NOM evil-GEN sing-3SG.PAST, stop-3SG.PAST 3PL.N.INST"
-"How?" / "It sang evil things, stopped with them."
-
-> "Dzelitzyaia siž haréiu?" / "Aidamin, iti su sinu antéu, seiu siu haréiu."
-"movement-NOM.PL 3SG.N.POSS stop-3PL.PAST" / "yes, because 3SG.N.NOM sing-3SG.PAST, 3PL.N.NOM 3SG.N.ACC stop-3PL.PAST"
-"Did the movement stop it?" / "Yes, because it sang, and they stopped it."
-#+END_EXAMPLE
-
 * Lexicon
 | Word   | POS  | Gloss                    |
 |--------+------+--------------------------|
