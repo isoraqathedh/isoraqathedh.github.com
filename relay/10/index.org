@@ -167,7 +167,7 @@ While the spirit's curse continues, I do his work."
 #+END_natlang-text
 
 #+BEGIN_conlang-name
-Wistanian
+~langname~
 #+END_conlang-name
 
 #+BEGIN_conlang-text
@@ -232,7 +232,7 @@ worked here."
 #+END_natlang-text
 
 #+BEGIN_conlang-name
-Laikan
+Wistanian
 #+END_conlang-name
 
 #+BEGIN_conlang-text
