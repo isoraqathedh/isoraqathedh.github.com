@@ -1,0 +1,73 @@
+#+Title: Relay 10–3
+#+Date: 2018-06-03
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_full-relay
+
+#+BEGIN_detail-link
+[[file:03a-torch_translation.txt][Gloss]] · 
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+"I believe that I know a great deal of things." The shopkeeper blew his nose.
+"The people that come from where I do tend to know a lot."
+
+I looked at Sufarar sadly.
+
+"You're a friendly one." he said. "While I tell you this, pay attention."
+
+"I will." (rote polite response to superior)
+
+"Running this shop is difficult. I don't rest, I just buzz around like a bee. I
+never close the shop."
+
+"Never close?" (indirect polite question)
+
+"Yes, it's impossible to close the shop. The evil spirit commands me. It's a
+powerful curse." The shopkeeper blew his nose.
+
+"And while you run the shop, the curse...?" (indirect polite question)
+
+"Yes, the curse requires me to run the shop. It won't end for a hundred years!
+While the spirit's curse continues, I do his work."
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+~langname~
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+"nutatta." rukkan runam t'upette bikkab t'umuttassu. "ú wuru nar gwe t'ar t'ut'
+t'akak".
+
+sufarar nenagun.
+
+"arikasu. ninnappaki, anngunmi."
+
+"au, nban negawi."
+
+"runam ate i pafa t'uba. inerapatrapat - anirini. runam inetapputapputta."
+
+"au, ítappura i..."
+
+"hí, netappu i pafupafu t'uba. watag t'unne. rekka wa t'uba." rukkan bikkab
+t'umuttassu.
+
+"au, runam aterapaki, rekka i ..."
+
+"hí, rekka runam nate i t'upisap. rekka basi gung it'ufenatta! wataga rekka
+it'usupaki, nesansan."
+#+END_conlang-text
+
+#+END_full-relay
+
