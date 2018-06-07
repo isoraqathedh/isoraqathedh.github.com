@@ -10,7 +10,7 @@
 * Translation
 #+BEGIN_full-relay
 #+BEGIN_detail-link
-[[file:06-nyar-Laikan%20_%20English%20_%20Bl%C3%AFmbi%20RELAY.pdf][Complete torch]]
+[[file:06-nyar-Laikan%20_%20English%20_%20Bl%C3%AFmbi%20RELAY.pdf][Relay text]] · [[https://docs.google.com/document/d/1LFbmiG53zEYjiq0a4Hyxpv1yc900VWRWQWTQfMibHSA][Complete torch]]
 #+END_detail-link
 
 #+BEGIN_natlang-name
@@ -45,29 +45,6 @@ Laikan
 #+END_conlang-name
 
 #+BEGIN_conlang-text
-"Məhayaki wēzen," sustaä rātz, "īzër hītśamyar, wu."
-
-Ośoṃ Zuwaraṃ tärśen.
-
-"Tū mlyeya ere, tui xyleñośima."
-
-"Tśustizäṃ."
-
-"Tətiyətsar hāuki zetsäṃ kitśoyit... mitāzarmeyahāyən, hāu tā liztoṃ. Wu zetaä
-miśeśtma, wēzenki."
-
-"Miśeśtma, hiś?"
-
-"fūsit... pənufa, təti śeśtmaki, təti śora fyreka. tosawəsatsar okorā fūsit!"
-rātz.
-
-"Ka tā śawo tsau zetaä tāzaretiyayëz ka miśeśtuya, hiś?"
-
-"Təti okorā zäṃ pyratśmaäki, śeśtśëzki. Pənu wāzen, pətsi wätle, ërotaī
-miśäsersitre. Īzër tāzarmeyayen, ërotaī fyreka śorayara miets."
-
-------
-
 Tiryo p​ïpelrï; “tsilëba Bom Ssonna go; gyïmmnatsïff fë.”
 
 Nyënn f​ë; mippogli flinn Tsaboram danoTam.
@@ -107,9 +84,368 @@ later sing-pfv I song-acc; know.ipfv I; (fut) be-at-work.pfv curse.nom this-det-
 
 #+END_full-relay
 
-* WAIT Lexicon
+* Lexicon
+#+ATTR_HTML: :class vocablist
+- ëga :: yes
 
-* WAIT Grammar
+** Proper Names
+#+ATTR_HTML: :class vocablist
+- Tsaboram :: a nonsense name/transliteration
+
+** Nouns
+#+ATTR_HTML: :class vocablist
+- pïpelrï :: wise man; thinker
+- natsï :: knowledge; knowing
+- nifnï :: work; function
+- tïryam :: shop; store
+- prïpyim ::  parasite; monster; enemy
+- blok :: song; poem; excerpt
+- tsrën :: lies; evil
+- prëtsin :: place
+- di :: all
+- bba :: this
+
+** Verbs (all in ipfv)
+#+ATTR_HTML: :class vocablist
+- tïrya :: to say
+- tsilëba :: to stand
+- flïnn :: to see
+- famno :: to listen; to hear
+- pridryï :: to remember
+- bago :: to end; to stop
+- flom :: to come/go; to be to/from
+- dëm :: to close; to shut 
+- natsï :: to know; to recognize
+- bloki :: to sing; to lecture/advocate
+- nifnï :: to work; to function
+- kyafyë :: to make way, to work [its] way; to be at work
+
+** Adjectives
+#+ATTR_HTML: :class vocablist
+- gyïmm·issï :: able; capable
+- sinfïm·issï :: kind; pleasant    
+- byëkk·issë :: angry; aggressive
+- yommer·osse :: horrible; evil
+
+** Adverbs
+#+ATTR_HTML: :class vocablist
+- mïppa·glï :: well
+- gyïna·glï :: surely; certainly
+- neddï·ble :: then; later (future)
+- eddïb·le :: then; later (past)
+
+* Grammar
+- Heavily VSO
+- Heavily a priori (i didn’t do any research)
+- Head initial
+- Probably fusional. It does a lot of affixing, but parts of speech generally stay seperate.
+
+** Sounds and romanisation
+The consonants are pretty simple but the vowels, as far as the vowel harmony and
+consonant root shits overlap, influence all the compounding and derivation a
+lot. (I made up a bunch of stuff in general and my excuse is the people that
+speak it are genetically modified. Sorry for all that) Syllable rules don’t
+matter right now. There’s also geminates, represented by doubled
+consonants. Here it is:
+
+|               | labial          | alveolar/retro  | palatal | velar           |
+|---------------+-----------------+-----------------+---------+-----------------|
+| nasal         | m 〈m〉         | n 〈n〉         |         |                 |
+| stop          | p 〈p〉 b 〈b〉 | t 〈t〉 d 〈d〉 |         | k 〈k〉 g 〈g〉 |
+| fric/sibilant | f 〈f〉         | s 〈s〉         |         |                 |
+| affric        |                 | ts 〈ts〉       |         |                 |
+| approx/liquid |                 | ɭ 〈r〉         | j 〈y〉 | ʟ 〈l〉         |
+
+The vowel harmony has these three vowel heights and harmony between the unround
+and round. But instead of being where all the vowels in a word have to be
+rounded or unrounded, there is this thing where a word can only have two vowel
+qualities and they have to be of opposite rounding and have to alternate. The
+consonant root system comes in when you compound and the vowels from the root
+word replace the affix, unless the root word only has one vowel, then the affix
+can retain one of its vowels but the rounding might switch. You won’t need to
+know this too much, since the consonants are more important to pay attention
+to. Also, in reduplication, at the beginning of a word there can be two of the
+same vowel (the pronouns later down aren’t a typo), but you lose this with any
+prefixing.
+   
+|                 | Unround | Round   |
+|-----------------+---------+---------|
+| “High” (I-base) | i 〈i〉 | y 〈ï〉 |
+| “Mid” (E-base)  | ε 〈e〉 | ɶ 〈ë〉 |
+| “Low” (A-base)  | a 〈a〉 | ↄ 〈o〉 |
+
+byannïm (purple, adjective) + fïn (potable water) = byïnnimfïn
+
+When an adjective is prefixed to this one word syllable, the vowels will
+alternate to fit to the root, so the first vowel of the adjective changes to
+〈ï〉. Since the root does not have any more information about what the second
+vowel would be, the other one in the prefix just changes rounding to fit the
+round-unround alternating pattern. What fun. The vowel harmony comes more into
+play when stuff changes its rounding.
+
+** Noun Declensions and cases
+There’s four cases, Nominative, Accusative, Dative, and Locative. No
+genitive. No gender. Three numbers, Singular, Dual, and Plural. First are the
+pronouns.
+
+| Person | Number | nom   | acc   | dat   | loc      |
+|--------+--------+-------+-------+-------+----------|
+| 1st    |      1 | bom   | bam   | bomi  | bombom   |
+|        |      2 | bop   | bap   | bopi  | bambam   |
+|        |     3+ | bomma | bammo | bommi | bbomma   |
+|--------+--------+-------+-------+-------+----------|
+| 2nd    |      1 | tom   | tam   | tomi  | tomtom   |
+|        |      2 | top   | tap   | topi  | tamtam   |
+|        |     3+ | tomma | tammo | tommi | ttomma   |
+|--------+--------+-------+-------+-------+----------|
+| 3rd    |      1 | nyën  | nyen  | nyënn | nyennyen |
+|        |      2 | nyo   | nya   | nnyo  | nnyonnya |
+|        |     3+ | nyë   | nye   | nnyë  | nnyënnye |
+
+This next pronoun is a special, derived from the word /son/ (place), but with a
+different, irregular set of declensions. It's used for coming and going and
+being places when you’re not being specific, or where you might use /here/ or
+/there/. Also in questions.
+
+| nom | son    |
+| acc | sonna  |
+| dat | sanno  |
+| loc | ssonna |
+
+The noun declensions have different classes based on the last sound, with four
+for I-base vowels, E-base vowels, A-base vowels, and verbs that end in
+consonants. Any vowels are placeholders for readability (affixes don’t stand on
+their own and don’t have vowels.) Plurals also switch the rounding of the vowels
+and geminate the first or second consonant based on the word. The next page will
+have the same charts but with examples.
+
+|             |    | nom | acc | dat | loc  |
+|-------------+----+-----+-----+-----+------|
+| Class 1 (I) |  1 | -Ø  | -r  | -ff | -bla |
+|             |  2 | -l  | -la | -l  | -lla |
+|             | 3+ | -Ø  | -r  | -tt | -blo |
+|-------------+----+-----+-----+-----+------|
+| Class 2 (E) |  1 | -Ø  | -r  | -f  | -bla |
+|             |  2 | -l  | -la | -l  | -lla |
+|             | 3+ | -Ø  | -r  | -t  | -blo |
+|-------------+----+-----+-----+-----+------|
+| Class 3 (A) |  1 | -Ø  | -l  | -Ø  | -bla |
+|             |  2 | -b  | -ba | -b  | -bla |
+|             | 3+ | -Ø  | -l  | -Ø  | -blo |
+|-------------+----+-----+-----+-----+------|
+| Class 4 (C) |  1 | -Ø  | -a  | -Ø  | -:a  |
+|             |  2 | -a  | -al | -a  | -alo |
+|             | 3+ | -Ø  | -o  | -Ø  | -:o  |
+
+#+Caption: An example
+|             |    | nom    | acc     | dat     | loc       |
+|-------------+----+--------+---------+---------+-----------|
+| Class 1 (I) |  1 | Nomi   | Nomir   | Nomiff  | Nomibla   |
+|             |  2 | Nomil  | Nomilo  | Nomil   | Nomillo   |
+|             | 3+ | Nammï  | Nammïr  | Nammïtt | Nammïbla  |
+|-------------+----+--------+---------+---------+-----------|
+| Class 2 (E) |  1 | Fenlë  | Fenlër  | Fenlëf  | Fenlëble  |
+|             |  2 | Fenlël | Fenlële | Fenlël  | Fenlëlle  |
+|             | 3+ | Fënnle | Fënnler | Fënnlet | Fënnleblë |
+|-------------+----+--------+---------+---------+-----------|
+| Class 3 (A) |  1 | Sïbba  | Sïbbal  | Sïbba   | Sïbbablï  |
+|             |  2 | Sïbbab | Sïbbabï | Sïbbab  | Sïbbablï  |
+|             | 3+ | Sibbo  | Sibbol  | Sibbo   | Sibbobli  |
+|-------------+----+--------+---------+---------+-----------|
+| Class 4 (C) |  1 | Pïpel  | Pïpelï  | Pïpel   | Pïpellï   |
+|             |  2 | Pïpelï | Pïpelïl | Pïpelï  | Pïpelïle  |
+|             | 3+ | Pippël | Pippëli | Pippël  | Pippëlli  |
+
+** Adjectives
+You’ll see adjectives appear in two different forms: dictionary form (with a
+-asso suffix), and attached form. Whenever an adjective appears alone it is
+always in dictionary form, like when used apart from a noun.
+
+If more than one adjective is used to describe a noun, one adjective will be
+attached and the rest will appear before it in dictionary form.
+
+Adjectives are attached to nouns by taking the adjective and prefixing it. The
+vowels will change like I said before. I am going to copy and paste the example
+from before.
+
+byannïm (purple, adjective) + fïn (potable water) = byïnnimfïn
+
+** Adverbs
+Adverbs behave similarly to the dictionary form of adjectives. Some nouns and
+any adjective are given a suffix, which have some continuity to the
+verb. Adverbs are almost always placed directly before the verb.
+
+#+ATTR_HTML: :style columns:2;
+#+BEGIN_div
+#+Caption: Class 1 (I)
+| Morpheme  | Suffix | Example   |
+|-----------+--------+-----------|
+| Ipfv      | -bla   | prëtsiblë |
+| Pfv       | -blo   | pretsïble |
+| Reflexive | -fra   | prëtsifrë |
+
+
+#+Caption: Class 2 (E)
+| Morpheme  | Suffix | Example |
+|-----------+--------+---------|
+| Ipfv      | -dla   | bedlë   |
+| Pfv       | -dlo   | bëdle   |
+| Reflexive | -fra   | befrë   |
+
+#+Caption: Class 3 (A)
+| Morpheme  | Suffix | Example |
+|-----------+--------+---------|
+| Ipfv      | -gla   | blyaglo |
+| Pfv       | glo    | blyogla |
+| Reflexive | -fla   | blyaflo |
+
+#+Caption: Class 4 (C)
+| Morpheme  | Suffix | Example  |
+|-----------+--------+----------|
+| Ipfv      | -arlo  | byanorla |
+| Pfv       | -orla  | byonarlo |
+| Reflexive | -fla   | byanflo  |
+#+END_div
+
+So if you made every adjective and adverb form of a word and put it in one chart:
+
+| noun        | adjective           | adverb ipfv | adverb pfv | adverb rflx |
+|-------------+---------------------+-------------+------------+-------------|
+| sinfïm      | sinfïmissï          | sinfïmirlï  | sïnfimïrli | sinfïmfli   |
+| red, purple | pretty (not people) | beautifly   | beautifly  | beautifly   |
+
+it is deriving
+
+** Verbs
+Verbs are pretty simple. There’s imperfective, perfective, and a single
+reflexive form. I don’t know about tense, but I think perfective is never in the
+present. Maybe the genetically modified people are retarded.
+
+Reflexive is used if one thing is doing something to itself or if more than one
+thing are doing things to each other. (It’s not like in spanish though where
+doing stuff like sitting is reflexive.)
+
+
+|           | Vowel      |         | Consonant       |          |
+| /         | <          | >       | <               | >        |
+|-----------+------------+---------+-----------------+----------|
+| Ipfv      |            | Ppomi   |                 | Byeb     |
+| Pfv       | /rounding/ | Ppamï   | /rounding/      | Byëb     |
+| Reflexive | -amo       | Ppomimo | /reduplication/ | Byebbyëb |
+
+** Verbification
+This is a thing where nouns can be turned into verbs. There is a process for
+nouns and specific forms for pronouns. All that’s in the torch is I think one
+pronoun verbification, so there will be less charts. This is also the only place
+tense is actually specified instead of implied. The forms are:
+
+|           | Noun    |                  | Pronoun |             |
+|           | Nomi    | Student          | Bom     | I (1s)      |
+| /         | <       | >                | <       | >           |
+|-----------+---------+------------------+---------+-------------|
+| Present   | Nomnomi | is student       | Bom     | is me       |
+| Past      | Namnamï | was student      | Babb    | was me      |
+| Cond      | Onomi   | would be student | Obam    | would be me |
+| Pres Caus | Anami   | make student     | Abom    | make me     |
+| Past Caus | Nomdomi | made student     | Bobom   | made me     |
+
+Causative is used with dative (he made clay to statue; he made the clay into a
+statue).  You can keep an eye out for this by seeing if a word has two of the
+same vowel in a row.
+
+*** Pronoun verbification
+For present, just use the nominative form of the pronoun.
+
+| Tense                | #  | 1st p  | 2nd p  | 3rd p   |
+|----------------------+----+--------+--------+---------|
+| Past                 |  1 | Babb   | Tamm   | Nyonn   |
+|                      |  2 | Bapp   | Tapp   | Nyopp   |
+|                      | 3+ | Batt   | Tatt   | Nyott   |
+|----------------------+----+--------+--------+---------|
+| Cond/Pres. caus.^{1} |  1 | Obam   | Otam   | Ënyen   |
+|                      |  2 | Obap   | Otap   | Ënyepp  |
+|                      | 3+ | Obammo | Otammo | Ënyennë |
+|----------------------+----+--------+--------+---------|
+| Past Causative       |  1 | Bobom  | Todom  | Nyodom  |
+|                      |  2 | Bobopp | Todopp | Nyodopp |
+|                      | 3+ | Bobott | Todott | Nyodott |
+
+ ^{1} (Reverse the rounding for present causative)
+
+*** Irregular verbs
+Irregular Verbs. There are a couple important ones. In the present, flam/flom
+are not used.
+
+|           | to be/exist (nom) | to be to (acc/dat) | to be at (loc) |
+|-----------+-------------------+--------------------+----------------|
+| Ipfv      | Nna               | Flam               | Flom           |
+| Pfv       | Nno               | Flam               | Flom           |
+| Reflexive | Nnamo             | Flamïma            | Flomimo        |
+
+** Postpositions
+There are only two postpositions. They have negated forms. This is what they
+mean with different cases:
+
+Fë is used to describe relation within a context.
+
+Go is used to describe relation between contexts.
+
+|      |    | acc               | dat                 | loc             |
+|------+----+-------------------+---------------------+-----------------|
+|      | fë | to, into, &c.     | for, because of, as | at, on, in, &c. |
+| neg. | fe | from, out of, &c. | despite             | off, away, &c.  |
+|------+----+-------------------+---------------------+-----------------|
+|      | go | to, into, &c.     | --                  | at, on, in, &c. |
+| neg. | ga | from, out of, &c. | --                  | off, away, &c.  |
+
+** Putting more than one verb in a row & using this for tense
+What you’ll see here is a verbification, followed by a verb. (Most verbs can be
+turned into nouns.) If you want to say something like “Try to see” or “Try
+seeing” you would write, “flïnnflïnn digryo” (translates something like seeing
+is try). So, you could also use the past tense version of seeing is and
+communicate tense: something normal verbs cannot do.
+
+Perfective also helps to convey tense, since it cannot be used it the present,
+but does not go past this. You may, at the beginning of whatever topic you have,
+use an auxiliary verbification past tense thing, then drop it once it is
+implied. Can’t do this for future, though. Usually you’ll use verbifications of
+Fïfi if you’re talking about a thing, but pronouns are common too (fïfi for
+inanimate in this situation, and nyën is used for people only) , and probably
+some other things.
+
+Any negatives here will apply to the non-verbification verb.
+
+** Negated Nouns
+There’s this thing that is like a broad prefixing for negating nouns, figure
+like un-. Then I noticed that there was no way of negating clauses and decided
+that that is done by negating the subject. But it also still does un-. I have
+not thought about what would happen at the overlap of using negated words in the
+subject. The prefix is Ba-
+
+** Determiners
+Interfixes are used to attach specific nouns to nouns and be determiners. They
+are always used with the singular form of the root noun.
+
+
+| coda            | nom  | acc  | dat  | loc   |
+|-----------------+------+------+------+-------|
+| ~/m f b p/~     | -mv- | -mv- | -fv- | -blv- |
+| everything else | -nv- | -nv- | -fv- | -blv- |
+
+#+HTML: <p>fimï + na + nomi → fimoni<strong>nomi</strong>
+
+** Not included
+- Counting or numbers
+- Questions
+- Lots of details on usage of the things that are included.
+- Orthography. 
+  the relay takes too long already i don’t want to put it in
+  just because I’m pround of it and like to look at it
+
+** A note on romanization
+You’ll notice that i used a bunch of semicolons. This is the transcription of a
+Blimbic punctuation, used to separate clauses and quotes. It’s a little
+different than the use of english semicolon.
 
 * Navigation
 :PROPERTIES:

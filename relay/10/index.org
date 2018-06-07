@@ -296,29 +296,6 @@ Blïmbi
 #+END_conlang-name
 
 #+BEGIN_conlang-text
-"Məhayaki wēzen," sustaä rātz, "īzër hītśamyar, wu."
-
-Ośoṃ Zuwaraṃ tärśen.
-
-"Tū mlyeya ere, tui xyleñośima."
-
-"Tśustizäṃ."
-
-"Tətiyətsar hāuki zetsäṃ kitśoyit... mitāzarmeyahāyən, hāu tā liztoṃ. Wu zetaä
-miśeśtma, wēzenki."
-
-"Miśeśtma, hiś?"
-
-"fūsit... pənufa, təti śeśtmaki, təti śora fyreka. tosawəsatsar okorā fūsit!"
-rātz.
-
-"Ka tā śawo tsau zetaä tāzaretiyayëz ka miśeśtuya, hiś?"
-
-"Təti okorā zäṃ pyratśmaäki, śeśtśëzki. Pənu wāzen, pətsi wätle, ërotaī
-miśäsersitre. Īzër tāzarmeyayen, ërotaī fyreka śorayara miets."
-
-------
-
 Tiryo p​ïpelrï; “tsilëba Bom Ssonna go; gyïmmnatsïff fë.”
 
 Nyënn f​ë; mippogli flinn Tsaboram danoTam.
