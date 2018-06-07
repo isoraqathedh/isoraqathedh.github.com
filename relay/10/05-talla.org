@@ -9,8 +9,9 @@
 
 * Translation
 #+BEGIN_short-relay
+
 #+BEGIN_detail-link
-[[file:05-talla-torch.txt][Complete torch document]] · [[file:05-talla-Torch4Iso.txt][Gloss]]
+[[file:05-talla-torch.txt][Complete torch]]
 #+END_detail-link
 
 #+BEGIN_natlang-name
@@ -18,28 +19,27 @@ English
 #+END_natlang-name
 
 #+BEGIN_natlang-text
-"I know I am skillful." The man who runs the store sneezed. "I stand in the
-place that I've always known."
+"I know that i have the skill." said the shopkeep. "I'm stood here, as one
+knows."
 
-I sadly looked at Sufarar.
+I was watching Mr Zuvara.
 
-"You are friendly. Look at me now."
+"You are being polite. But hear me out."
 
-"I will obey."
+"I'll follow."
 
-"You run this store, and it is difficult. I do not rest, I am always moving. I
-am sure this store will never close."
+"You work a shop that is difficult, then. I dont ever take a day off - it's
+difficult to move. So the shop never would close, I know it.
 
-"This store won't close?"
+"Never would close, yeah?"
 
-"This store is impossible to close. A demon told me. The curse is great." The
-man sneezed.
+"Maybe... but surely, if I closed it, the spirit would be bad. The bad luck
+would be great!" he said.
 
-"While you ran the store, the curse closed it?"
+"And that's why you keep running the shop and don't close it, yes?"
 
-"Unfortunately, the curse demanded for the store to be closed. I'm sure the
-curse will not end for a long time! The demon's curse did not exist when I
-worked here."
+"If luck demanded it, I would close it. But I know, after a while, the curse
+would not abate. I work here, the curse is not of the bad spirit."
 #+END_natlang-text
 
 #+BEGIN_conlang-name
@@ -47,115 +47,30 @@ Laikan
 #+END_conlang-name
 
 #+BEGIN_conlang-text
-"hadiya yau vai; yau na jiyali." ajwa daz, vaun darauniya aa miram. "biya
-huzddal, vaun adan hadiya, yau."
+"Məhayaki wēzen," sustaä rātz, "īzër hītśamyar, wu."
 
-ilwa dibb Zuvara baulwi yau.
+Ośoṃ Zuwaraṃ tärśen.
 
-"lu na viyaz. auv ha, ilwij yawi lu."
+"Tū mlyeya ere, tui xyleñośima."
 
-"zumiddiya yau."
+"Tśustizäṃ."
 
-"darauniya lu aa miram id, ya vi na uduri. adan bauziviya - adan jada humpi
-yau. baubbirariyaj miram id; hadiya yau vai."
+"Tətiyətsar hāuki zetsäṃ kitśoyit... mitāzarmeyahāyən, hāu tā liztoṃ. Wu zetaä
+miśeśtma, wēzenki."
 
-"baubbirariyaj miram id, zauha a."
+"Miśeśtma, hiś?"
 
-"mid baubbirariya hadan miram id. yigai ajma augu dau. unvaun na lazai." ajwa
- daz.
+"fūsit... pənufa, təti śeśtmaki, təti śora fyreka. tosawəsatsar okorā fūsit!"
+rātz.
 
-"auv darauniya lu aa miram, bbirarwaj unvaun vai, yauha a."
+"Ka tā śawo tsau zetaä tāzaretiyayëz ka miśeśtuya, hiś?"
 
-"ubbyi unvaun vai; bbirariya ajal miram. auv daam madzi, bauniyinyij unvaun;
- hadiya yau vai. auv gariya yau iddal, bauhiya unvaun ajmahigza augu."
+"Təti okorā zäṃ pyratśmaäki, śeśtśëzki. Pənu wāzen, pətsi wätle, ërotaī
+miśäsersitre. Īzër tāzarmeyayen, ërotaī fyreka śorayara miets."
 #+END_conlang-text
 
 #+END_short-relay
 
-* Gloss, IPA and Translation
-#+BEGIN_EXAMPLE
-*************************
-
-ENG TRS: "I know I am skillful." The man who runs the store sneezed. "I stand in the place that I've always known." 
-WIZ GLS: know-STA 1S.NOM 3Si.ACC; 1S.NOM have skill."  sneeze-ATEL man, REL.does control-STA ACC store. "stand-STA place-INE, REL.do HAB  know-STA, 1S.NOM."
-WIZ TRS: "hadiya  yau    vai;     yau    na   jiyali." ajwa        daz, vaun     darauniya   aa  miram. "biya      huzddal,   vaun   adan hadiya,   yau."
-
-WIZ: "hadiya yau vai; yau na jiyali." ajwa daz, vaun darauniya aa miram. "biya huzddal, vaun adan hadiya, yau."
-IPA: ["ɣə̤ˈdijə ˈjɑ ˈvai̯; ˈjɑ nə ʒɪˈjali." ˈaʒwə ˈdaz, ˈvɑn dəɾɑˈnijə ˈe ˈmiɾəm. "ˈbijə ˈɣɯ̤zˌtal, vɑn ˈadən ɣə̤ˈdijə, jɑ."]
-
-*************************
-
-ENG TRS: I sadly looked at Sufarar.
-WIZ GLS: look-ATEL sad  Sufarar HON-LAT 1S.NOM.
-WIZ TRS: ilwa      dibb Zuvara  baulwi  yau.
-
-WIZ: ilwa dibb Zuvara baulwi yau.
-IPA: [ˈilwə ˈdip ˈzɯvəɾə ˈbɑlwi jɑ.]
-
-*************************
-
-ENG TRS: "You are friendly. Look at me now."
-WIZ GLS: 2.NOM have kind.  During present, look-TEL-IRR 1S.ADP-LAT 2S.NOM.
-WIZ TRS: "lu   na   viyaz. auv    ha,      ilwij        yawi       lu.
-
-WIZ: "lu na viyaz. auv ha, ilwij yawi lu."
-IPA: [ˈlɯ nə ˈvijəz. ˈɑv ˈɣa̤, ˈilwiʒ ˈjawi lɯ.]
-
-*************************
-
-ENG TRS: "I will obey."
-WIZ GLS: obey-STA   1S.NOM
-WIZ TRS: "zumiddiya yau."
-
-WIZ: "zumiddiya yau."
-IPA: ["ˈzɯmɪˌdijə jɑ."]
-
-*************************
-
-ENG TRS: "You run this store, and it is difficult. I do not rest, I am always moving. I am sure this store will never close."
-WIZ GLS: control-STA 2S.NOM ACC store PROX, and 3Si.NOM have difficult. HAB  NEG-rest-STA - HAB  move-DUR always 1S.NOM. NEG-close-STA-IRR store PROX; know-STA 1S.NOM 3Si.ACC.
-WIZ TRS: "darauniya  lu     aa  miram id,   ya  vi      na   uduri.     adan bauziviya    - adan jada     humpi  yau.    baubbirariyaj     miram id;   hadiya   yau    vai."
-
-WIZ: "darauniya lu aa miram id, ya vi na uduri. adan bauziviya - adan jada humpi yau. baubbirariyaj miram id; hadiya yau vai."
-IPA: ["dəˈɾɑˌnijə ˈlɯ ˈe ˈmiɾəm ˈid, jə ˈvi nə ˈɯdɯɾi. əˈdan ˈʒadə ˈɣɯ̤mpi ˈjɑ. bɑˈpiɾəˌɾijəʒ ˈmiɾəm ˈid; ɣə̤ˈdijə ˈjɑ ˈvai̯."]
-
-*************************
-
-ENG TRS: "This store won't close?"7
-WIZ GLS: NEG-close-STA-IRR store this, yes   Q.
-WIZ TRS: "baubbirariyaj    miram id,   zauha a."
-
-WIZ: "baubbirariyaj miram id, zauha a."
-IPA: ["bɑˈpiɾəˌɾijəʒ ˈmiɾəm ˈid, ˈzɑɦɑ̤ ˈa."]
-
-*************************
-
-ENG TRS: "This store is impossible to close. A demon told me. The curse is great." The man sneezed.
-WIZ GLS: POT NEG-close-STA sure  store PROX. speak-TEL spirit bad  1S.ACC. curse  have great." sneeze-ATEL man.
-WIZ TRS: mid baubbirariya  hadan miram id.   yigai     ajma   augu dau.    unvaun na   lazai." ajwa        daz.
-
-WIZ: "mid baubbirariya hadan miram id. yigai ajma augu dau. unvaun na lazai." ajwa daz.
-IPA: ["ˈmid bɑˈpiɾəˌɾijə ˈɣadən ˈmiɾəm ˈid. jɪˈɡai̯ ˈaʒmə ˈɑɡɯ ˈdɑ. ˈɯnvɑn nə ləˈzai̯." ˈaʒwə ˈdaz.]
-
-*************************
-
-ENG TRS: "While you ran the store, the curse closed it?"
-WIZ GLS: During control-STA 2S.NOM ACC store, close-TEL-IRR curse  3Si.ACC, yes   Q?
-WIZ TRS: "auv   darauniya   lu     aa  miram, bbirarwaj     unvaun vai,     yauha a."
-
-WIZ: "auv darauniya lu aa miram, bbirarwaj unvaun vai, yauha a."
-IPA: ["ˈɑv dəˈɾɑˌnijə ˈlɯ ˈe ˈmiɾəm, ˈpiɾəɾwəʒ ˈɯnvɑn ˈvai̯, ˈjɑɦə̤ ˈa."]
-
-**************************
-
-ENG TRS: "Unfortunately, the curse demanded for the store to be closed. I'm sure the curse will not end for a long time! The demon's curse did not exist when I worked here."
-WIZ GLS: demand-TEL  curse  3Si.ACC; close-STA must store. during time much,  NEG-end-TEL-IRR curse;  know-STA 1S.NOM 3Si.ACC. during work-STA 1S.NOM here-INE, NEG-exist-STA curse  spirit-ABL bad.  
-WIZ TRS: "ubbyi      unvaun vai;     bbirariya ajal miram. auv    daam madzi, bauniyinyij     unvaun; hadiya   yau    vai.     auv    gariya   yau    iddal,    bauhiya       unvaun ajmahigza  augu.
-
-WIZ: "ubbyi unvaun vai; bbirariya ajal miram. auv daam madzi, bauniyinyij unvaun; hadiya yau vai. auv gariya yau iddal, bauhiya unvaun ajmahigza augu."
-IPA: ["ˈɯpji ˈɯnvɑn vai̯; ˈpiɾəˌɾijə ˈaʒəl ˈmiɾəm. ˈɑv ˈdem ˈmadzi, bɑˈnijɪnˌyiʒ ˈɯnvɑn; ɣə̤ˈdijə ˈjɑ ˈvai̯. ˈɑv ɡəˈɾijə jɑ ˈiˌtal, bɑˈɦi̤jə ˈɯnvɑn ˈaʒməˌɦi̤ɡzə ˈɑɡɯ."]
-
-#+END_EXAMPLE
 
 * Grammar
 Old Laikan is an a posteriori IE conlang I've been working on for a couple years.

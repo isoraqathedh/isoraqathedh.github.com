@@ -10,7 +10,7 @@
 * Translation
 #+BEGIN_short-relay
 #+BEGIN_detail-link
-[[file:04-alllens_torch_writeup.txt][Complete torch document]] · [[file:04-torch_translation.txt][Raw translation]]
+[[file:05-talla-torch.txt][Complete torch document]] · [[file:05-talla-Torch4Iso.txt][Gloss]]
 #+END_detail-link
 
 #+BEGIN_natlang-name
@@ -18,164 +18,363 @@ English
 #+END_natlang-name
 
 #+BEGIN_natlang-text
-"I believe that I know a great deal of things." The shopkeeper blew his nose.  "The people that come from where I do tend to know a lot."
+"I know I am skillful." The man who runs the store sneezed. "I stand in the
+place that I've always known."
 
-I looked at Sufarar sadly.
+I sadly looked at Sufarar.
 
-"You're a friendly one." he said. "While I tell you this, pay attention."
+"You are friendly. Look at me now."
 
-"I will." (rote polite response to superior)
+"I will obey."
 
-"Running this shop is difficult. I don't rest, I just buzz around like a bee. I never close the shop."
+"You run this store, and it is difficult. I do not rest, I am always moving. I
+am sure this store will never close."
 
-"Never close?" (indirect polite question)
+"This store won't close?"
 
-"Yes, it's impossible to close the shop. The evil spirit commands me. It's a powerful curse." The shopkeeper blew his nose.
+"This store is impossible to close. A demon told me. The curse is great." The
+man sneezed.
 
-"And while you run the shop, the curse...?" (indirect polite question)
+"While you ran the store, the curse closed it?"
 
-"Yes, the curse requires me to run the shop. It won't end for a hundred years! While the spirit's curse continues, I do his work."
+"Unfortunately, the curse demanded for the store to be closed. I'm sure the
+curse will not end for a long time! The demon's curse did not exist when I
+worked here."
 #+END_natlang-text
 
 #+BEGIN_conlang-name
-~langname~
+Laikan
 #+END_conlang-name
 
 #+BEGIN_conlang-text
-"nutatta." rukkan runam t'upette bikkab t'umuttassu. "ú wuru nar gwe t'ar t'ut'
-t'akak".
+"hadiya yau vai; yau na jiyali." ajwa daz, vaun darauniya aa miram. "biya
+huzddal, vaun adan hadiya, yau."
 
-sufarar nenagun.
+ilwa dibb Zuvara baulwi yau.
 
-"arikasu. ninnappaki, anngunmi."
+"lu na viyaz. auv ha, ilwij yawi lu."
 
-"au, nban negawi."
+"zumiddiya yau."
 
-"runam ate i pafa t'uba. inerapatrapat - anirini. runam inetapputapputta."
+"darauniya lu aa miram id, ya vi na uduri. adan bauziviya - adan jada humpi
+yau. baubbirariyaj miram id; hadiya yau vai."
 
-"au, ítappura i..."
+"baubbirariyaj miram id, zauha a."
 
-"hí, netappu i pafupafu t'uba. watag t'unne. rekka wa t'uba." rukkan bikkab
-t'umuttassu.
+"mid baubbirariya hadan miram id. yigai ajma augu dau. unvaun na lazai." ajwa
+ daz.
 
-"au, runam aterapaki, rekka i ..."
+"auv darauniya lu aa miram, bbirarwaj unvaun vai, yauha a."
 
-"hí, rekka runam nate i t'uppisap. rekka basi gung it'ufenatta! wataga rekka
-it'usupaki, nesansan."
+"ubbyi unvaun vai; bbirariya ajal miram. auv daam madzi, bauniyinyij unvaun;
+ hadiya yau vai. auv gariya yau iddal, bauhiya unvaun ajmahigza augu."
 #+END_conlang-text
 
 #+END_short-relay
 
+* Gloss, IPA and Translation
+#+BEGIN_EXAMPLE
+*************************
+
+ENG TRS: "I know I am skillful." The man who runs the store sneezed. "I stand in the place that I've always known." 
+WIZ GLS: know-STA 1S.NOM 3Si.ACC; 1S.NOM have skill."  sneeze-ATEL man, REL.does control-STA ACC store. "stand-STA place-INE, REL.do HAB  know-STA, 1S.NOM."
+WIZ TRS: "hadiya  yau    vai;     yau    na   jiyali." ajwa        daz, vaun     darauniya   aa  miram. "biya      huzddal,   vaun   adan hadiya,   yau."
+
+WIZ: "hadiya yau vai; yau na jiyali." ajwa daz, vaun darauniya aa miram. "biya huzddal, vaun adan hadiya, yau."
+IPA: ["ɣə̤ˈdijə ˈjɑ ˈvai̯; ˈjɑ nə ʒɪˈjali." ˈaʒwə ˈdaz, ˈvɑn dəɾɑˈnijə ˈe ˈmiɾəm. "ˈbijə ˈɣɯ̤zˌtal, vɑn ˈadən ɣə̤ˈdijə, jɑ."]
+
+*************************
+
+ENG TRS: I sadly looked at Sufarar.
+WIZ GLS: look-ATEL sad  Sufarar HON-LAT 1S.NOM.
+WIZ TRS: ilwa      dibb Zuvara  baulwi  yau.
+
+WIZ: ilwa dibb Zuvara baulwi yau.
+IPA: [ˈilwə ˈdip ˈzɯvəɾə ˈbɑlwi jɑ.]
+
+*************************
+
+ENG TRS: "You are friendly. Look at me now."
+WIZ GLS: 2.NOM have kind.  During present, look-TEL-IRR 1S.ADP-LAT 2S.NOM.
+WIZ TRS: "lu   na   viyaz. auv    ha,      ilwij        yawi       lu.
+
+WIZ: "lu na viyaz. auv ha, ilwij yawi lu."
+IPA: [ˈlɯ nə ˈvijəz. ˈɑv ˈɣa̤, ˈilwiʒ ˈjawi lɯ.]
+
+*************************
+
+ENG TRS: "I will obey."
+WIZ GLS: obey-STA   1S.NOM
+WIZ TRS: "zumiddiya yau."
+
+WIZ: "zumiddiya yau."
+IPA: ["ˈzɯmɪˌdijə jɑ."]
+
+*************************
+
+ENG TRS: "You run this store, and it is difficult. I do not rest, I am always moving. I am sure this store will never close."
+WIZ GLS: control-STA 2S.NOM ACC store PROX, and 3Si.NOM have difficult. HAB  NEG-rest-STA - HAB  move-DUR always 1S.NOM. NEG-close-STA-IRR store PROX; know-STA 1S.NOM 3Si.ACC.
+WIZ TRS: "darauniya  lu     aa  miram id,   ya  vi      na   uduri.     adan bauziviya    - adan jada     humpi  yau.    baubbirariyaj     miram id;   hadiya   yau    vai."
+
+WIZ: "darauniya lu aa miram id, ya vi na uduri. adan bauziviya - adan jada humpi yau. baubbirariyaj miram id; hadiya yau vai."
+IPA: ["dəˈɾɑˌnijə ˈlɯ ˈe ˈmiɾəm ˈid, jə ˈvi nə ˈɯdɯɾi. əˈdan ˈʒadə ˈɣɯ̤mpi ˈjɑ. bɑˈpiɾəˌɾijəʒ ˈmiɾəm ˈid; ɣə̤ˈdijə ˈjɑ ˈvai̯."]
+
+*************************
+
+ENG TRS: "This store won't close?"7
+WIZ GLS: NEG-close-STA-IRR store this, yes   Q.
+WIZ TRS: "baubbirariyaj    miram id,   zauha a."
+
+WIZ: "baubbirariyaj miram id, zauha a."
+IPA: ["bɑˈpiɾəˌɾijəʒ ˈmiɾəm ˈid, ˈzɑɦɑ̤ ˈa."]
+
+*************************
+
+ENG TRS: "This store is impossible to close. A demon told me. The curse is great." The man sneezed.
+WIZ GLS: POT NEG-close-STA sure  store PROX. speak-TEL spirit bad  1S.ACC. curse  have great." sneeze-ATEL man.
+WIZ TRS: mid baubbirariya  hadan miram id.   yigai     ajma   augu dau.    unvaun na   lazai." ajwa        daz.
+
+WIZ: "mid baubbirariya hadan miram id. yigai ajma augu dau. unvaun na lazai." ajwa daz.
+IPA: ["ˈmid bɑˈpiɾəˌɾijə ˈɣadən ˈmiɾəm ˈid. jɪˈɡai̯ ˈaʒmə ˈɑɡɯ ˈdɑ. ˈɯnvɑn nə ləˈzai̯." ˈaʒwə ˈdaz.]
+
+*************************
+
+ENG TRS: "While you ran the store, the curse closed it?"
+WIZ GLS: During control-STA 2S.NOM ACC store, close-TEL-IRR curse  3Si.ACC, yes   Q?
+WIZ TRS: "auv   darauniya   lu     aa  miram, bbirarwaj     unvaun vai,     yauha a."
+
+WIZ: "auv darauniya lu aa miram, bbirarwaj unvaun vai, yauha a."
+IPA: ["ˈɑv dəˈɾɑˌnijə ˈlɯ ˈe ˈmiɾəm, ˈpiɾəɾwəʒ ˈɯnvɑn ˈvai̯, ˈjɑɦə̤ ˈa."]
+
+**************************
+
+ENG TRS: "Unfortunately, the curse demanded for the store to be closed. I'm sure the curse will not end for a long time! The demon's curse did not exist when I worked here."
+WIZ GLS: demand-TEL  curse  3Si.ACC; close-STA must store. during time much,  NEG-end-TEL-IRR curse;  know-STA 1S.NOM 3Si.ACC. during work-STA 1S.NOM here-INE, NEG-exist-STA curse  spirit-ABL bad.  
+WIZ TRS: "ubbyi      unvaun vai;     bbirariya ajal miram. auv    daam madzi, bauniyinyij     unvaun; hadiya   yau    vai.     auv    gariya   yau    iddal,    bauhiya       unvaun ajmahigza  augu.
+
+WIZ: "ubbyi unvaun vai; bbirariya ajal miram. auv daam madzi, bauniyinyij unvaun; hadiya yau vai. auv gariya yau iddal, bauhiya unvaun ajmahigza augu."
+IPA: ["ˈɯpji ˈɯnvɑn vai̯; ˈpiɾəˌɾijə ˈaʒəl ˈmiɾəm. ˈɑv ˈdem ˈmadzi, bɑˈnijɪnˌyiʒ ˈɯnvɑn; ɣə̤ˈdijə ˈjɑ ˈvai̯. ˈɑv ɡəˈɾijə jɑ ˈiˌtal, bɑˈɦi̤jə ˈɯnvɑn ˈaʒməˌɦi̤ɡzə ˈɑɡɯ."]
+
+#+END_EXAMPLE
+
+
 * Lexicon
-#+ATTR_HTML: :class vocablist
-- ak :: v. (TR) to know (something) well, to understand
-- anirini :: id. buzzing, movement back and forth, bee-like action
-- ar :: v. (INTR) to be standing (unmoving), remain (in a location), live (somewhere)
-- au :: id. polite listening interest
-- ba :: v. (COP) predicative copula
-- basi :: num. hundred, generic long time
-- bi :: n. nose, nostril
-- fe :: v. (INTR) (of a state) to end
-- gawi :: v. (INTR) to obey (formal/polite)
-- gu :: n. year
-- gun :: v. (TR) to look at, pay attention to
-- hí :: id. agreement, acknowledgement of indirect question
-- i :: dem. this
-- isap :: v. (TR) to require, demand (something)
-- it :: v. (INTR) to speak
-- kasu :: v. (TR) to catch (an object), grab (something) suddenly, (colloquially) be friendly, charming, flirty, attractive
-- mutta :: v. (INTR) to spit, expell from the mouth, (vulgar) to ejaculate
-- na :: adv. to do something sadly, to be sad (while doing something)
-- pafa :: adj. tiring, difficult
-- pafapafa :: adj. impossible
-- paki :: sub. while, at the same time as, during, when
-- rapat :: v. (INTR) to rest, take a break
-- rekka :: n. curse (to do something), geas
-- rukkan :: n. man (formal)
-- runam :: n. shop, store, market stall
-- san :: v. (INTR) to work
-- su :: v. (INTR) to exist
-- sufarar :: n. proper name
-- tappu :: v. (TR) to block access to (a location), refuse entry, close (a shop)
-- te :: v. (TR) to command, demand, instruct, run (a business), control (a group)
-- u :: n. human
-- utap :: v. (INTR) to be skillful, well-rounded, world-wise
-- wa :: adj. big
-- watag :: n. evil spirit, demon
-- wur :: n. place, area, location (geographically)
+| Word    | POS   | Gloss                                                           |
+|---------+-------+-----------------------------------------------------------------|
+| a       | part. | question particle                                               |
+| aa      | part. | accusative particle                                             |
+| adan    | part. | habitual particle                                               |
+| ajal    | mod.  | required, must                                                  |
+| ajma    | n.    | spirit                                                          |
+| aju     | v.    | sneeze                                                          |
+| augu    | mod.  | bad, evil                                                       |
+| auv     | part. | when, while, during                                             |
+| baul    | hon.  | male honorific, sir, mister                                     |
+| bbiraru | v.    | block, close                                                    |
+| bu      | v.    | stand                                                           |
+| daam    | n.    | period of time                                                  |
+| darauna | v.    | control, be over something                                      |
+| daz     | n.    | man                                                             |
+| gari    | v.    | work, labor                                                     |
+| ha      | n.    | now, present moment                                             |
+| hadan   | mod.  | sure(ly), definite(ly)                                          |
+| hadu    | v.    | know                                                            |
+| hi      | v.    | exist, be (usually translated as "there is")                    |
+| humbbi  | mod.  | always                                                          |
+| huz     | n.    | place, location                                                 |
+| id      | mod.  | proximate determiner, this                                      |
+| id      | n.    | here (this place)                                               |
+| ilu     | v.    | look, see                                                       |
+| iyini   | v.    | end, finish                                                     |
+| jada    | v.    | move                                                            |
+| jiyali  | n.    | skill, talent                                                   |
+| lazai   | mod.  | great, awesome, big                                             |
+| madzi   | mod.  | much, a lot                                                     |
+| mid     | part. | potential mood, (can, could)                                    |
+| miram   | n.    | store, shop, market                                             |
+| na      | part. | RELATIVIZER: which has; copula for predicate adjective; to have |
+| ubbi    | v.    | demand, order                                                   |
+| uduri   | mod.  | difficult                                                       |
+| unvaun  | n.    | bad luck, curse                                                 |
+| vaun    | part. | RELATIVIZER: which does; gnomic mood particle                   |
+| viyaz   | mod.  | kind, polite, friendly                                          |
+| ya      | conj. | and, also                                                       |
+| yiga    | v.    | speak, tell, talk                                               |
+| zauha   | intj. | yes                                                             |
+| zivi    | v.    | rest, take a break                                              |
+| zumidda | v.    | obey, follow                                                    |
+| zuvara  | n.    | proper name                                                     |
 
 * Grammar
-This lingus is SOV. Possessors come before the possessed noun, and so do
-(attributive) adjectives and numerals. demonstratives come after the noun.  Most
-information comes in affixes.  The head noun is only found inside the relative
-clause: in the main clause, there's a pronoun that replaces it. In nested
-relative clauses, this can get a little tricky.  The remote past tense doubles
-as a narrative marker, a bit like saying "once upon a time". It's used in the
-first sentence of a narrative to begin it, but isn't used throughout the story.
-there are grammatical distinctions with politeness. some words are inherently
-more polite, and there's some affixes that increase politeness.  when speaking
-to somebody older or a social superior, the polite thing to do is ask "indirect
-questions" instead of direct ones. In indirect questions, a statement is made
-and left unfinished to invite the listener to answer, instead of "demanding"
-them to.  verbs in relative clauses and imperatives don't take politeness
-markings, belief markings, aspects, or tenses.  the persons of the subject and
-object are both marked on the verb.  the positive belief marker is used to
-emphasize a statement, or as a way to say "it really is!" or "i swear that this
-is how things are!"  "adverbs" are placed directly before the verb root.
-according to WALS, words like "while" are called "adverbial subordinators." who
-knew, eh? those are suffixed on the verb.
-  
-** Affixes and unrootlike doohickies
-#+Caption: subject pronouns
-| Person | Normal | Respectful/humble | Plural |
-|--------+--------+-------------------+--------|
-| 1st    | nu     | nban              | nunu   |
-| 2nd    | a      | án                | á(ʔ)   |
-| 3rd    | t'u    | t'ún              | t'ut'  |
-| 4th    | gwe    | gún               | gwepe  |
+Wistanian, natively known as "anigalilaun", is an a priori artlang designed for
+use in a novel. It is spoken as a majority language on a large island nation
+that has been isolated for most of their history in order to protect their most
+valuable and dangerous resource: the ajmastone. This is my first conlang, and
+has recieved very many dramatic revisions in the past year since I've been
+learning more and more about linguistics and the art of language construction.
 
-#+Caption:  object pronouns
-| Person | Normal | Respectful/humble | Plural  |
-|--------+--------+-------------------+---------|
-| 1st    | nu(h)  | nbanu             | nuhnu   |
-| 2nd    | á(h)   | áhan              | áhá     |
-| 3rd    | t'u(h) | t'úhan            | t'uht'u |
-| 4th    | gwe(h) |                   |         |
+** Syntax
 
-- reflexive :: r(i)-
-	
-** noun affixes:
-order: root-location-movement-possessor
+*** Parts of speech
+Wistanian grammarians classify five distinct parts of speech:
 
-- in/at (an area, a flat or open surface) :: -(s)u
-- inside (an enclosed space, in water, in a crevice) :: -(a)k
-- movement to :: -(n)g(i)
-- movement away :: -(Q)ab / -V:b
-- possessor :: -t(a)
 
-** verb affixes (non-personal)
-order: neg-sbj-obj-adv-root-TAM/belief-politeness-adv.sub
+- Nouns :: Any word that takes on nominal morphology
+           and can act as a subject or object the verb.
+- Verbs :: Any word that takes on verbal morphology.
+- Modifiers :: Any word that describes or specifies another word.
+               There are no morphological distinctions between adjectives and abverbs.
+- Particles :: Any word that have a grammatical role,
+               rather than a semantic role, and cannot take on any morphology.
+- Honorifics :: A polite title used with many proper nouns. 
 
-#+Caption: Person inflection
-|      | 1st   | 2nd     | 3rd    | 4th              |
-|------+-------+---------+--------+------------------|
-| subj | n(e)- | a(Q)-   | t'(u)- | /complex†/       |
-| obj  | nn-   | á(Q/h)- | {}-    | p(eQ)-           |
+*** Word order
+Wistanain has a predominately Verb-Subject-Object word order, with Oblique
+phrases that can come either first in the sentence, last in the sentence, or
+immediately after the verb. The location of an oblique depends entirely on the
+nature of the phrase and its role in the sentence (e.g., Oblique phrases that
+refer to the time in which an action takes place almost always comes first in a
+sentence.)
 
-†tt' before a vowel,
-t'u(Q) before a consonant that can be lengthened,
-t'ú before a consonant that can't
+Modifiers come after their head, unless that modifier is a possessive, number,
+or color (in which cases, it comes before the noun it modifies).
 
-** Tense inflection:
-- Recent/normal past :: -s(u)
-- Distant/irrelevant past ("at some point") :: -susu/-ssu
-- Future :: -nat
-- Continuative/habitual (i am still Xing / i X (often)) :: 
-     Full reduplication of the root
-- positive belief marker :: -t:a
-- Negation :: i-
-- Normal politeness :: -ra
-- Imperative :: -m(i)
+Particles come first in a noun or verb phrase (before the head and any
+modifiers).
+
+Honorifics come immediately after their heads and before any other modifier.
+
+*** Special sentences and phrases
+Imperatives are normally Verb-Object-Subject.
+
+Questions are formed with the question particle <a>. Yes/No questions also end
+with either <zahau/zau> (yes) or <baun> (no).
+
+Relative clauses begin with either <va> (which is), <na> (which has), or <vaun>
+(which does). These can also be used as copula-like words - <va> connects two
+nouns; <na> connects a subject with a modifier; <vaun> connects the subject with
+a verb.
+
+Noun clauses are typically split into two separate sentences.
+
+** Morphology
+
+*** Nominal morphology
+
+Improper nouns decline for number and position:
+
+#+Caption: Number
+| Number | Definition       | Mark           | Gloss |
+|--------+------------------+----------------+-------|
+| Paucal | one or a few.    | Unmarked.      |       |
+| Plural | more than a few. | <-n> or <-an>. | PL    |
+
+#+Caption: Position 
+| Number      | Definition     | Mark      | Gloss | Notes                          |
+|-------------+----------------+-----------+-------+--------------------------------|
+| Inessive    | within or atop | <-ddal>   | INE   |                                |
+| Elative     | outside        | <-al>     | ELA   |                                |
+| Lative      | to(ward),      | <-wi>     | LAT   | (also used for dative nouns)   |
+| Ablative    | away (from),   | <-igza>   | ABL   | (also used for genitive nouns) |
+| Adessive    | near           | <-nuz>    | ADE   |                                |
+| Distantive  | far away from  | <-bin>    | DTV   |                                |
+| Superessive | above          | <-jazid>  | SUPE  |                                |
+| Subessive   | under          | <-bbaggu> | SUBE  |                                |
+| Antessive   | before/left    | <??>      | ANTE  |                                |
+| Postessive  | after/right    | <??>      | POST  |                                |
+
+Note: Proper Nouns, such as the names of individuals and places, do not take on any morpohology. Instead, proper noun morphology is either omitted or placed on an honorific or a dummy pronoun instead.
+
+*** Pronominal Morphology
+Pronouns are classified by five persons, two numbers, and four cases. 
+
+- Persons
+  - 1st
+  - 2nd
+  - 3rd animate :: People
+  - 3rd inanimate ::  animals, plants, objects, events, phrases
+  - 3rd spiritual :: spirits, ajmastones, sacred/traditional objects
+- Number
+  - Singular
+  - Plural
+- Cases
+  | Nominative   | subject                 | NOM  |
+  | Accusative   | object                  | ACC  |
+  | Possessive   | genitive                | POSS |
+  | Adpositional | conjugated for position | ADP  |
+
+|     | NOM     | ACC     | POSS    | ADP      |
+|-----+---------+---------+---------+----------|
+| 1S  | <yau>   | <dau>   | <yi>    | <ya->    |
+| 1P  | <yaun>  | <daun>  | <yin>   | <yan->   |
+|-----+---------+---------+---------+----------|
+| 2S  | <lu>    | <luv>   | <luhi>  | <luha->  |
+| 2P  | <lun>   | <luvan> | <luhin> | <luhan-> |
+|-----+---------+---------+---------+----------|
+| 3Sa | <auzi>  | <auzi>  | <zi>    | <za->    |
+| 3Pa | <auzin> | <auzin> | <zin>   | <zan->   |
+|-----+---------+---------+---------+----------|
+| 3Si | <vi>    | <vai>   | <vi>    | <va->    |
+| 3Pi | <vin>   | <vain>  | <vin>   | <van->   |
+|-----+---------+---------+---------+----------|
+| 3Ss | <ja>    | <ja>    | <ji>    | <ja->    |
+| 3Ps | <jan>   | <jan>   | <jin>   | <jan->   |
+
+** Verbal Morphology 
+Wistanian verbs conjugate for four lexical aspects (Stative , Durative, Telic,
+and Atelic) and two moods (Realis and Irrealis)
+
+*** Lexical Aspect
+Lexical aspect in Wistanian is different than grammatical aspect in other
+languages. Wistanian verbs typically have a very broad definition, and lexical
+aspect helps to narrow down that definition.
+
+For example, the verb <bima> refers to the motion of going from a high place to
+a lower place. In the Telic, this verb is translated into English as "fall"; in
+the atelic, it's translated as "precipitate or any precipitation-like
+situation"; in the durative, it means to "descend"; and in the stative, it means
+"to have fallen (i.e., to lay on the ground as result of a fall.)" The lexical
+aspects are defined as follows:
+
+| Name     | Gloss | Definition                                           |
+|----------+-------+------------------------------------------------------|
+| Stative  | STA   | The action is unchanging over a long period of time. |
+| Durative | DUR   | The action is in progress from one state to another. |
+| Telic    | TEL   | The action has a intended endpoint.                  |
+| Atelic   | ATEL  | The action does not have an intended endpoint        |
+
+The following table represents the conjugations for each aspect in each of the verb stems (<-a>, <-i>, and <-u>).
+
+|    | STA    | DUR  | TEL   | ATEL  |
+|----+--------+------+-------+-------|
+| -a | <-iya> | <-a> | <-ai> | <-a>  |
+| -i | <-iya> | <-a> | <-yi> | <-ya> |
+| -u | <-iya> | <-a> | <-wi> | <-wa> |
+
+**** Mood 
+
+The two Wistanian moods are realis and irrealis, which are defined as follows:
+
+| Name    | Gloss | Definition                                |
+|---------+-------+-------------------------------------------|
+| Realis  | --    | The action or situation has happened.     |
+| Irrelis | IRR   | The action or situation has not happened. |
+
+The realis mood is unmarked. The irrealis mood is marked after the lexical
+aspect conjugations with <-j>.
+
+The irrealis mood is used in these situations:
+
+- Actions or situations that will occur in the future.
+- Polite requests
+- Questions
+- Verbs with an epistemic or deontic particle.
+
+** Negation
+
+All words in all parts of speech, including particles, can be negated with the perfix:
+
+<bau(n)->
 
 * Navigation
 :PROPERTIES:
@@ -190,7 +389,7 @@ t'ú before a consonant that can't
     <div id="chapB"></div>
     <div id="chapA">Part <strong>4</strong></div>
   </div>
-  <a href="03-bbbourq.html" id="prev" rel="prev">Previous</a>
+  <a href="03a-place.html" id="prev" rel="prev">Previous</a>
   <a href="05-talla.html" id="next" rel="next">Next</a>
 </nav>
 #+END_EXPORT

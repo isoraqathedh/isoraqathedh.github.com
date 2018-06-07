@@ -131,7 +131,71 @@ harlikhi i moshtharume. harikhin mena dikhame.”
 
 #+END_short-relay
 
-* alllen -- ~langname~
+* placeholder -- ~langname~
+#+BEGIN_short-relay
+
+#+BEGIN_detail-link
+[[file:03a-place.html][Full torch]]
+#+END_detail-link
+
+#+BEGIN_natlang-name
+English
+#+END_natlang-name
+
+#+BEGIN_natlang-text
+"I believe that I know a great deal of things." The shopkeeper blew his nose.
+"The people that come from where I do tend to know a lot."
+
+I looked at Sufarar sadly.
+
+"You're a friendly one." he said. "While I tell you this, pay attention."
+
+"I will." (rote polite response to superior)
+
+"Running this shop is difficult. I don't rest, I just buzz around like a bee. I
+never close the shop."
+
+"Never close?" (indirect polite question)
+
+"Yes, it's impossible to close the shop. The evil spirit commands me. It's a
+powerful curse." The shopkeeper blew his nose.
+
+"And while you run the shop, the curse...?" (indirect polite question)
+
+"Yes, the curse requires me to run the shop. It won't end for a hundred years!
+While the spirit's curse continues, I do his work."
+#+END_natlang-text
+
+#+BEGIN_conlang-name
+Wistanian
+#+END_conlang-name
+
+#+BEGIN_conlang-text
+"nutatta." rukkan runam t'upette bikkab t'umuttassu. "ú wuru nar gwe t'ar t'ut'
+t'akak".
+
+sufarar nenagun.
+
+"arikasu. ninnappaki, anngunmi."
+
+"au, nban negawi."
+
+"runam ate i pafa t'uba. inerapatrapat - anirini. runam inetapputapputta."
+
+"au, ítappura i..."
+
+"hí, netappu i pafupafu t'uba. watag t'unne. rekka wa t'uba." rukkan bikkab
+t'umuttassu.
+
+"au, runam aterapaki, rekka i ..."
+
+"hí, rekka runam nate i t'upisap. rekka basi gung it'ufenatta! wataga rekka
+it'usupaki, nesansan."
+#+END_conlang-text
+
+#+END_short-relay
+
+* alllen -- Wistanian
 #+BEGIN_short-relay
 
 #+BEGIN_detail-link
@@ -163,7 +227,7 @@ I looked at Sufarar sadly.
 #+END_natlang-text
 
 #+BEGIN_conlang-name
-~langname~
+Wistanian
 #+END_conlang-name
 
 #+BEGIN_conlang-text
@@ -203,28 +267,27 @@ English
 #+END_natlang-name
 
 #+BEGIN_natlang-text
-"I know I am skillful." The man who runs the store sneezed. "I stand in the
-place that I've always known."
+"I know that i have the skill." said the shopkeep. "I'm stood here, as one
+knows."
 
-I sadly looked at Sufarar.
+I was watching Mr Zuvara.
 
-"You are friendly. Look at me now."
+"You are being polite. But hear me out."
 
-"I will obey."
+"I'll follow."
 
-"You run this store, and it is difficult. I do not rest, I am always moving. I
-am sure this store will never close."
+"You work a shop that is difficult, then. I dont ever take a day off - it's
+difficult to move. So the shop never would close, I know it.
 
-"This store won't close?"
+"Never would close, yeah?"
 
-"This store is impossible to close. A demon told me. The curse is great." The
-man sneezed.
+"Maybe... but surely, if I closed it, the spirit would be bad. The bad luck
+would be great!" he said.
 
-"While you ran the store, the curse closed it?"
+"And that's why you keep running the shop and don't close it, yes?"
 
-"Unfortunately, the curse demanded for the store to be closed. I'm sure the
-curse will not end for a long time! The demon's curse did not exist when I
-worked here."
+"If luck demanded it, I would close it. But I know, after a while, the curse
+would not abate. I work here, the curse is not of the bad spirit."
 #+END_natlang-text
 
 #+BEGIN_conlang-name
@@ -232,27 +295,26 @@ Laikan
 #+END_conlang-name
 
 #+BEGIN_conlang-text
-"hadiya yau vai; yau na jiyali." ajwa daz, vaun darauniya aa miram. "biya
-huzddal, vaun adan hadiya, yau."
+"Məhayaki wēzen," sustaä rātz, "īzër hītśamyar, wu."
 
-ilwa dibb Zuvara baulwi yau.
+Ośoṃ Zuwaraṃ tärśen.
 
-"lu na viyaz. auv ha, ilwij yawi lu."
+"Tū mlyeya ere, tui xyleñośima."
 
-"zumiddiya yau."
+"Tśustizäṃ."
 
-"darauniya lu aa miram id, ya vi na uduri. adan bauziviya - adan jada humpi
-yau. baubbirariyaj miram id; hadiya yau vai."
+"Tətiyətsar hāuki zetsäṃ kitśoyit... mitāzarmeyahāyən, hāu tā liztoṃ. Wu zetaä
+miśeśtma, wēzenki."
 
-"baubbirariyaj miram id, zauha a."
+"Miśeśtma, hiś?"
 
-"mid baubbirariya hadan miram id. yigai ajma augu dau. unvaun na lazai." ajwa
- daz.
+"fūsit... pənufa, təti śeśtmaki, təti śora fyreka. tosawəsatsar okorā fūsit!"
+rātz.
 
-"auv darauniya lu aa miram, bbirarwaj unvaun vai, yauha a."
+"Ka tā śawo tsau zetaä tāzaretiyayëz ka miśeśtuya, hiś?"
 
-"ubbyi unvaun vai; bbirariya ajal miram. auv daam madzi, bauniyinyij unvaun;
- hadiya yau vai. auv gariya yau iddal, bauhiya unvaun ajmahigza augu."
+"Təti okorā zäṃ pyratśmaäki, śeśtśëzki. Pənu wāzen, pətsi wätle, ërotaī
+miśäsersitre. Īzër tāzarmeyayen, ërotaī fyreka śorayara miets."
 #+END_conlang-text
 
 #+END_short-relay
