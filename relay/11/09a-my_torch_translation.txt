@@ -1,0 +1,37 @@
+húnni tak t'upessúrsusu.
+
+nún húnni t'unnewe t'u nuk'utta.
+
+húnni nesen t'u nesari.
+
+t'ubin gútta - nek'ruwatta!
+
+
+
+"the stars stand in the sky.
+
+i touch the stars above me.
+
+i move them away from below.
+
+they were touched. *i* made them move."
+
+
+
+hu-hanni tak t'u-peQ-su-ar-susu
+
+nún hu-hanni t'u-nn-ewe t'u nu-{}-k'-utta
+
+hu-hanni ne-{}-sen t'u ne-{}-sari
+
+t'u-bin gu-utta ne-{}-k'-ru-wa-tta
+
+
+
+DIM-sun night.sky 3SBJ-4OBJ-APP-stand-REM
+
+1SBJ.HON DIM-sun 3SBJ-1OBJ-be.above 3OBJ 1SBJ-perfectly-touch
+
+DIM-sun 1SBJ-3OBJ-be.below 3OBJ 1SBJ-3OBJ-push
+
+3SBJ-HON PASS-touch 1SBJ-3OBJ-perfectly-move-CAUS-EMPH

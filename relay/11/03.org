@@ -1,0 +1,524 @@
+#+Title: Relay 11–2
+#+Date: 2018-06-04
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:03a-RELAY_11_TORCH_FOR_BBBBBB.txt][Raw torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The sun trapped like a cage its light on to me from your eyes.
+Then you could see me seeing you.
+Me and you went and fell for each other.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Laikan</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Hwān lotśa śotśēwa okītsayeyaṃ myataonaïyarki.
+Təti myasustaïtū, sunnatsau.
+Ñatowa naronaāyaiwē.
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
+
+* Grammar
+Old Laikan is an a posteriori IE conlang I've been working on for a couple years.
+I'm sorry it's kinda very irregular.
+
+Keep in mind this is the same grammar explanation for the last torch, thus it is
+a bit longer winded than it should be. Hit me up if you have any doubts!
+
+** Phonology
+It's not too important for this but Old Likan's phonetic inventory is as follows:
+
+#+ATTR_HTML: :style columns:2;
+#+BEGIN_div
+#+Caption: Consonants
+| mʲ m | n     | ɲ  |      |    |
+| pʲ p | t     |    | kʲ k |    |
+|      | t͡s t͡s̠ | t͡ɕ |      |    |
+| ɸʲ ɸ | s  s̠  | ɕ  | xʲ x | xʷ |
+|      |       | j  |      | w  |
+|      | r     | rʲ |      |    |
+|      | l     | lʲ |      |    |
+
+#+Caption: Consonant orthography
+| my m | n     | ɲ  |          |        |
+| py p | t     |    | ky k     |        |
+|      | ts tz | tś |          |        |
+| fy f | s  z  | ś  | xy x^{1} | xw^{2} |
+|      |       | y  | w        |        |
+|      | r     | ry |          |        |
+|      | l     | ly |          |        |
+
+ ^{1} <x> is interchangeable with <h> orthographically.
+ ^{2} pronounced [x~h~w] and really just an archaism to show the relex of PIE *sw
+
+#+Caption: Vowels
+| iː i | ɨ | uː | u |
+| ɛː e | ə | ɔː | o |
+| æ    | a | ɑː |   |
+
+#+Caption: Vowel orthography
+| ī  i | ë | ū | u |
+| ē  e | ə | ō | o |
+| ä    | a | ā |   |
+#+END_div
+
+Palatalization of consonants occurs in closed and nasal syllables before the
+following vowels and <y>:
+
+a~ä, ē, ō, e
+
+Note: this does not always happen before <a> and <e>, this suffixes will be
+marked for palatalization with a ʲ to disambiguate.
+
+| [+palatal] | [-palatal] |
+|------------+------------|
+| py         | p          |
+| ts         | t          |
+| ky         | k          |
+| fy         | f          |
+| xy         | x          |
+| hy         | h          |
+| ry         | r          |
+| ly         | l          |
+| my         | m          |
+| ñ          | n          |
+| pyr        | pr         |
+| str        | tr         |
+| kyr        | kr         |
+| fyr        | fr         |
+| xyr        | xr         |
+| hyr        | hr         |
+| pyl        | pl         |
+| stl        | tl         |
+| kyl        | kl         |
+| fyl        | fl         |
+| xyl        | xl         |
+| hyl        | hl         |
+
+** Morphology
+It is highly inflectional and has quite a few nominal and verbal paradigms for
+its declension and conjugations.
+
+*** Nominals
+Pronouns, Nouns and Adjectives are all inflected for case and number.
+Nouns and adjectives can take on article, demonstrative, possessive and relative pronouns.
+Furthermore, adjectives can take on superlatives and comparatives.
+
+Nominals decline for the following 5 cases:
+
+- <Oblique> :: The form of the noun that takes on articles, determinants and possessives. Marks the AGENT in the Middle-voice and Perfective aspect.
+- <Nominative/Absolutive> :: Marks the SUBJECT in the Imperfective aspect and the PATIENT in the Middle-voice and perfective aspect.
+- <Genitive> :: Marks the possessor of another noun and takes on certain postpositions to mark another case.
+- <Accusative> :: Marks the OBJECT in imperfective aspect but can also mark the second object in ditransitive verbs regardless of the imperfective or perfective aspect. Takes on many directional postpositions.
+- <Dative> :: Marks the indirect object and the benefactive. Main case for pospositions.
+
+and two numbers:
+
+- <Singular> :: acts like a paucal or collective in the indefinite.
+- <Plural> :: rarer in the indefinite, only used for very specific instances.
+
+**** Nouns
+There are approximately 5 main declensions of which they are further subdivided
+into Strong, Weak or Mixed paradigms.  Thus there are really 13 different with
+an additional masculine, feminine and neuter version of each.
+
+The paradigms, particularly the Strong grade are distinguished by changes in the
+last consonant of the root, alternating from palatalized to non palatalized.  In
+this mixed grade this affects both the final consonant of the root but also the
+initial one if the core vowel alternates between palatalizing and non
+palatalizing forms.  Palatalization only happens in the closed or nasal
+morphemes.
+
+Palatalization ONLY occurs in closed or nasal syllables!
+
+These are the ones you will be encountering in the given text:
+
+***** 1st Declension: Thematic -a stem (only masculine and neuter)
+#+ATTR_HTML: :class vocablist 
+- kara, karyaś :: "friend" (masc)
+- sotsaṃ, sotsaś :: "familiar" (neut)
+#+Caption: Strong 1st declension
+|     | Masculine |        | Neuter |        |
+|     | s         | p      | s      | p      |
+| /   | <         | >      | <      | >      |
+|-----+-----------+--------+--------+--------|
+| OBL | kara-     | -      | sota-  | -      |
+| NOM | kara      | karāi  | sotsaṃ | sotā   |
+| GEN | karyaś    | karuṃ  | sotsaś | sotuṃ  |
+| ACC | karyaṃ    | karats | sotsaṃ | sotats |
+| DAT | karē      | karyēm | sotē   | sotsēm |
+
+#+ATTR_HTML: :class vocablist 
+- hāi, hāyəś :: "penis, cock" (masc)
+- wärśne, wärśəś :: "life's work, project" (neut)
+#+Caption: Weak 1st declension
+|     | Masculine |       | Neuter |        |
+|     | s         | p     | s      | p      |
+| /   | <         | >     | <      | >      |
+|-----+-----------+-------+--------+--------|
+| OBL | hāy-      | -     | wärś-  | -      |
+| NOM | hāi       | hāyəi | wärśne | wärśa  |
+| GEN | hāyəś     | hāyoṃ | wärśəś | wärśoṃ |
+| ACC | hāyne     | hāyi  | wärśne | wärśa  |
+| DAT | hāye      | hāyem | wärśe  | wärśem |
+
+***** 2nd Declension: Thematic -ā stem (only feminine)
+#+ATTR_HTML: :class vocablist 
+- ześtā, ześtā :: "tongue, language" (strong)
+- kāna, kāna :: "woman" (weak)
+#+Caption: Feminine 2nd declension
+|     | Strong |          | Weak  |         |
+|     | s      | p        | s     | p       |
+| /   | <      | >        | <     | >       |
+|-----+--------+----------+-------+---------|
+| OBL | ześta- | -        | kāna- | -       |
+| NOM | ześtā  | ześtāi   | kāna  | kānai   |
+| GEN | ześtā  | ześtāwoṃ | kāna  | kānawoṃ |
+| ACC | ześtāṃ | ześtots  | kānaṃ | kānats  |
+| DAT | ześtā  | ześtām   | kāna  | kānam   |
+
+***** 3rd Declension: Athematic consonant stem
+#+ATTR_HTML: :class vocablist 
+- putz, paza :: "foot" (masculine)
+- śir, śreza :: "heart" (neuter)
+#+Caption: Strong 3rd Mixed
+|     | Masculine |        | Neuter |         |
+|     | s         | p      | s      | p       |
+| /   | <         | >      | <      | >       |
+|-----+-----------+--------+--------+---------|
+| OBL | paza-     | -      | śreza- | -       |
+| NOM | putz      | pāz    | śir    | śira    |
+| GEN | paza      | pazuṃ  | śreza  | śrezuṃ  |
+| ACC | pāzo      | pāśe   | śir    | śira    |
+| DAT | pazē      | pazəma | śrezē  | śrezəma |
+
+#+ATTR_HTML: :class vocablist 
+- patsar, patra :: "father" (-r stem masculine)
+- lyēme, lyenna	:: "lake" (-n stem feminine)
+#+Caption: Strong - Mixed 
+|     | -r Masculine |          | -n Feminine |          |
+|     | s            | p        | s           | p        |
+| /   | <            | >        | <           | >        |
+|-----+--------------+----------+-------------+----------|
+| OBL | patra-       | -        | lyenna      | -        |
+| NOM | patsar       | patsar   | lyēme       | lyēmən   |
+| GEN | patra        | patruṃ   | lyenna      | lyennun  |
+| ACC | patsaro      | patsare  | lyēmono     | lyēmone  |
+| DAT | patrē        | pastrema | lyennē      | lyemyema |
+
+#+ATTR_HTML: :class vocablist 
+- mur, mur :: "man" (masculine)
+- təxsēṃ, təxsēn :: "enemy" (neuter)
+- kitre, kutre :: "neck, throat" (-r stem masculine)
+#+Caption: Weak - Fixed
+|     | Masculine |        | Neuter  |          | -r Masculine |         |
+|     | s         | p      | s       | p        | s            | p       |
+| /   | <         | >      | <       | >        | <            | >       |
+|-----+-----------+--------+---------+----------+--------------+---------|
+| OBL | mur-      | -      | təxsēn  | -        | kutr-        | -       |
+| NOM | mur       | mur    | təxsēṃ  | təxsēna  | kitre        | kutre   |
+| GEN | mur       | muroṃ  | təxsēn  | təxsēnoṃ | kutre        | kutroṃ  |
+| ACC | muro      | mure   | təxsēn  | təxsēna  | kutro        | kutre   |
+| DAT | mure      | muryem | təxsēne | təxsēñem | kutre        | kustrem |
+
+This can all be resumed as follows:
+	
+|    |     | -a          | -a     | -ā     | -ā    | cons. MIX  | cons. FIX |
+|    |     | strong      | weak   | strong | weak  | strong     | weak      |
+| /  |     | <           | >      | <      | >     | <          | >         |
+|----+-----+-------------+--------+--------+-------+------------+-----------|
+| sg | OBL | -a-         | -∅-    | -a-    | -a-   | -a-        | -∅-       |
+|    | NOM | -a/-ʲaṃ/-äṃ | -∅/-ne | -ā     | -ā    | -∅         | -∅        |
+|    | GEN | -ʲaś/-äś    | -əś    | -ā     | -a    | -a         | -∅        |
+|    | ACC | -ʲaṃ/-äṃ    | -ne    | -āṃ    | -aṃ   | -o/-∅      | -o/-∅     |
+|    | DAT | -ē          | -e     | -ā     | -a    | -ē         | -e        |
+|----+-----+-------------+--------+--------+-------+------------+-----------|
+| pl | NOM | -ʲai/-ā     | -əi/-a | -āi    | -ai   | -∅         | -∅        |
+|    | GEN | -uṃ         | -oṃ    | -āwoṃ  | -awoṃ | -uṃ        | -oṃ       |
+|    | ACC | -ats        | -ʲi    | -ots   | -ats  | -e/a       | -e/a      |
+|    | DAT | -ʲēm        | -ʲem   | -ām    | -am   | -əma/-ʲema | -ʲem      |
+
+**** Adjectives
+
+Adjectives decline to the same case, gender and number as the noun the describe and go before them.
+
+#+BEGIN_EXAMPLE
+ñau nātś
+new-ɴᴏᴍ.sɢ.ᴍ night-ɴᴏᴍ.sɢ.ᴍ
+New night.
+
+ñawawoṃ kiwätawoṃ
+new-ɢᴇɴ.ᴘʟ.ꜰ life-ɢᴇɴ.ᴘʟ.ꜰ
+New life.
+#+END_EXAMPLE
+
+For declension see NOUNS.
+
+**** Pronouns
+***** Personal Pronouns
+|      | 1s     | 1p     | 2s    | 2p   | 3    |
+| /    | <      | >      | <     | >    | <>   |
+|------+--------+--------+-------+------+------|
+| OBL  | mya-   | ña-    | tsa-  | wä-  | hā-  |
+| NOM  | zäṃ    | wē     | tū    | yū   | hwā  |
+| GEN  | myam   | yəryaṃ | tsau  | ośoṃ | hāu  |
+| ACC  | ma     | yəma   | to    | ośo  | hwā  |
+| DAT  | myatśe | yəmē   | tsafe | ośmē | hāfe |
+|------+--------+--------+-------+------+------|
+| POSS | myai-  | ñar-   | tsai- | wär- | hāu- |
+
+When marking a noun for possession, the noun is declines in the oblique with the
+pronoun suffixed to the end of it.  This goes for all the following pronouns as
+well.
+
+***** Definite article
+Marks for definiteness. Turns adjectives into nouns.
+|     | s    |      |       | p      |    |    |
+|     | m    | f    | n     | m      | f  | n  |
+| /   | <    |      | >     | <      |    | >  |
+|-----+------+------+-------+--------+----+----|
+| NOM | ya   | ī    | i(tz) | yē     | ī  | ā  |
+| GEN | yar  | yara | yar   | yaroṃ  | 〃 | 〃 |
+| ACC | iṃ   | īu   | i(tz) | ye(ts) | īi | ā  |
+| DAT | yamo | 〃   | 〃    | yōm    | 〃 | 〃 |
+
+When suffixed, the initial <y> palatalized the root of the noun, except for the
+Nominative masculine singular which is written <-a> after a consonant and <-ä>
+after a vowel (but pronounced ~/ja/~)
+
+***** Proximal Demonstrative
+|     | s     |       |        | p      |        |        |
+|     | m     | f     | n      | m      | f      | n      |
+| /   | <     |       | >      | <      |        | >      |
+|-----+-------+-------+--------+--------+--------+--------|
+| NOM | ha    | hā    | tā(tz) | tē     | tā     | 〃     |
+| GEN | tsaś  | 〃    | 〃     | tsaśoṃ | tāroṃ  | tsaśoṃ |
+| ACC | tsaṃ  | tāṃ   | tā(tz) | ta(ts) | tā(ts) | tā     |
+| DAT | tsame | tsaśe | tsame  | tsēm   | 〃     | 〃     |
+
+***** Distal Demonstrative
+|     | s    |     |        | p      |        |       |
+|     | m    | f   | n      | m      | f      | n     |
+| /   | <    |     | >      | <      |        | >     |
+|-----+------+-----+--------+--------+--------+-------|
+| NOM | sa   | sā  | sā(tz) | sē     | sā     | 〃    |
+| GEN | säś  | 〃  | 〃     | säroṃ  | sāroṃ  | säroṃ |
+| ACC | säṃ  | sāṃ | sā(tz) | sa(ts) | sā(ts) | sā    |
+| DAT | säme | 〃  | 〃     | sēm    | 〃     | 〃    |
+
+***** Relative Pronoun
+Largely used as the 3rd person pronoun in many verbal constructions.
+Also used as an interrogative pronoun.
+|     | s     |     |        | p       |      |    |
+|     | m     | f   | n      | m       | f    | n  |
+| /   | <     |     | >      | <       |      | >  |
+|-----+-------+-----+--------+---------+------+----|
+| NOM | ki    | 〃  | ki(tz) | kyai    | ki   | 〃 |
+| GEN | kyau  | 〃  | 〃     | kyaśoṃ  | 〃   | 〃 |
+| ACC | kiṃ   | kiu | ki(tz) | kye(ts) | kyei | ki |
+| DAT | kyame | 〃  | 〃     | kyōm    | 〃   | 〃 |
+
+***** Relative Determiner
+Used to start subordinate clauses and subordinate verbal constructions.
+Main relative pronoun for nouns and adjectives.
+|     | s     |     |        | p      |     |    |
+|     | m     | f   | n      | m      | f   | n  |
+| /   | <     |     | >      | <      |     | >  |
+|-----+-------+-----+--------+--------+-----+----|
+| NOM | ka    | kā  | kā(tz) | kē     | kā  | 〃 |
+| GEN | kyaś  | 〃  | 〃     | kyaroṃ | 〃  | 〃 |
+| ACC | kyaṃ  | kāṃ | kā(tz) | ka(ts) | kāi | kā |
+| DAT | kyame | 〃  | 〃     | kyēm   | 〃  | 〃 |
+
+***** Anaphoric Pronoun
+Marking a past topic but can also used like the relative determiner.
+|     | s    |       |         | p       |         |       |
+|     | m    | f     | n       | m       | f       | n     |
+| /   | <    |       | >       | <       |         | >     |
+|-----+------+-------+---------+---------+---------+-------|
+| NOM | pe   | pyā   | pyā(tz) | pyē     | pyā     | 〃    |
+| GEN | peś  | peśā  | peś     | peśoṃ   | pyāroṃ  | peśoṃ |
+| ACC | peṃ  | pyāṃ  | pyā(tz) | pya(ts) | pyā(ts) | pyā   |
+| DAT | peme | peśai | peme    | pyēm    | 〃      | 〃    |
+
+**** Verbs
+Verbs are conjugated for the following:
+
+- <Mood> :: Indicative, Subjunctive and Imperative
+- <Aspect> :: Perfective, Imperfective, Incohative and Cessative.
+- <Tense> :: Past, Present and Future.
+- <Voice> :: Active and Middle.
+- <Person> :: 1st, 2nd and 3rd.
+- <Number> :: Singular and Plural.
+
+***** Conjugation
+- <Present> :: (non-past) used to conjugate in the present and future tense.
+- <Past> :: used to conjugate the past tense.
+
+#+Caption: Thematic
+|             |    | Active    |              |        |            | Middle   |       |         |            |
+|             |    | present   | past         | future | Imperative | present  | past  | future  | Imperative |
+| /           |    | <         |              |        | >          | <        |       |         | >          |
+|-------------+----+-----------+--------------+--------+------------+----------+-------+---------+------------|
+| Indicative  | 1s | -o/-en    | -ne/-ʲaṃ/-äṃ | -yën   |            | -or      | -one  | -ima    |            |
+|             | 2s | -er/-er   | -∅           | -yë    | -Ø         | -əzre    | -ore  | -isa    | -ərē       |
+|             | 3s | -et/-et   | -otz/-atz    | -yëz   | -ot        | -ətre    | -ote  | -ita    | -ətē       |
+|             | 1p | -əm/-əm   | -om/-ʲam/-äm | -yëma  |            | -əmoś    | -omeś | -imoś   |            |
+|             | 2p | -ət/-ət   | -ot/-ʲat/-ät | -yëta  | -ət        | -ətśo    | -otśe | -itśo   | -ətśo      |
+|             | 3p | -ets/-ets | -ots/-ats    | -āts   | -ots       | -estre   | -oste | -ista   | -ostē      |
+|-------------+----+-----------+--------------+--------+------------+----------+-------+---------+------------|
+| Subjunctive | 1s | -əi       | -ëṃ          | -śën   |            | -ere     | -ei   | -sior   |            |
+|             | 2s | -ət       | -ë           | -śë    |            | -etre    | -ese  | -siśre  |            |
+|             | 3s | -əi       | -ëtz         | -śëz   |            | -etre    | -ete  | -sitre  |            |
+|             | 1p | -ʲema     | -ëm          | -rima  |            | -emar    | -emoś | -sëmoś  |            |
+|             | 2p | -əta      | -ët          | -rëta  |            | -eśtsu   | -etśo | -sëśo   |            |
+|             | 3p | -əyir     | -ëts         | -rāts  |            | -eyirtre | -este | -sestre |            |
+|-------------+----+-----------+--------------+--------+------------+----------+-------+---------+------------|
+| Gerund      |    | -e        | -ta          | -tsau  |            | -tsena   | -eśa  | -toya   |            |
+| Participle  |    | -ez       | -ats         | -tui   |            | -me      | -ona  | -ma     |            |
+|-------------+----+-----------+--------------+--------+------------+----------+-------+---------+------------|
+| Infinitive  |    | -toṃ      |              |        |            | -moṃ     |       |         |            |
+
+#+Caption: Athematic		
+|             |    | Active  |           |        |            | Middle  |        |         |            |
+|             |    | present | past      | future | Imperative | present | past   | future  | Imperative |
+| /           |    | <       |           |        | >          | <       |        |         | >          |
+|-------------+----+---------+-----------+--------+------------+---------+--------+---------+------------|
+| Indicative  | 1s | -n      | -w/-o     | -yin   |            | -myar   | -mē    | -ima    |            |
+|             | 2s | -r      | -Ø/-Ø     | -yi    | -śi        | -rär    | -rē    | -isa    | -rē        |
+|             | 3s | -t      | -z/-s/z   | -yiz   | -ut        | -tsar   | -tē    | -ita    | -tē        |
+|             | 1p | -ma     | -ma/-ma   | -yima  |            | -moś    | -mēś   | -imọś   |            |
+|             | 2p | -ta     | -ta/-ta   | -yita  | -ta        | -tśo    | -tśē   | -itśo   | -tśo       |
+|             | 3p | -ts     | -yəz/-ʲez | -āts   | -ts        | -ostsar | -stē   | -ista   | -stē       |
+|-------------+----+---------+-----------+--------+------------+---------+--------+---------+------------|
+| Subjunctive | 1s | -i      | -wiṃ      | -śin   |            | -yorre  | -wei   | -rior   |            |
+|             | 2s | -it     | -wi       | -śi    |            | -yəzre  | -wise  | -riśre  |            |
+|             | 3s | -i      | -wez      | -śiz   |            | -yətre  | -wite  | -ritre  |            |
+|             | 1p | -ima    | -īma      | -rima  |            | -yəmotś | -wīmoś | -rëmoś  |            |
+|             | 2p | -ita    | -īta      | -rita  |            | -yəśo   | -wītśo | -rëśo   |            |
+|             | 3p | -yir    | -wets     | -rāts  |            | -yostre | -weste | -ristre |            |
+|-------------+----+---------+-----------+--------+------------+---------+--------+---------+------------|
+| Gerund      |    | -ya     | -ta       | -tsau  |            | -tena   | -ne₂   | -toya   |            |
+| Participle  |    | -ts     | -ts₂      | -tui   |            | -ne     | -mna   | -ma     |            |
+|-------------+----+---------+-----------+--------+------------+---------+--------+---------+------------|
+| Infinitive  |    | -toṃ    |           |        |            | -moṃ    |        |         |            |
+
+***** Verbal Classes
+#+ATTR_HTML: :class vocablist
+- i. :: THEMATIC -o present 1st sg.
+- ii. :: THEMATIC -en present 1st sg.
+- iii. :: ATHEMATIC fixed conjugation
+- iv. :: ATHEMATIC mixed conjugation
+ 
+***** Aspect Constructions
+Follows these general rules.
+
+: VERB-Participle=Definite=Auxiliary/Copula.Aspect-Voice-Conjugation
+
+- <Imperfective> :: Default, base conjugations are in the imperfective aspect.
+
+- <Perfective> :: Split ergative. Thus, in transitive verbs, the original subject takes on the Oblique and the Object takes on the Nominative.
+
+****** Special constructions:
+
+| Perfective root    | -∅    |
+| Active Indicative  | -∅    |
+| Active Subjunctive | -ē    |
+| Middle Indicative  | -re   |
+| Active Subjunctive | -ērre |
+
+****** Perfective Conjugation:
+(All pronouns in the nominative.)
+
+The construction is as follows:
+
+#+BEGIN_EXAMPLE
+kəlastaïyarki
+kəla-ast=i=yar-∅-ki
+"He threw something"
+#+END_EXAMPLE
+
+#+ATTR_HTML: :class vocablist
+- kəla- :: Unstressed Past root of "kākalme, kälo   iv class athematic,  to throw"
+- -sta- :: Active Past Participle in the Oblique
+- i :: Nominative Singular Neuter Definite
+- yar- :: Perfective root
+- -∅-  :: Active voice and Indicative mood.		
+- -ki :: 3rd person. marked with the Relative Pronoun in the Nominative.
+
+- <Inchoative> :: Indicates the start of an action, a sense of in-volition and progressive aspect.
+- Auxiliary :: yayen, əyäṃ, yai, əyats
+- <Cessative> :: hāyen, hayäṃ, hāi, hayats
+- <Continuous/Progressive> :: Same as the inchoative but in the middle voice, specifically. Intransitive verbs the original subject is put in the Dative (as a sorta antipassive) while the Subject is marked as the patient and the verb takes on a dummy ergative.
+
+----
+
+And I lied, there are many more auxiliaries and aspects but we won't talk about them now.
+
+***** Negation
+Affix <mi-> or negative copula (see appendix).
+
+*** Syntax
+- SOV
+- Head-final
+- Split-Ergative in the perfective aspect.
+- Very pro-drop. The Aspect construction you just read through?
+  Well you can drop most of that depending on context.
+  In fact, the copula or the auxiliary are most often dropped.
+
+Personal pronouns in the imperfective aspect are only used for emphasis.
+
+* Lexicon
+#+Caption: Key to table headings
+| Root                                                                                                                                            | Decline                             | Type      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------+-----------|
+| nominative singular, genitive singular, definite nominative singular (with oblique root)                                                        | Declension Number.                  | Noun      |
+| nominative singular masculine, genitive singular masculine, nominative singular feminine                                                        | All 1st Declension (m/n) or 2nd (f) | Adjective |
+| active 1st singular present imperfective, active 1st singular past imperfective, perfective root, past participle nominative singular masculine | verbal class.                       | Verb      |
+
+| Root                        | Decline | Gloss                                               |
+|-----------------------------+---------+-----------------------------------------------------|
+| en, yau, yar, ośots         | IRR.    | to be, COPULA                                       |
+| hwāṃ, hwān, hwānī           | 3f.     | sun                                                 |
+| lyōx, lotśa, lotśaä         | 1m.     | light                                               |
+| nāryen, naryaṃ, nār, narats | ii.     | to fasten with a thread or cord; Mid. to be tied up |
+| okī, okīṃ, okī              | IRR.    | eyes                                                |
+| śotśaṃ, śotśaś, śotśaï      | 1n.     | cage, container                                     |
+| sun, suu, su, susta         | iii.    | to see, to watch                                    |
+| tāo, tāne, tāi, takats      | i.      | to capture, to seize                                |
+| təti                        | conj.   | CONDITIONAL, so, then, if                           |
+| towa, towäś, towā           | adj.    | two                                                 |
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>4</strong></div>
+  </div>
+  <a href="02.html" id="prev" rel="prev">Previous</a>
+  <a href="04.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+

@@ -1,0 +1,2944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-06-06 Wed 23:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Relay 11–2</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="../../global/Default.css"/>
+<link rel="stylesheet" href="../../global/org.css"/>
+<link rel="stylesheet" href="../relay.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="preamble" class="status">
+<header>
+<h1 id="Title">Relay 11–2<br/></h1>
+<h3 class="date">2018-06-04 (last exported 2018-06-06 Wed 23:01)</h3>
+</header>
+</div>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orge67f03e">1. Translation</a></li>
+<li><a href="#orgc6e0098">2. Grammar</a>
+<ul>
+<li><a href="#org2ff0e19">2.1. Phonology</a></li>
+<li><a href="#orga050ae6">2.2. Morphology</a>
+<ul>
+<li><a href="#org6217203">2.2.1. Nominals</a>
+<ul>
+<li><a href="#org56cd0c0">2.2.1.1. Nouns</a></li>
+<li><a href="#orgceb688c">2.2.1.2. Adjectives</a></li>
+<li><a href="#org72cb396">2.2.1.3. Pronouns</a></li>
+<li><a href="#orgaadf804">2.2.1.4. Verbs</a></li>
+</ul>
+</li>
+<li><a href="#org0615985">2.2.2. Syntax</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org35f4995">3. Lexicon</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge67f03e" class="outline-2">
+<h2 id="orge67f03e"><span class="section-number-2">1</span> Translation</h2>
+<div class="outline-text-2" id="text-1">
+<div class="short-relay">
+<div class="detail-link">
+<p>
+<a href="03a-RELAY_11_TORCH_FOR_BBBBBB.txt">Raw torch</a>
+</p>
+
+</div>
+
+<div class="natlang-name"><p>English</p></div>
+<div class="natlang-text">
+<p class="verse">
+The sun trapped like a cage its light on to me from your eyes.<br />
+Then you could see me seeing you.<br />
+Me and you went and fell for each other.<br />
+</p>
+
+</div>
+
+<div class="conlang-name"><p>Laikan</p></div>
+<div class="conlang-text">
+<p class="verse">
+Hwān lotśa śotśēwa okītsayeyaṃ myataonaïyarki.<br />
+Təti myasustaïtū, sunnatsau.<br />
+Ñatowa naronaāyaiwē.<br />
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc6e0098" class="outline-2">
+<h2 id="orgc6e0098"><span class="section-number-2">2</span> Grammar</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Old Laikan is an a posteriori IE conlang I&rsquo;ve been working on for a couple years.
+I&rsquo;m sorry it&rsquo;s kinda very irregular.
+</p>
+
+<p>
+Keep in mind this is the same grammar explanation for the last torch, thus it is
+a bit longer winded than it should be. Hit me up if you have any doubts!
+</p>
+</div>
+
+<div id="outline-container-org2ff0e19" class="outline-3">
+<h3 id="org2ff0e19"><span class="section-number-3">2.1</span> Phonology</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+It&rsquo;s not too important for this but Old Likan&rsquo;s phonetic inventory is as follows:
+</p>
+
+<div style="columns:2;" class="div">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> Consonants</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">mʲ m</td>
+<td class="org-left">n</td>
+<td class="org-left">ɲ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">pʲ p</td>
+<td class="org-left">t</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">kʲ k</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">t͡s t͡s̠</td>
+<td class="org-left">t͡ɕ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">ɸʲ ɸ</td>
+<td class="org-left">s  s̠</td>
+<td class="org-left">ɕ</td>
+<td class="org-left">xʲ x</td>
+<td class="org-left">xʷ</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">j</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">w</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">r</td>
+<td class="org-left">rʲ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">l</td>
+<td class="org-left">lʲ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 2:</span> Consonant orthography</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">my m</td>
+<td class="org-left">n</td>
+<td class="org-left">ɲ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">py p</td>
+<td class="org-left">t</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ky k</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ts tz</td>
+<td class="org-left">tś</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">fy f</td>
+<td class="org-left">s  z</td>
+<td class="org-left">ś</td>
+<td class="org-left">xy x<sup>1</sup></td>
+<td class="org-left">xw<sup>2</sup></td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">y</td>
+<td class="org-left">w</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">r</td>
+<td class="org-left">ry</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">l</td>
+<td class="org-left">ly</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+ <sup>1</sup> &lt;x&gt; is interchangeable with &lt;h&gt; orthographically.
+ <sup>2</sup> pronounced [x~h~w] and really just an archaism to show the relex of PIE *sw
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 3:</span> Vowels</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">iː i</td>
+<td class="org-left">ɨ</td>
+<td class="org-left">uː</td>
+<td class="org-left">u</td>
+</tr>
+
+<tr>
+<td class="org-left">ɛː e</td>
+<td class="org-left">ə</td>
+<td class="org-left">ɔː</td>
+<td class="org-left">o</td>
+</tr>
+
+<tr>
+<td class="org-left">æ</td>
+<td class="org-left">a</td>
+<td class="org-left">ɑː</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 4:</span> Vowel orthography</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">ī  i</td>
+<td class="org-left">ë</td>
+<td class="org-left">ū</td>
+<td class="org-left">u</td>
+</tr>
+
+<tr>
+<td class="org-left">ē  e</td>
+<td class="org-left">ə</td>
+<td class="org-left">ō</td>
+<td class="org-left">o</td>
+</tr>
+
+<tr>
+<td class="org-left">ä</td>
+<td class="org-left">a</td>
+<td class="org-left">ā</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<p>
+Palatalization of consonants occurs in closed and nasal syllables before the
+following vowels and &lt;y&gt;:
+</p>
+
+<p>
+a~ä, ē, ō, e
+</p>
+
+<p>
+Note: this does not always happen before &lt;a&gt; and &lt;e&gt;, this suffixes will be
+marked for palatalization with a ʲ to disambiguate.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">[+palatal]</th>
+<th scope="col" class="org-left">[-palatal]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">py</td>
+<td class="org-left">p</td>
+</tr>
+
+<tr>
+<td class="org-left">ts</td>
+<td class="org-left">t</td>
+</tr>
+
+<tr>
+<td class="org-left">ky</td>
+<td class="org-left">k</td>
+</tr>
+
+<tr>
+<td class="org-left">fy</td>
+<td class="org-left">f</td>
+</tr>
+
+<tr>
+<td class="org-left">xy</td>
+<td class="org-left">x</td>
+</tr>
+
+<tr>
+<td class="org-left">hy</td>
+<td class="org-left">h</td>
+</tr>
+
+<tr>
+<td class="org-left">ry</td>
+<td class="org-left">r</td>
+</tr>
+
+<tr>
+<td class="org-left">ly</td>
+<td class="org-left">l</td>
+</tr>
+
+<tr>
+<td class="org-left">my</td>
+<td class="org-left">m</td>
+</tr>
+
+<tr>
+<td class="org-left">ñ</td>
+<td class="org-left">n</td>
+</tr>
+
+<tr>
+<td class="org-left">pyr</td>
+<td class="org-left">pr</td>
+</tr>
+
+<tr>
+<td class="org-left">str</td>
+<td class="org-left">tr</td>
+</tr>
+
+<tr>
+<td class="org-left">kyr</td>
+<td class="org-left">kr</td>
+</tr>
+
+<tr>
+<td class="org-left">fyr</td>
+<td class="org-left">fr</td>
+</tr>
+
+<tr>
+<td class="org-left">xyr</td>
+<td class="org-left">xr</td>
+</tr>
+
+<tr>
+<td class="org-left">hyr</td>
+<td class="org-left">hr</td>
+</tr>
+
+<tr>
+<td class="org-left">pyl</td>
+<td class="org-left">pl</td>
+</tr>
+
+<tr>
+<td class="org-left">stl</td>
+<td class="org-left">tl</td>
+</tr>
+
+<tr>
+<td class="org-left">kyl</td>
+<td class="org-left">kl</td>
+</tr>
+
+<tr>
+<td class="org-left">fyl</td>
+<td class="org-left">fl</td>
+</tr>
+
+<tr>
+<td class="org-left">xyl</td>
+<td class="org-left">xl</td>
+</tr>
+
+<tr>
+<td class="org-left">hyl</td>
+<td class="org-left">hl</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orga050ae6" class="outline-3">
+<h3 id="orga050ae6"><span class="section-number-3">2.2</span> Morphology</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+It is highly inflectional and has quite a few nominal and verbal paradigms for
+its declension and conjugations.
+</p>
+</div>
+
+<div id="outline-container-org6217203" class="outline-4">
+<h4 id="org6217203"><span class="section-number-4">2.2.1</span> Nominals</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+Pronouns, Nouns and Adjectives are all inflected for case and number.
+Nouns and adjectives can take on article, demonstrative, possessive and relative pronouns.
+Furthermore, adjectives can take on superlatives and comparatives.
+</p>
+
+<p>
+Nominals decline for the following 5 cases:
+</p>
+
+<dl class="org-dl">
+<dt>&lt;Oblique&gt;</dt><dd>The form of the noun that takes on articles, determinants and possessives. Marks the AGENT in the Middle-voice and Perfective aspect.</dd>
+<dt>&lt;Nominative/Absolutive&gt;</dt><dd>Marks the SUBJECT in the Imperfective aspect and the PATIENT in the Middle-voice and perfective aspect.</dd>
+<dt>&lt;Genitive&gt;</dt><dd>Marks the possessor of another noun and takes on certain postpositions to mark another case.</dd>
+<dt>&lt;Accusative&gt;</dt><dd>Marks the OBJECT in imperfective aspect but can also mark the second object in ditransitive verbs regardless of the imperfective or perfective aspect. Takes on many directional postpositions.</dd>
+<dt>&lt;Dative&gt;</dt><dd>Marks the indirect object and the benefactive. Main case for pospositions.</dd>
+</dl>
+
+<p>
+and two numbers:
+</p>
+
+<dl class="org-dl">
+<dt>&lt;Singular&gt;</dt><dd>acts like a paucal or collective in the indefinite.</dd>
+<dt>&lt;Plural&gt;</dt><dd>rarer in the indefinite, only used for very specific instances.</dd>
+</dl>
+</div>
+
+<div id="outline-container-org56cd0c0" class="outline-5">
+<h5 id="org56cd0c0"><span class="section-number-5">2.2.1.1</span> Nouns</h5>
+<div class="outline-text-5" id="text-2-2-1-1">
+<p>
+There are approximately 5 main declensions of which they are further subdivided
+into Strong, Weak or Mixed paradigms.  Thus there are really 13 different with
+an additional masculine, feminine and neuter version of each.
+</p>
+
+<p>
+The paradigms, particularly the Strong grade are distinguished by changes in the
+last consonant of the root, alternating from palatalized to non palatalized.  In
+this mixed grade this affects both the final consonant of the root but also the
+initial one if the core vowel alternates between palatalizing and non
+palatalizing forms.  Palatalization only happens in the closed or nasal
+morphemes.
+</p>
+
+<p>
+Palatalization ONLY occurs in closed or nasal syllables!
+</p>
+
+<p>
+These are the ones you will be encountering in the given text:
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="orgb4af844"></a>1st Declension: Thematic -a stem (only masculine and neuter)<br />
+<div class="outline-text-6" id="text-2-2-1-1-1">
+<dl class="org-dl vocablist">
+<dt>kara, karyaś</dt><dd>&ldquo;friend&rdquo; (masc)</dd>
+<dt>sotsaṃ, sotsaś</dt><dd>&ldquo;familiar&rdquo; (neut)</dd>
+</dl>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 5:</span> Strong 1st declension</caption>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Masculine</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Neuter</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">OBL</td>
+<td class="org-left">kara-</td>
+<td class="org-left">-</td>
+<td class="org-left">sota-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">kara</td>
+<td class="org-left">karāi</td>
+<td class="org-left">sotsaṃ</td>
+<td class="org-left">sotā</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">karyaś</td>
+<td class="org-left">karuṃ</td>
+<td class="org-left">sotsaś</td>
+<td class="org-left">sotuṃ</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">karyaṃ</td>
+<td class="org-left">karats</td>
+<td class="org-left">sotsaṃ</td>
+<td class="org-left">sotats</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">karē</td>
+<td class="org-left">karyēm</td>
+<td class="org-left">sotē</td>
+<td class="org-left">sotsēm</td>
+</tr>
+</tbody>
+</table>
+
+<dl class="org-dl vocablist">
+<dt>hāi, hāyəś</dt><dd>&ldquo;penis, cock&rdquo; (masc)</dd>
+<dt>wärśne, wärśəś</dt><dd>&ldquo;life&rsquo;s work, project&rdquo; (neut)</dd>
+</dl>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 6:</span> Weak 1st declension</caption>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Masculine</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Neuter</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">OBL</td>
+<td class="org-left">hāy-</td>
+<td class="org-left">-</td>
+<td class="org-left">wärś-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">hāi</td>
+<td class="org-left">hāyəi</td>
+<td class="org-left">wärśne</td>
+<td class="org-left">wärśa</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">hāyəś</td>
+<td class="org-left">hāyoṃ</td>
+<td class="org-left">wärśəś</td>
+<td class="org-left">wärśoṃ</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">hāyne</td>
+<td class="org-left">hāyi</td>
+<td class="org-left">wärśne</td>
+<td class="org-left">wärśa</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">hāye</td>
+<td class="org-left">hāyem</td>
+<td class="org-left">wärśe</td>
+<td class="org-left">wärśem</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org3029b31"></a>2nd Declension: Thematic -ā stem (only feminine)<br />
+<div class="outline-text-6" id="text-2-2-1-1-2">
+<dl class="org-dl vocablist">
+<dt>ześtā, ześtā</dt><dd>&ldquo;tongue, language&rdquo; (strong)</dd>
+<dt>kāna, kāna</dt><dd>&ldquo;woman&rdquo; (weak)</dd>
+</dl>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 7:</span> Feminine 2nd declension</caption>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Strong</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Weak</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">OBL</td>
+<td class="org-left">ześta-</td>
+<td class="org-left">-</td>
+<td class="org-left">kāna-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">ześtā</td>
+<td class="org-left">ześtāi</td>
+<td class="org-left">kāna</td>
+<td class="org-left">kānai</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">ześtā</td>
+<td class="org-left">ześtāwoṃ</td>
+<td class="org-left">kāna</td>
+<td class="org-left">kānawoṃ</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">ześtāṃ</td>
+<td class="org-left">ześtots</td>
+<td class="org-left">kānaṃ</td>
+<td class="org-left">kānats</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">ześtā</td>
+<td class="org-left">ześtām</td>
+<td class="org-left">kāna</td>
+<td class="org-left">kānam</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="orgfdc35f7"></a>3rd Declension: Athematic consonant stem<br />
+<div class="outline-text-6" id="text-2-2-1-1-3">
+<dl class="org-dl vocablist">
+<dt>putz, paza</dt><dd>&ldquo;foot&rdquo; (masculine)</dd>
+<dt>śir, śreza</dt><dd>&ldquo;heart&rdquo; (neuter)</dd>
+</dl>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 8:</span> Strong 3rd Mixed</caption>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Masculine</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Neuter</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">OBL</td>
+<td class="org-left">paza-</td>
+<td class="org-left">-</td>
+<td class="org-left">śreza-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">putz</td>
+<td class="org-left">pāz</td>
+<td class="org-left">śir</td>
+<td class="org-left">śira</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">paza</td>
+<td class="org-left">pazuṃ</td>
+<td class="org-left">śreza</td>
+<td class="org-left">śrezuṃ</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">pāzo</td>
+<td class="org-left">pāśe</td>
+<td class="org-left">śir</td>
+<td class="org-left">śira</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">pazē</td>
+<td class="org-left">pazəma</td>
+<td class="org-left">śrezē</td>
+<td class="org-left">śrezəma</td>
+</tr>
+</tbody>
+</table>
+
+<dl class="org-dl vocablist">
+<dt>patsar, patra</dt><dd>&ldquo;father&rdquo; (-r stem masculine)</dd>
+<dt>lyēme, lyenna</dt><dd>&ldquo;lake&rdquo; (-n stem feminine)</dd>
+</dl>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 9:</span> Strong - Mixed</caption>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">-r Masculine</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">-n Feminine</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">OBL</td>
+<td class="org-left">patra-</td>
+<td class="org-left">-</td>
+<td class="org-left">lyenna</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">patsar</td>
+<td class="org-left">patsar</td>
+<td class="org-left">lyēme</td>
+<td class="org-left">lyēmən</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">patra</td>
+<td class="org-left">patruṃ</td>
+<td class="org-left">lyenna</td>
+<td class="org-left">lyennun</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">patsaro</td>
+<td class="org-left">patsare</td>
+<td class="org-left">lyēmono</td>
+<td class="org-left">lyēmone</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">patrē</td>
+<td class="org-left">pastrema</td>
+<td class="org-left">lyennē</td>
+<td class="org-left">lyemyema</td>
+</tr>
+</tbody>
+</table>
+
+<dl class="org-dl vocablist">
+<dt>mur, mur</dt><dd>&ldquo;man&rdquo; (masculine)</dd>
+<dt>təxsēṃ, təxsēn</dt><dd>&ldquo;enemy&rdquo; (neuter)</dd>
+<dt>kitre, kutre</dt><dd>&ldquo;neck, throat&rdquo; (-r stem masculine)</dd>
+</dl>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 10:</span> Weak - Fixed</caption>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Masculine</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Neuter</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">-r Masculine</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">OBL</td>
+<td class="org-left">mur-</td>
+<td class="org-left">-</td>
+<td class="org-left">təxsēn</td>
+<td class="org-left">-</td>
+<td class="org-left">kutr-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">mur</td>
+<td class="org-left">mur</td>
+<td class="org-left">təxsēṃ</td>
+<td class="org-left">təxsēna</td>
+<td class="org-left">kitre</td>
+<td class="org-left">kutre</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">mur</td>
+<td class="org-left">muroṃ</td>
+<td class="org-left">təxsēn</td>
+<td class="org-left">təxsēnoṃ</td>
+<td class="org-left">kutre</td>
+<td class="org-left">kutroṃ</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">muro</td>
+<td class="org-left">mure</td>
+<td class="org-left">təxsēn</td>
+<td class="org-left">təxsēna</td>
+<td class="org-left">kutro</td>
+<td class="org-left">kutre</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">mure</td>
+<td class="org-left">muryem</td>
+<td class="org-left">təxsēne</td>
+<td class="org-left">təxsēñem</td>
+<td class="org-left">kutre</td>
+<td class="org-left">kustrem</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+This can all be resumed as follows:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">-a</th>
+<th scope="col" class="org-left">-a</th>
+<th scope="col" class="org-left">-ā</th>
+<th scope="col" class="org-left">-ā</th>
+<th scope="col" class="org-left">cons. MIX</th>
+<th scope="col" class="org-left">cons. FIX</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">strong</th>
+<th scope="col" class="org-left">weak</th>
+<th scope="col" class="org-left">strong</th>
+<th scope="col" class="org-left">weak</th>
+<th scope="col" class="org-left">strong</th>
+<th scope="col" class="org-left">weak</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">sg</td>
+<td class="org-left">OBL</td>
+<td class="org-left">-a-</td>
+<td class="org-left">-∅-</td>
+<td class="org-left">-a-</td>
+<td class="org-left">-a-</td>
+<td class="org-left">-a-</td>
+<td class="org-left">-∅-</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">NOM</td>
+<td class="org-left">-a/-ʲaṃ/-äṃ</td>
+<td class="org-left">-∅/-ne</td>
+<td class="org-left">-ā</td>
+<td class="org-left">-ā</td>
+<td class="org-left">-∅</td>
+<td class="org-left">-∅</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">GEN</td>
+<td class="org-left">-ʲaś/-äś</td>
+<td class="org-left">-əś</td>
+<td class="org-left">-ā</td>
+<td class="org-left">-a</td>
+<td class="org-left">-a</td>
+<td class="org-left">-∅</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ACC</td>
+<td class="org-left">-ʲaṃ/-äṃ</td>
+<td class="org-left">-ne</td>
+<td class="org-left">-āṃ</td>
+<td class="org-left">-aṃ</td>
+<td class="org-left">-o/-∅</td>
+<td class="org-left">-o/-∅</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">DAT</td>
+<td class="org-left">-ē</td>
+<td class="org-left">-e</td>
+<td class="org-left">-ā</td>
+<td class="org-left">-a</td>
+<td class="org-left">-ē</td>
+<td class="org-left">-e</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">pl</td>
+<td class="org-left">NOM</td>
+<td class="org-left">-ʲai/-ā</td>
+<td class="org-left">-əi/-a</td>
+<td class="org-left">-āi</td>
+<td class="org-left">-ai</td>
+<td class="org-left">-∅</td>
+<td class="org-left">-∅</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">GEN</td>
+<td class="org-left">-uṃ</td>
+<td class="org-left">-oṃ</td>
+<td class="org-left">-āwoṃ</td>
+<td class="org-left">-awoṃ</td>
+<td class="org-left">-uṃ</td>
+<td class="org-left">-oṃ</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">ACC</td>
+<td class="org-left">-ats</td>
+<td class="org-left">-ʲi</td>
+<td class="org-left">-ots</td>
+<td class="org-left">-ats</td>
+<td class="org-left">-e/a</td>
+<td class="org-left">-e/a</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">DAT</td>
+<td class="org-left">-ʲēm</td>
+<td class="org-left">-ʲem</td>
+<td class="org-left">-ām</td>
+<td class="org-left">-am</td>
+<td class="org-left">-əma/-ʲema</td>
+<td class="org-left">-ʲem</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgceb688c" class="outline-5">
+<h5 id="orgceb688c"><span class="section-number-5">2.2.1.2</span> Adjectives</h5>
+<div class="outline-text-5" id="text-2-2-1-2">
+<p>
+Adjectives decline to the same case, gender and number as the noun the describe and go before them.
+</p>
+
+<pre class="example">
+ñau nātś
+new-ɴᴏᴍ.sɢ.ᴍ night-ɴᴏᴍ.sɢ.ᴍ
+New night.
+
+ñawawoṃ kiwätawoṃ
+new-ɢᴇɴ.ᴘʟ.ꜰ life-ɢᴇɴ.ᴘʟ.ꜰ
+New life.
+</pre>
+
+<p>
+For declension see NOUNS.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org72cb396" class="outline-5">
+<h5 id="org72cb396"><span class="section-number-5">2.2.1.3</span> Pronouns</h5>
+<div class="outline-text-5" id="text-2-2-1-3">
+</div>
+<ol class="org-ol">
+<li><a id="org182ebe1"></a>Personal Pronouns<br />
+<div class="outline-text-6" id="text-2-2-1-3-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">1s</th>
+<th scope="col" class="org-left">1p</th>
+<th scope="col" class="org-left">2s</th>
+<th scope="col" class="org-left">2p</th>
+<th scope="col" class="org-left">3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">OBL</td>
+<td class="org-left">mya-</td>
+<td class="org-left">ña-</td>
+<td class="org-left">tsa-</td>
+<td class="org-left">wä-</td>
+<td class="org-left">hā-</td>
+</tr>
+
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">zäṃ</td>
+<td class="org-left">wē</td>
+<td class="org-left">tū</td>
+<td class="org-left">yū</td>
+<td class="org-left">hwā</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">myam</td>
+<td class="org-left">yəryaṃ</td>
+<td class="org-left">tsau</td>
+<td class="org-left">ośoṃ</td>
+<td class="org-left">hāu</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">ma</td>
+<td class="org-left">yəma</td>
+<td class="org-left">to</td>
+<td class="org-left">ośo</td>
+<td class="org-left">hwā</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">myatśe</td>
+<td class="org-left">yəmē</td>
+<td class="org-left">tsafe</td>
+<td class="org-left">ośmē</td>
+<td class="org-left">hāfe</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">POSS</td>
+<td class="org-left">myai-</td>
+<td class="org-left">ñar-</td>
+<td class="org-left">tsai-</td>
+<td class="org-left">wär-</td>
+<td class="org-left">hāu-</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+When marking a noun for possession, the noun is declines in the oblique with the
+pronoun suffixed to the end of it.  This goes for all the following pronouns as
+well.
+</p>
+</div>
+</li>
+
+<li><a id="org66ff4be"></a>Definite article<br />
+<div class="outline-text-6" id="text-2-2-1-3-2">
+<p>
+Marks for definiteness. Turns adjectives into nouns.
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">ya</td>
+<td class="org-left">ī</td>
+<td class="org-left">i(tz)</td>
+<td class="org-left">yē</td>
+<td class="org-left">ī</td>
+<td class="org-left">ā</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">yar</td>
+<td class="org-left">yara</td>
+<td class="org-left">yar</td>
+<td class="org-left">yaroṃ</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">iṃ</td>
+<td class="org-left">īu</td>
+<td class="org-left">i(tz)</td>
+<td class="org-left">ye(ts)</td>
+<td class="org-left">īi</td>
+<td class="org-left">ā</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">yamo</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+<td class="org-left">yōm</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+When suffixed, the initial &lt;y&gt; palatalized the root of the noun, except for the
+Nominative masculine singular which is written &lt;-a&gt; after a consonant and &lt;-ä&gt;
+after a vowel (but pronounced <code>/ja/</code>)
+</p>
+</div>
+</li>
+
+<li><a id="org7c8366c"></a>Proximal Demonstrative<br />
+<div class="outline-text-6" id="text-2-2-1-3-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">ha</td>
+<td class="org-left">hā</td>
+<td class="org-left">tā(tz)</td>
+<td class="org-left">tē</td>
+<td class="org-left">tā</td>
+<td class="org-left">〃</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">tsaś</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+<td class="org-left">tsaśoṃ</td>
+<td class="org-left">tāroṃ</td>
+<td class="org-left">tsaśoṃ</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">tsaṃ</td>
+<td class="org-left">tāṃ</td>
+<td class="org-left">tā(tz)</td>
+<td class="org-left">ta(ts)</td>
+<td class="org-left">tā(ts)</td>
+<td class="org-left">tā</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">tsame</td>
+<td class="org-left">tsaśe</td>
+<td class="org-left">tsame</td>
+<td class="org-left">tsēm</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org17cfaf5"></a>Distal Demonstrative<br />
+<div class="outline-text-6" id="text-2-2-1-3-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">sa</td>
+<td class="org-left">sā</td>
+<td class="org-left">sā(tz)</td>
+<td class="org-left">sē</td>
+<td class="org-left">sā</td>
+<td class="org-left">〃</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">säś</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+<td class="org-left">säroṃ</td>
+<td class="org-left">sāroṃ</td>
+<td class="org-left">säroṃ</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">säṃ</td>
+<td class="org-left">sāṃ</td>
+<td class="org-left">sā(tz)</td>
+<td class="org-left">sa(ts)</td>
+<td class="org-left">sā(ts)</td>
+<td class="org-left">sā</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">säme</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+<td class="org-left">sēm</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org8760388"></a>Relative Pronoun<br />
+<div class="outline-text-6" id="text-2-2-1-3-5">
+<p>
+Largely used as the 3rd person pronoun in many verbal constructions.
+Also used as an interrogative pronoun.
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">ki</td>
+<td class="org-left">〃</td>
+<td class="org-left">ki(tz)</td>
+<td class="org-left">kyai</td>
+<td class="org-left">ki</td>
+<td class="org-left">〃</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">kyau</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+<td class="org-left">kyaśoṃ</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">kiṃ</td>
+<td class="org-left">kiu</td>
+<td class="org-left">ki(tz)</td>
+<td class="org-left">kye(ts)</td>
+<td class="org-left">kyei</td>
+<td class="org-left">ki</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">kyame</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+<td class="org-left">kyōm</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org1d3ac97"></a>Relative Determiner<br />
+<div class="outline-text-6" id="text-2-2-1-3-6">
+<p>
+Used to start subordinate clauses and subordinate verbal constructions.
+Main relative pronoun for nouns and adjectives.
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">ka</td>
+<td class="org-left">kā</td>
+<td class="org-left">kā(tz)</td>
+<td class="org-left">kē</td>
+<td class="org-left">kā</td>
+<td class="org-left">〃</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">kyaś</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+<td class="org-left">kyaroṃ</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">kyaṃ</td>
+<td class="org-left">kāṃ</td>
+<td class="org-left">kā(tz)</td>
+<td class="org-left">ka(ts)</td>
+<td class="org-left">kāi</td>
+<td class="org-left">kā</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">kyame</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+<td class="org-left">kyēm</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org3b5bc25"></a>Anaphoric Pronoun<br />
+<div class="outline-text-6" id="text-2-2-1-3-7">
+<p>
+Marking a past topic but can also used like the relative determiner.
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">s</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">f</th>
+<th scope="col" class="org-left">n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">NOM</td>
+<td class="org-left">pe</td>
+<td class="org-left">pyā</td>
+<td class="org-left">pyā(tz)</td>
+<td class="org-left">pyē</td>
+<td class="org-left">pyā</td>
+<td class="org-left">〃</td>
+</tr>
+
+<tr>
+<td class="org-left">GEN</td>
+<td class="org-left">peś</td>
+<td class="org-left">peśā</td>
+<td class="org-left">peś</td>
+<td class="org-left">peśoṃ</td>
+<td class="org-left">pyāroṃ</td>
+<td class="org-left">peśoṃ</td>
+</tr>
+
+<tr>
+<td class="org-left">ACC</td>
+<td class="org-left">peṃ</td>
+<td class="org-left">pyāṃ</td>
+<td class="org-left">pyā(tz)</td>
+<td class="org-left">pya(ts)</td>
+<td class="org-left">pyā(ts)</td>
+<td class="org-left">pyā</td>
+</tr>
+
+<tr>
+<td class="org-left">DAT</td>
+<td class="org-left">peme</td>
+<td class="org-left">peśai</td>
+<td class="org-left">peme</td>
+<td class="org-left">pyēm</td>
+<td class="org-left">〃</td>
+<td class="org-left">〃</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgaadf804" class="outline-5">
+<h5 id="orgaadf804"><span class="section-number-5">2.2.1.4</span> Verbs</h5>
+<div class="outline-text-5" id="text-2-2-1-4">
+<p>
+Verbs are conjugated for the following:
+</p>
+
+<dl class="org-dl">
+<dt>&lt;Mood&gt;</dt><dd>Indicative, Subjunctive and Imperative</dd>
+<dt>&lt;Aspect&gt;</dt><dd>Perfective, Imperfective, Incohative and Cessative.</dd>
+<dt>&lt;Tense&gt;</dt><dd>Past, Present and Future.</dd>
+<dt>&lt;Voice&gt;</dt><dd>Active and Middle.</dd>
+<dt>&lt;Person&gt;</dt><dd>1st, 2nd and 3rd.</dd>
+<dt>&lt;Number&gt;</dt><dd>Singular and Plural.</dd>
+</dl>
+</div>
+
+<ol class="org-ol">
+<li><a id="org6b66e34"></a>Conjugation<br />
+<div class="outline-text-6" id="text-2-2-1-4-1">
+<dl class="org-dl">
+<dt>&lt;Present&gt;</dt><dd>(non-past) used to conjugate in the present and future tense.</dd>
+<dt>&lt;Past&gt;</dt><dd>used to conjugate the past tense.</dd>
+</dl>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 11:</span> Thematic</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Active</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Middle</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">present</th>
+<th scope="col" class="org-left">past</th>
+<th scope="col" class="org-left">future</th>
+<th scope="col" class="org-left">Imperative</th>
+<th scope="col" class="org-left">present</th>
+<th scope="col" class="org-left">past</th>
+<th scope="col" class="org-left">future</th>
+<th scope="col" class="org-left">Imperative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Indicative</td>
+<td class="org-left">1s</td>
+<td class="org-left">-o/-en</td>
+<td class="org-left">-ne/-ʲaṃ/-äṃ</td>
+<td class="org-left">-yën</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-or</td>
+<td class="org-left">-one</td>
+<td class="org-left">-ima</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2s</td>
+<td class="org-left">-er/-er</td>
+<td class="org-left">-∅</td>
+<td class="org-left">-yë</td>
+<td class="org-left">-Ø</td>
+<td class="org-left">-əzre</td>
+<td class="org-left">-ore</td>
+<td class="org-left">-isa</td>
+<td class="org-left">-ərē</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3s</td>
+<td class="org-left">-et/-et</td>
+<td class="org-left">-otz/-atz</td>
+<td class="org-left">-yëz</td>
+<td class="org-left">-ot</td>
+<td class="org-left">-ətre</td>
+<td class="org-left">-ote</td>
+<td class="org-left">-ita</td>
+<td class="org-left">-ətē</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1p</td>
+<td class="org-left">-əm/-əm</td>
+<td class="org-left">-om/-ʲam/-äm</td>
+<td class="org-left">-yëma</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-əmoś</td>
+<td class="org-left">-omeś</td>
+<td class="org-left">-imoś</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2p</td>
+<td class="org-left">-ət/-ət</td>
+<td class="org-left">-ot/-ʲat/-ät</td>
+<td class="org-left">-yëta</td>
+<td class="org-left">-ət</td>
+<td class="org-left">-ətśo</td>
+<td class="org-left">-otśe</td>
+<td class="org-left">-itśo</td>
+<td class="org-left">-ətśo</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3p</td>
+<td class="org-left">-ets/-ets</td>
+<td class="org-left">-ots/-ats</td>
+<td class="org-left">-āts</td>
+<td class="org-left">-ots</td>
+<td class="org-left">-estre</td>
+<td class="org-left">-oste</td>
+<td class="org-left">-ista</td>
+<td class="org-left">-ostē</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Subjunctive</td>
+<td class="org-left">1s</td>
+<td class="org-left">-əi</td>
+<td class="org-left">-ëṃ</td>
+<td class="org-left">-śën</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-ere</td>
+<td class="org-left">-ei</td>
+<td class="org-left">-sior</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2s</td>
+<td class="org-left">-ət</td>
+<td class="org-left">-ë</td>
+<td class="org-left">-śë</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-etre</td>
+<td class="org-left">-ese</td>
+<td class="org-left">-siśre</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3s</td>
+<td class="org-left">-əi</td>
+<td class="org-left">-ëtz</td>
+<td class="org-left">-śëz</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-etre</td>
+<td class="org-left">-ete</td>
+<td class="org-left">-sitre</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1p</td>
+<td class="org-left">-ʲema</td>
+<td class="org-left">-ëm</td>
+<td class="org-left">-rima</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-emar</td>
+<td class="org-left">-emoś</td>
+<td class="org-left">-sëmoś</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2p</td>
+<td class="org-left">-əta</td>
+<td class="org-left">-ët</td>
+<td class="org-left">-rëta</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-eśtsu</td>
+<td class="org-left">-etśo</td>
+<td class="org-left">-sëśo</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3p</td>
+<td class="org-left">-əyir</td>
+<td class="org-left">-ëts</td>
+<td class="org-left">-rāts</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-eyirtre</td>
+<td class="org-left">-este</td>
+<td class="org-left">-sestre</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Gerund</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-e</td>
+<td class="org-left">-ta</td>
+<td class="org-left">-tsau</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-tsena</td>
+<td class="org-left">-eśa</td>
+<td class="org-left">-toya</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Participle</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-ez</td>
+<td class="org-left">-ats</td>
+<td class="org-left">-tui</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-me</td>
+<td class="org-left">-ona</td>
+<td class="org-left">-ma</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Infinitive</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-toṃ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-moṃ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 12:</span> Athematic</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Active</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Middle</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">present</th>
+<th scope="col" class="org-left">past</th>
+<th scope="col" class="org-left">future</th>
+<th scope="col" class="org-left">Imperative</th>
+<th scope="col" class="org-left">present</th>
+<th scope="col" class="org-left">past</th>
+<th scope="col" class="org-left">future</th>
+<th scope="col" class="org-left">Imperative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Indicative</td>
+<td class="org-left">1s</td>
+<td class="org-left">-n</td>
+<td class="org-left">-w/-o</td>
+<td class="org-left">-yin</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-myar</td>
+<td class="org-left">-mē</td>
+<td class="org-left">-ima</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2s</td>
+<td class="org-left">-r</td>
+<td class="org-left">-Ø/-Ø</td>
+<td class="org-left">-yi</td>
+<td class="org-left">-śi</td>
+<td class="org-left">-rär</td>
+<td class="org-left">-rē</td>
+<td class="org-left">-isa</td>
+<td class="org-left">-rē</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3s</td>
+<td class="org-left">-t</td>
+<td class="org-left">-z/-s/z</td>
+<td class="org-left">-yiz</td>
+<td class="org-left">-ut</td>
+<td class="org-left">-tsar</td>
+<td class="org-left">-tē</td>
+<td class="org-left">-ita</td>
+<td class="org-left">-tē</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1p</td>
+<td class="org-left">-ma</td>
+<td class="org-left">-ma/-ma</td>
+<td class="org-left">-yima</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-moś</td>
+<td class="org-left">-mēś</td>
+<td class="org-left">-imọś</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2p</td>
+<td class="org-left">-ta</td>
+<td class="org-left">-ta/-ta</td>
+<td class="org-left">-yita</td>
+<td class="org-left">-ta</td>
+<td class="org-left">-tśo</td>
+<td class="org-left">-tśē</td>
+<td class="org-left">-itśo</td>
+<td class="org-left">-tśo</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3p</td>
+<td class="org-left">-ts</td>
+<td class="org-left">-yəz/-ʲez</td>
+<td class="org-left">-āts</td>
+<td class="org-left">-ts</td>
+<td class="org-left">-ostsar</td>
+<td class="org-left">-stē</td>
+<td class="org-left">-ista</td>
+<td class="org-left">-stē</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Subjunctive</td>
+<td class="org-left">1s</td>
+<td class="org-left">-i</td>
+<td class="org-left">-wiṃ</td>
+<td class="org-left">-śin</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-yorre</td>
+<td class="org-left">-wei</td>
+<td class="org-left">-rior</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2s</td>
+<td class="org-left">-it</td>
+<td class="org-left">-wi</td>
+<td class="org-left">-śi</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-yəzre</td>
+<td class="org-left">-wise</td>
+<td class="org-left">-riśre</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3s</td>
+<td class="org-left">-i</td>
+<td class="org-left">-wez</td>
+<td class="org-left">-śiz</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-yətre</td>
+<td class="org-left">-wite</td>
+<td class="org-left">-ritre</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">1p</td>
+<td class="org-left">-ima</td>
+<td class="org-left">-īma</td>
+<td class="org-left">-rima</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-yəmotś</td>
+<td class="org-left">-wīmoś</td>
+<td class="org-left">-rëmoś</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">2p</td>
+<td class="org-left">-ita</td>
+<td class="org-left">-īta</td>
+<td class="org-left">-rita</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-yəśo</td>
+<td class="org-left">-wītśo</td>
+<td class="org-left">-rëśo</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">3p</td>
+<td class="org-left">-yir</td>
+<td class="org-left">-wets</td>
+<td class="org-left">-rāts</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-yostre</td>
+<td class="org-left">-weste</td>
+<td class="org-left">-ristre</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Gerund</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-ya</td>
+<td class="org-left">-ta</td>
+<td class="org-left">-tsau</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-tena</td>
+<td class="org-left">-ne₂</td>
+<td class="org-left">-toya</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Participle</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-ts</td>
+<td class="org-left">-ts₂</td>
+<td class="org-left">-tui</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-ne</td>
+<td class="org-left">-mna</td>
+<td class="org-left">-ma</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Infinitive</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-toṃ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-moṃ</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org50e202b"></a>Verbal Classes<br />
+<div class="outline-text-6" id="text-2-2-1-4-2">
+<dl class="org-dl vocablist">
+<dt>i.</dt><dd>THEMATIC -o present 1st sg.</dd>
+<dt>ii.</dt><dd>THEMATIC -en present 1st sg.</dd>
+<dt>iii.</dt><dd>ATHEMATIC fixed conjugation</dd>
+<dt>iv.</dt><dd>ATHEMATIC mixed conjugation</dd>
+</dl>
+</div>
+</li>
+
+<li><a id="org2fb42df"></a>Aspect Constructions<br />
+<div class="outline-text-6" id="text-2-2-1-4-3">
+<p>
+Follows these general rules.
+</p>
+
+<pre class="example">
+VERB-Participle=Definite=Auxiliary/Copula.Aspect-Voice-Conjugation
+
+</pre>
+
+<dl class="org-dl">
+<dt>&lt;Imperfective&gt;</dt><dd>Default, base conjugations are in the imperfective aspect.</dd>
+
+<dt>&lt;Perfective&gt;</dt><dd>Split ergative. Thus, in transitive verbs, the original subject takes on the Oblique and the Object takes on the Nominative.</dd>
+</dl>
+</div>
+
+<ol class="org-ol">
+<li><a id="orgef3a800"></a>Special constructions:<br />
+<div class="outline-text-7" id="text-2-2-1-4-3-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Perfective root</td>
+<td class="org-left">-∅</td>
+</tr>
+
+<tr>
+<td class="org-left">Active Indicative</td>
+<td class="org-left">-∅</td>
+</tr>
+
+<tr>
+<td class="org-left">Active Subjunctive</td>
+<td class="org-left">-ē</td>
+</tr>
+
+<tr>
+<td class="org-left">Middle Indicative</td>
+<td class="org-left">-re</td>
+</tr>
+
+<tr>
+<td class="org-left">Active Subjunctive</td>
+<td class="org-left">-ērre</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org90e0d4c"></a>Perfective Conjugation:<br />
+<div class="outline-text-7" id="text-2-2-1-4-3-2">
+<p>
+(All pronouns in the nominative.)
+</p>
+
+<p>
+The construction is as follows:
+</p>
+
+<pre class="example">
+kəlastaïyarki
+kəla-ast=i=yar-∅-ki
+"He threw something"
+</pre>
+
+<dl class="org-dl vocablist">
+<dt>kəla-</dt><dd>Unstressed Past root of &ldquo;kākalme, kälo   iv class athematic,  to throw&rdquo;</dd>
+<dt>-sta-</dt><dd>Active Past Participle in the Oblique</dd>
+<dt>i</dt><dd>Nominative Singular Neuter Definite</dd>
+<dt>yar-</dt><dd>Perfective root</dd>
+<dt>-∅- </dt><dd>Active voice and Indicative mood.</dd>
+<dt>-ki</dt><dd>3rd person. marked with the Relative Pronoun in the Nominative.</dd>
+
+<dt>&lt;Inchoative&gt;</dt><dd>Indicates the start of an action, a sense of in-volition and progressive aspect.</dd>
+<dt>Auxiliary</dt><dd>yayen, əyäṃ, yai, əyats</dd>
+<dt>&lt;Cessative&gt;</dt><dd>hāyen, hayäṃ, hāi, hayats</dd>
+<dt>&lt;Continuous/Progressive&gt;</dt><dd>Same as the inchoative but in the middle voice, specifically. Intransitive verbs the original subject is put in the Dative (as a sorta antipassive) while the Subject is marked as the patient and the verb takes on a dummy ergative.</dd>
+</dl>
+
+<p>
+-&#x2014;
+</p>
+
+<p>
+And I lied, there are many more auxiliaries and aspects but we won&rsquo;t talk about them now.
+</p>
+</div>
+</li>
+</ol>
+</li>
+
+<li><a id="org6d5900f"></a>Negation<br />
+<div class="outline-text-6" id="text-2-2-1-4-4">
+<p>
+Affix &lt;mi-&gt; or negative copula (see appendix).
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org0615985" class="outline-4">
+<h4 id="org0615985"><span class="section-number-4">2.2.2</span> Syntax</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<ul class="org-ul">
+<li>SOV</li>
+<li>Head-final</li>
+<li>Split-Ergative in the perfective aspect.</li>
+<li>Very pro-drop. The Aspect construction you just read through?
+Well you can drop most of that depending on context.
+In fact, the copula or the auxiliary are most often dropped.</li>
+</ul>
+
+<p>
+Personal pronouns in the imperfective aspect are only used for emphasis.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org35f4995" class="outline-2">
+<h2 id="org35f4995"><span class="section-number-2">3</span> Lexicon</h2>
+<div class="outline-text-2" id="text-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 13:</span> Key to table headings</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Root</th>
+<th scope="col" class="org-left">Decline</th>
+<th scope="col" class="org-left">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">nominative singular, genitive singular, definite nominative singular (with oblique root)</td>
+<td class="org-left">Declension Number.</td>
+<td class="org-left">Noun</td>
+</tr>
+
+<tr>
+<td class="org-left">nominative singular masculine, genitive singular masculine, nominative singular feminine</td>
+<td class="org-left">All 1st Declension (m/n) or 2nd (f)</td>
+<td class="org-left">Adjective</td>
+</tr>
+
+<tr>
+<td class="org-left">active 1st singular present imperfective, active 1st singular past imperfective, perfective root, past participle nominative singular masculine</td>
+<td class="org-left">verbal class.</td>
+<td class="org-left">Verb</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Root</th>
+<th scope="col" class="org-left">Decline</th>
+<th scope="col" class="org-left">Gloss</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">en, yau, yar, ośots</td>
+<td class="org-left">IRR.</td>
+<td class="org-left">to be, COPULA</td>
+</tr>
+
+<tr>
+<td class="org-left">hwāṃ, hwān, hwānī</td>
+<td class="org-left">3f.</td>
+<td class="org-left">sun</td>
+</tr>
+
+<tr>
+<td class="org-left">lyōx, lotśa, lotśaä</td>
+<td class="org-left">1m.</td>
+<td class="org-left">light</td>
+</tr>
+
+<tr>
+<td class="org-left">nāryen, naryaṃ, nār, narats</td>
+<td class="org-left">ii.</td>
+<td class="org-left">to fasten with a thread or cord; Mid. to be tied up</td>
+</tr>
+
+<tr>
+<td class="org-left">okī, okīṃ, okī</td>
+<td class="org-left">IRR.</td>
+<td class="org-left">eyes</td>
+</tr>
+
+<tr>
+<td class="org-left">śotśaṃ, śotśaś, śotśaï</td>
+<td class="org-left">1n.</td>
+<td class="org-left">cage, container</td>
+</tr>
+
+<tr>
+<td class="org-left">sun, suu, su, susta</td>
+<td class="org-left">iii.</td>
+<td class="org-left">to see, to watch</td>
+</tr>
+
+<tr>
+<td class="org-left">tāo, tāne, tāi, takats</td>
+<td class="org-left">i.</td>
+<td class="org-left">to capture, to seize</td>
+</tr>
+
+<tr>
+<td class="org-left">təti</td>
+<td class="org-left">conj.</td>
+<td class="org-left">CONDITIONAL, so, then, if</td>
+</tr>
+
+<tr>
+<td class="org-left">towa, towäś, towā</td>
+<td class="org-left">adj.</td>
+<td class="org-left">two</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

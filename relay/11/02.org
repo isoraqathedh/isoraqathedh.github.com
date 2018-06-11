@@ -1,0 +1,265 @@
+#+Title: Relay 11–2
+#+Date: 2018-06-04
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../Languages/Styles/glosses.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:02c-relay11.pdf][Raw torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+<<1a>> “The sun with its light trapped me in your eyes like in a cage.”
+<<1b>> “When you saw me, you saw yourself.”
+<<1c>> “Us two, we marched and fell.”
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Tánpz</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Tínni nvhùlz hàliyi námikz’ìn áti ź yùún.
+Yź áti niyá’ nvniyáya yź.
+Tź, páai’ nvfu’tz yútz.
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
+
+* Gloss
+#+BEGIN_EXPORT html
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">tínni</div>
+    <div class="gloss">sun</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">nv</div>
+    <div class="gloss grammar-keyword">narr</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">hàlz</div>
+    <div class="gloss">trap</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">hàli</div>
+    <div class="gloss">cage</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">yi</div>
+    <div class="gloss">like</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">námi</div>
+    <div class="gloss grammar-keyword">obl</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">kz'ì</div>
+    <div class="gloss">light</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">n</div>
+    <div class="gloss grammar-keyword">poss</div>
+  </div>
+
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">áti</div>
+    <div class="gloss grammar-keyword">1 all</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">ź</div>
+    <div class="gloss grammar-keyword">2</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">yù</div>
+    <div class="gloss grammar-keyword">all</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">ú</div>
+    <div class="gloss">eye</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">n</div>
+    <div class="gloss grammar-keyword">poss</div>
+  </div>
+</div>
+
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">yź</div>
+    <div class="gloss grammar-keyword">2 abl</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">áti</div>
+    <div class="gloss grammar-keyword">1 all</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">niy</div>
+    <div class="gloss">see</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">á'</div>
+    <div class="gloss grammar-keyword">when</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">niyá</div>
+    <div class="gloss">see</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">~ya</div>
+    <div class="gloss grammar-keyword">~refl</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">yź</div>
+    <div class="gloss grammar-keyword">2 abl</div>
+  </div>
+</div>
+
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">tź</div>
+    <div class="gloss grammar-keyword">12</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">páai'</div>
+    <div class="gloss">march <span class="grammar-keyword">CONS</span></div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">nv</div>
+    <div class="gloss grammar-keyword">narr</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">fu'tz</div>
+    <div class="gloss">fall</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">yútz</div>
+    <div class="gloss grammar-keyword">12 abl</div>
+  </div>  
+</div>
+
+#+END_EXPORT
+
+* Lexicon
+#+ATTR_HTML: :class vocablist
+- fu’tz :: to fall
+- hàli :: cage
+- hàlz :: to trap
+- kz’ì :: light
+- niyá :: to see
+- pái :: to march
+- tínni :: sun
+- ú :: eye
+
+* Syntax
+The basic word order in Tánpz is topic-comment. The first constituent in a
+clause is the topic, followed by the verb, and then everything else. Topics can
+be omitted, in which case Tánpz appears verb-initial. However, a distinction
+must be made between main clauses, which act as described, and subordinate
+clauses, which are verb-final and end in a non-finite verb. Subordinate clauses
+do not have distinguished topic themselves, and are usually the topic of the
+main clause. To summarize, the most common sentence structures in Tánpz look
+like:
+
+- topic — verb — other
+- [other — non-finite verb] verb — other
+
+The /other/ field is filled with NPs and adverbs. The order here is as follows:
+adverbials generally immediately follow the verb, followed by NPs — first
+subject, then objects, and then other stuff.
+
+* Phonology
+The umlaut phenomenon can be seen in this text, e.g. in [[1a][1a]],
+where \con{nv-hàlz} becomes \con{nvhùlz}}. This phenomenon turns ~/a/~ into ~/i/~
+following ~/s̩/~ and to ~/u/~ following ~/ɸ̩/~. These sounds are spelled ⟨z v⟩
+respectively. Diacritics mark tone.
+
+* Morphology
+Nouns take a case marking prefix. Topics are always unmarked for case (which is
+how they are distinguished from fronted foci, which do not feature in this text
+but might be a thing later on). The case prefixes in this text are:
+
+#+ATTR_HTML: :class vocablist
+- a- :: Allative
+- yù- :: Ablative
+- námi- :: Oblique
+
+These cases will require a bit more explanation. The allative is generally used
+with recipients, objects and other things acted towards or upon; the ablative is
+used with origins, actors and other things acted from. The oblique is restricted
+to non-human nouns and indicates that the noun is additional information such as
+an instrument, location or a thing given. Human nouns and pronouns are always
+either allative or ablative.
+
+#+Caption: Pronouns
+|    | plain | ALL | ABL} |
+|----+-------+-----+------|
+|  1 | tí    | áti | yúti |
+| 12 | tź    | átz | yútz |
+|  2 | ź     | á’z | yź   |
+
+The 12 row here refers to inclusive pronouns, that is “me and you”. Pronouns,
+like nouns, are not directly inflected for number.
+
+If a noun is possessed, the suffix -(a)n is added and, optionally, the
+possessor juxtaposed immediately before the noun. This is seen in [[1a][1a]]:
+⟨ź yùún⟩ "your eyes".
+
+Finite verbs are marked for tense with a prefix, in this text only the marker
+⟨nv⟩ for the /narrative/ tense is used, which marks a sentence as
+being part of a recounted story, rather than something happening with relevance
+to the present or future. Additionally they can take suffixes further
+specifiying the role of the topic, but this does not occur in the
+text. Reduplication of the last syllable of the verb stem (without tone) is used
+to mark a verb as reflexive.
+
+There are two converb constructions in this text. The first, WHEN,
+indicates that the action in the main clauses happened at the same time as the
+converb clause, with a causal connection. It is formed by appending ⟨-a’⟩ to
+the verb stem, eliding final vowels (but keeping tone intact). This can be seen
+in [[1b][1b]]. The second, CONS, indicates that the main clause
+happened as a consequence of the converb clause. It is marked by doubling the
+stressed (first) vowel, and, if the verb ends in a vowel, checking the last
+syllable with ⟨’⟩. An example of this is found in [[1c][1c]].
+
+The suffix ⟨-yi⟩ is used to convert a word into an adverb meaning as much as
+"like X".   
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>2</strong></div>
+  </div>
+  <a href="01.html" id="prev" rel="prev">Previous</a>
+  <a href="03.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+

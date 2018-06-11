@@ -1,0 +1,136 @@
+#+Title: Relay 11–1
+#+Date: 2018-06-04
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:01a-mel.txt][Raw torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The sun, the light in your eyes, trapped me in a cage
+When you saw me you saw yourself
+We were the ones that marched and fell
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Sevelian</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Hvis, desevilas onana niž, vya kveu aitillim
+Klaundrim vya valanu, nyén valu
+Vaia šioneius aundra kantzanaiu má gayanaiu aiu
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
+
+* Lexicon
+#+ATTR_HTML: :class vocablist
+- aitillu :: a restraint; cage
+- aundra :: that (relative clause marker)
+- desevila :: sunlight
+- gay- :: to fall
+- hvi :: sun
+- (in)*- :: to be
+- kantz- :: to march
+- klaundrim :: when (lit. "at the time that")
+- kv- :: to trap
+- má :: and
+- ona :: eye
+- šionu :: one (as in "one who __...")
+- val- :: to see
+
+* Grammar
+Word order is generally and often fairly strictly SOV, including object clauses
+(with aundra, klaundrim, etc). Such clauses use the subjunctive.
+
+#+Caption: Noun declension
+| Declension |            | Singular     | Plural         |
+|------------+------------+--------------+----------------|
+| -a         | Nominative | Sevel-a      | Sevel-aia      |
+|            | Dative     | Sevel-an     | Sevel-ana      |
+|            | Accusative | Sevel-ya^{1} | Sevel-yai^{1}  |
+|            | Locative   | Sevel-im     | Sevel-ima      |
+|------------+------------+--------------+----------------|
+| -u         | Nominative | Hasid-u      | Hasid-eiu      |
+|            | Dative     | Hasid-un     | Hasid-unu      |
+|            | Accusative | Hasid-yu^{1} | Hasid-yui^{1}  |
+|            | Locative   | Hasid-im     | Hasid-imu      |
+|------------+------------+--------------+----------------|
+| -i         | Nominative | Hyal-i       | Hyal-iyi       |
+|            | Dative     | Hyal-in      | Hyal-eni       |
+|            | Accusative | Hyal-yi^{1}  | Hyal-yilli^{1} |
+|            | Locative   | Hyal-im      | Hyal-imi       |
+|------------+------------+--------------+----------------|
+| Athematic  | Nominative | Ivin         | Ivin-eie       |
+|            | Dative     | Ivin-en      | Ivin-ene       |
+|            | Accusative | Ivin-ye^{1}  | Ivin-yei^{1}   |
+|            | Locative   | Ivin-im      | Ivin-ime       |
+
+
+ ^{1} Accusatives essentially involve palatalization, so with stems ending with
+an already palatal consonant, accusatives geminate.
+
+#+ATTR_HTML: :class vocablist
+- -s :: definiteness
+
+|            | 1 S | 1 P  | 2 S | 2 P  |
+|------------+-----+------+-----+------|
+| Nominative | Va  | Vaia | Ne  | Neie |
+| Possesive  | Važ | Važa | Niž | Niže |
+| Dative     | Van | Vana | Nen | Nene |
+| Accusative | Vya | Vyai | Nye | Nyei |
+
+To form reflexive pronouns, you add -en, however note the vowel interactions
+outlined here when adding the suffix:
+
+#+ATTR_HTML: :class vocablist
+- -a-en :: -ain
+- -á-en :: -án
+- -e-en, -é-en :: -én
+- -i-en, -ĭ-en :: -yen
+- -o-en :: -oin
+- -ŏ-en :: -en
+- -u-en :: -vuen
+- -ŭ-en :: -ŭin
+- -C-en :: -Cen
+
+
+#+Caption: Verb conjugation (active)
+|      | Present   | Simple Past |
+|------+-----------+-------------|
+| 1 S  | Izmen-á   | Izmen-aŭ    |
+| 2 S  | Izmen-ŭ   | Izmen-u     |
+| 3 S  | Izmen-é   | Izmen-eu    |
+| 1 Pl | Izmen-áie | Izmen-aiu   |
+| 2 Pl | Izmen-ŭie | Izmen-uiu   |
+| 3 Pl | Izmen-éie | Izmen-éiu   |
+
+-an- goes between the root and ending for subjunctive mood
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>1</strong></div>
+  </div>
+  <a href="02.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+

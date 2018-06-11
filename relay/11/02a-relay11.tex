@@ -1,0 +1,63 @@
+%document layout
+\documentclass[12pt, a4paper]{article}   
+\usepackage{geometry}                		
+\geometry{a4paper, top=20mm, left=25mm, right=25mm, bottom=25mm,
+headsep=10mm, footskip=12mm}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parskip}{1ex}
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}{\parskip}{-1em}{\normalfont\normalsize\bfseries}}
+\makeatother
+\usepackage{enumitem}
+\setlist{noitemsep} 
+
+%file encoding / fonts / etc
+\usepackage{color}
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{Charis SIL}
+\usepackage{pitch_markings}
+
+%\renewcommand*\sectfont{\normalcolor\bfseries}
+\newfontfamily\lib{Linux Libertine}
+\usepackage{calc}
+
+%tables and figures
+\usepackage{tabu}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{float}
+\restylefloat{table}
+\usepackage{placeins}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{forest}
+\usepackage{lingmacros}
+\usepackage{vowel}
+\usepackage{tikz}
+
+
+
+
+%formatting
+\newcommand{\gl}[1]{\textsc{#1}}	%gloss
+\newcommand{\en}[1]{``#1''}		%english translations
+\newcommand{\con}[1]{\hspace{0pt}{\color{teal}#1}} %conlang examples
+\renewcommand{\ex}[1]{\con{#1}\\}	%first line in example glosses
+\newcommand{\orth}[1]{{\lib{}⟨}#1{\lib{}⟩}}	%orthography 
+\newcommand{\glem}[1]{\underline{\smash{#1}}}	%gloss-emphasis
+
+\newcommand{\plus}{{\lib{}+}}		%plus
+\newcommand{\gr}{{\lib{}>}}		%greater-than
+\newcommand{\us}{{\lib\_}} 		%underscore
+\newcommand{\til}{{\textasciitilde}}     %tilde
+
+%other macros
+\newcommand{\lang}{Tánpz}
+\newcommand{\langipa}{[tʰán.pʰ\s]}
+\newcommand{\s}{s̩}
+\newcommand{\f}{ɸ̩}
+
+
+\begin{document}
+\input{Beginnings}
+\end{document}

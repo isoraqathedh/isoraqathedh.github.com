@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-06-04 Mon 22:01 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Relay 11–1</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="../../global/Default.css"/>
+<link rel="stylesheet" href="../../global/org.css"/>
+<link rel="stylesheet" href="../relay.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="preamble" class="status">
+<header>
+<h1 id="Title">Relay 11–1<br/></h1>
+<h3 class="date">2018-06-03 (last exported 2018-06-04 Mon 22:01)</h3>
+</header>
+</div>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org2237d50">1. Translation</a></li>
+<li><a href="#orgc670576">2. Lexicon</a></li>
+<li><a href="#orge110773">3. Grammar</a></li>
+<li><a href="#org7d54558">Navigation</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2237d50" class="outline-2">
+<h2 id="org2237d50"><span class="section-number-2">1</span> Translation</h2>
+<div class="outline-text-2" id="text-1">
+<div class="short-relay">
+<div class="detail-link">
+<p>
+<a href="01.html">Torch</a>
+</p>
+
+</div>
+
+<div class="natlang-name"><p>English</p></div>
+<div class="natlang-text">
+<p class="verse">
+The sun, the light in your eyes, trapped me in a cage<br />
+When you saw me you saw yourself<br />
+We were the ones that marched and fell<br />
+</p>
+
+</div>
+
+<div class="conlang-name"><p>Sevelian</p></div>
+<div class="conlang-text">
+<p class="verse">
+Hvis, desevilas onana niž, vya kveu aitillim<br />
+Klaundrim vya valanu, nyén valu<br />
+Vaia šioneius aundra kantzanaiu má gayanaiu aiu<br />
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc670576" class="outline-2">
+<h2 id="orgc670576"><span class="section-number-2">2</span> Lexicon</h2>
+<div class="outline-text-2" id="text-2">
+<dl class="org-dl vocablist">
+<dt>aitillu</dt><dd>a restraint; cage</dd>
+<dt>aundra</dt><dd>that (relative clause marker)</dd>
+<dt>desevila</dt><dd>sunlight</dd>
+<dt>gay-</dt><dd>to fall</dd>
+<dt>hvi</dt><dd>sun</dd>
+<dt>(in)*-</dt><dd>to be</dd>
+<dt>kantz-</dt><dd>to march</dd>
+<dt>klaundrim</dt><dd>when (lit. &ldquo;at the time that&rdquo;)</dd>
+<dt>kv-</dt><dd>to trap</dd>
+<dt>má</dt><dd>and</dd>
+<dt>ona</dt><dd>eye</dd>
+<dt>šionu</dt><dd>one (as in &ldquo;one who __&#x2026;&rdquo;)</dd>
+<dt>val-</dt><dd>to see</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orge110773" class="outline-2">
+<h2 id="orge110773"><span class="section-number-2">3</span> Grammar</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Word order is generally and often fairly strictly SOV, including object clauses
+(with aundra, klaundrim, etc). Such clauses use the subjunctive.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> Noun declension</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Declension</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Singular</th>
+<th scope="col" class="org-left">Plural</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">-a</td>
+<td class="org-left">Nominative</td>
+<td class="org-left">Sevel-a</td>
+<td class="org-left">Sevel-aia</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Dative</td>
+<td class="org-left">Sevel-an</td>
+<td class="org-left">Sevel-ana</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Accusative</td>
+<td class="org-left">Sevel-ya<sup>1</sup></td>
+<td class="org-left">Sevel-yai<sup>1</sup></td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Locative</td>
+<td class="org-left">Sevel-im</td>
+<td class="org-left">Sevel-ima</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">-u</td>
+<td class="org-left">Nominative</td>
+<td class="org-left">Hasid-u</td>
+<td class="org-left">Hasid-eiu</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Dative</td>
+<td class="org-left">Hasid-un</td>
+<td class="org-left">Hasid-unu</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Accusative</td>
+<td class="org-left">Hasid-yu<sup>1</sup></td>
+<td class="org-left">Hasid-yui<sup>1</sup></td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Locative</td>
+<td class="org-left">Hasid-im</td>
+<td class="org-left">Hasid-imu</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">-i</td>
+<td class="org-left">Nominative</td>
+<td class="org-left">Hyal-i</td>
+<td class="org-left">Hyal-iyi</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Dative</td>
+<td class="org-left">Hyal-in</td>
+<td class="org-left">Hyal-eni</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Accusative</td>
+<td class="org-left">Hyal-yi<sup>1</sup></td>
+<td class="org-left">Hyal-yilli<sup>1</sup></td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Locative</td>
+<td class="org-left">Hyal-im</td>
+<td class="org-left">Hyal-imi</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Athematic</td>
+<td class="org-left">Nominative</td>
+<td class="org-left">Ivin</td>
+<td class="org-left">Ivin-eie</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Dative</td>
+<td class="org-left">Ivin-en</td>
+<td class="org-left">Ivin-ene</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Accusative</td>
+<td class="org-left">Ivin-ye<sup>1</sup></td>
+<td class="org-left">Ivin-yei<sup>1</sup></td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Locative</td>
+<td class="org-left">Ivin-im</td>
+<td class="org-left">Ivin-ime</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>
+ <sup>1</sup> Accusatives essentially involve palatalization, so with stems ending with
+an already palatal consonant, accusatives geminate.
+</p>
+
+<dl class="org-dl vocablist">
+<dt>-s</dt><dd>definiteness</dd>
+</dl>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">1 S</th>
+<th scope="col" class="org-left">1 P</th>
+<th scope="col" class="org-left">2 S</th>
+<th scope="col" class="org-left">2 P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Nominative</td>
+<td class="org-left">Va</td>
+<td class="org-left">Vaia</td>
+<td class="org-left">Ne</td>
+<td class="org-left">Neie</td>
+</tr>
+
+<tr>
+<td class="org-left">Possesive</td>
+<td class="org-left">Važ</td>
+<td class="org-left">Važa</td>
+<td class="org-left">Niž</td>
+<td class="org-left">Niže</td>
+</tr>
+
+<tr>
+<td class="org-left">Dative</td>
+<td class="org-left">Van</td>
+<td class="org-left">Vana</td>
+<td class="org-left">Nen</td>
+<td class="org-left">Nene</td>
+</tr>
+
+<tr>
+<td class="org-left">Accusative</td>
+<td class="org-left">Vya</td>
+<td class="org-left">Vyai</td>
+<td class="org-left">Nye</td>
+<td class="org-left">Nyei</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+To form reflexive pronouns, you add -en, however note the vowel interactions
+outlined here when adding the suffix:
+</p>
+
+<dl class="org-dl vocablist">
+<dt>-a-en</dt><dd>-ain</dd>
+<dt>-á-en</dt><dd>-án</dd>
+<dt>-e-en, -é-en</dt><dd>-én</dd>
+<dt>-i-en, -ĭ-en</dt><dd>-yen</dd>
+<dt>-o-en</dt><dd>-oin</dd>
+<dt>-ŏ-en</dt><dd>-en</dd>
+<dt>-u-en</dt><dd>-vuen</dd>
+<dt>-ŭ-en</dt><dd>-ŭin</dd>
+<dt>-C-en</dt><dd>-Cen</dd>
+</dl>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 2:</span> Verb conjugation (active)</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Present</th>
+<th scope="col" class="org-left">Simple Past</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">1 S</td>
+<td class="org-left">Izmen-á</td>
+<td class="org-left">Izmen-aŭ</td>
+</tr>
+
+<tr>
+<td class="org-left">2 S</td>
+<td class="org-left">Izmen-ŭ</td>
+<td class="org-left">Izmen-u</td>
+</tr>
+
+<tr>
+<td class="org-left">3 S</td>
+<td class="org-left">Izmen-é</td>
+<td class="org-left">Izmen-eu</td>
+</tr>
+
+<tr>
+<td class="org-left">1 Pl</td>
+<td class="org-left">Izmen-áie</td>
+<td class="org-left">Izmen-aiu</td>
+</tr>
+
+<tr>
+<td class="org-left">2 Pl</td>
+<td class="org-left">Izmen-ŭie</td>
+<td class="org-left">Izmen-uiu</td>
+</tr>
+
+<tr>
+<td class="org-left">3 Pl</td>
+<td class="org-left">Izmen-éie</td>
+<td class="org-left">Izmen-éiu</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+-an- goes between the root and ending for subjunctive mood
+</p>
+</div>
+</div>
+
+<footer id="outline-container-org7d54558" class="outline-2">
+<h2 id="org7d54558">Navigation</h2>
+<div class="outline-text-2" id="text-org7d54558">
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>1</strong></div>
+  </div>
+  <a href="02.html" id="next" rel="next">Next</a>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+</html>

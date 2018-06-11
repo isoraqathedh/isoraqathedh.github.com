@@ -1,0 +1,134 @@
+#+Title: Relay 11
+#+Date: 2018-06-04
+#+HTML_LINK_UP: ../index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+This is the summary document for relay 11.
+For a more detailed version of these torches,
+please click on a specific link to view the relay.
+
+* Mel -- Sevelian
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:01.html][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The sun, the light in your eyes, trapped me in a cage
+When you saw me you saw yourself
+We were the ones that marched and fell
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Sevelian</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Hvis, desevilas onana niž, vya kveu aitillim
+Klaundrim vya valanu, nyén valu
+Vaia šioneius aundra kantzanaiu má gayanaiu aiu
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
+
+* Sascha -- Tánpz
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:02.html][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+“The sun with its light trapped me in your eyes like in a cage.”
+“When you saw me, you saw yourself.”
+“Us two, we marched and fell.”
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Tánpz</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Tínni nvhùlz hàliyi námikz’ìn áti ź yùún.
+Yź áti niyá’ nvniyáya yź.
+Tź, páai’ nvfu’tz yútz.
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
+
+* Talla -- Laikan
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:03.html][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The sun trapped like a cage its light on to me from your eyes.
+Then you could see me seeing you.
+Me and you went and fell for each other.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Laikan</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Hwān lotśa śotśēwa okītsayeyaṃ myataonaïyarki.
+Təti myasustaïtū, sunnatsau.
+Ñatowa naronaāyaiwē.
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
+
+* Bbbourq -- Lortho
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:04a-CDN_Relay_11_Torch_Lortho_Script.pdf][Raw torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The sun light from your eyes captured me.
+Then you saw me, watching.
+Both of us were bound together.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Lortho</p></div>
+#+BEGIN_conlang-text
+[[file:04b-orth.png]]
+
+#+BEGIN_VERSE
+tinala thosa moshtharunau linkhunenat hunime.
+dasar kilikhanni hunime – kileinikhun mannime.
+bonikhar simalhiminan minanime.
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
+
+* Sparks --
+
+* Nankazz -- 
+
+* Kozet --
+
+* Mareck --
+
+* Place --
+
+* Andi --
+
+* Sincy -- 
+
+* Mel (2) --

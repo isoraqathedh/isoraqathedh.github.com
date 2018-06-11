@@ -1,0 +1,140 @@
+#+Title: Relay 11–4
+#+Date: 2018-06-04
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:04a-CDN_Relay_11_Torch_Lortho_Script.pdf][Raw torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The sun light from your eyes captured me.
+Then you saw me, watching.
+Both of us were bound together.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Lortho</p></div>
+#+BEGIN_conlang-text
+[[file:04b-orth.png]]
+
+#+BEGIN_VERSE
+tinala thosa moshtharunau linkhunenat hunime.
+dasar kilikhanni hunime – kileinikhun mannime.
+bonikhar simalhiminan minanime.
+#+END_VERSE
+#+END_conlang-text
+
+#+END_short-relay
+
+* Grammar
+A version of this grammar with the native orthography of the script 
+is [[file:04a-CDN_Relay_11_Torch_Lortho_Script.pdf][available]].
+
+** Orthography:
+
+Lortho's writing system is written left-to-right and each vowel attaches
+to the previous glyph, except for i. The orthography can be seen [[http://lortho.conlang.org/wiki/index.php?title=Orthography][here]].
+
+** Grammar:
+
+1. Lortho is SVO and agglutinating with some minor inflection. There are
+   ten cases which are explained [[http://lortho.conlang.org/wiki/index.php?title=Morphology#Grammatical_Case][here]].
+2. All nouns end in a vowel and are one of three genders: -i (masc), -u
+   (fem), and -a (neut). Adjectives precede the noun and agree with
+   gender only. Nouns are not pluralized when counted. Numerals also
+   come before the noun and do not take any affixes if they are cardinal
+   numbers modifying said noun.
+3. Pluralization: Neuter and feminine nouns will add the suffix -ne
+   before case suffixes. Masculine nouns will add the infix -en- before
+   the final -i; if the noun ends in -ni, the infix will be -em-
+
+   Examples:
+
+   - Masc Singular: toshani /dragon/, Plural: toshanemi /dragons/
+   - Masc Singular: khulaki /guardian/, Plural: khulakeni /guardians/
+   - Fem Singular: maru /sister/, Plural: marune /sisters/
+   - Neut Singular: dikha /thing/, Plural: dikhane /things/
+4. Possessive pronouns are prefixes added to the noun. The prefixes are:
+   | Number   | Masc    | Fem     | Neut    |
+   |----------+---------+---------+---------|
+   | 1S       | ni-     | nu-     | -       |
+   | 2S       | lin-    | lun-    | -       |
+   | 3S       | li-     | lu-     | la-     |
+   | 1P       | nima-   | numa-   | -       |
+   | 2P       | nani-   | nanu-   | -       |
+   | 3P       | limi-   | limu-   | lima-   |
+5. Adverbs end in -r and come before the word they modify; however, this
+   is not a rule
+6. All verbs are conjugated in gender and number and must agree with the
+   subject -- implied or implicit. There are three types of verbs: -n
+   verbs (the infinitive is also the stem), -o verbs (the verb stem is
+   found by removing the final -o), and -t verbs (the verb stem is found
+   by changing the final -t to -d).
+   - The present is formed by adding the personal endings to the
+     verb stem
+   - The past is formed by adding the suffix -ikh to the verb stem
+     before the personal endings
+   - The continuous is formed by adding the suffix -ein to the verb
+     stem before any other suffix
+   - The passive voice is made by adding the suffix -im to the verb
+     stem before any other suffix
+7. Action nominals (i.e. gerunds) are formed by adding the suffix -na to
+   the end of the infinitive of -o and -n verbs; the suffix -ina is
+   added to the infinitive of -t verbs. Action nominals are neuter by
+   default.
+8. Personal endings for verbs are as follows:
+   | Number | Masc  | Fem   | Neut |
+   |--------+-------+-------+------|
+   | 1S     | -in   | -un   | -    |
+   | 2S     | -anni | -annu | -    |
+   | 3S     | -i    | -u    | -a   |
+   | 1P     | -inan | -unan | -    |
+   | 2P     | -amin | -amun | -    |
+   | 3S     | -imi  | -imu  | -ima |
+
+* Lexicon:
+
+NOTES:
+-  Verb infinitives will be listed followed by the (verb stem-)
+-  Adjectives will be listed as its (root-)
+-  Nouns will be listed followed by its (gender)
+-  Punctuation: the . symbol is the end of a sentence and : denotes the
+   end of text. The - is a comma.
+
+#+ATTR_HTML: :class vocablist
+- tinalo, (tinal-) /(v.)/ :: to capture, seize
+- thosa /(n. neut)/ :: light
+- moshtaru /(n. fem)/ :: star, sun
+- khu /(n. fem)/ :: eye (anatomical)
+- dasar /(adv.)/ :: so, then, after
+- kilo, (kil-) /(v.)/ :: to see, watch
+- bonikhar /(adv.)/ :: together
+- simalho, (simalh-) /(v.)/ :: to tie, fasten, bind
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>4</strong></div>
+  </div>
+  <a href="03.html" id="prev" rel="prev">Previous</a>
+  <a href="05.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+

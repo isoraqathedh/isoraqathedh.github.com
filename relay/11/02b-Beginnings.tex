@@ -1,0 +1,95 @@
+%relay spoiler tag
+\ifx\red\undefined
+	\newcommand{\red}[1]{#1} %replace with #1 or [redacted] as appropriate
+\fi
+
+\section{Beginnings of \lang{} Grammar on the Basis of a Relay}
+In this document, first steps to developing a grammar of \lang{} will be made during the process of translating a conlangs relay\footnote{A game wherein people translate a text into their constructed language and send them onward together with documentation to be deciphered}. If you are the next in line in this relay, you will see a bunch of \emph{[redacted]} to hide spoilers such as the translation and gloss.
+
+\subsection{Text}
+\con{Tínni nvhùlz hàliyi námikz’ìn áti ź yùún. \\ Yź áti niyá’ nvniyáya yź. \\ Tź, páai’ nvfu’tz yútz.}
+\subsection{Translation and Gloss}
+\red{
+	\eenumsentence{	
+	
+		\item\ex{Tínni nvhùlz hàliyi námikz’ìn áti ź yùún.}
+		\shortex{7}
+		{tínni&nv-hàlz&hàli-yi&námi-kz’ì-n&áti&ź&yù-ú-n}
+		{sun&\gl{narr}-trap&cage-like&\gl{obl}-light-\gl{poss}&1.\gl{all}&2&\gl{all}-eye-\gl{poss}}
+		{\en{The sun with its light trapped me in your eyes like in a cage.}}
+		\label{r11-1a}
+		
+		\item\ex{Yź áti niyá’ nvniyáya yź.}
+		\shortex{7}
+		{yź&áti&niy-á’&nv-niyá\til{}ya&yź}
+		{2.\gl{abl}&1.\gl{all}&see-\gl{when}&\gl{narr}-see\til{}\gl{refl}&2.\gl{abl}}
+		{\en{When you saw me, you saw yourself.}}
+		\label{r11-1b}
+		
+		\item\ex{Tź, páai’ nvfu’tz yútz.}
+		\shortex{7}
+		{tź,&páai’&nv-fu’tz&yútz.}
+		{12,&march.\gl{cons}&\gl{narr}-fall&12.\gl{abl}}
+		{\en{Us two, we marched and fell.}}
+		\label{r11-1c}		
+	}
+}
+
+\subsection{Vocabulary}
+The vocabulary used in this text is:
+
+\begin{itemize}
+\item \con{fu’tz} \en{to fall}
+\item \con{hàli} \en{cage}
+\item \con{hàlz} \en{to trap}
+\item \con{kz’ì} \en{light}
+\item \con{niyá} \en{to see}
+\item \con{pái} \en{to march}
+\item \con{tínni} \en{sun}
+\item \con{ú} \en{eye}
+\end{itemize}
+
+\subsection{Syntax}
+The basic word order in \lang{} is topic-comment. The first constituent in a clause is the topic, followed by the verb, and then everything else. Topics can be omitted, in which case \lang{} appears verb-initial. However, a distinction must be made between main clauses, which act as described, and subordinate clauses, which are verb-final and end in a non-finite verb. Subordinate clauses do not have distinguished topic themselves, and are usually the topic of the main clause. To summarize, the most common sentence structures in \lang{}  look like:
+
+\begin{itemize}
+\item topic — verb — other
+\item{} [other — non-finite verb] verb — other
+\end{itemize}
+
+The \emph{other} field is filled with NPs and adverbs. The order here is as follows: adverbials generally immediately follow the verb, followed by NPs — first subject, then objects, and then other stuff.
+
+\subsection{Phonology}
+The umlaut phenomenon can be seen in this text, e.g. in \red{(\ref{r11-1a}), where \con{nv-hàlz} becomes \con{nvhùlz}}. This phenomenon turns /a/ into /i/ following /\s{}/ and to /u/ following /\f{}/. These sounds are spelled \orth{z v} respectively. Diacritics mark tone.
+
+\subsection{Morphology}
+Nouns take a case marking prefix. Topics are always unmarked for case (which is how they are distinguished from fronted foci, which do not feature in this text but might be a thing later on). The case prefixes in this text are:
+
+\begin{itemize}
+\item \con{a-} Allative
+\item \con{yù-} Ablative
+\item \con{námi-} Oblique
+\end{itemize}
+
+These cases will require a bit more explanation. The allative is generally used with recipients, objects and other things acted towards or upon; the ablative is used with origins, actors and other things acted from. The oblique is restricted to non-human nouns and indicates that the noun is additional information such as an instrument, location or a thing given. Human nouns and pronouns are always either allative or ablative.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{llll}
+   & plain & \gl{all} & \gl{abl} \\
+1  & tí     & áti      & yúti     \\
+12 & tź       & átz      & yútz     \\
+2  & ź        & á’z      & yź      
+\end{tabular}
+\caption{Pronouns}
+\end{table}
+
+The 12 row here refers to inclusive pronouns, that is “me and you”. Pronouns, like nouns, are not directly inflected for number.
+
+If a noun is possessed, the suffix \con{-(a)n} is added and, optionally, the possessor juxtaposed immediately before the noun. This is seen in \red{(\ref{r11-1a}): \con{ź yùún} \en{your eyes}}.
+
+Finite verbs are marked for tense with a prefix, in this text only the marker \con{nv-} for the \emph{narrative} tense is used, which marks a sentence as being part of a recounted story, rather than something happening with relevance to the present or future. Additionally they can take suffixes further specifiying the role of the topic, but this does not occur in the text. Reduplication of the last syllable of the verb stem (without tone) is used to mark a verb as reflexive.
+
+There are two converb constructions in this text. The first, \gl{when}, indicates that the action in the main clauses happened at the same time as the converb clause, with a causal connection. It is formed by appending \con{-a’} to the verb stem, eliding final vowels (but keeping tone intact). This can be seen in \red{(\ref{r11-1b})}. The second, \gl{cons}, indicates that the main clause happened as a consequence of the converb clause. It is marked by doubling the stressed (first) vowel, and, if the verb ends in a vowel, checking the last syllable with \con{’}. An example of this is found in \red{(\ref{r11-1c})}.
+
+The suffix \con{-yi} is used to convert a word into an adverb meaning as much as \en{like X}.

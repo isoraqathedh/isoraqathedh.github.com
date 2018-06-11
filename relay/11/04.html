@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-06-06 Wed 23:53 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Relay 11–4</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="../../global/Default.css"/>
+<link rel="stylesheet" href="../../global/org.css"/>
+<link rel="stylesheet" href="../relay.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="preamble" class="status">
+<header>
+<h1 id="Title">Relay 11–4<br/></h1>
+<h3 class="date">2018-06-04 (last exported 2018-06-06 Wed 23:53)</h3>
+</header>
+</div>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org004ffb5">1. Translation</a></li>
+<li><a href="#org5beabd2">2. Grammar</a>
+<ul>
+<li><a href="#orgce776de">2.1. Orthography:</a></li>
+<li><a href="#org95a4959">2.2. Grammar:</a></li>
+</ul>
+</li>
+<li><a href="#orgf88e3e6">3. Lexicon:</a></li>
+<li><a href="#orged098dd">Navigation</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org004ffb5" class="outline-2">
+<h2 id="org004ffb5"><span class="section-number-2">1</span> Translation</h2>
+<div class="outline-text-2" id="text-1">
+<div class="short-relay">
+<div class="detail-link">
+<p>
+<a href="04a-CDN_Relay_11_Torch_Lortho_Script.pdf">Raw torch</a>
+</p>
+
+</div>
+
+<div class="natlang-name"><p>English</p></div>
+<div class="natlang-text">
+<p class="verse">
+The sun light from your eyes captured me.<br />
+Then you saw me, watching.<br />
+Both of us were bound together.<br />
+</p>
+
+</div>
+
+<div class="conlang-name"><p>Lortho</p></div>
+<div class="conlang-text">
+
+<div class="figure">
+<p><img src="04b-orth.png" alt="04b-orth.png" />
+</p>
+</div>
+
+<p class="verse">
+tinala thosa moshtharunau linkhunenat hunime.<br />
+dasar kilikhanni hunime – kileinikhun mannime.<br />
+bonikhar simalhiminan minanime.<br />
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5beabd2" class="outline-2">
+<h2 id="org5beabd2"><span class="section-number-2">2</span> Grammar</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+A version of this grammar with the native orthography of the script 
+is <a href="04a-CDN_Relay_11_Torch_Lortho_Script.pdf">available</a>.
+</p>
+</div>
+
+<div id="outline-container-orgce776de" class="outline-3">
+<h3 id="orgce776de"><span class="section-number-3">2.1</span> Orthography:</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Lortho&rsquo;s writing system is written left-to-right and each vowel attaches
+to the previous glyph, except for i. The orthography can be seen <a href="http://lortho.conlang.org/wiki/index.php?title=Orthography">here</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org95a4959" class="outline-3">
+<h3 id="org95a4959"><span class="section-number-3">2.2</span> Grammar:</h3>
+<div class="outline-text-3" id="text-2-2">
+<ol class="org-ol">
+<li>Lortho is SVO and agglutinating with some minor inflection. There are
+ten cases which are explained <a href="http://lortho.conlang.org/wiki/index.php?title=Morphology#Grammatical_Case">here</a>.</li>
+<li>All nouns end in a vowel and are one of three genders: -i (masc), -u
+(fem), and -a (neut). Adjectives precede the noun and agree with
+gender only. Nouns are not pluralized when counted. Numerals also
+come before the noun and do not take any affixes if they are cardinal
+numbers modifying said noun.</li>
+<li><p>
+Pluralization: Neuter and feminine nouns will add the suffix -ne
+before case suffixes. Masculine nouns will add the infix -en- before
+the final -i; if the noun ends in -ni, the infix will be -em-
+</p>
+
+<p>
+Examples:
+</p>
+
+<ul class="org-ul">
+<li>Masc Singular: toshani <i>dragon</i>, Plural: toshanemi <i>dragons</i></li>
+<li>Masc Singular: khulaki <i>guardian</i>, Plural: khulakeni <i>guardians</i></li>
+<li>Fem Singular: maru <i>sister</i>, Plural: marune <i>sisters</i></li>
+<li>Neut Singular: dikha <i>thing</i>, Plural: dikhane <i>things</i></li>
+</ul></li>
+<li><p>
+Possessive pronouns are prefixes added to the noun. The prefixes are:
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Number</th>
+<th scope="col" class="org-left">Masc</th>
+<th scope="col" class="org-left">Fem</th>
+<th scope="col" class="org-left">Neut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">1S</td>
+<td class="org-left">ni-</td>
+<td class="org-left">nu-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">2S</td>
+<td class="org-left">lin-</td>
+<td class="org-left">lun-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">3S</td>
+<td class="org-left">li-</td>
+<td class="org-left">lu-</td>
+<td class="org-left">la-</td>
+</tr>
+
+<tr>
+<td class="org-left">1P</td>
+<td class="org-left">nima-</td>
+<td class="org-left">numa-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">2P</td>
+<td class="org-left">nani-</td>
+<td class="org-left">nanu-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">3P</td>
+<td class="org-left">limi-</td>
+<td class="org-left">limu-</td>
+<td class="org-left">lima-</td>
+</tr>
+</tbody>
+</table></li>
+<li>Adverbs end in -r and come before the word they modify; however, this
+is not a rule</li>
+<li>All verbs are conjugated in gender and number and must agree with the
+subject &#x2013; implied or implicit. There are three types of verbs: -n
+verbs (the infinitive is also the stem), -o verbs (the verb stem is
+found by removing the final -o), and -t verbs (the verb stem is found
+by changing the final -t to -d).
+<ul class="org-ul">
+<li>The present is formed by adding the personal endings to the
+verb stem</li>
+<li>The past is formed by adding the suffix -ikh to the verb stem
+before the personal endings</li>
+<li>The continuous is formed by adding the suffix -ein to the verb
+stem before any other suffix</li>
+<li>The passive voice is made by adding the suffix -im to the verb
+stem before any other suffix</li>
+</ul></li>
+<li>Action nominals (i.e. gerunds) are formed by adding the suffix -na to
+the end of the infinitive of -o and -n verbs; the suffix -ina is
+added to the infinitive of -t verbs. Action nominals are neuter by
+default.</li>
+<li><p>
+Personal endings for verbs are as follows:
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Number</th>
+<th scope="col" class="org-left">Masc</th>
+<th scope="col" class="org-left">Fem</th>
+<th scope="col" class="org-left">Neut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">1S</td>
+<td class="org-left">-in</td>
+<td class="org-left">-un</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">2S</td>
+<td class="org-left">-anni</td>
+<td class="org-left">-annu</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">3S</td>
+<td class="org-left">-i</td>
+<td class="org-left">-u</td>
+<td class="org-left">-a</td>
+</tr>
+
+<tr>
+<td class="org-left">1P</td>
+<td class="org-left">-inan</td>
+<td class="org-left">-unan</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">2P</td>
+<td class="org-left">-amin</td>
+<td class="org-left">-amun</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">3S</td>
+<td class="org-left">-imi</td>
+<td class="org-left">-imu</td>
+<td class="org-left">-ima</td>
+</tr>
+</tbody>
+</table></li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf88e3e6" class="outline-2">
+<h2 id="orgf88e3e6"><span class="section-number-2">3</span> Lexicon:</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+NOTES:
+</p>
+<ul class="org-ul">
+<li>Verb infinitives will be listed followed by the (verb stem-)</li>
+<li>Adjectives will be listed as its (root-)</li>
+<li>Nouns will be listed followed by its (gender)</li>
+<li>Punctuation: the . symbol is the end of a sentence and : denotes the
+end of text. The - is a comma.</li>
+</ul>
+
+<dl class="org-dl vocablist">
+<dt>tinalo, (tinal-) <i>(v.)</i></dt><dd>to capture, seize</dd>
+<dt>thosa <i>(n. neut)</i></dt><dd>light</dd>
+<dt>moshtaru <i>(n. fem)</i></dt><dd>star, sun</dd>
+<dt>khu <i>(n. fem)</i></dt><dd>eye (anatomical)</dd>
+<dt>dasar <i>(adv.)</i></dt><dd>so, then, after</dd>
+<dt>kilo, (kil-) <i>(v.)</i></dt><dd>to see, watch</dd>
+<dt>bonikhar <i>(adv.)</i></dt><dd>together</dd>
+<dt>simalho, (simalh-) <i>(v.)</i></dt><dd>to tie, fasten, bind</dd>
+</dl>
+</div>
+</div>
+
+<footer id="outline-container-orged098dd" class="outline-2">
+<h2 id="orged098dd">Navigation</h2>
+<div class="outline-text-2" id="text-orged098dd">
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>4</strong></div>
+  </div>
+  <a href="03.html" id="prev" rel="prev">Previous</a>
+  <a href="05.html" id="next" rel="next">Next</a>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+</html>
