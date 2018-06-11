@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-06-03 Sun 17:21 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Name Breaking</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="../global/Default.css"/>
+<link rel="stylesheet" href="../global/org.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="../"> HOME </a>
+</div><div id="preamble" class="status">
+<header>
+<h1 id="Title">Name Breaking<br/></h1>
+<h3 class="date">2018-05-16 (last exported 2018-06-03 Sun 17:21)</h3>
+</header>
+</div>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org46e5642">1. The idea of name breaking</a></li>
+<li><a href="#orgfb81585">2. Name breaking vs The Hide Taboo</a></li>
+<li><a href="#org79493fb">3. How to break a name</a></li>
+<li><a href="#orgf57c4ca">4. Details of name breaking</a>
+<ul>
+<li><a href="#orgc5171b4">4.1. When to mung the name</a></li>
+<li><a href="#org8e01f48">4.2. What to mung it to</a></li>
+<li><a href="#orge7611cb">4.3. The consequence of not munging the name</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+<b>Name breaking</b> or sometimes <b>name burning</b>
+(syee mingr – 셔·밍, – 燒名 – c&rsquo;preqaŋ – ч&rsquo;преӄаң)
+is a particular way of modifying names and identifying strings
+that is prevalent in the language of g&rsquo;Mòdyfäjq,
+to the point where it is in fact a part of the name of the language.
+</p>
+
+<div id="outline-container-org46e5642" class="outline-2">
+<h2 id="org46e5642"><span class="section-number-2">1</span> The idea of name breaking</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+What started as a gross misunderstanding of copyright and trademark law
+eventually and somewhat inexplicably grew into this taboo
+that names are considered &ldquo;copyrighted&rdquo; –
+that there are some names that simply cannot be uttered
+lest the &ldquo;lawyers&rdquo; get sicced on you.
+In reality of course no lawyers are out to get you 
+if you say a name in the wrong context, 
+but the rest of society would happily oblige in the meantime.
+</p>
+
+<p>
+For you see, some names carry an immense power. 
+This is the power of Trademark, 
+and violating the Trademark is a grave taboo.
+Gaining the powers of a Trademark means that
+the name is protected from improper use,
+especially when referencing it in a context that it may have some relevancy in.
+This, of course, includes mentioning the name
+when referring to the object, which is where this &ldquo;misunderstanding&rdquo; starts.
+In the end, this snowballed into the concept you see today,
+where names of various things are completely 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfb81585" class="outline-2">
+<h2 id="orgfb81585"><span class="section-number-2">2</span> Name breaking vs The Hide Taboo</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Name breaking is similar to but very distinct from the hide taboo
+as seen in the Jesdic Pasaru.
+Both of them involve altering names to conform to some arbitrary name standard,
+but there are both similarities and differences.
+Indeed, the best way to describe some qualities of both
+is to compare and contrast them,
+and so we&rsquo;ll see how the 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org79493fb" class="outline-2">
+<h2 id="org79493fb"><span class="section-number-2">3</span> How to break a name</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+The best way to understand this is by example. Say you, somewhere else in the
+Anglosphere, made a game about Robin Hood called &ldquo;Arrows of Justice II&rdquo; (there
+was an Arrows of Justice I but it wasn&rsquo;t related to Robin Hood). Translated
+literally, the name would be &ldquo;Arəw ə&rsquo;Zascistwo&rdquo;, but this is where all the name
+taboos start kicking in.
+</p>
+
+<p>
+You see, &ldquo;Arəw ə&rsquo;Zascistwo&rdquo; is now considered to be a &ldquo;trademarked name&rdquo; (it is
+also a trademark, but that has nothing to do with it; think of it as &rsquo;sacred&rsquo; or
+&rsquo;taboo&rsquo; and you&rsquo;d be about right) and because of this it is a societal
+imperative not to ever refer to the game as such, not even in promotional
+material! (It could sometimes, in e.g. GOTY editions of the game, appear as such
+on the actual cover of the game, but even then it&rsquo;s kind of spotty). Instead,
+one must break the name: turn it into a name that would make it sound like a
+bootleg of itself. What it breaks into is ultimately dependent on which circle
+of friends you are in, but a few examples are &ldquo;Qlowscaqtaərəqtwo&rdquo;
+[law-stand-&rsquo;arrow&rsquo; II], &ldquo;7aəreaq ə&rsquo;Oàrtþər ð&rsquo;Grot two&rdquo; [&rsquo;arrow&rsquo; of the great
+&rsquo;Order&rsquo; II] and &ldquo;Kzàstiəst ð&rsquo;Karovarotwo&rdquo; [&rsquo;Justice&rsquo; the &rsquo;arrow-narrow&rsquo; II]. [In
+these glosses, words in &rsquo;single quotes&rsquo; have been altered internally in a way
+that won&rsquo;t show up in any English back-translation.]
+</p>
+
+<p>
+The same goes for the Robin Hood in the game, and this is also where the taboo
+gains a practical side: the original Robin Hood, which is a historical story
+with no particular author in recent history, gets it relatively light as his
+name is now &ldquo;Qrobyq Qut&rdquo;, but the object in the game would get a more
+elaborately broken name, which in this case might be &ldquo;Ħqropbvyq Quərdð&rdquo; or
+similar. Again, the taboo on &ldquo;Ħqropbvyq Quərdð&rdquo; would also apply, and the name
+would be broken again if it is to be referred to outside of the game as this new
+breaking is also &rsquo;trademarked&rsquo;. Three objects, all named &ldquo;Bastion&rdquo; in English
+(and so &ldquo;Bäscəq&rdquo; in the &ldquo;trademarked&rdquo; translation and using it as a common noun
+meaning bulwark), can be broken in three ways to make them all distinct –
+&ldquo;Baazəq&rdquo;, &ldquo;Bwasztþjaŋ&rdquo; and &ldquo;Bveəsdaq&rdquo;.
+</p>
+
+<p>
+If all that is a little bit over your head, an easy way to explain it is this:
+imagine you&rsquo;re in a TV show of some description, and every branded object that
+you see is not quite what someone on the other side of the TV screen might
+see. That&rsquo;s what this &ldquo;name breaking&rdquo; business looks like.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf57c4ca" class="outline-2">
+<h2 id="orgf57c4ca"><span class="section-number-2">4</span> Details of name breaking</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgc5171b4" class="outline-3">
+<h3 id="orgc5171b4"><span class="section-number-3">4.1</span> When to mung the name</h3>
+</div>
+
+<div id="outline-container-org8e01f48" class="outline-3">
+<h3 id="org8e01f48"><span class="section-number-3">4.2</span> What to mung it to</h3>
+</div>
+
+<div id="outline-container-orge7611cb" class="outline-3">
+<h3 id="orge7611cb"><span class="section-number-3">4.3</span> The consequence of not munging the name</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+Not breaking a name
+</p>
+
+<p>
+Hiding a name takes away the power behind the name.
+</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

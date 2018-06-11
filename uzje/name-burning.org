@@ -1,0 +1,92 @@
+#+Title: Name Breaking
+#+Date: 2018-05-16
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../global/org.css"/>
+#+OPTIONS: title:nil
+
+*Name breaking* or sometimes *name burning*
+(syee mingr – 셔·밍, – 燒名 – c'preqaŋ – ч'преӄаң)
+is a particular way of modifying names and identifying strings
+that is prevalent in the language of g'Mòdyfäjq,
+to the point where it is in fact a part of the name of the language.
+
+* The idea of name breaking
+What started as a gross misunderstanding of copyright and trademark law
+eventually and somewhat inexplicably grew into this taboo
+that names are considered "copyrighted" –
+that there are some names that simply cannot be uttered
+lest the "lawyers" get sicced on you.
+In reality of course no lawyers are out to get you 
+if you say a name in the wrong context, 
+but the rest of society would happily oblige in the meantime.
+
+For you see, some names carry an immense power. 
+This is the power of Trademark, 
+and violating the Trademark is a grave taboo.
+Gaining the powers of a Trademark means that
+the name is protected from improper use,
+especially when referencing it in a context that it may have some relevancy in.
+This, of course, includes mentioning the name
+when referring to the object, which is where this "misunderstanding" starts.
+In the end, this snowballed into the concept you see today,
+where names of various things are completely 
+
+* Name breaking vs The Hide Taboo
+Name breaking is similar to but very distinct from the hide taboo
+as seen in the Jesdic Pasaru.
+Both of them involve altering names to conform to some arbitrary name standard,
+but there are both similarities and differences.
+Indeed, the best way to describe some qualities of both
+is to compare and contrast them,
+and so we'll see how the 
+
+* How to break a name
+The best way to understand this is by example. Say you, somewhere else in the
+Anglosphere, made a game about Robin Hood called "Arrows of Justice II" (there
+was an Arrows of Justice I but it wasn't related to Robin Hood). Translated
+literally, the name would be "Arəw ə'Zascistwo", but this is where all the name
+taboos start kicking in.
+
+You see, "Arəw ə'Zascistwo" is now considered to be a "trademarked name" (it is
+also a trademark, but that has nothing to do with it; think of it as 'sacred' or
+'taboo' and you'd be about right) and because of this it is a societal
+imperative not to ever refer to the game as such, not even in promotional
+material! (It could sometimes, in e.g. GOTY editions of the game, appear as such
+on the actual cover of the game, but even then it's kind of spotty). Instead,
+one must break the name: turn it into a name that would make it sound like a
+bootleg of itself. What it breaks into is ultimately dependent on which circle
+of friends you are in, but a few examples are "Qlowscaqtaərəqtwo"
+[law-stand-'arrow' II], "7aəreaq ə'Oàrtþər ð'Grot two" ['arrow' of the great
+'Order' II] and "Kzàstiəst ð'Karovarotwo" ['Justice' the 'arrow-narrow' II]. [In
+these glosses, words in 'single quotes' have been altered internally in a way
+that won't show up in any English back-translation.]
+
+The same goes for the Robin Hood in the game, and this is also where the taboo
+gains a practical side: the original Robin Hood, which is a historical story
+with no particular author in recent history, gets it relatively light as his
+name is now "Qrobyq Qut", but the object in the game would get a more
+elaborately broken name, which in this case might be "Ħqropbvyq Quərdð" or
+similar. Again, the taboo on "Ħqropbvyq Quərdð" would also apply, and the name
+would be broken again if it is to be referred to outside of the game as this new
+breaking is also 'trademarked'. Three objects, all named "Bastion" in English
+(and so "Bäscəq" in the "trademarked" translation and using it as a common noun
+meaning bulwark), can be broken in three ways to make them all distinct –
+"Baazəq", "Bwasztþjaŋ" and "Bveəsdaq".
+
+If all that is a little bit over your head, an easy way to explain it is this:
+imagine you're in a TV show of some description, and every branded object that
+you see is not quite what someone on the other side of the TV screen might
+see. That's what this "name breaking" business looks like.
+
+* Details of name breaking
+
+** When to mung the name
+
+** What to mung it to
+
+** The consequence of not munging the name
+Not breaking a name
+
+Hiding a name takes away the power behind the name.
