@@ -1,0 +1,27 @@
+img#main-image {
+    max-width:90%;
+    margin: 1em auto;
+}
+
+nav#Navigation {
+    background-color: #FFC800;
+    padding: 1em;
+    display: grid;
+}
+
+nav#Navigation h1 {
+    padding:0;
+    border:0;
+    font-size:100%;
+}
+
+nav#Navigation a {
+    display:inline-block;
+    border: 1px solid #AF2303;
+    padding: 0.2em 1em;
+    color:white;
+}
+
+nav#Navigation div {
+    display:inline-block;
+}
