@@ -39,8 +39,67 @@ as seen in the Jesdic Pasaru.
 Both of them involve altering names to conform to some arbitrary name standard,
 but there are both similarities and differences.
 Indeed, the best way to describe some qualities of both
-is to compare and contrast them,
-and so we'll see how the 
+is to compare and contrast them, and so we'll see how they work out.
+
+** What is actually done
+When breaking a name, the name is altered at the time of production.
+This means that every time the name is pronounced or written down,
+regardless of context, what comes out is the broken version of the name.
+It is like a society-enforced, omnipresent word filter
+with a particularly interesting set of resulting words.
+
+Hiding a name from an object is *strictly*
+altering an object in such a way that its name is no longer visible.
+In its position is usually some kind of generic word,
+or a plain box without description whatsoever.
+In principle, the name must be originally there,
+but in practise this part of the tradition is not closely followed.
+
+** What it is done to
+Name breaking targets the name in all forms, concrete and abstract.
+This basically means that every time there is a name it would have to be broken.
+
+Meanwhile the hide taboo is specifically targeted towards objects,
+particularly packaging material and other documents with the name of the object
+prominently displayed on its surface.
+It does not usually apply to the spoken word,
+where the name is allowed to be emitted unhindered and unaltered.
+
+In both cases the name of the object 
+is for the most part genuinely the name of an /inanimate/ object;
+those who are considered "people" or "citizens" or more generally
+sentient beings of any sort that live in the "real world"
+aren't and shouldn't be subjected to either taboo.
+Breaking or hiding a name belonging to a real person is itself a taboo,
+but for different reasons:
+in name breaking, you don't do this 
+because it implies that the name is protected by Trademark,
+which implies ownership of the name (and therefore its owner)
+by a Large Corporation, which is considered insulting;
+in contrast, you don't do the hide taboo on "real names"
+because, simply, alternatives have sprung up in that area
+and for whatever reason those have been judged as superior to the hide taboo.
+
+** Why it is done
+In this respect both traditions are very similar:
+one breaks or hides a name,
+because one wants to obscure the object's relationship 
+with the "real deal", as it were.
+Even if the object has no "real deal", or is entirely fictional,
+they are usually actual being that could in principle be irritated
+at an improper or unsanctioned use of the name.
+
+It's also very similar to other naming taboos common on Earth,
+although in those traditions the elaborate phonetic alterations do not happen.
+Speaking generally, and not in reference to any single existing such,
+naming taboos generally affect exactly the names that these two /don't/:
+those of living persons /in real life/, and usually those that are dead.
+Nevertheless, the idea remains the same: by not saying the name "properly",
+one avoids attracting unwanted and potentially harmful attention
+from powers whose existence remains unsubstantiated at best.
+
+(Separately, however, there are taboos against naming the dead in both planets,
+but this is not related to the topic at hand here.)
 
 * How to break a name
 The best way to understand this is by example. Say you, somewhere else in the
@@ -83,8 +142,34 @@ see. That's what this "name breaking" business looks like.
 * Details of name breaking
 
 ** When to mung the name
+As previously mentioned, the important part of the name munging process
+is to use phonetic principles
 
-** What to mung it to
+** What to mung it to and established methods
+There is no single correct way to mung any single name;
+this fact is exploited to allow for disambiguation to happen,
+as we have mentioned above.
+Broadly, breaking names should primarily use the techniques of
+phonetic alteration, synonym substitution, or Third Language Round Trip.
+
+- Phonetic alteration ::
+     This is a set of rules that allow one phoneme of a word
+     to morph into another,
+     possibly with a few other ones coming together for the ride.
+     This basically changes the meaning of the word into something else
+     (usually into a meaningless sequence of phonemes)
+     while keeping the pronunciation similar or the same.
+     
+     The mechanisms behind phonetic alteration are mystical and unpredictable,
+     and are best understood under the Random-Random-Random system:
+     a *random* number of rules are selected in a *random* order
+     out of a pool of available rules,
+     with a *random* chance of success of application of each one.
+     This is very different from most language change rules,
+     which have a fixed number of rules, all applied in the correct order.
+- Synonym substitution :: 
+     Whereas 
+ (translating the name into a third language, then bringing it back to g'Mòdyfäjq).
 
 ** The consequence of not munging the name
 Not breaking a name
