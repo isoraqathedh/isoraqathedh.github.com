@@ -18,12 +18,12 @@ eventually and somewhat inexplicably grew into this taboo
 that names are considered "copyrighted" –
 that there are some names that simply cannot be uttered
 lest the "lawyers" get sicced on you.
-In reality of course no lawyers are out to get you 
-if you say a name in the wrong context, 
+In reality of course no lawyers are out to get you
+if you say a name in the wrong context,
 but the rest of society would happily oblige in the meantime.
 
-For you see, some names carry an immense power. 
-This is the power of Trademark, 
+For you see, some names carry an immense power.
+This is the power of Trademark,
 and violating the Trademark is a grave taboo.
 Gaining the powers of a Trademark means that
 the name is protected from improper use,
@@ -31,7 +31,7 @@ especially when referencing it in a context that it may have some relevancy in.
 This, of course, includes mentioning the name
 when referring to the object, which is where this "misunderstanding" starts.
 In the end, this snowballed into the concept you see today,
-where names of various things are completely 
+where names of various things are completely
 
 * Name breaking vs The Hide Taboo
 Name breaking is similar to but very distinct from the hide taboo
@@ -65,14 +65,14 @@ prominently displayed on its surface.
 It does not usually apply to the spoken word,
 where the name is allowed to be emitted unhindered and unaltered.
 
-In both cases the name of the object 
+In both cases the name of the object
 is for the most part genuinely the name of an /inanimate/ object;
 those who are considered "people" or "citizens" or more generally
 sentient beings of any sort that live in the "real world"
 aren't and shouldn't be subjected to either taboo.
 Breaking or hiding a name belonging to a real person is itself a taboo,
 but for different reasons:
-in name breaking, you don't do this 
+in name breaking, you don't do this
 because it implies that the name is protected by Trademark,
 which implies ownership of the name (and therefore its owner)
 by a Large Corporation, which is considered insulting;
@@ -83,7 +83,7 @@ and for whatever reason those have been judged as superior to the hide taboo.
 ** Why it is done
 In this respect both traditions are very similar:
 one breaks or hides a name,
-because one wants to obscure the object's relationship 
+because one wants to obscure the object's relationship
 with the "real deal", as it were.
 Even if the object has no "real deal", or is entirely fictional,
 they are usually actual being that could in principle be irritated
@@ -143,7 +143,31 @@ see. That's what this "name breaking" business looks like.
 
 ** When to mung the name
 As previously mentioned, the important part of the name munging process
-is to use phonetic principles
+is that it must be done everywhere, all the time that the name has been emitted.
+Indeed, the easiest way to figure out when to break a name
+is when /not/ to break a name, so we'll enumerate some common exceptions here.
+
+- When the object is considered "golden" or "at its peak"
+  or otherwise exemplary in an externally validated manner,
+  it is allowed for the owners of the name to produce in limited number
+  the actual name of the object (including non-English names)
+  in an "honourary edition" of some sort.
+  This honour cannot be bestowed by a committee or a government;
+  it is only given to by the unfocused, occasionally contradictory opinion
+  of society in general,
+  and because of this there is some manner of trepidation
+  in actually publishing any such edition in advance,
+  and this is by design.
+- Also as previously mentioned, some classes of names are never to be altered,
+  at least not using this mechanism.
+  This includes the names of all living, real life sentient objects,
+  as well as certain common nouns.
+- Fictional /non-unit/ objects may have an exception,
+  the more generic the higher probability that the exception goes through.
+  In particular, fictional numbers and other abstract systems
+  almost never get their names altered,
+  as it is possible to consider them outside the name of the fiction they live in.
+- Non-lexemes are typically not altered.
 
 ** What to mung it to and established methods
 There is no single correct way to mung any single name;
@@ -159,7 +183,7 @@ phonetic alteration, synonym substitution, or Third Language Round Trip.
      This basically changes the meaning of the word into something else
      (usually into a meaningless sequence of phonemes)
      while keeping the pronunciation similar or the same.
-     
+
      The mechanisms behind phonetic alteration are mystical and unpredictable,
      and are best understood under the Random-Random-Random system:
      a *random* number of rules are selected in a *random* order
@@ -167,11 +191,73 @@ phonetic alteration, synonym substitution, or Third Language Round Trip.
      with a *random* chance of success of application of each one.
      This is very different from most language change rules,
      which have a fixed number of rules, all applied in the correct order.
-- Synonym substitution :: 
-     Whereas 
- (translating the name into a third language, then bringing it back to g'Mòdyfäjq).
+- Synonym substitution ::
+     Whereas phonetic alteration is altering the meaning
+     while keeping pronunciations similar,
+     synonym substitution is altering the pronunciation radically
+     while keeping the meaning similar.
+     The idea is simple enough, so there's not much to say here;
+     you just change the word to a word with similar meaning,
+     perhaps with the same or similar phonetic alterations.
+- Third Language Round Trip ::
+     Since the alteration comes in the form of playing with language,
+     it's not surprising that other languages get thrown in for the ride.
+     Fortunately for g'Mòdyfäjq, there is a convenient other language
+     that can be used, and that is Man Qog Yuu.
+
+     So what do you do with this language?
+     There are two main ways, but they are actually just the same mechanism,
+     just operated in opposite directions.
+     The most important thing to do is that in one step,
+     you /calque/ the meaning to/from the target langauge,
+     and in the other, you borrow from/lend to the target language /phonetically/.
+     This means that there is a further obscuration of the names,
+     and frequently this results in none of the phonemes of the original name
+     surviving in any way, shape or form, which is highly aesthetic.
+
+These three methods are to be used, in any combination and in any order,
+any number of times.
+Indeed, they tend to be more /types/ of alteration
+than actual mechanisms, as they do not have any concrete methods
+of actually changing the name.
+
+Of course, name breaking is an art, not a science,
+and one is welcome to change or add to the three methods above.
+However, keep in mind that all the other taboos are also active --
+using things like sex or violence in the process
+would still be subject to the same taboos that any other context would.
 
 ** The consequence of not munging the name
-Not breaking a name
+Not breaking a name, of course, has no non-social consequences.
+The world will continue to spin on,
+regardless of whether or not
+you have created the right tiny variations in air pressure
+or arranged bits of ink in the right locations.
+What it does do is to lower the standing you have with your peers
+because you did not follow the rules regarding names.
 
-Hiding a name takes away the power behind the name.
+More specifically, when names are not broken when they are supposed to be,
+readers of the unaltered name tend to get very concerned
+over the prospect of having to put in a lot of care
+not to accidentally insult or misuse the object that bears the unburnt name,
+or to speak in hushed tones if the transgression is auditory.
+
+More seriously, the idea of munging names is also a key point
+in protecting the rights
+that allow for the creation of fan-fiction and other derivative works,
+which are both things that are highly valued in Ùzje society.
+Without breaking the names, one is susceptible to actual, /real/ lawyers
+breathing down your neck for misusing actual, /real/ trademarks.
+An argument of tradition,
+plus the fact that no two breakings end with the same result,
+results in (at least for the purposes of Ùzje law)
+a very tight defense for the creators of the derivative products.
+
+* Putting g'Mòdyfäjq in its place
+Ultimately while this does not really translate (if you will) into other
+languages, it is so well built into the idea of g'Mòdyfäjq (the language that
+all these funny broken names are in) that in some cases speakers tend to think
+of the unbroken g'Mòdyfäjq names as being the "true" names of objects and every
+broken name – and so every other translated name, including the original
+language that the object is named in – a reflection of the original object,
+boosting linguistic pride and keeping the language alive.
