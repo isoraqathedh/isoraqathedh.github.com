@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-06-25 Mon 17:44 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Relay 11–5</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="../../global/Default.css"/>
+<link rel="stylesheet" href="../../global/org.css"/>
+<link rel="stylesheet" href="../relay.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="preamble" class="status">
+<header>
+<h1 id="Title">Relay 11–5<br/></h1>
+<h3 class="date">2018-06-25 (last exported 2018-06-25 Mon 17:44)</h3>
+</header>
+</div>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgc9c4fa8">1. Translation</a></li>
+<li><a href="#org43ae223">2. Grammar</a>
+<ul>
+<li><a href="#orga16f8d3">2.1. General Sentence Structure</a></li>
+<li><a href="#org1b938c4">2.2. Parts of Speech</a></li>
+</ul>
+</li>
+<li><a href="#org2f44f68">3. Lexicon</a></li>
+<li><a href="#orgb6bac14">Navigation</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc9c4fa8" class="outline-2">
+<h2 id="orgc9c4fa8"><span class="section-number-2">1</span> Translation</h2>
+<div class="outline-text-2" id="text-1">
+<div class="full-relay">
+<div class="detail-link">
+<p>
+<a href="05b-Relay_11_Translation.pdf">Translation</a> · <a href="05a-Relay_11_Torch.pdf">Torch</a>
+</p>
+
+</div>
+
+<div class="natlang-name"><p>English</p></div>
+<div class="natlang-text">
+<p class="verse">
+As for the starlight from the eyes, you attain me.<br />
+You looked at me, then I watched you.<br />
+We are tied together.<br />
+</p>
+
+</div>
+
+<div class="conlang-name"><p>Enłalen</p></div>
+<div class="conlang-text">
+<p class="verse">
+φaθołon osiφa yano θemoyon-wa wo τai wan-ten am.<br />
+wan-wa oł θisa am κiπi i ilsil am-ten.<br />
+mo-wa wo olni ilπi.<br />
+</p>
+
+</div>
+
+<div class="ipa">
+<p class="verse">
+ˈphaθ̠ɒʟõn ˈoziɸa ˈjãno ˈthẽmɘjũˌnwa wu ˈtʼa.i ˈwãn̥ˌtẽn ãm<br />
+ˈwãˌnwa ɒʟ ˈthiza ãm ˈkʼipi i ˈil ̥sil ˈãn̥ˌtẽn<br />
+ˈmɒˌwa wu ˈolni ˈil ̥pʼi<br />
+</p>
+
+</div>
+
+<div class="gloss">
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">φaθo</div>
+    <div class="gloss">light</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">łon</div>
+    <div class="gloss grammar-keyword">nmz def spec</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">osiφa</div>
+    <div class="gloss">astron.body</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">yano</div>
+    <div class="gloss">from</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">θemo</div>
+    <div class="gloss">eyes</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">yon</div>
+    <div class="gloss grammar-keyword">nmz def nspec</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">=wa</div>
+    <div class="gloss grammar-keyword">top</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">wo</div>
+    <div class="gloss grammar-keyword">prs</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">τai</div>
+    <div class="gloss">acquire</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">wan</div>
+    <div class="gloss grammar-keyword">2sg</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">=ten</div>
+    <div class="gloss grammar-keyword">erg</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">am</div>
+    <div class="gloss grammar-keyword">1.excl</div>
+  </div>
+</div>
+
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">wan</div>
+    <div class="gloss grammar-keyword">2sg</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">-wa</div>
+    <div class="gloss grammar-keyword">top</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">oł</div>
+    <div class="gloss grammar-keyword">near pst</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">θisa</div>
+    <div class="gloss">look at</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">am</div>
+    <div class="gloss grammar-keyword">1 excl</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">κiπi</div>
+    <div class="gloss">subsequently</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">i</div>
+    <div class="gloss grammar-keyword">near fut</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">ilsil</div>
+    <div class="gloss">watch</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">am</div>
+    <div class="gloss grammar-keyword">1 excl</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">-ten</div>
+    <div class="gloss grammar-keyword">erg</div>
+  </div>
+</div>
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">mo</div>
+    <div class="gloss grammar-keyword">1 incl</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">-wa</div>
+    <div class="gloss grammar-keyword">top</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">wo</div>
+    <div class="gloss grammar-keyword">prs</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">olni</div>
+    <div class="gloss">together</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">ilπi</div>
+    <div class="gloss">tie</div>
+  </div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org43ae223" class="outline-2">
+<h2 id="org43ae223"><span class="section-number-2">2</span> Grammar</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orga16f8d3" class="outline-3">
+<h3 id="orga16f8d3"><span class="section-number-3">2.1</span> General Sentence Structure</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Enłalen word-order is generally VSO, but in most sentences there is a topic,
+fronted and followed by the clitic -wa. If the topic is the same as in the
+previous sentence, this may be omitted.
+</p>
+
+<p>
+The language is pretty strictly head-initial, so adjectives and adverbs (as well
+as adjectival and adverbial prepositional phrases) follow the nouns and verbs
+they modify, prepositions precede their objects, etc. The VP of an Enłalen
+sentence is headed by a tense particle, which marks a particular word as the
+verb. There are five tense particles in Enłalen:
+</p>
+
+<dl class="org-dl vocablist">
+<dt>wo</dt><dd>present tense</dd>
+<dt>oł</dt><dd>near past tense</dd>
+<dt>i </dt><dd>near future tense</dd>
+<dt>en</dt><dd>remote past tense</dd>
+<dt>ha</dt><dd>remote future tense</dd>
+</dl>
+
+<p>
+These are relative tenses, so they are evaluated relative to the tense of the
+preceding sentence/time-word context.
+</p>
+
+<p>
+In addition to word-order, arguments in Enłalen are marked by certain
+clitics. Which clitics are used depends on the apsectual structure of the
+sentence – in an imperfect or stative sentence, the object of a transitive verb
+is marked with the accusative clitic -no. In a perfective sentence, the subject
+of a transitive verb is marked with the ergative clitic -ten. Neither of these
+applies if the argument that would be marked has been topicalized or focused;
+the topic and focus clitics overrule all others.
+</p>
+
+<p>
+When it comes to conjunctions, coordinating conjunctions modify an entire
+sentence and are placed before the topic, while subordinating conjunctions
+only modify the sub-topic phrase and thus follow the topic, if any. Depending on
+context, the same conjunction can often serve as either.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1b938c4" class="outline-3">
+<h3 id="org1b938c4"><span class="section-number-3">2.2</span> Parts of Speech</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Enłalen does not distinguish between various parts of speech. Any word can
+hypothetically be used as a verb, a noun, an adjective, or an adverb. Many (but
+not all) of these can serve as conjunctions or prepositions (or both).
+</p>
+
+<p>
+Enłalen ‘nouns’ are set apart by nominalizing suffixes, which, in addition to
+making clear that they are nominal, also marks for definiteness and specificity.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Specific</th>
+<th scope="col" class="org-left">Non-Specific</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Definite</td>
+<td class="org-left">-łon</td>
+<td class="org-left">-yon</td>
+</tr>
+
+<tr>
+<td class="org-left">Indefinite</td>
+<td class="org-left">-so</td>
+<td class="org-left">-yo</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Definiteness refers to entities that are identifiable/given in a particular
+context, whereas specificity refers to entities that are unique in a particular
+context. The difference in the use of the definiteness/specificity suffxies can
+be seen in examples like the following:
+</p>
+
+<p>
+<a id="orga872338"></a>
+</p>
+<dl class="org-dl">
+<dt>Definite Specific</dt><dd>am-wa wo eniyen i mitilπi almołfiłon-ki <br />
+‘I plan to marry the ruler (a particular person who is the ruler).’</dd>
+<dt>Definite Non-Specific</dt><dd>am-wa wo eniyen i mitilπi almołfiyon-ki <br />
+‘I plan to marry the ruler (whoever that may be).’</dd>
+<dt>Indefinite Specific</dt><dd>am-wa wo eniyen i mitilπi almołfiso-ki <br />
+‘I plan to marry a ruler (a particular person who is one).’</dd>
+<dt>Indefinite Non-Specific</dt><dd>am-wa wo eniyen i mitilπi almołfiyo-ki <br />
+‘I plan to marry a ruler (any ruler).’</dd>
+</dl>
+
+<p>
+Enłalen has no grammatical number – number is only relevant for choosing 2nd and
+3rd person pronouns.
+</p>
+
+<p>
+When it comes to verbs, the ‘verb’ of a sentence may not always be the most
+verb-like lexical item. The word that follows the tense particle is always the
+‘main’ verb, and any verb-like words that follow are functioning as
+adverbials. Since there are few to no lexical restrictions on whether a word can
+serve as main verb, some interestingly subtle variants can occur depending on
+which word is chosen as main verb and which as adverbial:
+</p>
+
+<p>
+<a id="org4839b83"></a>
+</p>
+<ol class="org-ol">
+<li>am-wa wo aθaθa kioκal. <br />
+‘I suffer sadly.’</li>
+<li>am-wa wo kioκal aθaθa. <br />
+‘I am sad, sufferingly.’</li>
+</ol>
+
+<p>
+Unlike other words, pronouns are always pronouns and almost always function as
+nouns without any morphology.
+</p>
+
+<dl class="org-dl vocablist">
+<dt>am   </dt><dd>1st person exclusive</dd>
+<dt>mo   </dt><dd>1st person inclusive</dd>
+<dt>wan  </dt><dd>2nd person singular</dd>
+<dt>kan  </dt><dd>2nd person plural</dd>
+<dt>fił  </dt><dd>3rd person singular</dd>
+<dt>ołi  </dt><dd>3rd person plural</dd>
+<dt>oil  </dt><dd>generic</dd>
+<dt>oyen </dt><dd>reflexive (refers back to the topic)</dd>
+<dt>fiyen</dt><dd>reflexive (refers back to the subject)</dd>
+</dl>
+
+<p>
+Possession is indicated by placing the pronoun agreeing with the person of the
+possessor after the noun referring to the possessed object.  If the possessor is
+to be made explicit, a noun referring to the possessor is placed after the
+pronoun.
+</p>
+
+<ol class="org-ol">
+<li>nenθayon am <br />
+‘my parent’</li>
+<li>nenθayon fiłmayałon <br />
+‘Maya’s parent’</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2f44f68" class="outline-2">
+<h2 id="org2f44f68"><span class="section-number-2">3</span> Lexicon</h2>
+<div class="outline-text-2" id="text-3">
+<dl class="org-dl vocablist">
+<dt>φaθo  </dt><dd>bright, shine, shiny, light</dd>
+<dt>osiφa </dt><dd>heavenly body, emit light in the sky, sun, moon, star</dd>
+<dt>yano  </dt><dd>from, of, originate, hail from, be from</dd>
+<dt>θemo  </dt><dd>eyes, appear, seem, apparent</dd>
+<dt>τai   </dt><dd>take, acquire, get, capture, catch, come into keeping of</dd>
+<dt>θisa  </dt><dd>see, look at, look over, notice</dd>
+<dt>κiπi  </dt><dd>then, afterwards, subsequently</dd>
+<dt>ilsil </dt><dd>watch, listen, pay attention to, gaze</dd>
+<dt>olni  </dt><dd>together, with, along with, associate with</dd>
+<dt>ilπi  </dt><dd>tie, fasten, bind</dd>
+</dl>
+</div>
+</div>
+
+<footer id="outline-container-orgb6bac14" class="outline-2">
+<h2 id="orgb6bac14">Navigation</h2>
+<div class="outline-text-2" id="text-orgb6bac14">
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>5</strong></div>
+  </div>
+  <a href="04.html" id="prev" rel="prev">Previous</a>
+  <a href="06.html" id="next" rel="next">Next</a>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+</html>

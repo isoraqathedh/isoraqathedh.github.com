@@ -1,0 +1,152 @@
+#+Title: Relay 11–7
+#+Date: 2018-06-25
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[file:06a-torch.pdf][Raw torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The light shines from the eyes, and you get me.
+After you saw me, I will see you.
+We are one.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Ní:kwasikw</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Srinir ḟiduhta rḟato, bana kirnuhta.
+Bana kirnuhta htur bana kinaþa.
+Bana riþur.
+#+END_VERSE
+#+END_conlang-text
+
+#+BEGIN_gloss
+#+BEGIN_EXPORT html
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">Srinir</div>
+    <div class="gloss">eye</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">fid</div>
+    <div class="gloss">come from</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">uhta</div>
+    <div class="gloss grammar-keyword">inv</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">rfato</div>
+    <div class="gloss">light</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">bana</div>
+    <div class="gloss grammar-keyword">1sg</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">kirn</div>
+    <div class="gloss">rescue</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">uhta</div>
+    <div class="gloss grammar-keyword">inv</div>
+  </div>
+</div>
+
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">bana</div>
+    <div class="gloss grammar-keyword">1sg</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">kirn</div>
+    <div class="gloss">see</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">uhta</div>
+    <div class="gloss grammar-keyword">inv</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">htur</div>
+    <div class="gloss">after</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">bana</div>
+    <div class="gloss grammar-keyword">1sg</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">kin</div>
+    <div class="gloss">see</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">bana</div>
+    <div class="gloss grammar-keyword">1sg</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">kin</div>
+    <div class="gloss">see</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">aþa</div>
+    <div class="gloss grammar-keyword">prospective</div>
+  </div>
+  <div class="word-separator"></div>
+</div>
+
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">bana</div>
+    <div class="gloss grammar-keyword">1sg</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">riþur</div>
+    <div class="gloss">be together</div>
+  </div>
+</div>
+#+END_EXPORT 
+#+END_gloss
+#+END_full-relay
+
+In lieu of a tailored torch,
+the complete relay is given [[file:07c-9.pdf][in PDF format]].
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>7</strong></div>
+  </div>
+  <a href="06.html" id="prev" rel="prev">Previous</a>
+  <a href="08.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+
+

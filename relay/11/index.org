@@ -92,7 +92,7 @@ Təti myasustaïtū, sunnatsau.
 * Bbbourq -- Lortho
 #+BEGIN_short-relay
 #+BEGIN_detail-link
-[[file:04a-CDN_Relay_11_Torch_Lortho_Script.pdf][Raw torch]]
+[[file:04.html][Full torch]]
 #+END_detail-link
 
 #+HTML: <div class="natlang-name"><p>English</p></div>
@@ -117,7 +117,30 @@ bonikhar simalhiminan minanime.
 
 #+END_short-relay
 
-* Sparks --
+* Sparks -- Enłalen
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:05.html][Full torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+As for the starlight from the eyes, you attain me.
+You looked at me, then I watched you.
+We are tied together.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Enłalen</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+φaθołon osiφa yano θemoyon-wa wo τai wan-ten am.
+wan-wa oł θisa am κiπi i ilsil am-ten.
+mo-wa wo olni ilπi.
+#+END_VERSE
+#+END_conlang-text
+#+END_short-relay
 
 * Nankazz -- 
 

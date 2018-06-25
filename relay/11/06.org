@@ -1,0 +1,95 @@
+#+Title: Relay 11–6
+#+Date: 2018-06-25
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[file:06a-torch.pdf][Raw torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The light shines from the eyes; you get me.
+You saw me, I will see you later.
+We are one.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Ní:kwasikw</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Kúnitsi á:sariksanen kúnini, mákiskwasi.
+Á:sarkwasikw, siknat á:sarsikwas.
+Ò:sirsik.
+#+END_VERSE
+#+END_conlang-text
+
+#+BEGIN_ipa
+#+BEGIN_VERSE
+ˈphaθ̠ɒʟõn ˈoziɸa ˈjãno ˈthẽmɘjũˌnwa wu ˈtʼa.i ˈwãn̥ˌtẽn ãm
+ˈwãˌnwa ɒʟ ˈthiza ãm ˈkʼipi i ˈil ̥sil ˈãn̥ˌtẽn
+ˈmɒˌwa wu ˈolni ˈil ̥pʼi
+#+END_VERSE
+#+END_ipa
+
+#+BEGIN_gloss
+#+BEGIN_VERSE
+light.NOM eye.PL.ABL shine.3sg get.2S.1S
+see.2S.1S.PAST after see.1S.2S.FUT
+one.1PL
+#+END_VERSE
+#+END_gloss
+#+END_full-relay
+
+* Grammar
+- Ní:kwasikw word-order is generally SOV
+- Head-initial
+- Agglutinative
+- Words can be used in any part of speech
+- Nominative is marked with -tsi, accusative is marked with -ne
+- Pronouns are almost always omitted as the verbs decline for person
+- Plural is marked with -ik
+- Verbs are formed in the following manner: (root)(subject)(object)(tense)(evidential)
+- A person suffix can be added to a noun as in the following example:
+  - Ame:rikaní:-sik – American-1pl – We are American
+
+* Lexicon
+#+ATTR_HTML: :class vocablist
+- á:sar :: eye, to see
+- kúni :: light, to shine
+- mákis :: to get, to obtain, profit
+- ò:sir :: one, unit, unity
+- siknat :: after
+- -sanen :: from
+- -si :: 1sg subject/object marker in verbs
+- -sik :: 1pl subject/object marker in verbs
+- -kwa :: 2sg subject/object marker in verbs
+- -ni :: 3sg subject marker in verbs
+- -kw :: past tense marker
+- -s :: future tense marker
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>6</strong></div>
+  </div>
+  <a href="05.html" id="prev" rel="prev">Previous</a>
+  <a href="07.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+

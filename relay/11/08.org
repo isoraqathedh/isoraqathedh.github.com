@@ -1,0 +1,59 @@
+#+Title: Relay 11–8
+#+Date: 2018-06-25
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[file:06a-torch.pdf][Raw torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+eye moves away from light (i witnessed this recently)
+i see below and (as a result) i carry them away
+they are carried together because i hit them
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>lang8.1</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+kʰábe keʔo pehíʔóhbuɾibáʔoɾoó
+keʔo ɾógikúuʔoha ʔuɾuʔóhbupápkʰapóʔoha
+bihɾu epkʰuʔoɾoó ʔuɾuʔuɾkʰapuʔoha
+#+END_VERSE
+#+END_conlang-text
+
+#+BEGIN_ipa
+#+BEGIN_VERSE
+[xáβè kɛ̀ʔò pɛ̀síʔɔ́hmùjìβáʔòɾòó]
+[kɛ̀ʔò dóʤìkúùʔɔ̀hà ʔùɾùʔɔ́hmùɸáp̚xàɸɔ́ʔɔ̀hà]
+[mìhlù èp̚xu̥ʔòɾòó ʔùɾùʔùlxàɸu̥ʔɔ̀hà]
+#+END_VERSE
+#+END_ipa
+
+#+BEGIN_gloss
+#+BEGIN_SRC
+kʰábe keʔo pehí-óhbu-ɾibá    -ʔo -ɾoó
+light eye  C1-  back-move.ATP-TES-C2
+eye moves away from light (i witnessed this recently)
+
+keʔo ɾógi- kúu      -ʔo -ha  ʔuɾu-óhbu-pápkʰa   -pó -ʔo -ha
+eye  leg-  sense.ATP-TES-EGO C2-  back-carry.ACT-RES-TES-EGO
+i see below and (as a result) i carry them away
+
+bihɾu ep       -kʰu    -ʔo -ɾoó ʔuɾu-uɾ     -kʰa-pu     -ʔo -ha
+REFL  carry.PAS-COL.MOM-TES-C2  C2-  hit.ACT-CAU-PRF.REA-TES-EGO
+they are carried together because i hit them
+#+END_SRC
+#+END_gloss
+#+END_full-relay
+
+In lieu of a tailored torch,
+the complete relay is given [[file:08c-lang8_1%20(0.15).pdf][in PDF format]].

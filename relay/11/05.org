@@ -1,0 +1,315 @@
+#+Title: Relay 11–5
+#+Date: 2018-06-25
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[file:05b-Relay_11_Translation.pdf][Translation]] · [[file:05a-Relay_11_Torch.pdf][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+As for the starlight from the eyes, you attain me.
+You looked at me, then I watched you.
+We are tied together.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Enłalen</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+φaθołon osiφa yano θemoyon-wa wo τai wan-ten am.
+wan-wa oł θisa am κiπi i ilsil am-ten.
+mo-wa wo olni ilπi.
+#+END_VERSE
+#+END_conlang-text
+
+#+BEGIN_ipa
+#+BEGIN_VERSE
+ˈphaθ̠ɒʟõn ˈoziɸa ˈjãno ˈthẽmɘjũˌnwa wu ˈtʼa.i ˈwãn̥ˌtẽn ãm
+ˈwãˌnwa ɒʟ ˈthiza ãm ˈkʼipi i ˈil ̥sil ˈãn̥ˌtẽn
+ˈmɒˌwa wu ˈolni ˈil ̥pʼi
+#+END_VERSE
+#+END_ipa
+
+#+BEGIN_gloss
+#+BEGIN_EXPORT html
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">φaθo</div>
+    <div class="gloss">light</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">łon</div>
+    <div class="gloss grammar-keyword">nmz def spec</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">osiφa</div>
+    <div class="gloss">astron.body</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">yano</div>
+    <div class="gloss">from</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">θemo</div>
+    <div class="gloss">eyes</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">yon</div>
+    <div class="gloss grammar-keyword">nmz def nspec</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">=wa</div>
+    <div class="gloss grammar-keyword">top</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">wo</div>
+    <div class="gloss grammar-keyword">prs</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">τai</div>
+    <div class="gloss">acquire</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">wan</div>
+    <div class="gloss grammar-keyword">2sg</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">=ten</div>
+    <div class="gloss grammar-keyword">erg</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">am</div>
+    <div class="gloss grammar-keyword">1.excl</div>
+  </div>
+</div>
+
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">wan</div>
+    <div class="gloss grammar-keyword">2sg</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">-wa</div>
+    <div class="gloss grammar-keyword">top</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">oł</div>
+    <div class="gloss grammar-keyword">near pst</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">θisa</div>
+    <div class="gloss">look at</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">am</div>
+    <div class="gloss grammar-keyword">1 excl</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">κiπi</div>
+    <div class="gloss">subsequently</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">i</div>
+    <div class="gloss grammar-keyword">near fut</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">ilsil</div>
+    <div class="gloss">watch</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">am</div>
+    <div class="gloss grammar-keyword">1 excl</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">-ten</div>
+    <div class="gloss grammar-keyword">erg</div>
+  </div>
+</div>
+<div class="gloss-train">
+  <div class="gloss-component">
+    <div class="orig-text">mo</div>
+    <div class="gloss grammar-keyword">1 incl</div>
+  </div>
+  <div class="gloss-component">
+    <div class="orig-text">-wa</div>
+    <div class="gloss grammar-keyword">top</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">wo</div>
+    <div class="gloss grammar-keyword">prs</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">olni</div>
+    <div class="gloss">together</div>
+  </div>
+  <div class="word-separator"></div>
+  <div class="gloss-component">
+    <div class="orig-text">ilπi</div>
+    <div class="gloss">tie</div>
+  </div>
+</div>
+#+END_EXPORT
+#+END_gloss
+#+END_full-relay
+
+* Grammar
+** General Sentence Structure
+Enłalen word-order is generally VSO, but in most sentences there is a topic,
+fronted and followed by the clitic -wa. If the topic is the same as in the
+previous sentence, this may be omitted.
+
+The language is pretty strictly head-initial, so adjectives and adverbs (as well
+as adjectival and adverbial prepositional phrases) follow the nouns and verbs
+they modify, prepositions precede their objects, etc. The VP of an Enłalen
+sentence is headed by a tense particle, which marks a particular word as the
+verb. There are five tense particles in Enłalen:
+
+#+ATTR_HTML: :class vocablist
+- wo :: present tense
+- oł :: near past tense
+- i  :: near future tense
+- en :: remote past tense
+- ha :: remote future tense
+
+These are relative tenses, so they are evaluated relative to the tense of the
+preceding sentence/time-word context.
+
+In addition to word-order, arguments in Enłalen are marked by certain
+clitics. Which clitics are used depends on the apsectual structure of the
+sentence – in an imperfect or stative sentence, the object of a transitive verb
+is marked with the accusative clitic -no. In a perfective sentence, the subject
+of a transitive verb is marked with the ergative clitic -ten. Neither of these
+applies if the argument that would be marked has been topicalized or focused;
+the topic and focus clitics overrule all others.
+
+When it comes to conjunctions, coordinating conjunctions modify an entire
+sentence and are placed before the topic, while subordinating conjunctions
+only modify the sub-topic phrase and thus follow the topic, if any. Depending on
+context, the same conjunction can often serve as either.
+
+** Parts of Speech
+Enłalen does not distinguish between various parts of speech. Any word can
+hypothetically be used as a verb, a noun, an adjective, or an adverb. Many (but
+not all) of these can serve as conjunctions or prepositions (or both).
+
+Enłalen ‘nouns’ are set apart by nominalizing suffixes, which, in addition to
+making clear that they are nominal, also marks for definiteness and specificity.
+
+|            | Specific | Non-Specific |
+|------------+----------+--------------|
+| Definite   | -łon     | -yon         |
+| Indefinite | -so      | -yo          |
+
+Definiteness refers to entities that are identifiable/given in a particular
+context, whereas specificity refers to entities that are unique in a particular
+context. The difference in the use of the definiteness/specificity suffxies can
+be seen in examples like the following:
+
+<<1>>
+- Definite Specific ::
+     am-wa wo eniyen i mitilπi almołfiłon-ki \\
+     ‘I plan to marry the ruler (a particular person who is the ruler).’
+- Definite Non-Specific ::
+     am-wa wo eniyen i mitilπi almołfiyon-ki \\
+     ‘I plan to marry the ruler (whoever that may be).’
+- Indefinite Specific ::
+     am-wa wo eniyen i mitilπi almołfiso-ki \\
+     ‘I plan to marry a ruler (a particular person who is one).’
+- Indefinite Non-Specific ::
+     am-wa wo eniyen i mitilπi almołfiyo-ki \\
+     ‘I plan to marry a ruler (any ruler).’
+
+Enłalen has no grammatical number – number is only relevant for choosing 2nd and
+3rd person pronouns.
+
+When it comes to verbs, the ‘verb’ of a sentence may not always be the most
+verb-like lexical item. The word that follows the tense particle is always the
+‘main’ verb, and any verb-like words that follow are functioning as
+adverbials. Since there are few to no lexical restrictions on whether a word can
+serve as main verb, some interestingly subtle variants can occur depending on
+which word is chosen as main verb and which as adverbial:
+
+<<2>>
+1. am-wa wo aθaθa kioκal. \\
+   ‘I suffer sadly.’
+2. am-wa wo kioκal aθaθa. \\
+   ‘I am sad, sufferingly.’
+
+Unlike other words, pronouns are always pronouns and almost always function as
+nouns without any morphology.
+
+#+ATTR_HTML: :class vocablist
+- am    ::  1st person exclusive
+- mo    ::  1st person inclusive
+- wan   ::  2nd person singular
+- kan   ::  2nd person plural
+- fił   ::  3rd person singular
+- ołi   ::  3rd person plural
+- oil   ::  generic
+- oyen  ::  reflexive (refers back to the topic)
+- fiyen ::  reflexive (refers back to the subject)
+
+Possession is indicated by placing the pronoun agreeing with the person of the
+possessor after the noun referring to the possessed object.  If the possessor is
+to be made explicit, a noun referring to the possessor is placed after the
+pronoun.
+
+1. nenθayon am \\
+   ‘my parent’
+2. nenθayon fiłmayałon \\
+   ‘Maya’s parent’
+
+* Lexicon
+#+ATTR_HTML: :class vocablist
+- φaθo   :: bright, shine, shiny, light
+- osiφa  :: heavenly body, emit light in the sky, sun, moon, star
+- yano   :: from, of, originate, hail from, be from
+- θemo   :: eyes, appear, seem, apparent
+- τai    :: take, acquire, get, capture, catch, come into keeping of
+- θisa   :: see, look at, look over, notice
+- κiπi   :: then, afterwards, subsequently
+- ilsil  :: watch, listen, pay attention to, gaze
+- olni   :: together, with, along with, associate with
+- ilπi   :: tie, fasten, bind
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>5</strong></div>
+  </div>
+  <a href="04.html" id="prev" rel="prev">Previous</a>
+  <a href="06.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
