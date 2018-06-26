@@ -1,4 +1,4 @@
-#+Title: Relay 11–2
+#+Title: Relay 11–3
 #+Date: 2018-06-04
 #+HTML_LINK_UP: index.html
 #+HTML_LINK_HOME: ../index.html
@@ -515,7 +515,7 @@ Personal pronouns in the imperfective aspect are only used for emphasis.
   <div id="this">
     <div id="sec"><strong>11</strong> Relay</div>
     <div id="chapB"></div>
-    <div id="chapA">Part <strong>4</strong></div>
+    <div id="chapA">Part <strong>3</strong></div>
   </div>
   <a href="02.html" id="prev" rel="prev">Previous</a>
   <a href="04.html" id="next" rel="next">Next</a>
