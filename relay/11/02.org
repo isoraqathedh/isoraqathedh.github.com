@@ -116,6 +116,7 @@ Tź, páai’ nvfu’tz yútz.
     <div class="orig-text">á'</div>
     <div class="gloss grammar-keyword">when</div>
   </div>
+  <div class="word-separator"></div>
   <div class="gloss-component">
     <div class="orig-text">niyá</div>
     <div class="gloss">see</div>
