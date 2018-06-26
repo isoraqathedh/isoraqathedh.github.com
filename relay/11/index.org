@@ -167,7 +167,6 @@ Bana riþur.
 #+END_conlang-text
 #+END_short-relay
 
-
 * Kozet -- levian9
 #+BEGIN_full-relay
 #+BEGIN_detail-link
@@ -318,7 +317,7 @@ However, it is I am the beloved's and they are the beloved's, thus I say indeed 
 #+END_VERSE
 #+END_natlang-text
 
-#+HTML: <div class="conlang-name"><p>Orajh</p></div>
+#+HTML: <div class="conlang-name"><p>Sevelian</p></div>
 #+BEGIN_conlang-text
 #+BEGIN_VERSE
 Lyani nyutrašimim
