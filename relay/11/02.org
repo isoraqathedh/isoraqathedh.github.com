@@ -118,6 +118,10 @@ Tź, páai’ nvfu’tz yútz.
   </div>
   <div class="word-separator"></div>
   <div class="gloss-component">
+    <div class="orig-text">nv</div>
+    <div class="gloss grammar-keyword">narr</div>
+  </div>
+  <div class="gloss-component">
     <div class="orig-text">niyá</div>
     <div class="gloss">see</div>
   </div>
