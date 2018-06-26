@@ -50,6 +50,7 @@ Tź, páai’ nvfu’tz yútz.
     <div class="orig-text">hàlz</div>
     <div class="gloss">trap</div>
   </div>
+  <div class="word-separator"></div>
   <div class="gloss-component">
     <div class="orig-text">hàli</div>
     <div class="gloss">cage</div>
