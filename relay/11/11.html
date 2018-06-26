@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-06-26 Tue 15:39 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Relay 11–11</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="../../global/Default.css"/>
+<link rel="stylesheet" href="../../global/org.css"/>
+<link rel="stylesheet" href="../relay.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="preamble" class="status">
+<header>
+<h1 id="Title">Relay 11–11<br/></h1>
+<h3 class="date">2018-06-26 (last exported 2018-06-26 Tue 15:39)</h3>
+</header>
+</div>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org47e1958">1. Translation</a></li>
+<li><a href="#org4632bc0">2. Orthography and Phonology</a>
+<ul>
+<li><a href="#org71d854c">2.1. Elongation, gemination, procrastination:</a></li>
+<li><a href="#org8403eee">2.2. Sylbabbles</a></li>
+<li><a href="#orgfd0d855">2.3. Romanization-only writing problem (and solution):</a></li>
+<li><a href="#org77da2d5">2.4. Stress, maybe also anxiety:</a></li>
+<li><a href="#org58d1cae">2.5. Melody:</a></li>
+<li><a href="#org92fe47e">2.6. Punctuation</a></li>
+<li><a href="#org83c191b">2.7. DOC NOTE!</a></li>
+</ul>
+</li>
+<li><a href="#org5b2083c">3. Verbs</a>
+<ul>
+<li><a href="#org472c13f">3.1. Behaviour</a></li>
+<li><a href="#orgb2b77cb">3.2. Time</a>
+<ul>
+<li><a href="#orgdeb4c08">3.2.1. INFINITIVE</a></li>
+<li><a href="#orgd27f5c5">3.2.2. PRESENT TENSE</a></li>
+<li><a href="#org1142b26">3.2.3. PAST TENSE</a></li>
+<li><a href="#org38e8669">3.2.4. FUTURE TENSE</a></li>
+<li><a href="#org434bb29">3.2.5. TIME DISTANCE?!? ASPECT</a></li>
+<li><a href="#org440288f">3.2.6. DATE ASPECT?</a></li>
+</ul>
+</li>
+<li><a href="#org404c72d">3.3. Adverbs</a></li>
+<li><a href="#org67b39f1">3.4. Nouns</a>
+<ul>
+<li><a href="#orgeed5c70">3.4.1. Shortish rules</a></li>
+<li><a href="#org11e6538">3.4.2. Cases</a></li>
+</ul>
+</li>
+<li><a href="#orge57574c">3.5. Adjectives</a></li>
+<li><a href="#orgaab3d97">3.6. Pronouns</a></li>
+</ul>
+</li>
+<li><a href="#org85db238">4. Syntax</a></li>
+<li><a href="#orgfad211f">5. Lexicon</a>
+<ul>
+<li><a href="#orgba26f49">5.1. Verbs</a></li>
+<li><a href="#orga0f3053">5.2. Nouns</a></li>
+<li><a href="#org82826b8">5.3. Particles</a></li>
+<li><a href="#orgb4fd826">5.4. Positions (Pre-, Post-, Inbetween-)</a></li>
+</ul>
+</li>
+<li><a href="#orge052c71">Navigation</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org47e1958" class="outline-2">
+<h2 id="org47e1958"><span class="section-number-2">1</span> Translation</h2>
+<div class="outline-text-2" id="text-1">
+<div class="full-relay">
+<div class="detail-link">
+<p>
+<a href="https://drive.google.com/file/d/1FvXTZstKFYDf8crPhjlbwodqdqse3MIb/view">Full torch</a>
+</p>
+
+</div>
+
+<div class="natlang-name"><p>English</p></div>
+<div class="natlang-text">
+<p class="verse">
+The moon is in the night sky.<br />
+I was once greater than the moon. It’s being touched.<br />
+I have stood with the moon.<br />
+(But) those it loves are the ones I love too, so I shall have it (the moon) move away.<br />
+</p>
+
+</div>
+
+<div class="conlang-name"><p>Orajh</p></div>
+<div class="conlang-text">
+<p class="verse">
+luvora jórivalúúra kilú silmase qo<br />
+eo voja silmase néri súú qo<br />
+óma voja silmase kilú qo<br />
+ńárvasa: vora mú ria hadei rana ria hadei, sui júúlú aju kivúśiremúó silmase qo<br />
+</p>
+
+</div>
+
+<div class="gloss">
+<p class="verse">
+being(stat.pres.def-atel.3p) sky+night by moon .<br />
+was(stat.past.tel.1p) moon than better .<br />
+was(stat.past.ind-atel.1p) moon by .<br />
+however: are(stat.pres.ind-atel.3p) my beloved(pl) its beloved(pl), hence because-I-wanna<br />
+move(dyn.fut.tel.1p) moon .<br />
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4632bc0" class="outline-2">
+<h2 id="org4632bc0"><span class="section-number-2">2</span> Orthography and Phonology</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+a [a], á [æ], b [b], d [d], ð/dh [ð], dj [ɟ], dź [d͡ʒ], e [ɛ], é [e], f [f], g
+[g], h [x]/[h], i [i], í/y [ɪ]/[ɨ], j [j], jh [ʝ], k [k], l [l], m [m], n [n], ń
+[ɲ], ng [ŋ], o [o], ó [ɤ]/[y], p [p], r [r], s [s], ś [ʃ]/[ɕ], sj [ç], t [t],
+þ/th [θ], tj [c], tl [t͡ɬ], ts [t͡s], tś [t͡ʃ], u [ʉ], ú [u], v [v], w [w], z [z],
+ź [ʒ]/[ʑ]
+</p>
+
+<p>
+&lt;y&gt; prefers being called &lt;í&gt; when at the start of a word.
+</p>
+
+<p>
+Shady things we might accept (in dire cases only):
+</p>
+
+<ul class="org-ul">
+<li>ź › zj</li>
+<li>ś › sh</li>
+<li>ń › nj</li>
+</ul>
+
+<p>
+accented glyph › glyph followed by an apostrophe
+</p>
+</div>
+
+<div id="outline-container-org71d854c" class="outline-3">
+<h3 id="org71d854c"><span class="section-number-3">2.1</span> Elongation, gemination, procrastination:</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Vowels can be elongated by duplication, like so:
+</p>
+<ul class="org-ul">
+<li>á -  /æ/</li>
+<li>áá -  /æː/</li>
+<li>ááá -  /æːː/</li>
+</ul>
+
+<p>
+Single letter consonants geminate like this:
+</p>
+
+<ul class="org-ul">
+<li>r -  /r/</li>
+<li>rr -  /rː/</li>
+<li>etc</li>
+</ul>
+
+<p>
+Dual letter consonants geminate like this:
+</p>
+<ul class="org-ul">
+<li>th -  /θ/</li>
+<li>thh -  /θː/</li>
+<li>etc</li>
+</ul>
+
+<p>
+&lt;g&gt; and &lt;d&gt; only act “normal” at the start of words. Otherwise, they start
+mixing their voicing, like so:
+</p>
+
+<ul class="org-ul">
+<li>g -  /g̚k/</li>
+<li>gg -  /kːː/</li>
+<li>d -  /d̚t/</li>
+<li>dd -  /tːː/</li>
+</ul>
+
+<p>
+Basically,  /k/ and  /t/ have three lengths, the longest one being written as
+though it were an elongated version of their voiced counterparts.
+</p>
+
+<p>
+&lt;b&gt; only occurs in foreign names and loanwords.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8403eee" class="outline-3">
+<h3 id="org8403eee"><span class="section-number-3">2.2</span> Sylbabbles</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+The syllable structure of orajha is simple because I am fairly stupid. Here are the three kinds of syllable
+we allow, with some explanation just in case:
+</p>
+
+<ul class="org-ul">
+<li>VOWELS - JUST PLAIN OL’ VOWELS WHEEEEEEEEE (sets of up to 3 make up syllables)</li>
+<li>ON/CV - There’s a Consonant Onset, and there’s a Vowel Nucleus. All Consonants are allowed as
+Onsets, all Vowels are allowed as Nuclei. Examples: “źa”, “tja”</li>
+<li>ONC/CVV - The Onset is always a(ny) Consonant, the Nucleus and Coda both Vowels from the same
+section of the vowel harmony. Examples: “rúa”, “sjyé”</li>
+<li>ONC/CVC - The Onset is always a(ny) Consonant, the Nucleus is always a(ny) Vowel, and the Coda is
+always a Consonant (plosives, fricatives, trills, and sibilants not allowed). If the Coda is the same as the
+next sound or at the end of a word, you must add V directly after it. O and C may not be the same sound.
+Examples: “kań”, “tluś”</li>
+<li>ONC/CCV - Here, the Onset is always a Consonant (combined plosives [e.g. tś] (with the exception of d
+and g), and nasals, are not allowed), the Nucleus is always a consonant as well (no plosives or sounds
+articulated in the same spot as the Onset - for the latter, see combined plosives in ON/CV syllables.),
+and the Coda is a(ny) Vowel. Examples: “ljhó”, “śni”</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfd0d855" class="outline-3">
+<h3 id="orgfd0d855"><span class="section-number-3">2.3</span> Romanization-only writing problem (and solution):</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Should you stumble upon an issue distinguishing whether stuff like “thi” is th+i or t+h+i, remember that
+you’re supposed to slap an apostrophe in between your consonants if you’re writing two distinct ones
+that look like they could be a combined consonant. Example: thi is read th+i, t’hi is read t+h+i.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org77da2d5" class="outline-3">
+<h3 id="org77da2d5"><span class="section-number-3">2.4</span> Stress, maybe also anxiety:</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Normally, we don’t really stress anything in orajha. We speak really fast to get the socializing outta the
+way asap and that’s that. However, after a while, words that are long become a tad hard to say without
+running out of lung or brain capacity, so some stress starts occurring. This stress follows some rules,
+namely these two:
+</p>
+
+<ul class="org-ul">
+<li>3≥ syllable words: Initial stress</li>
+<li>≥4 syllable words: Pre-final stress, secondary initial stress</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org58d1cae" class="outline-3">
+<h3 id="org58d1cae"><span class="section-number-3">2.5</span> Melody:</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+Melodies are nice. Orajha thinks melodies are so nice, in fact, that it has taken some of them into itself.
+Generally speaking, one starts with high pitch, slowly descending until the end of the sentence, where
+one goes about halfways up again. Roughly like this: ˥˥˦˦˧˨˩˩˩˩˩˩˩˩˩˨˧˧.
+When a pause (like, say, a comma) occurs, you don’t go back up, but after the pause you start all the
+way up again. A sentence with a break (let’s say a comma) would look like this per melody:
+</p>
+
+<p>
+˥˥˦˧˧˨˩˩˩˩,˥˦˧˨˨˩˩˩˩˩˨˧˧.
+Names trigger “spikes”. This means you’ll say the first syllable in the same pitch as you’ve been speaking
+so far, the second syllable high up, then any following syllables step by step nearing your inital pitch. If
+you don’t have enough syllables or patience to go downwards step by step, you glide.. Names with only
+one syllable have you start somewhat high and then glide down.
+</p>
+
+<p>
+Examples:
+</p>
+<ul class="org-ul">
+<li>Tom - ˦˨˩</li>
+<li>Mary - ˩˩˩˩˦˧˩</li>
+<li>Persephone - ˩˩˩˥˧˧˧˩˩ or ˩˩˦˧˧˨˨˩</li>
+</ul>
+
+<p>
+Syllables with &lt;i&gt;, &lt;e&gt;, or &lt;é&gt; are always a bit higher than what surrounds them, like with names’ spikes
+but they don’t go as far up in pitch and there’s no falling glide afterwards. Instead, the next syllable starts
+on the pitch the previous one did.
+</p>
+
+<p>
+Syllables with &lt;ó&gt; have spikes like names do, but they only go about half as high up and always have
+short (within the next syllable) falling glide following them.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org92fe47e" class="outline-3">
+<h3 id="org92fe47e"><span class="section-number-3">2.6</span> Punctuation</h3>
+<div class="outline-text-3" id="text-2-6">
+<p>
+Because Orajh has a wonderfully inconvenient and kinda large set of punctuation thingies English
+doesn’t distinguish, my very smart solution for the romanization is to use &lt;q&gt; followed by something
+resembling the punctuation mark in question to note &#x2026; punctuation. Punctuation involving q’s is to have
+spaces on either side for clarity.
+</p>
+
+<dl class="org-dl">
+<dt>&lt;qd&gt; (optionally &lt;,&gt;)</dt><dd>Clause separator and thing that allows you to breathe for a sec.</dd>
+<dt>&lt;qo&gt; (optionally &lt;.&gt;)</dt><dd>Full stop that also marks the end of a sentence.</dd>
+<dt>&lt;qf&gt;</dt><dd>Name marker. These go in front of names, like so: qf Name qf Namesson. One per word/name.</dd>
+<dt>&lt;q/&gt; (optionally &lt;/&gt;)</dt><dd>“or”, basically. Lets you write indefinitely long lists of
+things/stuff/alternatives/options where the reader may choose their favourite(s), or where only one option
+is relevant (but the reader doesn’t get to know which one).</dd>
+<dt>&lt;qy&gt;</dt><dd>“and/or”; it&rsquo;s like q/ but includes the possibility of more than one option being relevant.</dd>
+<dt>&lt;q%&gt; (optionally &lt;%&gt;)</dt><dd>word compounding thing. Compounds are head initial with descending
+relevance - carhorse is a type of car. Carhorsegoo is a type of car characterized by a type of horse.</dd>
+<dt>&lt;qw&gt;</dt><dd>an emotion marker. This goes at the end of sentences, before the sentence ending thing, and
+emphasizes that the sentence just read was something the writer felt, experienced, or perhaps thought
+(as in they voiced an opinion). This marker requires the sentence condition marker júúlú<sup>1</sup>
+to be found at the start of the sentence.</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org83c191b" class="outline-3">
+<h3 id="org83c191b"><span class="section-number-3">2.7</span> DOC NOTE!</h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+&lt;V&gt; in documentation stands for whatever vowel the vowel harmony dictates.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5b2083c" class="outline-2">
+<h2 id="org5b2083c"><span class="section-number-2">3</span> Verbs</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org472c13f" class="outline-3">
+<h3 id="org472c13f"><span class="section-number-3">3.1</span> Behaviour</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+The three main characteristics of a verb in orajha are whether it’s stative or dynamic, telic, probable
+atelic, or definite atelic, and transitive or intransitive (or reflexive).
+</p>
+
+<p>
+Verbs can recieve a lu-/lú- prefix (depends on vowel harmony) if they’re stative and a ki- prefix if they’re
+dynamic. If there are several of the same state in a row, regardless if they’re in the same sentence, only
+the first gets marked as stative/dynamic, and no marks are put until the stativity/dynamicness changes or
+you start a new document or something like that.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb2b77cb" class="outline-3">
+<h3 id="orgb2b77cb"><span class="section-number-3">3.2</span> Time</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Verbs typically are kept in the time they happened in, are happening in, or will happen in. For example,
+“let’s go skiing tomorrow” will have “skiing” put in a future tense.
+</p>
+</div>
+
+<div id="outline-container-orgdeb4c08" class="outline-4">
+<h4 id="orgdeb4c08"><span class="section-number-4">3.2.1</span> INFINITIVE</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<p>
+Verbs get the affix -ma and a preceding marker indicating whether they&rsquo;re intransitive (nga)
+or transitive (khi). When infinitive, verbs are treated as event nouns.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd27f5c5" class="outline-4">
+<h4 id="orgd27f5c5"><span class="section-number-4">3.2.2</span> PRESENT TENSE</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<p>
+Remove the infinitive -ma and move the transitivity marker to behind the verb (and
+any adverbs it may have), then slap on endings from this table. Should several verbs in a row
+(regardless if they’re in the same sentence) have the same transitivity, only the first one gets a marker,
+while the rest are just kinda&#x2026; implied. Chains like these are only broken if transitivity changes, or if you
+reach the end of a paragraph or entire document. The present tense does not care for telicity, because
+everything you do in it is atelic anyway.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Singular</th>
+<th scope="col" class="org-left">Paucal</th>
+<th scope="col" class="org-left">Pa. incl</th>
+<th scope="col" class="org-left">Pa. excl.</th>
+<th scope="col" class="org-left">Plural</th>
+<th scope="col" class="org-left">Pl. incl</th>
+<th scope="col" class="org-left">Pl. excl</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">1p</td>
+<td class="org-left">-ja</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-kja</td>
+<td class="org-left">-kjú</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-jao</td>
+<td class="org-left">-jyńa</td>
+</tr>
+
+<tr>
+<td class="org-left">2p</td>
+<td class="org-left">-sja</td>
+<td class="org-left">-ksja</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-sjaú</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">3p</td>
+<td class="org-left">-ra</td>
+<td class="org-left">-krú</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-rańa</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Colloquial entities are treated as though they were plural, except they get a different pronoun.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1142b26" class="outline-4">
+<h4 id="org1142b26"><span class="section-number-4">3.2.3</span> PAST TENSE</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<p>
+Remove the infinitive -ma and replace the transitivity marker with a telicity marker from
+the mini table below. This goes IN FRONT OF the verb. Like with the present tense, only the first verb in
+a chain of several with the same marking actually gets marked.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">TEL/TRS</th>
+<th scope="col" class="org-left">Intransitive</th>
+<th scope="col" class="org-left">Transitive</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Telic</td>
+<td class="org-left">eo</td>
+<td class="org-left">aju</td>
+</tr>
+
+<tr>
+<td class="org-left">Indef. Atelic</td>
+<td class="org-left">óma</td>
+<td class="org-left">ía</td>
+</tr>
+
+<tr>
+<td class="org-left">Def. Atelic</td>
+<td class="org-left">éjo</td>
+<td class="org-left">álle</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Orajha splits its telicity into three categories. Telic, meaning the verb has “come to a close”, indefinite
+atelic, meaning you don’t know whether the verb has come to a close for sure, and definite atelic,
+meaning you know the verb has not come to a close.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org38e8669" class="outline-4">
+<h4 id="org38e8669"><span class="section-number-4">3.2.4</span> FUTURE TENSE</h4>
+<div class="outline-text-4" id="text-3-2-4">
+<p>
+Change the infinitive -ma to a -múó. Also throw in a telicity/transitivity indicator from
+the TEL/TRS table above. Note that everything you say in the future tense is interpreted as “how you
+predict it’ll be” lest you throw in some particles to change that (e.g. “I want it to be like that” or “I feel like
+it’s gonna be like that”).
+</p>
+</div>
+</div>
+
+<div id="outline-container-org434bb29" class="outline-4">
+<h4 id="org434bb29"><span class="section-number-4">3.2.5</span> TIME DISTANCE?!? ASPECT</h4>
+<div class="outline-text-4" id="text-3-2-5">
+<p>
+Applied through adverbialized adjectives, namely how large-ly (recent
+past or near future) or small-ly (far past or distant future) the verb is being done. This makes sense I
+guess because things that are near you look big and things that are far away look small. Example: I will
+drive large-ly = I will drive soon, I will drive small-ly = I will drive later.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org440288f" class="outline-4">
+<h4 id="org440288f"><span class="section-number-4">3.2.6</span> DATE ASPECT?</h4>
+<div class="outline-text-4" id="text-3-2-6">
+<p>
+Applied by compounding (or binding by “su”<sup>6</sup>) the date when the verb occurs with the
+object. Example: I will eat the mondayfood = I’m going to eat food on Monday.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org404c72d" class="outline-3">
+<h3 id="org404c72d"><span class="section-number-3">3.3</span> Adverbs</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+Adverbs go directly after the noun they affect. They’ve no default ending. It is possible to create adverbs
+from adjectives by placing a śy- prefix in front of an adjective, resulting in an adverb characterized by
+what the adjective described in a noun. If you turn the adjective yellow into an adverb, you can run (let’s
+call it) yellow-ly. This means whoever is running is running in a manner that is associated with being
+yellow.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org67b39f1" class="outline-3">
+<h3 id="org67b39f1"><span class="section-number-3">3.4</span> Nouns</h3>
+<div class="outline-text-3" id="text-3-4">
+</div>
+<div id="outline-container-orgeed5c70" class="outline-4">
+<h4 id="orgeed5c70"><span class="section-number-4">3.4.1</span> Shortish rules</h4>
+<div class="outline-text-4" id="text-3-4-1">
+<ul class="org-ul">
+<li>In their dictionary form:
+<ul class="org-ul">
+<li>Personified nouns end in -vV</li>
+<li>Inanimate nouns end in -gV</li>
+<li>Animate depersonified nouns end in -kkV and are treated like inanimate nouns</li>
+<li>Event nouns (&amp; ranges/spans in time) end in -tré</li>
+<li>Locations are treated as personified nouns but end in -ttvV</li>
+</ul></li>
+<li>Infinitive verbs are treated as event nouns but their nom. ending is -ma</li>
+<li>Paucals are formed by adding a -si ending</li>
+<li>Plurals are formed by adding an -i ending</li>
+<li>Colloquials are treated like plurals but the noun is always directly preceded by a colloquial
+pronoun</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org11e6538" class="outline-4">
+<h4 id="org11e6538"><span class="section-number-4">3.4.2</span> Cases</h4>
+<div class="outline-text-4" id="text-3-4-2">
+<p>
+I don’t have the brain capacity for cases right now, so let’s make this very simple.
+</p>
+
+<dl class="org-dl">
+<dt>Subject</dt><dd>No marking, ends up at the end of the sentence.</dd>
+<dt>Agent</dt><dd>No marking, same as subject.</dd>
+<dt>Patient</dt><dd>Marked with the prefix i-. If there is no patient, the i stays on its own.</dd>
+</dl>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge57574c" class="outline-3">
+<h3 id="orge57574c"><span class="section-number-3">3.5</span> Adjectives</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+These go directly after the noun they affect. They’ve no default ending. Should you wish to describe your
+adjectives (e.g. form a superlative by saying the adjective is the world’s most itself of all) you’ll have to
+chuck on another adjective which is marked as “meta” by the preposition wú-. You can stack “wú-”
+indefinitely and form layer upon layer of adjectives describing adjectives, but do note that it gets a bit
+trippy after a while. I personally recommend stopping at two.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgaab3d97" class="outline-3">
+<h3 id="orgaab3d97"><span class="section-number-3">3.6</span> Pronouns</h3>
+<div class="outline-text-3" id="text-3-6">
+<p>
+Unaltered form to the left, inflectable(?) form to the right. All cases but the nominative are applied to the
+inflectible form of the pronouns as though they were ordinary nouns.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Sg.</th>
+<th scope="col" class="org-left">Pa.</th>
+<th scope="col" class="org-left">Pl.</th>
+<th scope="col" class="org-left">Colloquial</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">1p</td>
+<td class="org-left">mú, múva</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">1p, incl</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">músi, múúva</td>
+<td class="org-left">múi, múhiva</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">1p, excl</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">muvni, murava</td>
+<td class="org-left">últúi, úlhiva</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">2p</td>
+<td class="org-left">tjha,tjhova</td>
+<td class="org-left">tjalmi,tjamva</td>
+<td class="org-left">tjhai,tjhiva</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">3p</td>
+<td class="org-left">rana, ranva</td>
+<td class="org-left">ryyźe, ryźiva</td>
+<td class="org-left">rai, riva</td>
+<td class="org-left">téé, tééga</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org85db238" class="outline-2">
+<h2 id="org85db238"><span class="section-number-2">4</span> Syntax</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+V(S)OS, heavily head-initial. The subject is dropped (/hidden) if it’s already implied in the verbal.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfad211f" class="outline-2">
+<h2 id="orgfad211f"><span class="section-number-2">5</span> Lexicon</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-orgba26f49" class="outline-3">
+<h3 id="orgba26f49"><span class="section-number-3">5.1</span> Verbs</h3>
+<div class="outline-text-3" id="text-5-1">
+<dl class="org-dl vocablist">
+<dt>(nga) hrutlama</dt><dd>to stand (on one’s feet)</dd>
+<dt>(nga) rúvvúma</dt><dd>touch, be touching</dd>
+<dt>(nga) voma</dt><dd>copular to be, to exist</dd>
+<dt>(khi) vúśirema</dt><dd>to (forcibly) move something or someone</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orga0f3053" class="outline-3">
+<h3 id="orga0f3053"><span class="section-number-3">5.2</span> Nouns</h3>
+<div class="outline-text-3" id="text-5-2">
+<dl class="org-dl vocablist">
+<dt>hadega</dt><dd>thing or person one loves; beloved</dd>
+<dt>jórivattva</dt><dd>sky, world above</dd>
+<dt>lúúratré</dt><dd>night, time of darkness</dd>
+<dt>silmasettve</dt><dd>celestial body (usually the sun or the moon)</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org82826b8" class="outline-3">
+<h3 id="org82826b8"><span class="section-number-3">5.3</span> Particles</h3>
+<div class="outline-text-3" id="text-5-3">
+<dl class="org-dl vocablist">
+<dt>júúlú<sup>1</sup></dt><dd>Clause-initial. Causes qw lest the one writing is lazy. With verbals of reflexive or intransitive
+nature, it’s usually used to signal that what’s taking place is important to the speaker/writer. With verbals
+of telic transitive nature, it signals that the event in question takes place because of the writer/speaker’s
+feelings or opinions, while with verbals of atelic transitive nature, it signals that the writer/speaker feels
+like or has an opinion saying that the event in question should happen.</dd>
+<dt>ńárvasa</dt><dd>Clase-initial. States that the current clause occurred in spite of a previously mentioned factor
+possibly wanting something else to happen. Similar to “but”, “however”, and “regardless”.</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orgb4fd826" class="outline-3">
+<h3 id="orgb4fd826"><span class="section-number-3">5.4</span> Positions (Pre-, Post-, Inbetween-)</h3>
+<div class="outline-text-3" id="text-5-4">
+<dl class="org-dl vocablist">
+<dt>kilú</dt><dd>Announces the noun to its right as being on, next to, or inside the object.</dd>
+<dt>néri</dt><dd>Compares the subject to the object, subject being the head.</dd>
+<dt>ria</dt><dd>Goes between two nouns and announces the one to the left as belonging to the one to the right.</dd>
+<dt>su<sup>6</sup></dt><dd>Goes between two nouns and binds them together without them having to be compounded. Similar
+in function to the English “of” expressing relations between two things, su keeps its focus on its left. A car
+su horse is a car with horse properties.</dd>
+<dt>sui</dt><dd>States that the current clause is occurring because of the previous one. Similar to “hence” and
+“therefore”.</dd>
+</dl>
+</div>
+</div>
+</div>
+
+<footer id="outline-container-orge052c71" class="outline-2">
+<h2 id="orge052c71">Navigation</h2>
+<div class="outline-text-2" id="text-orge052c71">
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>11</strong></div>
+  </div>
+  <a href="10.html" id="prev" rel="prev">Previous</a>
+  <a href="12.html" id="next" rel="next">Next</a>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+</html>

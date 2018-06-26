@@ -1,0 +1,43 @@
+﻿the moon was in the night sky
+i was above the moon and i touched it
+the moon was below where i stood
+it was my beloved, i must move it!
+
+
+Tâvune emo ngoñat ilus
+Râdodoc tâvu, laloc kâ
+Tâvune ji kâ türâ sıñaroc
+Kâle anu omâ alus, tıdasâ kâ!
+
+
+moon-ERG inside sky night-GEN
+above-1.PST.PERF moon touch-1.PST.PERF 3.SG
+moon-ERG below 3.SG REL stand-1.PST.PERF
+3.SG.ERG COP beloved 1.SG.GEN move-1.FUT.PERF 3.SG
+
+
+Modern Ralian is a SVO, Erg-abs language with a fairly isolating tendency except for the screwed up verbs and some minor noun screwery. Thankfully said screwed up verbs can be reduced to a single nightmarish chart. This time, however, because i’m feeling nice, i’ll just provide the appropriate suffixes rather than the whole nightmare. Now, important for this specific passage is that unmarked verbs are in the perfective past tense unless they’re also marked as first person.
+
+
+here are them words for you to deducinate:
+
+
+tâvu - moon
+-(n)e - singular ergative suffix for nouns
+emo - inside, below, within, to be inside or within
+ngoñat - sky, heavens, firmament
+ili - night, nighttime
+-us - singular genitive suffix for nouns
+râdodü - above, greater, more than, to be greater than or above something (both in the physical and/or metaphorical sense)
+-oc - first person past perfective verb suffix
+lali - to touch, to reach, touch, fingertip
+kâ - singular third person absolutive pronoun
+ji - below, under, underneath, to be below or underneath (in the physical sense only)
+türâ - absolutive relative pronoun/particle - introduces a relative clause acting as a modifier to a pronoun: e.x. se türâ ucâranoc “you whom i was engaging in foreplay with”
+siñar - to stand, standing, to right oneself
+kâle - singular third person genitive pronoun
+anu - copular verb, “to be” etc.
+omâ - beloved, dearest, lover, to hold someone or something emotionally close
+alus - first person singular genitive pronoun
+tıdu - movement, motion, to move
+-asâ - first person future perfective verb suffix - the future perfective is often used as an imperative.

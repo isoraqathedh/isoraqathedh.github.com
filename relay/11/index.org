@@ -142,16 +142,189 @@ mo-wa wo olni ilπi.
 #+END_conlang-text
 #+END_short-relay
 
-* Nankazz -- 
+* Nankazz -- Ní:kwasikw
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:06.html][Full torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The light shines from the eyes, and you get me.
+After you saw me, I will see you.
+We are one.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Ní:kwasikw</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Srinir ḟiduhta rḟato, bana kirnuhta.
+Bana kirnuhta htur bana kinaþa.
+Bana riþur.
+#+END_VERSE
+#+END_conlang-text
+#+END_short-relay
+
 
 * Kozet -- levian9
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[file:07.html][Full torch]]
+#+END_detail-link
 
-* Mareck --
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The light shines from the eyes, and you get me.
+After you saw me, I will see you.
+We are one.
+#+END_VERSE
+#+END_natlang-text
 
-* Place --
+#+HTML: <div class="conlang-name"><p>levian9</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Srinir ḟiduhta rḟato, bana kirnuhta.
+Bana kirnuhta htur bana kinaþa.
+Bana riþur.
+#+END_VERSE
+#+END_conlang-text
+#+END_full-relay
 
-* Andi --
+* Mareck -- Moógatí
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:08.html][Full torch]]
+#+END_detail-link
 
-* Sincy -- 
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+eye moves away from light (i witnessed this recently)
+i see below and (as a result) i carry them away
+they are carried together because i hit them
+#+END_VERSE
+#+END_natlang-text
 
-* Mel (2) --
+#+HTML: <div class="conlang-name"><p>Moógatí</p></div>
+#+BEGIN_conlang-text
+[[file:08e-script.png]]
+
+#+BEGIN_VERSE
+kʰábe keʔo pehíʔóhbuɾibáʔoɾoó
+keʔo ɾógikúuʔoha ʔuɾuʔóhbupápkʰapóʔoha
+bihɾu epkʰuʔoɾoó ʔuɾuʔuɾkʰapuʔoha
+#+END_VERSE
+#+END_conlang-text
+#+END_short-relay
+
+* Place -- ~langname~
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:09.html][Full torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+"the stars stand in the sky.
+i touch the stars above me.
+i move them away from below.
+they were touched. *i* made them move."
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p><code>langname</code></p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+húnni tak t'upessúrsusu.
+nún húnni t'unnewe t'u nuk'utta.
+húnni nesen t'u nesari.
+t'ubin gútta - nek'ruwatta!
+#+END_VERSE
+#+END_conlang-text
+#+END_short-relay
+
+* Andi -- Modern Ralian
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:10.html][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+the moon was in the night sky
+i was above the moon and i touched it
+the moon was below where i stood
+it was my beloved, i must move it!
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Modern Ralian</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Tâvune emo ngoñat ilus
+Râdodoc tâvu, laloc kâ
+Tâvune ji kâ türâ sıñaroc
+Kâle anu omâ alus, tıdasâ kâ!
+#+END_VERSE
+#+END_conlang-text
+#+END_short-relay
+
+* Sincy -- Orajh
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:11.html][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The moon is in the night sky.
+I was once greater than the moon. It’s being touched.
+I have stood with the moon.
+(But) those it loves are the ones I love too, so I shall have it (the moon) move away.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Orajh</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+luvora jórivalúúra kilú silmase qo
+eo voja silmase néri súú qo
+óma voja silmase kilú qo
+ńárvasa: vora mú ria hadei rana ria hadei, sui júúlú aju kivúśiremúó silmase qo
+#+END_VERSE
+#+END_conlang-text
+#+END_short-relay
+
+* Mel (2) -- Sevelian
+#+BEGIN_short-relay
+#+BEGIN_detail-link
+[[file:12.html][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+There is a moon in the nightsky
+I was bigger than the moon
+I was on the moon
+However, it is I am the beloved's and they are the beloved's, thus I say indeed the moon will be forced to be moved
+
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Orajh</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Lyani nyutrašimim
+Va vrukuru lyanin inaŭ
+Lyanim ĭsaŭ
+Ma, aundra va má su aimetziž anaiu imé, sá aidamin lyani azidzelikatzonu
+#+END_VERSE
+#+END_conlang-text
+#+END_short-relay

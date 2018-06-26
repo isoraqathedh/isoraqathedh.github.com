@@ -1,0 +1,142 @@
+#+Title: Relay 11–9
+#+Date: 2018-06-26
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[file:09a-my_torch_translation.html][Translation]] · [[file:09b-andis_torch.txt][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+"the stars stand in the sky.
+i touch the stars above me.
+i move them away from below.
+they were touched. *i* made them move."
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p><code>langname</code></p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+húnni tak t'upessúrsusu.
+nún húnni t'unnewe t'u nuk'utta.
+húnni nesen t'u nesari.
+t'ubin gútta - nek'ruwatta!
+#+END_VERSE
+#+END_conlang-text
+
+#+BEGIN_gloss
+#+BEGIN_VERSE
+hu-hanni tak t'u-peQ-su-ar-susu
+nún hu-hanni t'u-nn-ewe t'u nu-{}-k'-utta
+hu-hanni ne-{}-sen t'u ne-{}-sari
+t'u-bin gu-utta ne-{}-k'-ru-wa-tta
+
+DIM-sun night.sky 3SBJ-4OBJ-APP-stand-REM
+1SBJ.HON DIM-sun 3SBJ-1OBJ-be.above 3OBJ 1SBJ-perfectly-touch
+DIM-sun 1SBJ-3OBJ-be.below 3OBJ 1SBJ-3OBJ-push
+3SBJ-HON PASS-touch 1SBJ-3OBJ-perfectly-move-CAUS-EMPH
+#+END_VERSE
+#+END_gloss
+#+END_full-relay
+
+* Grammar
+this lingo is SOV.
+
+repeated information likes to be expressed solely as person affixes.
+
+relative clauses come before the noun they modify.
+
+the head noun of a relative clause only shows up inside the relative clause
+itself, and shunts out a filler pronoun in the main clause.
+
+the distant past tense is used at the beginning of stories, kind of like a "once
+upon a time". after that, related events are told in the present tense.
+
+nouns and pronouns are generally ambiguous to number. less animate things "feel"
+more plural, whereas more animate things "feel" more singular.
+
+more topical things like to be further to the left on this scale (subject -
+object - other stuff).
+
+everything else should be self-evident with the information i'm giving you
+below. if it isn't, boopdoop me a message and i'll help you.
+  
+* Lexicon
+** Roots
+#+ATTR_HTML: :class vocablist
+- ar :: v. (INTR) to be standing (unmoving), remain (in a location), live (somewhere)
+- ewe :: v. (TR) to be above (something)
+- hanni :: n. sun
+- ru :: v. (INTR) to move
+- sari :: v. (TR) to push, knock over
+- sen :: v. (TR) to be below (something)
+- tak :: n. night sky
+- (u)k' :: adv. to do something correctly, perfectly, (when used on the actions of others) signifies affection, closeness, (when used on one's own actions, impolite, often childish) bragging or being proud of the action or its result
+- utta :: v. (TR) to touch, to caress (something/someone)
+
+** Verbs
+#+CAPTION: Subject Pronouns
+|     | normal | bound  | respectful/humble (boastful) |
+|-----+--------+--------+------------------------------|
+| 1st | nu     | n(ә~)- | nban  (nún)                  |
+| 2nd | a      | a(Q)-  | án                           |
+| 3rd | t'u    | t'(u)- | t'ún                         |
+
+#+CAPTION: Object pronouns 
+|     | normal | bound     | respectful/humble |
+|-----+--------+-----------+-------------------|
+| 1st | nu(h)  | nn-       | nbanu             |
+| 2nd | á(h)   | á(Q/h)-   | áhan              |
+| 3rd | t'u(h) | {}-       | t'úhan            |
+| 4th | gwe(h) | -p(e)(Q)- |                   |
+
+** Tense (past)
+#+ATTR_HTML: :class vocablist
+- -s(u) :: recent/normal 
+- -susu/-ssu :: distant/irrelevant ("at some point")
+
+** evidentials / modality
+#+ATTR_HTML: :class vocablist
+-  -t:a ::    positive belief marker (really / i swear) / "should", "must":
+
+** transitivity:
+#+ATTR_HTML: :class vocablist
+- -su- :: locative (adds an argument to promote a locative)
+- -wa :: causative (adds a new subject argument and demotes the old one to object)
+- -gu- :: passive
+
+** nouns
+#+ATTR_HTML: :class vocablist
+- -bin :: honorific : a subordinate:
+          (originally "one that is important (sometimes emotionally),
+          now more like "someone who is useful",
+          still remains a very old-fashioned way to talk about a spouse (generally female to male))
+- full reduplication ::  plural
+- first syllable Cu- red. :: diminutive
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>9</strong></div>
+  </div>
+  <a href="08.html" id="prev" rel="prev">Previous</a>
+  <a href="10.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT

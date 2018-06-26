@@ -7,9 +7,10 @@
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
 #+OPTIONS: title:nil
 
+* Translation
 #+BEGIN_full-relay
 #+BEGIN_detail-link
-[[file:06a-torch.pdf][Raw torch]]
+[[file:08c-lang8_1%20(0.15).pdf][Raw torch]]
 #+END_detail-link
 
 #+HTML: <div class="natlang-name"><p>English</p></div>
@@ -21,8 +22,10 @@ they are carried together because i hit them
 #+END_VERSE
 #+END_natlang-text
 
-#+HTML: <div class="conlang-name"><p>lang8.1</p></div>
+#+HTML: <div class="conlang-name"><p>Moógatí</p></div>
 #+BEGIN_conlang-text
+[[file:08e-script.png]]
+
 #+BEGIN_VERSE
 kʰábe keʔo pehíʔóhbuɾibáʔoɾoó
 keʔo ɾógikúuʔoha ʔuɾuʔóhbupápkʰapóʔoha
@@ -57,3 +60,24 @@ they are carried together because i hit them
 
 In lieu of a tailored torch,
 the complete relay is given [[file:08c-lang8_1%20(0.15).pdf][in PDF format]].
+
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>8</strong></div>
+  </div>
+  <a href="07.html" id="prev" rel="prev">Previous</a>
+  <a href="09.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT
+
+

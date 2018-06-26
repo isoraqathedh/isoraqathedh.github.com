@@ -1,0 +1,64 @@
+#+Title: Relay 11–12
+#+Date: 2018-06-26
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[file:12.html][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+There is a moon in the nightsky
+I was bigger than the moon
+I was on the moon
+However, it is I am the beloved's and they are the beloved's, thus I say indeed the moon will be forced to be moved
+
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Sevelian</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Lyani nyutrašimim
+Va vrukuru lyanin inaŭ
+Lyanim ĭsaŭ
+Ma, aundra va má su aimetziž anaiu imé, sá aidamin lyani azidzelikatzonu
+#+END_VERSE
+#+END_conlang-text
+
+#+BEGIN_gloss
+#+BEGIN_VERSE
+moon.NOM nightsky.LOC
+1SG.NOM big-COMP.NOM moon-DAT be-1SG.PST
+moon-LOC IPFV-stand-1SG.PST
+However, REL 1SG.NOM and 3SG.NOM.N beloved.POSS be.SBJV.1PL.PRS be.3SG.PRS*, thus indeed moon.NOM GNO-move-CAUS-3SG.FUT.PASS
+#+END_VERSE
+#+END_gloss
+#+END_full-relay
+
+*impersonal form of to be
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>12</strong></div>
+  </div>
+  <a href="11.html" id="prev" rel="prev">Previous</a>
+</nav>
+#+END_EXPORT

@@ -1,0 +1,345 @@
+#+Title: Relay 11–11
+#+Date: 2018-06-26
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[https://drive.google.com/file/d/1FvXTZstKFYDf8crPhjlbwodqdqse3MIb/view][Full torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+The moon is in the night sky.
+I was once greater than the moon. It’s being touched.
+I have stood with the moon.
+(But) those it loves are the ones I love too, so I shall have it (the moon) move away.
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Orajh</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+luvora jórivalúúra kilú silmase qo
+eo voja silmase néri súú qo
+óma voja silmase kilú qo
+ńárvasa: vora mú ria hadei rana ria hadei, sui júúlú aju kivúśiremúó silmase qo
+#+END_VERSE
+#+END_conlang-text
+
+#+BEGIN_gloss
+#+BEGIN_VERSE
+being(stat.pres.def-atel.3p) sky+night by moon .
+was(stat.past.tel.1p) moon than better .
+was(stat.past.ind-atel.1p) moon by .
+however: are(stat.pres.ind-atel.3p) my beloved(pl) its beloved(pl), hence because-I-wanna
+move(dyn.fut.tel.1p) moon .
+#+END_VERSE
+#+END_gloss
+#+END_full-relay
+
+* Orthography and Phonology
+a [a], á [æ], b [b], d [d], ð/dh [ð], dj [ɟ], dź [d͡ʒ], e [ɛ], é [e], f [f], g
+[g], h [x]/[h], i [i], í/y [ɪ]/[ɨ], j [j], jh [ʝ], k [k], l [l], m [m], n [n], ń
+[ɲ], ng [ŋ], o [o], ó [ɤ]/[y], p [p], r [r], s [s], ś [ʃ]/[ɕ], sj [ç], t [t],
+þ/th [θ], tj [c], tl [t͡ɬ], ts [t͡s], tś [t͡ʃ], u [ʉ], ú [u], v [v], w [w], z [z],
+ź [ʒ]/[ʑ]
+
+<y> prefers being called <í> when at the start of a word.
+
+Shady things we might accept (in dire cases only):
+
+- ź › zj
+- ś › sh
+- ń › nj
+
+accented glyph › glyph followed by an apostrophe
+
+** Elongation, gemination, procrastination:
+Vowels can be elongated by duplication, like so:
+- á -  /æ/
+- áá -  /æː/
+- ááá -  /æːː/
+
+Single letter consonants geminate like this:
+
+- r -  /r/
+- rr -  /rː/
+- etc
+
+Dual letter consonants geminate like this:
+- th -  /θ/
+- thh -  /θː/
+- etc
+
+<g> and <d> only act “normal” at the start of words. Otherwise, they start
+mixing their voicing, like so:
+
+- g -  /g̚k/
+- gg -  /kːː/
+- d -  /d̚t/
+- dd -  /tːː/
+
+Basically,  /k/ and  /t/ have three lengths, the longest one being written as
+though it were an elongated version of their voiced counterparts.
+
+<b> only occurs in foreign names and loanwords.
+
+** Sylbabbles
+The syllable structure of orajha is simple because I am fairly stupid. Here are the three kinds of syllable
+we allow, with some explanation just in case:
+
+- VOWELS - JUST PLAIN OL’ VOWELS WHEEEEEEEEE (sets of up to 3 make up syllables)
+- ON/CV - There’s a Consonant Onset, and there’s a Vowel Nucleus. All Consonants are allowed as
+  Onsets, all Vowels are allowed as Nuclei. Examples: “źa”, “tja”
+- ONC/CVV - The Onset is always a(ny) Consonant, the Nucleus and Coda both Vowels from the same
+  section of the vowel harmony. Examples: “rúa”, “sjyé”
+- ONC/CVC - The Onset is always a(ny) Consonant, the Nucleus is always a(ny) Vowel, and the Coda is
+  always a Consonant (plosives, fricatives, trills, and sibilants not allowed). If the Coda is the same as the
+  next sound or at the end of a word, you must add V directly after it. O and C may not be the same sound.
+  Examples: “kań”, “tluś”
+- ONC/CCV - Here, the Onset is always a Consonant (combined plosives [e.g. tś] (with the exception of d
+  and g), and nasals, are not allowed), the Nucleus is always a consonant as well (no plosives or sounds
+  articulated in the same spot as the Onset - for the latter, see combined plosives in ON/CV syllables.),
+  and the Coda is a(ny) Vowel. Examples: “ljhó”, “śni”
+
+** Romanization-only writing problem (and solution):
+Should you stumble upon an issue distinguishing whether stuff like “thi” is th+i or t+h+i, remember that
+you’re supposed to slap an apostrophe in between your consonants if you’re writing two distinct ones
+that look like they could be a combined consonant. Example: thi is read th+i, t’hi is read t+h+i.
+
+** Stress, maybe also anxiety:
+Normally, we don’t really stress anything in orajha. We speak really fast to get the socializing outta the
+way asap and that’s that. However, after a while, words that are long become a tad hard to say without
+running out of lung or brain capacity, so some stress starts occurring. This stress follows some rules,
+namely these two:
+
+- 3≥ syllable words: Initial stress
+- ≥4 syllable words: Pre-final stress, secondary initial stress
+
+** Melody:
+Melodies are nice. Orajha thinks melodies are so nice, in fact, that it has taken some of them into itself.
+Generally speaking, one starts with high pitch, slowly descending until the end of the sentence, where
+one goes about halfways up again. Roughly like this: ˥˥˦˦˧˨˩˩˩˩˩˩˩˩˩˨˧˧.
+When a pause (like, say, a comma) occurs, you don’t go back up, but after the pause you start all the
+way up again. A sentence with a break (let’s say a comma) would look like this per melody:
+
+˥˥˦˧˧˨˩˩˩˩,˥˦˧˨˨˩˩˩˩˩˨˧˧.
+Names trigger “spikes”. This means you’ll say the first syllable in the same pitch as you’ve been speaking
+so far, the second syllable high up, then any following syllables step by step nearing your inital pitch. If
+you don’t have enough syllables or patience to go downwards step by step, you glide.. Names with only
+one syllable have you start somewhat high and then glide down.
+
+Examples:
+- Tom - ˦˨˩
+- Mary - ˩˩˩˩˦˧˩
+- Persephone - ˩˩˩˥˧˧˧˩˩ or ˩˩˦˧˧˨˨˩
+
+Syllables with <i>, <e>, or <é> are always a bit higher than what surrounds them, like with names’ spikes
+but they don’t go as far up in pitch and there’s no falling glide afterwards. Instead, the next syllable starts
+on the pitch the previous one did.
+
+Syllables with <ó> have spikes like names do, but they only go about half as high up and always have
+short (within the next syllable) falling glide following them.
+
+** Punctuation
+Because Orajh has a wonderfully inconvenient and kinda large set of punctuation thingies English
+doesn’t distinguish, my very smart solution for the romanization is to use <q> followed by something
+resembling the punctuation mark in question to note ... punctuation. Punctuation involving q’s is to have
+spaces on either side for clarity.
+
+- <qd> (optionally <,>) :: Clause separator and thing that allows you to breathe for a sec.
+- <qo> (optionally <.>) :: Full stop that also marks the end of a sentence.
+- <qf> :: Name marker. These go in front of names, like so: qf Name qf Namesson. One per word/name.
+- <q/> (optionally </>) :: “or”, basically. Lets you write indefinitely long lists of
+     things/stuff/alternatives/options where the reader may choose their favourite(s), or where only one option
+     is relevant (but the reader doesn’t get to know which one).
+- <qy> :: “and/or”; it's like q/ but includes the possibility of more than one option being relevant.
+- <q%> (optionally <%>) :: word compounding thing. Compounds are head initial with descending
+     relevance - carhorse is a type of car. Carhorsegoo is a type of car characterized by a type of horse.
+- <qw> :: an emotion marker. This goes at the end of sentences, before the sentence ending thing, and
+          emphasizes that the sentence just read was something the writer felt, experienced, or perhaps thought
+          (as in they voiced an opinion). This marker requires the sentence condition marker júúlú^{1}
+          to be found at the start of the sentence.
+
+** DOC NOTE!
+<V> in documentation stands for whatever vowel the vowel harmony dictates.
+
+* Verbs
+
+** Behaviour
+The three main characteristics of a verb in orajha are whether it’s stative or dynamic, telic, probable
+atelic, or definite atelic, and transitive or intransitive (or reflexive).
+
+Verbs can recieve a lu-/lú- prefix (depends on vowel harmony) if they’re stative and a ki- prefix if they’re
+dynamic. If there are several of the same state in a row, regardless if they’re in the same sentence, only
+the first gets marked as stative/dynamic, and no marks are put until the stativity/dynamicness changes or
+you start a new document or something like that.
+
+** Time
+Verbs typically are kept in the time they happened in, are happening in, or will happen in. For example,
+“let’s go skiing tomorrow” will have “skiing” put in a future tense.
+
+*** INFINITIVE
+Verbs get the affix -ma and a preceding marker indicating whether they're intransitive (nga)
+or transitive (khi). When infinitive, verbs are treated as event nouns.
+
+*** PRESENT TENSE
+Remove the infinitive -ma and move the transitivity marker to behind the verb (and
+any adverbs it may have), then slap on endings from this table. Should several verbs in a row
+(regardless if they’re in the same sentence) have the same transitivity, only the first one gets a marker,
+while the rest are just kinda... implied. Chains like these are only broken if transitivity changes, or if you
+reach the end of a paragraph or entire document. The present tense does not care for telicity, because
+everything you do in it is atelic anyway.
+
+|    | Singular | Paucal | Pa. incl | Pa. excl. | Plural | Pl. incl | Pl. excl |
+| /  | <>       | <      |          | >         | <      |          | >        |
+|----+----------+--------+----------+-----------+--------+----------+----------|
+| 1p | -ja      |        | -kja     | -kjú      |        | -jao     | -jyńa    |
+| 2p | -sja     | -ksja  |          |           | -sjaú  |          |          |
+| 3p | -ra      | -krú   |          |           | -rańa  |          |          |
+
+Colloquial entities are treated as though they were plural, except they get a different pronoun.
+
+*** PAST TENSE
+Remove the infinitive -ma and replace the transitivity marker with a telicity marker from
+the mini table below. This goes IN FRONT OF the verb. Like with the present tense, only the first verb in
+a chain of several with the same marking actually gets marked.
+
+| TEL/TRS       | Intransitive | Transitive |
+|---------------+--------------+------------|
+| Telic         | eo           | aju        |
+| Indef. Atelic | óma          | ía         |
+| Def. Atelic   | éjo          | álle       |
+
+Orajha splits its telicity into three categories. Telic, meaning the verb has “come to a close”, indefinite
+atelic, meaning you don’t know whether the verb has come to a close for sure, and definite atelic,
+meaning you know the verb has not come to a close.
+
+*** FUTURE TENSE
+Change the infinitive -ma to a -múó. Also throw in a telicity/transitivity indicator from
+the TEL/TRS table above. Note that everything you say in the future tense is interpreted as “how you
+predict it’ll be” lest you throw in some particles to change that (e.g. “I want it to be like that” or “I feel like
+it’s gonna be like that”).
+
+*** TIME DISTANCE?!? ASPECT
+Applied through adverbialized adjectives, namely how large-ly (recent
+past or near future) or small-ly (far past or distant future) the verb is being done. This makes sense I
+guess because things that are near you look big and things that are far away look small. Example: I will
+drive large-ly = I will drive soon, I will drive small-ly = I will drive later.
+
+*** DATE ASPECT?
+Applied by compounding (or binding by “su”^{6}) the date when the verb occurs with the
+object. Example: I will eat the mondayfood = I’m going to eat food on Monday.
+
+** Adverbs
+Adverbs go directly after the noun they affect. They’ve no default ending. It is possible to create adverbs
+from adjectives by placing a śy- prefix in front of an adjective, resulting in an adverb characterized by
+what the adjective described in a noun. If you turn the adjective yellow into an adverb, you can run (let’s
+call it) yellow-ly. This means whoever is running is running in a manner that is associated with being
+yellow.
+
+** Nouns
+
+*** Shortish rules
+- In their dictionary form:
+  - Personified nouns end in -vV
+  - Inanimate nouns end in -gV
+  - Animate depersonified nouns end in -kkV and are treated like inanimate nouns
+  - Event nouns (& ranges/spans in time) end in -tré
+  - Locations are treated as personified nouns but end in -ttvV
+- Infinitive verbs are treated as event nouns but their nom. ending is -ma
+- Paucals are formed by adding a -si ending
+- Plurals are formed by adding an -i ending
+- Colloquials are treated like plurals but the noun is always directly preceded by a colloquial
+  pronoun
+
+*** Cases
+I don’t have the brain capacity for cases right now, so let’s make this very simple.
+
+- Subject :: No marking, ends up at the end of the sentence.
+- Agent :: No marking, same as subject.
+- Patient :: Marked with the prefix i-. If there is no patient, the i stays on its own.
+
+** Adjectives
+These go directly after the noun they affect. They’ve no default ending. Should you wish to describe your
+adjectives (e.g. form a superlative by saying the adjective is the world’s most itself of all) you’ll have to
+chuck on another adjective which is marked as “meta” by the preposition wú-. You can stack “wú-”
+indefinitely and form layer upon layer of adjectives describing adjectives, but do note that it gets a bit
+trippy after a while. I personally recommend stopping at two.
+
+** Pronouns
+Unaltered form to the left, inflectable(?) form to the right. All cases but the nominative are applied to the
+inflectible form of the pronouns as though they were ordinary nouns.
+
+|          | Sg.         | Pa.           | Pl.           | Colloquial |
+|----------+-------------+---------------+---------------+------------|
+| 1p       | mú, múva    |               |               |            |
+| 1p, incl |             | músi, múúva   | múi, múhiva   |            |
+| 1p, excl |             | muvni, murava | últúi, úlhiva |            |
+| 2p       | tjha,tjhova | tjalmi,tjamva | tjhai,tjhiva  |            |
+| 3p       | rana, ranva | ryyźe, ryźiva | rai, riva     | téé, tééga |
+
+* Syntax
+V(S)OS, heavily head-initial. The subject is dropped (/hidden) if it’s already implied in the verbal.
+
+* Lexicon
+
+** Verbs
+#+ATTR_HTML: :class vocablist
+- (nga) hrutlama :: to stand (on one’s feet)
+- (nga) rúvvúma :: touch, be touching
+- (nga) voma :: copular to be, to exist
+- (khi) vúśirema :: to (forcibly) move something or someone
+
+** Nouns
+#+ATTR_HTML: :class vocablist
+- hadega :: thing or person one loves; beloved
+- jórivattva :: sky, world above
+- lúúratré :: night, time of darkness
+- silmasettve :: celestial body (usually the sun or the moon)
+
+** Particles
+#+ATTR_HTML: :class vocablist
+- júúlú^{1} :: Clause-initial. Causes qw lest the one writing is lazy. With verbals of reflexive or intransitive
+               nature, it’s usually used to signal that what’s taking place is important to the speaker/writer. With verbals
+               of telic transitive nature, it signals that the event in question takes place because of the writer/speaker’s
+               feelings or opinions, while with verbals of atelic transitive nature, it signals that the writer/speaker feels
+               like or has an opinion saying that the event in question should happen.
+- ńárvasa :: Clase-initial. States that the current clause occurred in spite of a previously mentioned factor
+             possibly wanting something else to happen. Similar to “but”, “however”, and “regardless”.
+
+** Positions (Pre-, Post-, Inbetween-)
+#+ATTR_HTML: :class vocablist
+- kilú :: Announces the noun to its right as being on, next to, or inside the object.
+- néri :: Compares the subject to the object, subject being the head.
+- ria :: Goes between two nouns and announces the one to the left as belonging to the one to the right.
+- su^{6} :: Goes between two nouns and binds them together without them having to be compounded. Similar
+            in function to the English “of” expressing relations between two things, su keeps its focus on its left. A car
+            su horse is a car with horse properties.
+- sui :: States that the current clause is occurring because of the previous one. Similar to “hence” and
+         “therefore”.
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>11</strong></div>
+  </div>
+  <a href="10.html" id="prev" rel="prev">Previous</a>
+  <a href="12.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT

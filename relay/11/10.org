@@ -1,0 +1,95 @@
+#+Title: Relay 11–10
+#+Date: 2018-06-26
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME: ../index.html
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/Default.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../../global/org.css"/>
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../relay.css"/>
+#+OPTIONS: title:nil
+
+* Translation
+#+BEGIN_full-relay
+#+BEGIN_detail-link
+[[file:10a-torchy_morchy.txt][Torch]]
+#+END_detail-link
+
+#+HTML: <div class="natlang-name"><p>English</p></div>
+#+BEGIN_natlang-text
+#+BEGIN_VERSE
+the moon was in the night sky
+i was above the moon and i touched it
+the moon was below where i stood
+it was my beloved, i must move it!
+#+END_VERSE
+#+END_natlang-text
+
+#+HTML: <div class="conlang-name"><p>Modern Ralian</p></div>
+#+BEGIN_conlang-text
+#+BEGIN_VERSE
+Tâvune emo ngoñat ilus
+Râdodoc tâvu, laloc kâ
+Tâvune ji kâ türâ sıñaroc
+Kâle anu omâ alus, tıdasâ kâ!
+#+END_VERSE
+#+END_conlang-text
+
+#+BEGIN_gloss
+#+BEGIN_VERSE
+moon-ERG inside sky night-GEN
+above-1.PST.PERF moon touch-1.PST.PERF 3.SG
+moon-ERG below 3.SG REL stand-1.PST.PERF
+3.SG.ERG COP beloved 1.SG.GEN move-1.FUT.PERF 3.SG
+#+END_VERSE
+#+END_gloss
+#+END_full-relay
+ 
+* Grammar
+Modern Ralian is a SVO, Erg-abs language with a fairly isolating tendency except
+for the screwed up verbs and some minor noun screwery. Thankfully said screwed
+up verbs can be reduced to a single nightmarish chart. This time, however,
+because i’m feeling nice, i’ll just provide the appropriate suffixes rather than
+the whole nightmare. Now, important for this specific passage is that unmarked
+verbs are in the perfective past tense unless they’re also marked as first
+person.
+
+here are them words for you to deducinate:
+
+* Lexicon
+#+ATTR_HTML: :class vocablist
+- tâvu :: moon
+- -(n)e :: singular ergative suffix for nouns
+- emo :: inside, below, within, to be inside or within
+- ngoñat :: sky, heavens, firmament
+- ili :: night, nighttime
+- -us :: singular genitive suffix for nouns
+- râdodü :: above, greater, more than, to be greater than or above something (both in the physical and/or metaphorical sense)
+- -oc :: first person past perfective verb suffix
+- lali :: to touch, to reach, touch, fingertip
+- kâ :: singular third person absolutive pronoun
+- ji :: below, under, underneath, to be below or underneath (in the physical sense only)
+- türâ :: absolutive relative pronoun/particle - introduces a relative clause acting as a modifier to a pronoun: e.x. se türâ ucâranoc “you whom i was engaging in foreplay with”
+- siñar :: to stand, standing, to right oneself
+- kâle :: singular third person genitive pronoun
+- anu :: copular verb, “to be” etc.
+- omâ :: beloved, dearest, lover, to hold someone or something emotionally close
+- alus :: first person singular genitive pronoun
+- tıdu :: movement, motion, to move
+- -asâ :: first person future perfective verb suffix - the future perfective is often used as an imperative
+
+* Navigation
+:PROPERTIES:
+:HTML_CONTAINER: footer
+:UNNUMBERED: t
+:END:
+
+#+BEGIN_EXPORT html
+<nav class="linkset">
+  <div id="this">
+    <div id="sec"><strong>11</strong> Relay</div>
+    <div id="chapB"></div>
+    <div id="chapA">Part <strong>10</strong></div>
+  </div>
+  <a href="09.html" id="prev" rel="prev">Previous</a>
+  <a href="11.html" id="next" rel="next">Next</a>
+</nav>
+#+END_EXPORT

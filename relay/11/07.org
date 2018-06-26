@@ -22,7 +22,7 @@ We are one.
 #+END_VERSE
 #+END_natlang-text
 
-#+HTML: <div class="conlang-name"><p>Ní:kwasikw</p></div>
+#+HTML: <div class="conlang-name"><p>Levian9</p></div>
 #+BEGIN_conlang-text
 #+BEGIN_VERSE
 Srinir ḟiduhta rḟato, bana kirnuhta.
