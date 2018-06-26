@@ -31,14 +31,6 @@ Kúnitsi á:sariksanen kúnini, mákiskwasi.
 #+END_VERSE
 #+END_conlang-text
 
-#+BEGIN_ipa
-#+BEGIN_VERSE
-ˈphaθ̠ɒʟõn ˈoziɸa ˈjãno ˈthẽmɘjũˌnwa wu ˈtʼa.i ˈwãn̥ˌtẽn ãm
-ˈwãˌnwa ɒʟ ˈthiza ãm ˈkʼipi i ˈil ̥sil ˈãn̥ˌtẽn
-ˈmɒˌwa wu ˈolni ˈil ̥pʼi
-#+END_VERSE
-#+END_ipa
-
 #+BEGIN_gloss
 #+BEGIN_VERSE
 light.NOM eye.PL.ABL shine.3sg get.2S.1S
