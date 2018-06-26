@@ -40,7 +40,7 @@ Bana riþur.
   </div>
   <div class="word-separator"></div>
   <div class="gloss-component">
-    <div class="orig-text">fid</div>
+    <div class="orig-text">ḟid</div>
     <div class="gloss">come from</div>
   </div>
   <div class="gloss-component">
@@ -49,7 +49,7 @@ Bana riþur.
   </div>
   <div class="word-separator"></div>
   <div class="gloss-component">
-    <div class="orig-text">rfato</div>
+    <div class="orig-text">rḟato</div>
     <div class="gloss">light</div>
   </div>
   <div class="word-separator"></div>
