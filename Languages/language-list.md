@@ -201,7 +201,7 @@ The result is something of a song and dance routine,
 but if you don't like that then a tabletop variant is also possible.
 
 ### Eta-ges-ut ###
-[Eta-ges-ut][PSD-QD] is one of four
+[Eta-ges-ut][PSD-QD] ([alternate link][PSD-QD2]) is one of four
 that are very closely related to each other.
 They are described in a much more close-knit way than other languages.
 Each language will contain various options to a single unique idea
@@ -209,6 +209,9 @@ that ensures that they can be easily reconciled into a single parent language.
 
 These four languages also are a demonstration 
 of what language types `mklang` would create.
+
+### Tim7ota ###
+[Tim7ota][PSD-QC] is the second of four languages above.
 
 [PSD-Yk]: http://isoraqathedh.tumblr.com/tagged/Yoskrai
 [PSD-HI]: http://isoraqathedh.tumblr.com/tagged/Hesmai-Iok
@@ -220,6 +223,8 @@ of what language types `mklang` would create.
 [PSD-St]: http://isoraqathedh.tumblr.com/tagged/Sturp
 [PSD-Dr]: http://isoraqathedh.tumblr.com/tagged/Drsk
 [PSD-QD]: http://isoraqathedh.tumblr.com/tagged/Language-QD
+[PSD-QD2]: http://isoraqathedh.tumblr.com/tagged/Etagesut
+[PSD-QC]: http://isoraqathedh.tumblr.com/tagged/Tim7ota
 [PSD-ED]: # (No link here. Tumblr does not like.)
 
 ## Xaxex ##
@@ -296,6 +301,11 @@ creating a language that sounds, looks, and even thinks differently
 from any of the source languages.
 Quite a “compromise”!
 
+# The Cubic Languages
+Cubic languages are so named because their topic symbol contains a cube.
+They are basically fan art, but instead of getting a pretty picture at the end
+you get a document.
+
 ## Altrvukaif ##
 [Altrvukaif][PUR-AKF]
 (no tag of its own; this one links to its parent project,
@@ -307,6 +317,9 @@ and the languages that go with i·umëns.
 Still, i·umën speakers beware,
 for this language has more levels of respect and emotion sensitivity
 than any you might have heard of.
+
+## Atenski ##
+A mystery project. To be publicised at a later date.
 
 ## g'Mòdyfäjq ##
 Ỳŋlys g'mòdyfäjt vð'Fäqdəq,
