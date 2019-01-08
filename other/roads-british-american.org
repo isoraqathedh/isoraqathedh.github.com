@@ -2,6 +2,7 @@
 #+Date: 2019-01-15
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="../global/Default.css" />
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../global/org.css">
+#+OPTIONS: title:nil
 # ----
 
 Roads and road terminology have diverged significantly
