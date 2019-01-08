@@ -1,0 +1,35 @@
+#+Title: Correspondences between British and American English in Roads
+#+Date: 2019-01-15
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="../global/Default.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="../global/org.css">
+# ----
+
+Roads and road terminology have diverged significantly
+between the two major variants of English
+since major advances in road technology
+occur mostly after the two dialects of English have begun to diverge.
+Such is the severity of the differences that at times 
+it is difficult to interpret and translate between the two dialects;
+in one case it is found that one term is /literally/ untranslatable
+across dialect boundaries (within certain conditions).
+
+Although many British to/from American English conversion tables
+are present, few of them specifically target roads terminology,
+which is highly specialised and unlikely to appear in contexts
+where such conversion tables are frequently seen, e.g. in education.
+As such we present here a conversion table specifically for roads.
+
+Unfortunately a lot of these are picked up from experience,
+personal observations and looking things up 
+on informal sources such as Wikipedia, so no sources are cited for these.
+However, corrections are welcome by opening an issue on this page.
+
+Wherever possible, other dialects of English are also included.
+
+* Common Abbreviations
+- BrE :: British English
+- AmE :: American English
+- CaE :: Canadian English
+- AuE :: Australian English
+
+* Roads
