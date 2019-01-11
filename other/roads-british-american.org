@@ -1,3 +1,4 @@
+# LocalWords: BrE AmE CaE AuE
 #+Title: Correspondences between British and American English in Roads
 #+Date: 2019-01-15
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="../global/Default.css" />
@@ -9,7 +10,7 @@ Roads and road terminology have diverged significantly
 between the two major variants of English
 since major advances in road technology
 occur mostly after the two dialects of English have begun to diverge.
-Such is the severity of the differences that at times 
+Such is the severity of the differences that at times
 it is difficult to interpret and translate between the two dialects;
 in one case it is found that one term is /literally/ untranslatable
 across dialect boundaries (within certain conditions).
@@ -21,11 +22,15 @@ where such conversion tables are frequently seen, e.g. in education.
 As such we present here a conversion table specifically for roads.
 
 Unfortunately a lot of these are picked up from experience,
-personal observations and looking things up 
+personal observations and looking things up
 on informal sources such as Wikipedia, so no sources are cited for these.
 However, corrections are welcome by opening an issue on this page.
 
 Wherever possible, other dialects of English are also included.
+British English and driving on the left is assumed unless otherwise indicated,
+but specific direction-related terms are avoided 
+in favour of "offside" and "nearside",
+which remain the same in both driving chiralities.
 
 * Common Abbreviations
 - BrE :: British English
@@ -33,4 +38,57 @@ Wherever possible, other dialects of English are also included.
 - CaE :: Canadian English
 - AuE :: Australian English
 
+* About the dictionary
+Most of this document will be formatted in a dictionary, of this form:
+
+- 
+
+* Road size designations
+The size of a road in all countries is usually measured in lanes,
+but there is some variations in how they are designated.
+
+Briefly, AmE designates the size of the road by its /total number of lanes/
+across all carriageways and indicates the class of the road.
+This means that, for instance, the road indicated in the following:
+
+#+BEGIN_SRC
+| ↑ ↑ ||     |
+|     || ↓ ↓ |
+#+END_SRC
+
+is a "4-lane divided highway" in AmE.
+
+In contrast, there is no generally-accepted terminology
+for describing the size of the road in BrE.
+However, roads enthusiasts in the UK have developed a code for this purpose.
+This code consists of a letter, plus a number of numbers separated by ~+~,
+and an optional ~M~ at the end.
+The first letter describes the number of carriageways:
+S for single (1 carriageway), D for double (2 carriageways),
+T for triple (3 carriageways) and Q for quadruple (4 carriageways).
+The numbers indicate the number of lanes /per carriageway/;
+if they turn out to be different then they are listed, in some consistent order,
+separated by ~+~. For instance, the road above is simply D2 in this code,
+while the following road is T2+3+2:
+
+#+BEGIN_SRC
+| ↑   || ↑ ↑ ↑ ||     |
+|   ↓ ||       || ↓ ↓ |
+#+END_SRC
+
+There is complex defaulting behaviour for when there are not enough numbers
+to satisfy the carriageways;
+the behaviour is currently unclear.
+Additionally, the single carriageway designation has the special edge case
+where ~S3~ indicates a [[https://www.sabre-roads.org.uk/wiki/index.php?title=S3][suicide lane setup]],
+and is different from ~S2+1~ which is a normal single carriageway
+with two lanes in one direction and one lane in the other.
+The situation for ~S5~, ~S7~ &c. has not been tested.
+
+The final ~M~ is to be added if any carriageway has a hard shoulder.
+It is sometimes written ~(M)~, reminiscent of the An(M) designation
+seen in certain motorways.
+
 * Roads
+
+* Signage and markings
