@@ -213,6 +213,15 @@ of what language types `mklang` would create.
 ### Tim7ota ###
 [Tim7ota][PSD-QC] is the second of four languages above.
 
+### Caffyt ###
+What happens when you mix up the syntax of a spoken language
+and the syntax of a more formal language?
+The result is [Caffyt][PSD-Cf],
+a language where verbs determine how they order their nouns
+and the line between a sentence and a single isolated word is blurred.
+All with a thin veneer of English orthography
+and just a smidgen of broken syllables courtesy of living next to Rattssaw.
+
 [PSD-Yk]: http://isoraqathedh.tumblr.com/tagged/Yoskrai
 [PSD-HI]: http://isoraqathedh.tumblr.com/tagged/Hesmai-Iok
 [PSD-Rs]: http://isoraqathedh.tumblr.com/tagged/Rattssaw
@@ -225,6 +234,7 @@ of what language types `mklang` would create.
 [PSD-QD]: http://isoraqathedh.tumblr.com/tagged/Language-QD
 [PSD-QD2]: http://isoraqathedh.tumblr.com/tagged/Etagesut
 [PSD-QC]: http://isoraqathedh.tumblr.com/tagged/Tim7ota
+[PSD-Cf]: http://isoraqathedh.tumblr.com/tagged/Caffyt
 [PSD-ED]: # (No link here. Tumblr does not like.)
 
 ## Xaxex ##
