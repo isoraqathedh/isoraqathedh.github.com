@@ -39,9 +39,16 @@ which remain the same in both driving chiralities.
 - AuE :: Australian English
 
 * About the dictionary
-Most of this document will be formatted in a dictionary, of this form:
+Most of this document will be formatted in a dictionary, specifically this form:
 
-- 
+- Term :: dialect, part of speech, IPA. \\
+          Definition. \\
+          Equivalent in other dialects. \\
+          Further notes (optional).
+
+Certain terms however require additional discussion;
+for these an additional section will be dedicated to them
+and they will be linked together.
 
 * Road size designations
 The size of a road in all countries is usually measured in lanes,
