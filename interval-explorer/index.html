@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet"  href="../global/Default.css"  media="all"/>
+    <link rel="stylesheet"  href="intervals.css" media="all" />
+    <script src="../global/general.js"></script>
+    <script src="intervals.js"></script>
+  </head>
+  <body>
+    <h1 id="Title">Interval explorer</h1>
+    <form>
+      <fieldset>
+        <legend>Measurement</legend>
+        <p>
+          Divide the
+          <input type="radio"
+                 name="repeating_interval"
+                 id="ratio"
+                 value="ratio"
+                 checked="checked" />
+          <label for="ratio">ratio</label>
+          <input type="number" min="1" step="1" id="numerator"   value="2" /> :
+          <input type="number" min="1" step="1" id="denominator" value="1" />
+          <input type="radio" name="repeating_interval" id="decimal"
+                 value="decimal" />
+          <label for="decimal">decimal</label>
+          <input type="number"
+                 min="1"
+                 id="decimal_repeater"
+                 step="any"
+                 value="2.000" />
+          into
+          <input type="number" min="1" step="1" id="steps" value="1200" />
+          steps.
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Ideal intervals</legend>
+        <p>
+          <input type="radio" name="ideal_interval"
+                 id="ideal_ratios" value="ratio" checked="checked" />
+          <label for="ideal_ratios">Ratios</label>
+          with limit
+          <select id="ratio_limit">
+            <option value="3">3</option>
+            <option value="5" selected="selected">5</option>
+            <option value="7">7</option>
+            <option value="11">11</option>
+            <option value="13">13</option>
+          </select>
+        </p>
+        <p>
+          <input type="radio" name="ideal_interval"
+                 id="ideal_decimals" value="decimal" />
+          <label for="ideal_decimals">Decimals</label>
+          with up to
+          <select id="five_privilege">
+            <option value="3" selected="selected">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+          </select>
+          decimal places
+          <div>
+            Privileges for decimals ending in 5
+            <select id="five_privilege">
+              <option value="3" selected="selected">3</option>
+              <option value="2">+2</option>
+              <option value="1">+1</option>
+              <option value="0">none</option>
+            </select> <br />
+            Privileges for decimals ending in 25 or 75
+            <select id="four_privilege">
+              <option value="3">+3</option>
+              <option value="2" selected="selected">+2</option>
+              <option value="1">+1</option>
+              <option value="0">none</option>
+            </select> <br />
+            Privileges for decimals ending in 2, 4, 6, and 8
+            <select id="even_privilege">
+              <option value="3">+3</option>
+              <option value="2">+2</option>
+              <option value="1" selected="selected">+1</option>
+              <option value="0">none</option>
+            </select>
+          </div>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Your scale</legend>
+        <p>
+          <input type="radio" name="scale_type"
+                 id="flat_cents" />
+          <label for="flat_cents">Fixed cent count:</label>
+          One scale degree is exactly
+          <input type="number" id="cents_per_step" min="1" value="100" /> cents.
+        </p>
+        <p>
+          <input type="radio" name="scale_type"
+                 id="flat_unit" />
+          <label for="flat_unit">Fixed unit count:</label>
+          One scale degree is exactly
+          <input type="number" id="units_per_step" min="1" value="100" /> units,
+          as defined above.
+        </p>
+        <p>
+          <input type="radio" name="scale_type"
+                 id="ed"
+                 checked="checked" />
+          <label for="ed">Equal division</label>
+          Scale degrees are created by dividing the
+          <input type="radio"
+                 name="octave_equivalent"
+                 id="octave_ratio"
+                 value="ratio"
+                 checked="checked" />
+          <label for="octave_ratio">ratio</label>
+          <input type="number" min="1" step="1" id="octave_numerator"   value="2" /> :
+          <input type="number" min="1" step="1" id="octave_denominator" value="1" />
+          <input type="radio" name="octave_equivalent" id="octave_decimal"
+                 value="decimal" />
+          <label for="octave_decimal">decimal</label>
+          <input type="number"
+                 min="1"
+                 id="decimal_repeater"
+                 step="any"
+                 value="2.000" />
+          into
+          <input type="number" min="1" step="1" id="steps" value="12" />
+          steps.
+        </p>
+      </fieldset>
+      <button id="scale_degrees_for_intervals">
+        Find closest scale degrees for ideal intervals
+      </button>
+      <button id="list_scale_degrees">
+        Find the closest ideal intervals for each scale degree
+      </button>
+    </form>
+    <script>init();</script>
+  </body>
+</html>

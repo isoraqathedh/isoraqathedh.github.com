@@ -1,0 +1,7 @@
+#numerator, #denominator, #octave_numerator, #octave_denominator {
+    width: 4em;
+}
+
+label[for$="ratio"], label[for$="decimal"] {
+    width: auto;
+}
