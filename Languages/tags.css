@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background-color: #FEFEEC;
+}
+
+table {
+    border: 1px solid #F5F5D0;
+}
+
+th, td {
+    padding: 0.3em;
+}
+
+table thead th {
+    color: #FFC800;
+    background: #AF2303;
+}
+
+table tbody th.main-column {
+    border-right: 1px double black;
+    border-left: 1px double black;
+    background: #FDBAAB;
+}
+
+table tbody tr:nth-child(2n) th.main-column {
+    background: #E39481;
+}
+
+table tbody tr:nth-child(2n) td, table tbody tr:nth-child(2n) th {
+    background: #F5F5D0;
+}
+
+td.DERIV-INHERITED {
+    color: #666;
+    font-style: italic;
+}
+
+td.DERIV-DEFAULTED {
+    font-style: italic;
+}
+
+td.DERIV-EXPLICIT {
+    /* font-weight: bold; */
+    border: 1px solid black;
+}
+
+td.DERIV-NIL {
+    color: #888;
+    text-align: center;
+}
+
+td.inherit-column {
+    text-align: right;
+}
