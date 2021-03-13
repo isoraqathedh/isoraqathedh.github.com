@@ -1,6 +1,10 @@
 body {
-    font-family: sans-serif;
+    font-family: "Nunito", sans-serif;
     background-color: #FEFEEC;
+}
+
+code {
+    font-family: "Inconsolata", "Consolas", monospace;
 }
 
 table {
@@ -17,8 +21,6 @@ table thead th {
 }
 
 table tbody th.main-column {
-    border-right: 1px double black;
-    border-left: 1px double black;
     background: #FDBAAB;
 }
 
@@ -30,12 +32,12 @@ table tbody tr:nth-child(2n) td, table tbody tr:nth-child(2n) th {
     background: #F5F5D0;
 }
 
-td.DERIV-INHERITED {
+td.DERIV-DEFAULTED {
     color: #666;
     font-style: italic;
 }
 
-td.DERIV-DEFAULTED {
+td.DERIV-INHERITED {
     font-style: italic;
 }
 
