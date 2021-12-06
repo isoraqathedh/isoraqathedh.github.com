@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2021-12-06 Mon 23:17 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../global/Default.css" media="all" />
+<link rel="stylesheet" href="../global/org.css" media="all" />
+<title>Opinions on Jyutcitzi</title>
+<meta name="generator" content="Org mode">
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<header>
+<h1 id="Title">Opinions on Jyutcitzi<br/></h1>
+<h3 class="date">2021-12-06 (last exported 2021-12-06 Mon 23:17)</h3>
+</header>
+</div>
+<div id="content">
+<p>
+Over on Twitter there is a new script in development
+for one of the languages I speak, Cantonese.
+It is called jyutcitzi
+(&ldquo;yuet chit chi&rdquo;, in a more anglophone-friendly Romanisation scheme).
+They are all over conventional social media, and I&rsquo;ll link a few here:
+</p>
+
+<p>
+<a href="https://twitter.com/jyutzigoigaak">Twitter</a>
+<a href="https://medium.com/@jyutzigoigakhokwui">Medium</a>
+</p>
+
+<p>
+As most of the resources here are in Cantonese,
+I will spend the first few sections of this article
+going over the motivation and workings behind this new script.
+Then I will discuss what I like about it, what I don&rsquo;t like about it,
+and how I think it should be changed.
+</p>
+
+<div id="outline-container-org16f8782" class="outline-1">
+<h1 id="org16f8782"><span class="section-number-1">1</span> Declaration</h1>
+<div class="outline-text-1" id="text-1">
+<p>
+As of time of writing
+I have no direct relationship with the guy who created the script
+but he does follow me on Twitter.
+I have read some of the documentation but my Chinese reading is not perfect
+and also there is a whole lot and I have not read all of it.
+</p>
+
+<p>
+As befitting my conlang background however
+I have devised a number of scripts for my conlangs
+and have some experience with fitting scripts to languages.
+This means that I have some insight as to how a script should be designed.
+Whether you think this is meaningful is up to you.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0ecb7d5" class="outline-1">
+<h1 id="org0ecb7d5"><span class="section-number-1">2</span> Motivation</h1>
+<div class="outline-text-1" id="text-2">
+<blockquote>
+<p>
+The Cantonese Script Reform Society believes the best way forward, is to adopt a
+script that is compatible and mixed with [sinograms] — just like how the
+Japanese’s writing system allows for the mixing of Kana and Kanji, how the
+Korean’s allows for the mixed use of Hangul and Hanja. We believe, Jyutcitzi, a
+phonetic script that is roughly based on the phonetic principle of <i>faancit</i>,
+offers the best way forward.
+</p>
+</blockquote>
+<p>
+<a href="https://medium.com/@jyutzigoigakhokwui/using-jyutping-to-teach-cantonese-would-indeed-be-extremely-helpful-for-the-education-and-906a4306a2b9">On the whole, Jyutcitzi is preferable to Jyutping - Medium</a>
+</p>
+
+<p>
+Whether this is true in previous centuries or in general is questionable,
+but nowadays a language&rsquo;s primary identity in the world
+is indeed in its writing system,
+and to confer the language the highest status
+it should be tailored to the language itself.
+History has given us several examples,
+such as Korean, Cherokee and Canadian Aboriginal
+(for Cree and similar languages toward Greenland),
+but one particular example in West Africa has a succinct Wikipedia article
+which highlights how important it is to be able to write the language
+in its own strokes of the pen:
+</p>
+
+<blockquote>
+<p>
+The Adlam script is a script used to write Fulani.
+The name Adlam is an acronym derived
+from the first four letters of the alphabet (A, D, L, M),
+[&#x2026;] which means &ldquo;the alphabet that protects the peoples from vanishing&rdquo;.
+</p>
+</blockquote>
+<p>
+<a href="https://en.wikipedia.org/wiki/Adlam_script">Adlam script, Wikipedia</a>
+</p>
+
+<p>
+Also note that Adlam is used vigorously enough
+that its inclusion to Unicode is certain,
+and in fact has been done for a while already, so that is no obstacle.
+</p>
+
+<p>
+From all this the case of having Cantonese having its own script
+is more or less made:
+to ensure the language
+has an increased profile against northern Chinese languages
+(especially Mandarin, the prestige and institutional language
+currently being enforced against all other languages in the county)
+and to ensure that Cantonese has its own visual identity
+distinct from that of any other language, this has to be the case.
+There are certain other considerations that we may address,
+but for the sake of brevity we will ignore them.
+We may revisit this in a later article.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7422c9a" class="outline-1">
+<h1 id="org7422c9a"><span class="section-number-1">3</span> The script</h1>
+<div class="outline-text-1" id="text-3">
+<p>
+Jyutcitzi (hereafter, JC) is a script that&rsquo;s based on three principles:
+</p>
+
+<ul class="org-ul">
+<li>Segmentation into syllable blocks, like in Korean,
+to assist in integration with the existing sinogrammatic superstrate
+à la kana</li>
+<li>Composition and selection of characters according to &ldquo;Faancit&rdquo;
+(fan chit),
+a pronunciation guide long established as the way to read sinograms
+before the introduction of the Latin alphabet and the IPA</li>
+<li>Selection of graphemes by extracting from existing Chinese characters,
+like in katakana.</li>
+</ul>
+
+<p>
+Note the lack of Latin script input.
+</p>
+
+<p>
+A syllable is divided into three parts:
+</p>
+
+<ul class="org-ul">
+<li>The onset, which is the initial consonant, which may be null;</li>
+<li>The rime (the word &ldquo;rhyme&rdquo;, spelt like that in this context),
+containing the vowel nucleus and any existing coda; and</li>
+<li>The tone.</li>
+</ul>
+
+<p>
+In Cantonese, there are also two syllabic nasals, /m/ and /ŋ/,
+which are treated as onsets with no rime in JC.
+In fact they are written as the same character.
+</p>
+
+<p>
+The list of characters representing each onset and rime
+are chosen so that they may be represented in the existing Unicode repertoire,
+which to my understanding from my own reading is a compromise chosen
+so that they may be used immediately with modern computers
+given some concessions.
+Of course, they are also mnemonic in nature,
+in that their source sinograms also share the same onset.
+</p>
+</div>
+
+<div id="outline-container-org3833622" class="outline-2">
+<h2 id="org3833622"><span class="section-number-2">3.1</span> Onsets</h2>
+<div class="outline-text-2" id="text-3-1">
+<p>
+The onsets are:
+</p>
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Jyutping (IPA)</th>
+<th scope="col" class="org-left">JC</th>
+<th scope="col" class="org-left">O</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">/Ø/</td>
+<td class="org-left">𭕄</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">b /p/</td>
+<td class="org-left">比</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">p /pʰ/</td>
+<td class="org-left">并</td>
+<td class="org-left">V</td>
+</tr>
+
+<tr>
+<td class="org-left">m</td>
+<td class="org-left">文</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">f</td>
+<td class="org-left">夫</td>
+<td class="org-left">V</td>
+</tr>
+
+<tr>
+<td class="org-left">d /t/</td>
+<td class="org-left">大</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">t /tʰ/</td>
+<td class="org-left">天</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">n</td>
+<td class="org-left">乃</td>
+<td class="org-left">V</td>
+</tr>
+
+<tr>
+<td class="org-left">l</td>
+<td class="org-left">力</td>
+<td class="org-left">V</td>
+</tr>
+
+<tr>
+<td class="org-left">z /ts/</td>
+<td class="org-left">止</td>
+<td class="org-left">V</td>
+</tr>
+
+<tr>
+<td class="org-left">c /tsʰ/</td>
+<td class="org-left">此</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">s</td>
+<td class="org-left">厶</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">j</td>
+<td class="org-left">央</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">g /k/</td>
+<td class="org-left">丩</td>
+<td class="org-left">V</td>
+</tr>
+
+<tr>
+<td class="org-left">k /kʰ/</td>
+<td class="org-left">臼</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">h</td>
+<td class="org-left">亾</td>
+<td class="org-left">V</td>
+</tr>
+
+<tr>
+<td class="org-left">ng /ŋ/</td>
+<td class="org-left">乂乂</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">gw /kʷ/</td>
+<td class="org-left">古</td>
+<td class="org-left">V</td>
+</tr>
+
+<tr>
+<td class="org-left">kw /kʷʰ/</td>
+<td class="org-left">夸</td>
+<td class="org-left">V</td>
+</tr>
+
+<tr>
+<td class="org-left">w</td>
+<td class="org-left">禾</td>
+<td class="org-left">H</td>
+</tr>
+
+<tr>
+<td class="org-left">/m̩ ŋ̩/</td>
+<td class="org-left">𠄡</td>
+<td class="org-left">F</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+We can arrange the onsets in a more conventional consonant chart thus:
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left" colspan="2">P.O.A. \ M.O.A.</th>
+<th scope="col" class="org-left">Nasal</th>
+<th scope="col" class="org-left">Plosive</th>
+<th scope="col" class="org-left">Fricative</th>
+<th scope="col" class="org-left">Affricate</th>
+<th scope="col" class="org-left">Approximant</th>
+<th scope="col" class="org-left">Liquid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="org-left" rowspan="3">Labial</th>
+<th>–</th>
+<td class="org-left">文</td>
+<td class="org-left">比</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">禾</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<th class="org-left">[+asp]</th>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">并</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<th class="org-left">[+syllabic]</th>
+<td class="org-left">𠄡</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<th class="org-left" rowspan="2">Dental</th>
+<th>–</th>
+<td class="org-left">乃</td>
+<td class="org-left">大</td>
+<td class="org-left">厶</td>
+<td class="org-left">止</td>
+<td class="org-left">央</td>
+<td class="org-left">力</td>
+</tr>
+
+<tr>
+<th class="org-left">[+asp]</th>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">天</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">此</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<th class="org-left" rowspan="5">Velar</th>
+<th>–</th>
+<td class="org-left">乂乂</td>
+<td class="org-left">丩</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<th class="org-left">[+asp]</th>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">臼</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<th class="org-left">[+lab]</th>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">古</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<th class="org-left">[+asp][+lab]</th>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">夸</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<th class="org-left">[+syllabic]</th>
+<td class="org-left">𠄡</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<th class="org-left" colspan="2">Glottal</th>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">亾</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Where [+asp] means &ldquo;with additional aspiration&rdquo;,
+[+lab] means &ldquo;with additional labialisation&rdquo;,
+and [+syllabic] means &ldquo;as a syllabic consonant&rdquo;.
+</p>
+
+<p>
+One departure from the principle of using existing Unicode characters
+is the usage of ⿰乂乂, which is not in Unicode
+and is approximated here as the two halves (乂) put one after another,
+occupying two squares. The documentation states that it is derived from 爻,
+which is available in Unicode and has the correct onset.
+𠄡 is the old form of 五 (&ldquo;five&rdquo;),
+which is indeed pronounced as the syllabic velar nasal.
+</p>
+
+<p>
+Each onset has its own orientation, indicated by O in the above table,
+which indicates whether it occupies the top half (if H)
+or the left half (if V) of the syllable block.
+The syllabic nasal occupies the entire syllable block,
+so it gets the letter F in that column.
+</p>
+
+<p>
+The null initial 𭕄 is used with a rime character to indicate a null onset,
+or it can be used with an onset character to indicate a lone consonant,
+which is helpful for writing foreign loanwords.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org459817f" class="outline-2">
+<h2 id="org459817f"><span class="section-number-2">3.2</span> Rime</h2>
+<div class="outline-text-2" id="text-3-2">
+<p>
+The rime is subdivided into the nucleus and the coda.
+The nucleus is as in conventional linguistics,
+whereas the coda can in the case of Cantonese
+be understood as the off-glide in the second vowel.
+This is conventionally drawn as in the following table.
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">N \ C</th>
+<th scope="col" class="org-left">Ø</th>
+<th scope="col" class="org-left">i</th>
+<th scope="col" class="org-left">u</th>
+<th scope="col" class="org-left">m</th>
+<th scope="col" class="org-left">n</th>
+<th scope="col" class="org-left">ng /ŋ/</th>
+<th scope="col" class="org-left">p</th>
+<th scope="col" class="org-left">t</th>
+<th scope="col" class="org-left">k</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="org-left">aa /a/</th>
+<td class="org-left">乍</td>
+<td class="org-left">介</td>
+<td class="org-left">丂</td>
+<td class="org-left">彡</td>
+<td class="org-left">万</td>
+<td class="org-left">生</td>
+<td class="org-left">甲</td>
+<td class="org-left">压</td>
+<td class="org-left">百</td>
+</tr>
+
+<tr>
+<th class="org-left">a /ɐ/</th>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">兮</td>
+<td class="org-left">久</td>
+<td class="org-left">今</td>
+<td class="org-left">云</td>
+<td class="org-left">亙</td>
+<td class="org-left">十</td>
+<td class="org-left">乜</td>
+<td class="org-left">仄</td>
+</tr>
+
+<tr>
+<th class="org-left">e</th>
+<td class="org-left">旡</td>
+<td class="org-left">丌</td>
+<td class="org-left">了</td>
+<td class="org-left">壬</td>
+<td class="org-left">円</td>
+<td class="org-left">正</td>
+<td class="org-left">夾</td>
+<td class="org-left">叐</td>
+<td class="org-left">尺</td>
+</tr>
+
+<tr>
+<th class="org-left">i</th>
+<td class="org-left">子</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">么</td>
+<td class="org-left">欠</td>
+<td class="org-left">千</td>
+<td class="org-left">丁</td>
+<td class="org-left">頁</td>
+<td class="org-left">必</td>
+<td class="org-left">夕</td>
+</tr>
+
+<tr>
+<th class="org-left">o</th>
+<td class="org-left">个</td>
+<td class="org-left">丐</td>
+<td class="org-left">冇</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">干</td>
+<td class="org-left">王</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">匃</td>
+<td class="org-left">乇</td>
+</tr>
+
+<tr>
+<th class="org-left">u</th>
+<td class="org-left">乎</td>
+<td class="org-left">会</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">本</td>
+<td class="org-left">工</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">末</td>
+<td class="org-left">玉</td>
+</tr>
+
+<tr>
+<th class="org-left">oe /œ/</th>
+<td class="org-left">𠄒</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">丈</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">玉</td>
+</tr>
+
+<tr>
+<th class="org-left">eo /ɵ/</th>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">句</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">卂</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">𥘅</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<th class="org-left">yu /y/</th>
+<td class="org-left">𠄒</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">元</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">乙</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+These take up the remainder of the square that the onset left,
+squeezing to fit.
+</p>
+
+<p>
+In loanwords, there can be an additional final /s/,
+which does not appear in Chinese-derived vocabulary.
+To write final -s, write a 厶 to the right of an H-block syllable,
+or to the bottom of a V-block syllable,
+squeezing to fit inside a syllable block.
+Phonotactics disallow adding any final to a syllabic nasal.
+Alternatively, the null initial 𭕄 may be used as a placeholder
+so that the final 厶 is placed below.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org49b112d" class="outline-2">
+<h2 id="org49b112d"><span class="section-number-2">3.3</span> Tone</h2>
+<div class="outline-text-2" id="text-3-3">
+<p>
+Tones are indicated by way of diacritical marks
+to the right of the top-right corner of the block.
+This is true regardless of the direction the text is written in,
+vertically or horizontally.
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-right">
+
+<col  class="org-right">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Tone number</th>
+<th scope="col" class="org-right">Contour</th>
+<th scope="col" class="org-left">JC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">5</td>
+<td class="org-left">′</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-right">35</td>
+<td class="org-left">´</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-right">4</td>
+<td class="org-left">`</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-right">1</td>
+<td class="org-left">″</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-right">13</td>
+<td class="org-left">˝</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-right">2</td>
+<td class="org-left">̏</td>
+</tr>
+
+<tr>
+<td class="org-right">Toneless</td>
+<td class="org-right">–</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Tone is not written unless it is to disambiguate
+between words of the same tone.
+For example, &ldquo;that one&rdquo; go2 go3 is written 丩个´·丩个`,
+but only if context requires otherwise.
+Of course, one can add tones for educational or pedantic reasons as well.
+</p>
+
+<p>
+Toneless words do not exist in Chinese-derived vocabulary
+but might arguably appear in loanwords.
+Nativised loanwords frequently have tones imposed on them.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfa75fe9" class="outline-2">
+<h2 id="orgfa75fe9"><span class="section-number-2">3.4</span> Linear writing</h2>
+<div class="outline-text-2" id="text-3-4">
+<p>
+If technical limitations prohibit assembling the graphemes into syllable blocks,
+an acceptable alternative is to write all of them in a line,
+separated by middle dots in syllable boundaries if no other punctuation does.
+This linear writing is demonstrated earlier.
+It is similar to linear Hangul which was a system invented for similar reasons.
+</p>
+
+<p>
+One never writes linearly using a pen and paper,
+because one is not limited technically like this.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6a3cffc" class="outline-1">
+<h1 id="org6a3cffc"><span class="section-number-1">4</span> Critique</h1>
+<div class="outline-text-1" id="text-4">
+<p>
+Alright so now that we have described how the script works
+and also some of its more hairier edge cases,
+we&rsquo;ll now switch to a more personal tone and discuss
+my thoughts on how the script works,
+what details it has and how it is to be used.
+</p>
+</div>
+
+<div id="outline-container-org5d8752e" class="outline-2">
+<h2 id="org5d8752e"><span class="section-number-2">4.1</span> The motivations are correct</h2>
+<div class="outline-text-2" id="text-4-1">
+<p>
+This is the key point I want to front-load first,
+because I fully agree with the idea of creating a script for Cantonese
+to differentiate it from other languages,
+with Mandarin being the primary target of differentiation.
+A visual identity is a key part of a language today,
+even though it is not necessarily so a hundred or a thousand years ago,
+and even if it is not inherently part of a language
+as in its spoken part.
+</p>
+
+<p>
+Additionally, a Romanisation may be helpful as part of a language,
+but it shouldn&rsquo;t be a language&rsquo;s script
+for the simple reason that Latin is not well-adapted to any other language
+other than Latin –
+hell, it&rsquo;s not even well-adapted to English.
+A foreign script not being able to write a native language easily
+risks being alienated and left unused,
+as is the case of Athabaskan languages and Canadian Aboriginal Syllabics.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org483e529" class="outline-2">
+<h2 id="org483e529"><span class="section-number-2">4.2</span> Issues with regards to detail</h2>
+<div class="outline-text-2" id="text-4-2">
+</div>
+<div id="outline-container-orgab74eee" class="outline-3">
+<h3 id="orgab74eee"><span class="section-number-3">4.2.1</span> The syllabic nasals need to be differentiated</h3>
+<div class="outline-text-3" id="text-4-2-1">
+<p>
+Currently the script does not differentiate
+between syllabic /m/ and syllabic /ŋ/,
+using the same grapheme 𠄡 for both of them.
+As it so happens, there is in fact a minimal pair:
+m4 is 唔 (the negation morpheme), and ng4 is 吳 (a surname).
+While in practice it&rsquo;s easy to distinguish between them,
+it&rsquo;s unsatisfactory that the script conflates them for no real reason.
+</p>
+
+<p>
+I think that these syllables should be separated.
+Because 唔 is the <i>only</i> character pronounced /m/ with any tone,
+we could just use it wholesale as the glyph for the syllable,
+and have 𠄡 represent /ŋ/ as it is now.
+Alternatively, we could break with the mnemonic nature for these characters
+and substitute an alternative method of extracting characters
+as in katakana:
+we use 𠄡 for /m/ only,
+justifying it by noting that it looks like the cross symbol ✗
+frequently used to indicate incorrectness,
+and that it is a part extracted from 唔.
+</p>
+
+<p>
+For /ŋ/, I propose 𠂉 (from 午) or 夨 (from 吳).
+Reasons for 𠂉 include:
+</p>
+<ul class="org-ul">
+<li>No inherent pronunciation, which maintains the mnemonic system;</li>
+<li>Easier to write</li>
+</ul>
+
+<p>
+While 夨 can be chosen because:
+</p>
+<ul class="org-ul">
+<li>The one pronunciation it does have (cak1) is obscure and unknown</li>
+<li>It fills the entire square, so it looks like a syllabic consonant</li>
+<li>It&rsquo;s in a more supported range of Unicode</li>
+</ul>
+
+<p>
+Ultimately regardless of the choice,
+the fact that Cantonese is one of the few languages
+where a legitimate word (a lexeme, in particular) can be completely vowel-less
+should be emphasised in the script a little bit more than it usually is.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3eaaa5e" class="outline-3">
+<h3 id="org3eaaa5e"><span class="section-number-3">4.2.2</span> The tone diacritics are bad</h3>
+<div class="outline-text-3" id="text-4-2-2">
+<p>
+The tone diacritics are a bit of an afterthought,
+and they are hard to distinguish from one another.
+The difference between a straight-down stroke,
+one tilting to the left and one tilting to the right
+is just a little bit too hard to handle correctly in handwriting.
+</p>
+
+<p>
+Instead, tone diacritics should be more mnemonic as well.
+I propose the following script system,
+which can already be written with existing Unicode solutions:
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-right">
+
+<col  class="org-right">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Tone number</th>
+<th scope="col" class="org-right">Contour</th>
+<th scope="col" class="org-left">New form</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-right">5</td>
+<td class="org-left">◌̄</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-right">35</td>
+<td class="org-left">◌́</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-right">4</td>
+<td class="org-left">◌¯</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-right">1</td>
+<td class="org-left">◌̱</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-right">13</td>
+<td class="org-left">◌̗</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-right">2</td>
+<td class="org-left">◌_</td>
+</tr>
+
+<tr>
+<td class="org-right">Toneless</td>
+<td class="org-right">–</td>
+<td class="org-left">◌</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+The dotted circle here represents the entire syllable block,
+or the rime part of the character in linear writing.
+For tones 3 and 6, one writes the mark beside the character in question.
+They are placed in these relative positions
+regardless of horizontal or vertical writing,
+but for tones 1, 2, 4 and 6, they can be written displaced slightly to the left
+if other characters intrude on the square
+or it can be confused with a 丶 or a 一.
+</p>
+
+<p>
+This system is notably easier to remember,
+is mnemonic, and significantly easier to write and decode.
+Level tones are indicated with flat lines
+and rising tones are indicated with acutes,
+and the position of the line roughly indicates
+where the tone height comes from or goes to.
+It also survives bad writing and low resolutions
+better than the existing method.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org75d2659" class="outline-3">
+<h3 id="org75d2659"><span class="section-number-3">4.2.3</span> Misleading sub-components</h3>
+<div class="outline-text-3" id="text-4-2-3">
+<p>
+The character 大 is also part of 夸,
+which isn&rsquo;t ideal even if it is mnemonic.
+亏 is a better choice and preserves the mnemonic
+as well as being smaller to write.
+</p>
+
+<p>
+A similar triple exists with 比 止 and 此.
+The first two can be replaced with 匕 (H) and 只 (V).
+It&rsquo;s not easy to find a satisfactory replacement for 此
+but something should be done to reduce the stroke count of that one
+and also eliminate the confusing 匕 within it.
+</p>
+
+<p>
+The rimes on the other hand I can find little objection to
+noting that they are the main part of the syllable
+and therefore can tolerate smaller differences.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgda46bc8" class="outline-3">
+<h3 id="orgda46bc8"><span class="section-number-3">4.2.4</span> Font issues</h3>
+<div class="outline-text-3" id="text-4-2-4">
+<p>
+The font supplied to write JC in its syllable block,
+non-linear format,
+which utilises the Private Use Area for all missing compounds,
+isn&rsquo;t very nice.
+In particular, the stroke widths are not optimised
+and it creates a kind of &ldquo;squished feeling&rdquo;
+that all such characters have.
+Additionally, the character halves don&rsquo;t kern with each other
+as well as they should.
+</p>
+
+<p>
+This isn&rsquo;t a critique of the system itself,
+just the font that goes with it.
+I could not supply a better font either,
+so I could settle for the existing ones.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org96dd1d0" class="outline-3">
+<h3 id="org96dd1d0"><span class="section-number-3">4.2.5</span> Accidental gaps need filling</h3>
+<div class="outline-text-3" id="text-4-2-5">
+<p>
+The system is clearly meant to include foreign loanwords
+that violate inherited Cantonese phonotactics
+but to do this there needs to be extra characters
+that fill in some accidental gaps in Cantonese orthography.
+One of the biggest gaps I can identify right now is the bare vowel /ɐ/,
+which should have its own character for use with certain English vowels
+that have the vowel /ʌ/, like &ldquo;must&rdquo; (mas3) or &ldquo;love&rdquo; (laf1),
+which appear in Cantonese every so often.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgab72f62" class="outline-2">
+<h2 id="orgab72f62"><span class="section-number-2">4.3</span> More philosophical problems</h2>
+<div class="outline-text-2" id="text-4-3">
+</div>
+<div id="outline-container-orgfca001d" class="outline-3">
+<h3 id="orgfca001d"><span class="section-number-3">4.3.1</span> 口 is OK!</h3>
+<div class="outline-text-3" id="text-4-3-1">
+<p>
+There is a sort of rejection in some of the articles
+with regard to the usage or even over-usage of the radical 口
+to represent Cantonese words.
+We&rsquo;ve seen one of them: 唔.
+This so happens to be the most common one in use,
+which is not surprising as the negation particle is in fact very much used.
+Other examples include:
+</p>
+
+<ul class="org-ul">
+<li>The possessive marker, 嘅</li>
+<li>&ldquo;at&rdquo;, 喺</li>
+<li>&ldquo;Mark&rdquo;, &ldquo;trademark&rdquo;, 嘜</li>
+<li>&ldquo;Correct&rdquo;, 啱</li>
+<li>&ldquo;Huh?&rdquo;, 吓</li>
+<li>&ldquo;Cry&rdquo;, 喊</li>
+<li>&ldquo;Rest&rdquo;, 唞</li>
+<li>The counter word meaning &ldquo;a lump of&rdquo;, 嚿</li>
+</ul>
+
+<p>
+<a href="https://en.wikipedia.org/wiki/Written_Cantonese#Compound_formation">More complete list of such particles</a>
+</p>
+
+<p>
+The problem with using the mouth radical, so the claim goes,
+is that it demotes Cantonese to be just regular (prescribed) Chinese
+with funny characters,
+and that it does nothing to establish the visual identity of the writing.
+So the argument goes, this does not bode well for the survival of the language,
+since the visual identity is highly critical.
+</p>
+
+<p>
+While this is true, I would like to push back on one very important point:
+people <i>already know</i> them.
+For the particularly common ones, such as 嘅 喺 啱 and 唔,
+these are much better known than the allegedly &ldquo;correct&rdquo; characters,
+if they exist in the first place.
+For some of these, such as 喊, using a mouth radical is arguably correct anyway
+because you do indeed cry with your mouth.
+</p>
+
+<p>
+The desire here is to replace all the grammatical particles with JC,
+à la kana, and then leave all content words to remain in sinograms,
+which is more etymologically correct.
+Words that have obscure sinograms, as well as foreign loanwords,
+are also written in JC.
+Compare with Japanese and Korean:
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Situation</th>
+<th scope="col" class="org-left">Japanese</th>
+<th scope="col" class="org-left">Korean (KMS)</th>
+<th scope="col" class="org-left">Cantonese with JC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Sinitic content words</td>
+<td class="org-left">Sinograms</td>
+<td class="org-left">Sinograms</td>
+<td class="org-left">Sinograms</td>
+</tr>
+
+<tr>
+<td class="org-left">Native content words</td>
+<td class="org-left">Sinograms</td>
+<td class="org-left">Hangul</td>
+<td class="org-left">Sinograms</td>
+</tr>
+
+<tr>
+<td class="org-left">Grammatical words</td>
+<td class="org-left">Hiragana</td>
+<td class="org-left">Hangul</td>
+<td class="org-left">Jyutcitzi</td>
+</tr>
+
+<tr>
+<td class="org-left">Foreign words</td>
+<td class="org-left">Katakana</td>
+<td class="org-left">Hangul</td>
+<td class="org-left">Jyutcitzi</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+The table makes it look very nice and neat,
+but unlike Japanese and Korean there is one thing that Cantonese has:
+a relationship with other Chinese languages.
+This makes the distinction between &ldquo;Sinitic&rdquo; and &ldquo;Native&rdquo; not easy to determine,
+though of course there are some clear-cut cases
+(Cantonese retains some substrate from a long-lost language
+when the Chinese came in and occupied the area two thousand or so years ago).
+Key is that it&rsquo;s not always clear
+whether a grammatical word is &ldquo;Cantonese&rdquo; or &ldquo;Sinitic&rdquo;
+or if that distinction is even relevant;
+while these words tend to not jump linguistic boundaries,
+making the distinction easy for Japanese and Korean,
+with Cantonese function words may well have existed in old Chinese
+before it differentiated,
+which arguably means that they should retain their sinogrammatic forms.
+</p>
+
+<p>
+Certainly then some of the more obscure 口 compounds should be rejected
+and replaced with JC, especially if they are ad-hoc or rarely attested;
+further, native Cantonese morphemes with no sinogram equivalents
+should be written with JC no matter if they are content or structure,
+rather than trying to invent new ones.
+However, in my opinion, some of the more common ones should be left alone,
+especially if they have some other justification,
+whether if it&rsquo;s because of some auxiliary meaning
+that makes a 口 semantophore correct,
+or just because it is already in frequent use and widely understood
+We should sacrifice some level of purity for less friction in adoption,
+for a pure script is no use if no one uses it.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgabd21c2" class="outline-3">
+<h3 id="orgabd21c2"><span class="section-number-3">4.3.2</span> Jyutcitzi as phonophores</h3>
+<div class="outline-text-3" id="text-4-3-2">
+<p>
+One interesting feature of using the syllable block
+as a way of organising characters
+is that one can then use it as a part of another character.
+Specifically, you can use it as part of a phono-semantic compound,
+and create new characters out of it.
+For example, the word &ldquo;interview&rdquo; is loaned into Cantonese as &ldquo;in1&rdquo;,
+and we can write it like so:
+</p>
+
+<p>
+⿰訁⿱央千
+</p>
+
+<p>
+which we understand as ⟨訁|⿱央千⟩,
+i.e. 訁 is the semantophore, as we speak in an interview,
+and ⿱央千 is the phonophore, meaning we pronounce it like ·央千·.
+</p>
+
+<p>
+I have mixed feelings about this feature,
+and can&rsquo;t fully commit to either liking or hating it.
+I&rsquo;ll summarise my thoughts as such.
+</p>
+
+<p>
+First, languages change but writing does not.
+Cantonese is going to evolve no matter what,
+and like Hangul, if we commit to using this as a way to write words,
+then there will be a time when the faancit is no longer accurate
+and this must be learnt separately.
+To be sure this is also going to happen regardless of
+whether you put a semantophore in the syllable block or not,
+but this is not a simple case of forming characters like that.
+At risk of contradicting myself,
+using another sinogram that sounds the same or similar
+to construct new sinograms for writing loanwords
+is much more robust in terms of future development.
+</p>
+
+<p>
+Second, re-inserting semantic meaning like this is helpful in understanding
+and is as far as I can tell unique amongst the East Asian languages,
+and it is attested elsewhere;
+ancient Egyptian writing uses this method as well
+to write words with a meaning component and a pronunciation component.
+It certainly does help to guide foreign readers
+already well-versed in sinogrammatic construction
+into the system.
+</p>
+
+<p>
+Finally, this adds a massive burden into Unicode.
+It may never be included in Unicode
+if the vast majority of combinations remain unused
+and the number of possible semantophores is unchecked.
+</p>
+
+<p>
+As I said above, I have no particular comment on that feature,
+but here are my thoughts that guide me towards one answer or another.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3792219" class="outline-3">
+<h3 id="org3792219"><span class="section-number-3">4.3.3</span> How many jyutcitzi?</h3>
+<div class="outline-text-3" id="text-4-3-3">
+<p>
+Another minor detail that I think should be considered.
+Apparently this is left unspecified in the documentation deliberately,
+so this is just me expressing some undirected opinion.
+</p>
+
+<p>
+As the table comparing sinogram usage above shows,
+there is a sliding scale to how often we should use phonetic-only symbols
+and when we can leverage the shared meaning of sinograms
+to allow for some level of inter-lingual communication.
+I really like the fact that Japanese uses sinograms,
+as it allows me to leverage my existing knowledge of them
+to get an &ldquo;in&rdquo; onto the language and let me read things immediately.
+It&rsquo;s why I put off Korean so much as it does not use sinograms anymore
+so I get no &ldquo;in&rdquo;.
+</p>
+
+<p>
+So I think Cantonese should be written with a good amount of content words
+and even some function words written in sinograms,
+so that other sinogram users can leverage their knowledge
+to understand some of Cantonese as well.
+In particular, the usage of 唔 is justified,
+as if we write all instances of the Japanese negative particle ない as 無い,
+even if this is not etymologically correct.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc6dcdb4" class="outline-1">
+<h1 id="orgc6dcdb4"><span class="section-number-1">5</span> Summary</h1>
+<div class="outline-text-1" id="text-5">
+<p>
+I like the idea of a native script for Cantonese,
+and I think jyutcitzi is a very good proposal for it.
+There are some small things that I would like to change about it,
+both in the small details and in the general picture of how it should be used.
+I will probably learn this script more carefully
+(but with my changes, especially re the tones)
+and use it when I write Cantonese,
+which, unfortunately, is fairly rare.
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
